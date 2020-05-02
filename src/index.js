@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 // import userModel from 'user_model';
 // import savedSamples from 'saved_samples';
 // import Analytics from 'helpers/analytics';
-// import App from './App';
+import App from './App';
 
 async function init() {
   // await appModel._init;
@@ -22,7 +22,7 @@ async function init() {
   // appModel.attrs.appSession += 1;
   // appModel.save();
 
-  ReactDOM.render(<h1>Hello from JS!</h1>, document.getElementById('root'));
+  ReactDOM.render(<App />, document.getElementById('root'));
 }
 
 init();
