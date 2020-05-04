@@ -1,10 +1,12 @@
 // import 'helpers/system_checkup';
 import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
-import { IonApp, IonPage } from '@ionic/react';
+import { IonApp, IonPage, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 // import appModel from 'app_model';
 import Home from './Home';
+import Info from './Info';
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -24,6 +26,7 @@ const App = () => (
       <IonPage id="main">
         <Switch>
           <Route path="/home" component={Home} />
+          <IonRouterOutlet>{Info}</IonRouterOutlet>
         </Switch>
       </IonPage>
     </IonReactRouter>

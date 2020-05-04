@@ -10,8 +10,7 @@ import {
 } from '@ionic/react';
 import { home, menu } from 'ionicons/icons';
 
-const Info = () => <div>Info Page</div>
-const Menu = () => <div>Menu Page</div>
+const Home = () => <h2>Home Page</h2>;
 
 const Component = () => {
   return (
@@ -20,14 +19,7 @@ const Component = () => {
         <IonRouterOutlet>
           <Route
             path="/home/info"
-            render={props => <Info {...props} />}
-            exact
-          />
-        </IonRouterOutlet>
-        <IonRouterOutlet>
-          <Route
-            path="/home/menu"
-            render={props => <Menu {...props} />}
+            render={props => <Home {...props} />}
             exact
           />
         </IonRouterOutlet>
@@ -41,8 +33,8 @@ const Component = () => {
           <IonTabButton>{/* placeholder */}</IonTabButton>
           <IonTabButton>{/* placeholder */}</IonTabButton>
           <IonTabButton>{/* placeholder */}</IonTabButton>
-          
-          <IonTabButton tab="home/menu" href="/home/menu">
+
+          <IonTabButton tab="info/menu" href="/info/menu">
             <IonIcon icon={menu} />
             <IonLabel>{t('Menu')}</IonLabel>
           </IonTabButton>
