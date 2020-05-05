@@ -1,0 +1,17 @@
+.home-fab {
+  ion-fab-button {
+    --border-radius: 22px;
+  }
+}
+
+ion-tab-bar {
+  --background: #fffdef;
+
+  ion-tab-button {
+    --color: black;
+
+    ion-icon.ios {
+      --ionicon-stroke-width: 20px;
+    }
+  }
+}

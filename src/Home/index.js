@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Route } from 'react-router-dom';
 import {
   IonTabs,
@@ -7,21 +7,41 @@ import {
   IonLabel,
   IonTabBar,
   IonRouterOutlet,
+  IonFab,
+  IonFabButton,
 } from '@ionic/react';
-import { home, menu } from 'ionicons/icons';
-
-const Home = () => <h2>Home Page</h2>;
+import {
+  homeOutline as home,
+  menuOutline as menu,
+  personOutline as person,
+  bookOutline as book,
+  add,
+} from 'ionicons/icons';
+import Home from './Home';
+import Species from './Species';
+import Surveys from './Surveys';
+import UserSurveys from './UserSurveys';
+import './styles.scss';
 
 const Component = () => {
+  const tabsRef = useRef();
+  const navigateToSurveys = () =>
+    tabsRef.current.tabBarRef.current.selectTab('home/surveys');
+
   return (
     <>
-      <IonTabs>
+      <IonFab className="home-fab" vertical="bottom" horizontal="center" slot="fixed">
+        <IonFabButton onClick={navigateToSurveys}>
+          <IonIcon icon={add} />
+        </IonFabButton>
+      </IonFab>
+
+      <IonTabs ref={tabsRef}>
         <IonRouterOutlet>
-          <Route
-            path="/home/info"
-            render={props => <Home {...props} />}
-            exact
-          />
+          <Route path="/home/info" component={Home} exact />
+          <Route path="/home/species" component={Species} exact />
+          <Route path="/home/surveys" component={Surveys} exact />
+          <Route path="/home/user-surveys" component={UserSurveys} exact />
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
@@ -30,9 +50,19 @@ const Component = () => {
             <IonLabel>{t('Home')}</IonLabel>
           </IonTabButton>
 
-          <IonTabButton>{/* placeholder */}</IonTabButton>
-          <IonTabButton>{/* placeholder */}</IonTabButton>
-          <IonTabButton>{/* placeholder */}</IonTabButton>
+          <IonTabButton tab="home/species" href="/home/species">
+            <IonIcon icon={book} />
+            <IonLabel>{t('Species')}</IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="home/surveys" href="/home/surveys" disabled>
+            {/* placeholder */}
+          </IonTabButton>
+
+          <IonTabButton tab="/home/user-surveys" href="/home/user-surveys">
+            <IonIcon icon={person} />
+            <IonLabel>{t('Surveys')}</IonLabel>
+          </IonTabButton>
 
           <IonTabButton tab="info/menu" href="/info/menu">
             <IonIcon icon={menu} />
