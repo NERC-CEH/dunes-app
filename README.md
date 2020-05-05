@@ -1,4 +1,4 @@
-# Dynamic Dunescapes mobile application
+# Dune Defender mobile application
 
 ## Authors
 

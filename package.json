@@ -1,8 +1,8 @@
 {
   "name": "dunes-app",
   "id": "uk.ac.ceh.dunes",
-  "title": "Dunes",
-  "description": "Dynamic Dunescapes mobile application.",
+  "title": "Dune Defender",
+  "description": "Dune Defender mobile application.",
   "version": "1.0.0",
   "build": "1",
   "homepage": "https://www.dynamicdunescapes.co.uk",
