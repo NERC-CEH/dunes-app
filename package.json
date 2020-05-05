@@ -9,10 +9,9 @@
   "scripts": {
     "build": "webpack --display minimal",
     "build:production": "grunt",
-    "start": "node other/server.js",
-    "start:dev": "webpack-dev-server --config webpack.config.js --content-base build --port 8000",
-    "test:eslint": "mocha test/eslint-test.js",
-    "postinstall": "npm run build"
+    "start": "webpack-dev-server --config webpack.config.js --content-base build --port 8000",
+    "deploy": "now --prod -A other/now.json",
+    "test:eslint": "mocha test/eslint-test.js"
   },
   "husky": {
     "hooks": {
