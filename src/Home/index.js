@@ -13,7 +13,7 @@ import {
 import {
   homeOutline as home,
   menuOutline as menu,
-  personOutline as person,
+  albumsOutline as albums,
   bookOutline as book,
   add,
 } from 'ionicons/icons';
@@ -60,7 +60,7 @@ const Component = () => {
           </IonTabButton>
 
           <IonTabButton tab="/home/user-surveys" href="/home/user-surveys">
-            <IonIcon icon={person} />
+            <IonIcon icon={albums} />
             <IonLabel>{t('Surveys')}</IonLabel>
           </IonTabButton>
 
