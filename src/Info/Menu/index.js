@@ -1,6 +1,5 @@
 import React from 'react';
-import Header from 'Lib/Header';
-import Page from 'Lib/Page';
+import { Header, Page } from '@apps';
 import Main from './Main';
 
 const Component = () => {

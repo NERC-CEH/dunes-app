@@ -1,7 +1,7 @@
 import React from 'react';
 import { IonIcon, IonItem, IonList, IonItemDivider } from '@ionic/react';
 import { heart } from 'ionicons/icons';
-import Main from 'Lib/Main';
+import { Main } from '@apps';
 
 const Component = () => {
   return (

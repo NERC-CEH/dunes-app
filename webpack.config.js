@@ -41,7 +41,7 @@ const config = {
       path.resolve(ROOT_DIR, './src/'),
     ],
     alias: {
-      Lib: 'common/Lib',
+      '@apps': 'common/appsBitCollection',
       Components: 'common/Components',
       config: 'common/config/config',
       helpers: 'common/helpers',

@@ -1,8 +1,6 @@
 import React from 'react';
 import { IonList, IonItem } from '@ionic/react';
-import Page from 'Lib/Page';
-import Main from 'Lib/Main';
-import Header from 'Lib/Header';
+import { Header, Page, Main } from '@apps';
 
 export default () => (
   <Page id="credits">
