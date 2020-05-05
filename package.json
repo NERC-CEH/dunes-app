@@ -1,5 +1,5 @@
 {
-  "name": "dunes-app",
+  "name": "dune-defender",
   "id": "uk.ac.ceh.dunes",
   "title": "Dune Defender",
   "description": "Dune Defender mobile application.",
@@ -11,6 +11,7 @@
     "build:production": "grunt",
     "start": "webpack-dev-server --config webpack.config.js --content-base build --port 8000",
     "deploy": "now --prod -A other/now.json",
+    "clean": "rm -rf android ios build resources",
     "test:eslint": "mocha test/eslint-test.js"
   },
   "husky": {
@@ -24,6 +25,8 @@
     "@bit/flumens.apps.header": "^0.1.0",
     "@bit/flumens.apps.main": "^0.1.0",
     "@bit/flumens.apps.page": "^0.1.0",
+    "@capacitor/android": "^2.0.2",
+    "@capacitor/ios": "^2.0.2",
     "@indicia-js/core": "^5.1.1",
     "@ionic/core": "^5.1.0",
     "@ionic/react": "^5.1.0",
@@ -60,6 +63,8 @@
     "@babel/plugin-transform-exponentiation-operator": "^7.8.3",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "@capacitor/cli": "^2.0.2",
+    "@capacitor/core": "^2.0.2",
     "@flumens/has-env": "^1.0.0",
     "autoprefixer": "^9.7.6",
     "babel-eslint": "^10.1.0",

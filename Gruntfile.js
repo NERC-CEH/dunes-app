@@ -2,9 +2,63 @@ require('dotenv').config({ silent: true }); // get local environment variables f
 const fs = require('fs');
 const pkg = require('./package.json');
 
-const exec = () => ({
+const exec = grunt => ({
   build: {
     command: 'NODE_ENV=production npm run build',
+  },
+  resources: {
+    command: () => {
+      const appMinorVersion = pkg.version
+        .split('.')
+        .splice(0, 2)
+        .join('.');
+
+      return `mkdir -p resources &&
+                cp -R other/designs/android resources &&
+
+                cp other/designs/splash.svg resources &&
+                sed -i.bak 's/{{APP_VERSION}}/${appMinorVersion}/g' resources/splash.svg &&
+
+                ./node_modules/.bin/sharp -i resources/splash.svg -o resources/splash.png resize 2737 2737 -- removeAlpha &&
+                ./node_modules/.bin/sharp -i other/designs/icon.svg -o resources/icon.png resize 1024 1024 -- removeAlpha &&
+
+                ./node_modules/.bin/cordova-res ios --skip-config --resources resources --copy &&
+                ./node_modules/.bin/cordova-res android --skip-config --resources resources --copy`;
+    },
+    stdout: false,
+  },
+  init: {
+    command: `
+      ./node_modules/.bin/cap add ios && 
+      ./node_modules/.bin/cap add android &&
+      ./node_modules/.bin/cap copy`,
+    stdout: false,
+  },
+  build_android: {
+    command() {
+      if (!process.env.KEYSTORE_PATH) {
+        throw new Error('KEYSTORE_PATH env variable is missing.');
+      }
+
+      if (!process.env.KEYSTORE_ALIAS) {
+        throw new Error('KEYSTORE_ALIAS env variable is missing.');
+      }
+
+      const pass = grunt.config('keystore-password');
+      if (!pass) {
+        throw new Error('KEYSTORE_PATH password is missing.');
+      }
+
+      return `cd android && 
+              ./gradlew assembleRelease && 
+              cd app/build/outputs/apk/release &&
+              jarsigner -keystore ${process.env.KEYSTORE_PATH} -storepass ${pass} app-release-unsigned.apk ${process.env.KEYSTORE_ALIAS} &&
+              zipalign 4 app-release-unsigned.apk app-release.apk &&
+              mv -f app-release.apk ../../../../../`;
+    },
+
+    stdout: false,
+    stdin: true,
   },
 });
 
@@ -43,6 +97,17 @@ const prompt = {
       then: updateVersionAndBuild,
     },
   },
+  keystore: {
+    options: {
+      questions: [
+        {
+          name: 'keystore-password',
+          type: 'password',
+          message: 'Please enter keystore password:',
+        },
+      ],
+    },
+  },
 };
 
 function init(grunt) {
@@ -62,7 +127,11 @@ module.exports = grunt => {
     'prompt:version',
     'exec:build',
 
-    // build production
+    'exec:init',
+    'exec:resources',
+
+    'prompt:keystore',
+    'exec:build_android',
 
     'checklist',
   ]);

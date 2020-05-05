@@ -10,3 +10,6 @@ coverage
 .now
 build
 components
+ios
+android
+resources
