@@ -5,19 +5,19 @@ const { P } = Section;
 
 export default () => (
   <Page id="about">
-    <Header title={t('About')} />
+    <Header title="About" i18n />
     <Main class="ion-padding">
       <Section>
-        <P translate>
+        <P i18n>
           Dynamic Dunescapes is a fantastic new project to restore sand dunes
           across England and Wales for the benefit of people, communities and
           wildlife. Sand dunes in the UK look very different today.
         </P>
-        <P translate>
+        <P i18n>
           Gone are the sandy features, which made homes for special creatures,
           so let’s bring them back, to stay!
         </P>
-        <P translate>
+        <P i18n>
           Picnics in a sheltered hollow, hide and seek... sand dunes are a
           familiar and natural playground. Less well known is their role as a
           sanctuary for endangered plants and animals like the fen orchid and
@@ -26,7 +26,7 @@ export default () => (
           needs areas of open sand to thrive. Healthy sand dunes need to move
           and be dynamic.
         </P>
-        <P translate>
+        <P i18n>
           The Dynamic Dunescapes project is big and ambitious – targeting some
           of the most important sand dune systems across England and Wales. We
           will work with schools and local groups, volunteers and visitors of

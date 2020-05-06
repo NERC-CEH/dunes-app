@@ -9,6 +9,7 @@ import {
   IonRouterOutlet,
   IonFabButton,
 } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import { homeOutline, albumsOutline, add } from 'ionicons/icons';
 import Home from './Home';
 import Species from './Species';
@@ -47,12 +48,16 @@ const Component = () => {
         <IonTabBar slot="bottom">
           <IonTabButton tab="home/info" href="/home/info">
             <IonIcon icon={homeOutline} />
-            <IonLabel>{t('Home')}</IonLabel>
+            <IonLabel>
+              <T>Home</T>
+            </IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="home/species" href="/home/species">
             <IonIcon src="/images/flower.svg" />
-            <IonLabel>{t('Species')}</IonLabel>
+            <IonLabel>
+              <T>Species</T>
+            </IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="home/surveys" href="/home/surveys" disabled>
@@ -61,12 +66,16 @@ const Component = () => {
 
           <IonTabButton tab="home/habitats" href="/home/habitats">
             <IonIcon src="/images/habitats.svg" />
-            <IonLabel>{t('Habitats')}</IonLabel>
+            <IonLabel>
+              <T>Habitats</T>
+            </IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="/home/user-surveys" href="/home/user-surveys">
             <IonIcon icon={albumsOutline} />
-            <IonLabel>{t('Surveys')}</IonLabel>
+            <IonLabel>
+              <T>Surveys</T>
+            </IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
