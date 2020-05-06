@@ -3,11 +3,11 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-// import appModel from 'app_model';
 import Menu from 'Components/Menu';
 import Home from './Home';
 import Info from './Info';
 import User from './User';
+import 'common/translations/translator';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -18,8 +18,6 @@ import '@ionic/react/css/structure.css';
 import '@ionic/react/css/typography.css';
 
 import 'common/theme.scss';
-
-window.t = str => str; // import 'common/translations/translator';
 
 const HomeOrTutorial = () => {
   return <Redirect to="/home" />;
