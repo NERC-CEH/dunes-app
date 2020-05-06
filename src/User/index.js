@@ -1,13 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-// import appModel from 'app_model';
-// import userModel from 'user_model';
+import appModel from 'appModel';
+import userModel from 'userModel';
 import Login from './Login';
 import Register from './Register';
 import Reset from './Reset';
-
-const appModel = { attrs: {} };
-const userModel = { attrs: {} };
 
 export default [
   <Route
