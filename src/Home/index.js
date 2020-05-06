@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import {
   IonTabs,
   IonTabButton,
@@ -7,21 +7,17 @@ import {
   IonLabel,
   IonTabBar,
   IonRouterOutlet,
-  IonFab,
   IonFabButton,
 } from '@ionic/react';
-import {
-  homeOutline as home,
-  menuOutline as menu,
-  albumsOutline as albums,
-  bookOutline as book,
-  add,
-} from 'ionicons/icons';
+import { homeOutline, albumsOutline, add } from 'ionicons/icons';
 import Home from './Home';
 import Species from './Species';
 import Surveys from './Surveys';
 import UserSurveys from './UserSurveys';
+import Habitats from './Habitats';
 import './styles.scss';
+import './flower.svg';
+import './habitats.svg';
 
 const Component = () => {
   const tabsRef = useRef();
@@ -30,28 +26,32 @@ const Component = () => {
 
   return (
     <>
-      <IonFab className="home-fab" vertical="bottom" horizontal="center" slot="fixed">
-        <IonFabButton onClick={navigateToSurveys}>
-          <IonIcon icon={add} />
-        </IonFabButton>
-      </IonFab>
+      <IonFabButton onClick={navigateToSurveys} className="home-fab">
+        <IonIcon icon={add} />
+      </IonFabButton>
 
       <IonTabs ref={tabsRef}>
         <IonRouterOutlet>
-          <Route path="/home/info" component={Home} exact />
-          <Route path="/home/species" component={Species} exact />
-          <Route path="/home/surveys" component={Surveys} exact />
-          <Route path="/home/user-surveys" component={UserSurveys} exact />
+          <Redirect exact path="/home" to="/home/info" />
+          <Route path="/home/info" render={() => <Home />} exact />
+          <Route path="/home/species" render={() => <Species />} exact />
+          <Route path="/home/surveys" render={() => <Surveys />} exact />
+          <Route path="/home/habitats" render={() => <Habitats />} exact />
+          <Route
+            path="/home/user-surveys"
+            render={() => <UserSurveys />}
+            exact
+          />
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
           <IonTabButton tab="home/info" href="/home/info">
-            <IonIcon icon={home} />
+            <IonIcon icon={homeOutline} />
             <IonLabel>{t('Home')}</IonLabel>
           </IonTabButton>
 
           <IonTabButton tab="home/species" href="/home/species">
-            <IonIcon icon={book} />
+            <IonIcon src="/images/flower.svg" />
             <IonLabel>{t('Species')}</IonLabel>
           </IonTabButton>
 
@@ -59,14 +59,14 @@ const Component = () => {
             {/* placeholder */}
           </IonTabButton>
 
-          <IonTabButton tab="/home/user-surveys" href="/home/user-surveys">
-            <IonIcon icon={albums} />
-            <IonLabel>{t('Surveys')}</IonLabel>
+          <IonTabButton tab="home/habitats" href="/home/habitats">
+            <IonIcon src="/images/habitats.svg" />
+            <IonLabel>{t('Habitats')}</IonLabel>
           </IonTabButton>
 
-          <IonTabButton tab="info/menu" href="/info/menu">
-            <IonIcon icon={menu} />
-            <IonLabel>{t('Menu')}</IonLabel>
+          <IonTabButton tab="/home/user-surveys" href="/home/user-surveys">
+            <IonIcon icon={albumsOutline} />
+            <IonLabel>{t('Surveys')}</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

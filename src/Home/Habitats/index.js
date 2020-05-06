@@ -10,13 +10,13 @@ import { Page, Main } from '@apps';
 
 function index() {
   return (
-    <Page id="home-surveys">
+    <Page id="home-habitats">
       <IonHeader>
         <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Surveys</IonTitle>
+          <IonTitle>Habitats</IonTitle>
         </IonToolbar>
       </IonHeader>
 

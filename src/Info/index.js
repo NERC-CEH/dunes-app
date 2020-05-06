@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Credits from './Credits';
-import Menu from './Menu';
+import About from './About';
 
 export default [
-  <Route path="/info/menu" key="/info/menu" exact render={() => <Menu />} />,
+  <Route path="/info/about" key="/info/about" exact component={About} />,
   <Route path="/info/credits" key="/info/credits" exact component={Credits} />,
 ];

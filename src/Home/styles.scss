@@ -1,7 +1,10 @@
-.home-fab {
-  ion-fab-button {
-    --border-radius: 22px;
-  }
+ion-fab-button.home-fab {
+  --border-radius: 22px;
+  position: fixed;
+  bottom: 10px;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 ion-tab-bar {
