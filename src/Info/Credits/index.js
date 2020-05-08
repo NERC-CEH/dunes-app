@@ -95,7 +95,9 @@ export default () => (
         <IonItem lines="none">
           <IonLabel class="ion-text-wrap">
             <b>
-              <T>Habitats:</T>
+              <small>
+                <T>Habitats:</T>
+              </small>
             </b>
           </IonLabel>
         </IonItem>
