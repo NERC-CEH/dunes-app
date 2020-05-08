@@ -8,8 +8,8 @@ coverage
 .vscode
 .nowbuild
 .now
-build
-./components
-ios
-android
-resources
+/build
+/components
+/ios
+/android
+/resources
