@@ -1,0 +1,30 @@
+$cream-white-color: #fffdefd9;
+
+#home-habitats {
+  .habitat-list {
+    --ion-grid-padding: 0;
+  }
+
+  .habitat-list-item {
+    --ion-grid-column-padding: 0;
+    width: 105%;
+
+    div.label {
+      height: 60vw;
+      width: 100vw;
+      background-size: cover;
+
+      span {
+        width: 100vw;
+        color: #004446;
+        border: 0;
+        position: absolute;
+        bottom: -1px;
+        padding: 7px 15px;
+        background: $cream-white-color;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+  }
+}

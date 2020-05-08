@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Beach",
+    "features": ["Bare sand and no vegetation"],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Standline",
+    "features": [
+      "Lots of bare sand",
+      "Annual plants present; may include sea rocket and prickly seawort",
+      "Miniature sand dunes are formed around these plants"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Embryo dune",
+    "features": [
+      "Above the usual high tide line",
+      "Lots of bare sand",
+      "First perennial plants present; may include sand couch and lyme grass",
+      "Low, hummocky dunes form around these plants"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Mobile dune",
+    "features": [
+      "Lots of bare sand (10-50%)",
+      "Marram grass dominates",
+      "Sand builds up around marram to form high, mobile dunes",
+      "A small number of other plants may be present; may include sea holly and sea spurge"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Semi-fixed dune",
+    "features": [
+      "Bare sand cover reduced",
+      "Red fescue and mosses cover patches between marram",
+      "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Fixed dune",
+    "features": [
+      "Cover of bare sand much reduced (<10%)",
+      "Soil beginning to form",
+      "Many plants now coexisting; may include red fescue, lady’s bedstraw, harebell",
+      "Surface lichens and mosses may be present",
+      "Little if any scrub or tree cover"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Dune slack",
+    "features": [
+      "Wet depression in sand",
+      "Can be very large",
+      "Species may include sedges, water mint, mosses and liverworts, creeping willow"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Heath",
+    "features": [
+      "Soil is dry, acidic and nutrient-poor",
+      "Plants present are those associated with acid grassland and heaths; may include heather"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  },
+  {
+    "title": "Scrub and woodland",
+    "features": [
+      "Dominance of tall, woody perennials and understorey species.",
+      "Very little if any bare sand"
+    ],
+    "image": "image",
+    "image_width": "1650 ",
+    "image_height": "1100",
+    "image_copyright": "anikinearthwalker"
+  }
+]
