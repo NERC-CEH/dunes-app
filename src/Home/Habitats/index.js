@@ -9,24 +9,37 @@ import {
   IonCol,
   IonGrid,
   IonRow,
+  IonModal,
 } from '@ionic/react';
-import { Page, Main } from '@apps';
+import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T } from 'react-i18next';
+import HabitatProfile from './HabitatProfile';
 import habitats from './data.json';
 import './styles.scss';
 import './images';
 
 export default class Habitats extends Component {
+  state = { showModal: false, habitat: null };
+
   static propTypes = {
     // prop: PropTypes,
   };
 
-  getGridCell = ({ title, image }) => {
+  showHabitatsModal = id => {
+    this.setState({
+      showModal: true,
+      habitat: habitats.find(habitat => habitat.id === id),
+    });
+  };
+
+  getGridCell = ({ title, image, id }) => {
+    const onClick = () => this.showHabitatsModal(id);
+
     return (
       <IonCol
         key={title}
         className="habitat-list-item"
-        // onClick={onClick}
+        onClick={onClick}
         size="12"
         sizeMd="6"
       >
@@ -42,6 +55,10 @@ export default class Habitats extends Component {
         </div>
       </IonCol>
     );
+  };
+
+  hideHabitatsModal = () => {
+    this.setState({ showModal: false });
   };
 
   getListGrid = () => {
@@ -65,7 +82,18 @@ export default class Habitats extends Component {
           </IonToolbar>
         </IonHeader>
 
-        <Main class="ion-padding">{this.getListGrid()}</Main>
+        <Main class="ion-padding">
+          {this.getListGrid()}
+          <IonModal isOpen={this.state.showModal}>
+            <ModalHeader
+              title={t('Habitat')}
+              onClose={this.hideHabitatsModal}
+            />
+            {this.state.showModal && (
+              <HabitatProfile habitat={this.state.habitat} />
+            )}
+          </IonModal>
+        </Main>
       </Page>
     );
   }
