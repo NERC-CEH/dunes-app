@@ -5,6 +5,7 @@ import {
   IonButtons,
   IonMenuButton,
   IonTitle,
+  IonItem,
 } from '@ionic/react';
 import { Page, Main } from '@apps';
 
@@ -20,7 +21,11 @@ function index() {
         </IonToolbar>
       </IonHeader>
 
-      <Main>{/*  */}</Main>
+      <Main>
+        <IonItem class="empty-page-message" lines="none">
+          <p>Surveys list will be here.</p>
+        </IonItem>
+      </Main>
     </Page>
   );
 }

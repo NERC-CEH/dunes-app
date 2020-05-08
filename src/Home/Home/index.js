@@ -1,5 +1,11 @@
 import React from 'react';
-import { IonHeader, IonToolbar, IonButtons, IonMenuButton } from '@ionic/react';
+import {
+  IonHeader,
+  IonToolbar,
+  IonButtons,
+  IonMenuButton,
+  IonItem,
+} from '@ionic/react';
 import { Page, Main } from '@apps';
 import './styles.scss';
 import './appLogo.png';
@@ -19,6 +25,10 @@ function index() {
       <Main>
         <img className="app-logo" src="/images/appLogo.png" alt="" />
         <div className="background-image" />
+
+        <IonItem class="empty-page-message" lines="none">
+          <p>Buttons list will be here.</p>
+        </IonItem>
       </Main>
     </Page>
   );
