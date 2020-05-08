@@ -23,33 +23,34 @@ export default class Habitats extends Component {
 
   getGridCell = ({ title, image }) => {
     return (
-      <IonRow>
-        <IonCol
-          key={title}
-          className="habitat-list-item"
-          // onClick={onClick}
-          size="6"
-          size-lg
-          class="ion-no-padding ion-no-margin"
+      <IonCol
+        key={title}
+        className="habitat-list-item"
+        // onClick={onClick}
+        size="12"
+        sizeMd="6"
+      >
+        <div
+          style={{
+            backgroundImage: `url('/images/${image}.jpg')`,
+          }}
+          className="label"
         >
-          <div
-            style={{
-              backgroundImage: `url('/images/${image}.jpg')`,
-            }}
-            className="label"
-          >
-            <span>
-              <T>{title}</T>
-            </span>
-          </div>
-        </IonCol>
-      </IonRow>
+          <span>
+            <T>{title}</T>
+          </span>
+        </div>
+      </IonCol>
     );
   };
 
   getListGrid = () => {
     const habitatColumns = habitats.map(this.getGridCell);
-    return <IonGrid className="habitat-list">{habitatColumns}</IonGrid>;
+    return (
+      <IonGrid className="habitat-list">
+        <IonRow>{habitatColumns}</IonRow>
+      </IonGrid>
+    );
   };
 
   render() {
