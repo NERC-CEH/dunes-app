@@ -1,6 +1,7 @@
 import React from 'react';
-import { IonList, IonItem } from '@ionic/react';
+import { IonList, IonItem, IonLabel } from '@ionic/react';
 import { Header, Page, Main, Section } from '@apps';
+import habitats from 'Home/Habitats/data';
 import './styles.scss';
 import './sponsors.png';
 import './flumens.png';
@@ -77,6 +78,19 @@ export default () => (
             www.flaticon.com
           </a>
         </P>
+      </Section>
+      <Section>
+        <H>Photos</H>
+        {habitats
+          .filter(s => s.image_copyright)
+          .map(s => (
+            <IonItem key={s.title} lines="none">
+              <IonLabel>
+                <i>{`${s.title}: `}</i>
+                <span>{s.image_copyright}</span>
+              </IonLabel>
+            </IonItem>
+          ))}
       </Section>
     </Main>
   </Page>
