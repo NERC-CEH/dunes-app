@@ -1,7 +1,35 @@
-#home-info ion-toolbar {
-  --ion-toolbar-background: transparent;
+#home-info {
+  ion-header {
+    position: fixed;
+  }
 
-  ion-menu-button {
-    color: var(--ion-color-light-contrast);
+  ion-content .app-logo {
+    position: absolute;
+    z-index: 10000;
+    width: 50%;
+    left: 50%;
+    top: 7%;
+    transform: translateX(-50%);
+  }
+  
+  ion-content .background-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(images/homePageBackground.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(8px);
+  }
+
+  ion-toolbar {
+    --ion-toolbar-background: transparent;
+
+    ion-menu-button {
+      color: var(--ion-color-light-contrast);
+    }
   }
 }

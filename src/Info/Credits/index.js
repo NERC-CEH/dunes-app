@@ -1,6 +1,7 @@
 import React from 'react';
 import { IonList, IonItem, IonLabel } from '@ionic/react';
 import { Header, Page, Main, Section } from '@apps';
+import { Trans as T } from 'react-i18next';
 import habitats from 'Home/Habitats/data';
 import './styles.scss';
 import './sponsors.png';
@@ -81,11 +82,28 @@ export default () => (
       </Section>
       <Section>
         <H>Photos</H>
+
+        <IonItem lines="none">
+          <IonLabel class="ion-text-wrap">
+            <i>
+              <T>Home page:</T>{' '}
+            </i>
+            <span>Marten Bjork on Unsplash</span>
+          </IonLabel>
+        </IonItem>
+
+        <IonItem lines="none">
+          <IonLabel class="ion-text-wrap">
+            <b>
+              <T>Habitats:</T>
+            </b>
+          </IonLabel>
+        </IonItem>
         {habitats
           .filter(s => s.image_copyright)
           .map(s => (
             <IonItem key={s.title} lines="none">
-              <IonLabel>
+              <IonLabel class="ion-text-wrap">
                 <i>{`${s.title}: `}</i>
                 <span>{s.image_copyright}</span>
               </IonLabel>

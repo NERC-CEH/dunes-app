@@ -2,11 +2,13 @@ import React from 'react';
 import { IonHeader, IonToolbar, IonButtons, IonMenuButton } from '@ionic/react';
 import { Page, Main } from '@apps';
 import './styles.scss';
+import './appLogo.png';
+import './homePageBackground.jpg';
 
 function index() {
   return (
     <Page id="home-info">
-      <IonHeader translucent className="ion-no-border">
+      <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonButtons slot="start">
             <IonMenuButton />
@@ -14,7 +16,10 @@ function index() {
         </IonToolbar>
       </IonHeader>
 
-      <Main>{/* <IonButton>Link</IonButton> */}</Main>
+      <Main>
+        <img className="app-logo" src="/images/appLogo.png" alt="" />
+        <div className="background-image" />
+      </Main>
     </Page>
   );
 }
