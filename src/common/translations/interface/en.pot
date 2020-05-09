@@ -7,35 +7,86 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
 
+# context term
 msgid "About"
 msgstr "About"
 
+# context term
 msgid "Credits"
 msgstr "Credits"
 
+# context term
 msgid "Home"
 msgstr "Home"
 
+# context term
 msgid "Species"
 msgstr "Species"
 
+# context term
 msgid "Habitats"
 msgstr "Habitats"
 
+# context term
 msgid "Surveys"
 msgstr "Surveys"
 
+# context term
 msgid "Back"
 msgstr "Back"
 
+# context term
 msgid "Dynamic Dunescapes is a fantastic new project to restore sand dunes across England and Wales for the benefit of people, communities and wildlife. Sand dunes in the UK look very different today."
 msgstr "Dynamic Dunescapes is a fantastic new project to restore sand dunes across England and Wales for the benefit of people, communities and wildlife. Sand dunes in the UK look very different today."
 
+# context term
 msgid "Gone are the sandy features, which made homes for special creatures, so let’s bring them back, to stay!"
 msgstr "Gone are the sandy features, which made homes for special creatures, so let’s bring them back, to stay!"
 
+# context term
 msgid "Picnics in a sheltered hollow, hide and seek... sand dunes are a familiar and natural playground. Less well known is their role as a sanctuary for endangered plants and animals like the fen orchid and sand lizard. But our sand dunes are under threat. They are becoming more and more densely covered by grass and scrub while our wildlife needs areas of open sand to thrive. Healthy sand dunes need to move and be dynamic."
 msgstr "Picnics in a sheltered hollow, hide and seek... sand dunes are a familiar and natural playground. Less well known is their role as a sanctuary for endangered plants and animals like the fen orchid and sand lizard. But our sand dunes are under threat. They are becoming more and more densely covered by grass and scrub while our wildlife needs areas of open sand to thrive. Healthy sand dunes need to move and be dynamic."
 
+# context term
 msgid "The Dynamic Dunescapes project is big and ambitious – targeting some of the most important sand dune systems across England and Wales. We will work with schools and local groups, volunteers and visitors of all ages and abilities to create more bare sand which will breathe life into the dunes and allow the threatened wildlife to flourish."
 msgstr "The Dynamic Dunescapes project is big and ambitious – targeting some of the most important sand dune systems across England and Wales. We will work with schools and local groups, volunteers and visitors of all ages and abilities to create more bare sand which will breathe life into the dunes and allow the threatened wildlife to flourish."
+
+# Habitat type name
+msgid "Beach"
+msgstr "Beach"
+
+# Habitat type name
+msgid "Standline"
+msgstr "Standline"
+
+# Habitat type name
+msgid "Embryo Dune"
+msgstr "Embryo Dune"
+
+# Habitat type name
+msgid "Mobile Dune"
+msgstr "Mobile Dune"
+
+# Habitat type name
+msgid "Semi-fixed Dune"
+msgstr "Semi-fixed Dune"
+
+# Habitat type name
+msgid "Fixed Dune"
+msgstr "Fixed Dune"
+
+# Habitat type name
+msgid "Dune Slack"
+msgstr "Dune Slack"
+
+# Habitat type name
+msgid "Heath"
+msgstr "Heath"
+
+# Habitat type name
+msgid "Scrub and Woodland"
+msgstr "Scrub and Woodland"
+
+## Context term 
+msgid "Feature"
+msgstr "Feature"

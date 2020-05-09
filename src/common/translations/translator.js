@@ -7,7 +7,14 @@ import resources from './loader';
 const DEFAULT_LANGUAGE = 'en';
 
 // console command to extract into .po file
-// all='';dic.forEach(word => {all+=`\nmsgid "${word}"\nmsgstr "${word}"\n`})
+window.getNewTerms = () => {
+  let all = '';
+  window.dic.forEach(word => {
+    all += `\n## Context term \nmsgid "${word}"\nmsgstr "${word}"\n`;
+  });
+  console.log(all);
+};
+
 function saveMissingKey(key) {
   window.dic = window.dic || [];
 
@@ -15,7 +22,7 @@ function saveMissingKey(key) {
     return;
   }
 
-  console.warn(`!new key: ${key}`);
+  console.warn(`🇬🇧: ${key}`);
   window.dic.push(key);
 }
 
