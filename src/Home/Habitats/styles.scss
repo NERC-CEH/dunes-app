@@ -14,7 +14,7 @@ $cream-white-color: #fffdefd9;
       width: 100%;
       background-size: cover;
 
-      span {
+      div {
         width: 100%;
         color: #0f5758;
         border: 0;
@@ -24,6 +24,12 @@ $cream-white-color: #fffdefd9;
         background: $cream-white-color;
         font-size: 15px;
         font-weight: 600;
+
+        .habitat-label-icon {
+          position: absolute;
+          right: 15px;
+          --ionicon-stroke-width: 40px;
+        }
       }
     }
   }

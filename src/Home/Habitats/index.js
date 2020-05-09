@@ -10,9 +10,11 @@ import {
   IonGrid,
   IonRow,
   IonModal,
+  IonIcon,
 } from '@ionic/react';
 import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T } from 'react-i18next';
+import { informationCircleOutline } from 'ionicons/icons';
 import HabitatProfile from './HabitatProfile';
 import habitats from './data.json';
 import './styles.scss';
@@ -49,9 +51,14 @@ export default class Habitats extends Component {
           }}
           className="label"
         >
-          <span>
+          <div>
             <T>{title}</T>
-          </span>
+            <IonIcon
+              class="habitat-label-icon"
+              size="small"
+              icon={informationCircleOutline}
+            />
+          </div>
         </div>
       </IonCol>
     );

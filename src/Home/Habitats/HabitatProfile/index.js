@@ -1,6 +1,12 @@
 import React from 'react';
-import { IonCardHeader, IonCardContent, IonCardTitle } from '@ionic/react';
+import {
+  IonCardHeader,
+  IonCardContent,
+  IonCardTitle,
+  IonIcon,
+} from '@ionic/react';
 import { PhotoSwipe } from 'react-photoswipe';
+import { searchCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import { Main } from '@apps';
 import 'react-photoswipe/lib/photoswipe.css';
@@ -48,6 +54,18 @@ class Component extends React.Component {
         {this.getGallery()}
 
         <Main id="habitat-profile" class="ion-padding">
+          <div>
+            <IonIcon
+              class="habitat-profile-icon-shadow"
+              size="large"
+              icon={searchCircleOutline}
+            />
+            <IonIcon
+              class="habitat-profile-icon"
+              size="large"
+              icon={searchCircleOutline}
+            />
+          </div>
           <img
             src="/images/image.jpg"
             alt="habitat"
