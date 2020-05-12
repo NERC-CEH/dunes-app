@@ -20,7 +20,6 @@ import './styles.scss';
 class Component extends React.Component {
   state = {
     showGallery: false,
-    init: true,
   };
 
   getGallery = () => {
@@ -50,12 +49,6 @@ class Component extends React.Component {
     );
   };
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ init: true });
-    }, 100);
-  }
-
   slides = images => {
     const slideOpts = {
       initialSlide: 0,
@@ -77,7 +70,16 @@ class Component extends React.Component {
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
 
     return (
-      <IonSlides pager options={slideOpts}>
+      <IonSlides
+        pager
+        options={slideOpts}
+        onIonSlidesDidLoad={e => {
+          // TODO: remove once bug is fixed
+          // https://github.com/ionic-team/ionic/issues/19641
+          // https://github.com/ionic-team/ionic/issues/19638
+          e.target.update();
+        }}
+      >
         {slideImage}
       </IonSlides>
     );
@@ -111,7 +113,7 @@ class Component extends React.Component {
             />
           </div>
 
-          {this.state.init && this.slides(images)}
+          {this.slides(images)}
 
           <IonCardHeader>
             <IonCardTitle>{t(habitat.title)}</IonCardTitle>
