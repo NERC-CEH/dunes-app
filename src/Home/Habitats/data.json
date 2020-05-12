@@ -3,7 +3,29 @@
     "id": 1,
     "title": "Beach",
     "features": ["Bare sand and no vegetation."],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -16,10 +38,29 @@
       "Annual plants present; may include sea rocket and prickly seawort.",
       "Miniature sand dunes are formed around these plants."
     ],
-    "image": "image",
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ]
   },
   {
     "id": 3,
@@ -30,7 +71,29 @@
       "First perennial plants present; may include sand couch and lyme grass.",
       "Low, hummocky dunes form around these plants."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -44,7 +107,29 @@
       "Sand builds up around marram to form high, mobile dunes.",
       "A small number of other plants may be present; may include sea holly and sea spurge."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -57,7 +142,29 @@
       "Red fescue and mosses cover patches between marram.",
       "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -72,7 +179,29 @@
       "Surface lichens and mosses may be present.",
       "Little if any scrub or tree cover."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -85,7 +214,29 @@
       "Can be very large.",
       "Species may include sedges, water mint, mosses and liverworts, creeping willow."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -97,7 +248,29 @@
       "Soil is dry, acidic and nutrient-poor.",
       "Plants present are those associated with acid grassland and heaths; may include heather."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"
@@ -109,7 +282,29 @@
       "Dominance of tall, woody perennials and understorey species.",
       "Very little if any bare sand."
     ],
-    "image": "image",
+    "images": [
+      {
+        "id": 1,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 2,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      },
+      {
+        "id": 3,
+        "image": "image",
+        "image_width": "1650 ",
+        "image_height": "1100",
+        "image_copyright": "anikinearthwalker"
+      }
+    ],
     "image_width": "1650 ",
     "image_height": "1100",
     "image_copyright": "anikinearthwalker"

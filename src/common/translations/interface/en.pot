@@ -87,6 +87,10 @@ msgstr "Heath"
 msgid "Scrub and Woodland"
 msgstr "Scrub and Woodland"
 
-## Context term 
+## Part of habitats prifile page
 msgid "Feature"
 msgstr "Feature"
+
+## Header title
+msgid "Habitat"
+msgstr "Habitat"

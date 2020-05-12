@@ -4,9 +4,13 @@ import {
   IonCardContent,
   IonCardTitle,
   IonIcon,
+  IonSlides,
+  IonSlide,
+  withIonLifeCycle,
 } from '@ionic/react';
 import { PhotoSwipe } from 'react-photoswipe';
 import { searchCircleOutline } from 'ionicons/icons';
+import { withTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 import { Main } from '@apps';
 import 'react-photoswipe/lib/photoswipe.css';
@@ -16,19 +20,21 @@ import './styles.scss';
 class Component extends React.Component {
   state = {
     showGallery: false,
+    init: true,
   };
 
   getGallery = () => {
     const { habitat } = this.props;
     const { showGallery } = this.state;
-    const items = [
-      {
-        src: `/images/image.jpg`,
-        w: habitat.image_width || 800,
-        h: habitat.image_height || 800,
-        title: `© ${habitat.image_copyright}`,
-      },
-    ];
+
+    const items = habitat.images.map(image => {
+      return {
+        src: `/images/${image.image}.jpg`,
+        w: image.image_width || 800,
+        h: image.image_height || 800,
+        title: `© ${image.image_copyright}`,
+      };
+    });
 
     return (
       <PhotoSwipe
@@ -44,47 +50,86 @@ class Component extends React.Component {
     );
   };
 
-  render() {
-    const { habitat } = this.props;
-    const features = habitat.features.map(feature => <li>{feature}</li>);
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ init: true });
+    }, 100);
+  }
 
+  slides = images => {
+    const slideOpts = {
+      initialSlide: 0,
+      speed: 400,
+    };
+    const slideImage = images.map(item => {
+      const { image, id } = item; // temporally added id, no unique variable
+      /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
+      return (
+        <IonSlide key={id}>
+          <img
+            src={`/images/${image}.jpg`}
+            alt="habitat"
+            onClick={() => this.setState({ showGallery: 1 })}
+          />
+        </IonSlide>
+      );
+    });
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
+
+    return (
+      <IonSlides pager options={slideOpts}>
+        {slideImage}
+      </IonSlides>
+    );
+  };
+
+  render() {
+    const { t } = this.props;
+    const { habitat } = this.props;
+    const { images } = habitat;
+    const features = habitat.features.map(feature => (
+      <li key={feature}>{feature}</li>
+    ));
+
+    /* eslint-disable jsx-a11y/no-static-element-interactions */
     return (
       <>
         {this.getGallery()}
 
         <Main id="habitat-profile" class="ion-padding">
-          <div>
+          <div onClick={() => this.setState({ showGallery: 1 })}>
             <IonIcon
               class="habitat-profile-icon-shadow"
               size="large"
               icon={searchCircleOutline}
             />
+
             <IonIcon
               class="habitat-profile-icon"
               size="large"
               icon={searchCircleOutline}
             />
           </div>
-          <img
-            src="/images/image.jpg"
-            alt="habitat"
-            onClick={() => this.setState({ showGallery: 1 })}
-          />
+
+          {this.state.init && this.slides(images)}
 
           <IonCardHeader>
             <IonCardTitle>{t(habitat.title)}</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
-            <h3 className="habitat-label">{`${t('Features')}:`}</h3>
+            <h3 className="habitat-label">{t('Feature')}</h3>
             <ul>{features}</ul>
           </IonCardContent>
         </Main>
       </>
     );
   }
+  /* eslint-enable jsx-a11y/no-static-element-interactions */
 }
+
 Component.propTypes = {
   habitat: PropTypes.object.isRequired,
+  t: PropTypes.func,
 };
-export default Component;
+
+export default withTranslation()(withIonLifeCycle(Component));

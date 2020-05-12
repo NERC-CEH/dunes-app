@@ -12,15 +12,16 @@ import {
   IonModal,
   IonIcon,
 } from '@ionic/react';
+import PropTypes from 'prop-types';
 import { Page, Main, ModalHeader } from '@apps';
-import { Trans as T } from 'react-i18next';
+import { Trans as T, withTranslation } from 'react-i18next';
 import { informationCircleOutline } from 'ionicons/icons';
 import HabitatProfile from './HabitatProfile';
 import habitats from './data.json';
 import './styles.scss';
 import './images';
 
-export default class Habitats extends Component {
+class Habitats extends Component {
   state = { showModal: false, habitat: null };
 
   static propTypes = {
@@ -34,8 +35,9 @@ export default class Habitats extends Component {
     });
   };
 
-  getGridCell = ({ title, image, id }) => {
+  getGridCell = ({ title, images, id }) => {
     const onClick = () => this.showHabitatsModal(id);
+    const { image } = images[0];
 
     return (
       <IonCol
@@ -78,6 +80,8 @@ export default class Habitats extends Component {
   };
 
   render() {
+    const { t } = this.props;
+
     return (
       <Page id="home-habitats">
         <IonHeader>
@@ -105,3 +109,8 @@ export default class Habitats extends Component {
     );
   }
 }
+Habitats.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation()(Habitats);
