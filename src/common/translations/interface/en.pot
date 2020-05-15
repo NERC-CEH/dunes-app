@@ -94,3 +94,67 @@ msgstr "Feature"
 ## Header title
 msgid "Habitat"
 msgstr "Habitat"
+
+# Surveys home list header tab label
+msgid "Pending"
+msgstr "Pending"
+
+# Surveys home list header tab label
+msgid "Uploaded"
+msgstr "Uploaded"
+
+# Empty list message
+msgid "No finished pending surveys"
+msgstr "No finished pending surveys"
+
+# Empty list message
+msgid "No uploaded surveys"
+msgstr "No uploaded surveys"
+
+# Survey upload header button
+msgid "Upload"
+msgstr "Upload"
+
+# Survey attribute label 
+msgid "Date"
+msgstr "Date"
+
+# Survey delete button label
+msgid "Delete"
+msgstr "Delete"
+
+# A record type label
+msgid "Survey"
+msgstr "Survey"
+
+# Survey status label 
+msgid "Draft"
+msgstr "Draft"
+
+# Survey type
+msgid "Fixed-point Photography"
+msgstr "Fixed-point Photography"
+
+# Dialog button label
+msgid "Cancel"
+msgstr "Cancel"
+
+# Dialog button label
+msgid "OK"
+msgstr "OK"
+
+# Survey delete dialog text
+msgid "Are you sure you want to delete this survey?"
+msgstr "Are you sure you want to delete this survey?"
+
+# New survey dialog
+msgid "Previous survey draft exists, would you like to continue it?"
+msgstr "Previous survey draft exists, would you like to continue it?"
+
+# New survey dialog
+msgid "Discard"
+msgstr "Discard"
+
+# New survey dialog
+msgid "Continue"
+msgstr "Continue"

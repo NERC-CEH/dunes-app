@@ -1,13 +1,10 @@
-const alertController = document.querySelector('ion-alert-controller');
+export default function alert({ header, subHeader, message, buttons }) {
+  const alertEl = document.createElement('ion-alert');
+  alertEl.header = header;
+  alertEl.subHeader = subHeader;
+  alertEl.message = message;
+  alertEl.buttons = buttons;
 
-export default function alert(props) {
-  async function presentAlert() {
-    await alertController.componentOnReady();
-    const alertElement = await alertController.create(props);
-    alertElement.present();
-  }
-
-  presentAlert();
-
-  return null;
+  document.body.appendChild(alertEl);
+  return alertEl.present();
 }

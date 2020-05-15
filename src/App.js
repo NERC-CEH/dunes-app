@@ -7,6 +7,7 @@ import Menu from 'Components/Menu';
 import Home from './Home';
 import Info from './Info';
 import User from './User';
+import Survey from './Survey';
 import 'common/translations/translator';
 
 /* Core CSS required for Ionic components to work properly */
@@ -31,6 +32,7 @@ const App = () => (
         <Route path="/home" component={Home} />
         {Info}
         {User}
+        {Survey}
         <Route path="/" component={HomeOrTutorial} exact />
       </IonRouterOutlet>
     </IonReactRouter>

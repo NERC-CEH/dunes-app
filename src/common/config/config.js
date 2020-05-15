@@ -13,7 +13,7 @@ const config = {
 
   environment: __ENV__,
 
-  gps_accuracy_limit: 100,
+  gpsAccuracyLimit: 100,
 
   // use prod logging if testing otherwise full log
   log: !__TEST__,
@@ -37,8 +37,8 @@ const config = {
     },
 
     indicia: {
-      api_key: process.env.APP_INDICIA_API_KEY,
-      website_id: 118,
+      apiKey: process.env.APP_INDICIA_API_KEY,
+      websiteId: 118,
     },
   },
 };

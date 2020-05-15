@@ -4,32 +4,54 @@ import {
   IonToolbar,
   IonButtons,
   IonMenuButton,
-  IonTitle,
-  IonItem,
+  IonCol,
+  IonRow,
+  IonIcon,
+  IonGrid,
+  IonRouterLink,
 } from '@ionic/react';
+import PropTypes from 'prop-types';
+import surveys from 'common/config/surveys';
 import { Page, Main } from '@apps';
+import './styles.scss';
 
-function index() {
+function getSurveys() {
+  // eslint-disable-next-line
+  const getSurveyButton = ({ name, label, icon }) => (
+    <IonCol size="6" key={name}>
+      <IonRouterLink routerLink={`/survey/${name}/new`}>
+        <IonIcon icon={icon} />
+        <span className="survey-button-label">{label}</span>
+      </IonRouterLink>
+    </IonCol>
+  );
+  const surveyButtons = Object.values(surveys).map(getSurveyButton);
+
+  return (
+    <IonGrid className="survey-buttons">
+      <IonRow>{surveyButtons}</IonRow>
+    </IonGrid>
+  );
+}
+
+function index({ history }) {
   return (
     <Page id="home-surveys">
-      <IonHeader>
-        <IonToolbar color="primary">
+      <IonHeader className="ion-no-border">
+        <IonToolbar>
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Surveys</IonTitle>
         </IonToolbar>
       </IonHeader>
 
-      <Main>
-        <IonItem class="empty-page-message" lines="none">
-          <p>Surveys list will be here.</p>
-        </IonItem>
-      </Main>
+      <Main>{getSurveys(history)}</Main>
     </Page>
   );
 }
 
-index.propTypes = {};
+index.propTypes = {
+  history: PropTypes.object,
+};
 
 export default index;

@@ -10,7 +10,7 @@ const DEFAULT_LANGUAGE = 'en';
 window.getNewTerms = () => {
   let all = '';
   window.dic.forEach(word => {
-    all += `\n## Context term \nmsgid "${word}"\nmsgstr "${word}"\n`;
+    all += `\n# Context term \nmsgid "${word}"\nmsgstr "${word}"\n`;
   });
   console.log(all);
 };

@@ -11,6 +11,7 @@ import {
 } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import { homeOutline, albumsOutline, add } from 'ionicons/icons';
+import savedSamples from 'savedSamples';
 import Home from './Home';
 import Species from './Species';
 import Surveys from './Surveys';
@@ -40,7 +41,7 @@ const Component = () => {
           <Route path="/home/habitats" render={() => <Habitats />} exact />
           <Route
             path="/home/user-surveys"
-            render={() => <UserSurveys />}
+            render={() => <UserSurveys savedSamples={savedSamples} />}
             exact
           />
         </IonRouterOutlet>
