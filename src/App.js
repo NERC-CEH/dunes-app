@@ -3,11 +3,13 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+import appModel from 'appModel';
 import Menu from 'Components/Menu';
 import Home from './Home';
 import Info from './Info';
 import User from './User';
 import Survey from './Survey';
+import SplashScreenRequired from './Info/SplashScreenRequired';
 import 'common/translations/translator';
 
 /* Core CSS required for Ionic components to work properly */
@@ -27,14 +29,16 @@ const HomeOrTutorial = () => {
 const App = () => (
   <IonApp>
     <IonReactRouter>
-      <Menu />
-      <IonRouterOutlet id="main">
-        <Route path="/home" component={Home} />
-        {Info}
-        {User}
-        {Survey}
-        <Route path="/" component={HomeOrTutorial} exact />
-      </IonRouterOutlet>
+      <SplashScreenRequired appModel={appModel}>
+        <Menu />
+        <IonRouterOutlet id="main">
+          <Route path="/home" component={Home} />
+          {Info}
+          {User}
+          {Survey}
+          <Route path="/" component={HomeOrTutorial} exact />
+        </IonRouterOutlet>
+      </SplashScreenRequired>
     </IonReactRouter>
   </IonApp>
 );
