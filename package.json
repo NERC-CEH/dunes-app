@@ -27,7 +27,6 @@
     "@bit/flumens.apps.input": "^0.1.1",
     "@bit/flumens.apps.input-with-validation": "^0.1.1",
     "@bit/flumens.apps.main": "^0.1.0",
-    "@bit/flumens.apps.menu-attr-item": "^0.1.1",
     "@bit/flumens.apps.modal-header": "^0.1.0",
     "@bit/flumens.apps.page": "0.1.0",
     "@bit/flumens.apps.section": "0.4.0",
@@ -61,7 +60,12 @@
     "react-photoswipe": "^1.3.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "yup": "^0.28.5"
+    "yup": "^0.28.5",
+    "@bit/flumens.apps.models.sample": "0.1.0",
+    "@bit/flumens.apps.models.occurrence": "0.1.0",
+    "@bit/flumens.apps.models.media": "0.1.0",
+    "@bit/flumens.apps.menu-attr-item": "0.1.2",
+    "@bit/flumens.apps.models.store": "0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -152,6 +156,13 @@
   "bit": {
     "env": {
       "compiler": "bit.envs/compilers/react@1.0.14"
+    },
+    "overrides": {
+      "utils/*": {
+        "env": {
+          "compiler": "@bit.envs/compilers/babel"
+        }
+      }
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
