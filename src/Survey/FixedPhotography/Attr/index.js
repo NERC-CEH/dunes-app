@@ -11,7 +11,6 @@ import {
   Textarea,
 } from '@apps';
 import { observer } from 'mobx-react';
-import { withTranslation } from 'react-i18next';
 import config from 'common/config/surveys/photography';
 import InputList from './components/InputList';
 
@@ -22,7 +21,6 @@ class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     match: PropTypes.object,
-    t: PropTypes.func.isRequired,
   };
 
   constructor(props) {
@@ -108,14 +106,12 @@ class Component extends React.Component {
   };
 
   render() {
-    const { t } = this.props;
-
     return (
       <Page id="transect-edit-attr">
-        <Header title={t(this.attrConfig.label)} />
+        <Header title={this.attrConfig.label} />
         <Main>{this.getAttr()}</Main>
       </Page>
     );
   }
 }
-export default withTranslation()(Component);
+export default Component;
