@@ -158,3 +158,35 @@ msgstr "Discard"
 # New survey dialog
 msgid "Continue"
 msgstr "Continue"
+
+# Survey attribute label
+msgid "Surveyors"
+msgstr "Surveyors"
+
+# Survey attribute label
+msgid "Notes"
+msgstr "Notes"
+
+# Survey location type
+msgid "Transects"
+msgstr "Transects"
+
+# Survey location type
+msgid "Transect"
+msgstr "Transect"
+
+# Survey comment attribute info
+msgid "Please add any extra information about your survey."
+msgstr "Please add any extra information about your survey."
+
+# Survey comment box placeholder
+msgid "Enter more information here..."
+msgstr "Enter more information here..."
+
+# Surveyor name
+msgid "Name"
+msgstr "Name"
+
+# Part of survey form page
+msgid "If anyone has helped with the surveying please enter their names here."
+msgstr "If anyone has helped with the surveying please enter their names here."
