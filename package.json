@@ -65,7 +65,8 @@
     "@bit/flumens.apps.models.occurrence": "0.1.0",
     "@bit/flumens.apps.models.media": "0.1.0",
     "@bit/flumens.apps.menu-attr-item": "0.1.2",
-    "@bit/flumens.apps.models.store": "0.1.0"
+    "@bit/flumens.apps.models.store": "0.1.0",
+    "@bit/flumens.apps.models.init-stored-samples": "0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

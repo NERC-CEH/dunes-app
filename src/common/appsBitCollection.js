@@ -16,3 +16,4 @@ export { default as Sample } from '@bit/flumens.apps.models.sample';
 export { default as Occurrence } from '@bit/flumens.apps.models.occurrence';
 export { default as Media } from '@bit/flumens.apps.models.media';
 export { default as Store } from '@bit/flumens.apps.models.store';
+export { default as initStoredSamples } from '@bit/flumens.apps.models.init-stored-samples';
