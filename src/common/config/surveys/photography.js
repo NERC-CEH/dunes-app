@@ -1,5 +1,10 @@
 import { date } from '@apps';
-import { cameraOutline } from 'ionicons/icons';
+import {
+  cameraOutline,
+  calendarOutline,
+  chatboxOutline,
+  peopleOutline,
+} from 'ionicons/icons';
 
 const survey = {
   name: 'fixed-photography',
@@ -12,6 +17,7 @@ const survey = {
   attrs: {
     date: {
       label: 'Date',
+      icon: calendarOutline,
       values: d => date.print(d),
       isValid: val => val && val.toString() !== 'Invalid Date',
       type: 'date',
@@ -20,12 +26,14 @@ const survey = {
 
     comment: {
       label: 'Notes',
+      icon: chatboxOutline,
       type: 'textarea',
       info: 'Please add any extra information about your survey.',
     },
 
     surveyors: {
       label: 'Surveyors',
+      icon: peopleOutline,
       id: -1,
       info:
         'If anyone has helped with the surveying please enter their names here.',

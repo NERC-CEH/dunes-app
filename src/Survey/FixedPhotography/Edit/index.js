@@ -12,7 +12,6 @@ class Controller extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     match: PropTypes.object,
-    history: PropTypes.object,
   };
 
   onUpload = async () => {
@@ -20,7 +19,7 @@ class Controller extends React.Component {
   };
 
   render() {
-    const { history, match, sample } = this.props;
+    const { match, sample } = this.props;
 
     // const uploadButton = (
     //   <IonButton onClick={this.onUpload}>
@@ -35,7 +34,7 @@ class Controller extends React.Component {
           // rightSlot={uploadButton}
           defaultHref="/home/surveys"
         />
-        <Main sample={sample} history={history} url={match.url} />
+        <Main sample={sample} baseURL={match.url} />
       </Page>
     );
   }
