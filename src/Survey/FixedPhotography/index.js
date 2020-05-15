@@ -8,6 +8,7 @@ import appModel from 'appModel';
 import survey from 'common/config/surveys/photography';
 import Attr from './Attr';
 import Edit from './Edit';
+import TransectsEdit from './Transects/Edit';
 
 const baseURL = `/survey/${survey.name}`;
 const draftIdKey = `draftId:${survey.name}`;
@@ -90,6 +91,7 @@ function startNewSurvey({ match, history, location }) {
 const routes = [
   [`${baseURL}/new`, startNewSurvey, true],
   [`${baseURL}/:smpId/edit`, Edit],
+  [`${baseURL}/:smpId/edit/transects`, TransectsEdit],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];
 
