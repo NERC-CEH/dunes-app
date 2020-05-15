@@ -11,9 +11,12 @@ export { default as Textarea } from '@bit/flumens.apps.textarea';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';
+export { default as makeRequest } from '@bit/flumens.apps.helpers.make-request';
 
+export { default as Model } from '@bit/flumens.apps.models.model';
 export { default as Sample } from '@bit/flumens.apps.models.sample';
 export { default as Occurrence } from '@bit/flumens.apps.models.occurrence';
 export { default as Media } from '@bit/flumens.apps.models.media';
 export { default as Store } from '@bit/flumens.apps.models.store';
 export { default as initStoredSamples } from '@bit/flumens.apps.models.init-stored-samples';
+export { default as DrupalUserModel } from '@bit/flumens.apps.models.drupal-user-model';
