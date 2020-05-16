@@ -22,4 +22,8 @@ export default class AppSample extends Sample {
   static fromJSON(json) {
     return super.fromJSON(json, Occurrence, AppSample, Media);
   }
+
+  getSurvey() {
+    return this.survey;
+  }
 }

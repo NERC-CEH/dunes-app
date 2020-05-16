@@ -6,7 +6,7 @@ import i18n from 'i18next';
 import savedSamples from 'savedSamples';
 import appModel from 'appModel';
 import survey from 'common/config/surveys/photography';
-import Attr from './Attr';
+import { AttrPage as Attr } from '@apps';
 import Edit from './Edit';
 import TransectsEdit from './Transects/Edit';
 
