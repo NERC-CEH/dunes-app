@@ -262,3 +262,7 @@ msgstr "Sorry"
 # Context term 
 msgid "Done"
 msgstr "Done"
+
+# Context term 
+msgid "Language"
+msgstr "Language"

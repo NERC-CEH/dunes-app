@@ -32,7 +32,7 @@ function SelectLanguage({ appModel, hideHeader }) {
     ));
 
   return (
-    <Page>
+    <Page id="language-select">
       {!hideHeader && <Header title="Language" />}
 
       <Main>
