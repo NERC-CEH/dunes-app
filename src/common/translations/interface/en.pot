@@ -186,12 +186,11 @@ msgstr "Enter more information here..."
 # Surveyor name
 msgid "Name"
 msgstr "Name"
-
+ 
 # Part of survey form page
 msgid "If anyone has helped with the surveying please enter their names here."
 msgstr "If anyone has helped with the surveying please enter their names here."
 
-<<<<<<< HEAD
 # Refresh transects button label 
 msgid "Refresh"
 msgstr "Refresh"
@@ -219,7 +218,6 @@ msgstr "Oops! Something, went wrong."
 # Error message text
 msgid "This is the error event id: {{eventId}}"
 msgstr "This is the error event id: {{eventId}}"
-=======
 
 # Context term 
 msgid "Settings"
@@ -264,4 +262,3 @@ msgstr "Sorry"
 # Context term 
 msgid "Done"
 msgstr "Done"
->>>>>>> WIP
