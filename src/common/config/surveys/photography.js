@@ -45,6 +45,21 @@ const survey = {
     },
   },
 
+  smp: {
+    create(Sample, location) {
+      const sample = new Sample({
+        metadata: {
+          survey: survey.name,
+        },
+        attrs: {
+          location,
+        },
+      });
+
+      return sample;
+    },
+  },
+
   verify() {},
 
   create(Sample) {

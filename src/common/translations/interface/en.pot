@@ -266,3 +266,11 @@ msgstr "Done"
 # Context term 
 msgid "Language"
 msgstr "Language"
+
+# Location points header label 
+msgid "Fixed points"
+msgstr "Fixed points"
+
+# Location point label 
+msgid "Point"
+msgstr "Point"

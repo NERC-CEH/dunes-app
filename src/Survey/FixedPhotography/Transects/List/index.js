@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import { device, Page, Header } from '@apps';
+import Sample from 'sample';
 import { Trans as T, withTranslation } from 'react-i18next';
 import loader from 'common/helpers/loader';
 import { IonButton, NavContext } from '@ionic/react';
@@ -23,10 +24,13 @@ class index extends React.Component {
   addSectionSubSamples = () => {
     const { sample } = this.props;
     const transect = sample.attrs.location;
+    const { survey } = sample;
 
-    transect.sections.forEach(() => {
-      // const sectionSample = modelFactory.createTransectSectionSample(section);
-      // sample.samples.push(sectionSample);
+    sample.samples = [];
+
+    transect.sections.forEach(section => {
+      const sectionSample = survey.smp.create(Sample, section);
+      sample.samples.push(sectionSample);
     });
   };
 
