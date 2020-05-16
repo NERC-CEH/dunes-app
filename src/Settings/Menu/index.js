@@ -27,7 +27,7 @@ function onToggle(appModel, setting, checked) {
 }
 
 const Container = observer(({ saveSamples, appModel, userModel, t }) => {
-  const { sendAnalytics } = appModel.attrs;
+  const { sendAnalytics, language } = appModel.attrs;
 
   return (
     <Page id="settings-menu">
@@ -36,6 +36,7 @@ const Container = observer(({ saveSamples, appModel, userModel, t }) => {
         resetApp={() => resetApp(saveSamples, appModel, userModel, t)}
         onToggle={(setting, checked) => onToggle(appModel, setting, checked)}
         sendAnalytics={sendAnalytics}
+        language={language}
       />
     </Page>
   );

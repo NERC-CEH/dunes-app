@@ -3,9 +3,14 @@ import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import { Trans as T, withTranslation } from 'react-i18next';
 import { IonIcon, IonList, IonItem, IonLabel, IonNote } from '@ionic/react';
-import { arrowUndoOutline, shareSocialOutline } from 'ionicons/icons';
+import {
+  arrowUndoOutline,
+  shareSocialOutline,
+  flagOutline,
+} from 'ionicons/icons';
+import languages from 'common/config/languages';
 import alert from 'common/helpers/alert';
-import { Main, Toggle } from '@apps';
+import { Main, Toggle, MenuAttrItem } from '@apps';
 import config from 'config';
 import './styles.scss';
 
@@ -36,15 +41,22 @@ class Component extends React.Component {
     resetApp: PropTypes.func.isRequired,
     onToggle: PropTypes.func.isRequired,
     sendAnalytics: PropTypes.bool.isRequired,
+    language: PropTypes.string,
     t: PropTypes.func.isRequired,
   };
 
   render() {
-    const { resetApp, onToggle, sendAnalytics, t } = this.props;
+    const { resetApp, onToggle, sendAnalytics, language, t } = this.props;
 
     return (
       <Main>
         <IonList lines="full">
+          <MenuAttrItem
+            routerLink="/settings/language"
+            value={languages[language]}
+            label="Language"
+            icon={flagOutline}
+          />
           <IonItem>
             <IonIcon icon={shareSocialOutline} size="small" slot="start" />
             <IonLabel>

@@ -4,6 +4,7 @@ import appModel from 'appModel';
 import userModel from 'userModel';
 import saveSamples from 'savedSamples';
 import Menu from './Menu';
+import Language from './Language';
 
 export default [
   <Route
@@ -17,5 +18,11 @@ export default [
         appModel={appModel}
       />
     )}
+  />,
+  <Route
+    path="/settings/language"
+    key="/settings/language"
+    exact
+    render={() => <Language userModel={userModel} appModel={appModel} />}
   />,
 ];
