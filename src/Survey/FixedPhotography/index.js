@@ -1,12 +1,11 @@
 import { useEffect } from 'react';
-import { getRoutesWithModels } from 'Components/RouteWithModels';
 import alert from 'common/helpers/alert';
 import Sample from 'sample';
 import i18n from 'i18next';
 import savedSamples from 'savedSamples';
 import appModel from 'appModel';
 import survey from 'common/config/surveys/photography';
-import { AttrPage as Attr } from '@apps';
+import { AttrPage as Attr, RouteWithModels } from '@apps';
 import Edit from './Edit';
 import TransectsEdit from './Transects/Edit';
 
@@ -95,4 +94,4 @@ const routes = [
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];
 
-export default getRoutesWithModels(routes);
+export default RouteWithModels.fromArray(savedSamples, routes);
