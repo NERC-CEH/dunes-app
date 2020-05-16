@@ -48,8 +48,11 @@ const survey = {
   verify() {},
 
   create(Sample) {
-    const sample = new Sample();
-    sample.metadata.survey = survey.name;
+    const sample = new Sample({
+      metadata: {
+        survey: survey.name,
+      },
+    });
 
     return sample;
   },
