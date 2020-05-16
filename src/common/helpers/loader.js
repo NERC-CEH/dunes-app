@@ -1,10 +1,9 @@
-const loadingController = document.querySelector('ion-loading-controller');
-let loadingElement;
+const loadingElement = document.createElement('ion-loading');
 
-async function showLoader(props) {
-  await loadingController.componentOnReady();
-  loadingElement = await loadingController.create(props);
-  loadingElement.present();
+async function showLoader({ message }) {
+  loadingElement.message = message;
+  document.body.appendChild(loadingElement);
+  await loadingElement.present();
 }
 
 function hideLoader() {

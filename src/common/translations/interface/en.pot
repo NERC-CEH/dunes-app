@@ -190,3 +190,31 @@ msgstr "Name"
 # Part of survey form page
 msgid "If anyone has helped with the surveying please enter their names here."
 msgstr "If anyone has helped with the surveying please enter their names here."
+
+# Refresh transects button label 
+msgid "Refresh"
+msgstr "Refresh"
+
+# Info message text
+msgid "Please select your transect first."
+msgstr "Please select your transect first."
+
+# Report loader text 
+msgid "Please wait..."
+msgstr "Please wait..."
+
+# Report finish success message
+msgid "Transect list was successfully updated."
+msgstr "Transect list was successfully updated."
+
+# Report message
+msgid "Sorry, looks like you're offline."
+msgstr "Sorry, looks like you're offline."
+
+# Error message text
+msgid "Oops! Something, went wrong."
+msgstr "Oops! Something, went wrong."
+
+# Error message text
+msgid "This is the error event id: {{eventId}}"
+msgstr "This is the error event id: {{eventId}}"

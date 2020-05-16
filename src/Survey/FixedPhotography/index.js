@@ -1,13 +1,15 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import alert from 'common/helpers/alert';
 import Sample from 'sample';
 import i18n from 'i18next';
 import savedSamples from 'savedSamples';
 import appModel from 'appModel';
+import userModel from 'userModel';
 import survey from 'common/config/surveys/photography';
 import { AttrPage as Attr, RouteWithModels } from '@apps';
 import Edit from './Edit';
 import TransectsEdit from './Transects/Edit';
+import TransectsList from './Transects/List';
 
 const baseURL = `/survey/${survey.name}`;
 const draftIdKey = `draftId:${survey.name}`;
@@ -91,6 +93,10 @@ const routes = [
   [`${baseURL}/new`, startNewSurvey, true],
   [`${baseURL}/:smpId/edit`, Edit],
   [`${baseURL}/:smpId/edit/transects`, TransectsEdit],
+  [
+    `${baseURL}/:smpId/edit/transects/list`,
+    params => <TransectsList userModel={userModel} {...params} />,
+  ],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];
 

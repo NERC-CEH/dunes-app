@@ -22,7 +22,7 @@ class Component extends React.Component {
         <IonList lines="full">
           <MenuAttrItem
             routerLink={`${baseURL}/list`}
-            disabled={!isDisabled}
+            disabled={isDisabled}
             value={location.name}
             label="Transect"
             icon={locationOutline}

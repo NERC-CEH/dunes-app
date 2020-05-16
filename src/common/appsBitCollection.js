@@ -4,6 +4,7 @@ export { default as Page } from '@bit/flumens.apps.page';
 export { default as Section } from '@bit/flumens.apps.section';
 export { default as InputWithValidation } from '@bit/flumens.apps.input-with-validation';
 export { default as ToggleWithValidation } from '@bit/flumens.apps.toggle-with-validation';
+export { default as RadioInput } from '@bit/flumens.apps.radio-input';
 export { default as ModalHeader } from '@bit/flumens.apps.modal-header';
 export { default as MenuAttrItem } from '@bit/flumens.apps.menu-attr-item';
 export { default as AttrPage } from '@bit/flumens.apps.attr-page';
