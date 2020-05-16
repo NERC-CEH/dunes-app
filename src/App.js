@@ -8,6 +8,7 @@ import Menu from 'Components/Menu';
 import Home from './Home';
 import Info from './Info';
 import User from './User';
+import Settings from './Settings';
 import Survey from './Survey';
 import SplashScreenRequired from './Info/SplashScreenRequired';
 import 'common/translations/translator';
@@ -36,6 +37,7 @@ const App = () => (
           {Info}
           {User}
           {Survey}
+          {Settings}
           <Route path="/" component={HomeOrTutorial} exact />
         </IonRouterOutlet>
       </SplashScreenRequired>

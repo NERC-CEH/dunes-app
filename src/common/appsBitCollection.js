@@ -9,6 +9,7 @@ export { default as ModalHeader } from '@bit/flumens.apps.modal-header';
 export { default as MenuAttrItem } from '@bit/flumens.apps.menu-attr-item';
 export { default as AttrPage } from '@bit/flumens.apps.attr-page';
 export { default as RouteWithModels } from '@bit/flumens.apps.route-with-models';
+export { default as Toggle } from '@bit/flumens.apps.toggle';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';

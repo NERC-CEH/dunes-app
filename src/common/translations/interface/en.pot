@@ -191,6 +191,7 @@ msgstr "Name"
 msgid "If anyone has helped with the surveying please enter their names here."
 msgstr "If anyone has helped with the surveying please enter their names here."
 
+<<<<<<< HEAD
 # Refresh transects button label 
 msgid "Refresh"
 msgstr "Refresh"
@@ -218,3 +219,49 @@ msgstr "Oops! Something, went wrong."
 # Error message text
 msgid "This is the error event id: {{eventId}}"
 msgstr "This is the error event id: {{eventId}}"
+=======
+
+# Context term 
+msgid "Settings"
+msgstr "Settings"
+
+# Context term 
+msgid "Share App Analytics"
+msgstr "Share App Analytics"
+
+# Context term 
+msgid "Share app crash data so we can make the app more reliable."
+msgstr "Share app crash data so we can make the app more reliable."
+
+# Context term 
+msgid "Reset"
+msgstr "Reset"
+
+# Context term 
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr "Are you sure you want to reset the application to its initial state?"
+
+# Context term 
+msgid "This will wipe all the locally stored app data!"
+msgstr "This will wipe all the locally stored app data!"
+
+# Context term 
+msgid "Skip"
+msgstr "Skip"
+
+# Context term 
+msgid "Dunes are exciting!"
+msgstr "Dunes are exciting!"
+
+# Context term 
+msgid "Dunes are threatened."
+msgstr "Dunes are threatened."
+
+# Context term 
+msgid "Sorry"
+msgstr "Sorry"
+
+# Context term 
+msgid "Done"
+msgstr "Done"
+>>>>>>> WIP

@@ -1,3 +1,5 @@
+import i18next from 'i18next';
+
 export default async function toast(props) {
   const toastEl = document.createElement('ion-toast');
 
@@ -34,7 +36,7 @@ export function warn(text, duration) {
 
 export function error(text, duration) {
   toast({
-    header: t('Sorry'),
+    header: i18next.t('Sorry'),
     message: text,
     duration: duration || 3000,
     color: 'danger',

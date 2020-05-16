@@ -17,6 +17,7 @@ import {
   personOutline,
   logOut,
   personAddOutline,
+  settingsOutline,
 } from 'ionicons/icons';
 
 import './styles.scss';
@@ -33,6 +34,11 @@ const routes = {
       title: 'Credits',
       path: '/info/credits',
       icon: heartCircleOutline,
+    },
+    {
+      title: 'Settings',
+      path: '/settings/menu',
+      icon: settingsOutline,
     },
   ],
   loggedInPages: [{ title: 'Logout', path: '/user/logout', icon: logOut }],
