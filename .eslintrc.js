@@ -26,7 +26,10 @@ module.exports = {
     'react/sort-comp': OFF,
     'react/destructuring-assignment': OFF,
     'react/button-has-type': OFF,
-    'no-unused-expressions': [ERROR, { allowShortCircuit: true, allowTernary: true }],
+    'no-unused-expressions': [
+      ERROR,
+      { allowShortCircuit: true, allowTernary: true },
+    ],
     complexity: [WARN, 20],
     eqeqeq: [WARN, 'smart'],
     'guard-for-in': WARN,
@@ -50,6 +53,7 @@ module.exports = {
     'react/state-in-constructor': OFF,
     'react/static-property-placement': OFF,
     'react/jsx-one-expression-per-line': OFF,
+    'react/no-unescaped-entities': OFF,
   },
   overrides: [
     {
