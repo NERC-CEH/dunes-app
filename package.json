@@ -25,11 +25,16 @@
     "@bit/flumens.apps.date": "^0.1.0",
     "@bit/flumens.apps.device": "^0.1.0",
     "@bit/flumens.apps.header": "0.2.0",
+    "@bit/flumens.apps.helpers.action-sheet": "0.1.0",
+    "@bit/flumens.apps.helpers.alert": "0.1.0",
+    "@bit/flumens.apps.helpers.loader": "0.1.0",
     "@bit/flumens.apps.helpers.make-request": "0.1.0",
+    "@bit/flumens.apps.helpers.toast": "0.1.1",
     "@bit/flumens.apps.input-with-validation": "^0.1.1",
     "@bit/flumens.apps.main": "^0.1.0",
     "@bit/flumens.apps.menu-attr-item": "0.1.2",
     "@bit/flumens.apps.modal-header": "^0.1.0",
+    "@bit/flumens.apps.models.drupal-user-model": "0.2.0",
     "@bit/flumens.apps.models.init-stored-samples": "0.1.0",
     "@bit/flumens.apps.models.media": "0.1.0",
     "@bit/flumens.apps.models.model": "0.1.0",
@@ -70,8 +75,7 @@
     "react-photoswipe": "^1.3.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "yup": "^0.28.5",
-    "@bit/flumens.apps.models.drupal-user-model": "0.2.0"
+    "yup": "^0.28.5"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

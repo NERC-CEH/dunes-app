@@ -2,11 +2,10 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import { NavContext } from '@ionic/react';
-import { warn, error } from 'common/helpers/toast';
-import alert from 'common/helpers/alert';
-import loader from 'common/helpers/loader';
-import { Page, Header, device } from '@apps';
+import { Page, Header, device, toast, alert, loader } from '@apps';
 import Main from './Main';
+
+const { warn, error } = toast;
 
 async function onRegister(userModel, details, lang, onSuccess) {
   const { email, password, firstname, secondname } = details;

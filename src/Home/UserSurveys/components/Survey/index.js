@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import alert from 'common/helpers/alert';
+import alert from '@apps';
 import { observer } from 'mobx-react';
 import { Trans as T, withTranslation } from 'react-i18next';
 import {
@@ -13,7 +13,6 @@ import {
   IonAvatar,
   IonIcon,
 } from '@ionic/react';
-import surveys from 'common/config/surveys';
 import OnlineStatus from './components/OnlineStatus';
 import ErrorMessage from './components/ErrorMessage';
 import './styles.scss';
@@ -41,7 +40,7 @@ const Survey = observer(({ sample, t }) => {
   const date = new Date(sample.metadata.created_on);
   const prettyDate = date.toLocaleDateString();
 
-  const survey = surveys[sample.metadata.survey];
+  const survey = sample.getSurvey();
   const href = `/survey/${survey.name}/${sample.cid}/edit`;
   const isDisabled = sample.remote.synchronising;
 

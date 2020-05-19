@@ -9,8 +9,7 @@ import {
   flagOutline,
 } from 'ionicons/icons';
 import languages from 'common/config/languages';
-import alert from 'common/helpers/alert';
-import { Main, Toggle, MenuAttrItem } from '@apps';
+import { alert, Main, Toggle, MenuAttrItem } from '@apps';
 import config from 'config';
 import './styles.scss';
 

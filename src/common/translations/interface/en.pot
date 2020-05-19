@@ -274,3 +274,31 @@ msgstr "Fixed points"
 # Location point label 
 msgid "Point"
 msgstr "Point"
+
+# Next survey point label
+msgid "Next"
+msgstr "Next"
+
+# Survey attr label
+msgid "Disturbance"
+msgstr "Disturbance"
+
+# When deleting a photo 
+msgid "Are you sure you want to remove this photo?"
+msgstr "Are you sure you want to remove this photo?"
+
+# When deleting a photo 
+msgid "Note: it will remain in the gallery."
+msgstr "Note: it will remain in the gallery."
+
+# Disturbance comment message 
+msgid "Please add any extra information about the disturbance."
+msgstr "Please add any extra information about the disturbance."
+
+# Photo picker message 
+msgid "No photo has been added"
+msgstr "No photo has been added"
+
+# Finish survey label
+msgid "Finish"
+msgstr "Finish"

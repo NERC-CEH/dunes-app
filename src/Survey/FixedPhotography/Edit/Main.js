@@ -17,7 +17,7 @@ class Component extends React.Component {
   render() {
     const { sample, isDisabled, baseURL } = this.props;
 
-    const { survey } = sample;
+    const survey = sample.getSurvey();
     const { date, comment, surveyors } = sample.attrs;
 
     return (

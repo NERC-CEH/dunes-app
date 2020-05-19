@@ -10,20 +10,20 @@ export default class AppSample extends Sample {
     return { ...Sample.keys };
   };
 
-  constructor(...args) {
-    super(...args);
-
-    this.survey = surveys[this.metadata.survey];
-    if (!this.survey) {
-      throw new Error('No survey config was found');
-    }
-  }
-
   static fromJSON(json) {
     return super.fromJSON(json, Occurrence, AppSample, Media);
   }
 
   getSurvey() {
-    return this.survey;
+    const survey = surveys[this.metadata.survey];
+    if (!survey) {
+      throw new Error('No survey config was found');
+    }
+
+    if (this.parent) {
+      return survey.smp;
+    }
+
+    return survey;
   }
 }

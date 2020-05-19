@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
-import { device, Page, Header } from '@apps';
+import { device, Page, Header, loader, toast } from '@apps';
 import Sample from 'sample';
 import { Trans as T, withTranslation } from 'react-i18next';
-import loader from 'common/helpers/loader';
 import { IonButton, NavContext } from '@ionic/react';
-import { success, error, warn } from 'common/helpers/toast';
 import Main from './Main';
+
+const { success, error, warn } = toast;
 
 @observer
 class index extends React.Component {
@@ -24,9 +24,9 @@ class index extends React.Component {
   addSectionSubSamples = () => {
     const { sample } = this.props;
     const transect = sample.attrs.location;
-    const { survey } = sample;
+    const survey = sample.getSurvey();
 
-    sample.samples = [];
+    sample.samples.length = 0;
 
     transect.sections.forEach(section => {
       const sectionSample = survey.smp.create(Sample, section);

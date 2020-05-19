@@ -2,10 +2,10 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { NavContext } from '@ionic/react';
 import Log from 'helpers/log';
-import { warn, error } from 'helpers/toast';
-import loader from 'helpers/loader';
-import { Page, Header, device } from '@apps';
+import { toast, loader, Page, Header, device } from '@apps';
 import Main from './Main';
+
+const { warn, error } = toast;
 
 async function onLogin(userModel, details, onSuccess) {
   const { name, password } = details;

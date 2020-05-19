@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import { observer } from 'mobx-react';
 import { withTranslation } from 'react-i18next';
-import { Page, Header } from '@apps';
-import { success, error } from 'helpers/toast';
+import { Page, Header, toast } from '@apps';
 import Main from './Main';
+
+const { success, error } = toast;
 
 async function resetApp(saveSamples, appModel, userModel, t) {
   Log('Settings:Menu:Controller: resetting the application!', 'w');

@@ -29,7 +29,7 @@ class Component extends React.Component {
       const pointNo = `${index + 1}`;
 
       return (
-        <IonItem key={cid}>
+        <IonItem key={cid} routerLink={`${baseURL}/${cid}`} detail>
           <IonIcon slot="start" icon={locateOutline} />
           <IonLabel>
             <T>Point</T> #{pointNo}

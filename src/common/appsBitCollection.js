@@ -14,6 +14,10 @@ export { default as Toggle } from '@bit/flumens.apps.toggle';
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';
 export { default as makeRequest } from '@bit/flumens.apps.helpers.make-request';
+export { default as alert } from '@bit/flumens.apps.helpers.alert';
+export { default as actionSheet } from '@bit/flumens.apps.helpers.action-sheet';
+export { default as loader } from '@bit/flumens.apps.helpers.loader';
+export { default as toast } from '@bit/flumens.apps.helpers.toast';
 
 export { default as Model } from '@bit/flumens.apps.models.model';
 export { default as Sample } from '@bit/flumens.apps.models.sample';

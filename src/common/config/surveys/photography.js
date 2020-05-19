@@ -46,6 +46,16 @@ const survey = {
   },
 
   smp: {
+    attrs: {
+      disturbance: {
+        id: -1,
+        label: 'Disturbance',
+        type: 'textarea',
+        icon: chatboxOutline,
+        info: 'Please add any extra information about the disturbance.',
+      },
+    },
+
     create(Sample, location) {
       const sample = new Sample({
         metadata: {
