@@ -6,6 +6,7 @@ import { observer } from 'mobx-react';
 import { PhotoSwipe } from 'react-photoswipe';
 import { IonIcon, IonButton, IonFooter } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
+import { Trans as T, withTranslation } from 'react-i18next';
 import { Media as ImageModel, actionSheet, alert, toast } from '@apps';
 import 'react-photoswipe/lib/photoswipe.css';
 import 'react-photoswipe/dist/default-skin.svg';
@@ -13,7 +14,7 @@ import './styles.scss';
 
 const { error } = toast;
 
-function photoDelete(photo) {
+function photoDelete(photo, t) {
   alert({
     header: t('Delete'),
     message: `${t(`Are you sure you want to remove this photo?`)}
@@ -48,6 +49,7 @@ async function addPhoto(model, photo) {
 class Footer extends Component {
   static propTypes = {
     model: PropTypes.object.isRequired,
+    t: PropTypes.func.isRequired,
   };
 
   state = {
@@ -65,7 +67,7 @@ class Footer extends Component {
   };
 
   photoSelect = () => {
-    const { model } = this.props;
+    const { t, model } = this.props;
 
     actionSheet({
       header: t('Choose a method to upload a photo'),
@@ -144,9 +146,15 @@ class Footer extends Component {
   };
 
   getImageArray = () => {
-    const { media } = this.props.model;
+    const { t, model } = this.props;
+
+    const { media } = model;
     if (!media.length) {
-      return <span className="empty"> {t('No photo has been added')}</span>;
+      return (
+        <span className="empty">
+          <T>No photo has been added</T>
+        </span>
+      );
     }
 
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
@@ -158,7 +166,7 @@ class Footer extends Component {
           <IonButton
             fill="clear"
             class="delete"
-            onClick={() => photoDelete(img)}
+            onClick={() => photoDelete(img, t)}
           >
             <IonIcon icon={close} />
           </IonButton>
@@ -176,14 +184,14 @@ class Footer extends Component {
   getNewImageButton = () => {
     if (!window.cordova) {
       return (
-        <>
+        <div className="non-cordova-img-picker">
           <IonIcon
             class="non-cordova-img-picker-logo"
             icon={camera}
             size="large"
           />
           <input type="file" accept="image/*" onChange={this.photoUpload} />
-        </>
+        </div>
       );
     }
     return (
@@ -206,4 +214,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default withTranslation()(Footer);

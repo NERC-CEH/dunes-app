@@ -32,19 +32,23 @@ $footer-height: 80px;
       }
     }
 
-    // non-cordova picker
-    .non-cordova-img-picker-logo {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-16px, -16px);
-    }
-    & > input {
-      position: absolute;
-      opacity: 0;
+    .non-cordova-img-picker {
       width: $footer-height;
-      margin-top: 0 !important;
-      height: $footer-height !important;
+
+      .non-cordova-img-picker-logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-16px, -16px);
+        color: var(--ion-color-primary);
+      }
+      & > input {
+        position: absolute;
+        opacity: 0;
+        width: $footer-height;
+        margin-top: 0 !important;
+        height: $footer-height !important;
+      }
     }
   }
 
