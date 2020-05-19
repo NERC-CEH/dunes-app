@@ -302,3 +302,15 @@ msgstr "No photo has been added"
 # Finish survey label
 msgid "Finish"
 msgstr "Finish"
+
+# From photo picker 
+msgid "Choose a method to upload a photo"
+msgstr "Choose a method to upload a photo"
+
+# From photo picker
+msgid "Gallery"
+msgstr "Gallery"
+
+# From photo picker
+msgid "Camera"
+msgstr "Camera"
