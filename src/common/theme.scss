@@ -139,3 +139,8 @@ ion-button[type='submit'] {
     text-align: center;
   }
 }
+
+
+ion-textarea {
+  --padding-start: 10px !important;
+}
