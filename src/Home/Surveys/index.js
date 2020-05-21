@@ -9,8 +9,10 @@ import {
   IonIcon,
   IonGrid,
   IonRouterLink,
+  IonTitle,
 } from '@ionic/react';
 import PropTypes from 'prop-types';
+import { Trans as T } from 'react-i18next';
 import surveys from 'common/config/surveys';
 import { Page, Main } from '@apps';
 import './styles.scss';
@@ -42,6 +44,9 @@ function index({ history }) {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
+          <IonTitle color="dark">
+            <T>Activities</T>
+          </IonTitle>
         </IonToolbar>
       </IonHeader>
 
