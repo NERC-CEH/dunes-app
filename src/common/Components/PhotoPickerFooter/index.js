@@ -7,7 +7,8 @@ import { PhotoSwipe } from 'react-photoswipe';
 import { IonIcon, IonButton, IonFooter } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
 import { Trans as T, withTranslation } from 'react-i18next';
-import { Media as ImageModel, actionSheet, alert, toast } from '@apps';
+import { actionSheet, alert, toast } from '@apps';
+import ImageModel from 'common/models/media';
 import 'react-photoswipe/lib/photoswipe.css';
 import 'react-photoswipe/dist/default-skin.svg';
 import './styles.scss';
@@ -158,7 +159,7 @@ class Footer extends Component {
     }
 
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
-    return media.map((img, index) => {
+    return media.map(img => {
       const { thumbnail } = img.attrs;
       const id = img.cid;
       return (
@@ -173,7 +174,7 @@ class Footer extends Component {
           <img
             src={thumbnail}
             alt=""
-            onClick={() => this.setState({ showGallery: index + 1 })}
+            // onClick={() => this.setState({ showGallery: index + 1 })} //TODO: fix
           />
         </div>
       );

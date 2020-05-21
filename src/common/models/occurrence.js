@@ -1,4 +1,5 @@
-import { Occurrence, Media } from '@apps';
+import { Occurrence } from '@apps';
+import Media from './media';
 
 export default class AppOccurrence extends Occurrence {
   keys = () => {

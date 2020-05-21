@@ -1,7 +1,8 @@
-import { Sample, Media } from '@apps';
+import { Sample } from '@apps';
 import surveys from 'common/config/surveys';
 import { modelStore } from './store';
 import Occurrence from './occurrence';
+import Media from './media';
 
 export default class AppSample extends Sample {
   store = modelStore;

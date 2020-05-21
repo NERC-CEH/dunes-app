@@ -43,27 +43,14 @@ function getTransectItemsList(sample, transects, onTransectSelect) {
   );
 }
 
-function Transects({ sample, userModel, onTransectSelect }) {
-  const { transects } = userModel.attrs;
-  const hasSelectedTransect = !!sample.attrs.location;
-
+function Transects({ sample, transects, onTransectSelect }) {
   return (
-    <Main>
-      {!hasSelectedTransect && (
-        <div className="info-message">
-          <p>
-            <T>Please select your transect first.</T>
-          </p>
-        </div>
-      )}
-
-      {getTransectItemsList(sample, transects, onTransectSelect)}
-    </Main>
+    <Main>{getTransectItemsList(sample, transects, onTransectSelect)}</Main>
   );
 }
 
 Transects.propTypes = {
-  userModel: PropTypes.object.isRequired,
+  transects: PropTypes.array.isRequired,
   sample: PropTypes.object.isRequired,
   onTransectSelect: PropTypes.func.isRequired,
 };

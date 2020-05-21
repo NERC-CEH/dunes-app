@@ -54,11 +54,12 @@ class Controller extends React.Component {
 
   render() {
     const { match, sample, subSample } = this.props;
+    const pointId = subSample.attrs.location.code.replace('S', '');
 
     return (
       <Page id="survey-fixed-photography-transect-point-edit">
         <Header
-          title="Point"
+          title={`Point #${pointId}`}
           defaultHref="/home/user-surveys"
           rightSlot={this.getNextPointButton()}
         />

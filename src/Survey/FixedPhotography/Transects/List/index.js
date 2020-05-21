@@ -17,6 +17,7 @@ class index extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     userModel: PropTypes.object.isRequired,
+    appModel: PropTypes.object.isRequired,
     match: PropTypes.object,
     t: PropTypes.func.isRequired,
   };
@@ -75,11 +76,15 @@ class index extends React.Component {
   };
 
   render() {
-    const { sample, userModel, match } = this.props;
+    const { sample, userModel, appModel, match } = this.props;
     const refreshButton = (
       <IonButton onClick={this.refreshUserTransects}>
         <T>Refresh</T>
       </IonButton>
+    );
+
+    const transects = userModel.attrs.transects.filter(
+      ({ site }) => site === appModel.attrs.favouriteSite
     );
 
     return (
@@ -91,7 +96,7 @@ class index extends React.Component {
         />
         <Main
           sample={sample}
-          userModel={userModel}
+          transects={transects}
           onTransectSelect={this.onTransectSelect}
           match={match}
         />

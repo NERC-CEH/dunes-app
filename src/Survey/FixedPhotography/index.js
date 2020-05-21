@@ -9,6 +9,7 @@ import survey from 'common/config/surveys/photography';
 import Edit from './Edit';
 import TransectsEdit from './Transects/Edit';
 import TransectsList from './Transects/List';
+import TransectsSites from './Transects/Sites';
 import TransectsPointEdit from './Transects/EditPoint';
 
 const baseURL = `/survey/${survey.name}`;
@@ -92,10 +93,19 @@ function startNewSurvey({ match, history, location }) {
 const routes = [
   [`${baseURL}/new`, startNewSurvey, true],
   [`${baseURL}/:smpId/edit`, Edit],
-  [`${baseURL}/:smpId/edit/transects`, TransectsEdit],
+  [
+    `${baseURL}/:smpId/edit/transects`,
+    params => <TransectsEdit appModel={appModel} {...params} />,
+  ],
+  [
+    `${baseURL}/:smpId/edit/transects/sites`,
+    params => <TransectsSites appModel={appModel} {...params} />,
+  ],
   [
     `${baseURL}/:smpId/edit/transects/list`,
-    params => <TransectsList userModel={userModel} {...params} />,
+    params => (
+      <TransectsList appModel={appModel} userModel={userModel} {...params} />
+    ),
   ],
   [`${baseURL}/:smpId/edit/transects/:subSmpId`, TransectsPointEdit],
   [`${baseURL}/:smpId/edit/transects/:subSmpId/:attr`, Attr],

@@ -1,6 +1,7 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import { IonList, IonItem, IonLabel, IonIcon } from '@ionic/react';
+import locationHelp from 'common/helpers/location';
+import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import { Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
@@ -21,21 +22,25 @@ class Component extends React.Component {
     const survey = subSample.getSurvey();
     const { disturbance } = subSample.attrs;
 
+    const [
+      latitude,
+      longitude,
+    ] = subSample.attrs.location.centroid_sref.replace(/[N,W]/g, '').split(' ');
+    const gridRef = locationHelp.locationToGrid({
+      accurracy: 1,
+      latitude: parseFloat(latitude),
+      longitude: parseFloat(longitude),
+    });
+
     return (
       <Main>
         <IonList lines="full">
-          <IonItem>
-            <IonIcon slot="start" icon={locateOutline} />
-            <IonLabel className="ion-text-wrap point-location-name">
-              <IonLabel position="stacked">
-                <b>{subSample.attrs.location.name}</b>
-              </IonLabel>
-              <IonLabel position="stacked" className="ion-text-wrap">
-                {subSample.attrs.location.centroid_sref}
-              </IonLabel>
-            </IonLabel>
-          </IonItem>
-
+          <MenuAttrItem
+            value={gridRef}
+            icon={locateOutline}
+            label="Grid Ref"
+            disabled
+          />
           <MenuAttrItem
             routerLink={`${baseURL}/disturbance`}
             disabled={isDisabled}

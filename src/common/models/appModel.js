@@ -14,6 +14,8 @@ const appModel = new AppModel(genericStore, 'app', {
   useTraining: false,
   sendAnalytics: true,
   appSession: 0,
+
+  favouriteSite: null,
 });
 
 export { appModel as default, AppModel };

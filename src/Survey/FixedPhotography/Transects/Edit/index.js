@@ -8,16 +8,17 @@ import Main from './Main';
 class Controller extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
+    appModel: PropTypes.object.isRequired,
     match: PropTypes.object,
   };
 
   render() {
-    const { match, sample } = this.props;
+    const { match, sample, appModel } = this.props;
 
     return (
       <Page id="survey-fixed-photography-transect-edit">
         <Header title="Transect" defaultHref="/home/user-surveys" />
-        <Main sample={sample} baseURL={match.url} />
+        <Main sample={sample} appModel={appModel} baseURL={match.url} />
       </Page>
     );
   }

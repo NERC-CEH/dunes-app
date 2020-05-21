@@ -1,16 +1,17 @@
 [
   {
     "id": "222866",
-    "name": "Lankham Bottom",
-    "centroid_sref": "54.89833N 23.87715E",
+    "name": "Morecambe Bay",
+    "centroid_sref": "52.89833N 0.87715E",
     "sref_system": "4326",
+    "site": "Cumbria",
     "sections": [
       {
         "parent_id": "222866",
         "id": "222867",
-        "name": "Lankham Bottom - S1",
+        "name": "Morecambe Bay - S1",
         "code": "S1",
-        "centroid_sref": "54.898N, 23.876E",
+        "centroid_sref": "52.898N 0.876E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -29,9 +30,9 @@
       {
         "parent_id": "222866",
         "id": "222868",
-        "name": "Lankham Bottom - S2",
+        "name": "Morecambe Bay - S2",
         "code": "S2",
-        "centroid_sref": "54.899N, 23.876E",
+        "centroid_sref": "52.899N 0.876E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -52,9 +53,9 @@
       {
         "parent_id": "222866",
         "id": "222869",
-        "name": "Lankham Bottom - S3",
+        "name": "Morecambe Bay - S3",
         "code": "S3",
-        "centroid_sref": "54.899N, 23.877E",
+        "centroid_sref": "52.899N 0.877E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -71,9 +72,9 @@
       {
         "parent_id": "222866",
         "id": "222871",
-        "name": "Lankham Bottom - S4",
+        "name": "Morecambe Bay - S4",
         "code": "S4",
-        "centroid_sref": "54.898N, 23.879E",
+        "centroid_sref": "52.898N 0.879E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -90,9 +91,9 @@
       {
         "parent_id": "222866",
         "id": "222872",
-        "name": "Lankham Bottom - S5",
+        "name": "Morecambe Bay - S5",
         "code": "S5",
-        "centroid_sref": "54.897N, 23.878E",
+        "centroid_sref": "52.897N 0.878E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -109,16 +110,17 @@
   },
   {
     "id": "222873",
-    "name": "Southfield Cliff",
-    "centroid_sref": "47.2451N 11.11042E",
+    "name": "Ravenglass Estuary Dunes",
+    "centroid_sref": "52.2451N 0.11042E",
     "sref_system": "4326",
+    "site": "Cumbria",
     "sections": [
       {
         "parent_id": "222873",
         "id": "222874",
-        "name": "Southfield Cliff - S1",
+        "name": "Ravenglass Estuary Dunes - S1",
         "code": "S1",
-        "centroid_sref": "47.2451N 11.11042E",
+        "centroid_sref": "52.2451N 0.11042E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -139,9 +141,9 @@
       {
         "parent_id": "222873",
         "id": "222875",
-        "name": "Southfield Cliff - S2",
+        "name": "Ravenglass Estuary Dunes - S2",
         "code": "S2",
-        "centroid_sref": "47.247N, 11.106E",
+        "centroid_sref": "52.247N 0.106E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -159,9 +161,9 @@
       {
         "parent_id": "222873",
         "id": "222876",
-        "name": "Southfield Cliff - S3",
+        "name": "Ravenglass Estuary Dunes - S3",
         "code": "S3",
-        "centroid_sref": "47.248N, 11.108E",
+        "centroid_sref": "52.248N 0.108E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -182,9 +184,9 @@
       {
         "parent_id": "222873",
         "id": "222877",
-        "name": "Southfield Cliff - S4",
+        "name": "Ravenglass Estuary Dunes - S4",
         "code": "S4",
-        "centroid_sref": "47.246N, 11.110E",
+        "centroid_sref": "52.246N 0.110E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -204,15 +206,16 @@
   {
     "id": "222878",
     "name": "Stoborough Beach",
-    "centroid_sref": "62.64623N 10.69891E",
+    "centroid_sref": "52.64623N 0.69891E",
     "sref_system": "4326",
+    "site": "Dorset",
     "sections": [
       {
         "parent_id": "222878",
         "id": "222879",
         "name": "Stoborough Beach - S1",
         "code": "S1",
-        "centroid_sref": "62.646N, 10.696E",
+        "centroid_sref": "52.646N 0.696E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -231,7 +234,7 @@
         "id": "222880",
         "name": "Stoborough Beach - S2",
         "code": "S2",
-        "centroid_sref": "62.646N, 10.691E",
+        "centroid_sref": "52.646N 0.691E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -251,7 +254,7 @@
         "id": "222881",
         "name": "Stoborough Beach - S3",
         "code": "S3",
-        "centroid_sref": "62.646N, 10.692E",
+        "centroid_sref": "52.646N 0.692E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -272,7 +275,7 @@
         "id": "222882",
         "name": "Stoborough Beach - S4",
         "code": "S4",
-        "centroid_sref": "62.646N, 10.696E",
+        "centroid_sref": "52.646N 0.696E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -292,7 +295,7 @@
         "id": "222883",
         "name": "Stoborough Beach - S5",
         "code": "S5",
-        "centroid_sref": "62.647N, 10.695E",
+        "centroid_sref": "52.647N 0.695E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -311,7 +314,7 @@
         "id": "222884",
         "name": "Stoborough Beach - S6",
         "code": "S6",
-        "centroid_sref": "62.647N, 10.692E",
+        "centroid_sref": "52.647N 0.692E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -329,7 +332,7 @@
         "id": "222885",
         "name": "Stoborough Beach - S7",
         "code": "S7",
-        "centroid_sref": "62.647N, 10.690E",
+        "centroid_sref": "52.647N 0.690E",
         "sref_system": "4326",
         "geom": {
           "type": "LineString",
@@ -347,15 +350,16 @@
   {
     "id": "241964",
     "name": "Lulworth Shore",
-    "centroid_sref": "64.42835N 16.66128W",
+    "centroid_sref": "52.42835N 0.66128W",
     "sref_system": "4326",
+    "site": "Dorset",
     "sections": [
       {
         "parent_id": "241964",
         "id": "241965",
         "name": "Lulworth Shore - S1",
         "code": "S1",
-        "centroid_sref": "64.42835N 16.66128W",
+        "centroid_sref": "52.42835N 0.66128W",
         "sref_system": "4326",
         "geom": {
           "type": "Point",
@@ -367,7 +371,7 @@
         "id": "241966",
         "name": "Lulworth Shore - S2",
         "code": "S2",
-        "centroid_sref": "64.42835N 16.66128W",
+        "centroid_sref": "52.42835N 0.66128W",
         "sref_system": "4326",
         "geom": {
           "type": "Point",

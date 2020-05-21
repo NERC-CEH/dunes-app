@@ -54,6 +54,7 @@
     "@ionic/react": "^5.1.0",
     "@ionic/react-router": "^5.1.0",
     "@sentry/browser": "^5.15.5",
+    "bigu": "kazlauskis/bigu#v0.2.2",
     "core-js": "^3.6.5",
     "formik": "^2.1.4",
     "html-webpack-plugin": "^4.3.0",

@@ -1,58 +1,100 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import {
-  IonList,
-  IonItemDivider,
-  IonItem,
-  IonLabel,
-  IonIcon,
-} from '@ionic/react';
+import { IonList, IonItemDivider, IonItem } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import { locationOutline, locateOutline } from 'ionicons/icons';
+import locationHelp from 'common/helpers/location';
 import { Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
+import 'common/images/transect.svg';
+import './styles.scss';
 
 @observer
 class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
+    appModel: PropTypes.object.isRequired,
     baseURL: PropTypes.string.isRequired,
     isDisabled: PropTypes.bool,
   };
 
-  render() {
-    const { sample, isDisabled, baseURL } = this.props;
-    const { location = {} } = sample.attrs;
+  getPointsList = () => {
+    const { sample, baseURL } = this.props;
+
+    if (!sample.samples.length) {
+      return (
+        <IonItem className="empty">
+          <span>
+            <T>
+              To see fixed points please select your site and transect first.
+            </T>
+          </span>
+        </IonItem>
+      );
+    }
 
     const getPointItem = (subSample, index) => {
       const { cid } = subSample;
       const pointNo = `${index + 1}`;
 
+      const [
+        latitude,
+        longitude,
+      ] = subSample.attrs.location.centroid_sref
+        .replace(/[N,W,E]/g, '')
+        .split(' ');
+      const gridRef = locationHelp.locationToGrid({
+        accurracy: 1,
+        latitude: parseFloat(latitude),
+        longitude: parseFloat(longitude),
+      });
+
       return (
-        <IonItem key={cid} routerLink={`${baseURL}/${cid}`} detail>
-          <IonIcon slot="start" icon={locateOutline} />
-          <IonLabel>
-            <T>Point</T> #{pointNo}
-          </IonLabel>
-        </IonItem>
+        <MenuAttrItem
+          key={cid}
+          routerLink={`${baseURL}/${cid}`}
+          value={gridRef}
+          icon={locateOutline}
+          label={`Point #${pointNo}`}
+        />
       );
     };
     const pointsList = sample.samples.map(getPointItem);
 
     return (
+      <>
+        <IonItemDivider>
+          <T>Fixed points</T>
+        </IonItemDivider>
+        {pointsList}
+      </>
+    );
+  };
+
+  render() {
+    const { sample, isDisabled, baseURL, appModel } = this.props;
+    const { location = {} } = sample.attrs;
+    const { favouriteSite } = appModel.attrs;
+
+    return (
       <Main>
         <IonList lines="full">
           <MenuAttrItem
-            routerLink={`${baseURL}/list`}
+            routerLink={`${baseURL}/sites`}
             disabled={isDisabled}
-            value={location.name}
-            label="Transect"
+            value={favouriteSite}
+            label="Site"
             icon={locationOutline}
           />
-          <IonItemDivider>
-            <T>Fixed points</T>
-          </IonItemDivider>
-          {pointsList}
+          <MenuAttrItem
+            routerLink={`${baseURL}/list`}
+            disabled={isDisabled || !favouriteSite}
+            value={location.name}
+            label="Transect"
+            icon="/images/transect.svg"
+          />
+
+          {this.getPointsList()}
         </IonList>
       </Main>
     );

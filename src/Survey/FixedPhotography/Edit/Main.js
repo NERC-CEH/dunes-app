@@ -1,8 +1,7 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import { IonList, IonItem, IonIcon, IonLabel } from '@ionic/react';
+import { IonList } from '@ionic/react';
 import { locationOutline } from 'ionicons/icons';
-import { Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem, date as dateHelp } from '@apps';
 import PropTypes from 'prop-types';
 
@@ -18,8 +17,9 @@ class Component extends React.Component {
     const { sample, isDisabled, baseURL } = this.props;
 
     const survey = sample.getSurvey();
-    const { date, comment, surveyors } = sample.attrs;
+    const { date, comment, surveyors, location } = sample.attrs;
 
+    const transect = (location || {}).name;
     return (
       <Main>
         <IonList lines="full">
@@ -41,12 +41,12 @@ class Component extends React.Component {
             value={comment}
             {...survey.attrs.comment}
           />
-          <IonItem routerLink={`${baseURL}/transects`} detail>
-            <IonIcon slot="start" icon={locationOutline} />
-            <IonLabel>
-              <T>Transects</T>
-            </IonLabel>
-          </IonItem>
+          <MenuAttrItem
+            routerLink={`${baseURL}/transects`}
+            value={transect}
+            label="Transect"
+            icon={locationOutline}
+          />
         </IonList>
       </Main>
     );
