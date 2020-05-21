@@ -44,7 +44,7 @@ class Component extends React.Component {
           <MenuAttrItem
             routerLink={`${baseURL}/transects`}
             value={transect}
-            label="Transect"
+            label="Location"
             icon={locationOutline}
             wrapText
           />
