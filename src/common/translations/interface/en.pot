@@ -314,3 +314,35 @@ msgstr "Gallery"
 # From photo picker
 msgid "Camera"
 msgstr "Camera"
+
+# Photo picker helper 
+msgid "Grid Ref"
+msgstr "Grid Ref"
+
+# Photo picker helper 
+msgid "Please add a photo below."
+msgstr "Please add a photo below."
+
+# Photo picker helper 
+msgid "Adding photographs"
+msgstr "Adding photographs"
+
+# Alert dialog button label
+msgid "Got it"
+msgstr "Got it"
+
+# Photo picker helper 
+msgid "No photo has been added."
+msgstr "No photo has been added."
+
+# Photo picker helper 
+msgid "Press <1></1> to add."
+msgstr "Press <1></1> to add."
+
+# Photo picker helper 
+msgid "Each photograph should be taken in the direction of the bearing of the transect i.e. pointing inland towards your next photography point."
+msgstr "Each photograph should be taken in the direction of the bearing of the transect i.e. pointing inland towards your next photography point."
+
+# Photo picker helper 
+msgid "Take the photograph at eye level."
+msgstr "Take the photograph at eye level."
