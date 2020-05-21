@@ -4,23 +4,23 @@ import locationHelp from 'common/helpers/location';
 import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import { Main, MenuAttrItem } from '@apps';
+import PhotoPicker from 'Components/PhotoPickerFooter';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
 @observer
 class Component extends React.Component {
   static propTypes = {
-    sample: PropTypes.object.isRequired,
     subSample: PropTypes.object.isRequired,
-    baseURL: PropTypes.string.isRequired,
-    isDisabled: PropTypes.bool,
+    // baseURL: PropTypes.string.isRequired,
+    // isDisabled: PropTypes.bool,
   };
 
   render() {
-    const { subSample, isDisabled, baseURL } = this.props;
+    const { subSample } = this.props;
 
-    const survey = subSample.getSurvey();
-    const { disturbance } = subSample.attrs;
+    // const survey = subSample.getSurvey();
+    // const { disturbance } = subSample.attrs;
 
     const [
       latitude,
@@ -32,21 +32,30 @@ class Component extends React.Component {
       longitude: parseFloat(longitude),
     });
 
+    const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
+
     return (
       <Main>
         <IonList lines="full">
           <MenuAttrItem
-            value={gridRef}
+            value={prettyGridRef}
             icon={locateOutline}
             label="Grid Ref"
             disabled
+            className="point-location-gridref"
           />
-          <MenuAttrItem
+          {/* <MenuAttrItem
             routerLink={`${baseURL}/disturbance`}
             disabled={isDisabled}
             value={disturbance}
             {...survey.attrs.disturbance}
-          />
+          /> */}
+          {/* <div className="info-message">
+            <p>
+              <T>Please add a photo below.</T>
+            </p>
+          </div> */}
+          <PhotoPicker model={subSample} />
         </IonList>
       </Main>
     );

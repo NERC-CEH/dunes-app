@@ -49,13 +49,16 @@ class Component extends React.Component {
         longitude: parseFloat(longitude),
       });
 
+      const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
+
       return (
         <MenuAttrItem
           key={cid}
           routerLink={`${baseURL}/${cid}`}
-          value={gridRef}
+          value={prettyGridRef}
           icon={locateOutline}
           label={`Point #${pointNo}`}
+          className="survey-point-item"
         />
       );
     };
@@ -85,6 +88,7 @@ class Component extends React.Component {
             value={favouriteSite}
             label="Site"
             icon={locationOutline}
+            wrapText
           />
           <MenuAttrItem
             routerLink={`${baseURL}/list`}
@@ -92,6 +96,7 @@ class Component extends React.Component {
             value={location.name}
             label="Transect"
             icon="/images/transect.svg"
+            wrapText
           />
 
           {this.getPointsList()}

@@ -5,6 +5,13 @@ import bigu from 'bigu';
 import Log from './log';
 
 const helpers = {
+  prettyPrintGridRef(gridRef) {
+    const [, square, left, right] = gridRef.match(
+      /^([A-Z]{2})([0-9]{5})([0-9]{5})/i
+    );
+    return `${square} ${left} ${right}`;
+  },
+
   locationToGrid(location) {
     const gridCoords = bigu.latlng_to_grid_coords(
       location.latitude,

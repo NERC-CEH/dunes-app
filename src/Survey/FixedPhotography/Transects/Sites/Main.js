@@ -4,8 +4,8 @@ import { observer } from 'mobx-react';
 import { Main, RadioInput } from '@apps';
 
 const sites = [
-  { label: 'Cumbria', value: 'Cumbria' },
-  { label: 'Dorset', value: 'Dorset' },
+  { label: 'Morecambe Bay', value: 'Morecambe Bay' },
+  { label: 'Ravenglass Estuary Dunes', value: 'Ravenglass Estuary Dunes' },
 ];
 
 function getTransectItemsList(favouriteSite, onSiteSelect) {

@@ -4,7 +4,6 @@ import { observer } from 'mobx-react';
 import { IonButton } from '@ionic/react';
 import { Page, Header } from '@apps';
 import { Trans as T } from 'react-i18next';
-import Footer from 'Components/PhotoPickerFooter';
 import Main from './Main';
 
 @observer
@@ -64,7 +63,6 @@ class Controller extends React.Component {
           rightSlot={this.getNextPointButton()}
         />
         <Main sample={sample} subSample={subSample} baseURL={match.url} />
-        <Footer model={subSample} />
       </Page>
     );
   }

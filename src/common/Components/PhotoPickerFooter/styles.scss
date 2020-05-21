@@ -84,6 +84,8 @@ $footer-height: 80px;
     }
 
     .empty {
+      width: calc(100% - 80px);
+      text-align: center;
       position: absolute;
       color: var(--ion-color-dark-tint);
       font-size: 14px;
@@ -93,7 +95,10 @@ $footer-height: 80px;
   }
 }
 
-#edit-footer {
+ion-item#edit-footer {
+  --padding-start: 0;
+}
+ion-footer#edit-footer {
   & > div:not(.pswp) {
     margin: 0 -5px;
     border-top: 1px solid var(--ion-color-light-shade);

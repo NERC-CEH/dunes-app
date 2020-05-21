@@ -4,7 +4,7 @@ import Log from 'helpers/log';
 import ImageHelp from 'helpers/image';
 import { observer } from 'mobx-react';
 import { PhotoSwipe } from 'react-photoswipe';
-import { IonIcon, IonButton, IonFooter } from '@ionic/react';
+import { IonIcon, IonButton, IonItem } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
 import { Trans as T, withTranslation } from 'react-i18next';
 import { actionSheet, alert, toast } from '@apps';
@@ -153,7 +153,12 @@ class Footer extends Component {
     if (!media.length) {
       return (
         <span className="empty">
-          <T>No photo has been added</T>
+          <T>No photo has been added.</T>
+          <div>
+            <T>
+              Press <IonIcon icon={camera} /> to add.
+            </T>
+          </div>
         </span>
       );
     }
@@ -204,13 +209,13 @@ class Footer extends Component {
 
   render() {
     return (
-      <IonFooter id="edit-footer">
+      <IonItem id="edit-footer">
         {this.getGallery()}
         <div id="img-picker-array">
           <div className="img-picker">{this.getNewImageButton()}</div>
           <div id="img-array">{this.getImageArray()}</div>
         </div>
-      </IonFooter>
+      </IonItem>
     );
   }
 }

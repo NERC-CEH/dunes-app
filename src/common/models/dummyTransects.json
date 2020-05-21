@@ -1,15 +1,15 @@
 [
   {
     "id": "222866",
-    "name": "Morecambe Bay",
+    "name": "Noth-end",
     "centroid_sref": "52.89833N 0.87715E",
     "sref_system": "4326",
-    "site": "Cumbria",
+    "site": "Morecambe Bay",
     "sections": [
       {
         "parent_id": "222866",
         "id": "222867",
-        "name": "Morecambe Bay - S1",
+        "name": "Noth-end - S1",
         "code": "S1",
         "centroid_sref": "52.898N 0.876E",
         "sref_system": "4326",
@@ -30,7 +30,7 @@
       {
         "parent_id": "222866",
         "id": "222868",
-        "name": "Morecambe Bay - S2",
+        "name": "Noth-end - S2",
         "code": "S2",
         "centroid_sref": "52.899N 0.876E",
         "sref_system": "4326",
@@ -53,7 +53,7 @@
       {
         "parent_id": "222866",
         "id": "222869",
-        "name": "Morecambe Bay - S3",
+        "name": "Noth-end - S3",
         "code": "S3",
         "centroid_sref": "52.899N 0.877E",
         "sref_system": "4326",
@@ -72,7 +72,7 @@
       {
         "parent_id": "222866",
         "id": "222871",
-        "name": "Morecambe Bay - S4",
+        "name": "Noth-end - S4",
         "code": "S4",
         "centroid_sref": "52.898N 0.879E",
         "sref_system": "4326",
@@ -91,7 +91,7 @@
       {
         "parent_id": "222866",
         "id": "222872",
-        "name": "Morecambe Bay - S5",
+        "name": "Noth-end - S5",
         "code": "S5",
         "centroid_sref": "52.897N 0.878E",
         "sref_system": "4326",
@@ -110,15 +110,15 @@
   },
   {
     "id": "222873",
-    "name": "Ravenglass Estuary Dunes",
+    "name": "Near Bramcote Park",
     "centroid_sref": "52.2451N 0.11042E",
     "sref_system": "4326",
-    "site": "Cumbria",
+    "site": "Morecambe Bay",
     "sections": [
       {
         "parent_id": "222873",
         "id": "222874",
-        "name": "Ravenglass Estuary Dunes - S1",
+        "name": "Near Bramcote Park - S1",
         "code": "S1",
         "centroid_sref": "52.2451N 0.11042E",
         "sref_system": "4326",
@@ -141,7 +141,7 @@
       {
         "parent_id": "222873",
         "id": "222875",
-        "name": "Ravenglass Estuary Dunes - S2",
+        "name": "Near Bramcote Park - S2",
         "code": "S2",
         "centroid_sref": "52.247N 0.106E",
         "sref_system": "4326",
@@ -161,7 +161,7 @@
       {
         "parent_id": "222873",
         "id": "222876",
-        "name": "Ravenglass Estuary Dunes - S3",
+        "name": "Near Bramcote Park - S3",
         "code": "S3",
         "centroid_sref": "52.248N 0.108E",
         "sref_system": "4326",
@@ -184,7 +184,7 @@
       {
         "parent_id": "222873",
         "id": "222877",
-        "name": "Ravenglass Estuary Dunes - S4",
+        "name": "Near Bramcote Park - S4",
         "code": "S4",
         "centroid_sref": "52.246N 0.110E",
         "sref_system": "4326",
@@ -205,15 +205,15 @@
   },
   {
     "id": "222878",
-    "name": "Stoborough Beach",
+    "name": "South-end long",
     "centroid_sref": "52.64623N 0.69891E",
     "sref_system": "4326",
-    "site": "Dorset",
+    "site": "Ravenglass Estuary Dunes",
     "sections": [
       {
         "parent_id": "222878",
         "id": "222879",
-        "name": "Stoborough Beach - S1",
+        "name": "South-end long - S1",
         "code": "S1",
         "centroid_sref": "52.646N 0.696E",
         "sref_system": "4326",
@@ -232,7 +232,7 @@
       {
         "parent_id": "222878",
         "id": "222880",
-        "name": "Stoborough Beach - S2",
+        "name": "South-end long - S2",
         "code": "S2",
         "centroid_sref": "52.646N 0.691E",
         "sref_system": "4326",
@@ -252,7 +252,7 @@
       {
         "parent_id": "222878",
         "id": "222881",
-        "name": "Stoborough Beach - S3",
+        "name": "South-end long - S3",
         "code": "S3",
         "centroid_sref": "52.646N 0.692E",
         "sref_system": "4326",
@@ -273,7 +273,7 @@
       {
         "parent_id": "222878",
         "id": "222882",
-        "name": "Stoborough Beach - S4",
+        "name": "South-end long - S4",
         "code": "S4",
         "centroid_sref": "52.646N 0.696E",
         "sref_system": "4326",
@@ -293,7 +293,7 @@
       {
         "parent_id": "222878",
         "id": "222883",
-        "name": "Stoborough Beach - S5",
+        "name": "South-end long - S5",
         "code": "S5",
         "centroid_sref": "52.647N 0.695E",
         "sref_system": "4326",
@@ -312,7 +312,7 @@
       {
         "parent_id": "222878",
         "id": "222884",
-        "name": "Stoborough Beach - S6",
+        "name": "South-end long - S6",
         "code": "S6",
         "centroid_sref": "52.647N 0.692E",
         "sref_system": "4326",
@@ -330,7 +330,7 @@
       {
         "parent_id": "222878",
         "id": "222885",
-        "name": "Stoborough Beach - S7",
+        "name": "South-end long - S7",
         "code": "S7",
         "centroid_sref": "52.647N 0.690E",
         "sref_system": "4326",
@@ -349,15 +349,15 @@
   },
   {
     "id": "241964",
-    "name": "Lulworth Shore",
+    "name": "Visitor centre",
     "centroid_sref": "52.42835N 0.66128W",
     "sref_system": "4326",
-    "site": "Dorset",
+    "site": "Ravenglass Estuary Dunes",
     "sections": [
       {
         "parent_id": "241964",
         "id": "241965",
-        "name": "Lulworth Shore - S1",
+        "name": "Visitor centre - S1",
         "code": "S1",
         "centroid_sref": "52.42835N 0.66128W",
         "sref_system": "4326",
@@ -369,7 +369,40 @@
       {
         "parent_id": "241964",
         "id": "241966",
-        "name": "Lulworth Shore - S2",
+        "name": "Visitor centre - S2",
+        "code": "S2",
+        "centroid_sref": "52.42835N 0.66128W",
+        "sref_system": "4326",
+        "geom": {
+          "type": "Point",
+          "coordinates": [-1854725.20556415, 9459382.22376864]
+        }
+      }
+    ]
+  },
+  {
+    "id": "241965",
+    "name": "South-end short ",
+    "centroid_sref": "52.42835N 0.66128W",
+    "sref_system": "4326",
+    "site": "Ravenglass Estuary Dunes",
+    "sections": [
+      {
+        "parent_id": "241965",
+        "id": "241966",
+        "name": "South-end short  - S1",
+        "code": "S1",
+        "centroid_sref": "52.42835N 0.66128W",
+        "sref_system": "4326",
+        "geom": {
+          "type": "Point",
+          "coordinates": [-1854725.20556415, 9459382.22376864]
+        }
+      },
+      {
+        "parent_id": "241965",
+        "id": "241967",
+        "name": "South-end short  - S2",
         "code": "S2",
         "centroid_sref": "52.42835N 0.66128W",
         "sref_system": "4326",

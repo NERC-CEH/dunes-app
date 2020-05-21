@@ -46,6 +46,7 @@ class Component extends React.Component {
             value={transect}
             label="Transect"
             icon={locationOutline}
+            wrapText
           />
         </IonList>
       </Main>
