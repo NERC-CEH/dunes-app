@@ -7,10 +7,10 @@ import appModel from 'appModel';
 import userModel from 'userModel';
 import survey from 'common/config/surveys/photography';
 import Edit from './Edit';
-import TransectsEdit from './Transects/Edit';
-import TransectsList from './Transects/List';
-import TransectsSites from './Transects/Sites';
-import TransectsPointEdit from './Transects/EditPoint';
+import LocationMenu from './Location/Menu';
+import LocationTransects from './Location/Transects';
+import LocationSites from './Location/Sites';
+import LocationPointEdit from './Location/EditPoint';
 
 const baseURL = `/survey/${survey.name}`;
 const draftIdKey = `draftId:${survey.name}`;
@@ -95,19 +95,23 @@ const routes = [
   [`${baseURL}/:smpId/edit`, Edit],
   [
     `${baseURL}/:smpId/edit/transects`,
-    params => <TransectsEdit appModel={appModel} {...params} />,
+    params => <LocationMenu appModel={appModel} {...params} />,
   ],
   [
     `${baseURL}/:smpId/edit/transects/sites`,
-    params => <TransectsSites appModel={appModel} {...params} />,
+    params => <LocationSites appModel={appModel} {...params} />,
   ],
   [
     `${baseURL}/:smpId/edit/transects/list`,
     params => (
-      <TransectsList appModel={appModel} userModel={userModel} {...params} />
+      <LocationTransects
+        appModel={appModel}
+        userModel={userModel}
+        {...params}
+      />
     ),
   ],
-  [`${baseURL}/:smpId/edit/transects/:subSmpId`, TransectsPointEdit],
+  [`${baseURL}/:smpId/edit/transects/:subSmpId`, LocationPointEdit],
   [`${baseURL}/:smpId/edit/transects/:subSmpId/:attr`, Attr],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];
