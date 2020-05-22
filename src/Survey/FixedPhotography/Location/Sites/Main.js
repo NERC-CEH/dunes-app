@@ -8,24 +8,20 @@ const sites = [
   { label: 'Ravenglass Estuary Dunes', value: 'Ravenglass Estuary Dunes' },
 ];
 
-function getTransectItemsList(favouriteSite, onSiteSelect) {
-  const currentValue = favouriteSite;
-
-  return (
-    <RadioInput
-      values={sites}
-      onChange={selectedId => {
-        onSiteSelect(selectedId);
-      }}
-      currentValue={currentValue}
-    />
-  );
-}
-
 function Sites({ appModel, onSiteSelect }) {
   const { favouriteSite } = appModel.attrs;
 
-  return <Main>{getTransectItemsList(favouriteSite, onSiteSelect)}</Main>;
+  return (
+    <Main>
+      <RadioInput
+        values={sites}
+        onChange={selectedId => {
+          onSiteSelect(selectedId);
+        }}
+        currentValue={favouriteSite}
+      />
+    </Main>
+  );
 }
 
 Sites.propTypes = {

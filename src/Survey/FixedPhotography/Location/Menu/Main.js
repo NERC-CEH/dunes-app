@@ -14,13 +14,12 @@ class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
-    baseURL: PropTypes.string.isRequired,
+    match: PropTypes.object.isRequired,
     isDisabled: PropTypes.bool,
   };
 
   getPointsList = () => {
-    const { sample, baseURL } = this.props;
-
+    const { sample, match } = this.props;
     if (!sample.samples.length) {
       return (
         <IonItem className="empty">
@@ -54,7 +53,7 @@ class Component extends React.Component {
       return (
         <MenuAttrItem
           key={cid}
-          routerLink={`${baseURL}/${cid}`}
+          routerLink={`${match.url}/${cid}`}
           value={prettyGridRef}
           icon={locateOutline}
           label={`Point #${pointNo}`}
@@ -75,7 +74,7 @@ class Component extends React.Component {
   };
 
   render() {
-    const { sample, isDisabled, baseURL, appModel } = this.props;
+    const { sample, isDisabled, match, appModel } = this.props;
     const { location = {} } = sample.attrs;
     const { favouriteSite } = appModel.attrs;
 
@@ -83,7 +82,7 @@ class Component extends React.Component {
       <Main>
         <IonList lines="full">
           <MenuAttrItem
-            routerLink={`${baseURL}/sites`}
+            routerLink={`${match.url}/sites`}
             disabled={isDisabled}
             value={favouriteSite}
             label="Site"
@@ -91,7 +90,7 @@ class Component extends React.Component {
             wrapText
           />
           <MenuAttrItem
-            routerLink={`${baseURL}/list`}
+            routerLink={`${match.url}/list`}
             disabled={isDisabled || !favouriteSite}
             value={location.name}
             label="Transect"

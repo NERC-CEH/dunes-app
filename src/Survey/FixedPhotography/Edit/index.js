@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 // import { IonButton } from '@ionic/react';
 import { Page, Header } from '@apps';
@@ -9,18 +8,13 @@ import Main from './Main';
 
 @observer
 class Controller extends React.Component {
-  static propTypes = {
-    sample: PropTypes.object.isRequired,
-    match: PropTypes.object,
-  };
+  static propTypes = {};
 
   onUpload = async () => {
     // TODO:
   };
 
   render() {
-    const { match, sample } = this.props;
-
     // const uploadButton = (
     //   <IonButton onClick={this.onUpload}>
     //     <T>Upload</T>
@@ -32,9 +26,8 @@ class Controller extends React.Component {
         <Header
           title={survey.label}
           // rightSlot={uploadButton}
-          defaultHref="/home/surveys"
         />
-        <Main sample={sample} baseURL={match.url} />
+        <Main {...this.props} />
       </Page>
     );
   }

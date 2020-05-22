@@ -9,40 +9,41 @@ import PropTypes from 'prop-types';
 class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
-    baseURL: PropTypes.string.isRequired,
+    match: PropTypes.object.isRequired,
     isDisabled: PropTypes.bool,
   };
 
   render() {
-    const { sample, isDisabled, baseURL } = this.props;
+    const { sample, isDisabled, match } = this.props;
 
     const survey = sample.getSurvey();
     const { date, comment, surveyors, location } = sample.attrs;
 
     const transect = (location || {}).name;
+
     return (
       <Main>
         <IonList lines="full">
           <MenuAttrItem
-            routerLink={`${baseURL}/surveyors`}
+            routerLink={`${match.url}/surveyors`}
             disabled={isDisabled}
             value={surveyors}
             {...survey.attrs.surveyors}
           />
           <MenuAttrItem
-            routerLink={`${baseURL}/date`}
+            routerLink={`${match.url}/date`}
             disabled={isDisabled}
             value={dateHelp.print(date)}
             {...survey.attrs.date}
           />
           <MenuAttrItem
-            routerLink={`${baseURL}/comment`}
+            routerLink={`${match.url}/comment`}
             disabled={isDisabled}
             value={comment}
             {...survey.attrs.comment}
           />
           <MenuAttrItem
-            routerLink={`${baseURL}/transects`}
+            routerLink={`${match.url}/transects`}
             value={transect}
             label="Location"
             icon={locationOutline}
