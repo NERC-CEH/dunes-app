@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import ImageHelp from 'helpers/image';
 import { observer } from 'mobx-react';
-import { PhotoSwipe } from 'react-photoswipe';
 import { IonIcon, IonButton, IonItem } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
 import { Trans as T, withTranslation } from 'react-i18next';
-import { actionSheet, alert, toast } from '@apps';
+import actionSheet from '@bit/flumens.apps.helpers.action-sheet';
+import alert from '@bit/flumens.apps.helpers.alert';
+import toast from '@bit/flumens.apps.helpers.toast';
+import Gallery from '@bit/flumens.apps.gallery';
 import ImageModel from 'common/models/media';
-import 'react-photoswipe/lib/photoswipe.css';
-import 'react-photoswipe/dist/default-skin.svg';
 import './styles.scss';
 
 const { error } = toast;
@@ -47,7 +47,7 @@ async function addPhoto(model, photo) {
 }
 
 @observer
-class Footer extends Component {
+class PhotoPicker extends Component {
   static propTypes = {
     model: PropTypes.object.isRequired,
     t: PropTypes.func.isRequired,
@@ -133,12 +133,13 @@ class Footer extends Component {
     });
 
     return (
-      <PhotoSwipe
+      <Gallery
         isOpen={!!showGallery}
         items={items}
         options={{
           index: showGallery - 1,
           shareEl: false,
+          history: false,
           fullscreenEl: false,
         }}
         onClose={() => this.setState({ showGallery: false })}
@@ -164,7 +165,7 @@ class Footer extends Component {
     }
 
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
-    return media.map(img => {
+    return media.map((img, index) => {
       const { thumbnail } = img.attrs;
       const id = img.cid;
       return (
@@ -179,7 +180,7 @@ class Footer extends Component {
           <img
             src={thumbnail}
             alt=""
-            // onClick={() => this.setState({ showGallery: index + 1 })} //TODO: fix
+            onClick={() => this.setState({ showGallery: index + 1 })} // TODO: fix
           />
         </div>
       );
@@ -211,6 +212,7 @@ class Footer extends Component {
     return (
       <IonItem id="edit-footer">
         {this.getGallery()}
+
         <div id="img-picker-array">
           <div className="img-picker">{this.getNewImageButton()}</div>
           <div id="img-array">{this.getImageArray()}</div>
@@ -220,4 +222,4 @@ class Footer extends Component {
   }
 }
 
-export default withTranslation()(Footer);
+export default withTranslation()(PhotoPicker);

@@ -8,13 +8,10 @@ import {
   IonSlide,
   withIonLifeCycle,
 } from '@ionic/react';
-import { PhotoSwipe } from 'react-photoswipe';
 import { searchCircleOutline } from 'ionicons/icons';
 import { withTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
-import { Main } from '@apps';
-import 'react-photoswipe/lib/photoswipe.css';
-import 'react-photoswipe/dist/default-skin.svg';
+import { Main, Gallery } from '@apps';
 import './styles.scss';
 
 class Component extends React.Component {
@@ -36,13 +33,14 @@ class Component extends React.Component {
     });
 
     return (
-      <PhotoSwipe
+      <Gallery
         isOpen={!!showGallery}
         items={items}
         options={{
           index: showGallery - 1,
           shareEl: false,
           fullscreenEl: false,
+          history: false,
         }}
         onClose={() => this.setState({ showGallery: false })}
       />

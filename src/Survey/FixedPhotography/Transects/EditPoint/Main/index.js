@@ -5,7 +5,7 @@ import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem, MenuNote, InfoButton, Section } from '@apps';
-import PhotoPicker from 'Components/PhotoPickerFooter';
+import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
