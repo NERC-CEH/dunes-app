@@ -18,10 +18,14 @@ const { error } = toast;
 function photoDelete(photo, t) {
   alert({
     header: t('Delete'),
-    message: `${t(`Are you sure you want to remove this photo?`)}
-       </br></br> 
-       ${t('Note: it will remain in the gallery.')}
-       `,
+    message: (
+      <>
+        <T>Are you sure you want to remove this photo?</T>
+        <br />
+        <br />
+        <T>Note: it will remain in the gallery.</T>
+      </>
+    ),
     buttons: [
       {
         text: t('Cancel'),

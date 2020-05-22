@@ -27,7 +27,7 @@
     "@bit/flumens.apps.gallery": "0.1.0",
     "@bit/flumens.apps.header": "0.2.0",
     "@bit/flumens.apps.helpers.action-sheet": "0.1.0",
-    "@bit/flumens.apps.helpers.alert": "0.1.0",
+    "@bit/flumens.apps.helpers.alert": "0.2.0",
     "@bit/flumens.apps.helpers.loader": "0.1.0",
     "@bit/flumens.apps.helpers.make-request": "0.1.0",
     "@bit/flumens.apps.helpers.toast": "0.1.1",
