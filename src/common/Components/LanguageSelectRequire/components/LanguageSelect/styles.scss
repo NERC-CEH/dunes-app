@@ -1,0 +1,43 @@
+.ion-page#language-select-required {
+  background: url('/images/language-page-background.jpg') no-repeat center
+    center / cover;
+
+  .header {
+    padding: 50px;
+
+    * {
+      width: 100%;
+      font-weight: 300;
+      text-align: center;
+    }
+
+    ion-icon {
+      font-size: 80px;
+      --ionicon-stroke-width: 8px;
+    }
+  }
+
+  .language-select-list,
+  ion-content {
+    --background: transparent;
+    background-color: transparent;
+  }
+}
+
+.language-button {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  width: 70%;
+  margin-bottom: 10px;
+
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.18), 0 6px 12px 0 rgba(0, 0, 0, 0.17),
+    0 1px 1px 0 rgba(0, 0, 0, 0.17);
+
+  border-radius: 5px;
+
+  p {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,24 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
+import { withRouter } from 'react-router';
 import { Page, Main, Header } from '@apps';
 import {
-  IonIcon,
   IonList,
   IonItem,
   IonRadioGroup,
   IonRadio,
   IonLabel,
 } from '@ionic/react';
-import { flagOutline } from 'ionicons/icons';
 import languages from 'common/config/languages';
 
-function SelectLanguage({ appModel, hideHeader }) {
+function SelectLanguage({ appModel, history }) {
   const currentValue = appModel.attrs.language;
 
   function onSelect(e) {
     appModel.attrs.language = e.target.value; // eslint-disable-line no-param-reassign
     appModel.save();
+    history.goBack();
   }
 
   const alphabetically = ([, l1], [, l2]) => l1.localeCompare(l2);
@@ -27,23 +27,16 @@ function SelectLanguage({ appModel, hideHeader }) {
     .map(([value, language]) => (
       <IonItem key={value}>
         <IonLabel>{language}</IonLabel>
-        <IonRadio value={value} checked={currentValue === value} />
+        <IonRadio value={value} />
       </IonItem>
     ));
 
   return (
     <Page id="language-select">
-      {!hideHeader && <Header title="Language" />}
-
+      <Header title="Language" />
       <Main>
         <IonList>
-          {hideHeader && (
-            <div className="header">
-              <IonIcon icon={flagOutline} size="large" />
-              <h4>Select your language</h4>
-            </div>
-          )}
-          <IonRadioGroup onIonChange={onSelect}>
+          <IonRadioGroup onIonChange={onSelect} value={currentValue}>
             {languagesOptions}
           </IonRadioGroup>
         </IonList>
@@ -54,7 +47,7 @@ function SelectLanguage({ appModel, hideHeader }) {
 
 SelectLanguage.propTypes = {
   appModel: PropTypes.object.isRequired,
-  hideHeader: PropTypes.bool,
+  history: PropTypes.object.isRequired,
 };
 
-export default observer(SelectLanguage);
+export default observer(withRouter(SelectLanguage));
