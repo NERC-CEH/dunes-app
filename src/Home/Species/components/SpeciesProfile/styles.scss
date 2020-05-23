@@ -1,0 +1,44 @@
+#species-profile {
+  --padding-start: 0;
+  --padding-end: 0;
+  --padding-top: 0;
+  --padding-bottom: 0;
+
+  ion-card-content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  //Ionicons shadow not working
+  .species-profile-icon {
+    position: absolute;
+    top: 13px;
+    right: 9px;
+    color: white;
+    --ionicon-stroke-width: 16px;
+    z-index: 100;
+  }
+  .species-profile-icon-shadow {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    color: #00000047;
+    z-index: 100;
+  }
+  .species-profile-label {
+    font-weight: bold;
+    border-left: 3px solid var(--ion-color-primary);
+    padding-left: 5px;
+    text-transform: uppercase;
+    margin: 10px auto 15px;
+  }
+
+  .swiper-pagination-bullet {
+    opacity: 0.5;
+    --bullet-background: #000;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: 0.8;
+    --bullet-background-active: #fff;
+  }
+}

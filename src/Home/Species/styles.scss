@@ -1,0 +1,37 @@
+$cream-white-color: #fffdefd9;
+
+#home-species {
+  .species-list {
+    --ion-grid-padding: 0;
+    background: #f7f7f7;
+  }
+
+  .species-list-item {
+    --ion-grid-column-padding: 0;
+
+    div.species-label {
+      height: 55vw;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+
+      div {
+        width: 100%;
+        color: #0f5758;
+        border: 0;
+        position: absolute;
+        bottom: -1px;
+        padding: 7px 15px;
+        background: $cream-white-color;
+        font-size: 15px;
+        font-weight: 600;
+
+        .species-label-icon {
+          position: absolute;
+          right: 15px;
+          --ionicon-stroke-width: 40px;
+        }
+      }
+    }
+  }
+}

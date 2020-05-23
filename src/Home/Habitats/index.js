@@ -16,7 +16,7 @@ import PropTypes from 'prop-types';
 import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T, withTranslation } from 'react-i18next';
 import { informationCircleOutline } from 'ionicons/icons';
-import HabitatProfile from './HabitatProfile';
+import HabitatProfile from './components/HabitatProfile';
 import habitats from './data.json';
 import './styles.scss';
 import './images';
