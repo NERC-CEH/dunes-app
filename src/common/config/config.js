@@ -3,7 +3,9 @@
  **************************************************************************** */
 import Indicia from '@indicia-js/core';
 
-const backendUrl = process.env.APP_INDICIA_API_HOST || 'http://localhost'; // TODO
+const backendUrl =
+  process.env.APP_INDICIA_API_HOST ||
+  'https://dev-brc-dunescapes.pantheonsite.io'; // TODO
 
 const config = {
   // variables replaced on build
