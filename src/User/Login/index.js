@@ -4,6 +4,7 @@ import { NavContext } from '@ionic/react';
 import Log from 'helpers/log';
 import { toast, loader, Page, Header, device } from '@apps';
 import Main from './Main';
+import './styles.scss';
 
 const { warn, error } = toast;
 
@@ -50,7 +51,7 @@ export default function LoginContainer({ userModel, onSuccess }) {
 
   return (
     <Page id="user-login">
-      <Header title={t('Login')} />
+      <Header className="ion-no-border" routerDirection="none" />
       <Main
         schema={userModel.loginSchema}
         onSubmit={details => onLogin(userModel, details, onSuccessReturn)}

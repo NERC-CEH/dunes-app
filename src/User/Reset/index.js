@@ -4,6 +4,7 @@ import { NavContext } from '@ionic/react';
 import Log from 'helpers/log';
 import { Page, Header, device, alert, loader, toast } from '@apps';
 import Main from './Main';
+import './styles.scss';
 
 const { warn, error } = toast;
 
@@ -53,7 +54,11 @@ export default function Container({ userModel }) {
 
   return (
     <Page id="user-reset">
-      <Header title={t('Reset')} />
+      <Header
+        className="ion-no-border"
+        routerDirection="none"
+        defaultHref="/user/login"
+      />
       <Main
         schema={userModel.resetSchema}
         onSubmit={details => onSubmit(userModel, details, onSuccess)}

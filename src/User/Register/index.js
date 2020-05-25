@@ -4,6 +4,7 @@ import Log from 'helpers/log';
 import { NavContext } from '@ionic/react';
 import { Page, Header, device, toast, alert, loader } from '@apps';
 import Main from './Main';
+import './styles.scss';
 
 const { warn, error } = toast;
 
@@ -61,7 +62,7 @@ export default function RegisterContainer({ userModel, appModel }) {
 
   return (
     <Page id="user-register">
-      <Header title={t('Register')} />
+      <Header className="ion-no-border" />
       <Main
         schema={userModel.registerSchema}
         onSubmit={details => onRegister(userModel, details, lang, onSuccess)}

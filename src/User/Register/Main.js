@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { IonIcon, IonButton, IonList } from '@ionic/react';
+import { IonIcon, IonButton, IonList, IonRouterLink } from '@ionic/react';
 import {
   personOutline,
   mailOutline,
   keyOutline,
-  lockClosedOutline,
   eyeOutline,
   eyeOffOutline,
 } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
 import { Formik, Form } from 'formik';
-import { Main, ToggleWithValidation, InputWithValidation } from '@apps';
+import { Main, InputWithValidation } from '@apps';
 
 import config from 'config';
 
@@ -31,6 +31,10 @@ class Component extends React.Component {
 
     return (
       <Main>
+        <h1>
+          <T>Create a free account</T>
+        </h1>
+
         <Formik
           validationSchema={schema}
           onSubmit={onSubmit}
@@ -40,29 +44,22 @@ class Component extends React.Component {
             <Form>
               <IonList lines="full">
                 <InputWithValidation
+                  name="name"
+                  placeholder="Full Name"
+                  icon={personOutline}
+                  type="text"
+                  {...props}
+                />
+                <InputWithValidation
                   name="email"
-                  placeholder={t('Email')}
+                  placeholder="Email"
                   icon={mailOutline}
                   type="email"
                   {...props}
                 />
                 <InputWithValidation
-                  name="firstname"
-                  placeholder={t('First Name')}
-                  icon={personOutline}
-                  type="text"
-                  {...props}
-                />
-                <InputWithValidation
-                  name="secondname"
-                  placeholder={t('Surname')}
-                  icon={personOutline}
-                  type="text"
-                  {...props}
-                />
-                <InputWithValidation
                   name="password"
-                  placeholder={t('Password')}
+                  placeholder="Password"
                   icon={keyOutline}
                   type={showPassword ? 'text' : 'password'}
                   {...props}
@@ -79,27 +76,29 @@ class Component extends React.Component {
                     />
                   </IonButton>
                 </InputWithValidation>
-                <ToggleWithValidation
-                  name="terms"
-                  label={(
-                    <>
-                      {t('I agree to')}{' '}
-                      <a
-                        href={`${config.site_url}/privacy-notice?lang=${lang}`}
-                      >
-                        {t('Terms and Conditions')}
-                      </a>
-                    </>
-                  )}
-                  icon={lockClosedOutline}
-                  type="terms"
-                  {...props}
-                />
+
+                <div className="terms-info-text">
+                  <T>
+                    By clicking Sign Up, you agree to our{' '}
+                    <IonRouterLink
+                      href={`${config.backend.url}/privacy-notice?lang=${lang}`}
+                    >
+                      Terms and Conditions
+                    </IonRouterLink>
+                  </T>
+                </div>
               </IonList>
 
               <IonButton color="primary" type="submit" expand="block">
-                {t('Register')}
+                <T>Sign Up</T>
               </IonButton>
+
+              <div className="signin-button">
+                I'm already a member.{' '}
+                <IonRouterLink routerLink="/user/login">
+                  <T>Sign In</T>
+                </IonRouterLink>
+              </div>
             </Form>
           )}
         </Formik>

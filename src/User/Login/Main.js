@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { IonIcon, IonButton, IonList, IonItem } from '@ionic/react';
+import { IonIcon, IonButton, IonList, IonRouterLink } from '@ionic/react';
 import {
   keyOutline,
   personOutline,
   eyeOutline,
   eyeOffOutline,
 } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
 import { Formik, Form } from 'formik';
 import { Main, InputWithValidation } from '@apps';
 
@@ -27,9 +28,13 @@ class Component extends React.Component {
 
     return (
       <Main>
-        <div className="info-message">
-          <p>{t('Please sign in or register.')}</p>
-        </div>
+        <h1>
+          <T>Welcome back</T>
+        </h1>
+        <h2>
+          <T>Sign in to your account to start</T>
+        </h2>
+
         <Formik
           validationSchema={schema}
           onSubmit={onSubmit}
@@ -40,14 +45,14 @@ class Component extends React.Component {
               <IonList lines="full">
                 <InputWithValidation
                   name="name"
-                  placeholder={t('Username or email')}
+                  placeholder="Email"
                   icon={personOutline}
                   type="text"
                   {...props}
                 />
                 <InputWithValidation
                   name="password"
-                  placeholder={t('Password')}
+                  placeholder="Password"
                   icon={keyOutline}
                   type={showPassword ? 'text' : 'password'}
                   {...props}
@@ -64,20 +69,18 @@ class Component extends React.Component {
                     />
                   </IonButton>
                 </InputWithValidation>
+                <IonRouterLink
+                  routerLink="/user/reset"
+                  defaultHref="/user/register"
+                  className="password-forgot-button"
+                >
+                  <T>Forgot password?</T>
+                </IonRouterLink>
               </IonList>
 
               <IonButton color="primary" type="submit" expand="block">
-                {t('Sign in')}
+                <T>Sign In</T>
               </IonButton>
-
-              <IonList>
-                <IonItem routerLink="/user/register" detail>
-                  {t('Register')}
-                </IonItem>
-                <IonItem routerLink="/user/reset" detail>
-                  {t('Forgot password?')}
-                </IonItem>
-              </IonList>
             </Form>
           )}
         </Formik>

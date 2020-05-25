@@ -3,25 +3,23 @@ import PropTypes from 'prop-types';
 import { IonButton, IonList } from '@ionic/react';
 import { Main, InputWithValidation } from '@apps';
 import { personOutline } from 'ionicons/icons';
+import { Trans as T } from 'react-i18next';
 import { Formik, Form } from 'formik';
 
 const Component = ({ onSubmit, schema }) => {
   return (
     <Main>
-      <div className="info-message">
-        <p>
-          {t(
-            'Enter your username or email address to request a password reset.'
-          )}
-        </p>
-      </div>
+      <h2>
+        <T>Enter your email address to request a password reset.</T>
+      </h2>
+
       <Formik validationSchema={schema} onSubmit={onSubmit} initialValues={{}}>
         {props => (
           <Form>
             <IonList lines="full">
               <InputWithValidation
                 name="name"
-                placeholder={t('Username or email')}
+                placeholder="Email"
                 icon={personOutline}
                 type="text"
                 {...props}
@@ -29,7 +27,7 @@ const Component = ({ onSubmit, schema }) => {
             </IonList>
 
             <IonButton color="primary" type="submit" expand="block">
-              {t('Reset')}
+              <T>Reset</T>
             </IonButton>
           </Form>
         )}

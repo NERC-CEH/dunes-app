@@ -346,3 +346,67 @@ msgstr "Each photograph should be taken in the direction of the bearing of the t
 # Photo picker helper 
 msgid "Take the photograph at eye level."
 msgstr "Take the photograph at eye level."
+
+# Part of sign in and registration flow
+msgid "Enter your email address to request a password reset."
+msgstr "Enter your email address to request a password reset."
+
+# Part of sign in and registration flow
+msgid "Email"
+msgstr "Email"
+
+# Part of sign in and registration flow
+msgid "Create a free account"
+msgstr "Create a free account"
+
+# Part of sign in and registration flow
+msgid "Full Name"
+msgstr "Full Name"
+
+# Part of sign in and registration flow
+msgid "Password"
+msgstr "Password"
+
+# Part of sign in and registration flow
+msgid "By clicking Sign Up, you agree to our <2>Terms and Conditions</2>"
+msgstr "By clicking Sign Up, you agree to our <2>Terms and Conditions</2>"
+
+# Part of sign in and registration flow
+msgid "Sign Up"
+msgstr "Sign Up"
+
+# Part of sign in and registration flow
+msgid "Sign In"
+msgstr "Sign In"
+
+# Part of sign in and registration flow
+msgid "Welcome back"
+msgstr "Welcome back"
+
+# Part of sign in and registration flow
+msgid "Sign in to your account to start"
+msgstr "Sign in to your account to start"
+
+# Part of sign in and registration flow
+msgid "Username or email"
+msgstr "Username or email"
+
+# Part of sign in and registration flow
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+# User login/registration validation output
+msgid "password is a required field"
+msgstr "password is a required field"
+
+# User login/registration validation output
+msgid "email is a required field"
+msgstr "email is a required field"
+
+# User login/registration validation output
+msgid "email is not valid"
+msgstr "email is not valid"
+
+# User login/registration validation output
+msgid "name is a required field"
+msgstr "name is a required field"

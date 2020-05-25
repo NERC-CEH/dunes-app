@@ -10,13 +10,13 @@ import {
   IonMenu,
   IonMenuToggle,
 } from '@ionic/react';
+import userModel from 'userModel';
 import {
   homeOutline,
   informationCircleOutline,
   heartCircleOutline,
   personOutline,
   logOut,
-  personAddOutline,
   settingsOutline,
 } from 'ionicons/icons';
 
@@ -43,8 +43,7 @@ const routes = {
   ],
   loggedInPages: [{ title: 'Logout', path: '/user/logout', icon: logOut }],
   loggedOutPages: [
-    { title: 'Login', path: '/user/login', icon: personOutline },
-    { title: 'Register', path: '/user/register', icon: personAddOutline },
+    { title: 'User', path: '/user/register', icon: personOutline },
   ],
 };
 
@@ -72,7 +71,7 @@ const Menu = () => {
   const location = useLocation();
   const getRoutes = routesList => renderMenuRoutes(routesList, location);
 
-  const showAccountLinks = window.document.location.href.includes('localhost');
+  const { isLoggedIn } = userModel.attrs;
 
   return (
     <IonMenu type="overlay" contentId="main">
@@ -82,11 +81,10 @@ const Menu = () => {
           {getRoutes(routes.appPages)}
         </IonList>
 
-        {showAccountLinks && (
-          <IonList lines="none">
-            <IonListHeader>Account</IonListHeader>
-            {getRoutes(routes.loggedOutPages)}
-          </IonList>
+        {isLoggedIn ? (
+          <IonList lines="none">{getRoutes(routes.loggedInPages)}</IonList>
+        ) : (
+          <IonList lines="none">{getRoutes(routes.loggedOutPages)}</IonList>
         )}
       </IonContent>
     </IonMenu>
