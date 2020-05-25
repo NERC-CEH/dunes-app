@@ -2,23 +2,32 @@ import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import { Trans as T, withTranslation } from 'react-i18next';
-import { IonIcon, IonList, IonItem, IonLabel, IonNote } from '@ionic/react';
+import { IonIcon, IonList, IonItem, IonLabel } from '@ionic/react';
 import {
   arrowUndoOutline,
   shareSocialOutline,
   flagOutline,
 } from 'ionicons/icons';
 import languages from 'common/config/languages';
-import { alert, Main, Toggle, MenuAttrItem } from '@apps';
+import { alert, Main, Toggle, MenuAttrItem, MenuNote } from '@apps';
 import config from 'config';
 import './styles.scss';
 
 function resetDialog(resetApp, t) {
   alert({
     header: t('Reset'),
-    message: `${t(
-      'Are you sure you want to reset the application to its initial state?'
-    )}<p><b>${t('This will wipe all the locally stored app data!')}</b></p>`,
+    message: (
+      <>
+        <T>
+          Are you sure you want to reset the application to its initial state?
+        </T>
+        <p>
+          <b>
+            <T>This will wipe all the locally stored app data!</T>
+          </b>
+        </p>
+      </>
+    ),
     buttons: [
       {
         text: t('Cancel'),
@@ -66,15 +75,9 @@ class Component extends React.Component {
               checked={sendAnalytics}
             />
           </IonItem>
-          <IonItem>
-            <IonLabel class="ion-text-wrap">
-              <IonNote color="primary">
-                <T>
-                  Share app crash data so we can make the app more reliable.
-                </T>
-              </IonNote>
-            </IonLabel>
-          </IonItem>
+          <MenuNote>
+            Share app crash data so we can make the app more reliable.
+          </MenuNote>
 
           <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp, t)}>
             <IonIcon icon={arrowUndoOutline} size="small" slot="start" />
