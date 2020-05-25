@@ -13,10 +13,21 @@
     --border-width: 0;
     --background: var(--ion-color-light);
     --color: var(--ion-color-light-contrast);
-    span {
+    
+    div {
       margin: 0 auto;
       font-weight: 200;
       text-align: center;
+      padding: 20px 0;
+    }
+
+    ion-icon {
+      background: var(--ion-color-primary);
+      padding: 5px;
+      border-radius: 10px;
+      color: white;
+      margin: 0 5px 0 8px;
+      margin-bottom: -7px;
     }
   }
 }

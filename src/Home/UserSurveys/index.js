@@ -11,11 +11,11 @@ import {
   IonLabel,
   IonBadge,
   IonList,
-  // IonIcon,
+  IonIcon,
   IonButton,
 } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-// import { cloudUploadOutline } from 'ionicons/icons';
+import { add } from 'ionicons/icons';
 import { observer } from 'mobx-react';
 import { Page, Main } from '@apps';
 import Survey from './components/Survey';
@@ -53,9 +53,7 @@ class Component extends React.Component {
       return (
         <IonList lines="full">
           <IonItem className="empty">
-            <span>
-              <T>{emptyText}</T>
-            </span>
+            <div>{emptyText}</div>
           </IonItem>
         </IonList>
       );
@@ -69,12 +67,30 @@ class Component extends React.Component {
 
   getUploadedSurveys = () => {
     const surveys = this.getSamplesList(true);
-    return this.getSurveys(surveys, 'No uploaded surveys');
+    const emptyText = (
+      <>
+        <T>No uploaded surveys</T>
+      </>
+    );
+
+    return this.getSurveys(surveys, emptyText);
   };
 
   getPendingSurveys = () => {
     const surveys = this.getSamplesList();
-    return this.getSurveys(surveys, 'No finished pending surveys');
+    const emptyText = (
+      <>
+        <T>No finished pending surveys.</T>
+        <br />
+        <br />
+        <T>
+          Press
+          <IonIcon icon={add} /> to add.
+        </T>
+      </>
+    );
+
+    return this.getSurveys(surveys, emptyText);
   };
 
   getPendingSurveysCount = () => {
