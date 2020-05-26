@@ -35,7 +35,7 @@ function index() {
           <IonItem
             className="language-button"
             detail
-            href={config.backend.url}
+            href={config.promotionalWebsiteUrl}
             detailIcon={openOutline}
           >
             <IonLabel>

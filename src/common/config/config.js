@@ -5,7 +5,7 @@ import Indicia from '@indicia-js/core';
 
 const backendUrl =
   process.env.APP_INDICIA_API_HOST ||
-  'https://dev-brc-dunescapes.pantheonsite.io'; // TODO
+  'https://dev-brc-dunescapes.pantheonsite.io/'; // TODO
 
 const config = {
   // variables replaced on build
@@ -29,6 +29,8 @@ const config = {
     mapboxOsmId: 'cehapps.0fenl1fe',
     mapboxSatelliteId: 'cehapps.0femh3mh',
   },
+
+  promotionalWebsiteUrl: 'https://www.dynamicdunescapes.co.uk',
 
   backend: {
     url: backendUrl,
