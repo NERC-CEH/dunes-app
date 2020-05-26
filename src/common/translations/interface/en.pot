@@ -410,3 +410,7 @@ msgstr "email is not valid"
 # User login/registration validation output
 msgid "name is a required field"
 msgstr "name is a required field"
+
+# Home page button label 
+msgid "Project Website"
+msgstr "Project Website"

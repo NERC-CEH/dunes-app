@@ -12,7 +12,7 @@
     top: 7%;
     transform: translateX(-50%);
   }
-  
+
   ion-content .background-image {
     position: absolute;
     height: 100%;
@@ -26,6 +26,10 @@
     filter: blur(8px);
   }
 
+  ion-content ion-item-group {
+    margin-top: 80%;
+  }
+  
   ion-toolbar {
     --ion-toolbar-background: transparent;
 

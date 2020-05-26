@@ -5,8 +5,13 @@ import {
   IonButtons,
   IonMenuButton,
   IonItem,
+  IonItemGroup,
+  IonLabel,
 } from '@ionic/react';
 import { Page, Main } from '@apps';
+import { Trans as T } from 'react-i18next';
+import { openOutline } from 'ionicons/icons';
+import config from 'config';
 import './styles.scss';
 import './appLogo.png';
 import './homePageBackground.jpg';
@@ -26,9 +31,18 @@ function index() {
         <img className="app-logo" src="/images/appLogo.png" alt="" />
         <div className="background-image" />
 
-        <IonItem class="empty-page-message" lines="none">
-          <p>Buttons list will be here.</p>
-        </IonItem>
+        <IonItemGroup>
+          <IonItem
+            className="language-button"
+            detail
+            href={config.backend.url}
+            detailIcon={openOutline}
+          >
+            <IonLabel>
+              <T>Project Website</T>
+            </IonLabel>
+          </IonItem>
+        </IonItemGroup>
       </Main>
     </Page>
   );
