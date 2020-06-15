@@ -25,7 +25,7 @@ const survey = {
     },
 
     comment: {
-      label: 'Notes',
+      label: 'Comment',
       icon: chatboxOutline,
       type: 'textarea',
       info: 'Please add any extra information about your survey.',
