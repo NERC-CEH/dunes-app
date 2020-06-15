@@ -25,7 +25,7 @@ class Component extends React.Component {
           <MenuAttrItemFromModel attr="comment" model={sample} />
 
           <MenuAttrItem
-            routerLink={`${match.url}/transects`}
+            routerLink={`${match.url}/location`}
             value={transect}
             label="Location"
             icon={locationOutline}

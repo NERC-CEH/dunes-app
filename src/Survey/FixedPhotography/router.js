@@ -5,37 +5,33 @@ import appModel from 'appModel';
 import userModel from 'userModel';
 import survey from 'common/config/surveys/photography';
 import StartNewSurvey from 'Survey/common/Components/StartNewSurvey';
-import LocationTransects from 'Survey/common/Components/Transects';
-import LocationSites from 'Survey/common/Components/Sites';
-import Edit from './Home';
-import LocationMenu from './Location';
-import LocationPointEdit from './Point';
+import Transects from 'Survey/common/Components/Transects';
+import Sites from 'Survey/common/Components/Sites';
+import Home from './Home';
+import Location from './Location';
+import Point from './Point';
 
 const baseURL = `/survey/${survey.name}`;
 
 const routes = [
   [`${baseURL}/new`, StartNewSurvey.with(survey), true],
-  [`${baseURL}/:smpId/edit`, Edit],
+  [`${baseURL}/:smpId/edit`, Home],
   [
-    `${baseURL}/:smpId/edit/transects`,
-    params => <LocationMenu appModel={appModel} {...params} />,
+    `${baseURL}/:smpId/edit/location`,
+    params => <Location appModel={appModel} {...params} />,
   ],
   [
-    `${baseURL}/:smpId/edit/transects/sites`,
-    params => <LocationSites appModel={appModel} {...params} />,
+    `${baseURL}/:smpId/edit/location/sites`,
+    params => <Sites appModel={appModel} {...params} />,
   ],
   [
-    `${baseURL}/:smpId/edit/transects/list`,
+    `${baseURL}/:smpId/edit/location/list`,
     params => (
-      <LocationTransects
-        appModel={appModel}
-        userModel={userModel}
-        {...params}
-      />
+      <Transects appModel={appModel} userModel={userModel} {...params} />
     ),
   ],
-  [`${baseURL}/:smpId/edit/transects/:subSmpId`, LocationPointEdit],
-  [`${baseURL}/:smpId/edit/transects/:subSmpId/:attr`, Attr],
+  [`${baseURL}/:smpId/edit/location/:subSmpId`, Point],
+  [`${baseURL}/:smpId/edit/location/:subSmpId/:attr`, Attr],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];
 

@@ -10,7 +10,7 @@ class Controller extends React.Component {
   render() {
     return (
       <Page id="survey-plant-quadrat-transect-edit">
-        <Header title="Transect" />
+        <Header title="Location" />
         <Main {...this.props} />
       </Page>
     );

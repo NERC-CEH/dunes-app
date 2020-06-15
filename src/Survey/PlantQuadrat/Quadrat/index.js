@@ -19,8 +19,8 @@ class Controller extends React.Component {
     const { sample, subSample, location } = this.props;
 
     const baseURL = location.pathname.replace(
-      /edit\/transects\/.*/g,
-      `edit/transects`
+      /edit\/location\/.*/g,
+      `edit/location`
     );
 
     const currentSectionIndex = sample.samples.findIndex(
