@@ -144,3 +144,10 @@ ion-button[type='submit'] {
 ion-textarea {
   --padding-start: 10px !important;
 }
+
+
+.menu-attr-item-long-value {
+  ion-label[slot='end'] {
+    font-size: 0.8em;
+  }
+}

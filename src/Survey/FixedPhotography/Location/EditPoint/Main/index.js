@@ -22,9 +22,6 @@ class Component extends React.Component {
   render() {
     const { subSample } = this.props;
 
-    // const survey = subSample.getSurvey();
-    // const { disturbance } = subSample.attrs;
-
     const [
       latitude,
       longitude,
@@ -45,14 +42,8 @@ class Component extends React.Component {
             icon={locateOutline}
             label="Grid Ref"
             disabled
-            className="point-location-gridref"
+            className="menu-attr-item-long-value"
           />
-          {/* <MenuAttrItem
-            routerLink={`${baseURL}/disturbance`}
-            disabled={isDisabled}
-            value={disturbance}
-            {...survey.attrs.disturbance}
-          /> */}
 
           <MenuNote skipTranslation>
             <T>Please add a photo below.</T>
