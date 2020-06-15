@@ -12,6 +12,7 @@ import {
 import { Trans as T } from 'react-i18next';
 import { homeOutline, albumsOutline, add } from 'ionicons/icons';
 import savedSamples from 'savedSamples';
+import habitatsIcon from 'common/images/habitats.svg';
 import Home from './Home';
 import Species from './Species';
 import Surveys from './Surveys';
@@ -19,7 +20,6 @@ import UserSurveys from './UserSurveys';
 import Habitats from './Habitats';
 import './styles.scss';
 import './flower.svg';
-import './habitats.svg';
 
 const Component = () => {
   const tabsRef = useRef();
@@ -66,7 +66,7 @@ const Component = () => {
           </IonTabButton>
 
           <IonTabButton tab="home/habitats" href="/home/habitats">
-            <IonIcon src="/images/habitats.svg" />
+            <IonIcon src={habitatsIcon} />
             <IonLabel>
               <T>Habitats</T>
             </IonLabel>
