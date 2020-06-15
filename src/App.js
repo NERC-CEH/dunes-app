@@ -9,10 +9,10 @@ import LanguageSelectRequired from 'Components/LanguageSelectRequire';
 import Menu from 'Components/Menu';
 import SplashScreenRequired from './Info/SplashScreenRequired';
 import Home from './Home';
-import Info from './Info';
-import User from './User';
-import Settings from './Settings';
-import Survey from './Survey';
+import Info from './Info/router';
+import User from './User/router';
+import Settings from './Settings/router';
+import Survey from './Survey/router';
 import 'common/translations/translator';
 
 /* Core CSS required for Ionic components to work properly */
