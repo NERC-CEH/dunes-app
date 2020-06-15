@@ -4,6 +4,7 @@
 import Log from 'helpers/log';
 import CONFIG from 'config';
 import { DrupalUserModel } from '@apps';
+import * as Yup from 'yup';
 import { genericStore } from './store';
 import dummyTransects from './dummyTransects.json';
 
@@ -18,9 +19,18 @@ class UserModel extends DrupalUserModel {
       }, 2000);
     });
   }
+
+  registerSchema = Yup.object().shape({
+    email: Yup.string()
+      .email()
+      .required(),
+    password: Yup.string().required(),
+    fullName: Yup.string().required(),
+  });
 }
 
 const defaults = {
+  fullName: '',
   transects: [],
 };
 

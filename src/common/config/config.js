@@ -1,11 +1,9 @@
 /** ****************************************************************************
  * Main app configuration file.
  **************************************************************************** */
-import Indicia from '@indicia-js/core';
 
 const backendUrl =
-  process.env.APP_INDICIA_API_HOST ||
-  'https://dev-brc-dunescapes.pantheonsite.io/'; // TODO
+  process.env.APP_BACKEND_URL || 'https://dev-brc-dunescapes.pantheonsite.io'; // TODO
 
 const config = {
   // variables replaced on build
@@ -34,14 +32,9 @@ const config = {
 
   backend: {
     url: backendUrl,
-
-    users: {
-      url: `${backendUrl + Indicia.API_BASE + Indicia.API_VER}/users/`,
-      timeout: 80000,
-    },
+    clientId: process.env.APP_BACKEND_CLIENT_ID,
 
     indicia: {
-      apiKey: process.env.APP_INDICIA_API_KEY,
       websiteId: 118,
     },
   },

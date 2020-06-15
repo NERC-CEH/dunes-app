@@ -9,7 +9,7 @@ import './styles.scss';
 const { warn, error } = toast;
 
 async function onSubmit(userModel, details, onSuccess) {
-  const { name } = details;
+  const { email } = details;
   if (!device.isOnline()) {
     warn(t("Sorry, looks like you're offline."));
     return;
@@ -18,12 +18,8 @@ async function onSubmit(userModel, details, onSuccess) {
     message: t('Please wait...'),
   });
 
-  const resetDetails = {
-    name: name.trim(),
-  };
-
   try {
-    await userModel.reset(resetDetails);
+    await userModel.reset(email.trim());
     alert({
       header: t("We've sent an email to you"),
       message: t(
@@ -39,7 +35,7 @@ async function onSubmit(userModel, details, onSuccess) {
     });
   } catch (err) {
     Log(err, 'e');
-    error(`${err.message}`);
+    error(t(err.message));
   }
 
   loader.hide();
@@ -49,7 +45,7 @@ export default function Container({ userModel }) {
   const context = useContext(NavContext);
 
   const onSuccess = () => {
-    context.goBack();
+    context.navigate('/home/info', 'root');
   };
 
   return (

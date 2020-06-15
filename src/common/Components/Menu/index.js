@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { withRouter, useLocation } from 'react-router';
 import {
   IonContent,
@@ -10,7 +11,6 @@ import {
   IonMenu,
   IonMenuToggle,
 } from '@ionic/react';
-import userModel from 'userModel';
 import {
   homeOutline,
   informationCircleOutline,
@@ -19,6 +19,8 @@ import {
   logOut,
   settingsOutline,
 } from 'ionicons/icons';
+import { observer } from 'mobx-react';
+import { Trans as T } from 'react-i18next';
 
 import './styles.scss';
 
@@ -41,9 +43,8 @@ const routes = {
       icon: settingsOutline,
     },
   ],
-  loggedInPages: [{ title: 'Logout', path: '/user/logout', icon: logOut }],
   loggedOutPages: [
-    { title: 'User', path: '/user/register', icon: personOutline },
+    { title: 'Register/Login', path: '/user/register', icon: personOutline },
   ],
 };
 
@@ -67,11 +68,26 @@ function renderMenuRoutes(list, location) {
     ));
 }
 
-const Menu = () => {
+const getLogoutButton = userModel => (
+  <IonItem
+    detail={false}
+    routerDirection="none"
+    onClick={() => {
+      userModel.logOut();
+    }}
+  >
+    <IonIcon slot="start" icon={logOut} />
+    <IonLabel>
+      <T>Logout: {userModel.attrs.email}</T>
+    </IonLabel>
+  </IonItem>
+);
+
+const Menu = observer(({ userModel }) => {
   const location = useLocation();
   const getRoutes = routesList => renderMenuRoutes(routesList, location);
 
-  const { isLoggedIn } = userModel.attrs;
+  const isLoggedIn = !!userModel.attrs.id;
 
   return (
     <IonMenu type="overlay" contentId="main">
@@ -81,14 +97,21 @@ const Menu = () => {
           {getRoutes(routes.appPages)}
         </IonList>
 
-        {isLoggedIn ? (
-          <IonList lines="none">{getRoutes(routes.loggedInPages)}</IonList>
-        ) : (
-          <IonList lines="none">{getRoutes(routes.loggedOutPages)}</IonList>
-        )}
+        <IonList lines="none">
+          <IonListHeader>
+            <T>Account</T>
+          </IonListHeader>
+          {isLoggedIn
+            ? getLogoutButton(userModel)
+            : getRoutes(routes.loggedOutPages)}
+        </IonList>
       </IonContent>
     </IonMenu>
   );
+});
+
+Menu.propTypes = {
+  userModel: PropTypes.object.isRequired,
 };
 
 export default withRouter(Menu);

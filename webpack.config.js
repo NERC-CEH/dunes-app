@@ -5,8 +5,8 @@ require('dotenv').config({ silent: true }); // get local environment variables f
 const checkEnv = require('@flumens/has-env');
 
 checkEnv({
-  warn: ['APP_MANUAL_TESTING', 'APP_INDICIA_API_HOST'],
-  required: ['APP_MAPBOX_MAP_KEY', 'APP_SENTRY_KEY', 'APP_INDICIA_API_KEY'],
+  warn: ['APP_MANUAL_TESTING', 'APP_BACKEND_URL'],
+  required: ['APP_MAPBOX_MAP_KEY', 'APP_SENTRY_KEY', 'APP_BACKEND_CLIENT_ID'],
 });
 
 const path = require('path');
@@ -148,17 +148,15 @@ const config = {
         APP_VERSION: JSON.stringify(pkg.version), // no need to be an env value
 
         // mandatory env. variables
-        APP_INDICIA_API_KEY: JSON.stringify(
-          process.env.APP_INDICIA_API_KEY || ''
+        APP_BACKEND_CLIENT_ID: JSON.stringify(
+          process.env.APP_BACKEND_CLIENT_ID || ''
         ),
         APP_MAPBOX_MAP_KEY: JSON.stringify(
           process.env.APP_MAPBOX_MAP_KEY || ''
         ),
 
         // compulsory env. variables
-        APP_INDICIA_API_HOST: JSON.stringify(
-          process.env.APP_INDICIA_API_HOST || ''
-        ),
+        APP_BACKEND_URL: JSON.stringify(process.env.APP_BACKEND_URL || ''),
         APP_SENTRY_KEY: JSON.stringify(process.env.APP_SENTRY_KEY || ''),
       },
     }),

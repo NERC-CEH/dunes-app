@@ -4,6 +4,7 @@ import { Route, Redirect } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import appModel from 'appModel';
+import userModel from 'userModel';
 import LanguageSelectRequired from 'Components/LanguageSelectRequire';
 import Menu from 'Components/Menu';
 import SplashScreenRequired from './Info/SplashScreenRequired';
@@ -33,7 +34,7 @@ const App = () => (
     <IonReactRouter>
       <LanguageSelectRequired appModel={appModel}>
         <SplashScreenRequired appModel={appModel}>
-          <Menu />
+          <Menu userModel={userModel} />
           <IonRouterOutlet id="main">
             <Route path="/home" component={Home} />
             {Info}

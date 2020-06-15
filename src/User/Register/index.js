@@ -9,7 +9,12 @@ import './styles.scss';
 const { warn, error } = toast;
 
 async function onRegister(userModel, details, lang, onSuccess) {
-  const { email, password, firstname, secondname } = details;
+  const email = details.email.trim();
+  const { password, fullName } = details;
+  const otherDetails = {
+    field_full_name: [{ value: fullName.trim() }],
+  };
+
   if (!device.isOnline()) {
     warn(t("Sorry, looks like you're offline."));
     return;
@@ -18,19 +23,12 @@ async function onRegister(userModel, details, lang, onSuccess) {
     message: t('Please wait...'),
   });
 
-  const registrationDetails = {
-    type: 'users',
-    email: email.trim(),
-    firstname: firstname.trim(),
-    secondname: secondname.trim(),
-    password,
-    passwordConfirm: password,
-    termsAgree: true,
-    lang,
-  };
-
   try {
-    await userModel.register(registrationDetails);
+    await userModel.register(email, password, otherDetails);
+
+    userModel.attrs.fullName = fullName; // eslint-disable-line
+    userModel.save();
+
     alert({
       header: t('Welcome aboard!'),
       message: t(
@@ -46,7 +44,7 @@ async function onRegister(userModel, details, lang, onSuccess) {
     });
   } catch (err) {
     Log(err, 'e');
-    error(`${err.message}`);
+    error(t(err.message));
   }
 
   loader.hide();
@@ -57,7 +55,7 @@ export default function RegisterContainer({ userModel, appModel }) {
   const context = useContext(NavContext);
 
   const onSuccess = () => {
-    context.goBack();
+    context.navigate('/home/info', 'root');
   };
 
   return (

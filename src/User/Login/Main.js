@@ -44,10 +44,10 @@ class Component extends React.Component {
             <Form>
               <IonList lines="full">
                 <InputWithValidation
-                  name="name"
+                  name="email"
                   placeholder="Email"
                   icon={personOutline}
-                  type="text"
+                  type="email"
                   {...props}
                 />
                 <InputWithValidation

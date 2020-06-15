@@ -44,7 +44,7 @@ class Component extends React.Component {
             <Form>
               <IonList lines="full">
                 <InputWithValidation
-                  name="name"
+                  name="fullName"
                   placeholder="Full Name"
                   icon={personOutline}
                   type="text"

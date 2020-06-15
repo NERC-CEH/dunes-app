@@ -26,6 +26,10 @@
   }
 
   ion-content {
+    ion-icon {
+      color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 1);
+    }
+
     h1 {
       text-align: center;
       font-size: 1.4em;
@@ -37,7 +41,7 @@
       display: block;
       padding: 20px 20px 10px;
       text-align: center;
-      font-size: 0.8em;
+      font-size: 0.85em;
       color: var(--ion-color-dark);
     }
 
@@ -46,7 +50,7 @@
     }
 
     .signin-button {
-      font-size: 0.8em;
+      font-size: 0.85em;
       text-align: center;
     }
   }

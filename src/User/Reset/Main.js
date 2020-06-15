@@ -18,10 +18,10 @@ const Component = ({ onSubmit, schema }) => {
           <Form>
             <IonList lines="full">
               <InputWithValidation
-                name="name"
+                name="email"
                 placeholder="Email"
                 icon={personOutline}
-                type="text"
+                type="email"
                 {...props}
               />
             </IonList>

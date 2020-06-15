@@ -16,7 +16,6 @@ export { default as Gallery } from '@bit/flumens.apps.gallery';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';
-export { default as makeRequest } from '@bit/flumens.apps.helpers.make-request';
 export { default as alert } from '@bit/flumens.apps.helpers.alert';
 export { default as actionSheet } from '@bit/flumens.apps.helpers.action-sheet';
 export { default as loader } from '@bit/flumens.apps.helpers.loader';
