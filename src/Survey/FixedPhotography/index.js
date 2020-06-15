@@ -6,11 +6,11 @@ import savedSamples from 'savedSamples';
 import appModel from 'appModel';
 import userModel from 'userModel';
 import survey from 'common/config/surveys/photography';
-import Edit from './Edit';
-import LocationMenu from './Location/Menu';
-import LocationTransects from './Location/Transects';
-import LocationSites from './Location/Sites';
-import LocationPointEdit from './Location/EditPoint';
+import LocationTransects from 'Survey/common/Components/Transects';
+import LocationSites from 'Survey/common/Components/Sites';
+import Edit from './Home';
+import LocationMenu from './Location';
+import LocationPointEdit from './Point';
 
 const baseURL = `/survey/${survey.name}`;
 const draftIdKey = `draftId:${survey.name}`;

@@ -13,6 +13,7 @@ export { default as Toggle } from '@bit/flumens.apps.toggle';
 export { default as MenuNote } from '@bit/flumens.apps.menu-note-item';
 export { default as InfoButton } from '@bit/flumens.apps.info-button';
 export { default as Gallery } from '@bit/flumens.apps.gallery';
+export { default as MenuAttrItemFromModel } from '@bit/flumens.apps.menu-attr-item-from-model';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';
