@@ -27,4 +27,12 @@ export default class AppSample extends Sample {
 
     return survey;
   }
+
+  isDisabled() {
+    if (this.parent) {
+      return this.parent.isDisabled();
+    }
+
+    return !!this.metadata.synced_on;
+  }
 }
