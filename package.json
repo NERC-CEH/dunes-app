@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
-    "@bit/flumens.apps.attr-page": "0.1.0",
+    "@bit/flumens.apps.attr-page": "0.2.2",
     "@bit/flumens.apps.date": "^0.1.0",
     "@bit/flumens.apps.device": "^0.1.0",
     "@bit/flumens.apps.gallery": "0.1.0",
