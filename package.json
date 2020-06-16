@@ -46,7 +46,7 @@
     "@bit/flumens.apps.models.store": "0.1.0",
     "@bit/flumens.apps.page": "0.1.0",
     "@bit/flumens.apps.radio-input": "0.3.0",
-    "@bit/flumens.apps.route-with-models": "0.1.0",
+    "@bit/flumens.apps.route-with-models": "0.1.1",
     "@bit/flumens.apps.section": "0.4.0",
     "@bit/flumens.apps.toggle": "^0.1.0",
     "@bit/flumens.apps.toggle-with-validation": "^0.1.1",
