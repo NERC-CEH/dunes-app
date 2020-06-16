@@ -2,14 +2,13 @@ import { observer } from 'mobx-react';
 import React from 'react';
 import locationHelp from 'common/helpers/location';
 import { IonList, IonItemDivider } from '@ionic/react';
-import { locateOutline } from 'ionicons/icons';
+import { locateOutline, gridOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem } from '@apps';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
 import habitatIcon from 'common/images/habitats.svg';
-import coverIcon from 'common/images/squares.svg';
 
 @observer
 class Component extends React.Component {
@@ -72,7 +71,7 @@ class Component extends React.Component {
             routerLink={`${baseURL}/cover`}
             value={`${coverTotal}%`}
             label="Cover"
-            icon={coverIcon}
+            icon={gridOutline}
             wrapText
           />
 

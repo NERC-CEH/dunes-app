@@ -1,6 +1,10 @@
 import { date } from '@apps';
-import { calendarOutline, chatboxOutline, peopleOutline } from 'ionicons/icons';
-import coverIcon from 'common/images/squares.svg';
+import {
+  calendarOutline,
+  chatboxOutline,
+  peopleOutline,
+  gridOutline,
+} from 'ionicons/icons';
 import quadratTransectIcon from 'common/images/quadratTransect.svg';
 
 const survey = {
@@ -52,7 +56,7 @@ const survey = {
         max: 100,
         min: 0,
         step: 0.5,
-        icon: coverIcon,
+        icon: gridOutline,
       },
       moss: {
         id: -1,
@@ -62,7 +66,7 @@ const survey = {
         max: 100,
         min: 0,
         step: 0.5,
-        icon: coverIcon,
+        icon: gridOutline,
       },
       grass: {
         id: -1,
@@ -72,7 +76,7 @@ const survey = {
         max: 100,
         min: 0,
         step: 0.5,
-        icon: coverIcon,
+        icon: gridOutline,
       },
       herbs: {
         id: -1,
@@ -82,7 +86,7 @@ const survey = {
         max: 100,
         min: 0,
         step: 0.5,
-        icon: coverIcon,
+        icon: gridOutline,
       },
       shrubs: {
         id: -1,
@@ -92,7 +96,7 @@ const survey = {
         max: 100,
         min: 0,
         step: 0.5,
-        icon: coverIcon,
+        icon: gridOutline,
       },
       scrub: {
         id: -1,
@@ -102,7 +106,7 @@ const survey = {
         max: 100,
         min: 0,
         step: 0.5,
-        icon: coverIcon,
+        icon: gridOutline,
       },
     },
 

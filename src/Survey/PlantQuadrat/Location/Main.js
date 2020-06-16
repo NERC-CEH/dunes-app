@@ -2,7 +2,7 @@ import { observer } from 'mobx-react';
 import React from 'react';
 import { IonList, IonItemDivider, IonItem } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-import { locationOutline, locateOutline } from 'ionicons/icons';
+import { locationOutline, gridOutline, squareOutline } from 'ionicons/icons';
 import locationHelp from 'common/helpers/location';
 import { Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
@@ -53,7 +53,7 @@ class Component extends React.Component {
           key={cid}
           routerLink={`${match.url}/${cid}`}
           value={prettyGridRef}
-          icon={locateOutline}
+          icon={squareOutline}
           label={`Quadrat #${pointNo}`}
           className="survey-point-item"
         />
@@ -91,8 +91,8 @@ class Component extends React.Component {
             routerLink={`${match.url}/list`}
             disabled={isDisabled || !favouriteSite}
             value={location.name}
-            label="Transect"
-            icon="/images/transect.svg"
+            label="Quadrat group"
+            icon={gridOutline}
             wrapText
           />
 
