@@ -1,15 +1,12 @@
 import { date } from '@apps';
-import {
-  calendarOutline,
-  chatboxOutline,
-  peopleOutline,
-} from 'ionicons/icons';
-import cameraIcon from 'common/images/camera-outline.svg';
+import { calendarOutline, chatboxOutline, peopleOutline } from 'ionicons/icons';
+import heightIcon from 'common/images/height.svg';
+import dipwellIcon from 'common/images/water-table-depth.svg';
 
 const survey = {
-  name: 'fixed-photography',
-  label: 'Fixed-point Photography',
-  icon: cameraIcon,
+  name: 'dipwell',
+  label: 'Water Table Depth',
+  icon: dipwellIcon,
 
   id: -1, // warehouse id
   render: [],
@@ -46,7 +43,24 @@ const survey = {
   },
 
   smp: {
-    attrs: {},
+    attrs: {
+      comment: {
+        label: 'Comment',
+        icon: chatboxOutline,
+        type: 'textarea',
+        info: 'Please add any extra information about this dipwell.',
+      },
+      height: {
+        id: -1,
+        label: 'Height',
+        type: 'slider',
+        info:
+          'Please specify the water level in centimeters from the top of dipwell down to the water.',
+        max: 200,
+        min: 0,
+        icon: heightIcon,
+      },
+    },
 
     create(Sample, location) {
       const sample = new Sample({
