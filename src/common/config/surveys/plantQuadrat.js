@@ -108,6 +108,20 @@ const survey = {
         step: 0.5,
         icon: gridOutline,
       },
+      height: {
+        id: -1,
+        label: 'Vegetation',
+        type: 'slider',
+        info: 'Please specify the vegetation height in cm.',
+        get: ({ subSample, match }) =>
+          subSample.attrs.height[match.params.heightID],
+        set: (value, { subSample, match }) => {
+          const { heightID } = match.params;
+          subSample.attrs.height[heightID] = value; // eslint-disable-line
+        },
+        max: 200,
+        min: 0,
+      },
     },
 
     create(Sample, location) {
@@ -117,6 +131,7 @@ const survey = {
         },
         attrs: {
           location,
+          height: [null, null, null, null, null],
         },
       });
 

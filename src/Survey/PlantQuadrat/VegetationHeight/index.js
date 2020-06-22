@@ -4,8 +4,8 @@ import { Page, Header } from '@apps';
 import Main from './Main';
 
 const Controller = observer(props => (
-  <Page id="survey-plant-quadrat-vegetation-edit">
-    <Header title="Vegetation Cover" />
+  <Page id="survey-plant-quadrat-vegetation-height-edit">
+    <Header title="Vegetation Height" />
     <Main {...props} />
   </Page>
 ));

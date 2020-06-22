@@ -9,6 +9,7 @@ import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
 import habitatIcon from 'common/images/habitats.svg';
+import heightIcon from 'common/images/height.svg';
 
 @observer
 class Component extends React.Component {
@@ -45,6 +46,15 @@ class Component extends React.Component {
     const coverValues = ['sand', 'moss', 'grass', 'herbs', 'shrubs', 'scrub'];
     const coverTotal = coverValues.reduce(aggregateCoverValues, 0);
 
+    let heightAverage = 0;
+    if (subSample.attrs.height.length) {
+      const totalHeight = subSample.attrs.height.reduce(
+        (total, height) => total + height,
+        0
+      );
+      heightAverage = totalHeight / subSample.attrs.height.length;
+    }
+
     return (
       <Main>
         <IonList lines="full">
@@ -72,6 +82,14 @@ class Component extends React.Component {
             value={`${coverTotal}%`}
             label="Cover"
             icon={gridOutline}
+            wrapText
+          />
+
+          <MenuAttrItem
+            routerLink={`${baseURL}/height`}
+            value={`${heightAverage}cm`}
+            label="Heigth"
+            icon={heightIcon}
             wrapText
           />
 

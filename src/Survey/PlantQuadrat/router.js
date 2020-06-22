@@ -10,7 +10,8 @@ import Sites from 'Survey/common/Components/Sites';
 import Edit from './Home';
 import Location from './Location';
 import Quadrat from './Quadrat';
-import Vegetation from './Vegetation';
+import VegetationCover from './VegetationCover';
+import VegetationHeight from './VegetationHeight';
 
 const baseURL = `/survey/${survey.name}`;
 
@@ -32,7 +33,9 @@ const routes = [
     ),
   ],
   [`${baseURL}/:smpId/edit/location/:subSmpId`, Quadrat],
-  [`${baseURL}/:smpId/edit/location/:subSmpId/cover`, Vegetation],
+  [`${baseURL}/:smpId/edit/location/:subSmpId/cover`, VegetationCover],
+  [`${baseURL}/:smpId/edit/location/:subSmpId/height`, VegetationHeight],
+  [`${baseURL}/:smpId/edit/location/:subSmpId/height/:attr/:heightID`, Attr],
   [`${baseURL}/:smpId/edit/location/:subSmpId/cover/:attr`, Attr],
   [`${baseURL}/:smpId/edit/location/:subSmpId/:attr`, Attr],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
