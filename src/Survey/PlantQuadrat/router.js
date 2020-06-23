@@ -13,6 +13,7 @@ import Location from './Location';
 import Quadrat from './Quadrat';
 import VegetationCover from './VegetationCover';
 import VegetationHeight from './VegetationHeight';
+import IndicatorSpecies from './IndicatorSpecies';
 
 const baseURL = `/survey/${survey.name}`;
 
@@ -36,9 +37,13 @@ const routes = [
   [`${baseURL}/:smpId/edit/location/map`, Map],
   [`${baseURL}/:smpId/edit/location/:subSmpId`, Quadrat],
   [`${baseURL}/:smpId/edit/location/:subSmpId/cover`, VegetationCover],
+  [`${baseURL}/:smpId/edit/location/:subSmpId/cover/:attr`, Attr],
   [`${baseURL}/:smpId/edit/location/:subSmpId/height`, VegetationHeight],
   [`${baseURL}/:smpId/edit/location/:subSmpId/height/:attr/:heightID`, Attr],
-  [`${baseURL}/:smpId/edit/location/:subSmpId/cover/:attr`, Attr],
+  [
+    `${baseURL}/:smpId/edit/location/:subSmpId/species/:indicatorType`,
+    IndicatorSpecies,
+  ],
   [`${baseURL}/:smpId/edit/location/:subSmpId/:attr`, Attr],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];

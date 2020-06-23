@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import './styles.scss';
 import habitatIcon from 'common/images/habitats.svg';
 import heightIcon from 'common/images/height.svg';
+import flowerIcon from 'common/images/flower.svg';
 
 @observer
 class Component extends React.Component {
@@ -90,6 +91,24 @@ class Component extends React.Component {
             value={`${heightAverage}cm`}
             label="Heigth"
             icon={heightIcon}
+            wrapText
+          />
+
+          <IonItemDivider>
+            <T>Indicator Species</T>
+          </IonItemDivider>
+
+          <MenuAttrItem
+            routerLink={`${baseURL}/species/health`}
+            label="Health"
+            icon={flowerIcon}
+            wrapText
+          />
+
+          <MenuAttrItem
+            routerLink={`${baseURL}/species/nitrogen`}
+            label="Nitrogen"
+            icon={flowerIcon}
             wrapText
           />
 

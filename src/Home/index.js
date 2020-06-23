@@ -18,8 +18,8 @@ import Species from './Species';
 import Surveys from './Surveys';
 import UserSurveys from './UserSurveys';
 import Habitats from './Habitats';
+import 'common/images/flower.svg';
 import './styles.scss';
-import './flower.svg';
 
 const Component = () => {
   const tabsRef = useRef();
