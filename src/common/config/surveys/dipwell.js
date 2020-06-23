@@ -52,7 +52,7 @@ const survey = {
       },
       height: {
         id: -1,
-        label: 'Height',
+        label: 'Water Depth',
         type: 'slider',
         info:
           'Please specify the water level in centimeters from the top of dipwell down to the water.',

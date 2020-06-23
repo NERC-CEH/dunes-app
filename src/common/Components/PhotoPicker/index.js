@@ -158,7 +158,7 @@ class PhotoPicker extends Component {
     if (!media.length) {
       return (
         <span className="empty">
-          <T>No photo has been added.</T>
+          <T>Please add a photo for your visit.</T>
           <div>
             <T>
               Press <IonIcon icon={camera} /> to add.
