@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
-import Page from 'Lib/Page';
-import Header from './Header';
+import { Page, Header } from '@apps';
+import { toJS } from 'mobx';
 import Main from './Main';
 import './styles.scss';
 
@@ -19,41 +19,19 @@ class Container extends React.Component {
     sample.toggleGPStracking(on);
   };
 
-  setLocation = shape => {
-    const { sample } = this.props;
-    sample.setLocation(shape);
-  };
-
   render() {
     const { sample } = this.props;
 
-    const location = sample.attrs.location || {};
-    const isGPSTracking = sample.isGPSRunning();
-
-    const { area } = location;
-
-    let areaPretty;
-    if (area) {
-      areaPretty = `${t('Selected area')}: ${area.toLocaleString()} m²`;
-    } else {
-      areaPretty = t('Please draw your area on the map');
-    }
-
-    const isDisabled = !!sample.metadata.synced_on;
+    const location = toJS(sample.attrs.location || {});
+    // const isGPSTracking = sample.isGPSRunning();
 
     return (
-      <Page id="area">
-        <Header
-          toggleGPStracking={this.toggleGPStracking}
-          isGPSTracking={isGPSTracking}
-          isDisabled={isDisabled}
-        />
+      <Page id="map">
+        <Header title="Map" />
         <Main
-          areaPretty={areaPretty}
-          isGPSTracking={isGPSTracking}
+          // isGPSTracking={isGPSTracking}
           location={location}
           setLocation={this.setLocation}
-          isDisabled={isDisabled}
         />
       </Page>
     );

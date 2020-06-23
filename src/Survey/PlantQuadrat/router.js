@@ -7,6 +7,7 @@ import survey from 'common/config/surveys/plantQuadrat';
 import StartNewSurvey from 'Survey/common/Components/StartNewSurvey';
 import Transects from 'Survey/common/Components/Transects';
 import Sites from 'Survey/common/Components/Sites';
+import Map from 'Survey/common/Components/Map';
 import Edit from './Home';
 import Location from './Location';
 import Quadrat from './Quadrat';
@@ -32,6 +33,7 @@ const routes = [
       <Transects appModel={appModel} userModel={userModel} {...params} />
     ),
   ],
+  [`${baseURL}/:smpId/edit/location/map`, Map],
   [`${baseURL}/:smpId/edit/location/:subSmpId`, Quadrat],
   [`${baseURL}/:smpId/edit/location/:subSmpId/cover`, VegetationCover],
   [`${baseURL}/:smpId/edit/location/:subSmpId/height`, VegetationHeight],

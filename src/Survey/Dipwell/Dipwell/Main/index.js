@@ -3,20 +3,10 @@ import React from 'react';
 import locationHelp from 'common/helpers/location';
 import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
-import { Trans as T } from 'react-i18next';
-import {
-  Main,
-  MenuAttrItem,
-  MenuNote,
-  InfoButton,
-  Section,
-  MenuAttrItemFromModel,
-} from '@apps';
+import { Main, MenuAttrItem, MenuAttrItemFromModel } from '@apps';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
-
-const { P } = Section;
 
 @observer
 class Component extends React.Component {

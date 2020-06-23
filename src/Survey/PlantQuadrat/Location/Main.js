@@ -2,7 +2,12 @@ import { observer } from 'mobx-react';
 import React from 'react';
 import { IonList, IonItemDivider, IonItem } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-import { locationOutline, gridOutline, squareOutline } from 'ionicons/icons';
+import {
+  locationOutline,
+  gridOutline,
+  squareOutline,
+  mapOutline,
+} from 'ionicons/icons';
 import locationHelp from 'common/helpers/location';
 import { Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
@@ -75,6 +80,7 @@ class Component extends React.Component {
     const { sample, isDisabled, match, appModel } = this.props;
     const { location = {} } = sample.attrs;
     const { favouriteSite } = appModel.attrs;
+    const hasLocation = !!location.name;
 
     return (
       <Main>
@@ -93,6 +99,13 @@ class Component extends React.Component {
             value={location.name}
             label="Quadrat group"
             icon={gridOutline}
+            wrapText
+          />
+          <MenuAttrItem
+            routerLink={`${match.url}/map`}
+            disabled={isDisabled || !favouriteSite || !hasLocation}
+            label="Map"
+            icon={mapOutline}
             wrapText
           />
 
