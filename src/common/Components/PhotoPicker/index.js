@@ -55,6 +55,7 @@ class PhotoPicker extends Component {
   static propTypes = {
     model: PropTypes.object.isRequired,
     t: PropTypes.func.isRequired,
+    isDisabled: PropTypes.bool,
   };
 
   state = {
@@ -72,7 +73,11 @@ class PhotoPicker extends Component {
   };
 
   photoSelect = () => {
-    const { t, model } = this.props;
+    const { t, model, isDisabled } = this.props;
+
+    if (isDisabled) {
+      return;
+    }
 
     actionSheet({
       header: t('Choose a method to upload a photo'),
@@ -152,7 +157,7 @@ class PhotoPicker extends Component {
   };
 
   getImageArray = () => {
-    const { t, model } = this.props;
+    const { t, model, isDisabled } = this.props;
 
     const { media } = model;
     if (!media.length) {
@@ -174,13 +179,15 @@ class PhotoPicker extends Component {
       const id = img.cid;
       return (
         <div key={id} className="img">
-          <IonButton
-            fill="clear"
-            class="delete"
-            onClick={() => photoDelete(img, t)}
-          >
-            <IonIcon icon={close} />
-          </IonButton>
+          {!isDisabled && (
+            <IonButton
+              fill="clear"
+              class="delete"
+              onClick={() => photoDelete(img, t)}
+            >
+              <IonIcon icon={close} />
+            </IonButton>
+          )}
           <img
             src={thumbnail}
             alt=""
@@ -193,6 +200,8 @@ class PhotoPicker extends Component {
   };
 
   getNewImageButton = () => {
+    const { isDisabled } = this.props;
+
     if (!window.cordova) {
       return (
         <div className="non-cordova-img-picker">
@@ -201,7 +210,9 @@ class PhotoPicker extends Component {
             icon={camera}
             size="large"
           />
-          <input type="file" accept="image/*" onChange={this.photoUpload} />
+          {!isDisabled && (
+            <input type="file" accept="image/*" onChange={this.photoUpload} />
+          )}
         </div>
       );
     }
