@@ -9,29 +9,27 @@ export default () => (
     <Main class="ion-padding">
       <Section>
         <P>
-          Dynamic Dunescapes is a fantastic new project to restore sand dunes
-          across England and Wales for the benefit of people, communities and
-          wildlife. Sand dunes in the UK look very different today.
+          By identifying and recording plant species, you can help scientists
+          and conservationists protect and restore biodiverse sand dune habitats
+          in England and Wales, using this app. With a beautiful range of
+          habitats, coastal sand dunes are home to some amazing wildlife –
+          including butterflies, lizards, toads and orchids. As a citizen
+          scientist, you’ll help researchers gather vital sand dune habitat and
+          species data to help strengthen the understanding of what’s going on
+          in coastal sand dune environments, and to help improve the
+          conservation work that is being done.
         </P>
         <P>
-          Gone are the sandy features, which made homes for special creatures,
-          so let’s bring them back, to stay!
+          From monitoring species to taking part in transect or quadrat surveys,
+          explore the range of citizen science activities in the app which you
+          can get involved in, and share your findings in the app when you next
+          visit your chosen sand dune site.
         </P>
         <P>
-          Picnics in a sheltered hollow, hide and seek... sand dunes are a
-          familiar and natural playground. Less well known is their role as a
-          sanctuary for endangered plants and animals like the fen orchid and
-          sand lizard. But our sand dunes are under threat. They are becoming
-          more and more densely covered by grass and scrub while our wildlife
-          needs areas of open sand to thrive. Healthy sand dunes need to move
-          and be dynamic.
-        </P>
-        <P>
-          The Dynamic Dunescapes project is big and ambitious – targeting some
-          of the most important sand dune systems across England and Wales. We
-          will work with schools and local groups, volunteers and visitors of
-          all ages and abilities to create more bare sand which will breathe
-          life into the dunes and allow the threatened wildlife to flourish.
+          Dynamic Dunescapes is a partnership project supported by the National
+          Lottery Heritage Fund and the EU LIFE Programme. Project partners are
+          Natural England, Plantlife, Natural Resources Wales, National Trust
+          and the Wildlife Trusts.
         </P>
       </Section>
     </Main>

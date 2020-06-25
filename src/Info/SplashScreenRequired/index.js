@@ -60,55 +60,28 @@ const SplashScreen = ({ appModel }) => {
           <IonSlide className="first">
             <div className="message">
               <h2>
-                <T>Dunes are exciting!</T>
+                <T>Dunes are Exciting!</T>
               </h2>
               <p>
                 <T>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ante dolor, semper a nisi nec, faucibus ullamcorper
-                  tellus. Quisque suscipit urna et fermentum elementum.
+                  Encompassing a beautiful mosaic of habitat types, coastal sand
+                  dunes are home to amazing native wildlife including diverse
+                  plant communities that support specialist sand dune animals.
                 </T>
               </p>
             </div>
           </IonSlide>
+
           <IonSlide className="second">
             <div className="message">
               <h2>
-                <T>Dunes are full of biodiversity.</T>
+                <T>Dunes are Threatened.</T>
               </h2>
               <p>
                 <T>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ante dolor, semper a nisi nec, faucibus ullamcorper
-                  tellus. Quisque suscipit urna et fermentum elementum.
-                </T>
-              </p>
-            </div>
-          </IonSlide>
-          <IonSlide className="third">
-            <div className="message">
-              <h2>
-                <T>They are threatened.</T>
-              </h2>
-              <p>
-                <T>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ante dolor, semper a nisi nec, faucibus ullamcorper
-                  tellus. Quisque suscipit urna et fermentum elementum.
-                </T>
-              </p>
-            </div>
-          </IonSlide>
-          <IonSlide className="fourth">
-            <div className="message">
-              <h2>
-                <T>Dunes need your help to collect data.</T>
-              </h2>
-              <p>
-                <T>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ante dolor, semper a nisi nec, faucibus ullamcorper
-                  tellus. Quisque suscipit urna et fermentum elementum.
+                  These habitats are suffering from biodiversity loss and
+                  habitat change, but you can help us bring life back into the
+                  dunes.
                 </T>
               </p>
 
