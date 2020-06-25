@@ -53,10 +53,13 @@ async function getDraft(draftIdKey) {
 
 async function getNewSample(survey, draftIdKey) {
   const sample = await survey.create(Sample);
-  sample.save();
+  await sample.save();
+
   savedSamples.push(sample);
+
   appModel.attrs[draftIdKey] = sample.cid;
   await appModel.save();
+
   return sample;
 }
 

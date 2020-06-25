@@ -13,7 +13,6 @@ class Controller extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     subSample: PropTypes.object.isRequired,
-    match: PropTypes.object,
     location: PropTypes.object.isRequired,
   };
 
@@ -64,8 +63,9 @@ class Controller extends React.Component {
   };
 
   render() {
-    const { match, sample, subSample } = this.props;
+    const { sample, subSample } = this.props;
     const pointId = subSample.attrs.location.code.replace('S', '');
+    const isDisabled = sample.isDisabled();
 
     return (
       <Page id="survey-fixed-photography-transect-point-edit">
@@ -73,7 +73,7 @@ class Controller extends React.Component {
           title={`Point #${pointId}`}
           rightSlot={this.getNextPointButton()}
         />
-        <Main sample={sample} subSample={subSample} baseURL={match.url} />
+        <Main sample={sample} subSample={subSample} isDisabled={isDisabled} />
       </Page>
     );
   }

@@ -1,28 +1,48 @@
 import { date } from '@apps';
-import {
-  calendarOutline,
-  chatboxOutline,
-  peopleOutline,
-} from 'ionicons/icons';
+import * as Yup from 'yup';
+import { calendarOutline, chatboxOutline, peopleOutline } from 'ionicons/icons';
 import cameraIcon from 'common/images/camera-outline.svg';
+
+const locationAttr = {
+  id: 'entered_sref',
+  values(location) {
+    // TODO: use parsing at locations report level
+    const parseCentroidSref = sref =>
+      sref
+        .replace(/[NE]/g, '')
+        .split(' ')
+        .map(parseFloat);
+    const [latitude, longitude] = parseCentroidSref(location.centroid_sref);
+    // eslint-disable-next-line
+    location = { ...location, latitude, longitude };
+
+    return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
+      location.longitude
+    ).toFixed(7)}`;
+  },
+};
+
+const dateAttr = {
+  label: 'Date',
+  icon: calendarOutline,
+  values: d => date.print(d),
+  isValid: val => val && val.toString() !== 'Invalid Date',
+  type: 'date',
+  max: () => new Date(),
+};
 
 const survey = {
   name: 'fixed-photography',
   label: 'Fixed-point Photography',
   icon: cameraIcon,
 
-  id: -1, // warehouse id
+  id: 123, // warehouse id
   render: [],
 
   attrs: {
-    date: {
-      label: 'Date',
-      icon: calendarOutline,
-      values: d => date.print(d),
-      isValid: val => val && val.toString() !== 'Invalid Date',
-      type: 'date',
-      max: () => new Date(),
-    },
+    location: locationAttr,
+
+    date: dateAttr,
 
     comment: {
       label: 'Comment',
@@ -46,12 +66,17 @@ const survey = {
   },
 
   smp: {
-    attrs: {},
+    attrs: {
+      location: locationAttr,
+
+      date: dateAttr,
+    },
 
     create(Sample, location) {
       const sample = new Sample({
         metadata: {
           survey: survey.name,
+          survey_id: survey.id,
         },
         attrs: {
           location,
@@ -62,12 +87,41 @@ const survey = {
     },
   },
 
-  verify() {},
+  verify(attrs) {
+    const transectLocationSchema = Yup.object().shape({
+      id: Yup.string().required(),
+      centroid_sref: Yup.string().required(),
+      sref_system: Yup.string().required(),
+    });
+
+    const transectSchema = Yup.object().shape({
+      location: Yup.mixed().test(
+        'area',
+        'Please select your location.',
+        val => {
+          if (!val) {
+            return false;
+          }
+          transectLocationSchema.validateSync(val);
+          return true;
+        }
+      ),
+    });
+
+    try {
+      transectSchema.validateSync(attrs, { abortEarly: false });
+    } catch (attrError) {
+      return attrError;
+    }
+
+    return null;
+  },
 
   create(Sample) {
     const sample = new Sample({
       metadata: {
         survey: survey.name,
+        survey_id: survey.id,
       },
     });
 

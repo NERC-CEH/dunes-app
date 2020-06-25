@@ -15,12 +15,11 @@ const { P } = Section;
 class Component extends React.Component {
   static propTypes = {
     subSample: PropTypes.object.isRequired,
-    // baseURL: PropTypes.string.isRequired,
-    // isDisabled: PropTypes.bool,
+    isDisabled: PropTypes.bool,
   };
 
   render() {
-    const { subSample } = this.props;
+    const { subSample, isDisabled } = this.props;
 
     const [
       latitude,
@@ -59,7 +58,7 @@ class Component extends React.Component {
             </InfoButton>
           </MenuNote>
 
-          <PhotoPicker model={subSample} />
+          <PhotoPicker model={subSample} isDisabled={isDisabled} />
         </IonList>
       </Main>
     );

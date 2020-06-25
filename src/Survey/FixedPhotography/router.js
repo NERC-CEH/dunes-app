@@ -16,7 +16,10 @@ const baseURL = `/survey/${survey.name}`;
 
 const routes = [
   [`${baseURL}/new`, StartNewSurvey.with(survey), true],
-  [`${baseURL}/:smpId/edit`, Home],
+  [
+    `${baseURL}/:smpId/edit`,
+    params => <Home appModel={appModel} userModel={userModel} {...params} />,
+  ],
   [
     `${baseURL}/:smpId/edit/location`,
     params => <Location appModel={appModel} {...params} />,
