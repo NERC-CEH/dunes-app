@@ -48,6 +48,7 @@ module.exports = {
     'no-extra-semi': WARN,
     'no-negated-in-lhs': WARN,
     'linebreak-style': OFF,
+    'jsx-a11y/alt-text': OFF,
     'no-underscore-dangle': OFF,
     'react/jsx-props-no-spreading': OFF,
     'react/state-in-constructor': OFF,

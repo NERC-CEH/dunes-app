@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */
 import React, { Component } from 'react';
 import { searchCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
