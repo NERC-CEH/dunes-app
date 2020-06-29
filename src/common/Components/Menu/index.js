@@ -28,11 +28,6 @@ const routes = {
   appPages: [
     { title: 'Home', path: '/home/info', icon: homeOutline },
     {
-      title: 'About',
-      path: '/info/about',
-      icon: informationCircleOutline,
-    },
-    {
       title: 'Credits',
       path: '/info/credits',
       icon: heartCircleOutline,
