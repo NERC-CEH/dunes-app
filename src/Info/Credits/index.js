@@ -1,10 +1,9 @@
 import React from 'react';
-import { IonList, IonItem, IonLabel } from '@ionic/react';
+import { IonItem, IonLabel } from '@ionic/react';
 import { Header, Page, Main, Section } from '@apps';
 import { Trans as T } from 'react-i18next';
 import habitats from 'Home/Habitats/data';
 import './styles.scss';
-import './sponsors.png';
 import './flumens.png';
 
 const { P, H } = Section;
@@ -13,12 +12,6 @@ export default () => (
   <Page id="credits">
     <Header title="Credits" />
     <Main class="ion-padding">
-      <IonList lines="none">
-        <IonItem>
-          <img src="/images/sponsors.png" alt="" />
-        </IonItem>
-      </IonList>
-
       <Section>
         <H>People</H>
         <P>

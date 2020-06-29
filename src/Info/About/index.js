@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, Page, Main, Section } from '@apps';
+import { IonList, IonItem } from '@ionic/react';
 
 const { P } = Section;
 
@@ -32,6 +33,12 @@ export default () => (
           and the Wildlife Trusts.
         </P>
       </Section>
+
+      <IonList lines="none">
+        <IonItem>
+          <img src="/images/sponsors.png" alt="" />
+        </IonItem>
+      </IonList>
     </Main>
   </Page>
 );
