@@ -4,6 +4,7 @@ import locationHelp from 'common/helpers/location';
 import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import { Main, MenuAttrItem, MenuAttrItemFromModel } from '@apps';
+import LocationPhoto from 'Survey/common/Components/LocationPhoto';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
@@ -33,6 +34,8 @@ class Component extends React.Component {
 
     return (
       <Main>
+        <LocationPhoto location={subSample.attrs.location} />
+
         <IonList lines="full">
           <MenuAttrItem
             value={prettyGridRef}
