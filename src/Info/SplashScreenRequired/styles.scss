@@ -15,26 +15,100 @@
     ion-slide .message {
       position: absolute;
       width: 78%;
-      top: 50px;
+      bottom: 36px;
     }
 
     ion-slide.first {
-      background: #fff8cc;
+      background: #fff8eb;
+
+      .slide-header {
+        background: url('/images/first.jpg');
+        background-size: cover;
+        height: 55%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+
+        // https://www.shapedivider.app/
+        .custom-shape-divider-bottom-1593438501 {
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+          overflow: hidden;
+          line-height: 0;
+          transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1593438501 svg {
+          position: relative;
+          display: block;
+          width: calc(100% + 1.3px);
+          height: 150px;
+        }
+
+        .custom-shape-divider-bottom-1593438501 .shape-fill {
+          fill: #fff8eb;
+        }
+
+        /** For mobile devices **/
+          .custom-shape-divider-bottom-1593438501 svg {
+            width: calc(152% + 1.3px);
+            height: 150px;
+          }
+      }
     }
 
     ion-slide.second {
-      background: #deedd2;
+      background: #fff8eb;
+
+      .slide-header {
+        background: url('/images/second.jpg');
+        background-size: cover;
+        height: 55%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+
+        // https://www.shapedivider.app/
+        .custom-shape-divider-bottom-1593438501 {
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+          overflow: hidden;
+          line-height: 0;
+          transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1593438501 svg {
+          position: relative;
+          display: block;
+          width: calc(100% + 1.3px);
+          height: 150px;
+        }
+
+        .custom-shape-divider-bottom-1593438501 .shape-fill {
+          fill: #fff8eb;
+        }
+
+        /** For mobile devices **/
+          .custom-shape-divider-bottom-1593438501 svg {
+            width: calc(152% + 1.3px);
+            height: 150px;
+          }
+      }
     }
 
     p,
     h2 {
-      padding: 10px;
       margin-top: 1.1rem;
       text-align: left;
     }
 
     h2 {
       text-align: center;
+      font-size: 22px;
     }
 
     b {
@@ -42,9 +116,10 @@
     }
 
     p {
-      font-size: 14px;
+      font-size: 17px;
       line-height: 1.5;
-      color: var(--ion-color-step-600, #60646b);
+      font-weight: 200;
+      margin-bottom: 5px;
 
       b {
         color: var(--ion-text-color, #000000);
