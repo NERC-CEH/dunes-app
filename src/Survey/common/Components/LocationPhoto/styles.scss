@@ -1,0 +1,27 @@
+.location-photo {
+  img {
+    max-height: 20vh;
+    min-height: 20vh;
+    background: gray;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 66%;
+  }
+
+  //Ionicons shadow not working
+  .photo-zoomin-icon {
+    position: absolute;
+    top: 13px;
+    right: 9px;
+    color: white;
+    --ionicon-stroke-width: 16px;
+    z-index: 100;
+  }
+  .photo-zoomin-icon-shadow {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    color: #00000047;
+    z-index: 100;
+  }
+}
