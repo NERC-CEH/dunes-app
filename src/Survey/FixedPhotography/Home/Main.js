@@ -25,12 +25,19 @@ class Component extends React.Component {
   render() {
     const { sample, match } = this.props;
     const survey = sample.getSurvey();
+    const isDisabled = sample.isDisabled();
 
     const transect = (sample.attrs.location || {}).name;
 
     return (
       <Main>
         <IonList lines="full">
+          {isDisabled && (
+            <MenuNote>
+              This record has been uploaded and cannot be updated.
+            </MenuNote>
+          )}
+
           <MenuAttrItemFromModel attr="surveyors" model={sample} />
           <MenuAttrItemFromModel attr="date" model={sample} />
           <MenuAttrItemFromModel attr="comment" model={sample} />
@@ -43,16 +50,20 @@ class Component extends React.Component {
             wrapText
           />
 
-          <MenuNote skipTranslation>
-            <T>You can find this survey information in our volunteer manual.</T>
-            <InfoButton label="open survey manual" header={survey.label}>
-              <Section>
-                <P>
-                  <i>TODO:</i> this is work in progress.
-                </P>
-              </Section>
-            </InfoButton>
-          </MenuNote>
+          {!isDisabled && (
+            <MenuNote skipTranslation>
+              <T>
+                You can find this survey information in our volunteer manual.
+              </T>
+              <InfoButton label="open survey manual" header={survey.label}>
+                <Section>
+                  <P>
+                    <i>TODO:</i> this is work in progress.
+                  </P>
+                </Section>
+              </InfoButton>
+            </MenuNote>
+          )}
         </IonList>
       </Main>
     );
