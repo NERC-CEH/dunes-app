@@ -13,7 +13,6 @@ import {
 } from '@ionic/react';
 import {
   homeOutline,
-  informationCircleOutline,
   heartCircleOutline,
   personOutline,
   logOut,
