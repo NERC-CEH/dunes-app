@@ -19,7 +19,13 @@
     }
 
     ion-slide.first {
-      background: #fff8eb;
+      background: linear-gradient(
+        to top,
+        rgba(227, 211, 177, 1) 0%,
+        rgb(245, 230, 198) 8%,
+        rgb(255, 248, 235) 36%,
+        rgb(255, 248, 235) 100%
+      );
 
       .slide-header {
         background: url('/images/first.jpg');
@@ -60,7 +66,13 @@
     }
 
     ion-slide.second {
-      background: #fff8eb;
+      background: linear-gradient(
+        to top,
+        rgba(227, 211, 177, 1) 0%,
+        rgb(245, 230, 198) 8%,
+        rgb(255, 248, 235) 36%,
+        rgb(255, 248, 235) 100%
+      );
 
       .slide-header {
         background: url('/images/second.jpg');
