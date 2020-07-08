@@ -12,7 +12,7 @@ export default class AppSample extends Sample {
   constructor(...args) {
     super(...args);
 
-    this.remote.url = `${config.backend.url}/indicia/sample2?_format=json`;
+    this.remote.url = `${config.backend.url}/api/v2/samples`;
     this.remote.headers = async () => ({
       Authorization: `Bearer ${await userModel.getAccessToken()}`,
     });
