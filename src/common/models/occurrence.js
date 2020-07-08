@@ -22,4 +22,9 @@ export default class AppOccurrence extends Occurrence {
 
     return this.parent.isDisabled();
   }
+
+  // eslint-disable-next-line class-methods-use-this
+  validateRemote() {
+    return null;
+  }
 }

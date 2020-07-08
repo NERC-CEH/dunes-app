@@ -71,4 +71,9 @@ export default class AppMedia extends Media {
       return null;
     }
   }
+
+  // eslint-disable-next-line class-methods-use-this
+  validateRemote() {
+    return null;
+  }
 }
