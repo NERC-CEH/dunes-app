@@ -2,6 +2,7 @@ import { date } from '@apps';
 import * as Yup from 'yup';
 import { calendarOutline, chatboxOutline, peopleOutline } from 'ionicons/icons';
 import cameraIcon from 'common/images/camera-outline.svg';
+import userModel from 'userModel';
 
 const locationAttr = {
   id: 'entered_sref',
@@ -118,10 +119,20 @@ const survey = {
   },
 
   create(Sample) {
+    const surveyors = [];
+
+    const { fullName } = userModel.attrs;
+    if (fullName) {
+      surveyors.push(fullName);
+    }
+
     const sample = new Sample({
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+      },
+      attrs: {
+        surveyors,
       },
     });
 

@@ -5,6 +5,7 @@ import {
   peopleOutline,
   gridOutline,
 } from 'ionicons/icons';
+import userModel from 'userModel';
 import quadratTransectIcon from 'common/images/quadratTransect.svg';
 
 const survey = {
@@ -142,9 +143,19 @@ const survey = {
   verify() {},
 
   create(Sample) {
+    const surveyors = [];
+
+    const { fullName } = userModel.attrs;
+    if (fullName) {
+      surveyors.push(fullName);
+    }
+
     const sample = new Sample({
       metadata: {
         survey: survey.name,
+      },
+      attrs: {
+        surveyors,
       },
     });
 

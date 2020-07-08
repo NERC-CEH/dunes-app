@@ -1,5 +1,6 @@
 import { date } from '@apps';
 import { calendarOutline, chatboxOutline, peopleOutline } from 'ionicons/icons';
+import userModel from 'userModel';
 import heightIcon from 'common/images/height.svg';
 import dipwellIcon from 'common/images/water-table-depth.svg';
 
@@ -79,9 +80,19 @@ const survey = {
   verify() {},
 
   create(Sample) {
+    const surveyors = [];
+
+    const { fullName } = userModel.attrs;
+    if (fullName) {
+      surveyors.push(fullName);
+    }
+
     const sample = new Sample({
       metadata: {
         survey: survey.name,
+      },
+      attrs: {
+        surveyors,
       },
     });
 
