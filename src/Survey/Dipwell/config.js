@@ -1,8 +1,15 @@
-import { date } from '@apps';
-import { calendarOutline, chatboxOutline, peopleOutline } from 'ionicons/icons';
+import { chatboxOutline } from 'ionicons/icons';
 import userModel from 'userModel';
+import * as Yup from 'yup';
 import heightIcon from 'common/images/height.svg';
 import dipwellIcon from 'common/images/water-table-depth.svg';
+import {
+  locationAttr,
+  dateAttr,
+  commentAttr,
+  surveyorsAttr,
+  verifyLocationSchema,
+} from '../common/config';
 
 const survey = {
   name: 'dipwell',
@@ -13,44 +20,24 @@ const survey = {
   render: [],
 
   attrs: {
-    date: {
-      label: 'Date',
-      icon: calendarOutline,
-      values: d => date.print(d),
-      isValid: val => val && val.toString() !== 'Invalid Date',
-      type: 'date',
-      max: () => new Date(),
-    },
-
-    comment: {
-      label: 'Comment',
-      icon: chatboxOutline,
-      type: 'textarea',
-      info: 'Please add any extra information about your survey.',
-    },
-
-    surveyors: {
-      label: 'Surveyors',
-      icon: peopleOutline,
-      id: -1,
-      info:
-        'If anyone has helped with the surveying please enter their names here.',
-      placeholder: 'Name',
-      type: 'inputList',
-      values(val) {
-        return val.join(', ');
-      },
-    },
+    location: locationAttr,
+    date: dateAttr,
+    comment: commentAttr,
+    surveyors: surveyorsAttr,
   },
 
   smp: {
     attrs: {
+      location: locationAttr,
+      date: dateAttr,
+
       comment: {
         label: 'Comment',
         icon: chatboxOutline,
         type: 'textarea',
         info: 'Please add any extra information about this dipwell.',
       },
+
       height: {
         id: -1,
         label: 'Water Depth',
@@ -67,6 +54,7 @@ const survey = {
       const sample = new Sample({
         metadata: {
           survey: survey.name,
+          survey_id: survey.id,
         },
         attrs: {
           location,
@@ -77,7 +65,19 @@ const survey = {
     },
   },
 
-  verify() {},
+  verify(attrs) {
+    try {
+      const transectSchema = Yup.object().shape({
+        location: verifyLocationSchema,
+      });
+
+      transectSchema.validateSync(attrs, { abortEarly: false });
+    } catch (attrError) {
+      return attrError;
+    }
+
+    return null;
+  },
 
   create(Sample) {
     const surveyors = [];
@@ -90,6 +90,7 @@ const survey = {
     const sample = new Sample({
       metadata: {
         survey: survey.name,
+        survey_id: survey.id,
       },
       attrs: {
         surveyors,
