@@ -1,7 +1,8 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import { IonList, IonItemDivider, IonItem } from '@ionic/react';
+import { IonList, IonItemDivider } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
+import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
 import locationHelp from 'common/helpers/location';
 import { Main, MenuAttrItem } from '@apps';
@@ -22,13 +23,9 @@ class Component extends React.Component {
     const { sample, match } = this.props;
     if (!sample.samples.length) {
       return (
-        <IonItem className="empty">
-          <span>
-            <T>
-              To see fixed points please select your site and transect first.
-            </T>
-          </span>
-        </IonItem>
+        <InfoBackgroundMessage>
+          To see fixed points please select your site and transect first.
+        </InfoBackgroundMessage>
       );
     }
 
@@ -90,6 +87,7 @@ class Component extends React.Component {
             icon={locationOutline}
             wrapText
           />
+
           <MenuAttrItem
             routerLink={`${match.url}/list`}
             disabled={isDisabled || !favouriteSite}
@@ -98,6 +96,7 @@ class Component extends React.Component {
             icon="/images/transect.svg"
             wrapText
           />
+
           <MenuAttrItem
             routerLink={`${match.url}/map`}
             disabled={isDisabled || !favouriteSite || !hasLocation}

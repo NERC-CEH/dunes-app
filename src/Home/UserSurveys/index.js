@@ -5,7 +5,6 @@ import {
   IonToolbar,
   IonButtons,
   IonMenuButton,
-  IonItem,
   IonSegment,
   IonSegmentButton,
   IonLabel,
@@ -15,6 +14,7 @@ import {
   IonButton,
 } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
+import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { add } from 'ionicons/icons';
 import { observer } from 'mobx-react';
 import { Page, Main } from '@apps';
@@ -48,13 +48,13 @@ class Component extends React.Component {
     return savedSamples.filter(byUploadStatus).sort(byCreateTime);
   }
 
-  getSurveys = (surveys, emptyText) => {
+  getSurveys = (surveys, message, tipName) => {
     if (!surveys.length) {
       return (
         <IonList lines="full">
-          <IonItem className="empty">
-            <div>{emptyText}</div>
-          </IonItem>
+          <InfoBackgroundMessage name={tipName}>
+            {message}
+          </InfoBackgroundMessage>
         </IonList>
       );
     }
@@ -62,35 +62,50 @@ class Component extends React.Component {
     const getSurvey = sample => <Survey key={sample.cid} sample={sample} />;
     const surveysList = surveys.map(getSurvey);
 
-    return <IonList lines="full">{surveysList}</IonList>;
+    return (
+      <IonList lines="full">
+        {surveysList}
+        <InfoBackgroundMessage name={tipName}>{message}</InfoBackgroundMessage>
+      </IonList>
+    );
   };
 
   getUploadedSurveys = () => {
     const surveys = this.getSamplesList(true);
-    const emptyText = (
-      <>
-        <T>No uploaded surveys</T>
-      </>
-    );
 
-    return this.getSurveys(surveys, emptyText);
+    return this.getSurveys(surveys, 'No uploaded surveys', null);
   };
 
   getPendingSurveys = () => {
-    const surveys = this.getSamplesList();
-    const emptyText = (
-      <>
-        <T>No finished pending surveys.</T>
-        <br />
-        <br />
-        <T>
-          Press
-          <IonIcon icon={add} /> to add.
-        </T>
-      </>
-    );
+    const surveys = this.getSamplesList(false);
+    const finishedSurvey = surveys.find(sample => sample.metadata.saved);
 
-    return this.getSurveys(surveys, emptyText);
+    if (!surveys.length) {
+      return (
+        <IonList lines="full">
+          <InfoBackgroundMessage>
+            No finished pending surveys.
+            <br />
+            <br />
+            Press <IonIcon icon={add} /> to add.
+          </InfoBackgroundMessage>
+        </IonList>
+      );
+    }
+
+    if (finishedSurvey) {
+      return this.getSurveys(
+        surveys,
+        'Please do not forget to upload any pending surveys!',
+        'showSurveyUploadTip'
+      );
+    }
+
+    return this.getSurveys(
+      surveys,
+      'To delete any surveys swipe it to the left.',
+      'showSurveysDeleteTip'
+    );
   };
 
   getPendingSurveysCount = () => {

@@ -1,19 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
-import { Trans as T } from 'react-i18next';
-import { IonList, IonItem } from '@ionic/react';
+import { IonList } from '@ionic/react';
+import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Main, RadioInput } from '@apps';
-import './styles.scss';
 
 function showNoTransects() {
   return (
     <IonList lines="full">
-      <IonItem className="empty">
-        <span>
-          <T>You don't have any transects. Please try to refresh the list.</T>
-        </span>
-      </IonItem>
+      <InfoBackgroundMessage>
+        You don't have any transects. Please try to refresh the list.
+      </InfoBackgroundMessage>
     </IonList>
   );
 }

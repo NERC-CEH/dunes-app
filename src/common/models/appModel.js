@@ -16,6 +16,10 @@ const appModel = new AppModel(genericStore, 'app', {
   appSession: 0,
 
   favouriteSite: null,
+
+  // tips
+  showSurveysDeleteTip: true,
+  showSurveyUploadTip: true,
 });
 
 export { appModel as default, AppModel };
