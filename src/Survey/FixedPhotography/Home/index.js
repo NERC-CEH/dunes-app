@@ -5,7 +5,7 @@ import { IonButton, NavContext } from '@ionic/react';
 import { Page, Header, toast, device } from '@apps';
 import { Trans as T } from 'react-i18next';
 import showInvalidsMessage from 'helpers/invalidsMessage';
-import survey from 'common/config/surveys/photography';
+import survey from '../config';
 import Main from './Main';
 
 const { warn } = toast;

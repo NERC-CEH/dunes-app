@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 // import { IonButton } from '@ionic/react';
 import { Page, Header } from '@apps';
 // import { Trans as T } from 'react-i18next';
-import survey from 'common/config/surveys/dipwell';
+import survey from '../config';
 import Main from './Main';
 
 @observer
