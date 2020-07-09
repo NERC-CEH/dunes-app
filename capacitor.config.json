@@ -1,6 +1,6 @@
 {
   "appId": "uk.ac.ceh.dunes",
-  "appName": "Dune Defender",
+  "appName": "Dynamic Dunescapes",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
