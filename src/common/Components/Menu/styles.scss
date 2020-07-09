@@ -13,6 +13,12 @@ ion-menu ion-content {
   );
 }
 
+ion-alert .log-out-checkbox {
+  --padding-start: 0;
+  border-top: 1px solid var(--ion-color-light);
+  border-bottom: 1px solid var(--ion-color-light);
+}
+
 ion-menu ion-item,
 ion-menu ion-list {
   background: none !important;

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter, useLocation } from 'react-router';
+import Log from 'helpers/log';
 import {
   IonContent,
   IonIcon,
@@ -10,6 +11,7 @@ import {
   IonListHeader,
   IonMenu,
   IonMenuToggle,
+  IonCheckbox,
 } from '@ionic/react';
 import {
   homeOutline,
@@ -20,7 +22,9 @@ import {
 } from 'ionicons/icons';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
-
+import { alert } from '@apps';
+import savedSamples from 'savedSamples';
+import appModel from 'appModel';
 import './styles.scss';
 
 const routes = {
@@ -42,6 +46,42 @@ const routes = {
   ],
 };
 
+function showLogoutConfirmationDialog(callback) {
+  let deleteData = true;
+
+  const onCheckboxChange = e => {
+    deleteData = e.detail.checked;
+  };
+
+  alert({
+    header: t('Logout'),
+    message: (
+      <>
+        <T>Are you sure you want to logout?</T>
+        <br />
+        <br />
+        <IonItem lines="none" className="log-out-checkbox">
+          <IonLabel>Discard local data</IonLabel>
+          <IonCheckbox checked onIonChange={onCheckboxChange} />
+        </IonItem>
+      </>
+    ),
+    buttons: [
+      {
+        text: t('Cancel'),
+        role: 'cancel',
+        cssClass: 'secondary',
+      },
+
+      {
+        text: t('Logout'),
+        cssClass: 'primary',
+        handler: () => callback(deleteData),
+      },
+    ],
+  });
+}
+
 function renderMenuRoutes(list, location) {
   return list
     .filter(route => !!route.path)
@@ -62,20 +102,29 @@ function renderMenuRoutes(list, location) {
     ));
 }
 
+function loggingOut(userModel) {
+  Log('Home:Info: logging out.');
+  showLogoutConfirmationDialog(reset => {
+    if (reset) {
+      savedSamples.resetDefaults();
+    }
+
+    appModel.save();
+    userModel.logOut();
+  });
+}
+
 const getLogoutButton = userModel => {
   const userName = userModel.attrs.fullName || userModel.attrs.email;
-
   return (
     <IonItem
       detail={false}
       routerDirection="none"
-      onClick={() => {
-        userModel.logOut();
-      }}
+      onClick={() => loggingOut(userModel)}
     >
       <IonIcon slot="start" icon={logOut} />
       <IonLabel>
-        <T>Logout: {userName}</T>
+        <T>Logout</T>: {userName}
       </IonLabel>
     </IonItem>
   );
@@ -83,6 +132,7 @@ const getLogoutButton = userModel => {
 
 const Menu = observer(({ userModel }) => {
   const location = useLocation();
+
   const getRoutes = routesList => renderMenuRoutes(routesList, location);
 
   const isLoggedIn = !!userModel.attrs.id;
