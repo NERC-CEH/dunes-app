@@ -5,7 +5,6 @@ import { IonButton, NavContext } from '@ionic/react';
 import { Page, Header, toast, device } from '@apps';
 import { Trans as T } from 'react-i18next';
 import showInvalidsMessage from 'helpers/invalidsMessage';
-import survey from '../config';
 import Main from './Main';
 
 const { warn } = toast;
@@ -15,13 +14,14 @@ class Controller extends React.Component {
   static contextType = NavContext;
 
   static propTypes = {
+    survey: PropTypes.object.isRequired,
     sample: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
     userModel: PropTypes.object.isRequired,
   };
 
   onUpload = async () => {
-    const { sample, appModel, userModel } = this.props;
+    const { sample, appModel, userModel, survey } = this.props;
 
     const draftIdKey = `draftId:${survey.name}`;
 
@@ -54,7 +54,7 @@ class Controller extends React.Component {
   };
 
   render() {
-    const { sample } = this.props;
+    const { sample, survey } = this.props;
 
     const uploadButton = !sample.isDisabled() ? (
       <IonButton onClick={this.onUpload}>
@@ -63,7 +63,7 @@ class Controller extends React.Component {
     ) : null;
 
     return (
-      <Page id="survey-fixed-photography-edit">
+      <Page id={`survey-${survey.name}-edit`}>
         <Header title={survey.label} rightSlot={uploadButton} />
         <Main {...this.props} />
       </Page>

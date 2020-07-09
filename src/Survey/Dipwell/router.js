@@ -7,8 +7,8 @@ import StartNewSurvey from 'Survey/common/Components/StartNewSurvey';
 import Transects from 'Survey/common/Components/Transects';
 import Sites from 'Survey/common/Components/Sites';
 import Map from 'Survey/common/Components/Map';
+import Home from 'Survey/common/Components/SurveyHomePage';
 import survey from './config';
-import Home from './Home';
 import Location from './Location';
 import Dipwell from './Dipwell';
 
@@ -16,7 +16,17 @@ const baseURL = `/survey/${survey.name}`;
 
 const routes = [
   [`${baseURL}/new`, StartNewSurvey.with(survey), true],
-  [`${baseURL}/:smpId/edit`, Home],
+  [
+    `${baseURL}/:smpId/edit`,
+    params => (
+      <Home
+        appModel={appModel}
+        userModel={userModel}
+        survey={survey}
+        {...params}
+      />
+    ),
+  ],
   [
     `${baseURL}/:smpId/edit/location`,
     params => <Location appModel={appModel} {...params} />,

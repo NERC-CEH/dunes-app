@@ -6,9 +6,9 @@ import userModel from 'userModel';
 import StartNewSurvey from 'Survey/common/Components/StartNewSurvey';
 import Transects from 'Survey/common/Components/Transects';
 import Sites from 'Survey/common/Components/Sites';
+import Home from 'Survey/common/Components/SurveyHomePage';
 import Map from 'Survey/common/Components/Map';
 import survey from './config';
-import Home from './Home';
 import Location from './Location';
 import Point from './Point';
 
@@ -18,7 +18,14 @@ const routes = [
   [`${baseURL}/new`, StartNewSurvey.with(survey), true],
   [
     `${baseURL}/:smpId/edit`,
-    params => <Home appModel={appModel} userModel={userModel} {...params} />,
+    params => (
+      <Home
+        appModel={appModel}
+        userModel={userModel}
+        survey={survey}
+        {...params}
+      />
+    ),
   ],
   [
     `${baseURL}/:smpId/edit/location`,
