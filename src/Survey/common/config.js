@@ -23,6 +23,7 @@ export const locationAttr = {
 
 export const dateAttr = {
   label: 'Date',
+  id: 'date',
   icon: calendarOutline,
   values: d => date.print(d),
   isValid: val => val && val.toString() !== 'Invalid Date',
@@ -32,6 +33,7 @@ export const dateAttr = {
 
 export const commentAttr = {
   label: 'Comment',
+  id: 'comment',
   icon: chatboxOutline,
   type: 'textarea',
   info: 'Please add any extra information about your survey.',
@@ -40,7 +42,7 @@ export const commentAttr = {
 export const surveyorsAttr = {
   label: 'Surveyors',
   icon: peopleOutline,
-  id: -1,
+  id: 'recorder_names',
   info:
     'If anyone has helped with the surveying please enter their names here.',
   placeholder: 'Name',
