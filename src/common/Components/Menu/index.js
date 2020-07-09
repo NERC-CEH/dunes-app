@@ -62,20 +62,24 @@ function renderMenuRoutes(list, location) {
     ));
 }
 
-const getLogoutButton = userModel => (
-  <IonItem
-    detail={false}
-    routerDirection="none"
-    onClick={() => {
-      userModel.logOut();
-    }}
-  >
-    <IonIcon slot="start" icon={logOut} />
-    <IonLabel>
-      <T>Logout: {userModel.attrs.email}</T>
-    </IonLabel>
-  </IonItem>
-);
+const getLogoutButton = userModel => {
+  const userName = userModel.attrs.fullName || userModel.attrs.email;
+
+  return (
+    <IonItem
+      detail={false}
+      routerDirection="none"
+      onClick={() => {
+        userModel.logOut();
+      }}
+    >
+      <IonIcon slot="start" icon={logOut} />
+      <IonLabel>
+        <T>Logout: {userName}</T>
+      </IonLabel>
+    </IonItem>
+  );
+};
 
 const Menu = observer(({ userModel }) => {
   const location = useLocation();
