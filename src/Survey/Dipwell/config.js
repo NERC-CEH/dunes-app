@@ -1,4 +1,3 @@
-import { chatboxOutline } from 'ionicons/icons';
 import userModel from 'userModel';
 import * as Yup from 'yup';
 import heightIcon from 'common/images/height.svg';
@@ -16,7 +15,7 @@ const survey = {
   label: 'Water Table Depth',
   icon: dipwellIcon,
 
-  id: -1, // warehouse id
+  id: 574, // -1
   render: [],
 
   attrs: {
@@ -32,14 +31,12 @@ const survey = {
       date: dateAttr,
 
       comment: {
-        label: 'Comment',
-        icon: chatboxOutline,
-        type: 'textarea',
+        ...commentAttr,
         info: 'Please add any extra information about this dipwell.',
       },
 
       height: {
-        id: -1,
+        id: 1472, // -1,
         label: 'Water Depth',
         type: 'slider',
         info:
