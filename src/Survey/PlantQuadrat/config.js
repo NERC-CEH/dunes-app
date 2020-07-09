@@ -39,6 +39,7 @@ const survey = {
         min: 0,
         step: 0.5,
         icon: gridOutline,
+        skipValueTranslation: true,
       },
       moss: {
         id: -1,
@@ -49,6 +50,7 @@ const survey = {
         min: 0,
         step: 0.5,
         icon: gridOutline,
+        skipValueTranslation: true,
       },
       grass: {
         id: -1,
@@ -59,6 +61,7 @@ const survey = {
         min: 0,
         step: 0.5,
         icon: gridOutline,
+        skipValueTranslation: true,
       },
       herbs: {
         id: -1,
@@ -69,6 +72,7 @@ const survey = {
         min: 0,
         step: 0.5,
         icon: gridOutline,
+        skipValueTranslation: true,
       },
       shrubs: {
         id: -1,
@@ -79,6 +83,7 @@ const survey = {
         min: 0,
         step: 0.5,
         icon: gridOutline,
+        skipValueTranslation: true,
       },
       scrub: {
         id: -1,
@@ -89,6 +94,7 @@ const survey = {
         min: 0,
         step: 0.5,
         icon: gridOutline,
+        skipValueTranslation: true,
       },
       height: {
         id: -1,
@@ -103,6 +109,7 @@ const survey = {
         },
         max: 200,
         min: 0,
+        skipValueTranslation: true,
       },
     },
 

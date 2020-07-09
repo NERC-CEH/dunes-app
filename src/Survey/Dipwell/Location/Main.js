@@ -55,6 +55,7 @@ class Component extends React.Component {
           icon={locateOutline}
           label={`Dipwell #${pointNo}`}
           className="survey-point-item"
+          skipValueTranslation
         />
       );
     };

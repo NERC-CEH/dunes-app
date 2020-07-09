@@ -25,6 +25,7 @@ class Component extends React.Component {
         label={`#${pointID + 1} Point`}
         icon={heightIcon}
         wrapText
+        skipValueTranslation
       />
     ));
 
