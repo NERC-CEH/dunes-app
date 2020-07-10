@@ -162,3 +162,7 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
   -moz-appearance: textfield;
 }
+
+html.ios {
+  --ion-safe-area-top: var(--ion-statusbar-padding) !important;
+}
