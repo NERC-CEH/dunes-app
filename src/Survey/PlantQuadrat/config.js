@@ -109,7 +109,6 @@ const survey = {
         },
         max: 200,
         min: 0,
-        skipValueTranslation: true,
       },
     },
 

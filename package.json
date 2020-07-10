@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
-    "@bit/flumens.apps.attr-page": "0.3.0",
+    "@bit/flumens.apps.attr-page": "file:./components/attr-page",
     "@bit/flumens.apps.date": "^0.1.0",
     "@bit/flumens.apps.device": "^0.1.0",
     "@bit/flumens.apps.gallery": "0.1.0",
@@ -82,7 +82,9 @@
     "react-photoswipe": "^1.3.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "yup": "^0.28.5"
+    "yup": "^0.28.5",
+    "@bit/flumens.apps.slider-input": "file:./components/slider-input",
+    "@bit/flumens.apps.attr": "file:./components/attr"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
