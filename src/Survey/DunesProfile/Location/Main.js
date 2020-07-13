@@ -32,8 +32,8 @@ class Component extends React.Component {
     isDisabled: PropTypes.bool,
   };
 
-  deletePoint = () => {
-    console.log('deleting');
+  deletePoint = subSample => {
+    subSample.destroy();
   };
 
   getPointsList = () => {
@@ -49,8 +49,12 @@ class Component extends React.Component {
 
     const getPointItem = subSample => {
       const { cid } = subSample;
+      const { type } = subSample.metadata;
 
       const prettyGridRef = '';
+
+      const icon = type === 'point' ? locateOutline : flagOutline;
+      const label = type;
 
       return (
         <IonItemSliding key={cid}>
@@ -58,8 +62,8 @@ class Component extends React.Component {
             key={cid}
             routerLink={`${match.url}/${cid}`}
             value={prettyGridRef}
-            icon={locateOutline}
-            label="Point"
+            icon={icon}
+            label={label}
             className="survey-point-item"
           />
 
@@ -78,43 +82,65 @@ class Component extends React.Component {
     const pointsList = sample.samples.map(getPointItem);
 
     return (
-      <IonList lines="full">
+      <>
         <IonItemDivider>
           <T>Recorded Points</T>
         </IonItemDivider>
 
         {pointsList}
-      </IonList>
+      </>
     );
   };
 
-  showPointTypeOption = () => {
-    const { addLocationPoint } = this.props;
+  getAddButton = () => {
+    const { addLocationPoint, sample } = this.props;
+    const recordedTypes = sample.samples.map(s => s.metadata.type);
 
-    actionSheet({
-      header: t('Choose point type'),
-      buttons: [
-        {
-          text: t('Start'),
-          icon: flagOutline,
-          handler: () => addLocationPoint('start'),
-        },
-        {
-          text: t('Survey Point'),
-          icon: addCircleOutline,
-          handler: () => addLocationPoint('point'),
-        },
-        {
-          text: t('End'),
-          icon: flagOutline,
-          handler: () => addLocationPoint('end'),
-        },
-        {
-          text: t('Cancel'),
-          role: 'cancel',
-        },
-      ],
-    });
+    const buttons = [
+      {
+        text: t('Survey Point'),
+        icon: addCircleOutline,
+        handler: () => addLocationPoint('point'),
+      },
+    ];
+
+    if (!recordedTypes.includes('start')) {
+      buttons.unshift({
+        text: t('Start'),
+        icon: flagOutline,
+        handler: () => addLocationPoint('start'),
+      });
+    }
+
+    if (!recordedTypes.includes('end')) {
+      buttons.push({
+        text: t('End'),
+        icon: flagOutline,
+        handler: () => addLocationPoint('end'),
+      });
+    }
+
+    const showPointTypeOption = () => {
+      actionSheet({
+        header: t('Choose point type'),
+        buttons: [
+          ...buttons,
+          {
+            text: t('Cancel'),
+            role: 'cancel',
+          },
+        ],
+      });
+    };
+
+    return (
+      <IonButton id="add" onClick={showPointTypeOption}>
+        <IonIcon icon={addCircleOutline} slot="start" />
+        <IonLabel>
+          <T>Add Point</T>
+        </IonLabel>
+      </IonButton>
+    );
   };
 
   render() {
@@ -151,16 +177,11 @@ class Component extends React.Component {
             icon={mapOutline}
             wrapText
           />
+
+          {this.getAddButton()}
+
+          {this.getPointsList()}
         </IonList>
-
-        <IonButton id="add" onClick={this.showPointTypeOption}>
-          <IonIcon icon={addCircleOutline} slot="start" />
-          <IonLabel>
-            <T>Add Point</T>
-          </IonLabel>
-        </IonButton>
-
-        {this.getPointsList()}
       </Main>
     );
   }

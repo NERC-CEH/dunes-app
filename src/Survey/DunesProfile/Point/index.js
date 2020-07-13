@@ -13,10 +13,11 @@ export default class index extends Component {
   render() {
     const { sample, subSample } = this.props;
     const isDisabled = sample.isDisabled();
+    const { type } = subSample.metadata;
 
     return (
       <Page id="survey-fixed-photography-transect-point-edit">
-        <Header title="Point" />
+        <Header title={type} />
         <Main sample={sample} subSample={subSample} isDisabled={isDisabled} />
       </Page>
     );
