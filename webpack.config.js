@@ -181,4 +181,8 @@ const config = {
   },
 };
 
+if (process.env.APP_MANUAL_TESTING) {
+  config.entry.push('./test/manual-test-utils.js');
+}
+
 module.exports = config;

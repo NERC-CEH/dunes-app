@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { Page, Header } from '@apps';
 import Sample from 'sample';
 import Main from './Main';
-import './styles.scss';
 
 @observer
 class Controller extends React.Component {
@@ -20,6 +19,8 @@ class Controller extends React.Component {
 
     sample.samples.push(pointSample);
     sample.save();
+
+    pointSample.startGPS();
   };
 
   render() {

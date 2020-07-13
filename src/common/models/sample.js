@@ -5,8 +5,9 @@ import { modelStore } from './store';
 import Occurrence from './occurrence';
 import userModel from './userModel';
 import Media from './media';
+import GPSExtension from './sampleGPSExt';
 
-export default class AppSample extends Sample {
+class AppSample extends Sample {
   store = modelStore;
 
   constructor(...args) {
@@ -16,6 +17,8 @@ export default class AppSample extends Sample {
     this.remote.headers = async () => ({
       Authorization: `Bearer ${await userModel.getAccessToken()}`,
     });
+
+    this.gpsExtensionInit();
   }
 
   keys = () => {
@@ -81,3 +84,8 @@ export default class AppSample extends Sample {
     return null;
   }
 }
+// add geolocation functionality
+AppSample.prototype = Object.assign(AppSample.prototype, GPSExtension);
+AppSample.prototype.constructor = AppSample;
+
+export default AppSample;

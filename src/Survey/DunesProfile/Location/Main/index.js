@@ -20,7 +20,9 @@ import {
   flagOutline,
   locateOutline,
 } from 'ionicons/icons';
+import GridRefValue from 'Survey/common/Components/GridRefValue';
 import transectIcon from 'common/images/transect.svg';
+import './styles.scss';
 
 @observer
 class Component extends React.Component {
@@ -34,62 +36,6 @@ class Component extends React.Component {
 
   deletePoint = subSample => {
     subSample.destroy();
-  };
-
-  getPointsList = () => {
-    const { sample, match } = this.props;
-
-    if (!sample.samples.length) {
-      return (
-        <InfoBackgroundMessage>
-          You have not added any points yet.
-        </InfoBackgroundMessage>
-      );
-    }
-
-    const getPointItem = subSample => {
-      const { cid } = subSample;
-      const { type } = subSample.metadata;
-
-      const prettyGridRef = '';
-
-      const icon = type === 'point' ? locateOutline : flagOutline;
-      const label = type;
-
-      return (
-        <IonItemSliding key={cid}>
-          <MenuAttrItem
-            key={cid}
-            routerLink={`${match.url}/${cid}`}
-            value={prettyGridRef}
-            icon={icon}
-            label={label}
-            className="survey-point-item"
-          />
-
-          <IonItemOptions side="end">
-            <IonItemOption
-              color="danger"
-              onClick={() => this.deletePoint(subSample)}
-            >
-              <T>Delete</T>
-            </IonItemOption>
-          </IonItemOptions>
-        </IonItemSliding>
-      );
-    };
-
-    const pointsList = sample.samples.map(getPointItem);
-
-    return (
-      <>
-        <IonItemDivider>
-          <T>Recorded Points</T>
-        </IonItemDivider>
-
-        {pointsList}
-      </>
-    );
   };
 
   getAddButton = () => {
@@ -140,6 +86,64 @@ class Component extends React.Component {
           <T>Add Point</T>
         </IonLabel>
       </IonButton>
+    );
+  };
+
+  getPointsList = () => {
+    const { sample } = this.props;
+
+    if (!sample.samples.length) {
+      return (
+        <InfoBackgroundMessage>
+          You have not added any points yet.
+        </InfoBackgroundMessage>
+      );
+    }
+
+    const pointsList = sample.samples.map(this.getPoint);
+
+    return (
+      <>
+        <IonItemDivider>
+          <T>Recorded Points</T>
+        </IonItemDivider>
+
+        {pointsList}
+      </>
+    );
+  };
+
+  getPoint = subSample => {
+    const { match } = this.props;
+
+    const { cid } = subSample;
+    const { type } = subSample.metadata;
+
+    const prettyGridRef = <GridRefValue sample={subSample} />;
+
+    const icon = type === 'point' ? locateOutline : flagOutline;
+    const label = type;
+
+    return (
+      <IonItemSliding key={cid}>
+        <MenuAttrItem
+          key={cid}
+          routerLink={`${match.url}/${cid}`}
+          value={prettyGridRef}
+          icon={icon}
+          label={label}
+          className="survey-point-item"
+        />
+
+        <IonItemOptions side="end">
+          <IonItemOption
+            color="danger"
+            onClick={() => this.deletePoint(subSample)}
+          >
+            <T>Delete</T>
+          </IonItemOption>
+        </IonItemOptions>
+      </IonItemSliding>
     );
   };
 
