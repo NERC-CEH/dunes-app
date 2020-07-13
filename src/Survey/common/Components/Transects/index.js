@@ -40,7 +40,10 @@ class index extends React.Component {
 
     const location = toJS(transect);
     sample.attrs.location = location;
-    this.addSectionSubSamples();
+
+    if (!sample.metadata.ignoreTransectSections) {
+      this.addSectionSubSamples();
+    }
 
     await sample.save();
     this.context.goBack();
