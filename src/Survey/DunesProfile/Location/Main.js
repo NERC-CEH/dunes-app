@@ -1,10 +1,22 @@
 import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
-import { IonList, IonButton, IonLabel, IonIcon } from '@ionic/react';
+import {
+  IonList,
+  IonButton,
+  IonLabel,
+  IonIcon,
+  IonItemDivider,
+} from '@ionic/react';
 import { Trans as T } from 'react-i18next';
-import { Main, MenuAttrItem } from '@apps';
-import { locationOutline, addCircleOutline, mapOutline } from 'ionicons/icons';
+import { Main, MenuAttrItem, actionSheet, InfoBackgroundMessage } from '@apps';
+import {
+  locationOutline,
+  addCircleOutline,
+  mapOutline,
+  flagOutline,
+  locateOutline,
+} from 'ionicons/icons';
 import transectIcon from 'common/images/transect.svg';
 
 @observer
@@ -13,7 +25,77 @@ class Component extends React.Component {
     sample: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
+    addLocationPoint: PropTypes.func.isRequired,
     isDisabled: PropTypes.bool,
+  };
+
+  getPointsList = () => {
+    const { sample, match } = this.props;
+    if (!sample.samples.length) {
+      return (
+        <InfoBackgroundMessage>
+          You have not added any points yet.
+        </InfoBackgroundMessage>
+      );
+    }
+
+    const getPointItem = subSample => {
+      const { cid } = subSample;
+
+      const prettyGridRef = '';
+
+      return (
+        <MenuAttrItem
+          key={cid}
+          routerLink={`${match.url}/${cid}`}
+          value={prettyGridRef}
+          icon={locateOutline}
+          label="Point"
+          className="survey-point-item"
+        />
+      );
+    };
+
+    const pointsList = sample.samples.map(getPointItem);
+
+    return (
+      <>
+        <IonItemDivider>
+          <T>Recorded Points</T>
+        </IonItemDivider>
+
+        {pointsList}
+      </>
+    );
+  };
+
+  showPointTypeOption = () => {
+    const { addLocationPoint } = this.props;
+
+    actionSheet({
+      header: t('Choose point type'),
+      buttons: [
+        {
+          text: t('Start'),
+          icon: flagOutline,
+          handler: () => addLocationPoint('start'),
+        },
+        {
+          text: t('Survey Point'),
+          icon: addCircleOutline,
+          handler: () => addLocationPoint('point'),
+        },
+        {
+          text: t('End'),
+          icon: flagOutline,
+          handler: () => addLocationPoint('end'),
+        },
+        {
+          text: t('Cancel'),
+          role: 'cancel',
+        },
+      ],
+    });
   };
 
   render() {
@@ -52,12 +134,14 @@ class Component extends React.Component {
           />
         </IonList>
 
-        <IonButton id="add">
-          <IonIcon icon={addCircleOutline} slot="start"  />
+        <IonButton id="add" onClick={this.showPointTypeOption}>
+          <IonIcon icon={addCircleOutline} slot="start" />
           <IonLabel>
             <T>Add Point</T>
           </IonLabel>
         </IonButton>
+
+        {this.getPointsList()}
       </Main>
     );
   }

@@ -165,4 +165,9 @@ input[type='number'] {
 
 html.ios {
   --ion-safe-area-top: var(--ion-statusbar-padding) !important;
+
+  ion-action-sheet ion-icon.action-sheet-icon {
+    position: absolute;
+    left: 0;
+  }
 }

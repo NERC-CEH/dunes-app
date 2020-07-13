@@ -24,6 +24,20 @@ const survey = {
     surveyors: surveyorsAttr,
   },
 
+  smp: {
+    create(Sample, type) {
+      const sample = new Sample({
+        metadata: {
+          survey: survey.name,
+          survey_id: survey.id,
+          type,
+        },
+      });
+
+      return sample;
+    },
+  },
+
   verify(attrs) {
     try {
       const transectSchema = Yup.object().shape({
