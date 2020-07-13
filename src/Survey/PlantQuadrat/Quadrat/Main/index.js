@@ -18,11 +18,11 @@ class Component extends React.Component {
   static propTypes = {
     subSample: PropTypes.object.isRequired,
     baseURL: PropTypes.string.isRequired,
-    // isDisabled: PropTypes.bool,
+    isDisabled: PropTypes.bool,
   };
 
   render() {
-    const { subSample, baseURL } = this.props;
+    const { subSample, baseURL, isDisabled } = this.props;
 
     const [
       latitude,
@@ -119,7 +119,7 @@ class Component extends React.Component {
             <T>Quadrat Photo</T>
           </IonItemDivider>
 
-          <PhotoPicker model={subSample} />
+          <PhotoPicker model={subSample} isDisabled={isDisabled} />
         </IonList>
       </Main>
     );

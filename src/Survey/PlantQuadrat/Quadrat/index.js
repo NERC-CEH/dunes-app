@@ -66,6 +66,7 @@ class Controller extends React.Component {
   render() {
     const { match, sample, subSample } = this.props;
     const pointId = subSample.attrs.location.code.replace('S', '');
+    const isDisabled = sample.isDisabled();
 
     return (
       <Page id="survey-plant-quadrat-transect-point-edit">
@@ -73,7 +74,12 @@ class Controller extends React.Component {
           title={`Quadrat #${pointId}`}
           rightSlot={this.getNextPointButton()}
         />
-        <Main sample={sample} subSample={subSample} baseURL={match.url} />
+        <Main
+          sample={sample}
+          subSample={subSample}
+          baseURL={match.url}
+          isDisabled={isDisabled}
+        />
       </Page>
     );
   }
