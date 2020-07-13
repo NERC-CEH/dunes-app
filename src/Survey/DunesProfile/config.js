@@ -1,6 +1,10 @@
 import * as Yup from 'yup';
 import userModel from 'userModel';
+import angleIcon from 'common/images/angle.svg';
 import dunesIcon from 'common/images/dunes.svg';
+import distanceIcon from 'common/images/double-arrow.svg';
+import { chevronUpOutline } from 'ionicons/icons';
+
 import {
   locationAttr,
   dateAttr,
@@ -27,6 +31,39 @@ const survey = {
   smp: {
     attrs: {
       comment: commentAttr,
+      type: {
+        id: -1,
+        label: 'Type',
+        icon: chevronUpOutline,
+        type: 'radio',
+        info: 'Please specify the type of the slope.',
+        values: [
+          { value: 'Downslope', id: -1 },
+          { value: 'Upslope', id: -1 },
+        ],
+      },
+      angle: {
+        id: -1,
+        icon: angleIcon,
+        label: 'Angle',
+        type: 'slider',
+        info: 'Please specify the angle of the slope.',
+        displayValueParse: value => `${value}°`,
+        max: 70,
+        min: -70,
+        skipValueTranslation: true,
+      },
+      distance: {
+        id: -1,
+        icon: distanceIcon,
+        label: 'Distance',
+        type: 'slider',
+        info: 'Please specify the distance of the slope in meters.',
+        displayValueParse: value => `${value}m`,
+        max: 200,
+        min: 0,
+        skipValueTranslation: true,
+      },
     },
 
     create(Sample, type) {

@@ -67,6 +67,13 @@ export default () => (
           <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
             Freepik
           </a>{' '}
+          and{' '}
+          <a
+            href="https://www.flaticon.com/authors/kiranshastry"
+            title="Kiranshastry"
+          >
+            Kiranshastry
+          </a>{' '}
           from{' '}
           <a href="https://www.flaticon.com/" title="Flaticon">
             www.flaticon.com
