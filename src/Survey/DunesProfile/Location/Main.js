@@ -7,6 +7,9 @@ import {
   IonLabel,
   IonIcon,
   IonItemDivider,
+  IonItemOption,
+  IonItemOptions,
+  IonItemSliding,
 } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem, actionSheet, InfoBackgroundMessage } from '@apps';
@@ -29,8 +32,13 @@ class Component extends React.Component {
     isDisabled: PropTypes.bool,
   };
 
+  deletePoint = () => {
+    console.log('deleting');
+  };
+
   getPointsList = () => {
     const { sample, match } = this.props;
+
     if (!sample.samples.length) {
       return (
         <InfoBackgroundMessage>
@@ -45,27 +53,38 @@ class Component extends React.Component {
       const prettyGridRef = '';
 
       return (
-        <MenuAttrItem
-          key={cid}
-          routerLink={`${match.url}/${cid}`}
-          value={prettyGridRef}
-          icon={locateOutline}
-          label="Point"
-          className="survey-point-item"
-        />
+        <IonItemSliding key={cid}>
+          <MenuAttrItem
+            key={cid}
+            routerLink={`${match.url}/${cid}`}
+            value={prettyGridRef}
+            icon={locateOutline}
+            label="Point"
+            className="survey-point-item"
+          />
+
+          <IonItemOptions side="end">
+            <IonItemOption
+              color="danger"
+              onClick={() => this.deletePoint(subSample)}
+            >
+              <T>Delete</T>
+            </IonItemOption>
+          </IonItemOptions>
+        </IonItemSliding>
       );
     };
 
     const pointsList = sample.samples.map(getPointItem);
 
     return (
-      <>
+      <IonList lines="full">
         <IonItemDivider>
           <T>Recorded Points</T>
         </IonItemDivider>
 
         {pointsList}
-      </>
+      </IonList>
     );
   };
 

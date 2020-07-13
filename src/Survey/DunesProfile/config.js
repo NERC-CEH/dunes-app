@@ -25,6 +25,10 @@ const survey = {
   },
 
   smp: {
+    attrs: {
+      comment: commentAttr,
+    },
+
     create(Sample, type) {
       const sample = new Sample({
         metadata: {
