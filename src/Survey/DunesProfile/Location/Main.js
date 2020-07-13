@@ -1,9 +1,11 @@
 import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
-import { IonList } from '@ionic/react';
+import { IonList, IonButton, IonLabel, IonIcon } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem } from '@apps';
-import { locationOutline, gridOutline, mapOutline } from 'ionicons/icons';
+import { locationOutline, addCircleOutline, mapOutline } from 'ionicons/icons';
+import transectIcon from 'common/images/transect.svg';
 
 @observer
 class Component extends React.Component {
@@ -36,8 +38,8 @@ class Component extends React.Component {
             routerLink={`${match.url}/list`}
             disabled={isDisabled || !favouriteSite}
             value={location.name}
-            label="Quadrat group"
-            icon={gridOutline}
+            label="Transect"
+            icon={transectIcon}
             wrapText
           />
 
@@ -49,6 +51,13 @@ class Component extends React.Component {
             wrapText
           />
         </IonList>
+
+        <IonButton id="add">
+          <IonIcon icon={addCircleOutline} slot="start"  />
+          <IonLabel>
+            <T>Add Point</T>
+          </IonLabel>
+        </IonButton>
       </Main>
     );
   }
