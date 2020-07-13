@@ -59,9 +59,10 @@ const survey = {
         label: 'Distance',
         type: 'slider',
         info: 'Please specify the distance of the slope in meters.',
-        displayValueParse: value => `${value}m`,
+        displayValueParse: value => `${value.toFixed(1)}m`,
         max: 200,
         min: 0,
+        step: 0.1,
         skipValueTranslation: true,
       },
     },
@@ -105,6 +106,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        ignoreTransectSections: true,
       },
       attrs: {
         surveyors,
