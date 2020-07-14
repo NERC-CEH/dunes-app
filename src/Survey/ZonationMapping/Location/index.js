@@ -15,7 +15,7 @@ class Controller extends React.Component {
     // const isDisabled = sample.isDisabled();
 
     return (
-      <Page id="survey-fixed-photography-transect-edit">
+      <Page id="survey-zonation-mapping-transect-edit">
         <Header title="Location" />
         <Main {...this.props} />
       </Page>
