@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Beach",
+    "warehouse_id": 15661, 
     "features": ["Bare sand and no vegetation."],
     "images": [
       {
@@ -33,6 +34,7 @@
   {
     "id": 2,
     "title": "Standline",
+    "warehouse_id": 15662, 
     "features": [
       "Lots of bare sand.",
       "Annual plants present; may include sea rocket and prickly seawort.",
@@ -65,6 +67,7 @@
   {
     "id": 3,
     "title": "Embryo Dune",
+    "warehouse_id": 15663, 
     "features": [
       "Above the usual high tide line.",
       "Lots of bare sand.",
@@ -101,6 +104,7 @@
   {
     "id": 4,
     "title": "Mobile Dune",
+    "warehouse_id": 15664, 
     "features": [
       "Lots of bare sand (10-50%).",
       "Marram grass dominates.",
@@ -137,6 +141,7 @@
   {
     "id": 5,
     "title": "Semi-fixed Dune",
+    "warehouse_id": 15665, 
     "features": [
       "Bare sand cover reduced.",
       "Red fescue and mosses cover patches between marram.",
@@ -172,6 +177,7 @@
   {
     "id": 6,
     "title": "Fixed Dune",
+    "warehouse_id": 15666, 
     "features": [
       "Cover of bare sand much reduced (<10%).",
       "Soil beginning to form.",
@@ -209,6 +215,7 @@
   {
     "id": 7,
     "title": "Dune Slack",
+    "warehouse_id": 15667, 
     "features": [
       "Wet depression in sand.",
       "Can be very large.",
@@ -244,6 +251,7 @@
   {
     "id": 8,
     "title": "Heath",
+    "warehouse_id": 15668, 
     "features": [
       "Soil is dry, acidic and nutrient-poor.",
       "Plants present are those associated with acid grassland and heaths; may include heather."
@@ -278,6 +286,7 @@
   {
     "id": 9,
     "title": "Scrub and Woodland",
+    "warehouse_id": 15669, 
     "features": [
       "Dominance of tall, woody perennials and understorey species.",
       "Very little if any bare sand."

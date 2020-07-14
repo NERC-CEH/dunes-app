@@ -31,36 +31,45 @@ const survey = {
   smp: {
     attrs: {
       comment: commentAttr,
+
       type: {
-        id: -1,
+        id: 1480, // -1,
         label: 'Type',
         icon: chevronUpOutline,
         type: 'radio',
         info: 'Please specify the type of the slope.',
         values: [
-          { value: 'Downslope', id: -1 },
-          { value: 'Upslope', id: -1 },
+          {
+            value: 'Downslope',
+            id: 15659, // -1
+          },
+          {
+            value: 'Upslope',
+            id: 15660, // -1
+          },
         ],
       },
+
       angle: {
-        id: -1,
+        id: 1481, // -1,
         icon: angleIcon,
         label: 'Angle',
         type: 'slider',
         info: 'Please specify the angle of the slope.',
         displayValueParse: value => `${value}°`,
-        max: 70,
-        min: -70,
+        max: 90,
+        min: -90,
         skipValueTranslation: true,
       },
+
       distance: {
-        id: -1,
+        id: 1482, // -1,
         icon: distanceIcon,
         label: 'Distance',
         type: 'slider',
         info: 'Please specify the distance of the slope in meters.',
         displayValueParse: value => `${value.toFixed(1)}m`,
-        max: 200,
+        max: 300,
         min: 0,
         step: 0.1,
         skipValueTranslation: true,

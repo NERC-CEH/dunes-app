@@ -2,7 +2,7 @@ import React from 'react';
 import { IonItem, IonLabel } from '@ionic/react';
 import { Header, Page, Main, Section } from '@apps';
 import { Trans as T } from 'react-i18next';
-import habitats from 'Home/Habitats/data';
+import habitats from 'common/data/habitats';
 import './styles.scss';
 import './flumens.png';
 
