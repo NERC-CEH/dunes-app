@@ -1,6 +1,6 @@
 import * as Yup from 'yup';
 import userModel from 'userModel';
-import transectIcon from 'common/images/transect.svg';
+import zonationIcon from 'common/images/destination.svg';
 import distanceIcon from 'common/images/double-arrow.svg';
 import habitatIcon from 'common/images/habitats.svg';
 import habitats from 'common/data/habitats.json';
@@ -20,7 +20,7 @@ const habitatValues = habitats.map(habitat => ({
 const survey = {
   name: 'zonation-mapping',
   label: 'Zonation Mapping',
-  icon: transectIcon,
+  icon: zonationIcon,
 
   id: 578, // -1,
   render: [],

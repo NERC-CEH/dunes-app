@@ -66,8 +66,12 @@ export default () => (
           Icons made by{' '}
           <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
             Freepik
-          </a>{' '}
-          and{' '}
+          </a>
+          ,{' '}
+          <a href="https://www.flaticon.com/authors/srip" title="Srip">
+            Srip
+          </a>
+          , and{' '}
           <a
             href="https://www.flaticon.com/authors/kiranshastry"
             title="Kiranshastry"
