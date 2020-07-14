@@ -119,6 +119,7 @@ const survey = {
           survey_id: survey.id,
         },
         attrs: {
+          sample_method_id: 2425,
           location,
           height: [null, null, null, null, null],
         },
@@ -156,6 +157,7 @@ const survey = {
         survey_id: survey.id,
       },
       attrs: {
+        sample_method_id: 2424,
         surveyors,
       },
     });

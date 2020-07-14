@@ -73,6 +73,9 @@ const survey = {
           survey_id: survey.id,
           type,
         },
+        attrs: {
+          sample_method_id: 2425,
+        },
       });
 
       return sample;
@@ -107,6 +110,7 @@ const survey = {
         survey_id: survey.id,
       },
       attrs: {
+        sample_method_id: 2424,
         surveyors,
       },
     });
