@@ -41,7 +41,7 @@ const survey = {
         type: 'slider',
         info:
           'Please specify the water level in centimeters from the top of dipwell down to the water.',
-        max: 200,
+        max: 1000,
         min: 0,
         icon: heightIcon,
         skipValueTranslation: true,
