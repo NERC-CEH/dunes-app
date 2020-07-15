@@ -12,7 +12,7 @@ import {
   IonItemSliding,
 } from '@ionic/react';
 import { withTranslation, Trans as T } from 'react-i18next';
-import { Main, MenuAttrItem, actionSheet, InfoBackgroundMessage } from '@apps';
+import { Main, MenuAttrItem, actionSheet } from '@apps';
 import {
   locationOutline,
   addCircleOutline,
@@ -21,6 +21,7 @@ import {
   locateOutline,
 } from 'ionicons/icons';
 import GridRefValue from 'Survey/common/Components/GridRefValue';
+import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import transectIcon from 'common/images/transect.svg';
 import './styles.scss';
 
