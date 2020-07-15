@@ -9,7 +9,7 @@ import {
   withIonLifeCycle,
 } from '@ionic/react';
 import { searchCircleOutline } from 'ionicons/icons';
-import { withTranslation } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import PropTypes from 'prop-types';
 import { Main, Gallery } from '@apps';
 import './styles.scss';
@@ -84,11 +84,12 @@ class Component extends React.Component {
   };
 
   render() {
-    const { t } = this.props;
     const { habitat } = this.props;
     const { images } = habitat;
     const features = habitat.features.map(feature => (
-      <li key={feature}>{feature}</li>
+      <li key={feature}>
+        <T>{feature}</T>
+      </li>
     ));
 
     /* eslint-disable jsx-a11y/no-static-element-interactions */
@@ -114,10 +115,14 @@ class Component extends React.Component {
           {this.slides(images)}
 
           <IonCardHeader>
-            <IonCardTitle>{t(habitat.title)}</IonCardTitle>
+            <IonCardTitle>
+              <T>{habitat.title}</T>
+            </IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
-            <h3 className="habitat-label">{t('Feature')}</h3>
+            <h3 className="habitat-label">
+              <T>Feature</T>
+            </h3>
             <ul>{features}</ul>
           </IonCardContent>
         </Main>
@@ -129,7 +134,6 @@ class Component extends React.Component {
 
 Component.propTypes = {
   habitat: PropTypes.object.isRequired,
-  t: PropTypes.func,
 };
 
-export default withTranslation()(withIonLifeCycle(Component));
+export default withIonLifeCycle(Component);

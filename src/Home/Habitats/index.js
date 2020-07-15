@@ -89,7 +89,9 @@ class Habitats extends Component {
             <IonButtons slot="start">
               <IonMenuButton />
             </IonButtons>
-            <IonTitle>Habitats</IonTitle>
+            <IonTitle>
+              <T>Habitats</T>
+            </IonTitle>
           </IonToolbar>
         </IonHeader>
 

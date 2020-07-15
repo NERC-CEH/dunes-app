@@ -29,6 +29,7 @@ export const dateAttr = {
   isValid: val => val && val.toString() !== 'Invalid Date',
   type: 'date',
   max: () => new Date(),
+  skipValueTranslation: true,
 };
 
 export const commentAttr = {
@@ -37,6 +38,7 @@ export const commentAttr = {
   icon: chatboxOutline,
   type: 'textarea',
   info: 'Please add any extra information about your survey.',
+  skipValueTranslation: true,
 };
 
 export const surveyorsAttr = {
@@ -50,6 +52,7 @@ export const surveyorsAttr = {
   values(val) {
     return val.join(', ');
   },
+  skipValueTranslation: true,
 };
 
 const transectLocationSchema = Yup.object().shape({

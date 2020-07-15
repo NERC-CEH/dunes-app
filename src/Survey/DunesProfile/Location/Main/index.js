@@ -11,7 +11,7 @@ import {
   IonItemOptions,
   IonItemSliding,
 } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem, actionSheet, InfoBackgroundMessage } from '@apps';
 import {
   locationOutline,
@@ -32,6 +32,7 @@ class Component extends React.Component {
     match: PropTypes.object.isRequired,
     addLocationPoint: PropTypes.func.isRequired,
     isDisabled: PropTypes.bool,
+    t: PropTypes.func.isRequired,
   };
 
   deletePoint = subSample => {
@@ -39,7 +40,7 @@ class Component extends React.Component {
   };
 
   getAddButton = () => {
-    const { addLocationPoint, sample } = this.props;
+    const { addLocationPoint, sample, t } = this.props;
     const recordedTypes = sample.samples.map(s => s.metadata.type);
 
     const buttons = [
@@ -133,6 +134,7 @@ class Component extends React.Component {
           icon={icon}
           label={label}
           className="survey-point-item"
+          skipValueTranslation
         />
 
         <IonItemOptions side="end">
@@ -163,6 +165,7 @@ class Component extends React.Component {
             label="Site"
             icon={locationOutline}
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
@@ -172,6 +175,7 @@ class Component extends React.Component {
             label="Transect"
             icon={transectIcon}
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
@@ -191,4 +195,4 @@ class Component extends React.Component {
   }
 }
 
-export default Component;
+export default withTranslation()(Component);

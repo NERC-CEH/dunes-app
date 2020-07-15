@@ -120,7 +120,7 @@ const SplashScreen = ({ appModel }) => {
               </p>
 
               <IonButton fill="clear" onClick={exit}>
-                Continue
+                <T>Continue</T>
                 <IonIcon slot="end" icon={arrowForward} />
               </IonButton>
             </div>

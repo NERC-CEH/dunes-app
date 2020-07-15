@@ -12,7 +12,7 @@ import {
   IonIcon,
 } from '@ionic/react';
 import { Page, Main, ModalHeader } from '@apps';
-import { Trans as T, withTranslation } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import { informationCircleOutline } from 'ionicons/icons';
 import SpeciesProfile from './components/SpeciesProfile';
 import speciesData from './data.json';
@@ -48,7 +48,7 @@ class Species extends Component {
           className="species-label"
         >
           <div>
-            <T>{title}</T>
+            {title}
             <IonIcon
               class="species-label-icon"
               size="small"
@@ -101,4 +101,4 @@ class Species extends Component {
   }
 }
 
-export default withTranslation()(Species);
+export default Species;

@@ -23,7 +23,9 @@ function getSurveys() {
     <IonCol size="6" key={name}>
       <IonRouterLink routerLink={`/survey/${name}/new`}>
         <IonIcon icon={icon} />
-        <span className="survey-button-label">{label}</span>
+        <span className="survey-button-label">
+          <T>{label}</T>
+        </span>
       </IonRouterLink>
     </IonCol>
   );

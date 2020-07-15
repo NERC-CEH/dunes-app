@@ -1,7 +1,7 @@
 import { observer } from 'mobx-react';
 import React from 'react';
 import { IonList, IonItemDivider } from '@ionic/react';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
 import locationHelp from 'common/helpers/location';
@@ -17,10 +17,11 @@ class Component extends React.Component {
     appModel: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
     isDisabled: PropTypes.bool,
+    t: PropTypes.func.isRequired,
   };
 
   getPointsList = () => {
-    const { sample, match } = this.props;
+    const { sample, match, t } = this.props;
     if (!sample.samples.length) {
       return (
         <InfoBackgroundMessage>
@@ -47,14 +48,17 @@ class Component extends React.Component {
 
       const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
 
+      const locationLabel = `${t('Point')} #${pointNo}`;
+
       return (
         <MenuAttrItem
           key={cid}
           routerLink={`${match.url}/${cid}`}
           value={prettyGridRef}
           icon={locateOutline}
-          label={`Point #${pointNo}`}
+          label={locationLabel}
           className="survey-point-item"
+          skipTranslation
         />
       );
     };
@@ -86,6 +90,7 @@ class Component extends React.Component {
             label="Site"
             icon={locationOutline}
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
@@ -95,6 +100,7 @@ class Component extends React.Component {
             label="Transect"
             icon="/images/transect.svg"
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
@@ -112,4 +118,4 @@ class Component extends React.Component {
   }
 }
 
-export default Component;
+export default withTranslation()(Component);

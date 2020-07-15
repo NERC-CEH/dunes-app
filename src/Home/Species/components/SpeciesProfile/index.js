@@ -10,7 +10,7 @@ import {
   IonCardSubtitle,
 } from '@ionic/react';
 import { searchCircleOutline } from 'ionicons/icons';
-import { withTranslation, Trans as T } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import PropTypes from 'prop-types';
 import { Main, Gallery } from '@apps';
 import './styles.scss';
@@ -111,18 +111,16 @@ class Component extends React.Component {
           {this.slides(images)}
 
           <IonCardHeader>
-            <IonCardTitle>
-              <T>{species.title}</T>
-            </IonCardTitle>
+            <IonCardTitle>{species.title}</IonCardTitle>
             <IonCardSubtitle>{species.scientificName}</IonCardSubtitle>
           </IonCardHeader>
           <IonCardContent>
             <h3 className="species-profile-label">
-              <T>Description:</T>
+              <T>Description</T>:
             </h3>
             {species.description}
             <h3 className="species-profile-label">
-              <T>Distribution:</T>
+              <T>Distribution</T>:
             </h3>
             {species.distribution}
           </IonCardContent>
@@ -137,4 +135,4 @@ Component.propTypes = {
   species: PropTypes.object.isRequired,
 };
 
-export default withTranslation()(withIonLifeCycle(Component));
+export default withIonLifeCycle(Component);

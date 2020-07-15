@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { IonButton, NavContext } from '@ionic/react';
 import { Page, Header } from '@apps';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import Main from './Main';
 
 @observer
@@ -15,6 +15,7 @@ class Controller extends React.Component {
     subSample: PropTypes.object.isRequired,
     match: PropTypes.object,
     location: PropTypes.object.isRequired,
+    t: PropTypes.func.isRequired,
   };
 
   getNextPointButton = () => {
@@ -64,15 +65,17 @@ class Controller extends React.Component {
   };
 
   render() {
-    const { match, sample, subSample } = this.props;
+    const { match, sample, subSample, t } = this.props;
     const pointId = subSample.attrs.location.code.replace('S', '');
     const isDisabled = sample.isDisabled();
+    const locationLabel = `${t('Quadrat')} #${pointId}`;
 
     return (
       <Page id="survey-plant-quadrat-transect-point-edit">
         <Header
-          title={`Quadrat #${pointId}`}
+          title={locationLabel}
           rightSlot={this.getNextPointButton()}
+          skipTranslation
         />
         <Main
           sample={sample}
@@ -85,4 +88,4 @@ class Controller extends React.Component {
   }
 }
 
-export default Controller;
+export default withTranslation()(Controller);

@@ -43,6 +43,7 @@ class Component extends React.Component {
             label="Grid Ref"
             disabled
             className="menu-attr-item-long-value"
+            skipValueTranslation
           />
 
           <MenuAttrItemFromModel attr="comment" model={subSample} />

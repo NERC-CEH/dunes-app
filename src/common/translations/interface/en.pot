@@ -23,7 +23,7 @@ msgstr "Home"
 msgid "Species"
 msgstr "Species"
 
-# context term
+# Habitat page title
 msgid "Habitats"
 msgstr "Habitats"
 
@@ -56,8 +56,8 @@ msgid "Beach"
 msgstr "Beach"
 
 # Habitat type name
-msgid "Standline"
-msgstr "Standline"
+msgid "Strandline"
+msgstr "Strandline"
 
 # Habitat type name
 msgid "Embryo Dune"
@@ -134,6 +134,22 @@ msgstr "Draft"
 # Survey type
 msgid "Fixed-point Photography"
 msgstr "Fixed-point Photography"
+
+# Survey type  
+msgid "Zonation Mapping"
+msgstr "Zonation Mapping"
+
+# Survey type 
+msgid "Plant Quadrat Recording"
+msgstr "Plant Quadrat Recording"
+
+# Survey type 
+msgid "Water Table Depth"
+msgstr "Water Table Depth"
+
+# Survey type 
+msgid "Dunes Profile"
+msgstr "Dunes Profile"
 
 # Dialog button label
 msgid "Cancel"
@@ -414,3 +430,507 @@ msgstr "name is a required field"
 # Home page button label 
 msgid "Project Website"
 msgstr "Project Website"
+
+# Splash screen title
+msgid "Dunes are Exciting!"
+msgstr "Dunes are Exciting!"
+
+# Splash screen message
+msgid "Encompassing a beautiful mosaic of habitat types, coastal sand dunes are home to amazing native wildlife including diverse plant communities that support specialist sand dune animals."
+msgstr "Encompassing a beautiful mosaic of habitat types, coastal sand dunes are home to amazing native wildlife including diverse plant communities that support specialist sand dune animals."
+
+# Splash screen title
+msgid "Dunes are Threatened."
+msgstr "Dunes are Threatened."
+
+# Splash screen message
+msgid "These habitats are suffering from biodiversity loss and habitat change, but you can help us bring life back into the dunes."
+msgstr "These habitats are suffering from biodiversity loss and habitat change, but you can help us bring life back into the dunes."
+
+# Splash screen message
+msgid "Continue"
+msgstr "Continue"
+
+# Language
+msgid "English"
+msgstr "English"
+
+# Language
+msgid "Welsh"
+msgstr "Welsh"
+
+# Beach habitat features
+msgid "Bare sand and no vegetation."
+msgstr "Bare sand and no vegetation."
+
+# Strandline habitat features
+msgid "Lots of bare sand."
+msgstr "Lots of bare sand."
+
+# Strandline habitat features
+msgid "Annual plants present; may include sea rocket and prickly seawort."
+msgstr "Annual plants present; may include sea rocket and prickly seawort."
+
+# Strandline habitat features
+msgid "Miniature sand dunes are formed around these plants."
+msgstr "Miniature sand dunes are formed around these plants."
+
+# Embryo dune habitat features 
+msgid "Above the usual high tide line."
+msgstr "Above the usual high tide line."
+
+# Embryo dune habitat features 
+msgid "First perennial plants present; may include sand couch and lyme grass."
+msgstr "First perennial plants present; may include sand couch and lyme grass."
+
+# Embryo dune habitat features 
+msgid "Low, hummocky dunes form around these plants."
+msgstr "Low, hummocky dunes form around these plants."
+
+# Mobile dune habitat features
+msgid "Lots of bare sand (10-50%)."
+msgstr "Lots of bare sand (10-50%)."
+
+# Mobile dune habitat features
+msgid "Marram grass dominates."
+msgstr "Marram grass dominates."
+
+# Mobile dune habitat features
+msgid "Sand builds up around marram to form high, mobile dunes."
+msgstr "Sand builds up around marram to form high, mobile dunes."
+
+# Mobile dune habitat features
+msgid "A small number of other plants may be present; may include sea holly and sea spurge."
+msgstr "A small number of other plants may be present; may include sea holly and sea spurge."
+
+# Semi-fixed dune habitat features
+msgid "Bare sand cover reduced."
+msgstr "Bare sand cover reduced."
+
+# Semi-fixed dune habitat features
+msgid "Red fescue and mosses cover patches between marram."
+msgstr "Red fescue and mosses cover patches between marram."
+
+# Semi-fixed dune habitat features
+msgid "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil."
+msgstr "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil."
+
+# Fixed dune habitat features
+msgid "Cover of bare sand much reduced (less than 10%)."
+msgstr "Cover of bare sand much reduced (less than 10%)."
+
+# Fixed dune habitat features
+msgid "Soil beginning to form."
+msgstr "Soil beginning to form."
+
+# Fixed dune habitat features 
+msgid "Many plants now coexisting; may include red fescue, lady’s bedstraw, harebell."
+msgstr "Many plants now coexisting; may include red fescue, lady’s bedstraw, harebell."
+
+# Fixed dune habitat features
+msgid "Surface lichens and mosses may be present."
+msgstr "Surface lichens and mosses may be present."
+
+# Fixed dune habitat features
+msgid "Little if any scrub or tree cover."
+msgstr "Little if any scrub or tree cover."
+
+# Dune Slack habitat features 
+msgid "Wet depression in sand."
+msgstr "Wet depression in sand."
+
+# Dune Slack habitat features 
+msgid "Can be very large."
+msgstr "Can be very large."
+
+# Dune Slack habitat features 
+msgid "Species may include sedges, water mint, mosses and liverworts, creeping willow."
+msgstr "Species may include sedges, water mint, mosses and liverworts, creeping willow."
+
+# Heath habitat features 
+msgid "Soil is dry, acidic and nutrient-poor."
+msgstr "Soil is dry, acidic and nutrient-poor."
+
+# Heath habitat features 
+msgid "Plants present are those associated with acid grassland and heaths; may include heather."
+msgstr "Plants present are those associated with acid grassland and heaths; may include heather."
+
+# Scrub and Woodland habitat features 
+msgid "Dominance of tall, woody perennials and understorey species."
+msgstr "Dominance of tall, woody perennials and understorey species."
+
+# Scrub and Woodland habitat features 
+msgid "Very little if any bare sand."
+msgstr "Very little if any bare sand."
+
+# Species profile label 
+msgid "Description"
+msgstr "Description"
+
+# Species profile label 
+msgid "Distribution"
+msgstr "Distribution"
+
+# Login/Logout section Header 
+msgid "Account"
+msgstr "Account"
+
+# Logout title 
+msgid "Logout"
+msgstr "Logout"
+
+# Home page section title
+msgid "Citizen Science Manual"
+msgstr "Citizen Science Manual" 
+
+# Survey page title
+msgid "Activities"
+msgstr "Activities"
+
+# Tip message
+msgid "Please do not forget to upload any pending surveys!"
+msgstr "Please do not forget to upload any pending surveys!"
+
+# Tip button
+msgid "Hide"
+msgstr "Hide"
+
+# Tip message
+msgid "No finished pending surveys.<br/><br/>Press <4></4> to add."
+msgstr "No finished pending surveys.<br/><br/>Press <4></4> to add."
+
+# Tip message
+msgid "To delete any surveys swipe it to the left."
+msgstr "To delete any surveys swipe it to the left."
+
+# Section label inside a survey
+msgid "Comment"
+msgstr "Comment"
+
+# Section label inside a survey
+msgid "Location"
+msgstr "Location"
+
+# Section label inside a survey
+msgid "Map"
+msgstr "Map"
+
+# Section label inside a survey
+msgid "Site"
+msgstr "Site"
+
+# Section note message inside a survey
+msgid "You can find this survey information in our volunteer manual."
+msgstr "You can find this survey information in our volunteer manual."
+
+# Section note message inside a survey
+msgid "Please add a photo for your visit."
+msgstr "Please add a photo for your visit."
+
+# Survey alert message
+msgid "Please select your location."
+msgstr "Please select your location."
+
+# Survey alert message
+msgid "Survey incomplete"
+msgstr "Survey incomplete"
+
+# Action sheet label
+msgid "Survey Point"
+msgstr "Survey Point"
+
+# Action sheet label
+msgid "Start"
+msgstr "Start"
+
+# Action sheet label
+msgid "End"
+msgstr "End"
+
+# Survey button 
+msgid "Add Point"
+msgstr "Add Point"
+
+# Section note message inside a survey
+msgid "You have not added any points yet."
+msgstr "You have not added any points yet."
+
+# Credits page section title
+msgid "People"
+msgstr "People"
+
+# Credits page section message
+msgid "We are very grateful for all the people that helped to create this app:"
+msgstr "We are very grateful for all the people that helped to create this app:"
+
+# Credits page section title
+msgid "App Development"
+msgstr "App Development"
+
+# Credits page section message
+msgid "This app was hand crafted with love by <2>Flumens.</2> A technical consultancy that excels at building bespoke environmental science and community focussed solutions. For suggestions and feedback please do not hesitate to <6>contact us</6>."
+msgstr "This app was hand crafted with love by <2>Flumens.</2> A technical consultancy that excels at building bespoke environmental science and community focussed solutions. For suggestions and feedback please do not hesitate to <6>contact us</6>."
+
+# Credits page section title
+msgid "Graphics"
+msgstr "Graphics"
+
+# Credits page section message
+msgid "Icons made by <2>Freepik</2>, <5>Srip</5>, and <8>Kiranshastry</8> from <12>www.flaticon.com</12>"
+msgstr "Icons made by <2>Freepik</2>, <5>Srip</5>, and <8>Kiranshastry</8> from <12>www.flaticon.com</12>"
+
+# Credits page section title
+msgid "Photos"
+msgstr "Photos"
+
+# Credits page subsection title 
+msgid "Home page:"
+msgstr "Home page:"
+
+# Credits page subsection title
+msgid "Habitats:"
+msgstr "Habitats:"
+
+# Fixed-point survey information message
+msgid "To see fixed points please select your site and transect first."
+msgstr "To see fixed points please select your site and transect first."
+
+# Fixed-point survey information note
+msgid "read more"
+msgstr "read more"
+
+# Fixed-point survey header title
+msgid "Sites"
+msgstr "Sites"
+
+# Dipwell survey information message
+msgid "Please specify the water level in centimeters from the top of dipwell down to the water."
+msgstr "Please specify the water level in centimeters from the top of dipwell down to the water."
+
+# Dipwell survey information message
+msgid "Please add any extra information about this dipwell."
+msgstr "Please add any extra information about this dipwell."
+
+# Dipwell survey information label
+msgid "location"
+msgstr "location"
+
+# Dipwell survey information label
+msgid "To see dipwells please select your site and transect first."
+msgstr "To see dipwells please select your site and transect first."
+
+# Dipwell survey information label
+msgid "Dipwell"
+msgstr "Dipwell"
+
+# Dipwell survey information title
+msgid "Dipwells"
+msgstr "Dipwells"
+
+# Dipwell survey label
+msgid "Water Depth"
+msgstr "Water Depth"
+
+# Dunes profile survey information label
+msgid "Choose point type"
+msgstr "Choose point type"
+
+# Dunes profile survey information label
+msgid "Type"
+msgstr "Type"
+
+# Dunes profile survey information label
+msgid "Angle"
+msgstr "Angle"
+
+# Dunes profile survey information label
+msgid "Distance"
+msgstr "Distance"
+
+# Dunes profile survey information  message
+msgid "Please specify the distance of the slope in meters."
+msgstr "Please specify the distance of the slope in meters."
+
+# Dunes profile survey information  message
+msgid "Please specify the angle of the slope."
+msgstr "Please specify the angle of the slope."
+
+# Dunes profile survey information  message
+msgid "Please specify the type of the slope."
+msgstr "Please specify the type of the slope."
+
+# Dunes profile survey type options
+msgid "Downslope"
+msgstr "Downslope"
+
+# Dunes profile survey type options
+msgid "Upslope"
+msgstr "Upslope"
+
+# Dunes profile survey section label 
+msgid "Recorded Points"
+msgstr "Recorded Points"
+
+# Dunes profile survey section label 
+msgid "Point Photo"
+msgstr "Point Photo"
+
+# Dunes profile point page title
+msgid "start"
+msgstr "start"
+
+# Dunes profile point page title
+msgid "end"
+msgstr "end"
+
+# Dunes profile point page title
+msgid "point"
+msgstr "point"
+
+# Plant quadrats survey section label 
+msgid "Vegetation Cover"
+msgstr "Vegetation Cover"
+
+# Plant quadrats survey section label 
+msgid "Sand"
+msgstr "Sand"
+
+# Plant quadrats survey section label 
+msgid "Moss & Lichen"
+msgstr "Moss & Lichen"
+
+# Plant quadrats survey section label 
+msgid "Grasses"
+msgstr "Grasses"
+
+# Plant quadrats survey section label 
+msgid "Herbs"
+msgstr "Herbs"
+
+# Plant quadrats survey section label 
+msgid "Shrubs"
+msgstr "Shrubs"
+
+# Plant quadrats survey section label 
+msgid "Scrub"
+msgstr "Scrub"
+
+# Plant quadrats survey section message 
+msgid "Please specify the % of the grasses, sedges and rushes cover."
+msgstr "Please specify the % of the grasses, sedges and rushes cover."
+
+# Plant quadrats survey section label 
+msgid "Vegetation Height"
+msgstr "Vegetation Height"
+
+# Plant quadrats survey section message 
+msgid "Please specify the vegetation height in cm."
+msgstr "Please specify the vegetation height in cm."
+
+# Plant quadrats survey section label 
+msgid "Quadrat group"
+msgstr "Quadrat group"
+
+# Plant quadrats survey section message 
+msgid "To see quadrats please select your site and transect first."
+msgstr "To see quadrats please select your site and transect first."
+
+# Plant quadrats survey section message 
+msgid "You don't have any transects. Please try to refresh the list."
+msgstr "You don't have any transects. Please try to refresh the list."
+
+# Plant quadrats survey section message 
+msgid "Quadrat"
+msgstr "Quadrat"
+
+# Plant quadrats survey section message 
+msgid "Quadrats"
+msgstr "Quadrats"
+
+# Plant quadrats survey section message 
+msgid "Vegetation"
+msgstr "Vegetation"
+
+# Plant quadrats survey section message 
+msgid "Cover"
+msgstr "Cover"
+
+# Plant quadrats survey section message 
+msgid "Height"
+msgstr "Height"
+
+# Plant quadrats survey section message 
+msgid "Indicator Species"
+msgstr "Indicator Species"
+
+# Plant quadrats survey section message 
+msgid "Health"
+msgstr "Health"
+
+# Plant quadrats survey section message 
+msgid "Nitrogen"
+msgstr "Nitrogen"
+
+# Plant quadrats survey section message 
+msgid "Quadrat Photo"
+msgstr "Quadrat Photo"
+
+# Plant quadrats survey info message 
+msgid "Please specify the % of the bare sand cover."
+msgstr "Please specify the % of the bare sand cover."
+
+# Plant quadrats survey info message 
+msgid "Please specify the % of the moss and lichen cover."
+msgstr "Please specify the % of the moss and lichen cover."
+
+# Plant quadrats survey info message 
+msgid "Please specify the % of the herbs cover."
+msgstr "Please specify the % of the herbs cover."
+
+# Plant quadrats survey info message 
+msgid "Please specify the % of the heathland shrubs cover."
+msgstr "Please specify the % of the heathland shrubs cover."
+
+# Plant quadrats survey info message 
+msgid "Please specify the % of the scrub and woodland cover."
+msgstr "Please specify the % of the scrub and woodland cover."
+
+# User reset error message
+msgid "email must be a valid email"
+msgstr "email must be a valid email"
+
+# User logout alert message 
+msgid "Are you sure you want to logout?"
+msgstr "Are you sure you want to logout?"
+
+# Settings page title
+msgid "Navigate"
+msgstr "Navigate"
+
+# Surveys info message 
+msgid "open survey manual"
+msgstr "open survey manual"
+
+# Settings page labels 
+msgid "Register/Login"
+msgstr "Register/Login"
+
+# Logout alert message
+msgid "Discard local data"
+msgstr "Discard local data"
+
+# Login message 
+msgid "I am already a member"
+msgstr "I am already a member"
+
+# Login failed toast message
+msgid "The user credentials were incorrect."
+msgstr "The user credentials were incorrect."
+
+# Login success toast message
+msgid "Successfully logged in as"
+msgstr "Successfully logged in as"
+
+# Manual page title 
+msgid "Manual"
+msgstr "Manual"

@@ -68,6 +68,7 @@ class Component extends React.Component {
             label="Grid Ref"
             disabled
             className="menu-attr-item-long-value"
+            skipValueTranslation
           />
           <MenuAttrItem
             value={habitat}
@@ -87,14 +88,16 @@ class Component extends React.Component {
             label="Cover"
             icon={gridOutline}
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
             routerLink={`${baseURL}/height`}
             value={`${heightAverage}cm`}
-            label="Heigth"
+            label="Height"
             icon={heightIcon}
             wrapText
+            skipValueTranslation
           />
 
           <IonItemDivider>

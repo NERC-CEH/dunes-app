@@ -31,6 +31,7 @@ class Component extends React.Component {
             label="Site"
             icon={locationOutline}
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
@@ -40,6 +41,7 @@ class Component extends React.Component {
             label="Transect"
             icon="/images/transect.svg"
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem

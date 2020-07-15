@@ -61,7 +61,9 @@ function showLogoutConfirmationDialog(callback) {
         <br />
         <br />
         <IonItem lines="none" className="log-out-checkbox">
-          <IonLabel>Discard local data</IonLabel>
+          <IonLabel>
+            <T>Discard local data</T>
+          </IonLabel>
           <IonCheckbox checked onIonChange={onCheckboxChange} />
         </IonItem>
       </>
@@ -96,7 +98,9 @@ function renderMenuRoutes(list, location) {
           }
         >
           <IonIcon slot="start" icon={p.icon} />
-          <IonLabel>{p.title}</IonLabel>
+          <IonLabel>
+            <T>{p.title}</T>
+          </IonLabel>
         </IonItem>
       </IonMenuToggle>
     ));
@@ -141,7 +145,9 @@ const Menu = observer(({ userModel }) => {
     <IonMenu type="overlay" contentId="main">
       <IonContent forceOverscroll={false}>
         <IonList lines="none">
-          <IonListHeader>Navigate</IonListHeader>
+          <IonListHeader>
+            <T>Navigate</T>
+          </IonListHeader>
           {getRoutes(routes.appPages)}
         </IonList>
 

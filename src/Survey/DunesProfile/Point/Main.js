@@ -40,6 +40,7 @@ class Component extends React.Component {
             icon={locateOutline}
             label="Grid Ref"
             disabled
+            skipValueTranslation
           />
 
           {this.getAttributesList()}

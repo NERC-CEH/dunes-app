@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { IonButton, NavContext } from '@ionic/react';
 import { Page, Header } from '@apps';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import Main from './Main';
 
 @observer
@@ -15,6 +15,7 @@ class Controller extends React.Component {
     subSample: PropTypes.object.isRequired,
     match: PropTypes.object,
     location: PropTypes.object.isRequired,
+    t: PropTypes.func.isRequired,
   };
 
   getNextPointButton = () => {
@@ -64,16 +65,14 @@ class Controller extends React.Component {
   };
 
   render() {
-    const { match, sample, subSample } = this.props;
+    const { match, sample, subSample, t } = this.props;
     const pointId = subSample.attrs.location.code.replace('S', '');
     const isDisabled = sample.isDisabled();
+    const locationLabel = `${t('Dipwell')} #${pointId}`;
 
     return (
       <Page id="survey-dipwell-transect-point-edit">
-        <Header
-          title={`Dipwell #${pointId}`}
-          rightSlot={this.getNextPointButton()}
-        />
+        <Header title={locationLabel} rightSlot={this.getNextPointButton()} />
         <Main
           sample={sample}
           subSample={subSample}
@@ -85,4 +84,4 @@ class Controller extends React.Component {
   }
 }
 
-export default Controller;
+export default withTranslation()(Controller);

@@ -38,7 +38,7 @@ function LoginContainer({ userModel, onSuccess }) {
     onSuccess && onSuccess();
 
     const { email } = userModel.attrs;
-    success(`Successfully logged in as: ${email}`);
+    success(`${t('Successfully logged in as')}: ${email}`);
     context.navigate('/home/info', 'root');
   };
 

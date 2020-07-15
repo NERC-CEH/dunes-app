@@ -3,7 +3,7 @@ import React from 'react';
 import locationHelp from 'common/helpers/location';
 import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
-import { Trans as T } from 'react-i18next';
+import { withTranslation, Trans as T } from 'react-i18next';
 import { Main, MenuAttrItem, MenuNote, InfoButton, Section } from '@apps';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
 import PhotoPicker from 'Components/PhotoPicker';
@@ -17,10 +17,11 @@ class Component extends React.Component {
   static propTypes = {
     subSample: PropTypes.object.isRequired,
     isDisabled: PropTypes.bool,
+    t: PropTypes.func.isRequired,
   };
 
   render() {
-    const { subSample, isDisabled } = this.props;
+    const { subSample, isDisabled, t } = this.props;
 
     const [
       latitude,
@@ -45,11 +46,12 @@ class Component extends React.Component {
             label="Grid Ref"
             disabled
             className="menu-attr-item-long-value"
+            skipValueTranslation
           />
 
           <MenuNote skipTranslation>
             <T>Please add a photo below.</T>
-            <InfoButton label="read more" header="Adding photographs">
+            <InfoButton label={t('read more')} header="Adding photographs">
               <Section>
                 <P>
                   Each photograph should be taken in the direction of the
@@ -68,4 +70,4 @@ class Component extends React.Component {
   }
 }
 
-export default Component;
+export default withTranslation()(Component);

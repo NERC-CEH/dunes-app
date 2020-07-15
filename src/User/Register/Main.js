@@ -94,7 +94,7 @@ class Component extends React.Component {
               </IonButton>
 
               <div className="signin-button">
-                I'm already a member.{' '}
+                <T>I am already a member</T>.{' '}
                 <IonRouterLink routerLink="/user/login">
                   <T>Sign In</T>
                 </IonRouterLink>
