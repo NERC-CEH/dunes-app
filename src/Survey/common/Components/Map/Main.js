@@ -30,7 +30,7 @@ class MainMap extends Component {
 
   static propTypes = {
     location: PropTypes.object.isRequired,
-    isGPSTracking: PropTypes.bool.isRequired,
+    isGPSTracking: PropTypes.bool,
   };
 
   state = {
