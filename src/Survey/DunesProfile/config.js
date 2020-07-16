@@ -18,7 +18,7 @@ const survey = {
   label: 'Dunes Profile',
   icon: dunesIcon,
 
-  id: -1,
+  id: 594,
   render: [],
 
   attrs: {
@@ -33,7 +33,7 @@ const survey = {
       comment: commentAttr,
 
       type: {
-        id: 1480, // -1,
+        id: 1494,
         label: 'Type',
         icon: chevronUpOutline,
         type: 'radio',
@@ -41,17 +41,17 @@ const survey = {
         values: [
           {
             value: 'Downslope',
-            id: 15659, // -1
+            id: 17793,
           },
           {
             value: 'Upslope',
-            id: 15660, // -1
+            id: 17794,
           },
         ],
       },
 
       angle: {
-        id: 1481, // -1,
+        id: 1495,
         icon: angleIcon,
         label: 'Angle',
         type: 'slider',
@@ -63,7 +63,7 @@ const survey = {
       },
 
       distance: {
-        id: 1482, // -1,
+        id: 1496,
         icon: distanceIcon,
         label: 'Distance',
         type: 'slider',

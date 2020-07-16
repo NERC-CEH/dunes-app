@@ -14,7 +14,7 @@ const survey = {
   label: 'Fixed-point Photography',
   icon: cameraIcon,
 
-  id: 576, // -1
+  id: 593,
   render: [],
 
   attrs: {

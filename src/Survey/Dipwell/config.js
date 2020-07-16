@@ -15,7 +15,7 @@ const survey = {
   label: 'Water Table Depth',
   icon: dipwellIcon,
 
-  id: 574, // -1
+  id: 591,
   render: [],
 
   attrs: {
@@ -36,7 +36,7 @@ const survey = {
       },
 
       height: {
-        id: 1472, // -1,
+        id: 1486,
         label: 'Water Depth',
         type: 'slider',
         info:

@@ -15,7 +15,7 @@ const survey = {
   label: 'Plant Quadrat Recording',
   icon: quadratTransectIcon,
 
-  id: 575, // -1
+  id: 592,
   render: [],
 
   attrs: {
@@ -31,7 +31,7 @@ const survey = {
       date: dateAttr,
 
       sand: {
-        id: 1473, // -1,
+        id: 1487,
         label: 'Sand',
         type: 'slider',
         info: 'Please specify the % of the bare sand cover.',
@@ -42,7 +42,7 @@ const survey = {
         skipValueTranslation: true,
       },
       moss: {
-        id: 1474, // -1,
+        id: 1488,
         label: 'Moss & Lichen',
         type: 'slider',
         info: 'Please specify the % of the moss and lichen cover.',
@@ -53,7 +53,7 @@ const survey = {
         skipValueTranslation: true,
       },
       grass: {
-        id: 1475, // -1,
+        id: 1489,
         label: 'Grasses',
         type: 'slider',
         info: 'Please specify the % of the grasses, sedges and rushes cover.',
@@ -64,7 +64,7 @@ const survey = {
         skipValueTranslation: true,
       },
       herbs: {
-        id: 1476, // -1,
+        id: 1490,
         label: 'Herbs',
         type: 'slider',
         info: 'Please specify the % of the herbs cover.',
@@ -75,7 +75,7 @@ const survey = {
         skipValueTranslation: true,
       },
       shrubs: {
-        id: 1477, // -1,
+        id: 1491,
         label: 'Shrubs',
         type: 'slider',
         info: 'Please specify the % of the heathland shrubs cover.',
@@ -86,7 +86,7 @@ const survey = {
         skipValueTranslation: true,
       },
       scrub: {
-        id: 1478, // -1,
+        id: 1492,
         label: 'Scrub',
         type: 'slider',
         info: 'Please specify the % of the scrub and woodland cover.',
@@ -97,7 +97,7 @@ const survey = {
         skipValueTranslation: true,
       },
       height: {
-        id: 1479, // -1,
+        id: 1493,
         label: 'Vegetation',
         type: 'slider',
         info: 'Please specify the vegetation height in cm.',

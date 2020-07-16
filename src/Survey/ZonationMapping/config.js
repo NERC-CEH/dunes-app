@@ -22,7 +22,7 @@ const survey = {
   label: 'Zonation Mapping',
   icon: zonationIcon,
 
-  id: 578, // -1,
+  id: 595,
   render: [],
 
   attrs: {
@@ -35,7 +35,7 @@ const survey = {
   smp: {
     attrs: {
       previousHabitat: {
-        id: 1484, // -1,
+        id: 1498,
         label: 'Type',
         icon: habitatIcon,
         type: 'radio',
@@ -44,7 +44,7 @@ const survey = {
       },
 
       currentHabitat: {
-        id: 1485, // -1,
+        id: 1499,
         label: 'Type',
         icon: habitatIcon,
         type: 'radio',
@@ -53,7 +53,7 @@ const survey = {
       },
 
       distance: {
-        id: 1483, // -1,
+        id: 1497,
         icon: distanceIcon,
         label: 'Distance',
         type: 'slider',
