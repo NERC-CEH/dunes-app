@@ -1,7 +1,11 @@
 #welcome-page {
-  ion-toolbar {
-    --background: transparent;
-    --border-color: transparent;
+  ion-header {
+    position: absolute;
+    
+    ion-toolbar {
+      --background: transparent;
+      --border-color: transparent;
+    }
   }
 
   ion-slides {
