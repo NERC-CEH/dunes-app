@@ -31,7 +31,7 @@ testing.GPS = {
     GPS.change(location);
   },
 
-  trail(location) {
+  trail(location, frequency = 2000) {
     let newLocation = location;
     this.interval = setInterval(() => {
       const { latitude, longitude } = newLocation;
@@ -42,7 +42,7 @@ testing.GPS = {
         latitude: latitude + 0.01,
         longitude: longitude + 0.01,
       };
-    }, 2000);
+    }, frequency);
   },
 
   stop() {
