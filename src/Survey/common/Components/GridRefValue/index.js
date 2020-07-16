@@ -22,6 +22,10 @@ function getValue(sample) {
     longitude,
   });
 
+  if (!gridRef) {
+    return `${latitude.toFixed(2)}, ${longitude.toFixed(2)}`;
+  }
+
   return locationHelp.prettyPrintGridRef(gridRef);
 }
 

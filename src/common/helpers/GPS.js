@@ -1,4 +1,6 @@
-import Log from './log';
+import { Plugins } from '@capacitor/core';
+
+const { Geolocation } = Plugins;
 
 const API = {
   GPS_ACCURACY_LIMIT: 100, // meters
@@ -10,14 +12,6 @@ const API = {
     const { callback, onUpdate } = options;
     const accuracyLimit = options.accuracyLimit || API.GPS_ACCURACY_LIMIT;
 
-    // Early return if geolocation not supported.
-    if (!navigator.geolocation) {
-      const error = new Error('Geolocation is not supported.');
-      Log(error, 'e');
-      callback && callback(error);
-      return null;
-    }
-
     // geolocation config
     const GPSoptions = {
       enableHighAccuracy: true,
@@ -25,7 +19,12 @@ const API = {
       timeout: API.TIMEOUT,
     };
 
-    const onSuccess = position => {
+    const onPosition = (position, err) => {
+      if (err) {
+        callback && callback(new Error(err.message));
+        return;
+      }
+
       const location = {
         latitude: position.coords.latitude.toFixed(8),
         longitude: position.coords.longitude.toFixed(8),
@@ -41,26 +40,11 @@ const API = {
       }
     };
 
-    // Callback if geolocation fails
-    const onError = (err = {}) => {
-      callback && callback(new Error(err.message));
-    };
-
-    const watchID = navigator.geolocation.watchPosition(
-      onSuccess,
-      onError,
-      GPSoptions
-    );
-    return watchID;
+    return Geolocation.watchPosition(GPSoptions, onPosition);
   },
 
   stop(id) {
-    // Early return if geolocation not supported.
-    if (!navigator.geolocation) {
-      return;
-    }
-
-    navigator.geolocation.clearWatch(id);
+    Geolocation.clearWatch({ id });
   },
 };
 

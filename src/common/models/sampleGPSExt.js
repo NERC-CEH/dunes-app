@@ -5,7 +5,6 @@
  * start, update, error, success, stop
  **************************************************************************** */
 import GPS from 'helpers/GPS';
-import Log from 'helpers/log';
 import { observable } from 'mobx';
 
 const DEFAULT_ACCURACY_LIMIT = 50; // meters
@@ -36,8 +35,6 @@ const extension = {
   },
 
   startGPS(accuracyLimit = DEFAULT_ACCURACY_LIMIT) {
-    Log('SampleModel:GPS: start.');
-
     // eslint-disable-next-line
     const that = this;
     const options = {
@@ -70,7 +67,9 @@ const extension = {
   },
 
   stopGPS() {
-    Log('SampleModel:GPS: stop.');
+    if (!this.gps.locating) {
+      return;
+    }
 
     GPS.stop(this.gps.locating);
     this.gps.locating = null;
