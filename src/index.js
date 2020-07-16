@@ -4,32 +4,26 @@ import appModel from 'appModel';
 import userModel from 'userModel';
 import savedSamples from 'savedSamples';
 import initAnalytics from 'helpers/analytics';
-import { Plugins, StatusBarStyle } from '@capacitor/core';
+import { Capacitor, Plugins, StatusBarStyle } from '@capacitor/core';
 import App from './App';
 
-const { StatusBar } = Plugins;
+const { StatusBar, SplashScreen } = Plugins;
 
-StatusBar.setStyle({
-  style: StatusBarStyle.Dark,
-});
-
-async function init() {
+(async function() {
   await appModel._init;
   await userModel._init;
   await savedSamples._init;
   initAnalytics();
 
-  const hideSplashscreen = () => {
-    if (navigator && navigator.splashscreen) {
-      navigator.splashscreen.hide();
-    }
-  };
-  document.addEventListener('deviceready', hideSplashscreen, false);
-
   appModel.attrs.appSession += 1;
   appModel.save();
 
   ReactDOM.render(<App />, document.getElementById('root'));
-}
+})();
 
-init();
+Capacitor.isNative &&
+  StatusBar.setStyle({
+    style: StatusBarStyle.Dark,
+  });
+
+Capacitor.isNative && SplashScreen.hide();
