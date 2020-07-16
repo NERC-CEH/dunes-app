@@ -57,8 +57,8 @@ const survey = {
         type: 'slider',
         info: 'Please specify the angle of the slope.',
         displayValueParse: value => `${value}°`,
-        max: 90,
-        min: -90,
+        min: model => (model.attrs.type === 'Downslope' ? -90 : 0),
+        max: model => (model.attrs.type === 'Downslope' ? 0 : 90),
         skipValueTranslation: true,
       },
 
