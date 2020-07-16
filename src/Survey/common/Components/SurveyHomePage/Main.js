@@ -11,7 +11,7 @@ import {
   InfoButton,
   Section,
 } from '@apps';
-import { withTranslation, Trans as T } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 
 const { P } = Section;
 
@@ -20,11 +20,10 @@ class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
-    t: PropTypes.func.isRequired,
   };
 
   render() {
-    const { sample, match, t } = this.props;
+    const { sample, match } = this.props;
     const survey = sample.getSurvey();
     const isDisabled = sample.isDisabled();
 
@@ -57,7 +56,7 @@ class Component extends React.Component {
               <T>
                 You can find this survey information in our volunteer manual.
               </T>
-              <InfoButton label={t('open survey manual')} header={survey.label}>
+              <InfoButton label="open survey manual" header={survey.label}>
                 <Section>
                   <P>
                     <i>TODO:</i> this is work in progress.
@@ -72,4 +71,4 @@ class Component extends React.Component {
   }
 }
 
-export default withTranslation()(Component);
+export default Component;

@@ -3,27 +3,25 @@ import { alert } from '@apps';
 import appModel from 'appModel';
 import Sample from 'sample';
 import savedSamples from 'savedSamples';
-import i18n from 'i18next';
+import { Trans as T } from 'react-i18next';
 
 async function showDraftAlert() {
-  const t = i18n.t.bind(i18n);
-
   return new Promise(resolve => {
     alert({
-      header: t('Draft'),
-      message: t(
-        'Previous survey draft exists, would you like to continue it?'
+      header: 'Draft',
+      message: (
+        <T>Previous survey draft exists, would you like to continue it?</T>
       ),
       backdropDismiss: false,
       buttons: [
         {
-          text: t('Discard'),
+          text: 'Discard',
           handler: () => {
             resolve(false);
           },
         },
         {
-          text: t('Continue'),
+          text: 'Continue',
           cssClass: 'primary',
           handler: () => {
             resolve(true);

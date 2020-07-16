@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { alert } from '@apps';
 import { observer } from 'mobx-react';
-import { Trans as T, withTranslation } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import {
   IonItem,
   IonLabel,
@@ -17,18 +17,18 @@ import OnlineStatus from './components/OnlineStatus';
 import ErrorMessage from './components/ErrorMessage';
 import './styles.scss';
 
-function deleteSurvey(sample, t) {
+function deleteSurvey(sample) {
   alert({
-    header: t('Delete'),
-    message: t('Are you sure you want to delete this survey?'),
+    header: 'Delete',
+    message: <T>Are you sure you want to delete this survey?</T>,
     buttons: [
       {
-        text: t('Cancel'),
+        text: 'Cancel',
         role: 'cancel',
         cssClass: 'primary',
       },
       {
-        text: t('Delete'),
+        text: 'Delete',
         cssClass: 'secondary',
         handler: () => sample.destroy(),
       },
@@ -84,4 +84,4 @@ Survey.propTypes = {
   sample: PropTypes.object.isRequired,
 };
 
-export default withTranslation()(Survey);
+export default Survey;

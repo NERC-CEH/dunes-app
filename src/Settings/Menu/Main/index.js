@@ -1,7 +1,7 @@
 import React from 'react';
 import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
-import { Trans as T, withTranslation } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import { IonIcon, IonList, IonItem, IonLabel } from '@ionic/react';
 import {
   arrowUndoOutline,
@@ -13,9 +13,9 @@ import { alert, Main, Toggle, MenuAttrItem, MenuNote } from '@apps';
 import config from 'config';
 import './styles.scss';
 
-function resetDialog(resetApp, t) {
+function resetDialog(resetApp) {
   alert({
-    header: t('Reset'),
+    header: 'Reset',
     message: (
       <>
         <T>
@@ -30,12 +30,12 @@ function resetDialog(resetApp, t) {
     ),
     buttons: [
       {
-        text: t('Cancel'),
+        text: 'Cancel',
         role: 'cancel',
         cssClass: 'primary',
       },
       {
-        text: t('Reset'),
+        text: 'Reset',
         cssClass: 'secondary',
         handler: resetApp,
       },
@@ -91,4 +91,4 @@ class Component extends React.Component {
   }
 }
 
-export default withTranslation()(Component);
+export default Component;

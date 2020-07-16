@@ -15,9 +15,9 @@ import './styles.scss';
 
 const { error } = toast;
 
-function photoDelete(photo, t) {
+function photoDelete(photo) {
   alert({
-    header: t('Delete'),
+    header: 'Delete',
     message: (
       <>
         <T>Are you sure you want to remove this photo?</T>
@@ -28,12 +28,12 @@ function photoDelete(photo, t) {
     ),
     buttons: [
       {
-        text: t('Cancel'),
+        text: 'Cancel',
         role: 'cancel',
         cssClass: 'primary',
       },
       {
-        text: t('Delete'),
+        text: 'Delete',
         cssClass: 'danger',
         handler: () => photo.destroy(),
       },

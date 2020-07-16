@@ -38,11 +38,11 @@ export default function showInvalidsMessage(invalids) {
   const message = getDeepErrorMessage(invalids);
 
   alert({
-    header: t('Survey incomplete'),
+    header: 'Survey incomplete',
     message,
     buttons: [
       {
-        text: t('Got it'),
+        text: 'Got it',
         role: 'cancel',
       },
     ],

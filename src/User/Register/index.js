@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import Log from 'helpers/log';
 import { NavContext } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import { Page, Header, device, toast, alert, loader } from '@apps';
 import Main from './Main';
 import './styles.scss';
@@ -30,13 +31,18 @@ async function onRegister(userModel, details, lang, onSuccess) {
     userModel.save();
 
     alert({
-      header: t('Welcome aboard!'),
-      message: t(
-        'Before submitting any records please check your email and click on the verification link.'
+      header: 'Welcome aboard!',
+      message: (
+        <>
+          <T>
+            Before submitting any records please check your email and click on
+            the verification link.
+          </T>
+        </>
       ),
       buttons: [
         {
-          text: t('OK, got it'),
+          text: 'OK, got it',
           role: 'cancel',
           handler: onSuccess,
         },

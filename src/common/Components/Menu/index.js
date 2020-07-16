@@ -54,7 +54,7 @@ function showLogoutConfirmationDialog(callback) {
   };
 
   alert({
-    header: t('Logout'),
+    header: 'Logout',
     message: (
       <>
         <T>Are you sure you want to logout?</T>
@@ -70,13 +70,13 @@ function showLogoutConfirmationDialog(callback) {
     ),
     buttons: [
       {
-        text: t('Cancel'),
+        text: 'Cancel',
         role: 'cancel',
         cssClass: 'secondary',
       },
 
       {
-        text: t('Logout'),
+        text: 'Logout',
         cssClass: 'primary',
         handler: () => callback(deleteData),
       },

@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { NavContext } from '@ionic/react';
 import Log from 'helpers/log';
+import { Trans as T } from 'react-i18next';
 import { Page, Header, device, alert, loader, toast } from '@apps';
 import Main from './Main';
 import './styles.scss';
@@ -21,13 +22,16 @@ async function onSubmit(userModel, details, onSuccess) {
   try {
     await userModel.reset(email.trim());
     alert({
-      header: t("We've sent an email to you"),
-      message: t(
-        "Click the link in the email to reset your password. If you don't see the email, check other places like your junk, spam or other folders."
+      header: "We've sent an email to you",
+      message: (
+        <T>
+          Click the link in the email to reset your password. If you don't see
+          the email, check other places like your junk, spam or other folders.
+        </T>
       ),
       buttons: [
         {
-          text: t('OK, got it'),
+          text: 'OK, got it',
           role: 'cancel',
           handler: onSuccess,
         },
