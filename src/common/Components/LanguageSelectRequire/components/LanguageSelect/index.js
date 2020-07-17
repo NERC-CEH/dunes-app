@@ -27,7 +27,7 @@ const LanguageSelect = observer(({ appModel }) => {
       <IonItem
         key={value}
         onClick={() => onSelect(value)}
-        className="language-button"
+        className="pretty-button"
         detail
       >
         <IonLabel>{language}</IonLabel>

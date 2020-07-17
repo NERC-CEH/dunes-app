@@ -47,18 +47,18 @@ function index() {
         <img className="app-logo" src="/images/appLogo.png" alt="" />
 
         <IonItemGroup>
-          <IonItem className="language-button" detail routerLink="/info/about">
+          <IonItem className="pretty-button" detail routerLink="/info/about">
             <IonLabel>
               <T>About</T>
             </IonLabel>
           </IonItem>
-          <IonItem className="language-button" detail routerLink="/info/manual">
+          <IonItem className="pretty-button" detail routerLink="/info/manual">
             <IonLabel>
               <T>Citizen Science Manual</T>
             </IonLabel>
           </IonItem>
           <IonItem
-            className="language-button"
+            className="pretty-button"
             detail
             href={config.promotionalWebsiteUrl}
             detailIcon={openOutline}
