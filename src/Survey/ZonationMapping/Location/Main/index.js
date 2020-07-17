@@ -18,11 +18,11 @@ import {
   addCircleOutline,
   mapOutline,
   flagOutline,
-  locateOutline,
 } from 'ionicons/icons';
 import GridRefValue from 'Survey/common/Components/GridRefValue';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import transectIcon from 'common/images/transect.svg';
+import habitatIcon from 'common/images/habitats.svg';
 import './styles.scss';
 
 @observer
@@ -123,7 +123,7 @@ class Component extends React.Component {
 
     const prettyGridRef = <GridRefValue sample={subSample} />;
 
-    const icon = type === 'point' ? locateOutline : flagOutline;
+    const icon = type === 'transition' ? habitatIcon : flagOutline;
     const label = type;
 
     return (
