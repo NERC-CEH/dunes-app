@@ -6,6 +6,7 @@ import savedSamples from 'savedSamples';
 import initAnalytics from 'helpers/analytics';
 import { Capacitor, Plugins, StatusBarStyle } from '@capacitor/core';
 import App from './App';
+import 'mobx-react/batchingForReactDom';
 
 const { StatusBar, SplashScreen } = Plugins;
 
