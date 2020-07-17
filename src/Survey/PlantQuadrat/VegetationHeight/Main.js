@@ -22,11 +22,12 @@ class Component extends React.Component {
     const pointsMenuAttrItems = [0, 1, 2, 3, 4].map(pointID => {
       const locationLabel = `#${pointID + 1} ${t('Point')}`;
 
+      const value = pointValues[pointID] && `${pointValues[pointID]}cm`;
       return (
         <MenuAttrItem
           key={pointID}
           routerLink={`${match.url}/height/${pointID}`}
-          value={pointValues[pointID]}
+          value={value}
           label={locationLabel}
           icon={heightIcon}
           wrapText
