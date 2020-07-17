@@ -947,6 +947,14 @@ msgstr "Click the link in the email to reset your password. If you don't see the
 msgid "Before submitting any records please check your email and click on the verification link."
 msgstr "Before submitting any records please check your email and click on the verification link."
 
-# User verification status dialog message
-msgid "Sorry, your account hasn't been verified yet or is blocked."
-msgstr "Sorry, your account hasn't been verified yet or is blocked."
+# About page text 
+msgid "By identifying and recording plant species, you can help scientists and conservationists protect and restore biodiverse sand dune habitats in England and Wales, using this app. With a beautiful range of habitats, coastal sand dunes are home to some amazing wildlife – including butterflies, lizards, toads and orchids. As a citizen scientist, you’ll help researchers gather vital sand dune habitat and species data to help strengthen the understanding of what’s going on in coastal sand dune environments, and to help improve the conservation work that is being done."
+msgstr "By identifying and recording plant species, you can help scientists and conservationists protect and restore biodiverse sand dune habitats in England and Wales, using this app. With a beautiful range of habitats, coastal sand dunes are home to some amazing wildlife – including butterflies, lizards, toads and orchids. As a citizen scientist, you’ll help researchers gather vital sand dune habitat and species data to help strengthen the understanding of what’s going on in coastal sand dune environments, and to help improve the conservation work that is being done."
+
+# About page text 
+msgid "From monitoring species to taking part in transect or quadrat surveys, explore the range of citizen science activities in the app which you can get involved in, and share your findings in the app when you next visit your chosen sand dune site."
+msgstr "From monitoring species to taking part in transect or quadrat surveys, explore the range of citizen science activities in the app which you can get involved in, and share your findings in the app when you next visit your chosen sand dune site."
+
+# About page text 
+msgid "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and the Wildlife Trusts."
+msgstr "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and the Wildlife Trusts."
