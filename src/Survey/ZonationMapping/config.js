@@ -108,6 +108,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        ignoreTransectSections: true,
       },
       attrs: {
         sample_method_id: 2424,
