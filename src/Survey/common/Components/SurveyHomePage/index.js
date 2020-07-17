@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { IonButton, NavContext } from '@ionic/react';
-import { Page, Header, toast, device } from '@apps';
+import { Page, Header, toast, loader, device } from '@apps';
 import { Trans as T } from 'react-i18next';
 import showInvalidsMessage from 'helpers/invalidsMessage';
 import Main from './Main';
@@ -22,7 +22,6 @@ class Controller extends React.Component {
 
   onUpload = async () => {
     const { sample, appModel, userModel, survey } = this.props;
-
     const draftIdKey = `draftId:${survey.name}`;
 
     appModel.attrs[draftIdKey] = null;
@@ -37,7 +36,6 @@ class Controller extends React.Component {
       return;
     }
 
-    // should we sync?
     if (!device.isOnline()) {
       warn(t('Looks like you are offline!'));
       return;
@@ -47,6 +45,25 @@ class Controller extends React.Component {
     if (!isLoggedIn) {
       warn(t('Please log in first to upload the records.'));
       return;
+    }
+
+    if (!userModel.attrs.verified) {
+      await loader.show({
+        message: t('Please wait...'),
+      });
+
+      try {
+        await userModel.refreshProfile();
+      } catch (e) {
+        // do nothing
+      }
+
+      loader.hide();
+
+      if (!userModel.attrs.verified) {
+        warn(t("Sorry, your account hasn't been verified yet or is blocked."));
+        return;
+      }
     }
 
     sample.saveRemote();
