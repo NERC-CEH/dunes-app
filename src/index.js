@@ -20,11 +20,11 @@ const { StatusBar, SplashScreen } = Plugins;
   appModel.save();
 
   ReactDOM.render(<App />, document.getElementById('root'));
+
+  Capacitor.isNative &&
+    StatusBar.setStyle({
+      style: StatusBarStyle.Dark,
+    });
+
+  Capacitor.isNative && SplashScreen.hide();
 })();
-
-Capacitor.isNative &&
-  StatusBar.setStyle({
-    style: StatusBarStyle.Dark,
-  });
-
-Capacitor.isNative && SplashScreen.hide();
