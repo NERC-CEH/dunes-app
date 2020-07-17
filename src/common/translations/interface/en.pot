@@ -958,3 +958,31 @@ msgstr "From monitoring species to taking part in transect or quadrat surveys, e
 # About page text 
 msgid "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and the Wildlife Trusts."
 msgstr "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and the Wildlife Trusts."
+
+# Part of zonation mapping activity 
+msgid "Transition"
+msgstr "Transition"
+
+# Part of zonation mapping activity 
+msgid "transition"
+msgstr "transition"
+
+# Part of zonation mapping activity 
+msgid "Previous Habitat"
+msgstr "Previous Habitat"
+
+# Part of zonation mapping activity 
+msgid "Current Habitat"
+msgstr "Current Habitat"
+
+# Part of zonation mapping activity 
+msgid "Please specify the distance from previous transition point in meters."
+msgstr "Please specify the distance from previous transition point in meters."
+
+# Part of zonation mapping activity 
+msgid "Please specify the new habitat type."
+msgstr "Please specify the new habitat type."
+
+# Part of zonation mapping activity 
+msgid "Please specify the previous habitat type."
+msgstr "Please specify the previous habitat type."

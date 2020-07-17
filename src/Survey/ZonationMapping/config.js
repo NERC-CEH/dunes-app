@@ -13,7 +13,7 @@ import {
 } from '../common/config';
 
 const habitatValues = habitats.map(habitat => ({
-  value: habitat,
+  value: habitat.title,
   id: habitat.warehouse_id,
 }));
 
@@ -34,9 +34,20 @@ const survey = {
 
   smp: {
     attrs: {
+      location: {
+        id: 'entered_sref',
+        values(location) {
+          return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
+            location.longitude
+          ).toFixed(7)}`;
+        },
+      },
+
+      date: dateAttr,
+
       previousHabitat: {
         id: 1498,
-        label: 'Type',
+        label: 'Previous Habitat',
         icon: habitatIcon,
         type: 'radio',
         info: 'Please specify the previous habitat type.',
@@ -45,7 +56,7 @@ const survey = {
 
       currentHabitat: {
         id: 1499,
-        label: 'Type',
+        label: 'Current Habitat',
         icon: habitatIcon,
         type: 'radio',
         info: 'Please specify the new habitat type.',
@@ -57,13 +68,16 @@ const survey = {
         icon: distanceIcon,
         label: 'Distance',
         type: 'slider',
-        info: 'Please specify the distance of the slope in meters.',
+        info:
+          'Please specify the distance from previous transition point in meters.',
         displayValueParse: value => `${value.toFixed(1)}m`,
         max: 300,
         min: 0,
         step: 0.1,
         skipValueTranslation: true,
       },
+
+      comment: commentAttr,
     },
 
     create(Sample, type) {
