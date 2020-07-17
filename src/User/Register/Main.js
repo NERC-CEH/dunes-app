@@ -83,6 +83,12 @@ class Component extends React.Component {
                     <IonRouterLink
                       href={`${config.backend.url}/privacy-notice?lang=${lang}`}
                     >
+                      Privacy Policy
+                    </IonRouterLink>{' '}
+                    and{' '}
+                    <IonRouterLink
+                      href={`${config.backend.url}/terms-of-use?lang=${lang}`}
+                    >
                       Terms and Conditions
                     </IonRouterLink>
                   </T>

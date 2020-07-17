@@ -384,8 +384,8 @@ msgid "Password"
 msgstr "Password"
 
 # Part of sign in and registration flow
-msgid "By clicking Sign Up, you agree to our <2>Terms and Conditions</2>"
-msgstr "By clicking Sign Up, you agree to our <2>Terms and Conditions</2>"
+msgid "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and Conditions</6>"
+msgstr "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and Conditions</6>"
 
 # Part of sign in and registration flow
 msgid "Sign Up"
