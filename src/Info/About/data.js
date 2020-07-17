@@ -27,7 +27,7 @@ const data = [
   },
   {
     id: 3,
-    url: 'https://ec.europa.eu/easme/en/life',
+    url: 'https://ec.europa.eu/environment/nature/natura2000/index_en.htm',
     images: Natura,
     size: 6,
     width: '100px',
