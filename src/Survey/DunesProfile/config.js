@@ -30,6 +30,17 @@ const survey = {
 
   smp: {
     attrs: {
+      location: {
+        id: 'entered_sref',
+        values(location) {
+          return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
+            location.longitude
+          ).toFixed(7)}`;
+        },
+      },
+
+      date: dateAttr,
+
       comment: commentAttr,
 
       type: {
