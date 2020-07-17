@@ -28,10 +28,17 @@ class Controller extends React.Component {
   };
 
   render() {
+    const { sample } = this.props;
+    const isDisabled = sample.isDisabled();
+
     return (
       <Page id="survey-dunes-profile-transect-edit">
         <Header title="Location" />
-        <Main {...this.props} addLocationPoint={this.addLocationPoint} />
+        <Main
+          {...this.props}
+          addLocationPoint={this.addLocationPoint}
+          isDisabled={isDisabled}
+        />
       </Page>
     );
   }
