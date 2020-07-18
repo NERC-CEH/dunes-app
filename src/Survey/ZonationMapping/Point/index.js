@@ -18,7 +18,7 @@ export default class index extends Component {
     return (
       <Page id="survey-zonation-mapping-transect-point-edit">
         <Header title={type} />
-        <Main sample={sample} subSample={subSample} isDisabled={isDisabled} />
+        <Main {...this.props} isDisabled={isDisabled} />
       </Page>
     );
   }
