@@ -24,7 +24,6 @@ const config = {
   // mapping
   map: {
     mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY,
-    mapboxOsmId: 'cehapps.0fenl1fe',
     mapboxSatelliteId: 'cehapps.0femh3mh',
   },
 

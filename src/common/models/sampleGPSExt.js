@@ -6,6 +6,9 @@
  **************************************************************************** */
 import GPS from 'helpers/GPS';
 import { observable } from 'mobx';
+import { location as locationUtils } from '@apps';
+
+const { updateModelLocation } = locationUtils;
 
 const DEFAULT_ACCURACY_LIMIT = 50; // meters
 
@@ -52,14 +55,7 @@ const extension = {
           that.stopGPS();
         }
 
-        that.setLocation(
-          [
-            parseFloat(location.longitude, 10),
-            parseFloat(location.latitude, 10),
-          ],
-          'gps',
-          location.accuracy
-        );
+        updateModelLocation(that, location);
       },
     };
 

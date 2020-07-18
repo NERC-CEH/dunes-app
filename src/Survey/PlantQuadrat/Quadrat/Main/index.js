@@ -1,10 +1,9 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import locationHelp from 'common/helpers/location';
+import { location as locationUtils, Main, MenuAttrItem } from '@apps';
 import { IonList, IonItemDivider } from '@ionic/react';
 import { locateOutline, gridOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
-import { Main, MenuAttrItem } from '@apps';
 import PhotoPicker from 'Components/PhotoPicker';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
 import PropTypes from 'prop-types';
@@ -12,6 +11,8 @@ import './styles.scss';
 import habitatIcon from 'common/images/habitats.svg';
 import heightIcon from 'common/images/height.svg';
 import flowerIcon from 'common/images/flower.svg';
+
+const { locationToGrid, prettyPrintGridRef } = locationUtils;
 
 @observer
 class Component extends React.Component {
@@ -29,13 +30,13 @@ class Component extends React.Component {
       longitude,
     ] = subSample.attrs.location.centroid_sref.replace(/[N,W]/g, '').split(' ');
 
-    const gridRef = locationHelp.locationToGrid({
+    const gridRef = locationToGrid({
       accurracy: 1,
       latitude: parseFloat(latitude),
       longitude: parseFloat(longitude),
     });
 
-    const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
+    const prettyGridRef = prettyPrintGridRef(gridRef);
     const { habitat } = subSample.attrs.location;
 
     const aggregateCoverValues = (agg, cover) => {

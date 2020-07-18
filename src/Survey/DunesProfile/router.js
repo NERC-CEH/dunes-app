@@ -1,8 +1,9 @@
 import React from 'react';
-import { AttrPage as Attr, RouteWithModels } from '@apps';
+import { AttrPage as Attr, RouteWithModels, ModelLocation } from '@apps';
 import appModel from 'appModel';
 import userModel from 'userModel';
 import savedSamples from 'savedSamples';
+import config from 'config';
 import StartNewSurvey from 'Survey/common/Components/StartNewSurvey';
 import Home from 'Survey/common/Components/SurveyHomePage';
 import Sites from 'Survey/common/Components/Sites';
@@ -43,6 +44,17 @@ const routes = [
   ],
   [`${baseURL}/:smpId/edit/location/map`, Map],
   [`${baseURL}/:smpId/edit/location/:subSmpId`, Point],
+  [
+    `${baseURL}/:smpId/edit/location/:subSmpId/location`,
+    params => (
+      <ModelLocation
+        appModel={appModel}
+        userModel={userModel}
+        mapProviderOptions={config.map}
+        {...params}
+      />
+    ),
+  ],
   [`${baseURL}/:smpId/edit/location/:subSmpId/:attr`, Attr],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];

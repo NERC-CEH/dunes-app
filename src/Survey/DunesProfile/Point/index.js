@@ -16,9 +16,9 @@ export default class index extends Component {
     const { type } = subSample.metadata;
 
     return (
-      <Page id="survey-fixed-photography-transect-point-edit">
+      <Page id="survey-dunes-profile-transect-point-edit">
         <Header title={type} />
-        <Main sample={sample} subSample={subSample} isDisabled={isDisabled} />
+        <Main {...this.props} isDisabled={isDisabled} />
       </Page>
     );
   }

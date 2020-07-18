@@ -14,6 +14,8 @@ const appModel = new AppModel(genericStore, 'app', {
   useTraining: false,
   sendAnalytics: true,
   appSession: 0,
+  useGridRef: true,
+  useGridMap: true,
 
   favouriteSite: null,
 

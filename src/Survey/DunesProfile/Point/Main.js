@@ -10,6 +10,7 @@ import { locateOutline } from 'ionicons/icons';
 class Component extends React.Component {
   static propTypes = {
     subSample: PropTypes.object.isRequired,
+    match: PropTypes.object.isRequired,
     isDisabled: PropTypes.bool,
   };
 
@@ -29,17 +30,17 @@ class Component extends React.Component {
   };
 
   render() {
-    const { subSample, isDisabled } = this.props;
+    const { subSample, isDisabled, match } = this.props;
     const prettyGridRef = <GridRefValue sample={subSample} />;
 
     return (
       <Main>
         <IonList lines="full">
           <MenuAttrItem
+            routerLink={`${match.url}/location`}
             value={prettyGridRef}
             icon={locateOutline}
             label="Grid Ref"
-            disabled
             skipValueTranslation
           />
 

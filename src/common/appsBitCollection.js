@@ -15,6 +15,7 @@ export { default as InfoButton } from '@bit/flumens.apps.info-button';
 export { default as Gallery } from '@bit/flumens.apps.gallery';
 export { default as MenuAttrItemFromModel } from '@bit/flumens.apps.menu-attr-item-from-model';
 export { default as InfoBackgroundMessage } from '@bit/flumens.apps.info-background-message';
+export { default as ModelLocation } from '@bit/flumens.apps.model-location-map';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';
@@ -22,6 +23,7 @@ export { default as alert } from '@bit/flumens.apps.helpers.alert';
 export { default as actionSheet } from '@bit/flumens.apps.helpers.action-sheet';
 export { default as loader } from '@bit/flumens.apps.helpers.loader';
 export { default as toast } from '@bit/flumens.apps.helpers.toast';
+export { default as location } from '@bit/flumens.apps.utils.location';
 
 export { default as Model } from '@bit/flumens.apps.models.model';
 export { default as Sample } from '@bit/flumens.apps.models.sample';

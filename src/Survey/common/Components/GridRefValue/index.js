@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { IonSpinner } from '@ionic/react';
 import { observer } from 'mobx-react';
-import locationHelp from 'common/helpers/location';
+import { prettyPrintLocation } from '@bit/flumens.apps.utils.location';
 import './styles.scss';
 
 function getValue(sample) {
@@ -10,23 +10,7 @@ function getValue(sample) {
     return <IonSpinner />;
   }
 
-  if (!sample.attrs.location || !sample.attrs.location.latitude) {
-    return null;
-  }
-
-  const { latitude, longitude } = sample.attrs.location;
-
-  const gridRef = locationHelp.locationToGrid({
-    accurracy: 1,
-    latitude,
-    longitude,
-  });
-
-  if (!gridRef) {
-    return `${latitude.toFixed(2)}, ${longitude.toFixed(2)}`;
-  }
-
-  return locationHelp.prettyPrintGridRef(gridRef);
+  return prettyPrintLocation(sample.attrs.location);
 }
 
 function GridRefValue({ sample }) {

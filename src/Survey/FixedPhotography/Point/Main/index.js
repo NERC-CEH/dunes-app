@@ -1,15 +1,22 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import locationHelp from 'common/helpers/location';
+import {
+  location as locationUtils,
+  Main,
+  MenuAttrItem,
+  MenuNote,
+  InfoButton,
+  Section,
+} from '@apps';
 import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
-import { Main, MenuAttrItem, MenuNote, InfoButton, Section } from '@apps';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
+const { locationToGrid, prettyPrintGridRef } = locationUtils;
 const { P } = Section;
 
 @observer
@@ -26,13 +33,13 @@ class Component extends React.Component {
       latitude,
       longitude,
     ] = subSample.attrs.location.centroid_sref.replace(/[N,W]/g, '').split(' ');
-    const gridRef = locationHelp.locationToGrid({
+    const gridRef = locationToGrid({
       accurracy: 1,
       latitude: parseFloat(latitude),
       longitude: parseFloat(longitude),
     });
 
-    const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
+    const prettyGridRef = prettyPrintGridRef(gridRef);
 
     return (
       <Main>

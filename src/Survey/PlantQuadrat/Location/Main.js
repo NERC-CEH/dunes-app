@@ -8,12 +8,13 @@ import {
   squareOutline,
   mapOutline,
 } from 'ionicons/icons';
-import locationHelp from 'common/helpers/location';
-import { Main, MenuAttrItem } from '@apps';
+import { location as locationUtils, Main, MenuAttrItem } from '@apps';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
 import './styles.scss';
+
+const { locationToGrid, prettyPrintGridRef } = locationUtils;
 
 @observer
 class Component extends React.Component {
@@ -45,13 +46,13 @@ class Component extends React.Component {
       ] = subSample.attrs.location.centroid_sref
         .replace(/[N,W,E]/g, '')
         .split(' ');
-      const gridRef = locationHelp.locationToGrid({
+      const gridRef = locationToGrid({
         accurracy: 1,
         latitude: parseFloat(latitude),
         longitude: parseFloat(longitude),
       });
 
-      const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
+      const prettyGridRef = prettyPrintGridRef(gridRef);
 
       const locationLabel = `${t('Quadrat')} #${pointNo}`;
 

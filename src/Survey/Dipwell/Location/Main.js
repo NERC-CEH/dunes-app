@@ -4,11 +4,12 @@ import { IonList, IonItemDivider } from '@ionic/react';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { withTranslation, Trans as T } from 'react-i18next';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
-import locationHelp from 'common/helpers/location';
-import { Main, MenuAttrItem } from '@apps';
+import { location as locationUtils, Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
 import './styles.scss';
+
+const { prettyPrintGridRef, locationToGrid } = locationUtils;
 
 @observer
 class Component extends React.Component {
@@ -40,13 +41,13 @@ class Component extends React.Component {
       ] = subSample.attrs.location.centroid_sref
         .replace(/[N,W,E]/g, '')
         .split(' ');
-      const gridRef = locationHelp.locationToGrid({
+      const gridRef = locationToGrid({
         accurracy: 1,
         latitude: parseFloat(latitude),
         longitude: parseFloat(longitude),
       });
 
-      const prettyGridRef = locationHelp.prettyPrintGridRef(gridRef);
+      const prettyGridRef = prettyPrintGridRef(gridRef);
 
       const locationLabel = `${t('Dipwell')} #${pointNo}`;
 
