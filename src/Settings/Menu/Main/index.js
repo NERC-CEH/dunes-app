@@ -50,11 +50,10 @@ class Component extends React.Component {
     onToggle: PropTypes.func.isRequired,
     sendAnalytics: PropTypes.bool.isRequired,
     language: PropTypes.string,
-    t: PropTypes.func.isRequired,
   };
 
   render() {
-    const { resetApp, onToggle, sendAnalytics, language, t } = this.props;
+    const { resetApp, onToggle, sendAnalytics, language } = this.props;
 
     return (
       <Main>

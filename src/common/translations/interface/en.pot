@@ -424,6 +424,10 @@ msgid "email is not valid"
 msgstr "email is not valid"
 
 # User login/registration validation output
+msgid "fullName is a required field"
+msgstr "fullName is a required field"
+
+# User login/registration validation output
 msgid "name is a required field"
 msgstr "name is a required field"
 
@@ -986,3 +990,11 @@ msgstr "Please specify the new habitat type."
 # Part of zonation mapping activity 
 msgid "Please specify the previous habitat type."
 msgstr "Please specify the previous habitat type."
+
+# Error message
+msgid "Unrecognized username or email address."
+msgstr "Unrecognized username or email address."
+
+# Warning message 
+msgid "Please log in first to upload the records."
+msgstr "Please log in first to upload the records."
