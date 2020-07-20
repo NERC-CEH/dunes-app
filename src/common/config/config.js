@@ -3,7 +3,7 @@
  **************************************************************************** */
 
 const backendUrl =
-  process.env.APP_BACKEND_URL || 'https://dev-brc-dunescapes.pantheonsite.io'; // TODO
+  process.env.APP_BACKEND_URL || 'https://dunescapes.brc.ac.uk';
 
 const config = {
   // variables replaced on build
