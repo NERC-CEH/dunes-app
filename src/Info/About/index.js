@@ -12,7 +12,7 @@ const About = () => {
 
   const showSponsors = obj => {
     return (
-      <IonCol key={obj.id} size={obj.size}>
+      <IonCol key={obj.url} size-xs class="ion-no-padding">
         <a href={obj.url}>
           <IonImg src={obj.images} style={{ width: obj.width }} alt={obj.alt} />
         </a>
