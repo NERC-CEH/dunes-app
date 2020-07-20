@@ -9,7 +9,6 @@ import {
   IonSegmentButton,
   IonLabel,
   IonBadge,
-  IonList,
   IonIcon,
   IonButton,
 } from '@ionic/react';
@@ -48,32 +47,20 @@ class Component extends React.Component {
     return savedSamples.filter(byUploadStatus).sort(byCreateTime);
   }
 
-  getSurveys = (surveys, message, tipName) => {
-    if (!surveys.length) {
-      return (
-        <IonList lines="full">
-          <InfoBackgroundMessage name={tipName}>
-            {message}
-          </InfoBackgroundMessage>
-        </IonList>
-      );
-    }
-
+  getSurveys = surveys => {
     const getSurvey = sample => <Survey key={sample.cid} sample={sample} />;
     const surveysList = surveys.map(getSurvey);
 
-    return (
-      <IonList lines="full">
-        {surveysList}
-        <InfoBackgroundMessage name={tipName}>{message}</InfoBackgroundMessage>
-      </IonList>
-    );
+    return surveysList;
   };
 
   getUploadedSurveys = () => {
     const surveys = this.getSamplesList(true);
 
-    return this.getSurveys(surveys, 'No uploaded surveys', null);
+    if (!surveys.length) {
+      return <InfoBackgroundMessage>No uploaded surveys</InfoBackgroundMessage>;
+    }
+    return this.getSurveys(surveys);
   };
 
   getPendingSurveys = () => {
@@ -82,29 +69,35 @@ class Component extends React.Component {
 
     if (!surveys.length) {
       return (
-        <IonList lines="full">
-          <InfoBackgroundMessage>
-            No finished pending surveys.
-            <br />
-            <br />
-            Press <IonIcon icon={add} /> to add.
-          </InfoBackgroundMessage>
-        </IonList>
+        <InfoBackgroundMessage>
+          No finished pending surveys.
+          <br />
+          <br />
+          Press <IonIcon icon={add} /> to add.
+        </InfoBackgroundMessage>
       );
     }
 
     if (finishedSurvey) {
-      return this.getSurveys(
-        surveys,
-        'Please do not forget to upload any pending surveys!',
-        'showSurveyUploadTip'
+      return (
+        <>
+          {this.getSurveys(surveys)}
+
+          <InfoBackgroundMessage name="showSurveyUploadTip">
+            Please do not forget to upload any pending surveys!
+          </InfoBackgroundMessage>
+        </>
       );
     }
 
-    return this.getSurveys(
-      surveys,
-      'To delete any surveys swipe it to the left.',
-      'showSurveysDeleteTip'
+    return (
+      <>
+        {this.getSurveys(surveys)}
+
+        <InfoBackgroundMessage name="showSurveysDeleteTip">
+          To delete any surveys swipe it to the left.
+        </InfoBackgroundMessage>
+      </>
     );
   };
 
