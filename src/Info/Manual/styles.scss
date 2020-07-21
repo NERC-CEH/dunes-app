@@ -1,13 +1,34 @@
 #manual {
-  h3 {
+  ion-item {
+    margin: 0;
+  }
+  ion-label b {
+    text-transform: uppercase;
+  }
+
+  .manual-title {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
+    font-weight: 400;
   }
+
   ul {
     padding: 2px 20px;
   }
+
   ul > li {
     padding: 6px 2px;
+  }
+
+  .collapse-block {
+    font-weight: 400;
+
+    ion-label {
+      font-size: 15px;
+      color: var(--ion-color-dark);
+      text-transform: uppercase;
+      font-weight: 500;
+    }
   }
 }

@@ -29,6 +29,17 @@ class Component extends React.Component {
 
     const transect = (sample.attrs.location || {}).name;
 
+    let manual = (
+      <Section>
+        <P>
+          <i>TODO:</i> this is work in progress.
+        </P>
+      </Section>
+    );
+    if (survey.Manual) {
+      manual = <survey.Manual />;
+    }
+
     return (
       <Main>
         <IonList lines="full">
@@ -57,11 +68,7 @@ class Component extends React.Component {
                 You can find this survey information in our volunteer manual.
               </T>
               <InfoButton label="open survey manual" header={survey.label}>
-                <Section>
-                  <P>
-                    <i>TODO:</i> this is work in progress.
-                  </P>
-                </Section>
+                {manual}
               </InfoButton>
             </MenuNote>
           )}

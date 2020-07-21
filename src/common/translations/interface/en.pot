@@ -994,3 +994,64 @@ msgstr "Unrecognized username or email address."
 # Warning message 
 msgid "Please log in first to upload the records."
 msgstr "Please log in first to upload the records."
+
+# Fix-point photography survey manual
+msgid "The aim of this survey is to develop a visual record of the sand dune system using fixed point photographs. This will allow assessments to be made of how the morphology and vegetation composition of sites are changing over time."
+msgstr "The aim of this survey is to develop a visual record of the sand dune system using fixed point photographs. This will allow assessments to be made of how the morphology and vegetation composition of sites are changing over time."
+
+# Fix-point photography survey manual
+msgid "<0><0>Fixed point photographs should be taken at least once a year, in April or May, at preselected locations.</0></0>"
+msgstr "<0><0>Fixed point photographs should be taken at least once a year, in April or May, at preselected locations.</0></0>"
+
+# Fix-point photography survey manual
+msgid "When and where to survey"
+msgstr "When and where to survey"
+
+# Fix-point photography survey manual
+msgid "<0><0>Make sure you take with you:<1><0>Handheld GPS unit</0><1>(Mobile phone app – fixed point photography locations downloaded beforehand)</1><2>Compass</2><3>Fixed point photography recording form</3><4>Camera</4></1></0></0>"
+msgstr "<0><0>Make sure you take with you:<1><0>Handheld GPS unit</0><1>(Mobile phone app – fixed point photography locations downloaded beforehand)</1><2>Compass</2><3>Fixed point photography recording form</3><4>Camera</4></1></0></0>"
+
+# Fix-point photography survey manual
+msgid "Equipment"
+msgstr "Equipment"
+
+# Fix-point photography survey manual
+msgid "<0><0><0><0>Using your handheld GPS (and mobile phone app), navigate to each photography point, which will be marked by a post. The grid reference can be found on the description form for photography points, or described on the app. Some photography points may be along transects, others may be in dune slacks or other points of interest on the site.</0><1>For points that are along transects, from the starting point of the transect marked by a post, use the grid reference of the end of the transect and your compass (and your mobile phone app) to navigate along the transect.</1></0></0></0>"
+msgstr "<0><0><0><0>Using your handheld GPS (and mobile phone app), navigate to each photography point, which will be marked by a post. The grid reference can be found on the description form for photography points, or described on the app. Some photography points may be along transects, others may be in dune slacks or other points of interest on the site.</0><1>For points that are along transects, from the starting point of the transect marked by a post, use the grid reference of the end of the transect and your compass (and your mobile phone app) to navigate along the transect.</1></0></0></0>"
+
+# Fix-point photography survey manual
+msgid "Navigating to the photography points"
+msgstr "Navigating to the photography points"
+
+# Fix-point photography survey manual
+msgid "<0><0><0><0>Take a photograph at each photography point. The important thing here is to take your photograph so it matches the position of the original photo (see the list of locations, or the app) so that direct comparisons can be made. To help you do this:<1><0>Each photograph should be taken in the direction indicated (as aligned with the guide photo)</0><1>Take the photograph at eye level</1><2>Refer back to the photographs shown in the transect description form, or on the app. If there are any useful reference points (e.g. trees, buildings), make sure these are in the same place in your new photograph.</2></1></0><1>For each photograph, record the time it was taken on the recording form so that it can be identified and stored correctly. This will be recorded automatically on the app.</1></0></0></0>"
+msgstr "<0><0><0><0>Take a photograph at each photography point. The important thing here is to take your photograph so it matches the position of the original photo (see the list of locations, or the app) so that direct comparisons can be made. To help you do this:<1><0>Each photograph should be taken in the direction indicated (as aligned with the guide photo)</0><1>Take the photograph at eye level</1><2>Refer back to the photographs shown in the transect description form, or on the app. If there are any useful reference points (e.g. trees, buildings), make sure these are in the same place in your new photograph.</2></1></0><1>For each photograph, record the time it was taken on the recording form so that it can be identified and stored correctly. This will be recorded automatically on the app.</1></0></0></0>"
+
+# Fix-point photography survey manual
+msgid "What to record"
+msgstr "What to record"
+
+# Fix-point photography survey manual
+msgid "Fixed point photographs should be taken at least once a year, in April or May, at preselected locations."
+msgstr "Fixed point photographs should be taken at least once a year, in April or May, at preselected locations."
+
+# Fix-point photography survey manual
+msgid "<0><0>Using your handheld GPS (and mobile phone app), navigate to each photography point, which will be marked by a post. The grid reference can be found on the description form for photography points, or described on the app. Some photography points may be along transects, others may be in dune slacks or other points of interest on the site.</0><1>For points that are along transects, from the starting point of the transect marked by a post, use the grid reference of the end of the transect and your compass (and your mobile phone app) to navigate along the transect.</1></0>"
+msgstr "<0><0>Using your handheld GPS (and mobile phone app), navigate to each photography point, which will be marked by a post. The grid reference can be found on the description form for photography points, or described on the app. Some photography points may be along transects, others may be in dune slacks or other points of interest on the site.</0><1>For points that are along transects, from the starting point of the transect marked by a post, use the grid reference of the end of the transect and your compass (and your mobile phone app) to navigate along the transect.</1></0>"
+
+# Fix-point photography survey manual
+msgid "Make sure you take with you:<1><0>Handheld GPS unit</0><1>(Mobile phone app – fixed point photography locations downloaded beforehand)</1><2>Compass</2><3>Fixed point photography recording form</3><4>Camera</4></1>"
+msgstr "Make sure you take with you:<1><0>Handheld GPS unit</0><1>(Mobile phone app – fixed point photography locations downloaded beforehand)</1><2>Compass</2><3>Fixed point photography recording form</3><4>Camera</4></1>"
+
+# Fix-point photography survey manual
+msgid "<0><0>Take a photograph at each photography point. The important thing here is to take your photograph so it matches the position of the original photo (see the list of locations, or the app) so that direct comparisons can be made. To help you do this:<1><0>Each photograph should be taken in the direction indicated (as aligned with the guide photo)</0><1>Take the photograph at eye level</1><2>Refer back to the photographs shown in the transect description form, or on the app. If there are any useful reference points (e.g. trees, buildings), make sure these are in the same place in your new photograph.</2></1></0><1>For each photograph, record the time it was taken on the recording form so that it can be identified and stored correctly. This will be recorded automatically on the app.</1></0>"
+msgstr "<0><0>Take a photograph at each photography point. The important thing here is to take your photograph so it matches the position of the original photo (see the list of locations, or the app) so that direct comparisons can be made. To help you do this:<1><0>Each photograph should be taken in the direction indicated (as aligned with the guide photo)</0><1>Take the photograph at eye level</1><2>Refer back to the photographs shown in the transect description form, or on the app. If there are any useful reference points (e.g. trees, buildings), make sure these are in the same place in your new photograph.</2></1></0><1>For each photograph, record the time it was taken on the recording form so that it can be identified and stored correctly. This will be recorded automatically on the app.</1></0>"
+
+# Fix-point photography survey manual
+msgid "Background"
+msgstr "Background"
+
+# Fix-point photography survey manual
+msgid "Method"
+msgstr "Method"
+

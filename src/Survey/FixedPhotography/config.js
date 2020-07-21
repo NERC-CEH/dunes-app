@@ -8,11 +8,13 @@ import {
   surveyorsAttr,
   verifyLocationSchema,
 } from '../common/config';
+import Manual from './Manual';
 
 const survey = {
   name: 'fixed-photography',
   label: 'Fixed-point Photography',
   icon: cameraIcon,
+  Manual,
 
   id: 593,
   render: [],
