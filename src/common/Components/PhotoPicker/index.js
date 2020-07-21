@@ -6,11 +6,11 @@ import { observer } from 'mobx-react';
 import { IonIcon, IonButton, IonItem } from '@ionic/react';
 import { close, camera } from 'ionicons/icons';
 import { Trans as T, withTranslation } from 'react-i18next';
-import actionSheet from '@bit/flumens.apps.helpers.action-sheet';
 import alert from '@bit/flumens.apps.helpers.alert';
 import toast from '@bit/flumens.apps.helpers.toast';
 import Gallery from '@bit/flumens.apps.gallery';
 import ImageModel from 'common/models/media';
+import { Capacitor } from '@capacitor/core';
 import './styles.scss';
 
 const { error } = toast;
@@ -41,12 +41,9 @@ function photoDelete(photo) {
   });
 }
 
-/**
- * Adds a new image to occurrence.
- */
-async function addPhoto(model, photo) {
-  const image = await ImageHelp.getImageModel(ImageModel, photo);
-  model.media.push(image);
+async function addPhotoToModel(model, image) {
+  const media = await ImageHelp.getImageModel(ImageModel, image);
+  model.media.push(media);
   return model.save();
 }
 
@@ -66,65 +63,33 @@ class PhotoPicker extends Component {
     const photo = e.target.files[0];
 
     // TODO: show loader
-    addPhoto(this.props.model, photo).catch(err => {
+    addPhotoToModel(this.props.model, photo).catch(err => {
       Log(err, 'e');
       // TODO: show err
     });
   };
 
-  photoSelect = () => {
-    const { t, model, isDisabled } = this.props;
+  photoSelect = async () => {
+    const { isDisabled } = this.props;
 
     if (isDisabled) {
       return;
     }
 
-    actionSheet({
-      header: t('Choose a method to upload a photo'),
-      buttons: [
-        {
-          text: t('Gallery'),
-          handler: () => {
-            ImageHelp.getImage({
-              sourceType: window.Camera.PictureSourceType.PHOTOLIBRARY,
-              saveToPhotoAlbum: false,
-            })
-              .then(entry => {
-                entry &&
-                  addPhoto(model, entry.nativeURL, occErr => {
-                    if (occErr) {
-                      error(occErr.message);
-                    }
-                  });
-              })
-              .catch(occErr => {
-                error(occErr.message);
-              });
-          },
-        },
-        {
-          text: t('Camera'),
-          handler: () => {
-            ImageHelp.getImage()
-              .then(entry => {
-                entry &&
-                  addPhoto(model, entry.nativeURL, occErr => {
-                    if (occErr) {
-                      error(occErr.message);
-                    }
-                  });
-              })
-              .catch(occErr => {
-                error(occErr.message);
-              });
-          },
-        },
-        {
-          text: t('Cancel'),
-          role: 'cancel',
-        },
-      ],
-    });
+    const { model } = this.props;
+
+    const image = await ImageHelp.getImage();
+
+    if (!image) {
+      error(t("Sorry, we couldn't get the image."));
+      return;
+    }
+
+    try {
+      addPhotoToModel(model, image);
+    } catch (e) {
+      error(e.message);
+    }
   };
 
   getGallery = () => {
@@ -202,7 +167,7 @@ class PhotoPicker extends Component {
   getNewImageButton = () => {
     const { isDisabled } = this.props;
 
-    if (!window.cordova) {
+    if (!Capacitor.isNative) {
       return (
         <div className="non-cordova-img-picker">
           <IonIcon
@@ -216,6 +181,7 @@ class PhotoPicker extends Component {
         </div>
       );
     }
+
     return (
       <IonButton fill="clear" onClick={this.photoSelect}>
         <IonIcon icon={camera} />

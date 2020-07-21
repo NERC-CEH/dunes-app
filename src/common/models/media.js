@@ -1,43 +1,30 @@
 import { Media } from '@apps';
 import Log from 'helpers/log';
+import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
 
-function fixPreviousVersions(URL) {
-  if (URL.search('file://') >= 0) {
-    return URL.split('/').pop();
+const { Filesystem } = Plugins;
+
+let mediaDirectory = '';
+
+(async function getMediaDirectory() {
+  if (!Capacitor.isNative) {
+    return;
   }
-  return URL;
-}
 
-function deleteFile(fileName) {
-  return new Promise((resolve, reject) => {
-    function onFileGet(fileEntry) {
-      if (!fileEntry) {
-        resolve();
-        return;
-      }
-
-      fileEntry.remove(() => {
-        Log('Helpers:Image: removed.');
-        resolve();
-      }, reject);
-    }
-
-    window.resolveLocalFileSystemURL(
-      cordova.file.dataDirectory,
-      fileSystem => {
-        fileSystem.getFile(fileName, { create: false }, onFileGet, reject);
-      },
-      reject
-    );
+  const { uri } = await Filesystem.getUri({
+    path: '',
+    directory: FilesystemDirectory.Data,
   });
-}
+
+  mediaDirectory = uri;
+})();
 
 export default class AppMedia extends Media {
   async destroy(silent) {
     Log('MediaModel: destroying.');
 
     // remove from internal storage
-    if (!window.cordova || window.testing) {
+    if (!Capacitor.isNative || window.testing) {
       if (!this.parent) {
         return null;
       }
@@ -51,14 +38,18 @@ export default class AppMedia extends Media {
       return this.parent.save();
     }
 
-    let URL = this.attrs.data;
-    URL = fixPreviousVersions(URL);
+    const URL = this.attrs.data;
 
     try {
-      await deleteFile(URL);
+      await Filesystem.deleteFile({
+        path: URL,
+        directory: FilesystemDirectory.Data,
+      });
+
       if (!this.parent) {
         return null;
       }
+
       this.parent.media.remove(this);
 
       if (silent) {
@@ -68,8 +59,19 @@ export default class AppMedia extends Media {
       return this.parent.save();
     } catch (err) {
       Log(err, 'e');
-      return null;
     }
+
+    return null;
+  }
+
+  getURL() {
+    const { data: name } = this.attrs;
+
+    if (!Capacitor.isNative || window.testing) {
+      return name;
+    }
+
+    return Capacitor.convertFileSrc(`${mediaDirectory}/${name}`);
   }
 
   // eslint-disable-next-line class-methods-use-this

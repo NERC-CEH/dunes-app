@@ -2,27 +2,15 @@
  * Functions to work with media.
  **************************************************************************** */
 import Indicia from '@indicia-js/core';
-import { device } from '@apps';
+import {
+  Capacitor,
+  Plugins,
+  CameraResultType,
+  FilesystemDirectory,
+} from '@capacitor/core';
 import Log from './log';
 
-export function _onGetImageError(err, resolve, reject) {
-  if (typeof err !== 'string') {
-    // for some reason the plugin's errors can be non-strings
-    err = ''; //eslint-disable-line
-  }
-
-  const e = err.toLowerCase();
-  if (
-    e.includes('has no access') ||
-    e.includes('cancelled') ||
-    e.includes('selected')
-  ) {
-    resolve(); // no image selected
-    return;
-  }
-  reject(err);
-}
-
+const { Camera, Filesystem } = Plugins;
 const Image = {
   /**
    * Gets a fileEntry of the selected image from the camera or gallery.
@@ -30,125 +18,73 @@ const Image = {
    * @param options
    * @returns {Promise}
    */
-  getImage(options = {}) {
-    return new Promise((resolve, reject) => {
-      Log('Helpers:Image: getting.');
+  async getImage(options = {}) {
+    Log('Helpers:Image: getting.');
 
-      const defaultCameraOptions = {
-        sourceType: window.Camera.PictureSourceType.CAMERA,
-        // allow edit is unpredictable on Android and it should not be used!
-        allowEdit: false,
-        quality: 40,
-        targetWidth: 1000,
-        targetHeight: 1000,
-        destinationType: window.Camera.DestinationType.FILE_URI,
-        encodingType: window.Camera.EncodingType.JPEG,
-        saveToPhotoAlbum: true,
-        correctOrientation: true,
-      };
+    const defaultCameraOptions = {
+      quality: 40,
+      allowEditing: false,
+      resultType: CameraResultType.Uri,
+      saveToGallery: true,
+      correctOrientation: true,
+      promptLabelHeader: t('Choose a method to upload a photo'),
+      promptLabelPhoto: t('Gallery'),
+      promptLabelPicture: t('Camera'),
+      promptLabelCancel: t('Cancel'),
+    };
 
-      const cameraOptions = { ...{}, ...defaultCameraOptions, ...options };
+    const cameraOptions = { ...{}, ...defaultCameraOptions, ...options };
 
-      if (device.isAndroid()) {
-        // Android bug:
-        // https://issues.apache.org/jira/browse/CB-12270
-        delete cameraOptions.saveToPhotoAlbum;
-      }
+    const file = await Camera.getPhoto(cameraOptions);
+    const name = `${Date.now()}.jpeg`;
 
-      function copyFileToAppStorage(fileURI) {
-        let URI = fileURI;
-        function onSuccessCopyFile(fileEntry) {
-          const name = `${Date.now()}.jpeg`;
-          window.resolveLocalFileSystemURL(
-            cordova.file.dataDirectory,
-            fileSystem => {
-              // copy to app data directory
-              fileEntry.copyTo(fileSystem, name, resolve, reject);
-            },
-            reject
-          );
-        }
-
-        // for some reason when selecting from Android gallery
-        // the prefix is sometimes missing
-        if (
-          device.isAndroid() &&
-          options.sourceType === window.Camera.PictureSourceType.PHOTOLIBRARY
-        ) {
-          if (!/file:\/\//.test(URI)) {
-            URI = `file://${URI}`;
-          }
-        }
-
-        window.resolveLocalFileSystemURL(URI, onSuccessCopyFile, reject);
-      }
-
-      function onSuccess(fileURI) {
-        if (
-          device.isAndroid() &&
-          cameraOptions.sourceType === window.Camera.PictureSourceType.CAMERA
-        ) {
-          // Android bug:
-          // https://issues.apache.org/jira/browse/CB-12270
-          window.cordova.plugins.imagesaver.saveImageToGallery(
-            fileURI,
-            () => copyFileToAppStorage(fileURI),
-            reject
-          );
-          return;
-        }
-
-        copyFileToAppStorage(fileURI);
-      }
-
-      navigator.camera.getPicture(
-        onSuccess,
-        err => _onGetImageError(err, resolve, reject),
-        cameraOptions
-      );
+    // This example copies a file within the documents directory
+    await Filesystem.copy({
+      from: file.path,
+      to: name,
+      toDirectory: FilesystemDirectory.Data,
     });
+
+    const { uri } = await Filesystem.stat({
+      path: name,
+      directory: FilesystemDirectory.Data,
+    });
+
+    return uri;
   },
 
   /**
    * Create new record with a photo
    */
-  getImageModel(ImageModel, file) {
-    if (!file) {
-      const err = new Error('File not found while creating image model.');
-      return Promise.reject(err);
+  async getImageModel(ImageModel, imageURL) {
+    if (!imageURL) {
+      throw new Error('File not found while creating image model.');
     }
 
-    // create and add new record
-    const success = args => {
-      const [data, type, width, height] = args;
-      const imageModel = new ImageModel({
-        attrs: {
-          data,
-          type,
-          width,
-          height,
-        },
-      });
+    let width;
+    let height;
+    let data;
 
-      return imageModel.addThumbnail().then(() => imageModel);
-    };
-
-    const isBrowser = !window.cordova && file instanceof File;
-    if (isBrowser) {
-      return Indicia.Media.getDataURI(file).then(success);
+    if (Capacitor.isNative) {
+      imageURL = Capacitor.convertFileSrc(imageURL); // eslint-disable-line
+      [, , width, height] = await Indicia.Media.getDataURI(imageURL);
+      data = imageURL.split('/').pop();
+    } else {
+      [data, , width, height] = await Indicia.Media.getDataURI(imageURL);
     }
 
-    file = window.Ionic.WebView.convertFileSrc(file); // eslint-disable-line
-    return Indicia.Media.getDataURI(file).then(args => {
-      // don't resize, only get width and height
-      const [, , width, height] = args;
-      const fileName = file.split('/').pop();
-      return success([fileName, 'jpeg', width, height]);
+    const imageModel = new ImageModel({
+      attrs: {
+        data,
+        type: 'jpeg',
+        width,
+        height,
+      },
     });
-  },
 
-  validateRemote() {
-    // nothing to validate yet
+    await imageModel.addThumbnail();
+
+    return imageModel;
   },
 };
 
