@@ -451,10 +451,6 @@ msgstr "Dunes are Threatened."
 msgid "These habitats are suffering from biodiversity loss and habitat change, but you can help us bring life back into the dunes."
 msgstr "These habitats are suffering from biodiversity loss and habitat change, but you can help us bring life back into the dunes."
 
-# Splash screen message
-msgid "Continue"
-msgstr "Continue"
-
 # Language
 msgid "English"
 msgstr "English"

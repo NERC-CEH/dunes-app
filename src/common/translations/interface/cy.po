@@ -9,8 +9,1054 @@ msgstr ""
 "Language: cy\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
+# context term
 msgid "About"
 msgstr ""
 
+# context term
 msgid "Credits"
+msgstr ""
+
+# context term
+msgid "Home"
+msgstr ""
+
+# context term
+msgid "Species"
+msgstr ""
+
+# Habitat page title
+msgid "Habitats"
+msgstr ""
+
+# context term
+msgid "Surveys"
+msgstr ""
+
+# context term
+msgid "Back"
+msgstr ""
+
+# context term
+msgid ""
+"Dynamic Dunescapes is a fantastic new project to restore sand dunes across "
+"England and Wales for the benefit of people, communities and wildlife. Sand "
+"dunes in the UK look very different today."
+msgstr ""
+
+# context term
+msgid ""
+"Gone are the sandy features, which made homes for special creatures, so "
+"let’s bring them back, to stay!"
+msgstr ""
+
+# context term
+msgid ""
+"Picnics in a sheltered hollow, hide and seek... sand dunes are a familiar "
+"and natural playground. Less well known is their role as a sanctuary for "
+"endangered plants and animals like the fen orchid and sand lizard. But our "
+"sand dunes are under threat. They are becoming more and more densely covered"
+" by grass and scrub while our wildlife needs areas of open sand to thrive. "
+"Healthy sand dunes need to move and be dynamic."
+msgstr ""
+
+# context term
+msgid ""
+"The Dynamic Dunescapes project is big and ambitious – targeting some of the "
+"most important sand dune systems across England and Wales. We will work with"
+" schools and local groups, volunteers and visitors of all ages and abilities"
+" to create more bare sand which will breathe life into the dunes and allow "
+"the threatened wildlife to flourish."
+msgstr ""
+
+# Habitat type name
+msgid "Beach"
+msgstr ""
+
+# Habitat type name
+msgid "Strandline"
+msgstr ""
+
+# Habitat type name
+msgid "Embryo Dune"
+msgstr ""
+
+# Habitat type name
+msgid "Mobile Dune"
+msgstr ""
+
+# Habitat type name
+msgid "Semi-fixed Dune"
+msgstr ""
+
+# Habitat type name
+msgid "Fixed Dune"
+msgstr ""
+
+# Habitat type name
+msgid "Dune Slack"
+msgstr ""
+
+# Habitat type name
+msgid "Heath"
+msgstr ""
+
+# Habitat type name
+msgid "Scrub and Woodland"
+msgstr ""
+
+# Part of habitats prifile page
+msgid "Feature"
+msgstr ""
+
+# Header title
+msgid "Habitat"
+msgstr ""
+
+# Surveys home list header tab label
+msgid "Pending"
+msgstr ""
+
+# Surveys home list header tab label
+msgid "Uploaded"
+msgstr ""
+
+# Empty list message
+msgid "No finished pending surveys"
+msgstr ""
+
+# Empty list message
+msgid "No uploaded surveys"
+msgstr ""
+
+# Survey upload header button
+msgid "Upload"
+msgstr ""
+
+# Survey attribute label
+msgid "Date"
+msgstr ""
+
+# Survey delete button label
+msgid "Delete"
+msgstr ""
+
+# A record type label
+msgid "Survey"
+msgstr ""
+
+# Survey status label
+msgid "Draft"
+msgstr ""
+
+# Survey type
+msgid "Fixed-point Photography"
+msgstr ""
+
+# Survey type
+msgid "Zonation Mapping"
+msgstr ""
+
+# Survey type
+msgid "Plant Quadrat Recording"
+msgstr ""
+
+# Survey type
+msgid "Water Table Depth"
+msgstr ""
+
+# Survey type
+msgid "Dunes Profile"
+msgstr ""
+
+# Dialog button label
+msgid "Cancel"
+msgstr ""
+
+# Dialog button label
+msgid "OK"
+msgstr ""
+
+# Survey delete dialog text
+msgid "Are you sure you want to delete this survey?"
+msgstr ""
+
+# New survey dialog
+msgid "Previous survey draft exists, would you like to continue it?"
+msgstr ""
+
+# New survey dialog
+msgid "Discard"
+msgstr ""
+
+# New survey dialog
+msgid "Continue"
+msgstr ""
+
+# Survey attribute label
+msgid "Surveyors"
+msgstr ""
+
+# Survey attribute label
+msgid "Notes"
+msgstr ""
+
+# Survey location type
+msgid "Transects"
+msgstr ""
+
+# Survey location type
+msgid "Transect"
+msgstr ""
+
+# Survey comment attribute info
+msgid "Please add any extra information about your survey."
+msgstr ""
+
+# Survey comment box placeholder
+msgid "Enter more information here..."
+msgstr ""
+
+# Surveyor name
+msgid "Name"
+msgstr ""
+
+# Part of survey form page
+msgid "If anyone has helped with the surveying please enter their names here."
+msgstr ""
+
+# Refresh transects button label
+msgid "Refresh"
+msgstr ""
+
+# Info message text
+msgid "Please select your transect first."
+msgstr ""
+
+# Report loader text
+msgid "Please wait..."
+msgstr ""
+
+# Report finish success message
+msgid "Transect list was successfully updated."
+msgstr ""
+
+# Report message
+msgid "Sorry, looks like you're offline."
+msgstr ""
+
+# Error message text
+msgid "Oops! Something, went wrong."
+msgstr ""
+
+# Error message text
+msgid "This is the error event id: {{eventId}}"
+msgstr ""
+
+# Context term
+msgid "Settings"
+msgstr ""
+
+# Context term
+msgid "Share App Analytics"
+msgstr ""
+
+# Context term
+msgid "Share app crash data so we can make the app more reliable."
+msgstr ""
+
+# Context term
+msgid "Reset"
+msgstr ""
+
+# Context term
+msgid "Are you sure you want to reset the application to its initial state?"
+msgstr ""
+
+# Context term
+msgid "This will wipe all the locally stored app data!"
+msgstr ""
+
+# Context term
+msgid "Skip"
+msgstr ""
+
+# Context term
+msgid "Dunes are exciting!"
+msgstr ""
+
+# Context term
+msgid "Dunes are threatened."
+msgstr ""
+
+# Context term
+msgid "Sorry"
+msgstr ""
+
+# Context term
+msgid "Done"
+msgstr ""
+
+# Context term
+msgid "Language"
+msgstr ""
+
+# Location points header label
+msgid "Fixed points"
+msgstr ""
+
+# Location point label
+msgid "Point"
+msgstr ""
+
+# Next survey point label
+msgid "Next"
+msgstr ""
+
+# Survey attr label
+msgid "Disturbance"
+msgstr ""
+
+# When deleting a photo
+msgid "Are you sure you want to remove this photo?"
+msgstr ""
+
+# When deleting a photo
+msgid "Note: it will remain in the gallery."
+msgstr ""
+
+# Disturbance comment message
+msgid "Please add any extra information about the disturbance."
+msgstr ""
+
+# Photo picker message
+msgid "No photo has been added"
+msgstr ""
+
+# Finish survey label
+msgid "Finish"
+msgstr ""
+
+# From photo picker
+msgid "Choose a method to upload a photo"
+msgstr ""
+
+# From photo picker
+msgid "Gallery"
+msgstr ""
+
+# From photo picker
+msgid "Camera"
+msgstr ""
+
+# Photo picker helper
+msgid "Grid Ref"
+msgstr ""
+
+# Photo picker helper
+msgid "Please add a photo below."
+msgstr ""
+
+# Photo picker helper
+msgid "Adding photographs"
+msgstr ""
+
+# Alert dialog button label
+msgid "Got it"
+msgstr ""
+
+# Photo picker helper
+msgid "No photo has been added."
+msgstr ""
+
+# Photo picker helper
+msgid "Press <1></1> to add."
+msgstr ""
+
+# Photo picker helper
+msgid ""
+"Each photograph should be taken in the direction of the bearing of the "
+"transect i.e. pointing inland towards your next photography point."
+msgstr ""
+
+# Photo picker helper
+msgid "Take the photograph at eye level."
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Enter your email address to request a password reset."
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Email"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Create a free account"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Full Name"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Password"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid ""
+"By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
+" Conditions</6>"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Sign Up"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Sign In"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Welcome back"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Sign in to your account to start"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Username or email"
+msgstr ""
+
+# Part of sign in and registration flow
+msgid "Forgot password?"
+msgstr ""
+
+# User login/registration validation output
+msgid "password is a required field"
+msgstr ""
+
+# User login/registration validation output
+msgid "email is a required field"
+msgstr ""
+
+# User login/registration validation output
+msgid "email is not valid"
+msgstr ""
+
+# User login/registration validation output
+msgid "fullName is a required field"
+msgstr ""
+
+# User login/registration validation output
+msgid "name is a required field"
+msgstr ""
+
+# Home page button label
+msgid "Project Website"
+msgstr ""
+
+# Splash screen title
+msgid "Dunes are Exciting!"
+msgstr ""
+
+# Splash screen message
+msgid ""
+"Encompassing a beautiful mosaic of habitat types, coastal sand dunes are "
+"home to amazing native wildlife including diverse plant communities that "
+"support specialist sand dune animals."
+msgstr ""
+
+# Splash screen title
+msgid "Dunes are Threatened."
+msgstr ""
+
+# Splash screen message
+msgid ""
+"These habitats are suffering from biodiversity loss and habitat change, but "
+"you can help us bring life back into the dunes."
+msgstr ""
+
+# Language
+msgid "English"
+msgstr ""
+
+# Language
+msgid "Welsh"
+msgstr ""
+
+# Beach habitat features
+msgid "Bare sand and no vegetation."
+msgstr ""
+
+# Strandline habitat features
+msgid "Lots of bare sand."
+msgstr ""
+
+# Strandline habitat features
+msgid "Annual plants present; may include sea rocket and prickly seawort."
+msgstr ""
+
+# Strandline habitat features
+msgid "Miniature sand dunes are formed around these plants."
+msgstr ""
+
+# Embryo dune habitat features
+msgid "Above the usual high tide line."
+msgstr ""
+
+# Embryo dune habitat features
+msgid "First perennial plants present; may include sand couch and lyme grass."
+msgstr ""
+
+# Embryo dune habitat features
+msgid "Low, hummocky dunes form around these plants."
+msgstr ""
+
+# Mobile dune habitat features
+msgid "Lots of bare sand (10-50%)."
+msgstr ""
+
+# Mobile dune habitat features
+msgid "Marram grass dominates."
+msgstr ""
+
+# Mobile dune habitat features
+msgid "Sand builds up around marram to form high, mobile dunes."
+msgstr ""
+
+# Mobile dune habitat features
+msgid ""
+"A small number of other plants may be present; may include sea holly and sea"
+" spurge."
+msgstr ""
+
+# Semi-fixed dune habitat features
+msgid "Bare sand cover reduced."
+msgstr ""
+
+# Semi-fixed dune habitat features
+msgid "Red fescue and mosses cover patches between marram."
+msgstr ""
+
+# Semi-fixed dune habitat features
+msgid ""
+"Species diversity increasing; may include restharrow, sand sedge, birds foot"
+" trefoil."
+msgstr ""
+
+# Fixed dune habitat features
+msgid "Cover of bare sand much reduced (less than 10%)."
+msgstr ""
+
+# Fixed dune habitat features
+msgid "Soil beginning to form."
+msgstr ""
+
+# Fixed dune habitat features
+msgid ""
+"Many plants now coexisting; may include red fescue, lady’s bedstraw, "
+"harebell."
+msgstr ""
+
+# Fixed dune habitat features
+msgid "Surface lichens and mosses may be present."
+msgstr ""
+
+# Fixed dune habitat features
+msgid "Little if any scrub or tree cover."
+msgstr ""
+
+# Dune Slack habitat features
+msgid "Wet depression in sand."
+msgstr ""
+
+# Dune Slack habitat features
+msgid "Can be very large."
+msgstr ""
+
+# Dune Slack habitat features
+msgid ""
+"Species may include sedges, water mint, mosses and liverworts, creeping "
+"willow."
+msgstr ""
+
+# Heath habitat features
+msgid "Soil is dry, acidic and nutrient-poor."
+msgstr ""
+
+# Heath habitat features
+msgid ""
+"Plants present are those associated with acid grassland and heaths; may "
+"include heather."
+msgstr ""
+
+# Scrub and Woodland habitat features
+msgid "Dominance of tall, woody perennials and understorey species."
+msgstr ""
+
+# Scrub and Woodland habitat features
+msgid "Very little if any bare sand."
+msgstr ""
+
+# Species profile label
+msgid "Description"
+msgstr ""
+
+# Species profile label
+msgid "Distribution"
+msgstr ""
+
+# Login/Logout section Header
+msgid "Account"
+msgstr ""
+
+# Logout title
+msgid "Logout"
+msgstr ""
+
+# Home page section title
+msgid "Citizen Science Manual"
+msgstr ""
+
+# Survey page title
+msgid "Activities"
+msgstr ""
+
+# Tip message
+msgid "Please do not forget to upload any pending surveys!"
+msgstr ""
+
+# Tip button
+msgid "Hide"
+msgstr ""
+
+# Tip message
+msgid "No finished pending surveys.<br/><br/>Press <4></4> to add."
+msgstr ""
+
+# Tip message
+msgid "To delete any surveys swipe it to the left."
+msgstr ""
+
+# Section label inside a survey
+msgid "Comment"
+msgstr ""
+
+# Section label inside a survey
+msgid "Location"
+msgstr ""
+
+# Section label inside a survey
+msgid "Map"
+msgstr ""
+
+# Section label inside a survey
+msgid "Site"
+msgstr ""
+
+# Section note message inside a survey
+msgid "You can find this survey information in our volunteer manual."
+msgstr ""
+
+# Section note message inside a survey
+msgid "Please add a photo for your visit."
+msgstr ""
+
+# Survey alert message
+msgid "Please select your location."
+msgstr ""
+
+# Survey alert message
+msgid "Survey incomplete"
+msgstr ""
+
+# Action sheet label
+msgid "Survey Point"
+msgstr ""
+
+# Action sheet label
+msgid "Start"
+msgstr ""
+
+# Action sheet label
+msgid "End"
+msgstr ""
+
+# Survey button
+msgid "Add Point"
+msgstr ""
+
+# Section note message inside a survey
+msgid "You have not added any points yet."
+msgstr ""
+
+# Credits page section title
+msgid "People"
+msgstr ""
+
+# Credits page section message
+msgid ""
+"We are very grateful for all the people that helped to create this app:"
+msgstr ""
+
+# Credits page section title
+msgid "App Development"
+msgstr ""
+
+# Credits page section message
+msgid ""
+"This app was hand crafted with love by <2>Flumens.</2> A technical "
+"consultancy that excels at building bespoke environmental science and "
+"community focussed solutions. For suggestions and feedback please do not "
+"hesitate to <6>contact us</6>."
+msgstr ""
+
+# Credits page section title
+msgid "Graphics"
+msgstr ""
+
+# Credits page section message
+msgid ""
+"Icons made by <2>Freepik</2>, <5>Srip</5>, and <8>Kiranshastry</8> from "
+"<12>www.flaticon.com</12>"
+msgstr ""
+
+# Credits page section title
+msgid "Photos"
+msgstr ""
+
+# Credits page subsection title
+msgid "Home page:"
+msgstr ""
+
+# Credits page subsection title
+msgid "Habitats:"
+msgstr ""
+
+# Fixed-point survey information message
+msgid "To see fixed points please select your site and transect first."
+msgstr ""
+
+# Fixed-point survey information note
+msgid "read more"
+msgstr ""
+
+# Fixed-point survey header title
+msgid "Sites"
+msgstr ""
+
+# Dipwell survey information message
+msgid ""
+"Please specify the water level in centimeters from the top of dipwell down "
+"to the water."
+msgstr ""
+
+# Dipwell survey information message
+msgid "Please add any extra information about this dipwell."
+msgstr ""
+
+# Dipwell survey information label
+msgid "location"
+msgstr ""
+
+# Dipwell survey information label
+msgid "To see dipwells please select your site and transect first."
+msgstr ""
+
+# Dipwell survey information label
+msgid "Dipwell"
+msgstr ""
+
+# Dipwell survey information title
+msgid "Dipwells"
+msgstr ""
+
+# Dipwell survey label
+msgid "Water Depth"
+msgstr ""
+
+# Dunes profile survey information label
+msgid "Choose point type"
+msgstr ""
+
+# Dunes profile survey information label
+msgid "Type"
+msgstr ""
+
+# Dunes profile survey information label
+msgid "Angle"
+msgstr ""
+
+# Dunes profile survey information label
+msgid "Distance"
+msgstr ""
+
+# Dunes profile survey information  message
+msgid "Please specify the distance of the slope in meters."
+msgstr ""
+
+# Dunes profile survey information  message
+msgid "Please specify the angle of the slope."
+msgstr ""
+
+# Dunes profile survey information  message
+msgid "Please specify the type of the slope."
+msgstr ""
+
+# Dunes profile survey type options
+msgid "Downslope"
+msgstr ""
+
+# Dunes profile survey type options
+msgid "Upslope"
+msgstr ""
+
+# Dunes profile survey section label
+msgid "Recorded Points"
+msgstr ""
+
+# Dunes profile survey section label
+msgid "Point Photo"
+msgstr ""
+
+# Dunes profile point page title
+msgid "start"
+msgstr ""
+
+# Dunes profile point page title
+msgid "end"
+msgstr ""
+
+# Dunes profile point page title
+msgid "point"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Vegetation Cover"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Sand"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Moss & Lichen"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Grasses"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Herbs"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Shrubs"
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Scrub"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Please specify the % of the grasses, sedges and rushes cover."
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Vegetation Height"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Please specify the vegetation height in cm."
+msgstr ""
+
+# Plant quadrats survey section label
+msgid "Quadrat group"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "To see quadrats please select your site and transect first."
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "You don't have any transects. Please try to refresh the list."
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Quadrat"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Quadrats"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Vegetation"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Cover"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Height"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Indicator Species"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Health"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Nitrogen"
+msgstr ""
+
+# Plant quadrats survey section message
+msgid "Quadrat Photo"
+msgstr ""
+
+# Plant quadrats survey info message
+msgid "Please specify the % of the bare sand cover."
+msgstr ""
+
+# Plant quadrats survey info message
+msgid "Please specify the % of the moss and lichen cover."
+msgstr ""
+
+# Plant quadrats survey info message
+msgid "Please specify the % of the herbs cover."
+msgstr ""
+
+# Plant quadrats survey info message
+msgid "Please specify the % of the heathland shrubs cover."
+msgstr ""
+
+# Plant quadrats survey info message
+msgid "Please specify the % of the scrub and woodland cover."
+msgstr ""
+
+# User reset error message
+msgid "email must be a valid email"
+msgstr ""
+
+# User logout alert message
+msgid "Are you sure you want to logout?"
+msgstr ""
+
+# Settings page title
+msgid "Navigate"
+msgstr ""
+
+# Surveys info message
+msgid "open survey manual"
+msgstr ""
+
+# Settings page labels
+msgid "Register/Login"
+msgstr ""
+
+# Logout alert message
+msgid "Discard local data"
+msgstr ""
+
+# Login message
+msgid "I am already a member"
+msgstr ""
+
+# Login failed toast message
+msgid "The user credentials were incorrect."
+msgstr ""
+
+# Login success toast message
+msgid "Successfully logged in as"
+msgstr ""
+
+# Manual page title
+msgid "Manual"
+msgstr ""
+
+# Reset user account button label
+msgid "OK, got it"
+msgstr ""
+
+# Reset user account message
+msgid ""
+"Click the link in the email to reset your password. If you don't see the "
+"email, check other places like your junk, spam or other folders."
+msgstr ""
+
+# User register alert message
+msgid ""
+"Before submitting any records please check your email and click on the "
+"verification link."
+msgstr ""
+
+# About page text
+msgid ""
+"By identifying and recording plant species, you can help scientists and "
+"conservationists protect and restore biodiverse sand dune habitats in "
+"England and Wales, using this app. With a beautiful range of habitats, "
+"coastal sand dunes are home to some amazing wildlife – including "
+"butterflies, lizards, toads and orchids. As a citizen scientist, you’ll help"
+" researchers gather vital sand dune habitat and species data to help "
+"strengthen the understanding of what’s going on in coastal sand dune "
+"environments, and to help improve the conservation work that is being done."
+msgstr ""
+
+# About page text
+msgid ""
+"From monitoring species to taking part in transect or quadrat surveys, "
+"explore the range of citizen science activities in the app which you can get"
+" involved in, and share your findings in the app when you next visit your "
+"chosen sand dune site."
+msgstr ""
+
+# About page text
+msgid ""
+"Dynamic Dunescapes is a partnership project supported by the National "
+"Lottery Heritage Fund and the EU LIFE Programme. Project partners are "
+"Natural England, Plantlife, Natural Resources Wales, National Trust and the "
+"Wildlife Trusts."
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "Transition"
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "transition"
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "Previous Habitat"
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "Current Habitat"
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "Please specify the distance from previous transition point in meters."
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "Please specify the new habitat type."
+msgstr ""
+
+# Part of zonation mapping activity
+msgid "Please specify the previous habitat type."
+msgstr ""
+
+# Error message
+msgid "Unrecognized username or email address."
+msgstr ""
+
+# Warning message
+msgid "Please log in first to upload the records."
 msgstr ""
