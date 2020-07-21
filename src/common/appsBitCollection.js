@@ -16,6 +16,7 @@ export { default as Gallery } from '@bit/flumens.apps.gallery';
 export { default as MenuAttrItemFromModel } from '@bit/flumens.apps.menu-attr-item-from-model';
 export { default as InfoBackgroundMessage } from '@bit/flumens.apps.info-background-message';
 export { default as ModelLocation } from '@bit/flumens.apps.model-location-map';
+export { default as Collapse } from '@bit/flumens.apps.collapse';
 
 export { default as device } from '@bit/flumens.apps.device';
 export { default as date } from '@bit/flumens.apps.date';
