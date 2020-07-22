@@ -44,13 +44,7 @@ class Component extends React.Component {
     const { addLocationPoint, sample, t } = this.props;
     const recordedTypes = sample.samples.map(s => s.metadata.type);
 
-    const buttons = [
-      {
-        text: t('Survey Point'),
-        icon: addCircleOutline,
-        handler: () => addLocationPoint('point'),
-      },
-    ];
+    const buttons = [];
 
     if (!recordedTypes.includes('start')) {
       buttons.unshift({
@@ -60,7 +54,15 @@ class Component extends React.Component {
       });
     }
 
-    if (!recordedTypes.includes('end')) {
+    if (recordedTypes.includes('start')) {
+      buttons.push({
+        text: t('Survey Point'),
+        icon: addCircleOutline,
+        handler: () => addLocationPoint('point'),
+      });
+    }
+
+    if (recordedTypes.includes('start') && !recordedTypes.includes('end')) {
       buttons.push({
         text: t('End'),
         icon: flagOutline,
