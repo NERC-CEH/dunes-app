@@ -6,9 +6,7 @@
  **************************************************************************** */
 import GPS from 'helpers/GPS';
 import { observable } from 'mobx';
-import { location as locationUtils } from '@apps';
-
-const { updateModelLocation } = locationUtils;
+import { updateModelLocation } from '@apps';
 
 const DEFAULT_ACCURACY_LIMIT = 50; // meters
 

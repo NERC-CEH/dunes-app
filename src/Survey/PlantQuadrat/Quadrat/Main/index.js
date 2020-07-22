@@ -1,6 +1,6 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import { location as locationUtils, Main, MenuAttrItem } from '@apps';
+import { locationToGrid, prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
 import { IonList, IonItemDivider } from '@ionic/react';
 import { locateOutline, gridOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
@@ -11,8 +11,6 @@ import './styles.scss';
 import habitatIcon from 'common/images/habitats.svg';
 import heightIcon from 'common/images/height.svg';
 import flowerIcon from 'common/images/flower.svg';
-
-const { locationToGrid, prettyPrintGridRef } = locationUtils;
 
 @observer
 class Component extends React.Component {

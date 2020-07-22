@@ -4,12 +4,10 @@ import { IonList, IonItemDivider } from '@ionic/react';
 import { withTranslation, Trans as T } from 'react-i18next';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
-import { location as locationUtils, Main, MenuAttrItem } from '@apps';
+import { prettyPrintGridRef, locationToGrid, Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
 import './styles.scss';
-
-const { prettyPrintGridRef, locationToGrid } = locationUtils;
 
 @observer
 class Component extends React.Component {

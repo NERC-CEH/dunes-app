@@ -1,7 +1,8 @@
 import { observer } from 'mobx-react';
 import React from 'react';
 import {
-  location as locationUtils,
+  prettyPrintGridRef,
+  locationToGrid,
   Main,
   MenuAttrItem,
   MenuAttrItemFromModel,
@@ -12,8 +13,6 @@ import LocationPhoto from 'Survey/common/Components/LocationPhoto';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
-
-const { prettyPrintGridRef, locationToGrid } = locationUtils;
 
 @observer
 class Component extends React.Component {

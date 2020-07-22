@@ -8,13 +8,11 @@ import {
   squareOutline,
   mapOutline,
 } from 'ionicons/icons';
-import { location as locationUtils, Main, MenuAttrItem } from '@apps';
+import { locationToGrid, prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
 import './styles.scss';
-
-const { locationToGrid, prettyPrintGridRef } = locationUtils;
 
 @observer
 class Component extends React.Component {

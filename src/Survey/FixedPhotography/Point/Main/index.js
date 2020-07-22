@@ -1,7 +1,8 @@
 import { observer } from 'mobx-react';
 import React from 'react';
 import {
-  location as locationUtils,
+  locationToGrid,
+  prettyPrintGridRef,
   Main,
   MenuAttrItem,
   MenuNote,
@@ -16,7 +17,6 @@ import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
-const { locationToGrid, prettyPrintGridRef } = locationUtils;
 const { P } = Section;
 
 @observer
