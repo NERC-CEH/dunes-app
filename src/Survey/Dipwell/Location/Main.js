@@ -1,6 +1,6 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import { IonList, IonItemDivider } from '@ionic/react';
+import { IonList, IonItemDivider, IonLabel } from '@ionic/react';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { withTranslation, Trans as T } from 'react-i18next';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
@@ -31,6 +31,8 @@ class Component extends React.Component {
 
     const getPointItem = (subSample, index) => {
       const { cid } = subSample;
+      const { height } = subSample.attrs;
+
       const pointNo = `${index + 1}`;
 
       const [
@@ -45,7 +47,20 @@ class Component extends React.Component {
         longitude: parseFloat(longitude),
       });
 
+      const waterDepth = typeof height === 'number' ? `${height} cm` : null;
+
       const prettyGridRef = prettyPrintGridRef(gridRef);
+
+      const values = (
+        <>
+          <IonLabel position="stacked" mode="ios">
+            <IonLabel>{prettyGridRef}</IonLabel>
+            {waterDepth && (
+              <IonLabel className="water-depth-value">{waterDepth}</IonLabel>
+            )}
+          </IonLabel>
+        </>
+      );
 
       const locationLabel = `${t('Dipwell')} #${pointNo}`;
 
@@ -53,7 +68,7 @@ class Component extends React.Component {
         <MenuAttrItem
           key={cid}
           routerLink={`${match.url}/${cid}`}
-          value={prettyGridRef}
+          value={values}
           icon={locateOutline}
           label={locationLabel}
           className="survey-point-item"
