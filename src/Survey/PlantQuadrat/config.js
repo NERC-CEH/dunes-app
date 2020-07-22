@@ -32,9 +32,9 @@ const survey = {
 
       sand: {
         id: 1487,
-        label: 'Sand',
+        label: 'Bare ground & Sand',
         type: 'slider',
-        info: 'Please specify the % of the bare sand cover.',
+        info: 'Please specify the % of the bare ground and sand cover.',
         displayValueParse: value => `${value}%`,
         max: 100,
         min: 0,
