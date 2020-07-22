@@ -971,4 +971,6 @@ msgstr "Unrecognized username or email address."
 msgid "Please log in first to upload the records."
 msgstr "Please log in first to upload the records."
 
-
+# Warning message  
+msgid "Please check why the total cover is less than 100%. Remember to record bare ground/sand."
+msgstr "Please check why the total cover is less than 100%. Remember to record bare ground/sand."

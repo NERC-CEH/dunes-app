@@ -12,7 +12,9 @@ function getDeepErrorMessage({ attributes, samples, occurrences }) {
 
   if (attributes) {
     const missingAttributes = printErrors(attributes);
-    missing += `<br/>${missingAttributes}<br/>`;
+    if (missingAttributes) {
+      missing += `<br/>${missingAttributes}<br/>`;
+    }
   }
 
   if (samples) {

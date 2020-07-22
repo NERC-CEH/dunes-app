@@ -57,7 +57,7 @@ class AppSample extends Sample {
 
   validateRemote() {
     const survey = this.getSurvey();
-    const invalidAttributes = survey.verify && survey.verify(this.attrs);
+    const invalidAttributes = survey.verify && survey.verify(this.attrs, this);
     const attributes = { ...invalidAttributes };
 
     const validateSubModel = (agg, model) => {

@@ -37,7 +37,7 @@
     "@bit/flumens.apps.main": "^0.1.0",
     "@bit/flumens.apps.menu-attr-item": "0.5.1",
     "@bit/flumens.apps.menu-attr-item-from-model": "^0.1.0",
-    "@bit/flumens.apps.menu-note-item": "0.2.0",
+    "@bit/flumens.apps.menu-note-item": "^0.2.0",
     "@bit/flumens.apps.modal-header": "^0.1.0",
     "@bit/flumens.apps.model-location-map": "0.1.0",
     "@bit/flumens.apps.models.drupal-user-model": "0.5.2",

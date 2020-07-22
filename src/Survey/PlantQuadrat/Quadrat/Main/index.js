@@ -1,6 +1,12 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import { locationToGrid, prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
+import {
+  locationToGrid,
+  prettyPrintGridRef,
+  Main,
+  MenuAttrItem,
+  MenuNoteItem,
+} from '@apps';
 import { IonList, IonItemDivider } from '@ionic/react';
 import { locateOutline, gridOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
@@ -20,6 +26,44 @@ class Component extends React.Component {
     isDisabled: PropTypes.bool,
   };
 
+  getCoverItem = () => {
+    const { subSample, baseURL } = this.props;
+
+    const aggregateCoverValues = (agg, cover) => {
+      const value = parseFloat(subSample.attrs[cover]);
+      if (Number.isNaN(value)) {
+        return agg;
+      }
+
+      return agg + value;
+    };
+    const coverValues = ['sand', 'moss', 'grass', 'herbs', 'shrubs', 'scrub'];
+    const coverTotal = coverValues.reduce(aggregateCoverValues, 0);
+    const coverLabel =
+      typeof coverTotal === 'number' ? `${coverTotal} %` : null;
+    const showCoverWarning = !!coverTotal && coverTotal < 100;
+
+    return (
+      <>
+        <MenuAttrItem
+          routerLink={`${baseURL}/cover`}
+          value={coverLabel}
+          label="Cover"
+          icon={gridOutline}
+          wrapText
+          skipValueTranslation
+        />
+
+        {showCoverWarning && (
+          <MenuNoteItem>
+            Please check why the total cover is less than 100%. Remember to
+            record bare ground/sand.
+          </MenuNoteItem>
+        )}
+      </>
+    );
+  };
+
   render() {
     const { subSample, baseURL, isDisabled } = this.props;
 
@@ -36,16 +80,6 @@ class Component extends React.Component {
 
     const prettyGridRef = prettyPrintGridRef(gridRef);
     const { habitat } = subSample.attrs.location;
-
-    const aggregateCoverValues = (agg, cover) => {
-      const value = parseFloat(subSample.attrs[cover]);
-      if (Number.isNaN(value)) {
-        return agg;
-      }
-      return agg + value;
-    };
-    const coverValues = ['sand', 'moss', 'grass', 'herbs', 'shrubs', 'scrub'];
-    const coverTotal = coverValues.reduce(aggregateCoverValues, 0);
 
     let heightAverage = 0;
     if (subSample.attrs.height.length) {
@@ -81,14 +115,7 @@ class Component extends React.Component {
             <T>Vegetation</T>
           </IonItemDivider>
 
-          <MenuAttrItem
-            routerLink={`${baseURL}/cover`}
-            value={`${coverTotal}%`}
-            label="Cover"
-            icon={gridOutline}
-            wrapText
-            skipValueTranslation
-          />
+          {this.getCoverItem()}
 
           <MenuAttrItem
             routerLink={`${baseURL}/height`}

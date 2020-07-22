@@ -133,6 +133,32 @@ const survey = {
 
       return sample;
     },
+
+    verify(_, sample) {
+      try {
+        Yup.mixed()
+          .test(
+            'vegetation',
+            'Please check why the total cover is less than 100%. Remember to record bare ground/sand.',
+            () => {
+              let cover = 0;
+              ['sand', 'moss', 'grass', 'herbs', 'shrubs', 'scrub'].forEach(
+                key => {
+                  if (!sample.attrs[key]) return;
+                  cover += sample.attrs[key];
+                }
+              );
+
+              return cover >= 100;
+            }
+          )
+          .validateSync();
+      } catch (attrError) {
+        return attrError;
+      }
+
+      return null;
+    },
   },
 
   verify(attrs) {
