@@ -56,7 +56,7 @@ const survey = {
 
       currentHabitat: {
         id: 1499,
-        label: 'Current Habitat',
+        label: 'New Habitat',
         icon: habitatIcon,
         type: 'radio',
         info: 'Please specify the new habitat type.',
