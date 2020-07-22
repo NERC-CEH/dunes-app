@@ -40,9 +40,10 @@ const survey = {
         label: 'Water Depth',
         type: 'slider',
         info:
-          'Please specify the water level in centimeters from the top of dipwell down to the water.',
+          'Please specify the water level in centimeters from the top of dipwell down to the water. If the water is above the dipwell (i.e. flooded) please use negative values.',
+        displayValueParse: value => `${value} cm`,
         max: 1000,
-        min: 0,
+        min: -100,
         icon: heightIcon,
         skipValueTranslation: true,
       },
