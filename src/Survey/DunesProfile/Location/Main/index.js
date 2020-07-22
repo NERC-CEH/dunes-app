@@ -19,6 +19,7 @@ import {
   mapOutline,
   flagOutline,
   locateOutline,
+  chevronUpOutline,
 } from 'ionicons/icons';
 import GridRefValue from 'Survey/common/Components/GridRefValue';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
@@ -117,23 +118,59 @@ class Component extends React.Component {
     );
   };
 
+  showType = subSample => {
+    const { type } = subSample.attrs;
+
+    if (!type) {
+      return null;
+    }
+
+    const showType =
+      type === 'Downslope' ? (
+        <IonIcon src={chevronUpOutline} className="show-type-icon-downslope" />
+      ) : (
+        <IonIcon src={chevronUpOutline} />
+      );
+
+    return showType;
+  };
+
   getPoint = subSample => {
     const { match } = this.props;
 
+    const { angle, distance } = subSample.attrs;
     const { cid } = subSample;
     const { type } = subSample.metadata;
 
     const prettyGridRef = <GridRefValue sample={subSample} />;
 
+    const showAngle = typeof angle === 'number' ? `${angle}°` : null;
+
+    const showDistance = typeof distance === 'number' ? `${distance} m` : null;
+
+    const showTypeValue = this.showType(subSample);
+
     const icon = type === 'point' ? locateOutline : flagOutline;
+
     const label = type;
+
+    const values = (
+      <>
+        <IonLabel className="dunes-profile-label" position="stacked" mode="ios">
+          <IonLabel>{prettyGridRef}</IonLabel>
+          <IonLabel className="dunes-profile-values">
+            {showTypeValue} {showAngle} {showDistance}
+          </IonLabel>
+        </IonLabel>
+      </>
+    );
 
     return (
       <IonItemSliding key={cid}>
         <MenuAttrItem
           key={cid}
           routerLink={`${match.url}/${cid}`}
-          value={prettyGridRef}
+          value={values}
           icon={icon}
           label={label}
           className="survey-point-item"

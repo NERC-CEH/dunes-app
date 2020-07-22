@@ -10,5 +10,23 @@
     .survey-point-item {
       text-transform: capitalize;
     }
+
+    .dunes-profile-label {
+      text-transform: none;
+      font-size: 0.9rem;
+      margin: 0;
+
+      ion-icon {
+        margin-bottom: -2px;
+      }
+
+      .dunes-profile-values {
+        padding-top: 2px;
+      }
+    }
+
+    .show-type-icon-downslope {
+      transform: rotate(180deg);
+    }
   }
 }

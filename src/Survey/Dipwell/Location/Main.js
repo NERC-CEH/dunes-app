@@ -56,7 +56,7 @@ class Component extends React.Component {
           <IonLabel position="stacked" mode="ios">
             <IonLabel>{prettyGridRef}</IonLabel>
             {waterDepth && (
-              <IonLabel className="water-depth-value">{waterDepth}</IonLabel>
+              <IonLabel className="dipwell-values">{waterDepth}</IonLabel>
             )}
           </IonLabel>
         </>
