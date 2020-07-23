@@ -32,6 +32,22 @@ const survey = {
       date: dateAttr,
     },
 
+    verify(_, sample) {
+      try {
+        Yup.mixed()
+          .test(
+            'photos',
+            'Please add at least one photo.',
+            () => sample.media.length
+          )
+          .validateSync();
+      } catch (attrError) {
+        return attrError;
+      }
+
+      return null;
+    },
+
     create(Sample, location) {
       const sample = new Sample({
         metadata: {

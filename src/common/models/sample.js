@@ -61,11 +61,15 @@ class AppSample extends Sample {
   getPrettyName() {
     const survey = this.parent ? this.parent.getSurvey() : this.getSurvey();
     const surveyName = survey.name;
+
+    const index = this.parent.samples.findIndex(({ cid }) => cid === this.cid);
+
     if (surveyName === 'plant-quadrat') {
-      const index = this.parent.samples.findIndex(
-        ({ cid }) => cid === this.cid
-      );
       return `${i18n.t('Quadrat')} #${index + 1}`;
+    }
+
+    if (surveyName === 'fixed-photography') {
+      return `${i18n.t('Point')} #${index + 1}`;
     }
 
     return '';
