@@ -2,7 +2,7 @@ import { observer } from 'mobx-react';
 import React from 'react';
 import { IonList, IonItemDivider, IonLabel } from '@ionic/react';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
-import { withTranslation, Trans as T } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
 import { prettyPrintGridRef, locationToGrid, Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
@@ -16,11 +16,10 @@ class Component extends React.Component {
     appModel: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
     isDisabled: PropTypes.bool,
-    t: PropTypes.func.isRequired,
   };
 
   getPointsList = () => {
-    const { sample, match, t } = this.props;
+    const { sample, match } = this.props;
     if (!sample.samples.length) {
       return (
         <InfoBackgroundMessage>
@@ -29,11 +28,9 @@ class Component extends React.Component {
       );
     }
 
-    const getPointItem = (subSample, index) => {
+    const getPointItem = subSample => {
       const { cid } = subSample;
       const { height } = subSample.attrs;
-
-      const pointNo = `${index + 1}`;
 
       const [
         latitude,
@@ -62,7 +59,7 @@ class Component extends React.Component {
         </>
       );
 
-      const locationLabel = `${t('Dipwell')} #${pointNo}`;
+      const locationLabel = subSample.getPrettyName();
 
       return (
         <MenuAttrItem
@@ -133,4 +130,4 @@ class Component extends React.Component {
   }
 }
 
-export default withTranslation()(Component);
+export default Component;

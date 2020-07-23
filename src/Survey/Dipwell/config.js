@@ -49,6 +49,22 @@ const survey = {
       },
     },
 
+    verify(attrs) {
+      try {
+        const transectSchema = Yup.object().shape({
+          height: Yup.number()
+            .integer()
+            .required('Please add water depth value.'),
+        });
+
+        transectSchema.validateSync(attrs, { abortEarly: false });
+      } catch (attrError) {
+        return attrError;
+      }
+
+      return null;
+    },
+
     create(Sample, location) {
       const sample = new Sample({
         metadata: {
