@@ -26,6 +26,7 @@ export { default as actionSheet } from '@bit/flumens.apps.helpers.action-sheet';
 export { default as loader } from '@bit/flumens.apps.helpers.loader';
 export { default as toast } from '@bit/flumens.apps.helpers.toast';
 export * from '@bit/flumens.apps.utils.location';
+export * from '@bit/flumens.apps.utils.validation';
 
 export { default as Model } from '@bit/flumens.apps.models.model';
 export { default as Sample } from '@bit/flumens.apps.models.sample';

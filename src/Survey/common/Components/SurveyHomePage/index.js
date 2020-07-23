@@ -2,9 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { IonButton, NavContext } from '@ionic/react';
-import { Page, Header, toast, loader, device } from '@apps';
+import {
+  Page,
+  Header,
+  toast,
+  loader,
+  device,
+  showInvalidsMessage,
+} from '@apps';
 import { Trans as T } from 'react-i18next';
-import showInvalidsMessage from 'helpers/invalidsMessage';
 import Main from './Main';
 
 const { warn } = toast;
@@ -31,6 +37,7 @@ class Controller extends React.Component {
     await sample.save();
 
     const invalids = sample.validateRemote();
+
     if (invalids) {
       showInvalidsMessage(invalids);
       return;

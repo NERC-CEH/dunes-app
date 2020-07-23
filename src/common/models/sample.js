@@ -1,6 +1,7 @@
-import { Sample } from '@apps';
+import { Sample, validateRemoteModel } from '@apps';
 import surveys from 'common/config/surveys';
 import config from 'config';
+import i18n from 'i18next';
 import { modelStore } from './store';
 import Occurrence from './occurrence';
 import userModel from './userModel';
@@ -55,36 +56,22 @@ class AppSample extends Sample {
     return this.save();
   }
 
-  validateRemote() {
-    const survey = this.getSurvey();
-    const invalidAttributes = survey.verify && survey.verify(this.attrs, this);
-    const attributes = { ...invalidAttributes };
+  validateRemote = validateRemoteModel;
 
-    const validateSubModel = (agg, model) => {
-      const invalids = model.validateRemote();
-      if (invalids) {
-        agg[model.cid] = invalids; // eslint-disable-line
-      }
-      return agg;
-    };
-
-    const samples = this.samples.reduce(validateSubModel, {});
-    const occurrences = this.occurrences.reduce(validateSubModel, {});
-    const media = this.media.reduce(validateSubModel, {});
-
-    if (
-      Object.keys(attributes).length ||
-      Object.keys(samples).length ||
-      Object.keys(occurrences).length ||
-      Object.keys(media).length
-    ) {
-      return { attributes, samples, occurrences, media };
+  getPrettyName() {
+    const survey = this.parent ? this.parent.getSurvey() : this.getSurvey();
+    const surveyName = survey.name;
+    if (surveyName === 'plant-quadrat') {
+      const index = this.parent.samples.findIndex(
+        ({ cid }) => cid === this.cid
+      );
+      return `${i18n.t('Quadrat')} #${index + 1}`;
     }
 
-    return null;
+    return '';
   }
 }
-// add geolocation functionality
+
 AppSample.prototype = Object.assign(AppSample.prototype, GPSExtension);
 AppSample.prototype.constructor = AppSample;
 
