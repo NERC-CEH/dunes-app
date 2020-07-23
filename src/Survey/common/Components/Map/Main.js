@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { IonLifeCycleContext } from '@ionic/react';
+import { IonLifeCycleContext, IonIcon, IonSpinner } from '@ionic/react';
 import { Main } from '@apps';
-// import { locate } from 'ionicons/icons';
+import { locateOutline } from 'ionicons/icons';
 import CONFIG from 'config';
 import L from 'leaflet';
-// import GPS from 'helpers/GPS';
+import GPS from 'helpers/GPS';
 import { Map, TileLayer } from 'react-leaflet';
+import LeafletControl from 'react-leaflet-control';
 import { observer } from 'mobx-react';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet/dist/images/marker-icon-2x.png';
@@ -68,47 +69,59 @@ class MainMap extends Component {
     });
   }
 
-  // onGeolocate = async () => {
-  //   if (this.state.locating) {
-  //     this.stopGPS();
-  //     return;
-  //   }
-  //   const location = await this.startGPS();
-  //   const map = this.map.current.leafletElement;
-  //   map.setView(
-  //     new L.LatLng(location.latitude, location.longitude),
-  //     DEFAULT_LOCATED_ZOOM
-  //   );
-  // };
+  onGeolocate = async () => {
+    if (this.state.locating) {
+      this.stopGPS();
+      return;
+    }
 
-  // startGPS = () => {
-  //   return new Promise((resolve, reject) => {
-  //     const options = {
-  //       accuracyLimit: 160,
+    this.trackGPS();
+  };
 
-  //       onUpdate: () => {},
+  updateCurrentPositionMarker = location => {
+    const position = [location.latitude, location.longitude];
+    const map = this.map.current.leafletElement;
 
-  //       callback: (error, location) => {
-  //         this.stopGPS();
+    if (!this.currentPositionMarker) {
+      this.currentPositionMarker = L.circleMarker(position, {
+        color: 'white',
+        fillColor: '#00a0a4',
+        fillOpacity: 1,
+        weight: 4,
+      });
+      this.currentPositionMarker.addTo(map);
+    } else {
+      this.currentPositionMarker.setLatLng(position);
+    }
 
-  //         if (error) {
-  //           this.stopGPS();
-  //           reject(error);
-  //           return;
-  //         }
-  //         resolve(location);
-  //       },
-  //     };
+    map.setView(
+      new L.LatLng(location.latitude, location.longitude),
+      map.getZoom()
+    );
+  };
 
-  //     const locatingJobId = GPS.start(options);
-  //     this.setState({ locating: locatingJobId });
-  //   });
-  // };
+  trackGPS = () => {
+    const options = {
+      accuracyLimit: 160,
 
-  // stopGPS = () => {
-  //   GPS.stop(this.state.locating);
-  //   this.setState({ locating: false });
-  // };
+      onUpdate: () => {},
+
+      callback: (error, location) => {
+        if (error) {
+          return;
+        }
+        this.updateCurrentPositionMarker(location);
+      },
+    };
+
+    const locatingJobId = GPS.start(options);
+    this.setState({ locating: locatingJobId });
+  };
+
+  stopGPS = () => {
+    GPS.stop(this.state.locating);
+    this.setState({ locating: false });
+  };
 
   zoomToPolygonShape(polygon) {
     const map = this.map.current.leafletElement;
@@ -135,6 +148,16 @@ class MainMap extends Component {
             url="https://api.mapbox.com/styles/v1/cehapps/cipqvo0c0000jcknge1z28ejp/tiles/256/{z}/{x}/{y}?access_token={accessToken}"
             accessToken={CONFIG.map.mapboxApiKey}
           />
+
+          <LeafletControl position="topright">
+            <button onClick={this.onGeolocate} className="geolocate-btn">
+              {this.state.locating ? (
+                <IonSpinner color="primary" />
+              ) : (
+                <IonIcon icon={locateOutline} mode="md" size="large" />
+              )}
+            </button>
+          </LeafletControl>
         </Map>
       </Main>
     );

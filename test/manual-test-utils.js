@@ -53,8 +53,8 @@ testing.GPS = {
       this.update({ latitude, longitude });
 
       newLocation = {
-        latitude: latitude + 0.01,
-        longitude: longitude + 0.01,
+        latitude: latitude + Math.random() * 0.0001 - 0.00005,
+        longitude: longitude + Math.random() * 0.0001 - 0.00005,
       };
     }, frequency);
   },
