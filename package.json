@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
-    "@bit/flumens.apps.attr-page": "0.3.4",
+    "@bit/flumens.apps.attr-page": "file:./components/attr-page",
     "@bit/flumens.apps.collapse": "^0.2.0",
     "@bit/flumens.apps.date": "^0.1.0",
     "@bit/flumens.apps.device": "^0.1.0",
@@ -48,7 +48,7 @@
     "@bit/flumens.apps.models.sample": "0.2.0",
     "@bit/flumens.apps.models.store": "0.2.0",
     "@bit/flumens.apps.page": "0.1.0",
-    "@bit/flumens.apps.radio-input": "0.3.1",
+    "@bit/flumens.apps.radio-input": "file:./components/radio-input",
     "@bit/flumens.apps.route-with-models": "0.1.2",
     "@bit/flumens.apps.section": "0.4.0",
     "@bit/flumens.apps.toggle": "^0.1.0",
@@ -89,7 +89,8 @@
     "react-photoswipe": "^1.3.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "yup": "^0.28.5"
+    "yup": "^0.28.5",
+    "@bit/flumens.apps.attr": "file:./components/attr"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

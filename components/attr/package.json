@@ -1,0 +1,24 @@
+{
+  "name": "@bit/flumens.apps.attr",
+  "version": "0.1.6",
+  "homepage": "https://bit.dev/flumens/apps/attr",
+  "main": "dist/Attr.js",
+  "dependencies": {
+    "mobx-react": "^6.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "@bit/flumens.apps.input-list": "0.1.0",
+    "@bit/flumens.apps.input": "0.1.1",
+    "@bit/flumens.apps.radio-input": "file:../radio-input",
+    "@bit/flumens.apps.slider-input": "0.3.3",
+    "@bit/flumens.apps.textarea": "0.1.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.14"
+    }
+  }
+}

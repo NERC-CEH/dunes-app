@@ -1,0 +1,20 @@
+{
+  "name": "@bit/flumens.apps.radio-input",
+  "version": "0.3.1",
+  "homepage": "https://bit.dev/flumens/apps/radio-input",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@ionic/react": "4.11.0",
+    "prop-types": "15.7.2",
+    "react-i18next": "^11.3.4",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.14"
+    }
+  }
+}

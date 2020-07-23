@@ -1,0 +1,21 @@
+{
+  "name": "@bit/flumens.apps.input-list",
+  "version": "0.1.0",
+  "homepage": "https://bit.dev/flumens/apps/input-list",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@ionic/react": "^5.1.0",
+    "ionicons": "^5.0.1",
+    "prop-types": "^15.7.2",
+    "react-i18next": "^11.4.0",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.14"
+    }
+  }
+}
