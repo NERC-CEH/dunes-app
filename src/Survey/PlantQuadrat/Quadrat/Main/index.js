@@ -55,7 +55,7 @@ class Component extends React.Component {
         />
 
         {showCoverWarning && (
-          <MenuNoteItem>
+          <MenuNoteItem color="danger">
             Please check why the total cover is less than 100%. Remember to
             record bare ground/sand.
           </MenuNoteItem>
