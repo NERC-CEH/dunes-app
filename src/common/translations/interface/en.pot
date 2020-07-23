@@ -978,3 +978,31 @@ msgstr "Please check why the total cover is less than 100%. Remember to record b
 # Warning message 
 msgid "Please add at least one photo."
 msgstr "Please add at least one photo."
+
+# Warning message
+msgid "Please add water depth value."
+msgstr "Please add water depth value."
+
+# Warning message
+msgid "Please add at points to the survey."
+msgstr "Please add at points to the survey."
+
+# Warning message
+msgid "Please add location."
+msgstr "Please add location."
+
+# Warning message
+msgid "Grid Reference"
+msgstr "Grid Reference"
+
+# Warning message
+msgid "Please add type."
+msgstr "Please add type."
+
+# Warning message
+msgid "Please add angle."
+msgstr "Please add angle."
+
+# Warning message
+msgid "Please add distance."
+msgstr "Please add distance."

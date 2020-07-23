@@ -87,6 +87,32 @@ const survey = {
       },
     },
 
+    verify(attrs, sample) {
+      try {
+        Yup.object()
+          .shape({
+            location: Yup.object().required('Please add location.'),
+          })
+          .validateSync(attrs);
+
+        if (sample.metadata.type === 'start') {
+          return null;
+        }
+
+        const transectSchema = Yup.object().shape({
+          type: Yup.string().required('Please add type.'),
+          angle: Yup.number().required('Please add angle.'),
+          distance: Yup.number().required('Please add distance.'),
+        });
+
+        transectSchema.validateSync(attrs, { abortEarly: false });
+      } catch (attrError) {
+        return attrError;
+      }
+
+      return null;
+    },
+
     create(Sample, type) {
       const sample = new Sample({
         metadata: {
@@ -103,13 +129,21 @@ const survey = {
     },
   },
 
-  verify(attrs) {
+  verify(attrs, sample) {
     try {
       const transectSchema = Yup.object().shape({
         location: verifyLocationSchema,
       });
 
       transectSchema.validateSync(attrs, { abortEarly: false });
+
+      Yup.mixed()
+        .test(
+          'points',
+          'Please add at points to the survey.',
+          () => sample.samples.length
+        )
+        .validateSync();
     } catch (attrError) {
       return attrError;
     }

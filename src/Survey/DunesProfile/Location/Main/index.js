@@ -152,7 +152,7 @@ class Component extends React.Component {
 
     const icon = type === 'point' ? locateOutline : flagOutline;
 
-    const label = type;
+    const label = subSample.getPrettyName();
 
     const values = (
       <>
@@ -174,7 +174,7 @@ class Component extends React.Component {
           icon={icon}
           label={label}
           className="survey-point-item"
-          skipValueTranslation
+          skipTranslation
         />
 
         <IonItemOptions side="end">

@@ -13,11 +13,11 @@ export default class index extends Component {
   render() {
     const { sample, subSample } = this.props;
     const isDisabled = sample.isDisabled();
-    const { type } = subSample.metadata;
+    const label = subSample.getPrettyName();
 
     return (
       <Page id="survey-dunes-profile-transect-point-edit">
-        <Header title={type} />
+        <Header title={label} skipTranslation />
         <Main {...this.props} isDisabled={isDisabled} />
       </Page>
     );

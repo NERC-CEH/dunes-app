@@ -59,12 +59,14 @@ class AppSample extends Sample {
   validateRemote = validateRemoteModel;
 
   getPrettyName() {
-    const survey = this.parent ? this.parent.getSurvey() : this.getSurvey();
+    if (!this.parent) {
+      return '';
+    }
+
+    const survey = this.parent.getSurvey();
     const surveyName = survey.name;
 
-    const index =
-      this.parent &&
-      this.parent.samples.findIndex(({ cid }) => cid === this.cid);
+    const index = this.parent.samples.findIndex(({ cid }) => cid === this.cid);
 
     if (surveyName === 'plant-quadrat') {
       return `${i18n.t('Quadrat')} #${index + 1}`;
@@ -76,6 +78,16 @@ class AppSample extends Sample {
 
     if (surveyName === 'dipwell') {
       return `${i18n.t('Dipwell')} #${index + 1}`;
+    }
+
+    if (surveyName === 'dunes-profile') {
+      const { type } = this.metadata;
+      const label = type.charAt(0).toUpperCase() + type.slice(1);
+      if (type === 'point') {
+        return `${i18n.t(label)} #${index}`;
+      }
+
+      return i18n.t(label);
     }
 
     return '';
