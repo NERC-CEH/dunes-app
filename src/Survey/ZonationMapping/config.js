@@ -80,6 +80,31 @@ const survey = {
       comment: commentAttr,
     },
 
+    verify(attrs, sample) {
+      try {
+        Yup.object()
+          .shape({
+            location: Yup.object().required('Please add location.'),
+          })
+          .validateSync(attrs);
+
+        if (sample.metadata.type === 'transition') {
+          const transectSchema = Yup.object().shape({
+            previousHabitat: Yup.string().required(
+              'Please add previous habitat.'
+            ),
+            currentHabitat: Yup.string().required('Please add new habitat.'),
+          });
+
+          transectSchema.validateSync(attrs, { abortEarly: false });
+        }
+      } catch (attrError) {
+        return attrError;
+      }
+
+      return null;
+    },
+
     create(Sample, type) {
       const sample = new Sample({
         metadata: {

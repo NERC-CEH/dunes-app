@@ -125,7 +125,7 @@ class Component extends React.Component {
     const prettyGridRef = <GridRefValue sample={subSample} />;
 
     const icon = type === 'transition' ? habitatIcon : flagOutline;
-    const label = type;
+    const label = subSample.getPrettyName();
 
     return (
       <IonItemSliding key={cid}>
@@ -136,7 +136,7 @@ class Component extends React.Component {
           icon={icon}
           label={label}
           className="survey-point-item"
-          skipValueTranslation
+          skipTranslation
         />
 
         <IonItemOptions side="end">

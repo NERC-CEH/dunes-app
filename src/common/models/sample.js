@@ -90,6 +90,16 @@ class AppSample extends Sample {
       return i18n.t(label);
     }
 
+    if (surveyName === 'zonation-mapping') {
+      const { type } = this.metadata;
+      const label = type.charAt(0).toUpperCase() + type.slice(1);
+      if (type === 'transition') {
+        return `${i18n.t(label)} #${index}`;
+      }
+
+      return i18n.t(label);
+    }
+
     return '';
   }
 }

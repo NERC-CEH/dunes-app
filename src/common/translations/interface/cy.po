@@ -9,19 +9,19 @@ msgstr ""
 "Language: cy\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
-# context term
+# Page title
 msgid "About"
 msgstr ""
 
-# context term
+# Page title
 msgid "Credits"
 msgstr ""
 
-# context term
+# Page title
 msgid "Home"
 msgstr ""
 
-# context term
+# Page title
 msgid "Species"
 msgstr ""
 
@@ -29,44 +29,12 @@ msgstr ""
 msgid "Habitats"
 msgstr ""
 
-# context term
+# Page title
 msgid "Surveys"
 msgstr ""
 
-# context term
+# Button
 msgid "Back"
-msgstr ""
-
-# context term
-msgid ""
-"Dynamic Dunescapes is a fantastic new project to restore sand dunes across "
-"England and Wales for the benefit of people, communities and wildlife. Sand "
-"dunes in the UK look very different today."
-msgstr ""
-
-# context term
-msgid ""
-"Gone are the sandy features, which made homes for special creatures, so "
-"let’s bring them back, to stay!"
-msgstr ""
-
-# context term
-msgid ""
-"Picnics in a sheltered hollow, hide and seek... sand dunes are a familiar "
-"and natural playground. Less well known is their role as a sanctuary for "
-"endangered plants and animals like the fen orchid and sand lizard. But our "
-"sand dunes are under threat. They are becoming more and more densely covered"
-" by grass and scrub while our wildlife needs areas of open sand to thrive. "
-"Healthy sand dunes need to move and be dynamic."
-msgstr ""
-
-# context term
-msgid ""
-"The Dynamic Dunescapes project is big and ambitious – targeting some of the "
-"most important sand dune systems across England and Wales. We will work with"
-" schools and local groups, volunteers and visitors of all ages and abilities"
-" to create more bare sand which will breathe life into the dunes and allow "
-"the threatened wildlife to flourish."
 msgstr ""
 
 # Habitat type name
@@ -105,7 +73,7 @@ msgstr ""
 msgid "Scrub and Woodland"
 msgstr ""
 
-# Part of habitats prifile page
+# Part of habitats profile page
 msgid "Feature"
 msgstr ""
 
@@ -253,51 +221,43 @@ msgstr ""
 msgid "This is the error event id: {{eventId}}"
 msgstr ""
 
-# Context term
+# Page title
 msgid "Settings"
 msgstr ""
 
-# Context term
+# Settings page toggle button
 msgid "Share App Analytics"
 msgstr ""
 
-# Context term
+# Settings page note message
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
 
-# Context term
+# Button title
 msgid "Reset"
 msgstr ""
 
-# Context term
+# Reset button message
 msgid "Are you sure you want to reset the application to its initial state?"
 msgstr ""
 
-# Context term
+# Reset button message
 msgid "This will wipe all the locally stored app data!"
 msgstr ""
 
-# Context term
+# Splash screen button
 msgid "Skip"
 msgstr ""
 
-# Context term
-msgid "Dunes are exciting!"
-msgstr ""
-
-# Context term
-msgid "Dunes are threatened."
-msgstr ""
-
-# Context term
+# Pop up message after app reset
 msgid "Sorry"
 msgstr ""
 
-# Context term
+# Pop up message after app reset
 msgid "Done"
 msgstr ""
 
-# Context term
+# Settings page label
 msgid "Language"
 msgstr ""
 
@@ -750,7 +710,8 @@ msgstr ""
 # Dipwell survey information message
 msgid ""
 "Please specify the water level in centimeters from the top of dipwell down "
-"to the water."
+"to the water. If the water is above the dipwell (i.e. flooded) please use "
+"negative values."
 msgstr ""
 
 # Dipwell survey information message
@@ -838,7 +799,7 @@ msgid "Vegetation Cover"
 msgstr ""
 
 # Plant quadrats survey section label
-msgid "Sand"
+msgid "Bare ground & Sand"
 msgstr ""
 
 # Plant quadrats survey section label
@@ -922,7 +883,7 @@ msgid "Quadrat Photo"
 msgstr ""
 
 # Plant quadrats survey info message
-msgid "Please specify the % of the bare sand cover."
+msgid "Please specify the % of the bare ground and sand cover."
 msgstr ""
 
 # Plant quadrats survey info message
@@ -1038,7 +999,7 @@ msgid "Previous Habitat"
 msgstr ""
 
 # Part of zonation mapping activity
-msgid "Current Habitat"
+msgid "New Habitat"
 msgstr ""
 
 # Part of zonation mapping activity
@@ -1059,4 +1020,50 @@ msgstr ""
 
 # Warning message
 msgid "Please log in first to upload the records."
+msgstr ""
+
+# Warning message
+msgid ""
+"Please check why the total cover is less than 100%. Remember to record bare "
+"ground/sand."
+msgstr ""
+
+# Warning message
+msgid "Please add at least one photo."
+msgstr ""
+
+# Warning message
+msgid "Please add water depth value."
+msgstr ""
+
+# Warning message
+msgid "Please add at points to the survey."
+msgstr ""
+
+# Warning message
+msgid "Please add location."
+msgstr ""
+
+# Warning message
+msgid "Grid Reference"
+msgstr ""
+
+# Warning message
+msgid "Please add type."
+msgstr ""
+
+# Warning message
+msgid "Please add angle."
+msgstr ""
+
+# Warning message
+msgid "Please add distance."
+msgstr ""
+
+# Warning message
+msgid "Please add previous habitat."
+msgstr ""
+
+# Warning message
+msgid "Please add new habitat."
 msgstr ""

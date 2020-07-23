@@ -1006,3 +1006,11 @@ msgstr "Please add angle."
 # Warning message
 msgid "Please add distance."
 msgstr "Please add distance."
+
+# Warning message
+msgid "Please add previous habitat."
+msgstr "Please add previous habitat."
+
+# Warning message
+msgid "Please add new habitat."
+msgstr "Please add new habitat."
