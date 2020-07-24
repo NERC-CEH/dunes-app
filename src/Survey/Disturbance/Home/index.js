@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
-import { IonButton, NavContext, IonFooter } from '@ionic/react';
+import { IonButton, NavContext } from '@ionic/react';
 import {
   Page,
   Header,
@@ -9,15 +9,12 @@ import {
   toast,
   loader,
   device,
-  Section,
-  MenuNote,
-  InfoButton,
 } from '@apps';
 import { Trans as T } from 'react-i18next';
 import Main from './Main';
+import Footer from './Footer';
 
 const { warn } = toast;
-const { P } = Section;
 
 @observer
 class Controller extends React.Component {
@@ -90,34 +87,11 @@ class Controller extends React.Component {
       </IonButton>
     ) : null;
 
-    let manual = (
-      <Section>
-        <P>
-          <i>TODO:</i> this is work in progress.
-        </P>
-      </Section>
-    );
-
-    if (survey.Manual) {
-      manual = <survey.Manual />;
-    }
-
     return (
       <Page id={`survey-${survey.name}-edit`}>
         <Header title={survey.label} rightSlot={uploadButton} />
         <Main {...this.props} />
-        {!isDisabled && (
-          <IonFooter id="info-footer">
-            <MenuNote skipTranslation>
-              <T>
-                You can find this survey information in our volunteer manual.
-              </T>
-              <InfoButton label="open survey manual" header={survey.label}>
-                {manual}
-              </InfoButton>
-            </MenuNote>
-          </IonFooter>
-        )}
+        <Footer sample={sample} />
       </Page>
     );
   }

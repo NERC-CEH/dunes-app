@@ -1,7 +1,7 @@
 import * as Yup from 'yup';
 import userModel from 'userModel';
 import disturbance from 'common/images/disturbance.svg';
-import disturbanceBlack from './Home/disturbanceIcon.svg';
+import disturbanceBlack from './Home/Main/disturbanceIcon.svg';
 import {
   dateAttr,
   commentAttr,
