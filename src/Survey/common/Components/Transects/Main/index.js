@@ -36,6 +36,7 @@ function getTransectItemsList(sample, transects, onTransectSelect) {
         onTransectSelect(selectedTransect);
       }}
       currentValue={currentValue}
+      skipTranslation
     />
   );
 }

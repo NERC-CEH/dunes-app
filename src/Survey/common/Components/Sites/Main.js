@@ -19,6 +19,7 @@ function Sites({ appModel, onSiteSelect }) {
           onSiteSelect(selectedId);
         }}
         currentValue={favouriteSite}
+        skipTranslation
       />
     </Main>
   );

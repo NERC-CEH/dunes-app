@@ -71,11 +71,11 @@ msgstr "Heath"
 msgid "Scrub and Woodland"
 msgstr "Scrub and Woodland"
 
-## Part of habitats profile page
+# Part of habitats profile page
 msgid "Feature"
 msgstr "Feature"
 
-## Header title
+# Header title
 msgid "Habitat"
 msgstr "Habitat"
 
@@ -1014,3 +1014,67 @@ msgstr "Please add previous habitat."
 # Warning message
 msgid "Please add new habitat."
 msgstr "Please add new habitat."
+
+# 
+msgid "Please select the disturbance type for this record."
+msgstr "Please select the disturbance type for this record."
+
+# Part of disturbance page
+msgid "Less than 1 metre across"
+msgstr "Less than 1 metre across"
+
+# Part of disturbance page
+msgid "More than 1 metre across"
+msgstr "More than 1 metre across"
+
+# Part of disturbance page
+msgid "Rabbit"
+msgstr "Rabbit"
+
+# Part of disturbance page
+msgid "Rabbit activity"
+msgstr "Rabbit activity"
+
+# Part of disturbance page
+msgid "Cattle"
+msgstr "Cattle"
+
+# Part of disturbance page
+msgid "Pony"
+msgstr "Pony"
+
+# Part of disturbance page
+msgid "Sheep"
+msgstr "Sheep"
+
+# Part of disturbance page
+msgid "Unknown"
+msgstr "Unknown"
+
+# Part of disturbance page
+msgid "Scrape"
+msgstr "Scrape"
+
+# Part of disturbance page
+msgid "Burrow"
+msgstr "Burrow"
+
+# Part of disturbance page
+msgid "Animal dung"
+msgstr "Animal dung"
+
+# Part of disturbance page
+msgid "Vehicle tracks"
+msgstr "Vehicle tracks"
+
+# Part of disturbance page
+msgid "Litter/flytipping"
+msgstr "Litter/flytipping"
+
+# Part of disturbance page
+msgid "Other (please add a comment)"
+msgstr "Other (please add a comment)"
+
+# Survey name
+msgid "Record Disturbance"
+msgstr "Record Disturbance"

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <rect id="rect-1" width="512" height="512" x="0" y="0"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-1"/>
+    </mask>
+    <path id="path-4" fill-rule="evenodd" d="M0 0v512h512V0H0z"/>
+    <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-4"/>
+    </mask>
+    <text id="text-7" font-size="0" style="white-space:pre" fill="inherit">
+      <tspan x="229.113" y="312.229" font-family="Arial" font-size="200" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+    </text>
+    <mask id="mask-8" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#text-7"/>
+    </mask>
+    <text id="text-9" font-size="0" style="white-space:pre" fill="inherit">
+      <tspan x="161.765" y="314.717" font-family="Arial" font-size="200" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+    </text>
+    <mask id="mask-10" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#text-9"/>
+    </mask>
+    <text id="text-11" font-size="0" style="white-space:pre" fill="inherit">
+      <tspan x="294.936" y="316.168" font-family="Arial" font-size="200" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+    </text>
+    <mask id="mask-12" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#text-11"/>
+    </mask>
+  </defs>
+  <g>
+    <use fill="none" xlink:href="#rect-1"/>
+    <g mask="url(#mask-2)">
+      <g>
+        <rect width="512" height="512" x="0" y="0" fill="none" rx="0" ry="0"/>
+        <g>
+          <use fill="none" xlink:href="#path-4"/>
+          <g mask="url(#mask-5)">
+            <path fill="rgb(0,0,0)" fill-rule="evenodd" d="M197.632 58.151C216.38 53.403 235.69 51 255.049 51c109.323 0 205.601 75.571 211.109 177.444 1.763 31.83 0 61.793-36.814 115.001C393.5 381.237 373 410.339 298.77 431l-110.067 31.5c-8.802 2.887-30.616-12.544-27.703-21.472l8.721-33.528c-30.213-9.863-45.42-20.456-67.721-41.209-3.036-2.827-3.207-7.579-.381-10.616 2.827-3.037 13.345-12.501 16.381-9.675 22.4 20.846 52.63 35.58 83.5 44.5 4.083 1.18-1.466 15.804-2.783 19.839l-10.014 30.689c115.511-37.693 109.40147588-35.6780779 110.067-35.86 2.22701693-.60875867 4.43729086-1.24904472 6.63003537-1.92060528C382.20260086 379.72546879 437.5 317.83582694 437.5 228.444 437.5 136.5 357.624 81 255.049 81 146.872 81 74.756 170.63 74.756 228.444c0 0-6.016 71.25 12.365 97.884 2.356 3.415 1.498 8.093-1.916 10.449-3.415 2.356-8.092 1.499-10.449-1.916C54.635 305.706 44 272.148 44 237.814c0-50.036 22.094-97.02 62.213-132.297 18.641-16.392 40.144-29.338 63.508-38.475"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g>
+          <text font-size="0" style="white-space:pre">
+            <tspan x="229.113" y="312.229" fill="rgb(0,0,0)" font-family="Arial" font-size="200" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+          </text>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="12" mask="url(#mask-8)" xlink:href="#text-7"/>
+        </g>
+        <g transform="rotate(-10.000008 189.76483927 245.21714939)">
+          <text font-size="0" style="white-space:pre">
+            <tspan x="161.765" y="314.717" fill="rgb(0,0,0)" font-family="Arial" font-size="200" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+          </text>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="12" mask="url(#mask-10)" xlink:href="#text-9"/>
+        </g>
+        <g transform="rotate(10.000008 322.93639622 246.668214)">
+          <text font-size="0" style="white-space:pre">
+            <tspan x="294.936" y="316.168" fill="rgb(0,0,0)" font-family="Arial" font-size="200" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+          </text>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="12" mask="url(#mask-12)" xlink:href="#text-11"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

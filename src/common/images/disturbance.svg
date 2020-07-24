@@ -5,24 +5,35 @@
       <rect width="512" height="512" x="0" y="0" fill="black"/>
       <use fill="white" xlink:href="#rect-1"/>
     </mask>
+    <path id="path-4" fill-rule="evenodd" d="M0 0v512h512V0H0z"/>
+    <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-4"/>
+    </mask>
   </defs>
   <g>
-    <g>
-      <use fill="none" xlink:href="#rect-1"/>
-      <g mask="url(#mask-2)">
-        <path fill="rgb(0,0,0)" fill-rule="evenodd" d="M153.632 92.414c18.748-4.748 38.058-7.151 57.417-7.151 109.323 0 205.601 75.571 211.109 177.444 1.763 31.83 0 61.793-36.814 115.001-35.844 37.792-78.844 61.723-127.207 76.37l-115.558 37.708c-8.802 2.887-17.285-5.446-14.372-14.374l9.858-30.208c-30.213-9.863-57.764-25.897-80.065-46.65-3.036-2.827-3.207-7.579-.381-10.616 2.827-3.037 7.58-3.207 10.616-.381 22.4 20.846 50.556 36.579 81.426 45.499 4.083 1.18 6.373 5.511 5.056 9.546l-10.014 30.689c115.511-37.693 109.40147588-35.6780779 110.067-35.86C335 417.5 417.514 348.921 411.5 262.707 405.069 171.89 313.624 99 211.049 99 102.872 99 15.024 177.452 15.024 272.077c0 31.271 9.716 61.88 28.097 88.514 2.356 3.415 1.498 8.093-1.916 10.449-3.415 2.356-8.092 1.499-10.449-1.916C10.635 339.969 0 306.411 0 272.077c0-50.036 22.094-97.02 62.213-132.297 18.641-16.392 40.144-29.338 63.508-38.475"/>
+    <use fill="none" xlink:href="#rect-1"/>
+    <g mask="url(#mask-2)">
+      <g>
+        <rect width="512" height="512" x="0" y="0" fill="none" rx="0" ry="0"/>
+        <g>
+          <use fill="none" xlink:href="#path-4"/>
+          <g mask="url(#mask-5)">
+            <path fill="rgb(0,0,0)" fill-rule="evenodd" d="M197.632 58.151C216.38 53.403 235.69 51 255.049 51c109.323 0 205.601 75.571 211.109 177.444 1.763 31.83 0 61.793-36.814 115.001-35.844 37.792-78.844 61.723-127.207 76.37l-115.558 37.708c-8.802 2.887-17.285-5.446-14.372-14.374l9.858-30.208c-30.213-9.863-57.764-25.897-80.065-46.65-3.036-2.827-3.207-7.579-.381-10.616 2.827-3.037 7.58-3.207 10.616-.381 22.4 20.846 50.556 36.579 81.426 45.499 4.083 1.18 6.373 5.511 5.056 9.546l-10.014 30.689c115.511-37.693 109.40147588-35.6780779 110.067-35.86 80.23-21.931 162.744-90.51 156.73-176.724-6.431-90.817-97.876-163.707-200.451-163.707-108.177 0-196.025 78.452-196.025 173.077 0 31.271 9.716 61.88 28.097 88.514 2.356 3.415 1.498 8.093-1.916 10.449-3.415 2.356-8.092 1.499-10.449-1.916C54.635 305.706 44 272.148 44 237.814c0-50.036 22.094-97.02 62.213-132.297 18.641-16.392 40.144-29.338 63.508-38.475"/>
+          </g>
+        </g>
       </g>
-    </g>
-    <g>
-      <text font-size="0" style="white-space:pre">
-        <tspan x="185.906" y="334" fill="rgb(0,160,164)" font-family="Arial" font-size="175" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
-      </text>
-      <text font-size="0" style="white-space:pre" transform="rotate(-10.000004 133.31434268 257.21481744)">
-        <tspan x="115.15" y="337.895" fill="rgb(0,160,164)" font-family="Arial" font-size="175" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
-      </text>
-      <text font-size="0" style="white-space:pre" transform="rotate(10.000004 273.41006365 255.47376826)">
-        <tspan x="255.501" y="337.116" fill="rgb(0,160,164)" font-family="Arial" font-size="175" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
-      </text>
+      <g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="231.906" y="313.285" fill="rgb(0,160,164)" font-family="Arial" font-size="175" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre" transform="rotate(-10.000008 189.05849368 255.27313677)">
+          <tspan x="164.558" y="315.773" fill="rgb(0,160,164)" font-family="Arial" font-size="175" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre" transform="rotate(10.000008 322.23005063 256.7242014)">
+          <tspan x="297.73" y="317.224" fill="rgb(0,160,164)" font-family="Arial" font-size="175" font-weight="400" style="white-space:pre;text-transform:none">!</tspan>
+        </text>
+      </g>
     </g>
   </g>
 </svg>
