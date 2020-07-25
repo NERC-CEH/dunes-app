@@ -22,6 +22,8 @@ class index extends React.Component {
     t: PropTypes.func.isRequired,
   };
 
+  state = { refreshing: false };
+
   addSectionSubSamples = () => {
     const { sample } = this.props;
     const transect = sample.attrs.location;
@@ -50,12 +52,18 @@ class index extends React.Component {
   };
 
   refreshUserTransects = async () => {
+    if (this.state.refreshing) {
+      return;
+    }
+
     const { userModel, t } = this.props;
 
     if (!device.isOnline()) {
       warn(t("Sorry, looks like you're offline."));
       return;
     }
+
+    this.setState({ refreshing: true });
 
     await loader.show({
       message: `${t('Please wait...')}<br/><small>${t(
@@ -68,7 +76,7 @@ class index extends React.Component {
 
       await loader.show({
         message: `${t('Please wait...')}<br/><small>${t(
-          'Downloading and caching images.'
+          'Downloading images.'
         )}</small>`,
       });
 
@@ -78,6 +86,8 @@ class index extends React.Component {
     } catch (e) {
       error(e.message);
     }
+
+    this.setState({ refreshing: false });
     await loader.hide();
   };
 

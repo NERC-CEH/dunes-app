@@ -1078,3 +1078,11 @@ msgstr "Other (please add a comment)"
 # Survey name
 msgid "Record Disturbance"
 msgstr "Record Disturbance"
+
+# Loading dialog when pulling location data 
+msgid "Getting transects."
+msgstr "Getting transects."
+
+# Loading dialog when pulling location data 
+msgid "Downloading images."
+msgstr "Downloading images."

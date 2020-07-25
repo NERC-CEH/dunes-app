@@ -1067,3 +1067,74 @@ msgstr ""
 # Warning message
 msgid "Please add new habitat."
 msgstr ""
+
+msgid "Please select the disturbance type for this record."
+msgstr ""
+
+# Part of disturbance page
+msgid "Less than 1 metre across"
+msgstr ""
+
+# Part of disturbance page
+msgid "More than 1 metre across"
+msgstr ""
+
+# Part of disturbance page
+msgid "Rabbit"
+msgstr ""
+
+# Part of disturbance page
+msgid "Rabbit activity"
+msgstr ""
+
+# Part of disturbance page
+msgid "Cattle"
+msgstr ""
+
+# Part of disturbance page
+msgid "Pony"
+msgstr ""
+
+# Part of disturbance page
+msgid "Sheep"
+msgstr ""
+
+# Part of disturbance page
+msgid "Unknown"
+msgstr ""
+
+# Part of disturbance page
+msgid "Scrape"
+msgstr ""
+
+# Part of disturbance page
+msgid "Burrow"
+msgstr ""
+
+# Part of disturbance page
+msgid "Animal dung"
+msgstr ""
+
+# Part of disturbance page
+msgid "Vehicle tracks"
+msgstr ""
+
+# Part of disturbance page
+msgid "Litter/flytipping"
+msgstr ""
+
+# Part of disturbance page
+msgid "Other (please add a comment)"
+msgstr ""
+
+# Survey name
+msgid "Record Disturbance"
+msgstr ""
+
+# Loading dialog when pulling location data
+msgid "Getting transects."
+msgstr ""
+
+# Loading dialog when pulling location data
+msgid "Downloading images."
+msgstr ""

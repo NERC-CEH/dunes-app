@@ -43,31 +43,32 @@ class UserModel extends DrupalUserModel {
   }
 
   async updateTransectsImages() {
-    if (!Capacitor.isNative) {
-      return null;
-    }
-
     // TODO:
     const images = this.attrs.transects
       .map(transect => transect.sections)
       .flat()
       .map(location => [location.url, location]);
 
-    for (let i = 0; i < images.length; i++) {
-      const [url, location] = images[i];
+    const promises = images.map(async ([url, location]) => {
       const imageHashName = hashCode(url);
       const cachedUrl = `cache/${imageHashName}.jpg`;
 
-      // eslint-disable-next-line
-      await Filesystem.writeFile({
-        data: await toDataUrl(url), // eslint-disable-line
-        path: cachedUrl,
-        toDirectory: FilesystemDirectory.Data,
-        recursive: true,
-      });
+      if (!Capacitor.isNative) {
+        await new Promise(r => setTimeout(r, 1000));
+      } else {
+        const data = await toDataUrl(url);
+        await Filesystem.writeFile({
+          data, // eslint-disable-line
+          path: cachedUrl,
+          toDirectory: FilesystemDirectory.Data,
+          recursive: true,
+        });
+      }
 
-      location.cachedUrl = cachedUrl;
-    }
+      location.cachedUrl = cachedUrl; // eslint-disable-line
+    });
+
+    await Promise.all(promises);
 
     return this.save();
   }
