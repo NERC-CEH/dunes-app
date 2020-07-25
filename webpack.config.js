@@ -185,4 +185,25 @@ if (process.env.APP_MANUAL_TESTING) {
   config.entry.push('./test/manual-test-utils.js');
 }
 
+if (process.env.DEBUG_IOS) {
+  const WebpackShellPluginNext = require('webpack-shell-plugin-next'); // eslint-disable-line
+  // for some reason script didn't accept ~ or $HOME
+  const homedir = require('os').homedir(); // eslint-disable-line
+  const buildID = process.env.IOS_BUILD_ID;
+  config.plugins.push(
+    new WebpackShellPluginNext({
+      dev: false, // run more than once
+      onBuildEnd: {
+        scripts: [
+          'npx cap copy ios',
+          'xcodebuild -workspace ./ios/App/App.xcworkspace -scheme App -sdk iphonesimulator',
+          `npx ios-sim launch -d iPhone-6s-Plus ${homedir}/Library/Developer/Xcode/DerivedData/${buildID}/Build/Products/Debug-iphonesimulator/App.app -x`,
+        ],
+        blocking: true,
+        parallel: false,
+      },
+    })
+  );
+}
+
 module.exports = config;
