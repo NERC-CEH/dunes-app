@@ -11,6 +11,7 @@ import {
 import Log from './log';
 
 const { Camera, Filesystem } = Plugins;
+
 const Image = {
   /**
    * Gets a fileEntry of the selected image from the camera or gallery.

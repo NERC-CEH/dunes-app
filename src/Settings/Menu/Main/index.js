@@ -7,6 +7,7 @@ import {
   arrowUndoOutline,
   shareSocialOutline,
   flagOutline,
+  trashBinOutline,
 } from 'ionicons/icons';
 import languages from 'common/config/languages';
 import { alert, Main, Toggle, MenuAttrItem, MenuNote } from '@apps';
@@ -43,17 +44,36 @@ function resetDialog(resetApp) {
   });
 }
 
+function humanFileSize(size) {
+  const i = Math.floor(Math.log(size) / Math.log(1024));
+  // eslint-disable-next-line
+  return `${(size / Math.pow(1024, i)).toFixed(2) * 1} ${
+    ['B', 'kB', 'MB', 'GB', 'TB'][i]
+  }`;
+}
+
 @observer
 class Component extends React.Component {
   static propTypes = {
     resetApp: PropTypes.func.isRequired,
     onToggle: PropTypes.func.isRequired,
+    clearCache: PropTypes.func.isRequired,
     sendAnalytics: PropTypes.bool.isRequired,
+    cache: PropTypes.number.isRequired,
     language: PropTypes.string,
   };
 
   render() {
-    const { resetApp, onToggle, sendAnalytics, language } = this.props;
+    const {
+      resetApp,
+      onToggle,
+      sendAnalytics,
+      language,
+      cache,
+      clearCache,
+    } = this.props;
+
+    const cacheLabel = humanFileSize(cache);
 
     return (
       <Main>
@@ -77,6 +97,27 @@ class Component extends React.Component {
           <MenuNote>
             Share app crash data so we can make the app more reliable.
           </MenuNote>
+
+          {!!cache && (
+            <>
+              <IonItem
+                id="app-reset-btn"
+                class="menu-attr-item"
+                onClick={clearCache}
+              >
+                <IonIcon icon={trashBinOutline} size="small" slot="start" />
+
+                <IonLabel>
+                  <T>Clear Cache</T>
+                </IonLabel>
+
+                <IonLabel slot="end">{cacheLabel}</IonLabel>
+              </IonItem>
+              <MenuNote>
+                This clears the locally cached location images.
+              </MenuNote>
+            </>
+          )}
 
           <IonItem id="app-reset-btn" onClick={() => resetDialog(resetApp, t)}>
             <IonIcon icon={arrowUndoOutline} size="small" slot="start" />

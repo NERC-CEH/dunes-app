@@ -58,11 +58,21 @@ class index extends React.Component {
     }
 
     await loader.show({
-      message: t('Please wait...'),
+      message: `${t('Please wait...')}<br/><small>${t(
+        'Getting transects.'
+      )}</small>`,
     });
 
     try {
       await userModel.updateTransects();
+
+      await loader.show({
+        message: `${t('Please wait...')}<br/><small>${t(
+          'Downloading and caching images.'
+        )}</small>`,
+      });
+
+      await userModel.updateTransectsImages();
 
       success(t('Transect list was successfully updated.'));
     } catch (e) {

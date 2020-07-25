@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import { searchCircleOutline } from 'ionicons/icons';
 import PropTypes from 'prop-types';
 import { IonIcon } from '@ionic/react';
+import config from 'config';
 import { Gallery } from '@apps';
+import { Capacitor } from '@capacitor/core';
 import './styles.scss';
 
 export default class index extends Component {
@@ -21,7 +23,7 @@ export default class index extends Component {
 
     const items = [
       {
-        src: location.url,
+        src: this.getUrl(),
         w: location.image_width || 320,
         h: location.image_height || 600,
         // title: `© ${image.image_copyright}`,
@@ -43,9 +45,27 @@ export default class index extends Component {
     );
   };
 
-  render() {
+  getUrl = () => {
     const { location } = this.props;
 
+    if (!Capacitor.isNative || !location.cachedUrl) {
+      return location.url;
+    }
+
+    return Capacitor.convertFileSrc(`${config.dataPath}/${location.cachedUrl}`);
+  };
+
+  getURL() {
+    const { data: name } = this.attrs;
+
+    if (!Capacitor.isNative || window.testing) {
+      return name;
+    }
+
+    return Capacitor.convertFileSrc(`${config.dataPath}/${name}`);
+  }
+
+  render() {
     return (
       <>
         {this.getGallery()}
@@ -55,7 +75,7 @@ export default class index extends Component {
           onClick={() => this.setState({ showGallery: 1 })}
         >
           {this.getGallery()}
-          <img src={location.url} />
+          <img src={this.getUrl()} />
 
           <IonIcon
             class="photo-zoomin-icon-shadow"

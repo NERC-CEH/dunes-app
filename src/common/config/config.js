@@ -1,6 +1,7 @@
 /** ****************************************************************************
  * Main app configuration file.
  **************************************************************************** */
+import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
 
 const backendUrl =
   process.env.APP_BACKEND_URL || 'https://dunescapes.brc.ac.uk';
@@ -38,5 +39,16 @@ const config = {
     },
   },
 };
+
+(async function getMediaDirectory() {
+  if (Capacitor.isNative) {
+    const { uri } = await Plugins.Filesystem.getUri({
+      path: '',
+      directory: FilesystemDirectory.Data,
+    });
+
+    config.dataPath = uri;
+  }
+})();
 
 export default config;

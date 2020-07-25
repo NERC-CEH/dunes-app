@@ -1,23 +1,9 @@
 import { Media } from '@apps';
 import Log from 'helpers/log';
+import config from 'config';
 import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
 
 const { Filesystem } = Plugins;
-
-let mediaDirectory = '';
-
-(async function getMediaDirectory() {
-  if (!Capacitor.isNative) {
-    return;
-  }
-
-  const { uri } = await Filesystem.getUri({
-    path: '',
-    directory: FilesystemDirectory.Data,
-  });
-
-  mediaDirectory = uri;
-})();
 
 export default class AppMedia extends Media {
   async destroy(silent) {
@@ -71,7 +57,7 @@ export default class AppMedia extends Media {
       return name;
     }
 
-    return Capacitor.convertFileSrc(`${mediaDirectory}/${name}`);
+    return Capacitor.convertFileSrc(`${config.dataPath}/${name}`);
   }
 
   // eslint-disable-next-line class-methods-use-this
