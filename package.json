@@ -22,7 +22,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "@bit/flumens.apps.attr": "0.2.0",
-    "@bit/flumens.apps.attr-page": "0.3.5",
+    "@bit/flumens.apps.attr-page": "0.3.6",
     "@bit/flumens.apps.checkbox-input": "0.1.0",
     "@bit/flumens.apps.collapse": "^0.2.0",
     "@bit/flumens.apps.date": "^0.1.0",
