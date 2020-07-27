@@ -33,7 +33,7 @@ const survey = {
 
     disturbance: {
       id: -1,
-      type: 'radio',
+      type: 'checkbox',
       label: 'Disturbance',
       icon: disturbanceBlack,
       info: 'Please select the disturbance type for this record.',
