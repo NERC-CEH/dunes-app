@@ -91,6 +91,10 @@ class index extends React.Component {
     await loader.hide();
   };
 
+  cancelSelectedTransect = () => {
+    this.context.goBack();
+  };
+
   componentDidMount = () => {
     const { userModel } = this.props;
     if (!userModel.attrs.transects.length && device.isOnline()) {
@@ -122,6 +126,7 @@ class index extends React.Component {
           transects={transects}
           onTransectSelect={this.onTransectSelect}
           match={match}
+          cancelSelectedTransect={this.cancelSelectedTransect}
         />
       </Page>
     );
