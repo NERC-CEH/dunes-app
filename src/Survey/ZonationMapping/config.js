@@ -70,7 +70,7 @@ const survey = {
         type: 'slider',
         info:
           'Please specify the distance from previous transition point in meters.',
-        displayValueParse: value => `${value.toFixed(1)}m`,
+        displayValueParse: value => `${value.toFixed(1)} m`,
         max: 300,
         min: 0,
         step: 0.1,

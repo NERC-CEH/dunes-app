@@ -144,7 +144,7 @@ class Component extends React.Component {
 
     const prettyGridRef = <GridRefValue sample={subSample} />;
 
-    const showAngle = typeof angle === 'number' ? `${angle}°` : null;
+    const showAngle = typeof angle === 'number' ? `${angle} °` : null;
 
     const showDistance = typeof distance === 'number' ? `${distance} m` : null;
 

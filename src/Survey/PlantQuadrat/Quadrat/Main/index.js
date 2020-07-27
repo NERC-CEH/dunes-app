@@ -119,7 +119,7 @@ class Component extends React.Component {
 
           <MenuAttrItem
             routerLink={`${baseURL}/height`}
-            value={`${heightAverage}cm`}
+            value={`${heightAverage} cm`}
             label="Height"
             icon={heightIcon}
             wrapText
