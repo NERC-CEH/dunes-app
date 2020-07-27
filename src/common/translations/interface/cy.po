@@ -1138,3 +1138,13 @@ msgstr ""
 # Loading dialog when pulling location data
 msgid "Downloading images."
 msgstr ""
+
+# Changing location popup warning
+msgid "Changing location"
+msgstr ""
+
+# Changing location popup warning
+msgid ""
+"Warning - This will discard some of the survey informaton you have entered "
+"so far."
+msgstr ""

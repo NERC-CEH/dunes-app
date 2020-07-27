@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
-import { IonList, IonLabel } from '@ionic/react';
+import { IonList } from '@ionic/react';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Main, RadioInput, alert } from '@apps';
+import { Trans as T } from 'react-i18next';
 
 function showNoTransects() {
   return (
@@ -35,8 +36,13 @@ function getTransectItemsList(
     const changeTransect = true;
 
     alert({
-      header: 'Warning',
-      message: <IonLabel>This will discard any enter data!</IonLabel>,
+      header: 'Changing location',
+      message: (
+        <T>
+          Warning - This will discard some of the survey informaton you have
+          entered so far.
+        </T>
+      ),
       buttons: [
         {
           text: 'Cancel',
