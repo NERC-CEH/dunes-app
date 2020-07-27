@@ -31,6 +31,9 @@ export default () => (
           <b>Karolis Kazlauskis</b> (Flumens)
         </P>
         <P skipTranslation>
+          <b>Vilius Stankaitis</b> (Flumens)
+        </P>
+        <P skipTranslation>
           <b>John van Breda</b> (Biodiverse IT)
         </P>
         <P skipTranslation>
