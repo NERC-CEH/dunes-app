@@ -145,7 +145,7 @@ ion-textarea {
 }
 
 .menu-attr-item-long-value {
-  ion-label[slot='end'] {
+  [slot='end'] {
     font-size: 0.8em;
   }
 }
@@ -176,7 +176,6 @@ html.ios {
   }
 }
 
-
 .pretty-button {
   left: 50%;
   transform: translateX(-50%);
@@ -194,4 +193,11 @@ html.ios {
     width: 100%;
     text-align: center;
   }
+}
+
+ion-item-divider {
+  background-color: #fffdefd9;
+  color: var(--ion-color-primary);
+  font-size: 15px;
+  font-weight: 600;
 }
