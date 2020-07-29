@@ -24,8 +24,8 @@ export default class index extends Component {
     const items = [
       {
         src: this.getUrl(),
-        w: location.image_width || 320,
-        h: location.image_height || 600,
+        w: location.imageWidth || 320,
+        h: location.imageHeight || 600,
         // title: `© ${image.image_copyright}`,
       },
     ];

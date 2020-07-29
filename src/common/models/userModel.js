@@ -20,10 +20,18 @@ function toDataUrl(url) {
     xhr.onload = function() {
       const reader = new FileReader();
       reader.onloadend = function() {
-        resolve(reader.result);
+        const image = new window.Image(); // native one
+
+        image.onload = () => {
+          const type = url.split('.').pop();
+          resolve([reader.result, type, image.width, image.height]);
+        };
+
+        image.src = url;
       };
       reader.readAsDataURL(xhr.response);
     };
+
     xhr.open('GET', url);
     xhr.responseType = 'blob';
     xhr.send();
@@ -56,20 +64,31 @@ class UserModel extends DrupalUserModel {
 
       if (!Capacitor.isNative) {
         // eslint-disable-next-line
+        const [, , width, heigth] = await toDataUrl(url);
+        location.imageWidth = width; // eslint-disable-line
+        location.imageHeight = heigth; // eslint-disable-line
+
+        // eslint-disable-next-line
         await new Promise(r => setTimeout(r, 1000));
-      } else {
+
         // eslint-disable-next-line
-        const data = await toDataUrl(url);
-        // eslint-disable-next-line
-        await Filesystem.writeFile({
-          data,
-          path: cachedUrl,
-          directory: FilesystemDirectory.Data,
-          recursive: true,
-        });
+        continue;
       }
 
+      // eslint-disable-next-line
+      const [data, , width, heigth] = await toDataUrl(url);
+
+      // eslint-disable-next-line
+      await Filesystem.writeFile({
+        data,
+        path: cachedUrl,
+        directory: FilesystemDirectory.Data,
+        recursive: true,
+      });
+
       location.cachedUrl = cachedUrl; // eslint-disable-line
+      location.imageWidth = width; // eslint-disable-line
+      location.imageHeight = heigth; // eslint-disable-line
     }
 
     return this.save();
