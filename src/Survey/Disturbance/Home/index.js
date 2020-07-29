@@ -11,8 +11,8 @@ import {
   device,
 } from '@apps';
 import { Trans as T } from 'react-i18next';
+import Footer from 'common/Components/Footer';
 import Main from './Main';
-import Footer from './Footer';
 
 const { warn } = toast;
 

@@ -11,6 +11,7 @@ import {
   showInvalidsMessage,
 } from '@apps';
 import { Trans as T } from 'react-i18next';
+import Footer from 'common/Components/Footer/';
 import Main from './Main';
 
 const { warn } = toast;
@@ -90,6 +91,7 @@ class Controller extends React.Component {
       <Page id={`survey-${survey.name}-edit`}>
         <Header title={survey.label} rightSlot={uploadButton} />
         <Main {...this.props} />
+        <Footer sample={sample} />
       </Page>
     );
   }

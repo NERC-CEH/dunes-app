@@ -3,17 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { IonList } from '@ionic/react';
 import { locationOutline } from 'ionicons/icons';
-import {
-  Main,
-  MenuAttrItem,
-  MenuAttrItemFromModel,
-  MenuNote,
-  InfoButton,
-  Section,
-} from '@apps';
-import { Trans as T } from 'react-i18next';
-
-const { P } = Section;
+import { Main, MenuAttrItem, MenuAttrItemFromModel, MenuNote } from '@apps';
 
 @observer
 class Component extends React.Component {
@@ -24,21 +14,9 @@ class Component extends React.Component {
 
   render() {
     const { sample, match } = this.props;
-    const survey = sample.getSurvey();
     const isDisabled = sample.isDisabled();
 
     const transect = (sample.attrs.location || {}).name;
-
-    let manual = (
-      <Section>
-        <P>
-          <i>TODO:</i> this is work in progress.
-        </P>
-      </Section>
-    );
-    if (survey.Manual) {
-      manual = <survey.Manual />;
-    }
 
     return (
       <Main>
@@ -61,17 +39,6 @@ class Component extends React.Component {
             wrapText
             skipValueTranslation
           />
-
-          {!isDisabled && (
-            <MenuNote skipTranslation>
-              <T>
-                You can find this survey information in our volunteer manual.
-              </T>
-              <InfoButton label="open survey manual" header={survey.label}>
-                {manual}
-              </InfoButton>
-            </MenuNote>
-          )}
         </IonList>
       </Main>
     );
