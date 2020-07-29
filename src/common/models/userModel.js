@@ -49,26 +49,28 @@ class UserModel extends DrupalUserModel {
       .flat()
       .map(location => [location.url, location]);
 
-    const promises = images.map(async ([url, location]) => {
+    for (let i = 0; i < images.length; i++) {
+      const [url, location] = images[i];
       const imageHashName = hashCode(url);
       const cachedUrl = `cache/${imageHashName}.jpg`;
 
       if (!Capacitor.isNative) {
+        // eslint-disable-next-line
         await new Promise(r => setTimeout(r, 1000));
       } else {
+        // eslint-disable-next-line
         const data = await toDataUrl(url);
+        // eslint-disable-next-line
         await Filesystem.writeFile({
-          data, // eslint-disable-line
+          data,
           path: cachedUrl,
-          toDirectory: FilesystemDirectory.Data,
+          directory: FilesystemDirectory.Data,
           recursive: true,
         });
       }
 
       location.cachedUrl = cachedUrl; // eslint-disable-line
-    });
-
-    await Promise.all(promises);
+    }
 
     return this.save();
   }
