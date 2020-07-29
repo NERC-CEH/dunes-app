@@ -3,6 +3,7 @@
  **************************************************************************** */
 require('dotenv').config({ silent: true }); // get local environment variables from .env
 const checkEnv = require('@flumens/has-env');
+const capacitorConfig = require('./capacitor.config.json');
 
 checkEnv({
   warn: ['APP_MANUAL_TESTING', 'APP_BACKEND_URL'],
@@ -198,6 +199,25 @@ if (process.env.DEBUG_IOS) {
           'npx cap copy ios',
           'xcodebuild -workspace ./ios/App/App.xcworkspace -scheme App -sdk iphonesimulator',
           `npx ios-sim launch -d iPhone-6s-Plus ${homedir}/Library/Developer/Xcode/DerivedData/${buildID}/Build/Products/Debug-iphonesimulator/App.app -x`,
+        ],
+        blocking: true,
+        parallel: false,
+      },
+    })
+  );
+}
+
+if (process.env.DEBUG_ANDROID) {
+  const WebpackShellPluginNext = require('webpack-shell-plugin-next'); // eslint-disable-line
+  config.plugins.push(
+    new WebpackShellPluginNext({
+      dev: false, // run more than once
+      onBuildEnd: {
+        scripts: [
+          'npx cap copy android',
+          './android/gradlew assembleDebug -p android',
+          'adb install -r android/app/build/outputs/apk/debug/app-debug.apk',
+          `adb shell am start -n ${capacitorConfig.appId}/.MainActivity`,
         ],
         blocking: true,
         parallel: false,
