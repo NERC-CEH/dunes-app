@@ -17,7 +17,7 @@ class Component extends React.Component {
   getAttributesList = () => {
     const { subSample } = this.props;
     if (subSample.metadata.type !== 'transition') {
-      return null;
+      return <MenuAttrItemFromModel attr="currentHabitat" model={subSample} />;
     }
 
     return (
