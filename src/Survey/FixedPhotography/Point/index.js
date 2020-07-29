@@ -69,7 +69,11 @@ class Controller extends React.Component {
 
     return (
       <Page id="survey-fixed-photography-transect-point-edit">
-        <Header title={locationLabel} rightSlot={this.getNextPointButton()} />
+        <Header
+          skipTranslation
+          title={locationLabel}
+          rightSlot={this.getNextPointButton()}
+        />
         <Main sample={sample} subSample={subSample} isDisabled={isDisabled} />
       </Page>
     );

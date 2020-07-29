@@ -1075,6 +1075,14 @@ msgstr "Litter/flytipping"
 msgid "Other (please add a comment)"
 msgstr "Other (please add a comment)"
 
+# Part of disturbance page
+msgid "Bare sand/poached area"
+msgstr "Bare sand/poached area"
+
+# Part of disturbance page
+msgid "Other"
+msgstr "Other"
+
 # Survey name
 msgid "Record Disturbance"
 msgstr "Record Disturbance"
