@@ -4,8 +4,10 @@ import { Main, MenuAttrItem, MenuAttrItemFromModel, MenuNote } from '@apps';
 import PropTypes from 'prop-types';
 import { IonList } from '@ionic/react';
 import { locationOutline } from 'ionicons/icons';
+import i18n from 'i18next';
 import GridRefValue from 'Survey/common/Components/GridRefValue';
 import PhotoPicker from 'Components/PhotoPicker';
+import disturbanceIcon from './disturbanceIcon.svg';
 
 @observer
 class Component extends React.Component {
@@ -19,6 +21,14 @@ class Component extends React.Component {
     const { sample, match, appModel } = this.props;
     const isDisabled = sample.isDisabled();
     const { favouriteSite } = appModel.attrs;
+    const { disturbance } = sample.attrs;
+
+    let disturbanceValue;
+
+    if (disturbance) {
+      disturbanceValue =
+        disturbance.length > 1 ? disturbance.length : i18n.t(disturbance);
+    }
 
     const prettyGridRef = <GridRefValue sample={sample} />;
 
@@ -51,7 +61,16 @@ class Component extends React.Component {
 
           <MenuAttrItemFromModel attr="date" model={sample} />
           <MenuAttrItemFromModel attr="surveyors" model={sample} />
-          <MenuAttrItemFromModel attr="disturbance" model={sample} />
+
+          <MenuAttrItem
+            routerLink={`${match.url}/disturbance`}
+            value={disturbanceValue}
+            icon={disturbanceIcon}
+            label="Disturbance"
+            skipValueTranslation
+            wrapText
+          />
+
           <MenuAttrItemFromModel attr="comment" model={sample} />
 
           <PhotoPicker model={sample} />
