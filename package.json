@@ -46,7 +46,7 @@
     "@bit/flumens.apps.models.media": "0.2.0",
     "@bit/flumens.apps.models.model": "0.1.0",
     "@bit/flumens.apps.models.occurrence": "0.2.0",
-    "@bit/flumens.apps.models.sample": "0.2.0",
+    "@bit/flumens.apps.models.sample": "0.2.2",
     "@bit/flumens.apps.models.store": "0.2.0",
     "@bit/flumens.apps.page": "0.1.0",
     "@bit/flumens.apps.radio-input": "0.3.2",
