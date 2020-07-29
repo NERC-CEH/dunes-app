@@ -145,7 +145,7 @@ ion-textarea {
 }
 
 .menu-attr-item-long-value {
-  [slot='end'] {
+  ion-label[slot='end'] {
     font-size: 0.8em;
   }
 }
@@ -200,4 +200,8 @@ ion-item-divider {
   color: var(--ion-color-primary);
   font-size: 15px;
   font-weight: 600;
+}
+
+.ios ion-item-divider {
+  border-bottom: 1px solid #c8c7cc;
 }
