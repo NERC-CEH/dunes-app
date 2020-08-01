@@ -4,7 +4,7 @@ import { IonList, IonItemDivider, IonLabel } from '@ionic/react';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Trans as T } from 'react-i18next';
 import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
-import { prettyPrintGridRef, locationToGrid, Main, MenuAttrItem } from '@apps';
+import { prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
 import './styles.scss';
@@ -32,21 +32,10 @@ class Component extends React.Component {
       const { cid } = subSample;
       const { height } = subSample.attrs;
 
-      const [
-        latitude,
-        longitude,
-      ] = subSample.attrs.location.centroid_sref
-        .replace(/[N,W,E]/g, '')
-        .split(' ');
-      const gridRef = locationToGrid({
-        accurracy: 1,
-        latitude: parseFloat(latitude),
-        longitude: parseFloat(longitude),
-      });
+      const { gridref } = subSample.attrs.location;
+      const prettyGridRef = gridref ? prettyPrintGridRef(gridref) : '';
 
       const waterDepth = typeof height === 'number' ? `${height} cm` : null;
-
-      const prettyGridRef = prettyPrintGridRef(gridRef);
 
       const values = (
         <>
@@ -98,7 +87,7 @@ class Component extends React.Component {
           <MenuAttrItem
             routerLink={`${match.url}/sites`}
             disabled={isDisabled}
-            value={favouriteSite}
+            value={favouriteSite.name}
             label="Site"
             icon={locationOutline}
             wrapText

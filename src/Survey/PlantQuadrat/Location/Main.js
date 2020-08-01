@@ -8,7 +8,7 @@ import {
   squareOutline,
   mapOutline,
 } from 'ionicons/icons';
-import { locationToGrid, prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
+import { prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
@@ -36,19 +36,9 @@ class Component extends React.Component {
     const getPointItem = subSample => {
       const { cid } = subSample;
 
-      const [
-        latitude,
-        longitude,
-      ] = subSample.attrs.location.centroid_sref
-        .replace(/[N,W,E]/g, '')
-        .split(' ');
-      const gridRef = locationToGrid({
-        accurracy: 1,
-        latitude: parseFloat(latitude),
-        longitude: parseFloat(longitude),
-      });
+      const { gridref } = subSample.attrs.location;
+      const prettyGridRef = gridref ? prettyPrintGridRef(gridref) : '';
 
-      const prettyGridRef = prettyPrintGridRef(gridRef);
       const locationLabel = subSample.getPrettyName();
 
       return (
@@ -88,7 +78,7 @@ class Component extends React.Component {
           <MenuAttrItem
             routerLink={`${match.url}/sites`}
             disabled={isDisabled}
-            value={favouriteSite}
+            value={favouriteSite.name}
             label="Site"
             icon={locationOutline}
             wrapText

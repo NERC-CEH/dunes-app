@@ -23,13 +23,11 @@ class Container extends React.Component {
     const { sample } = this.props;
 
     const location = toJS(sample.attrs.location || {});
-    // const isGPSTracking = sample.isGPSRunning();
 
     return (
       <Page id="map">
         <Header title="Map" />
         <Main
-          // isGPSTracking={isGPSTracking}
           location={location}
           setLocation={this.setLocation}
         />

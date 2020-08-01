@@ -16,21 +16,25 @@ function showNoTransects() {
   );
 }
 
-function getTransectItemsList(
+function getLocationsItemsList(
   sample,
-  transects,
-  onTransectSelect,
+  locations,
+  onSelect,
   cancelSelectedTransect
 ) {
-  const hasTransects = !!transects.length;
-  if (!hasTransects) {
+  const locationsArray = Object.values(locations);
+  const hasLocations = !!locationsArray.length;
+  if (!hasLocations) {
     return showNoTransects();
   }
-  const currentValue = sample.attrs.location && sample.attrs.location.id;
-  const getTransectOption = ({ name, id }) => ({
+  const currentValue =
+    sample.attrs.location && sample.attrs.location.location_id;
+
+  const getTransectOption = ({ name, location_id: id }) => ({
     value: id,
     label: name,
   });
+  const transectOptions = locationsArray.map(getTransectOption);
 
   function showChangeTransectConfirmationDialog(callback) {
     const changeTransect = true;
@@ -67,56 +71,54 @@ function getTransectItemsList(
     });
   }
 
-  const transectOptions = transects.map(getTransectOption);
+  const onLocationSelect = async selectedId => {
+    if (sample.attrs.location) {
+      const change = await showAlert();
+      if (!change) {
+        return;
+      }
+
+      while (sample.samples.length) {
+        const subSample = sample.samples.pop();
+        await subSample.destroy(); //eslint-disable-line
+      }
+    }
+
+    const selectedLocation = locations.find(
+      ({ location_id: id }) => id === selectedId
+    );
+
+    onSelect(selectedLocation);
+  };
 
   return (
     <RadioInput
       values={transectOptions}
-      onChange={async selectedId => {
-        if (sample.attrs.location) {
-          const change = await showAlert();
-          if (!change) {
-            return;
-          }
-
-          while (sample.samples.length) {
-            const subSample = sample.samples.pop();
-            await subSample.destroy(); //eslint-disable-line
-          }
-        }
-
-        const selectedTransect = transects.find(({ id }) => id === selectedId);
-        onTransectSelect(selectedTransect);
-      }}
+      onChange={onLocationSelect}
       currentValue={currentValue}
       skipTranslation
     />
   );
 }
 
-function Transects({
-  sample,
-  transects,
-  onTransectSelect,
-  cancelSelectedTransect,
-}) {
+function Locations({ sample, locations, onSelect, cancelSelectedTransect }) {
   return (
     <Main>
-      {getTransectItemsList(
+      {getLocationsItemsList(
         sample,
-        transects,
-        onTransectSelect,
+        locations,
+        onSelect,
         cancelSelectedTransect
       )}
     </Main>
   );
 }
 
-Transects.propTypes = {
-  transects: PropTypes.array.isRequired,
+Locations.propTypes = {
+  locations: PropTypes.any.isRequired,
   sample: PropTypes.object.isRequired,
-  onTransectSelect: PropTypes.func.isRequired,
+  onSelect: PropTypes.func.isRequired,
   cancelSelectedTransect: PropTypes.func.isRequired,
 };
 
-export default observer(Transects);
+export default observer(Locations);

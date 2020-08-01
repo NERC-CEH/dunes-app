@@ -1,7 +1,11 @@
 # 
+# Translators:
+# Elen Robert <post@idiom.cymru>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
+"Last-Translator: Elen Robert <post@idiom.cymru>, 2020\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/109789/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,115 +15,115 @@ msgstr ""
 
 # Page title
 msgid "About"
-msgstr ""
+msgstr "Am yr Ap"
 
 # Page title
 msgid "Credits"
-msgstr ""
+msgstr "Cydnabyddiaeth"
 
 # Page title
 msgid "Home"
-msgstr ""
+msgstr "Hafan"
 
 # Page title
 msgid "Species"
-msgstr ""
+msgstr "Rhywogaethau"
 
 # Habitat page title
 msgid "Habitats"
-msgstr ""
+msgstr "Cynefinoedd"
 
 # Page title
 msgid "Surveys"
-msgstr ""
+msgstr "Arolygon"
 
 # Button
 msgid "Back"
-msgstr ""
+msgstr "Nôl"
 
 # Habitat type name
 msgid "Beach"
-msgstr ""
+msgstr "Y Traeth"
 
 # Habitat type name
 msgid "Strandline"
-msgstr ""
+msgstr "Ymyl y Lan"
 
 # Habitat type name
 msgid "Embryo Dune"
-msgstr ""
+msgstr "Egin-dwyn"
 
 # Habitat type name
 msgid "Mobile Dune"
-msgstr ""
+msgstr "Twyn Symudol"
 
 # Habitat type name
 msgid "Semi-fixed Dune"
-msgstr ""
+msgstr "Twyn Lled-sefydlog"
 
 # Habitat type name
 msgid "Fixed Dune"
-msgstr ""
+msgstr "Twyn Sefydlog"
 
 # Habitat type name
 msgid "Dune Slack"
-msgstr ""
+msgstr "Llac Twyni"
 
 # Habitat type name
 msgid "Heath"
-msgstr ""
+msgstr "Rhostir"
 
 # Habitat type name
 msgid "Scrub and Woodland"
-msgstr ""
+msgstr "Prysgoed a Choetir"
 
 # Part of habitats profile page
 msgid "Feature"
-msgstr ""
+msgstr "Nodwedd"
 
 # Header title
 msgid "Habitat"
-msgstr ""
+msgstr "Cynefin"
 
 # Surveys home list header tab label
 msgid "Pending"
-msgstr ""
+msgstr "I'w cyflwyno"
 
 # Surveys home list header tab label
 msgid "Uploaded"
-msgstr ""
+msgstr "Wedi'u cyflwyno"
 
 # Empty list message
 msgid "No finished pending surveys"
-msgstr ""
+msgstr "Dim un arolwg i'w gyflwyno wedi'i gwblhau"
 
 # Empty list message
 msgid "No uploaded surveys"
-msgstr ""
+msgstr "Dim un arolwg wedi'i gyflwyno"
 
 # Survey upload header button
 msgid "Upload"
-msgstr ""
+msgstr "Cyflwyno"
 
 # Survey attribute label
 msgid "Date"
-msgstr ""
+msgstr "Dyddiad"
 
 # Survey delete button label
 msgid "Delete"
-msgstr ""
+msgstr "Dileu"
 
 # A record type label
 msgid "Survey"
-msgstr ""
+msgstr "Arolwg"
 
 # Survey status label
 msgid "Draft"
-msgstr ""
+msgstr "Drafft"
 
 # Survey type
 msgid "Fixed-point Photography"
-msgstr ""
+msgstr "Ffotograffiaeth pwynt sefydlog"
 
 # Survey type
 msgid "Zonation Mapping"
@@ -139,35 +143,35 @@ msgstr ""
 
 # Dialog button label
 msgid "Cancel"
-msgstr ""
+msgstr "Canslo"
 
 # Dialog button label
 msgid "OK"
-msgstr ""
+msgstr "Iawn"
 
 # Survey delete dialog text
 msgid "Are you sure you want to delete this survey?"
-msgstr ""
+msgstr "Ydych chi'n siŵr eich bod am ddileu'r arolwg hwn?"
 
 # New survey dialog
 msgid "Previous survey draft exists, would you like to continue it?"
-msgstr ""
+msgstr "Mae drafft blaenorol o'r arolwg yn bodoli. Hoffech chi barhau ag ef?"
 
 # New survey dialog
 msgid "Discard"
-msgstr ""
+msgstr "Diddymu"
 
 # New survey dialog
 msgid "Continue"
-msgstr ""
+msgstr "Parhau"
 
 # Survey attribute label
 msgid "Surveyors"
-msgstr ""
+msgstr "Arolygwyr"
 
 # Survey attribute label
 msgid "Notes"
-msgstr ""
+msgstr "Nodiadau"
 
 # Survey location type
 msgid "Transects"
@@ -179,23 +183,23 @@ msgstr ""
 
 # Survey comment attribute info
 msgid "Please add any extra information about your survey."
-msgstr ""
+msgstr "Rhowch unrhyw wybodaeth ychwanegol am eich arolwg."
 
 # Survey comment box placeholder
 msgid "Enter more information here..."
-msgstr ""
+msgstr "Rhowch fwy o wybodaeth yma..."
 
 # Surveyor name
 msgid "Name"
-msgstr ""
+msgstr "Enw"
 
 # Part of survey form page
 msgid "If anyone has helped with the surveying please enter their names here."
-msgstr ""
+msgstr "Os oes unrhyw un wedi helpu gyda'r arolwg, rhowch eu henwau yma."
 
 # Refresh transects button label
 msgid "Refresh"
-msgstr ""
+msgstr "Adnewyddu"
 
 # Info message text
 msgid "Please select your transect first."
@@ -985,6 +989,10 @@ msgid ""
 "Natural England, Plantlife, Natural Resources Wales, National Trust and the "
 "Wildlife Trusts."
 msgstr ""
+"Mae Twyni ar Symud yn brosiect partneriaeth wedi'i gefnogi gan Gronfa "
+"Treftadaeth y Loteri Genedlaethol a rhaglen LIFE yr UE. Partneriaid y "
+"prosiect yw Natural England, Plantlife, Cyfoeth Naturiol Cymru, yr "
+"Ymddiriedolaeth Genedlaethol a'r Ymddiriedolaethau Natur."
 
 # Part of zonation mapping activity
 msgid "Transition"
@@ -1127,12 +1135,16 @@ msgstr ""
 msgid "Other (please add a comment)"
 msgstr ""
 
-# Survey name
-msgid "Record Disturbance"
+# Part of disturbance page
+msgid "Bare sand/poached area"
 msgstr ""
 
-# Loading dialog when pulling location data
-msgid "Getting transects."
+# Part of disturbance page
+msgid "Other"
+msgstr ""
+
+# Survey name
+msgid "Record Disturbance"
 msgstr ""
 
 # Loading dialog when pulling location data
@@ -1147,4 +1159,16 @@ msgstr ""
 msgid ""
 "Warning - This will discard some of the survey informaton you have entered "
 "so far."
+msgstr ""
+
+# Missing location group name
+msgid "No group name"
+msgstr ""
+
+# Loading dialog when pulling location data
+msgid "Getting locations."
+msgstr ""
+
+# Loading dialog when pulling location data
+msgid "List was successfully updated."
 msgstr ""

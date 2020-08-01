@@ -34,6 +34,8 @@ const config = {
     url: backendUrl,
     clientId: process.env.APP_BACKEND_CLIENT_ID,
 
+    mediaUrl: 'https://warehouse1.indicia.org.uk/upload/',
+
     indicia: {
       websiteId: 1, // -1
     },

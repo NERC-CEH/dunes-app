@@ -1,12 +1,6 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-import {
-  locationToGrid,
-  prettyPrintGridRef,
-  Main,
-  MenuAttrItem,
-  MenuNoteItem,
-} from '@apps';
+import { prettyPrintGridRef, Main, MenuAttrItem, MenuNoteItem } from '@apps';
 import { IonList, IonItemDivider } from '@ionic/react';
 import { locateOutline, gridOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
@@ -67,18 +61,9 @@ class Component extends React.Component {
   render() {
     const { subSample, baseURL, isDisabled } = this.props;
 
-    const [
-      latitude,
-      longitude,
-    ] = subSample.attrs.location.centroid_sref.replace(/[N,W]/g, '').split(' ');
+    const { gridref } = subSample.attrs.location;
+    const prettyGridRef = gridref ? prettyPrintGridRef(gridref) : '';
 
-    const gridRef = locationToGrid({
-      accurracy: 1,
-      latitude: parseFloat(latitude),
-      longitude: parseFloat(longitude),
-    });
-
-    const prettyGridRef = prettyPrintGridRef(gridRef);
     const { habitat } = subSample.attrs.location;
 
     let heightAverage = 0;

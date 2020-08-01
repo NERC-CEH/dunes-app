@@ -3,7 +3,7 @@ import { gridOutline } from 'ionicons/icons';
 import userModel from 'userModel';
 import quadratTransectIcon from 'common/images/quadratTransect.svg';
 import {
-  locationAttr,
+  locationAttrs,
   dateAttr,
   commentAttr,
   surveyorsAttr,
@@ -13,13 +13,14 @@ import {
 const survey = {
   name: 'plant-quadrat',
   label: 'Plant Quadrat Recording',
+  locationType: 'Quadrat',
   icon: quadratTransectIcon,
 
   id: 592,
   render: [],
 
   attrs: {
-    location: locationAttr,
+    ...locationAttrs,
     date: dateAttr,
     comment: commentAttr,
     surveyors: surveyorsAttr,
@@ -27,7 +28,7 @@ const survey = {
 
   smp: {
     attrs: {
-      location: locationAttr,
+      ...locationAttrs,
       date: dateAttr,
 
       sand: {

@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import heightIcon from 'common/images/height.svg';
 import dipwellIcon from 'common/images/water-table-depth.svg';
 import {
-  locationAttr,
+  locationAttrs,
   dateAttr,
   commentAttr,
   surveyorsAttr,
@@ -13,13 +13,14 @@ import {
 const survey = {
   name: 'dipwell',
   label: 'Water Table Depth',
+  locationType: 'Dipwell',
   icon: dipwellIcon,
 
   id: 591,
   render: [],
 
   attrs: {
-    location: locationAttr,
+    ...locationAttrs,
     date: dateAttr,
     comment: commentAttr,
     surveyors: surveyorsAttr,
@@ -27,7 +28,7 @@ const survey = {
 
   smp: {
     attrs: {
-      location: locationAttr,
+      ...locationAttrs,
       date: dateAttr,
 
       comment: {

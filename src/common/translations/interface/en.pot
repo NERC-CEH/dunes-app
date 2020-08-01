@@ -1088,10 +1088,6 @@ msgid "Record Disturbance"
 msgstr "Record Disturbance"
 
 # Loading dialog when pulling location data 
-msgid "Getting transects."
-msgstr "Getting transects."
-
-# Loading dialog when pulling location data 
 msgid "Downloading images."
 msgstr "Downloading images."
 
@@ -1102,3 +1098,15 @@ msgstr "Changing location"
 # Changing location popup warning
 msgid "Warning - This will discard some of the survey informaton you have entered so far."
 msgstr "Warning - This will discard some of the survey informaton you have entered so far."
+
+# Missing location group name
+msgid "No group name"
+msgstr "No group name"
+
+# Loading dialog when pulling location data 
+msgid "Getting locations."
+msgstr "Getting locations."
+
+# Loading dialog when pulling location data 
+msgid "List was successfully updated."
+msgstr "List was successfully updated."

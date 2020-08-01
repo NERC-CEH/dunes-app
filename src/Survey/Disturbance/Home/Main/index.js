@@ -44,7 +44,7 @@ class Component extends React.Component {
           <MenuAttrItem
             routerLink={`${match.url}/sites`}
             disabled={isDisabled}
-            value={favouriteSite}
+            value={favouriteSite.name}
             label="Site"
             icon={locationOutline}
             wrapText

@@ -5,7 +5,7 @@ import distanceIcon from 'common/images/double-arrow.svg';
 import habitatIcon from 'common/images/habitats.svg';
 import habitats from 'common/data/habitats.json';
 import {
-  locationAttr,
+  locationAttrs,
   dateAttr,
   commentAttr,
   surveyorsAttr,
@@ -20,13 +20,14 @@ const habitatValues = habitats.map(habitat => ({
 const survey = {
   name: 'zonation-mapping',
   label: 'Zonation Mapping',
+  locationType: 'Transect',
   icon: zonationIcon,
 
   id: 595,
   render: [],
 
   attrs: {
-    location: locationAttr,
+    ...locationAttrs,
     date: dateAttr,
     comment: commentAttr,
     surveyors: surveyorsAttr,
@@ -36,12 +37,21 @@ const survey = {
     attrs: {
       location: {
         id: 'entered_sref',
-        values(location) {
+        values(location, submission) {
+          // convert accuracy for map and gridref sources
+          const { accuracy, gridref } = location;
+          const keys = survey.smp.attrs;
+
+          submission.fields[keys.location_gridref.id] = gridref; // eslint-disable-line
+          submission.fields[keys.location_accuracy.id] = accuracy; // eslint-disable-line
+
           return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
             location.longitude
           ).toFixed(7)}`;
         },
       },
+      location_accuracy: { id: 282 },
+      location_gridref: { id: 335 },
 
       date: dateAttr,
 

@@ -19,19 +19,12 @@ const DEFAULT_POSITION = [51.505, -0.09];
 const DEFAULT_ZOOM = 5;
 const DEFAULT_LOCATED_ZOOM = 16;
 
-const parseCentroidSref = sref =>
-  sref
-    .replace(/[NE]/g, '')
-    .split(' ')
-    .map(parseFloat);
-
 @observer
 class MainMap extends Component {
   static contextType = IonLifeCycleContext;
 
   static propTypes = {
     location: PropTypes.object.isRequired,
-    isGPSTracking: PropTypes.bool,
   };
 
   state = {
@@ -43,15 +36,15 @@ class MainMap extends Component {
     this.map = React.createRef();
   }
 
-  addLocationToMap(location) {
+  addLocationToMap(locationGroup) {
     const map = this.map.current.leafletElement;
 
-    location.sections.forEach(section => {
-      const postition = parseCentroidSref(section.centroid_sref);
-      L.marker(postition).addTo(map);
+    locationGroup.locations.forEach(location => {
+      const position = [location.latitude, location.longitude];
+      L.marker(position).addTo(map);
     });
 
-    const position = parseCentroidSref(location.centroid_sref);
+    const position = [locationGroup.latitude, locationGroup.longitude];
     map.setView(position, DEFAULT_LOCATED_ZOOM);
   }
 
@@ -138,10 +131,8 @@ class MainMap extends Component {
   }
 
   render() {
-    const { isGPSTracking } = this.props;
-
     return (
-      <Main className={`${isGPSTracking ? 'GPStracking' : ''}`}>
+      <Main>
         <Map ref={this.map} zoom={DEFAULT_ZOOM} center={DEFAULT_POSITION}>
           <TileLayer
             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

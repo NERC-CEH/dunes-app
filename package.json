@@ -93,6 +93,7 @@
     "react-photoswipe": "^1.3.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
+    "wicket": "^1.3.6",
     "yup": "^0.28.5"
   },
   "devDependencies": {

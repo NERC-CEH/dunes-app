@@ -16,7 +16,6 @@ class index extends React.Component {
 
   static propTypes = {
     sample: PropTypes.object.isRequired,
-    userModel: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
     match: PropTypes.object,
     t: PropTypes.func.isRequired,
@@ -26,21 +25,21 @@ class index extends React.Component {
 
   addSectionSubSamples = () => {
     const { sample } = this.props;
-    const transect = sample.attrs.location;
+    const { location } = sample.attrs;
     const survey = sample.getSurvey();
 
     sample.samples.length = 0;
 
-    transect.sections.forEach(section => {
-      const sectionSample = survey.smp.create(Sample, section);
+    location.locations.forEach(loc => {
+      const sectionSample = survey.smp.create(Sample, loc);
       sample.samples.push(sectionSample);
     });
   };
 
-  onTransectSelect = async transect => {
+  onSelect = async locationGroup => {
     const { sample } = this.props;
 
-    const location = toJS(transect);
+    const location = toJS(locationGroup);
     sample.attrs.location = location;
 
     if (!sample.metadata.ignoreTransectSections) {
@@ -51,12 +50,12 @@ class index extends React.Component {
     this.context.goBack();
   };
 
-  refreshUserTransects = async () => {
+  refreshData = async () => {
     if (this.state.refreshing) {
       return;
     }
 
-    const { userModel, t } = this.props;
+    const { appModel, t } = this.props;
 
     if (!device.isOnline()) {
       warn(t("Sorry, looks like you're offline."));
@@ -67,12 +66,12 @@ class index extends React.Component {
 
     await loader.show({
       message: `${t('Please wait...')}<br/><small>${t(
-        'Getting transects.'
+        'Getting locations.'
       )}</small>`,
     });
 
     try {
-      await userModel.updateTransects();
+      await appModel.updateLocations();
 
       await loader.show({
         message: `${t('Please wait...')}<br/><small>${t(
@@ -80,9 +79,9 @@ class index extends React.Component {
         )}</small>`,
       });
 
-      await userModel.updateTransectsImages();
+      await appModel.updateLocationImages();
 
-      success(t('Transect list was successfully updated.'));
+      success(t('List was successfully updated.'));
     } catch (e) {
       error(e.message);
     }
@@ -96,22 +95,23 @@ class index extends React.Component {
   };
 
   componentDidMount = () => {
-    const { userModel } = this.props;
-    if (!userModel.attrs.transects.length && device.isOnline()) {
-      this.refreshUserTransects();
+    const { appModel } = this.props;
+    if (!appModel.attrs.locations.length && device.isOnline()) {
+      this.refreshData();
     }
   };
 
   render() {
-    const { sample, userModel, appModel, match } = this.props;
+    const { sample, appModel, match } = this.props;
     const refreshButton = (
-      <IonButton onClick={this.refreshUserTransects}>
+      <IonButton onClick={this.refreshData}>
         <T>Refresh</T>
       </IonButton>
     );
 
-    const transects = userModel.attrs.transects.filter(
-      ({ site }) => site === appModel.attrs.favouriteSite
+    const { locationType } = sample.getSurvey();
+    const locations = appModel.attrs.locations.filter(
+      ({ type }) => type === locationType
     );
 
     return (
@@ -123,8 +123,8 @@ class index extends React.Component {
         />
         <Main
           sample={sample}
-          transects={transects}
-          onTransectSelect={this.onTransectSelect}
+          locations={locations}
+          onSelect={this.onSelect}
           match={match}
           cancelSelectedTransect={this.cancelSelectedTransect}
         />

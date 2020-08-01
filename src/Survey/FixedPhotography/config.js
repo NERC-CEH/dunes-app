@@ -2,7 +2,7 @@ import * as Yup from 'yup';
 import userModel from 'userModel';
 import cameraIcon from 'common/images/camera-outline.svg';
 import {
-  locationAttr,
+  locationAttrs,
   dateAttr,
   commentAttr,
   surveyorsAttr,
@@ -13,6 +13,7 @@ import Manual from './Manual';
 const survey = {
   name: 'fixed-photography',
   label: 'Fixed-point Photography',
+  locationType: 'Fixed point photo',
   icon: cameraIcon,
   Manual,
 
@@ -20,7 +21,7 @@ const survey = {
   render: [],
 
   attrs: {
-    location: locationAttr,
+    ...locationAttrs,
     date: dateAttr,
     comment: commentAttr,
     surveyors: surveyorsAttr,
@@ -28,7 +29,7 @@ const survey = {
 
   smp: {
     attrs: {
-      location: locationAttr,
+      ...locationAttrs,
       date: dateAttr,
     },
 

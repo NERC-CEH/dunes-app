@@ -1,7 +1,6 @@
 import { observer } from 'mobx-react';
 import React from 'react';
 import {
-  locationToGrid,
   prettyPrintGridRef,
   Main,
   MenuAttrItem,
@@ -29,17 +28,8 @@ class Component extends React.Component {
   render() {
     const { subSample, isDisabled } = this.props;
 
-    const [
-      latitude,
-      longitude,
-    ] = subSample.attrs.location.centroid_sref.replace(/[N,W]/g, '').split(' ');
-    const gridRef = locationToGrid({
-      accurracy: 1,
-      latitude: parseFloat(latitude),
-      longitude: parseFloat(longitude),
-    });
-
-    const prettyGridRef = prettyPrintGridRef(gridRef);
+    const { gridref } = subSample.attrs.location;
+    const prettyGridRef = gridref ? prettyPrintGridRef(gridref) : '';
 
     return (
       <Main>

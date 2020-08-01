@@ -3,22 +3,25 @@ import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { Main, RadioInput } from '@apps';
 
-const sites = [
-  { label: 'Morecambe Bay', value: 'Morecambe Bay' },
-  { label: 'Ravenglass Estuary Dunes', value: 'Ravenglass Estuary Dunes' },
-];
-
 function Sites({ appModel, onSiteSelect }) {
-  const { favouriteSite } = appModel.attrs;
+  const { favouriteSite, sites } = appModel.attrs;
+
+  const options = sites.map(site => {
+    return {
+      label: site.name,
+      value: site.location_id,
+    };
+  });
 
   return (
     <Main>
       <RadioInput
-        values={sites}
+        values={options}
         onChange={selectedId => {
-          onSiteSelect(selectedId);
+          const site = sites.find(({ location_id: id }) => selectedId === id);
+          onSiteSelect(site);
         }}
-        currentValue={favouriteSite}
+        currentValue={favouriteSite.location_id}
         skipTranslation
       />
     </Main>

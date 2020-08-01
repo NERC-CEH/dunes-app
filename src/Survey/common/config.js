@@ -2,23 +2,36 @@ import { date } from '@apps';
 import * as Yup from 'yup';
 import { calendarOutline, peopleOutline, chatboxOutline } from 'ionicons/icons';
 
-export const locationAttr = {
-  id: 'entered_sref',
-  values(location) {
-    // TODO: use parsing at locations report level
-    const parseCentroidSref = sref =>
-      sref
-        .replace(/[NE]/g, '')
-        .split(' ')
-        .map(parseFloat);
-    const [latitude, longitude] = parseCentroidSref(location.centroid_sref);
-    // eslint-disable-next-line
-    location = { ...location, latitude, longitude };
+export const locationAttrs = {
+  location: {
+    id: 'location_id',
+    values(location, submission) {
+      const { latitude, longitude, gridref, locations, type } = location;
 
-    return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
-      location.longitude
-    ).toFixed(7)}`;
+      const sref = `${parseFloat(latitude).toFixed(7)}, ${parseFloat(
+        longitude
+      ).toFixed(7)}`;
+
+      // eslint-disable-next-line
+      submission.fields = {
+        ...submission.fields,
+        ...{
+          entered_sref_system: 4326,
+          entered_sref: sref,
+          [locationAttrs.location_gridref.id]: gridref,
+        },
+      };
+
+      if (type !== 'Transect' && locations) {
+        // top survey level doesn't have real location_id but generated one - it's an aggregate of other locations
+        return null;
+      }
+
+      return location.location_id;
+    },
   },
+
+  location_gridref: { id: 335 },
 };
 
 export const dateAttr = {
@@ -55,10 +68,10 @@ export const surveyorsAttr = {
   skipValueTranslation: true,
 };
 
-const transectLocationSchema = Yup.object().shape({
-  id: Yup.string().required(),
-  centroid_sref: Yup.string().required(),
-  sref_system: Yup.string().required(),
+const fixedLocationSchema = Yup.object().shape({
+  location_id: Yup.string().required(),
+  latitude: Yup.number().required(),
+  longitude: Yup.number().required(),
 });
 
 export const verifyLocationSchema = Yup.mixed().test(
@@ -68,7 +81,7 @@ export const verifyLocationSchema = Yup.mixed().test(
     if (!val) {
       return false;
     }
-    transectLocationSchema.validateSync(val);
+    fixedLocationSchema.validateSync(val);
     return true;
   }
 );
