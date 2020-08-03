@@ -28,7 +28,6 @@ class Component extends React.Component {
         src: `/images/${image.image}.jpg`,
         w: image.image_width || 800,
         h: image.image_height || 800,
-        title: `© ${image.image_copyright}`,
       };
     });
 
@@ -56,13 +55,14 @@ class Component extends React.Component {
       const { image, id } = item; // temporally added id, no unique variable
       /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
       return (
-        <IonSlide key={id}>
-          <img
-            src={`/images/${image}.jpg`}
-            alt="habitat"
-            onClick={() => this.setState({ showGallery: 1 })}
-          />
-        </IonSlide>
+        <IonSlide
+          key={id}
+          class="habitat-profile-photo"
+          style={{
+            background: `url(/images/${image}.jpg)`,
+          }}
+          onClick={() => this.setState({ showGallery: 1 })}
+        />
       );
     });
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */

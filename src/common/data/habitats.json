@@ -7,29 +7,11 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "1_habitat",
+        "image_width": "1200",
+        "image_height": "800"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 2,
@@ -43,24 +25,15 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "2_habitat",
+        "image_width": "1024",
+        "image_height": "750"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "3_habitat",
+        "image_width": "1024",
+        "image_height": "750"
       }
     ]
   },
@@ -77,29 +50,17 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "4_habitat",
+        "image_width": "950",
+        "image_height": "560"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "5_habitat",
+        "image_width": "950",
+        "image_height": "560"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 4,
@@ -114,29 +75,17 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "6_habitat",
+        "image_width": "944",
+        "image_height": "1200"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "7_habitat",
+        "image_width": "944",
+        "image_height": "1200"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 5,
@@ -145,41 +94,36 @@
     "features": [
       "Bare sand cover reduced.",
       "Red fescue and mosses cover patches between marram.",
-      "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil."
+      "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil.",
+      "No real soil layer."
     ],
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "8_habitat",
+        "image_width": "700",
+        "image_height": "661"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "9_habitat",
+        "image_width": "700",
+        "image_height": "661"
       },
       {
         "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "10_habitat",
+        "image_width": "700",
+        "image_height": "734"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 6,
     "title": "Fixed Dune",
     "warehouse_id": 17800,
     "features": [
-      "Cover of bare sand much reduced (less than 10%).",
+      "Bare sand is only where turf is broken (less than 10%).",
       "Soil beginning to form.",
       "Many plants now coexisting; may include red fescue, lady’s bedstraw, harebell.",
       "Surface lichens and mosses may be present.",
@@ -188,65 +132,54 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "11_habitat",
+        "image_width": "800",
+        "image_height": "670"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "12_habitat",
+        "image_width": "800",
+        "image_height": "670"
       },
       {
         "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "13_habitat",
+        "image_width": "800",
+        "image_height": "670"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 7,
     "title": "Dune Slack",
     "warehouse_id": 17801,
     "features": [
-      "Wet depression in sand.",
+      "Flat, low-lying area.",
+      "Usually floods in winter.",
       "Can be very large.",
       "Species may include sedges, water mint, mosses and liverworts, creeping willow."
     ],
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "14_habitat",
+        "image_width": "664",
+        "image_height": "504"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "15_habitat",
+        "image_width": "877",
+        "image_height": "961"
       },
       {
         "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "16_habitat",
+        "image_width": "787",
+        "image_height": "957"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 8,
@@ -259,29 +192,17 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "17_habitat",
+        "image_width": "1080",
+        "image_height": "730"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "18_habitat",
+        "image_width": "1118",
+        "image_height": "759"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   },
   {
     "id": 9,
@@ -294,28 +215,16 @@
     "images": [
       {
         "id": 1,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "19_habitat",
+        "image_width": "1100",
+        "image_height": "769"
       },
       {
         "id": 2,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
-      },
-      {
-        "id": 3,
-        "image": "image",
-        "image_width": "1650 ",
-        "image_height": "1100",
-        "image_copyright": "anikinearthwalker"
+        "image": "20_habitat",
+        "image_width": "1100",
+        "image_height": "863"
       }
-    ],
-    "image_width": "1650 ",
-    "image_height": "1100",
-    "image_copyright": "anikinearthwalker"
+    ]
   }
 ]

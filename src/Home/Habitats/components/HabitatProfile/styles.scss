@@ -8,7 +8,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-  
+
   //Ionicons shadow not working
   .habitat-profile-icon {
     position: absolute;
@@ -40,5 +40,10 @@
   .swiper-pagination-bullet-active {
     opacity: 0.8;
     --bullet-background-active: #fff;
+  }
+
+  .habitat-profile-photo {
+    height: 200px;
+    background-size: cover !important;
   }
 }

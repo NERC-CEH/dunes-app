@@ -491,9 +491,13 @@ msgstr "Red fescue and mosses cover patches between marram."
 msgid "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil."
 msgstr "Species diversity increasing; may include restharrow, sand sedge, birds foot trefoil."
 
+# Semi-fixed dune habitat features
+msgid "No real soil layer."
+msgstr "No real soil layer."
+
 # Fixed dune habitat features
-msgid "Cover of bare sand much reduced (less than 10%)."
-msgstr "Cover of bare sand much reduced (less than 10%)."
+msgid "Bare sand is only where turf is broken (less than 10%)."
+msgstr "Bare sand is only where turf is broken (less than 10%)."
 
 # Fixed dune habitat features
 msgid "Soil beginning to form."
@@ -512,8 +516,12 @@ msgid "Little if any scrub or tree cover."
 msgstr "Little if any scrub or tree cover."
 
 # Dune Slack habitat features 
-msgid "Wet depression in sand."
-msgstr "Wet depression in sand."
+msgid "Flat, low-lying area."
+msgstr "Flat, low-lying area."
+
+# Dune Slack habitat features 
+msgid "Usually floods in winter."
+msgstr "Usually floods in winter."
 
 # Dune Slack habitat features 
 msgid "Can be very large."
