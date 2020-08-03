@@ -15,6 +15,11 @@ class Component extends React.Component {
     // match: PropTypes.object.isRequired,
   };
 
+  getList = () => {
+    // eslint-disable-next-line
+    return this.props.filteredSpecies.map(sp => <li>{sp.taxon}</li>);
+  };
+
   render() {
     // const { subSample, match } = this.props;
 
@@ -31,14 +36,7 @@ class Component extends React.Component {
     //   />
     // ));
 
-    return (
-      <Main>
-        <br />
-        <center>
-          <i>TODO:</i> this is work in progress
-        </center>
-      </Main>
-    );
+    return <Main>{this.getList()}</Main>;
   }
 }
 
