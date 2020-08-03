@@ -4,6 +4,8 @@ import angleIcon from 'common/images/angle.svg';
 import dunesIcon from 'common/images/dunes.svg';
 import distanceIcon from 'common/images/double-arrow.svg';
 import { chevronUpOutline } from 'ionicons/icons';
+import Manual from './Manual';
+
 import {
   locationAttrs,
   dateAttr,
@@ -17,6 +19,7 @@ const survey = {
   label: 'Dunes Profile',
   locationType: 'Transect',
   icon: dunesIcon,
+  Manual,
 
   id: 594,
   render: [],

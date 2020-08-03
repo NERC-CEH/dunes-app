@@ -9,12 +9,14 @@ import {
   surveyorsAttr,
   verifyLocationSchema,
 } from '../common/config';
+import Manual from './Manual';
 
 const survey = {
   name: 'plant-quadrat',
   label: 'Plant Quadrat Recording',
   locationType: 'Quadrat',
   icon: quadratTransectIcon,
+  Manual,
 
   id: 592,
   render: [],

@@ -9,12 +9,14 @@ import {
   surveyorsAttr,
   verifyLocationSchema,
 } from '../common/config';
+import Manual from './Manual';
 
 const survey = {
   name: 'dipwell',
   label: 'Water Table Depth',
   locationType: 'Dipwell',
   icon: dipwellIcon,
+  Manual,
 
   id: 591,
   render: [],

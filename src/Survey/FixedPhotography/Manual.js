@@ -12,8 +12,8 @@ const Manual = () => (
       <P>
         The aim of this survey is to develop a visual record of the sand dune
         system using fixed point photographs. This will allow assessments to be
-        made of how the morphology and vegetation composition of sites are
-        changing over time.
+        made of how the morphology (form, shape and structure) and vegetation
+        composition of sites are changing over time.
       </P>
     </Section>
 
@@ -36,8 +36,6 @@ const Manual = () => (
               beforehand)
             </li>
             <li>Compass</li>
-            <li>Fixed point photography recording form</li>
-            <li>Camera</li>
           </ul>
         </P>
       </Collapse>
@@ -67,18 +65,16 @@ const Manual = () => (
         <P>
           <ul>
             <li>
-              Take a photograph at each photography point. The important thing
-              here is to take your photograph so it matches the position of the
-              original photo (see the list of locations, or the app) so that
-              direct comparisons can be made. To help you do this:
+              Take a photograph at each photography point. It is important to
+              take your photograph so it matches the position of the original
+              photo (see the list of locations, or the app) so that direct
+              comparisons can be made. To help you do this:
               <ul>
                 <li>
                   Each photograph should be taken in the direction indicated (as
                   aligned with the guide photo)
                 </li>
-
                 <li>Take the photograph at eye level</li>
-
                 <li>
                   Refer back to the photographs shown in the transect
                   description form, or on the app. If there are any useful

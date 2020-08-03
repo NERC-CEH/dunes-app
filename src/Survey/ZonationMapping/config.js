@@ -11,6 +11,7 @@ import {
   surveyorsAttr,
   verifyLocationSchema,
 } from '../common/config';
+import Manual from './Manual';
 
 const habitatValues = habitats.map(habitat => ({
   value: habitat.title,
@@ -22,6 +23,7 @@ const survey = {
   label: 'Zonation Mapping',
   locationType: 'Transect',
   icon: zonationIcon,
+  Manual,
 
   id: 595,
   render: [],

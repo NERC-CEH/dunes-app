@@ -3,11 +3,13 @@ import userModel from 'userModel';
 import disturbance from 'common/images/disturbance.svg';
 import disturbanceBlack from './Home/Main/disturbanceIcon.svg';
 import { dateAttr, commentAttr, surveyorsAttr } from '../common/config';
+import Manual from './Manual';
 
 const survey = {
   name: 'disturbance',
   label: 'Record Disturbance',
   icon: disturbance,
+  Manual,
 
   id: 597, // dev 596
   render: [],
