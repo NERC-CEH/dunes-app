@@ -12,7 +12,8 @@
     "start": "webpack-dev-server --config webpack.config.js --content-base build --port 8000",
     "deploy": "vercel --prod -A other/now.json",
     "clean": "rm -rf android ios build resources",
-    "test:eslint": "mocha test/eslint-test.js"
+    "test:eslint": "mocha test/eslint-test.js",
+    "fetch:species": "cd src/common/data/species && node make.js"
   },
   "husky": {
     "hooks": {
