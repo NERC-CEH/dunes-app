@@ -1072,6 +1072,10 @@ msgid "Litter/flytipping"
 msgstr "Litter/flytipping"
 
 # Part of disturbance page
+msgid "Fires/BBQ remnants"
+msgstr "Fires/BBQ remnants"
+
+# Part of disturbance page
 msgid "Other (please add a comment)"
 msgstr "Other (please add a comment)"
 
