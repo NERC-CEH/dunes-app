@@ -49,7 +49,13 @@ class Component extends React.Component {
       );
     };
 
-    const list = subSample.occurrences.filter(matchesIndictorType).map(getItem);
+    const byTaxon = (o1, o2) =>
+      o1.attrs.taxon.taxon.localeCompare(o2.attrs.taxon.taxon);
+
+    const list = subSample.occurrences
+      .filter(matchesIndictorType)
+      .sort(byTaxon)
+      .map(getItem);
 
     if (!list.length) {
       return (
