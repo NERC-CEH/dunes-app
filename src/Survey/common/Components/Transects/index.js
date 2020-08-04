@@ -4,6 +4,7 @@ import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 import { device, Page, Header, loader, toast } from '@apps';
 import Sample from 'sample';
+import Occurrence from 'occurrence';
 import { Trans as T, withTranslation } from 'react-i18next';
 import { IonButton, NavContext } from '@ionic/react';
 import Main from './Main';
@@ -31,7 +32,7 @@ class index extends React.Component {
     sample.samples.length = 0;
 
     location.locations.forEach(loc => {
-      const sectionSample = survey.smp.create(Sample, loc);
+      const sectionSample = survey.smp.create(Sample, loc, Occurrence);
       sample.samples.push(sectionSample);
     });
   };

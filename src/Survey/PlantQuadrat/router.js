@@ -54,6 +54,10 @@ const routes = [
     `${baseURL}/:smpId/edit/location/:subSmpId/species/:indicatorType`,
     IndicatorSpecies,
   ],
+  [
+    `${baseURL}/:smpId/edit/location/:subSmpId/species/:indicatorType/:occId/:attr`,
+    Attr,
+  ],
   [`${baseURL}/:smpId/edit/location/:subSmpId/:attr`, Attr],
   [`${baseURL}/:smpId/edit/:attr`, Attr],
 ];

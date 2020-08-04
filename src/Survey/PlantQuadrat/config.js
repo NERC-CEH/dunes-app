@@ -2,6 +2,7 @@ import * as Yup from 'yup';
 import { gridOutline } from 'ionicons/icons';
 import userModel from 'userModel';
 import quadratTransectIcon from 'common/images/quadratTransect.svg';
+import species from 'common/data/species';
 import {
   locationAttrs,
   dateAttr,
@@ -10,6 +11,46 @@ import {
   verifyLocationSchema,
 } from '../common/config';
 import Manual from './Manual';
+
+function addRelativeSpeciesAsOccurrenes(sample, habitat, Occurrence, sp) {
+  const indicatorMapping = {
+    health: ['positive_health', 'negative_health'],
+    nitrogen: ['nitro_phobe', 'nitro_phile'],
+  };
+
+  const habitatMapping = {
+    Standline: 'strandline_embryo_mobile_dune',
+    'Embryo Dune': 'strandline_embryo_mobile_dune',
+    'Mobile Dune': 'strandline_embryo_mobile_dune',
+    'Fixed Dune': 'fixed_semi_fixed_dune',
+    'Semi-fixed Dune': 'fixed_semi_fixed_dune',
+    'Dune Slack': 'dune_slack',
+    Heath: 'dune_heath',
+  };
+
+  const mappedHabitat = habitatMapping[habitat];
+  const isInHabitat = !!sp[mappedHabitat];
+  const [positiveHealth, negativeHealth] = indicatorMapping.health;
+  const [positiveNitrogen, negativeNitrogen] = indicatorMapping.nitrogen;
+
+  const isHealth = sp[positiveHealth] || sp[negativeHealth];
+  const isNitrogen = sp[positiveNitrogen] || sp[negativeNitrogen];
+  const isIndicator = isHealth || isNitrogen;
+
+  if (isInHabitat && isIndicator) {
+    const occ = new Occurrence({
+      metadata: {
+        nitrogen: !!isNitrogen,
+        health: !!isHealth,
+      },
+      attrs: {
+        taxon: JSON.parse(JSON.stringify(sp)), // clone in case duplicated elsewhere
+      },
+    });
+
+    sample.occurrences.push(occ);
+  }
+}
 
 const survey = {
   name: 'plant-quadrat',
@@ -121,7 +162,42 @@ const survey = {
       },
     },
 
-    create(Sample, location) {
+    occ: {
+      attrs: {
+        taxon: {
+          id: 'taxa_taxon_list_id',
+          values(taxon) {
+            return taxon.id;
+          },
+        },
+        health: {
+          id: 841,
+          label: 'Health',
+          type: 'slider',
+          info: 'Please specify the % of the cover.',
+          displayValueParse: value => `${value} %`,
+          max: 100,
+          min: 0,
+          step: 0.5,
+          icon: gridOutline,
+          skipValueTranslation: true,
+        },
+        nitrogen: {
+          id: 840,
+          label: 'Health',
+          type: 'slider',
+          info: 'Please specify the % of the cover.',
+          displayValueParse: value => `${value} %`,
+          max: 100,
+          min: 0,
+          step: 0.5,
+          icon: gridOutline,
+          skipValueTranslation: true,
+        },
+      },
+    },
+
+    create(Sample, location, Occurrence) {
       const sample = new Sample({
         metadata: {
           survey: survey.name,
@@ -133,6 +209,13 @@ const survey = {
           height: [null, null, null, null, null],
         },
       });
+
+      const { habitat } = location;
+      if (habitat) {
+        species.forEach(sp =>
+          addRelativeSpeciesAsOccurrenes(sample, habitat, Occurrence, sp)
+        );
+      }
 
       return sample;
     },

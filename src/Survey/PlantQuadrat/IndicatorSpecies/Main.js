@@ -1,41 +1,68 @@
 import { observer } from 'mobx-react';
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import { IonList } from '@ionic/react';
-import {
-  Main,
-  // MenuAttrItem
-} from '@apps';
-// import heightIcon from 'common/images/height.svg';
+import PropTypes from 'prop-types';
+import { IonList, IonLabel } from '@ionic/react';
+import { Main, MenuAttrItem } from '@apps';
+import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 
 @observer
 class Component extends React.Component {
   static propTypes = {
-    // subSample: PropTypes.object.isRequired,
-    // match: PropTypes.object.isRequired,
+    subSample: PropTypes.object.isRequired,
+    match: PropTypes.object.isRequired,
   };
 
   getList = () => {
-    // eslint-disable-next-line
-    return this.props.filteredSpecies.map(sp => <li>{sp.taxon}</li>);
+    const { match, subSample } = this.props;
+    const { indicatorType } = match.params;
+    const isDisabled = subSample.isDisabled();
+
+    const matchesIndictorType = occ => occ.metadata[indicatorType];
+
+    const getItem = occ => {
+      const { taxon } = occ.attrs;
+
+      const value = occ.attrs[indicatorType]
+        ? `${occ.attrs[indicatorType]}%`
+        : null;
+
+      const NameLabel = () => (
+        <IonLabel position="stacked" mode="ios" slot="start">
+          <IonLabel>
+            <b>{taxon.common}</b>
+          </IonLabel>
+          <IonLabel>
+            <i style={{ opacity: 0.8 }}>{taxon.taxon}</i>
+          </IonLabel>
+        </IonLabel>
+      );
+
+      return (
+        <MenuAttrItem
+          key={occ.cid}
+          routerLink={`${match.url}/${occ.cid}/${indicatorType}`}
+          value={value}
+          skipValueTranslation
+          CustomLabel={NameLabel}
+          disabled={isDisabled}
+        />
+      );
+    };
+
+    const list = subSample.occurrences.filter(matchesIndictorType).map(getItem);
+
+    if (!list.length) {
+      return (
+        <InfoBackgroundMessage>
+          There are no species available for this habitat.
+        </InfoBackgroundMessage>
+      );
+    }
+
+    return <IonList lines="full">{list}</IonList>;
   };
 
   render() {
-    // const { subSample, match } = this.props;
-
-    // const pointValues = subSample.attrs.height || [1, 3, 4, 2, 2, 3];
-
-    // const pointsMenuAttrItems = [0, 1, 2, 3, 4].map(pointID => (
-    //   <MenuAttrItem
-    //     key={pointID}
-    //     routerLink={`${match.url}/height/${pointID}`}
-    //     value={pointValues[pointID]}
-    //     label={`#${pointID + 1} Point`}
-    //     icon={heightIcon}
-    //     wrapText
-    //   />
-    // ));
-
     return <Main>{this.getList()}</Main>;
   }
 }

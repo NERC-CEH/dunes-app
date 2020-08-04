@@ -75,6 +75,13 @@ class Component extends React.Component {
       heightAverage = totalHeight / subSample.attrs.height.length;
     }
 
+    const nitrogenSpeciesCount = subSample.occurrences.filter(
+      occ => occ.metadata.nitrogen
+    ).length;
+    const healthSpeciesCount = subSample.occurrences.filter(
+      occ => occ.metadata.health
+    ).length;
+
     return (
       <Main>
         <LocationPhoto location={subSample.attrs.location} />
@@ -119,6 +126,7 @@ class Component extends React.Component {
             routerLink={`${baseURL}/species/health`}
             label="Health"
             icon={flowerIcon}
+            value={`${healthSpeciesCount}`}
             wrapText
           />
 
@@ -126,6 +134,7 @@ class Component extends React.Component {
             routerLink={`${baseURL}/species/nitrogen`}
             label="Nitrogen"
             icon={flowerIcon}
+            value={`${nitrogenSpeciesCount}`}
             wrapText
           />
 

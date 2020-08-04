@@ -127,11 +127,11 @@ msgstr "Ffotograffiaeth pwynt sefydlog"
 
 # Survey type
 msgid "Zonation Mapping"
-msgstr ""
+msgstr "Yn cynnull y lleoliadau."
 
 # Survey type
 msgid "Plant Quadrat Recording"
-msgstr ""
+msgstr "Cofnodi Cwadradau Planhigion"
 
 # Survey type
 msgid "Water Table Depth"
@@ -139,7 +139,7 @@ msgstr ""
 
 # Survey type
 msgid "Dunes Profile"
-msgstr ""
+msgstr "Proffil Twyni"
 
 # Dialog button label
 msgid "Cancel"
@@ -175,11 +175,11 @@ msgstr "Nodiadau"
 
 # Survey location type
 msgid "Transects"
-msgstr ""
+msgstr "Trawsluniau"
 
 # Survey location type
 msgid "Transect"
-msgstr ""
+msgstr "Trawslun"
 
 # Survey comment attribute info
 msgid "Please add any extra information about your survey."
@@ -203,123 +203,124 @@ msgstr "Adnewyddu"
 
 # Info message text
 msgid "Please select your transect first."
-msgstr ""
+msgstr "Dewiswch eich trawslun yn gyntaf."
 
 # Report loader text
 msgid "Please wait..."
-msgstr ""
+msgstr "Un foment..."
 
 # Report finish success message
 msgid "Transect list was successfully updated."
-msgstr ""
+msgstr "Rhestr o drawsluniau wedi'i diweddaru."
 
 # Report message
 msgid "Sorry, looks like you're offline."
-msgstr ""
+msgstr "Sori, dydych chi ddim i weld ar-lein."
 
 # Error message text
 msgid "Oops! Something, went wrong."
-msgstr ""
+msgstr "Wps! Mae rhywbeth wedi mynd o'i le."
 
 # Error message text
 msgid "This is the error event id: {{eventId}}"
-msgstr ""
+msgstr "Dyma rif adnabod yr achos o wall: {{eventId}}"
 
 # Page title
 msgid "Settings"
-msgstr ""
+msgstr "Gosodiadau"
 
 # Settings page toggle button
 msgid "Share App Analytics"
-msgstr ""
+msgstr "Rhannu Data Dadansoddi'r Ap"
 
 # Settings page note message
 msgid "Share app crash data so we can make the app more reliable."
 msgstr ""
+"Rhannwch ddata'r ap am chwalfeydd i'n helpu i wneud yr ap yn fwy dibynadwy."
 
 # Button title
 msgid "Reset"
-msgstr ""
+msgstr "Ailosod"
 
 # Reset button message
 msgid "Are you sure you want to reset the application to its initial state?"
-msgstr ""
+msgstr "Ydych chi'n siŵr eich bod am ailosod yr ap i'w gyflwr gwreiddiol?"
 
 # Reset button message
 msgid "This will wipe all the locally stored app data!"
-msgstr ""
+msgstr "Bydd hyn yn dileu holl ddata'r ap sydd wedi'i storio'n lleol."
 
 # Splash screen button
 msgid "Skip"
-msgstr ""
+msgstr "Neidio"
 
 # Pop up message after app reset
 msgid "Sorry"
-msgstr ""
+msgstr "Sori"
 
 # Pop up message after app reset
 msgid "Done"
-msgstr ""
+msgstr "Wedi gorffen"
 
 # Settings page label
 msgid "Language"
-msgstr ""
+msgstr "Iaith"
 
 # Location points header label
 msgid "Fixed points"
-msgstr ""
+msgstr "Pwyntiau sefydlog"
 
 # Location point label
 msgid "Point"
-msgstr ""
+msgstr "Pwynt"
 
 # Next survey point label
 msgid "Next"
-msgstr ""
+msgstr "Nesaf"
 
 # Survey attr label
 msgid "Disturbance"
-msgstr ""
+msgstr "Tarfiad"
 
 # When deleting a photo
 msgid "Are you sure you want to remove this photo?"
-msgstr ""
+msgstr "Ydych chi'n siŵr eich bod am ddileu'r llun hwn?"
 
 # When deleting a photo
 msgid "Note: it will remain in the gallery."
-msgstr ""
+msgstr "Nodwch: bydd yn aros yn yr oriel."
 
 # Disturbance comment message
 msgid "Please add any extra information about the disturbance."
-msgstr ""
+msgstr "Rhowch unrhyw wybodaeth ychwanegol am y tarfiad."
 
 # Photo picker message
 msgid "No photo has been added"
-msgstr ""
+msgstr "Nid oes llun wedi'i ychwanegu"
 
 # Finish survey label
 msgid "Finish"
-msgstr ""
+msgstr "Gorffen"
 
 # From photo picker
 msgid "Choose a method to upload a photo"
-msgstr ""
+msgstr "Dewiswch ffordd o lwytho llun i fyny."
 
 # From photo picker
 msgid "Gallery"
-msgstr ""
+msgstr "Oriel"
 
 # From photo picker
 msgid "Camera"
-msgstr ""
+msgstr "Camera"
 
 # Photo picker helper
 msgid "Grid Ref"
-msgstr ""
+msgstr "Cyfeirnod Grid"
 
 # Photo picker helper
 msgid "Please add a photo below."
-msgstr ""
+msgstr "Ychwanegwch lun isod."
 
 # Photo picker helper
 msgid "Adding photographs"
@@ -327,103 +328,107 @@ msgstr ""
 
 # Alert dialog button label
 msgid "Got it"
-msgstr ""
+msgstr "Deall"
 
 # Photo picker helper
 msgid "No photo has been added."
-msgstr ""
+msgstr "Nid oes llun wedi'i ychwanegu."
 
 # Photo picker helper
 msgid "Press <1></1> to add."
-msgstr ""
+msgstr "Pwyswch <1></1> i ychwanegu."
 
 # Photo picker helper
 msgid ""
 "Each photograph should be taken in the direction of the bearing of the "
 "transect i.e. pointing inland towards your next photography point."
 msgstr ""
+"Dylid tynnu pob llun gan ddilyn cyfeiriad y trawslun, h.y. yn pwyntio tua'r "
+"tir at bwynt eich ffotograff nesaf."
 
 # Photo picker helper
 msgid "Take the photograph at eye level."
-msgstr ""
+msgstr "Tynnwch y llun ar lefel y llygad."
 
 # Part of sign in and registration flow
 msgid "Enter your email address to request a password reset."
-msgstr ""
+msgstr "Rhowch eich cyfeiriad e-bost i ofyn am gael ailosod eich cyfrinair."
 
 # Part of sign in and registration flow
 msgid "Email"
-msgstr ""
+msgstr "E-bost"
 
 # Part of sign in and registration flow
 msgid "Create a free account"
-msgstr ""
+msgstr "Creu cyfrif am ddim"
 
 # Part of sign in and registration flow
 msgid "Full Name"
-msgstr ""
+msgstr "Enw llawn"
 
 # Part of sign in and registration flow
 msgid "Password"
-msgstr ""
+msgstr "Cyfrinair"
 
 # Part of sign in and registration flow
 msgid ""
 "By clicking Sign Up, you agree to our <2>Privacy Policy</2> and <6>Terms and"
 " Conditions</6>"
 msgstr ""
+"Drwy glicio Cofrestru, rydych chi'n cytuno i'n <2>Polisi Preifatrwydd</2> "
+"a'n <6>Telerau ac Amodau</6>"
 
 # Part of sign in and registration flow
 msgid "Sign Up"
-msgstr ""
+msgstr "Cofrestru"
 
 # Part of sign in and registration flow
 msgid "Sign In"
-msgstr ""
+msgstr "Mewngofnodi"
 
 # Part of sign in and registration flow
 msgid "Welcome back"
-msgstr ""
+msgstr "Croeso nôl"
 
 # Part of sign in and registration flow
 msgid "Sign in to your account to start"
-msgstr ""
+msgstr "Mewngofnodwch i'ch cyfrif er mwyn cychwyn"
 
 # Part of sign in and registration flow
 msgid "Username or email"
-msgstr ""
+msgstr "Enw defnyddiwr neu e-bost"
 
 # Part of sign in and registration flow
 msgid "Forgot password?"
-msgstr ""
+msgstr "Wedi anghofio'ch cyfrinair?"
 
 # User login/registration validation output
 msgid "password is a required field"
-msgstr ""
+msgstr "Mae'n rhaid rhoi cyfrinair"
 
 # User login/registration validation output
 msgid "email is a required field"
-msgstr ""
+msgstr "Mae'n rhaid rhoi e-bost"
 
 # User login/registration validation output
 msgid "email is not valid"
-msgstr ""
+msgstr "Nid yw'r e-bost yn ddilys"
 
 # User login/registration validation output
 msgid "fullName is a required field"
-msgstr ""
+msgstr "Mae'n rhaid rhoi enw llawn"
 
 # User login/registration validation output
 msgid "name is a required field"
-msgstr ""
+msgstr "Mae'n rhaid rhoi enw"
 
 # Home page button label
 msgid "Project Website"
-msgstr ""
+msgstr "Gwefan y Prosiect"
 
 # Splash screen title
 msgid "Dunes are Exciting!"
-msgstr ""
+msgstr "Mae Twyni'n Gyfareddol!"
 
 # Splash screen message
 msgid ""
@@ -431,210 +436,239 @@ msgid ""
 "home to amazing native wildlife including diverse plant communities that "
 "support specialist sand dune animals."
 msgstr ""
+"Yn frithwaith prydferth o wahanol fathau o gynefin, mae twyni tywod "
+"arfordirol yn gartref i fywyd gwyllt brodorol arbennig, yn cynnwys cymunedau"
+" llawn amrywiaeth o blanhigion sy'n cefnogi anifeiliaid arbenigol y twyni."
 
 # Splash screen title
 msgid "Dunes are Threatened."
-msgstr ""
+msgstr "Mae Twyni o dan Fygythiad."
 
 # Splash screen message
 msgid ""
 "These habitats are suffering from biodiversity loss and habitat change, but "
 "you can help us bring life back into the dunes."
 msgstr ""
+"Mae'r cynefinoedd hyn yn dioddef o golled bioamrywiaeth a newid i "
+"gynefinoedd, ond gallwch chi'n helpu i adfywio'r twyni."
 
 # Language
 msgid "English"
-msgstr ""
+msgstr "Saesneg"
 
 # Language
 msgid "Welsh"
-msgstr ""
+msgstr "Cymraeg"
 
 # Beach habitat features
 msgid "Bare sand and no vegetation."
-msgstr ""
+msgstr "Tywod noeth a dim llystyfiant."
 
 # Strandline habitat features
 msgid "Lots of bare sand."
-msgstr ""
+msgstr "Llawer o dywod noeth."
 
 # Strandline habitat features
 msgid "Annual plants present; may include sea rocket and prickly seawort."
 msgstr ""
+"Planhigion unflwydd yn bresennol; efallai'n cynnwys hegydd arfor a helys "
+"pigog."
 
 # Strandline habitat features
 msgid "Miniature sand dunes are formed around these plants."
-msgstr ""
+msgstr "Mae twyni tywod bychain yn ffurfio o amgylch y planhigion hyn."
 
 # Embryo dune habitat features
 msgid "Above the usual high tide line."
-msgstr ""
+msgstr "Uwchlaw'r llinell penllanw arferol."
 
 # Embryo dune habitat features
 msgid "First perennial plants present; may include sand couch and lyme grass."
 msgstr ""
+"Planhigion lluosflwydd cyntaf; efallai'n cynnwys marchwellt y twyni a "
+"chlymwellt."
 
 # Embryo dune habitat features
 msgid "Low, hummocky dunes form around these plants."
-msgstr ""
+msgstr "Mae twmpathau o dwyni isel yn ffurfio o amgylch y planhigion hyn."
 
 # Mobile dune habitat features
 msgid "Lots of bare sand (10-50%)."
-msgstr ""
+msgstr "Llawer o dywod noeth (10-50%)."
 
 # Mobile dune habitat features
 msgid "Marram grass dominates."
-msgstr ""
+msgstr "Moresg gan fwyaf."
 
 # Mobile dune habitat features
 msgid "Sand builds up around marram to form high, mobile dunes."
-msgstr ""
+msgstr "Mae tywod yn cronni o amgylch y moresg i ffurfio twyni symudol uchel."
 
 # Mobile dune habitat features
 msgid ""
 "A small number of other plants may be present; may include sea holly and sea"
 " spurge."
 msgstr ""
+"Efallai bod nifer fechan o blanhigion eraill yn bresennol; efallai'n cynnwys"
+" celyn y môr a llaethlys y môr."
 
 # Semi-fixed dune habitat features
 msgid "Bare sand cover reduced."
-msgstr ""
+msgstr "Gostyngiad yn y tywod noeth ar yr wyneb."
 
 # Semi-fixed dune habitat features
 msgid "Red fescue and mosses cover patches between marram."
-msgstr ""
+msgstr "Peiswellt coch a mwsogl yn gorchuddio mannau rhwng y moresg."
 
 # Semi-fixed dune habitat features
 msgid ""
 "Species diversity increasing; may include restharrow, sand sedge, birds foot"
 " trefoil."
 msgstr ""
+"Cynnydd yn yr amrywiaeth o rywogaethau; efallai'n cynnwys tagaradr, hesg y "
+"tywod a phys y ceirw."
+
+# Semi-fixed dune habitat features
+msgid "No real soil layer."
+msgstr ""
 
 # Fixed dune habitat features
-msgid "Cover of bare sand much reduced (less than 10%)."
+msgid "Bare sand is only where turf is broken (less than 10%)."
 msgstr ""
 
 # Fixed dune habitat features
 msgid "Soil beginning to form."
-msgstr ""
+msgstr "Pridd yn dechrau ffurfio."
 
 # Fixed dune habitat features
 msgid ""
 "Many plants now coexisting; may include red fescue, lady’s bedstraw, "
 "harebell."
 msgstr ""
+"Llawer o blanhigion yn cydfodoli bellach; efallai'n cynnwys peiswellt coch, "
+"briwydd felen a chlychau'r eos."
 
 # Fixed dune habitat features
 msgid "Surface lichens and mosses may be present."
-msgstr ""
+msgstr "Efallai bod cen a mwsogl ar yr wyneb."
 
 # Fixed dune habitat features
 msgid "Little if any scrub or tree cover."
+msgstr "Ychydig o brysgoed neu goed ar yr wyneb, os o gwbl."
+
+# Dune Slack habitat features
+msgid "Flat, low-lying area."
 msgstr ""
 
 # Dune Slack habitat features
-msgid "Wet depression in sand."
+msgid "Usually floods in winter."
 msgstr ""
 
 # Dune Slack habitat features
 msgid "Can be very large."
-msgstr ""
+msgstr "Gall fod yn fawr iawn."
 
 # Dune Slack habitat features
 msgid ""
 "Species may include sedges, water mint, mosses and liverworts, creeping "
 "willow."
 msgstr ""
+"Efallai bod y rhywogaethau'n cynnwys hesg, mintys y dŵr, mwsogl a llysiau'r "
+"afu, a chorhelyg."
 
 # Heath habitat features
 msgid "Soil is dry, acidic and nutrient-poor."
-msgstr ""
+msgstr "Mae'r pridd yn sych, yn asidig ac yn brin o faetholion."
 
 # Heath habitat features
 msgid ""
 "Plants present are those associated with acid grassland and heaths; may "
 "include heather."
 msgstr ""
+"Y planhigion sy'n bresennol yw'r rhai sy'n gysylltiedig â glaswelltiroedd "
+"asidig a rhostiroedd; efallai'n cynnwys grug."
 
 # Scrub and Woodland habitat features
 msgid "Dominance of tall, woody perennials and understorey species."
-msgstr ""
+msgstr "Planhigion lluosflwydd tal a rhywogaethau'r isdyfiant yn dominyddu."
 
 # Scrub and Woodland habitat features
 msgid "Very little if any bare sand."
-msgstr ""
+msgstr "Ychydig iawn o dywod noeth, os o gwbl."
 
 # Species profile label
 msgid "Description"
-msgstr ""
+msgstr "Disgrifiad"
 
 # Species profile label
 msgid "Distribution"
-msgstr ""
+msgstr "Dosbarthiad"
 
 # Login/Logout section Header
 msgid "Account"
-msgstr ""
+msgstr "Cyfrif"
 
 # Logout title
 msgid "Logout"
-msgstr ""
+msgstr "Allgofnodi"
 
 # Home page section title
 msgid "Citizen Science Manual"
-msgstr ""
+msgstr "Llawlyfr Gwyddoniaeth y Dinesydd"
 
 # Survey page title
 msgid "Activities"
-msgstr ""
+msgstr "Gweithgareddau"
 
 # Tip message
 msgid "Please do not forget to upload any pending surveys!"
-msgstr ""
+msgstr "Peidiwch ag anghofio cyflwyno unrhyw arolygon sy'n aros i'w cyflwyno!"
 
 # Tip button
 msgid "Hide"
-msgstr ""
+msgstr "Cuddio"
 
 # Tip message
 msgid "No finished pending surveys.<br/><br/>Press <4></4> to add."
 msgstr ""
+"Dim un arolwg i'w gyflwyno wedi'i gwblhau.<br/><br/>Pwyswch <4></4> i "
+"ychwanegu."
 
 # Tip message
 msgid "To delete any surveys swipe it to the left."
-msgstr ""
+msgstr "I ddileu arolwg, llusgwch yr arolwg i'r chwith."
 
 # Section label inside a survey
 msgid "Comment"
-msgstr ""
+msgstr "Sylw"
 
 # Section label inside a survey
 msgid "Location"
-msgstr ""
+msgstr "Lleoliad"
 
 # Section label inside a survey
 msgid "Map"
-msgstr ""
+msgstr "Map"
 
 # Section label inside a survey
 msgid "Site"
-msgstr ""
+msgstr "Safle"
 
 # Section note message inside a survey
 msgid "You can find this survey information in our volunteer manual."
-msgstr ""
+msgstr "Gallwch ddod o hyd i'r wybodaeth hon yn ein llawlyfr i wirfoddolwyr."
 
 # Section note message inside a survey
 msgid "Please add a photo for your visit."
-msgstr ""
+msgstr "Ychwanegwch lun ar gyfer eich ymweliad."
 
 # Survey alert message
 msgid "Please select your location."
-msgstr ""
+msgstr "Dewiswch eich lleoliad."
 
 # Survey alert message
 msgid "Survey incomplete"
-msgstr ""
+msgstr "Arolwg heb ei gwblhau."
 
 # Action sheet label
 msgid "Survey Point"
@@ -642,11 +676,11 @@ msgstr ""
 
 # Action sheet label
 msgid "Start"
-msgstr ""
+msgstr "Dechrau"
 
 # Action sheet label
 msgid "End"
-msgstr ""
+msgstr "Diwedd"
 
 # Survey button
 msgid "Add Point"
@@ -658,16 +692,17 @@ msgstr ""
 
 # Credits page section title
 msgid "People"
-msgstr ""
+msgstr "Pobl"
 
 # Credits page section message
 msgid ""
 "We are very grateful for all the people that helped to create this app:"
 msgstr ""
+"Rydym yn ddiolchgar iawn i'r holl bobl sydd wedi helpu i greu'r ap hwn:"
 
 # Credits page section title
 msgid "App Development"
-msgstr ""
+msgstr "Datblygu'r Ap"
 
 # Credits page section message
 msgid ""
@@ -676,40 +711,47 @@ msgid ""
 "community focussed solutions. For suggestions and feedback please do not "
 "hesitate to <6>contact us</6>."
 msgstr ""
+"Crëwyd yr ap hwn gyda chariad gan <2>Flumens</2>, ymgynghorwyr technegol "
+"sy'n arbenigo mewn datblygu datrysiadau pwrpasol ym maes gwyddoniaeth "
+"amgylchedol ac sy'n canolbwyntio ar gymunedau. Os oes awgrymiadau neu "
+"adborth gennych chi, <6>cysylltwch â ni</6>ar bob cyfrif."
 
 # Credits page section title
 msgid "Graphics"
-msgstr ""
+msgstr "Graffeg"
 
 # Credits page section message
 msgid ""
 "Icons made by <2>Freepik</2>, <5>Srip</5>, and <8>Kiranshastry</8> from "
 "<12>www.flaticon.com</12>"
 msgstr ""
+"Eiconau gan <2>Freepik</2>, <5>Srip</5>, a <8>Kiranshastry</8> o "
+"<12>www.flaticon.com</12>"
 
 # Credits page section title
 msgid "Photos"
-msgstr ""
+msgstr "Ffotograffau"
 
 # Credits page subsection title
 msgid "Home page:"
-msgstr ""
+msgstr "Hafan:"
 
 # Credits page subsection title
 msgid "Habitats:"
-msgstr ""
+msgstr "Cynefinoedd:"
 
 # Fixed-point survey information message
 msgid "To see fixed points please select your site and transect first."
 msgstr ""
+"I weld y pwyntiau sefydlog, dewiswch eich safle a'ch trawslun yn gyntaf."
 
 # Fixed-point survey information note
 msgid "read more"
-msgstr ""
+msgstr "darllen mwy"
 
 # Fixed-point survey header title
 msgid "Sites"
-msgstr ""
+msgstr "Safleoedd"
 
 # Dipwell survey information message
 msgid ""
@@ -717,30 +759,33 @@ msgid ""
 "to the water. If the water is above the dipwell (i.e. flooded) please use "
 "negative values."
 msgstr ""
+"Nodwch lefel y dŵr mewn centimetrau o dop y bibell drochi hyd at y dŵr. Os "
+"yw'r dŵr uwchlaw'r bibell drochi (h.y. yn gorlifo), defnyddiwch werthoedd "
+"negyddol."
 
 # Dipwell survey information message
 msgid "Please add any extra information about this dipwell."
-msgstr ""
+msgstr "Rhowch unrhyw wybodaeth ychwanegol am y bibell drochi hon."
 
 # Dipwell survey information label
 msgid "location"
-msgstr ""
+msgstr "lleoliad"
 
 # Dipwell survey information label
 msgid "To see dipwells please select your site and transect first."
-msgstr ""
+msgstr "I weld pibelli trochi, dewiswch eich safle a'ch trawslun yn gyntaf."
 
 # Dipwell survey information label
 msgid "Dipwell"
-msgstr ""
+msgstr "Pibell drochi"
 
 # Dipwell survey information title
 msgid "Dipwells"
-msgstr ""
+msgstr "Pibelli trochi"
 
 # Dipwell survey label
 msgid "Water Depth"
-msgstr ""
+msgstr "Dyfnder y dŵr"
 
 # Dunes profile survey information label
 msgid "Choose point type"
@@ -748,35 +793,35 @@ msgstr ""
 
 # Dunes profile survey information label
 msgid "Type"
-msgstr ""
+msgstr "Math"
 
 # Dunes profile survey information label
 msgid "Angle"
-msgstr ""
+msgstr "Ongl"
 
 # Dunes profile survey information label
 msgid "Distance"
-msgstr ""
+msgstr "Pellter"
 
 # Dunes profile survey information  message
 msgid "Please specify the distance of the slope in meters."
-msgstr ""
+msgstr "Nodwch bellter y llethr mewn metrau."
 
 # Dunes profile survey information  message
 msgid "Please specify the angle of the slope."
-msgstr ""
+msgstr "Nodwch ongl y llethr."
 
 # Dunes profile survey information  message
 msgid "Please specify the type of the slope."
-msgstr ""
+msgstr "Nodwch y math o lethr."
 
 # Dunes profile survey type options
 msgid "Downslope"
-msgstr ""
+msgstr "Llethr i lawr"
 
 # Dunes profile survey type options
 msgid "Upslope"
-msgstr ""
+msgstr "Llethr i fyny"
 
 # Dunes profile survey section label
 msgid "Recorded Points"
@@ -788,11 +833,11 @@ msgstr ""
 
 # Dunes profile point page title
 msgid "start"
-msgstr ""
+msgstr "dechrau"
 
 # Dunes profile point page title
 msgid "end"
-msgstr ""
+msgstr "diwedd"
 
 # Dunes profile point page title
 msgid "point"
@@ -800,19 +845,19 @@ msgstr ""
 
 # Plant quadrats survey section label
 msgid "Vegetation Cover"
-msgstr ""
+msgstr "Llystyfiant ar yr Wyneb"
 
 # Plant quadrats survey section label
 msgid "Bare ground & Sand"
-msgstr ""
+msgstr "Tywod a Thir noeth"
 
 # Plant quadrats survey section label
 msgid "Moss & Lichen"
-msgstr ""
+msgstr "Mwsogl a Chen"
 
 # Plant quadrats survey section label
 msgid "Grasses"
-msgstr ""
+msgstr "Gweiriau"
 
 # Plant quadrats survey section label
 msgid "Herbs"
@@ -820,47 +865,47 @@ msgstr ""
 
 # Plant quadrats survey section label
 msgid "Shrubs"
-msgstr ""
+msgstr "Prysglwyni"
 
 # Plant quadrats survey section label
 msgid "Scrub"
-msgstr ""
+msgstr "Prysgoed"
 
 # Plant quadrats survey section message
 msgid "Please specify the % of the grasses, sedges and rushes cover."
-msgstr ""
+msgstr "Nodwch % y gwair, yr hesg a'r brwyn ar yr wyneb."
 
 # Plant quadrats survey section label
 msgid "Vegetation Height"
-msgstr ""
+msgstr "Uchder y Llystyfiant"
 
 # Plant quadrats survey section message
 msgid "Please specify the vegetation height in cm."
-msgstr ""
+msgstr "Nodwch uchder y llystyfiant mewn cm."
 
 # Plant quadrats survey section label
 msgid "Quadrat group"
-msgstr ""
+msgstr "Grŵp cwadrad"
 
 # Plant quadrats survey section message
 msgid "To see quadrats please select your site and transect first."
-msgstr ""
+msgstr "I weld y cwadradau, dewiswch eich safle a'ch trawslun yn gyntaf."
 
 # Plant quadrats survey section message
 msgid "You don't have any transects. Please try to refresh the list."
-msgstr ""
+msgstr "Does dim trawsluniau gyda chi. Ceisiwch adnewyddu'r rhestr."
 
 # Plant quadrats survey section message
 msgid "Quadrat"
-msgstr ""
+msgstr "Cwadrad"
 
 # Plant quadrats survey section message
 msgid "Quadrats"
-msgstr ""
+msgstr "Cwadradau"
 
 # Plant quadrats survey section message
 msgid "Vegetation"
-msgstr ""
+msgstr "Llystyfiant"
 
 # Plant quadrats survey section message
 msgid "Cover"
@@ -868,31 +913,31 @@ msgstr ""
 
 # Plant quadrats survey section message
 msgid "Height"
-msgstr ""
+msgstr "Uchder"
 
 # Plant quadrats survey section message
 msgid "Indicator Species"
-msgstr ""
+msgstr "Rhywogaethau dynodol"
 
 # Plant quadrats survey section message
 msgid "Health"
-msgstr ""
+msgstr "Iechyd"
 
 # Plant quadrats survey section message
 msgid "Nitrogen"
-msgstr ""
+msgstr "Nitrogen"
 
 # Plant quadrats survey section message
 msgid "Quadrat Photo"
-msgstr ""
+msgstr "Llun o'r Cwadrad"
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the bare ground and sand cover."
-msgstr ""
+msgstr "Nodwch % y tywod a'r tir noeth ar yr wyneb."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the moss and lichen cover."
-msgstr ""
+msgstr "Nodwch % y mwsogl a'r cen ar yr wyneb."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the herbs cover."
@@ -900,67 +945,72 @@ msgstr ""
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the heathland shrubs cover."
-msgstr ""
+msgstr "Nodwch % y prysglwyni rhostir ar yr wyneb."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the scrub and woodland cover."
-msgstr ""
+msgstr "Nodwch % y prysgoed a'r coetir ar yr wyneb."
 
 # User reset error message
 msgid "email must be a valid email"
-msgstr ""
+msgstr "Rhaid i'r e-bost fod yn un dilys"
 
 # User logout alert message
 msgid "Are you sure you want to logout?"
-msgstr ""
+msgstr "Ydych chi'n siŵr eich bod am allgofnodi?"
 
 # Settings page title
 msgid "Navigate"
-msgstr ""
+msgstr "Llywio"
 
 # Surveys info message
 msgid "open survey manual"
-msgstr ""
+msgstr "agor llawlyfr yr arolwg"
 
 # Settings page labels
 msgid "Register/Login"
-msgstr ""
+msgstr "Cofrestru/Mewngofnodi"
 
 # Logout alert message
 msgid "Discard local data"
-msgstr ""
+msgstr "Diddymu'r data lleol"
 
 # Login message
 msgid "I am already a member"
-msgstr ""
+msgstr "Rwy'n aelod eisoes"
 
 # Login failed toast message
 msgid "The user credentials were incorrect."
-msgstr ""
+msgstr "Roedd manylion y defnyddiwr yn anghywir."
 
 # Login success toast message
 msgid "Successfully logged in as"
-msgstr ""
+msgstr "Llwyddwyd i fewngofnodi fel"
 
 # Manual page title
 msgid "Manual"
-msgstr ""
+msgstr "Llawlyfr"
 
 # Reset user account button label
 msgid "OK, got it"
-msgstr ""
+msgstr "Iawn, deall"
 
 # Reset user account message
 msgid ""
 "Click the link in the email to reset your password. If you don't see the "
 "email, check other places like your junk, spam or other folders."
 msgstr ""
+"Cliciwch y ddolen yn yr e-bost i ailosod eich cyfrinair. Os na allwch weld "
+"yr e-bost, gwiriwch mewn mannau eraill, fel eich ffolder sothach neu "
+"ffolderi eraill."
 
 # User register alert message
 msgid ""
 "Before submitting any records please check your email and click on the "
 "verification link."
 msgstr ""
+"Cyn cyflwyno unrhyw gofnodion, edrychwch yn eich e-bost a chlicio'r ddolen "
+"dilysu."
 
 # About page text
 msgid ""
@@ -973,6 +1023,15 @@ msgid ""
 "strengthen the understanding of what’s going on in coastal sand dune "
 "environments, and to help improve the conservation work that is being done."
 msgstr ""
+"Drwy adnabod a chofnodi rhywogaethau o blanhigion, gallwch helpu gwyddonwyr "
+"a chadwraethwyr i warchod ac adfer cynefinoedd twyni tywod sy'n llawn "
+"amrywiaeth yng Nghymru a Lloegr, drwy ddefnyddio'r ap hwn. Mae twyni tywod "
+"arfordirol yn cwmpasu ystod hyfryd o gynefinoedd, ac maent yn gartref i "
+"fywyd gwyllt arbennig - yn cynnwys glöynnod byw, madfallod, llyffantod a "
+"thegeirian. Fel gwyddonydd-ddinesydd, byddwch yn helpu ymchwilwyr i gasglu "
+"data hanfodol am gynefinoedd a rhywogaethau'r twyni tywod er mwyn helpu i "
+"gryfhau'r ddealltwriaeth o beth sy'n digwydd mewn amgylcheddau twyni tywod "
+"arfordirol, ac i helpu i wella'r gwaith cadwraeth sy'n cael ei wneud."
 
 # About page text
 msgid ""
@@ -981,6 +1040,10 @@ msgid ""
 " involved in, and share your findings in the app when you next visit your "
 "chosen sand dune site."
 msgstr ""
+"O fonitro rhywogaethau i gymryd rhan mewn arolygon trawsluniau a chwadradau,"
+" archwiliwch yr ystod o weithgareddau gwyddoniaeth y dinesydd yn yr ap y "
+"gallwch gymryd rhan ynddynt, a rhannu'ch canfyddiadau yn yr ap y tro nesaf y"
+" byddwch yn ymweld â'r twyni tywod a ddewisoch fel safle."
 
 # About page text
 msgid ""
@@ -1004,11 +1067,11 @@ msgstr ""
 
 # Part of zonation mapping activity
 msgid "Previous Habitat"
-msgstr ""
+msgstr "Cynefin Blaenorol"
 
 # Part of zonation mapping activity
 msgid "New Habitat"
-msgstr ""
+msgstr "Cynefin Newydd"
 
 # Part of zonation mapping activity
 msgid "Please specify the distance from previous transition point in meters."
@@ -1016,33 +1079,35 @@ msgstr ""
 
 # Part of zonation mapping activity
 msgid "Please specify the new habitat type."
-msgstr ""
+msgstr "Nodwch y math newydd o gynefin."
 
 # Part of zonation mapping activity
 msgid "Please specify the previous habitat type."
-msgstr ""
+msgstr "Nodwch y math blaenorol o gynefin."
 
 # Error message
 msgid "Unrecognized username or email address."
-msgstr ""
+msgstr "Enw defnyddiwr neu e-bost heb ei adnabod."
 
 # Warning message
 msgid "Please log in first to upload the records."
-msgstr ""
+msgstr "Mewngofnodwch yn gyntaf er mwyn cyflwyno'r cofnodion."
 
 # Warning message
 msgid ""
 "Please check why the total cover is less than 100%. Remember to record bare "
 "ground/sand."
 msgstr ""
+"Gwirich pam fod y cyfanswm ar gyfer yr wyneb yn llai na 100%. Cofiwch "
+"gofnodi tywod/tir noeth."
 
 # Warning message
 msgid "Please add at least one photo."
-msgstr ""
+msgstr "Ychwanegwch un ffotograff o leiaf."
 
 # Warning message
 msgid "Please add water depth value."
-msgstr ""
+msgstr "Rhowch werth ar gyfer dyfnder y dŵr."
 
 # Warning message
 msgid "Please add at points to the survey."
@@ -1050,66 +1115,66 @@ msgstr ""
 
 # Warning message
 msgid "Please add location."
-msgstr ""
+msgstr "Rhowch leoliad."
 
 # Warning message
 msgid "Grid Reference"
-msgstr ""
+msgstr "Cyfeirnod Grid"
 
 # Warning message
 msgid "Please add type."
-msgstr ""
+msgstr "Rhowch y math."
 
 # Warning message
 msgid "Please add angle."
-msgstr ""
+msgstr "Rhowch ongl."
 
 # Warning message
 msgid "Please add distance."
-msgstr ""
+msgstr "Rhowch y pellter."
 
 # Warning message
 msgid "Please add previous habitat."
-msgstr ""
+msgstr "Rhowch y cynefin blaenorol."
 
 # Warning message
 msgid "Please add new habitat."
-msgstr ""
+msgstr "Rhowch y cynefin newydd."
 
 msgid "Please select the disturbance type for this record."
-msgstr ""
+msgstr "Dewiswch y math o darfiad ar gyfer y cofnod hwn."
 
 # Part of disturbance page
 msgid "Less than 1 metre across"
-msgstr ""
+msgstr "Llai nag 1 metr ar draws"
 
 # Part of disturbance page
 msgid "More than 1 metre across"
-msgstr ""
+msgstr "Mwy nag 1 metr ar draws"
 
 # Part of disturbance page
 msgid "Rabbit"
-msgstr ""
+msgstr "Cwningod"
 
 # Part of disturbance page
 msgid "Rabbit activity"
-msgstr ""
+msgstr "Gweithgarwch cwningod"
 
 # Part of disturbance page
 msgid "Cattle"
-msgstr ""
+msgstr "Gwartheg"
 
 # Part of disturbance page
 msgid "Pony"
-msgstr ""
+msgstr "Merlod"
 
 # Part of disturbance page
 msgid "Sheep"
-msgstr ""
+msgstr "Defaid"
 
 # Part of disturbance page
 msgid "Unknown"
-msgstr ""
+msgstr "Anhysbys"
 
 # Part of disturbance page
 msgid "Scrape"
@@ -1121,54 +1186,548 @@ msgstr ""
 
 # Part of disturbance page
 msgid "Animal dung"
-msgstr ""
+msgstr "Baw anifail"
 
 # Part of disturbance page
 msgid "Vehicle tracks"
-msgstr ""
+msgstr "Olion cerbyd"
 
 # Part of disturbance page
 msgid "Litter/flytipping"
+msgstr "Sbwriel/tipio"
+
+# Part of disturbance page
+msgid "Fires/BBQ remnants"
 msgstr ""
 
 # Part of disturbance page
 msgid "Other (please add a comment)"
-msgstr ""
+msgstr "Arall (gadewch sylw)"
 
 # Part of disturbance page
 msgid "Bare sand/poached area"
-msgstr ""
+msgstr "Tywod noeth/ardal wedi'i fathru"
 
 # Part of disturbance page
 msgid "Other"
-msgstr ""
+msgstr "Arall"
 
 # Survey name
 msgid "Record Disturbance"
-msgstr ""
+msgstr "Cofnodi Tarfiad"
 
 # Loading dialog when pulling location data
 msgid "Downloading images."
-msgstr ""
+msgstr "Yn llwytho delweddau i lawr."
 
 # Changing location popup warning
 msgid "Changing location"
-msgstr ""
+msgstr "Yn newid y lleoliad"
 
 # Changing location popup warning
 msgid ""
 "Warning - This will discard some of the survey informaton you have entered "
 "so far."
 msgstr ""
+"Rhybudd - Bydd hyn yn diddymu rhywfaint o'r wybodaeth rydych wedi'i rhoi yn "
+"yr arolwg hyd yma."
 
 # Missing location group name
 msgid "No group name"
-msgstr ""
+msgstr "Dim enw grŵp"
 
 # Loading dialog when pulling location data
 msgid "Getting locations."
-msgstr ""
+msgstr "Yn cynnull y lleoliadau."
 
 # Loading dialog when pulling location data
 msgid "List was successfully updated."
+msgstr "Rhestr wedi'i diweddaru."
+
+# Zonation Mapping survey manual
+msgid "Background"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"The aim of this activity is twofold. Firstly, to measure the length of the "
+"sand dune and secondly, combining this with recording where zones change "
+"from one to another along each transect. Photographing and noting the GPS "
+"location of transitions between different zones of the sand dune system will"
+" help to monitor how these boundaries change over time. Transitions are the "
+"abrupt or gradual change of habitat from one type to another, for example "
+"from a mobile dune to a semi-fixed, or to other habitats of fixed dune, bare"
+" sand around newly restored/scraped areas or blowouts, scrub encroachment, "
+"and dune slack boundaries."
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "Method"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "When and where to survey"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "Equipment"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "Navigating to and along the transect"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "What to record along the transect"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"Zonation surveys are carried out once a year, in April or May, along the "
+"fixed transect routes that have been selected at your site. It will take "
+"roughly take between 1 to 3 hours per transect."
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"Take with you:<1><0>Handheld GPS unit</0><1>Mobile phone app - transect "
+"locations downloaded beforehand</1><2>Compass</2><3>Long tape measure "
+"(ideally 50 m or more)</3><4>Marker canes with high visibility tape/ribbon "
+"(suggested minimum 3)</4></1>"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"<0><0>Using your handheld GPS (and mobile phone app), navigate to the first "
+"point of the transect, which will be marked by a post. The grid reference "
+"can be found on the transect description form, or the start point described "
+"on the app.</0><1>Use the grid reference for the end of the transect and "
+"your compass (and your mobile phone app) to navigate along the transect. The"
+" 3 marker canes can help you keep to the transect. Place the first marker "
+"cane at the start point. Following the bearing provided for the transect, "
+"navigate along the transect roughly 50 metres & place the second marker "
+"cane. A person sited at the first marker cane, holding the compass can then "
+"direct the location of the third marker cane to be placed 50m further down "
+"the transect. When all 3 canes are aligned, walk back to the first cane and "
+"start recording the transitions. The first one, then second can be removed "
+"and the process repeated from the third cane to move down the transect. Some"
+" transects may be shorter than 100m. Adjust the method if required to "
+"maintain line of sight between marker canes. For transects ending at the "
+"beach, the last point will be on the beach itself.</1><2>Use the tape "
+"measure to measure the distance between locations, and record the distance "
+"between zonation transition points.</2></0>"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"<0><0>As you walk along the transect, use the sand dune zone guide to assess"
+" which zone you are in (Figure 1). When you move from one zone to another, "
+"record the grid reference from your GPS (if using the manual recording "
+"form), along with the names of the zones you are moving between. The app "
+"will guide you through this when you enter a new transition "
+"point.</0><1></1><2>Figure 1. Diagram of zones in a sand dune "
+"system.</2><br/><4>Record the distance from the last transition point, in "
+"metres and to the nearest 10 cm.</4><5>At each transition point, take two "
+"photographs perpendicular to the direction of the transect (one to the left,"
+" and one to the right). On the manual recording form, note down the time "
+"that these photographs were taken so that they can be identified and stored "
+"correctly. On the app, the time of photos will be recorded "
+"automatically.</5><6>Notes:<1><0>The transition between different zones may "
+"not be clear cut but you should record the point at which you feel the "
+"dominance of characteristics has shifted from one zone type to "
+"another.</0><1>You may also transition from one zone to another and then "
+"back again – each transition should be recorded on the form. Anything larger"
+" than 2 metres can be considered a new zone.</1><2>On very loose sand on a "
+"steep dune, it may be necessary to walk a few metres away from the direct "
+"line to avoid disturbing the dune, but track back to the direct line to take"
+" the next measurement.</2><3>The end point for some transects may be a scrub"
+" or woodland boundary – in this case, measure to where the scrub/woodland "
+"forms a fairly unbroken line (not individual bushes or trees).</3><4>The end"
+" point of the transect for transects leading onto the shore should be "
+"approximately 5 m seawards from the edge of the strandline.</4></1></6></0>"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"The aim of this survey is to develop a visual record of the sand dune system"
+" using fixed point photographs. This will allow assessments to be made of "
+"how the morphology and vegetation composition of sites are changing over "
+"time."
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "Navigating to the photography points"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid "What to record"
+msgstr ""
+
+# Zonation Mapping survey manual
+msgid ""
+"<0><0>Take a photograph at each photography point. The important thing here "
+"is to take your photograph so it matches the position of the original photo "
+"(see the list of locations, or the app) so that direct comparisons can be "
+"made. To help you do this:<1><0>Each photograph should be taken in the "
+"direction indicated (as aligned with the guide photo)</0><1>Take the "
+"photograph at eye level</1><2>Refer back to the photographs shown in the "
+"transect description form, or on the app. If there are any useful reference "
+"points (e.g. trees, buildings), make sure these are in the same place in "
+"your new photograph.</2></1></0><1>For each photograph, record the time it "
+"was taken on the recording form so that it can be identified and stored "
+"correctly. This will be recorded automatically on the app.</1></0>"
+msgstr ""
+
+# Dunes Profile survey manual
+msgid ""
+"The aim of this activity is to create a height profile of key areas of "
+"interest in the sand dune system. These are likely to focus on naturally "
+"mobile dunes, blow-outs and managed or rejuvenated areas which have created "
+"bare sand. This can then be used to examine how the height profile of the "
+"sand dunes is changing over time and how much dynamism there is in the "
+"system."
+msgstr ""
+
+# Dunes Profile survey manual
+msgid ""
+"Sand profile surveys are carried out once a year, in April or May, along the"
+" preselected transect routes. It will take roughly two to four hours "
+"depending on the length of the transect."
+msgstr ""
+
+# Dunes Profile survey manual
+msgid ""
+"Take with you:<1><0>Handheld GPS unit</0><1>Mobile phone app - transect "
+"locations downloaded beforehand</1><2>Compass</2><3>Long tape measure "
+"(ideally 50 m or more)</3><4>Ranging poles</4><5>Clinometer</5></1>"
+msgstr ""
+
+# Dunes Profile survey manual
+msgid ""
+"<0><0>Using your handheld GPS (and mobile phone app), navigate to the first "
+"point of the transect, which will be marked by a post. The grid reference "
+"can be found on the transect description form, or the start point described "
+"on the app.</0><1>Use the grid reference for the end of the transect and "
+"your compass (and your mobile phone app) to navigate along the transect. For"
+" transects ending at the beach, the end point will be on the beach "
+"itself.</1><2>Use the tape measure to measure the distance between survey "
+"locations.</2><3>When using the app, use the same phone to record all the "
+"data for one transect.</3></0>"
+msgstr ""
+
+# Dunes Profile survey manual
+msgid ""
+"<0><0>At point 1 of the transect, person A should stand holding ranging pole"
+" 1 and the clinometer. Make sure you hold the pole straight and it does not "
+"sink into the sand. Enter the grid reference of the start point on the "
+"manual recording form. The app will do this automatically when you register "
+"the Start point.</0><1>Following the bearing of the transect (i.e. heading "
+"towards the end point), person B should take ranging pole 2 to the point at "
+"which there is a marked change in the angle of the slope of the dune, or at "
+"approximately 50 m distance if no clear change in slope (see Figure 1) - "
+"there may be long uniform areas which are beyond convenient sighting "
+"distance. At this point, place ranging pole 2 on the ground, again making "
+"sure you hold it straight and that it does not sink into the sand. Enter the"
+" grid reference of this point on the recording form. The app will "
+"automatically record the grid reference when you click to register the next "
+"survey point.</1><2></2><3>Figure 1. Illustration of how to measure the "
+"profile along a sand dune</3><br/><5>Person A should then use the clinometer"
+" to measure the angle of the slope from pole 1 to pole 2. The reading should"
+" be taken between the marking on pole 1 that is closest to person A’s eye "
+"level and the corresponding marking on pole 2 (see diagram below). Note down"
+" this angle on the recording form, or in the app.</5><6>If you find yourself"
+" going downhill as you walk along the transect, the ‘lower’ person should "
+"take the clinometer to measure the angle of the slope and it should be noted"
+" in the recording form or on the app that this was a downhill reading. Enter"
+" the angle as a negative number.</6><7>Use the tape measure to measure the "
+"distance along the ground from pole 1 to pole 2. Note this distance down on "
+"the recording form, or in the app.</7><8>Person B with pole 2 should then "
+"stay where they are and person A should continue walking along the bearing "
+"of the transect, handing the clinometer to person A as they pass "
+"them.</8><9>When they reach another distinct change in the angle of the "
+"slope of the dune, they should stop and place ranging pole 1 on the sand and"
+" the process of measuring the angle of the slope and the distance between "
+"the poles should be repeated, this time with person B taking the "
+"measurements from pole 2 to pole 1.</9><10>Repeat this process until you "
+"reach the end of the transect.</10><11>Notes:<1><0>On very loose sand on a "
+"steep dune, it may be necessary to walk a few metres away from the direct "
+"line to avoid disturbing the dune, but track back to the direct line to take"
+" the next measurement.</0><1>The end point of the transect for transects "
+"leading to the shore should be approximately 5 m seawards from the edge of "
+"the mobile dune or embryo dune zone.</1></1></11></0>"
+msgstr ""
+
+# Fixed-point photography survey manual
+msgid ""
+"The aim of this survey is to develop a visual record of the sand dune system"
+" using fixed point photographs. This will allow assessments to be made of "
+"how the morphology (form, shape and structure) and vegetation composition of"
+" sites are changing over time."
+msgstr ""
+
+# Fixed-point photography survey manual
+msgid ""
+"Fixed point photographs should be taken at least once a year, in April or "
+"May, at preselected locations."
+msgstr ""
+
+# Fixed-point photography survey manual
+msgid ""
+"Make sure you take with you:<1><0>Handheld GPS unit</0><1>(Mobile phone app "
+"– fixed point photography locations downloaded "
+"beforehand)</1><2>Compass</2></1>"
+msgstr ""
+
+# Fixed-point photography survey manual
+msgid ""
+"<0><0>Using your handheld GPS (and mobile phone app), navigate to each "
+"photography point, which will be marked by a post. The grid reference can be"
+" found on the description form for photography points, or described on the "
+"app. Some photography points may be along transects, others may be in dune "
+"slacks or other points of interest on the site.</0><1>For points that are "
+"along transects, from the starting point of the transect marked by a post, "
+"use the grid reference of the end of the transect and your compass (and your"
+" mobile phone app) to navigate along the transect.</1></0>"
+msgstr ""
+
+# Fixed-point photography survey manual
+msgid ""
+"<0><0>Take a photograph at each photography point. It is important to take "
+"your photograph so it matches the position of the original photo (see the "
+"list of locations, or the app) so that direct comparisons can be made. To "
+"help you do this:<1><0>Each photograph should be taken in the direction "
+"indicated (as aligned with the guide photo)</0><1>Take the photograph at eye"
+" level</1><2>Refer back to the photographs shown in the transect description"
+" form, or on the app. If there are any useful reference points (e.g. trees, "
+"buildings), make sure these are in the same place in your new "
+"photograph.</2></1></0><1>For each photograph, record the time it was taken "
+"on the recording form so that it can be identified and stored correctly. "
+"This will be recorded automatically on the app.</1></0>"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"The aims of this survey cover three aspects:<1><0>to record the percentage "
+"cover of bare sand and the cover and height of broad vegetation types. This "
+"will allow us to examine whether the composition and structure of the "
+"vegetation at the site is changing over time.</0><1>to record the percentage"
+" cover of plant species that are positive and negative indicators of dune "
+"health (including rare species and invasive species) so we can track how the"
+" health of the sand dune system is changing over time.</1><2>to record the "
+"percentage cover of species which indicate higher nutrient levels.</2></1>"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid "Finding and marking out the quadrat"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid "What to record in the quadrat"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid "Vegetation cover"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid "Vegetation height"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid "Health indicator species and nitrogen indicator species"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"Note the total percentage cover within the quadrat of:<1><0>Bare "
+"ground/sand</0><1>Mosses and lichens (see species guide).</1><2>Grasses, "
+"sedges and rushes. These are all plants that are grass-like in appearance. "
+"The stems of sedges generally have three edges whereas rushes have very "
+"rounded stems that are filled with pith.</2><3>Herbs. These are all other "
+"plants which are not trees or shrubs (but includes things like bramble, "
+"bracken and other ferns).</3><4>Heathland shrubs (heather, gorse, "
+"bilberry)</4><5>Trees and scrub (including young plants)</5></1>Estimates "
+"should be made by looking from above at the vegetation cover. It may help to"
+" try to imagine all of the different patches of a single vegetation type "
+"clustered together and how much of the 2 × 2 m square this would take up. "
+"Keep in mind that:<3><0>20 × 20 cm is 1 % cover</0><1>50 × 50 cm is 6.25 % "
+"cover</1><2>1 × 1 m is 25 % cover</2></3>Looking at the tape measure "
+"surrounding the quadrat may help here.<br/>If there are multiple people in "
+"your surveying team, each person should come up with an estimated percentage"
+" cover for each vegetation type separately and then the average of these "
+"estimates should be recorded on the quadrat recording form.<br/>If the cover"
+" of a single vegetation type is less than 1 % then record this as 0.5 "
+"%<br/>The total vegetation cover may exceed 100 % because different layers "
+"of vegetation may be overlapping but combined cover of vegetation and bare "
+"ground/sand should reach at least 100 % otherwise an error has been made. "
+"The app will automatically calculate the total cover."
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"Considering all areas with vegetation in the quadrat, take five measurements"
+" of the height of the vegetation (ideally one in each quarter of the quadrat"
+" and one in the middle). Measure the height with a ruler or tape measure (or"
+" a drop disc if you have one), recording the height that most of the "
+"vegetation reaches within roughly 20 cm of your ruler – ignore occasional "
+"tall flowering stems if they rise above this height. If there are multiple "
+"people in your surveying team, it is useful for two or three to agree the "
+"height that should be recorded in each location. Record all five height "
+"measurements on your form, or on the app. The app will automatically "
+"calculate the average."
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"Using the species list of positive and negative plant indicators for the "
+"site, for each species that you see in the quadrat, record its name on the "
+"quadrat recording form, or select it in the app. Note that there are "
+"separate lists for each habitat so make sure you use the appropriate one for"
+" the quadrat you are surveying. Estimate the percentage cover of each "
+"species.<br/>Repeat this process for the nitrogen indicator species (for "
+"fixed dune grassland and dune slack habitats) Estimates should be made by "
+"looking from above at the vegetation cover. It may help to imagine all of "
+"the different patches of a single vegetation type clustered together and how"
+" much of the 2 × 2 m square this would take up. Keep in mind that:<3><0>20 ×"
+" 20 cm is 1 % cover</0><1>50 × 50 cm is 6.25 % cover</1><2>1 × 1 m is 25 % "
+"cover</2></3><br/>Looking at the tape measure surrounding the quadrat may "
+"help here.<br/>If there are multiple people in your surveying team, each "
+"person should come up with an estimated percentage cover for each vegetation"
+" type separately and then the average of these estimates should be recorded "
+"on the quadrat recording form, or in the app.<br/>If the cover of a single "
+"vegetation type is less than 1 % then record this as 0.5 % on the quadrat "
+"recording form."
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"Make sure you take with you:<1><0>Handheld GPS unit</0><1>(Mobile phone app "
+"– fixed point photography locations downloaded "
+"beforehand)</1><2>Compass</2><3>Long tape measure (more than 10 "
+"metre)</3><4>Ruler (1 metre, or short tape measure</4><5>4 marking "
+"canes</5></1>"
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"Vegetation surveys should take place once a year, in June, July or August, "
+"at pre-set quadrat locations. It will take roughly 30-45 minutes to complete"
+" a survey in a single quadrat."
+msgstr ""
+
+# Plant-Quadrat survey manual
+msgid ""
+"<0><0>Using your handheld GPS (and mobile phone app), navigate to the grid "
+"reference of the quadrat you intend to survey. This will be marked by a post"
+" in all habitats except for mobile dunes. The grid reference and the habitat"
+" it is located in can be found on the description form for quadrats, or "
+"described on the app.</0><1>Where the quadrat has a marker post, use your "
+"tape measure and compass to measure 2 m due north and then place one of your"
+" marking canes in the ground at this point; this will be the south west "
+"corner of the quadrat.</1><2>If it is a mobile dune quadrat, place one of "
+"your marking canes at the point of the grid reference you were provided "
+"with; this will be south west corner of the quadrat.</2><3>Then, using your "
+"compass, find due north and, using the tape measure, measure 2 m in this "
+"direction. Mark this point using a second marking cane.</3><4>Repeat this "
+"process moving east, south then west until you have marked out a 2 m by 2 m "
+"square.</4><5>You can keep the tape measure wrapped around the outside of "
+"the canes to help you define what is inside and what is outside of the "
+"quadrat.</5></0>Notes:<2><0>The marker post is positioned 2 m away from the "
+"quadrat itself to avoid disturbance in the quadrat e.g. from livestock using"
+" it as a scratching post or birds perching on it.</0></2>"
+msgstr ""
+
+# Dipwell survey manual
+msgid ""
+"The aim of this survey is to monitor water table depth in dune slacks "
+"(seasonal wetlands) within the sand dune system. Water table depth "
+"influences the type and health of dune slack vegetation and on species "
+"present like natterjack toads and many insects that also use dune slacks or "
+"damp sand."
+msgstr ""
+
+# Dipwell survey manual
+msgid "Navigating to the dipwell locations"
+msgstr ""
+
+# Dipwell survey manual
+msgid ""
+"Water levels should be measured at least once per month at preselected "
+"dipwell locations."
+msgstr ""
+
+# Dipwell survey manual
+msgid ""
+"Take with you:<1><0>Handheld GPS unit</0><1>Mobile phone app - transect "
+"locations downloaded beforehand</1><2>Water-level measuring device (see "
+"notes)</2></1>"
+msgstr ""
+
+# Dipwell survey manual
+msgid ""
+"Using your handheld GPS (and mobile phone app), navigate to each dipwell. "
+"The grid reference can be found on the description form for dipwell "
+"locations, or described on the app."
+msgstr ""
+
+# Dipwell survey manual
+msgid ""
+"<0><0>If there is a cap on the dipwell, unscrew it or prise it off "
+"(depending on the type).</0><1>If there is a datalogger suspended on a wire,"
+" carefully pull it out (When you have finished measuring the water level, "
+"slowly lower the logger back down the dipwell. DON’T drop it as this can "
+"cause the logger to malfunction).</1><2>Using an appropriate water-level "
+"measuring device, measure from the top of the dipwell down to the water "
+"level.</2><3>Record the value to the nearest cm. If the slack is flooded and"
+" the water level is above the dipwell, again measure to the top of the "
+"dipwell, but record this as a negative number. Note down the water level on "
+"the form, or on the app.</3><4>Take a photograph of the dipwell, aligning it"
+" to the photograph on the dipwell information sheet, or on the app.</4></0>"
+msgstr ""
+
+# Disturbance survey manual
+msgid ""
+"The aim of this survey is to monitor signs of disturbance, damage or other "
+"aspects around the site. Disturbance can be considered good or bad depending"
+" on what is happening and where. For example, some disturbance can be useful"
+" to maintain areas of bare sand. It covers disturbance by animals and from "
+"human activities."
+msgstr ""
+
+# Disturbance survey manual
+msgid "Navigating to locations"
+msgstr ""
+
+# Disturbance survey manual
+msgid "Disturbance can be recorded at any time, anywhere on the site."
+msgstr ""
+
+# Disturbance survey manual
+msgid ""
+"Take with you:<1><0>Handheld GPS unit</0><1>Mobile phone app - transect "
+"locations downloaded beforehand</1></1>"
+msgstr ""
+
+# Disturbance survey manual
+msgid ""
+"There are no pre-set locations, but you may want to visit particular areas "
+"to follow up previous reports of disturbance or points of interest. These "
+"can be obtained by discussing with the site manager."
+msgstr ""
+
+# Disturbance survey manual
+msgid ""
+"If you wish to record some disturbance or other feature on the site, use the"
+" recording form, or the app activity. This covers the following "
+"aspects:<1><0>The presence and size of patches of bare sand, or where the "
+"turf has been broken up by activity of animals or people.</0><1>Presence of "
+"animal dung, and if possible an indication of which animal it is from "
+"(rabbits, ponies, cattle, sheep, other).</1><2>Rabbit activity (small "
+"feeding scrapes, burrows).</2><3>Human activities such as damage from "
+"vehicle tracks (including motorbikes), litter or flytipping. Recording "
+"litter is not aimed at the occasional sweet wrapper, but things like remains"
+" of a barbeque, multiple cans/bottles left by visitors, large rubbish items "
+"like car tyres, etc. should be recorded.</3><4>Any other aspects can be "
+"recorded using the ‘Other’ section on the form or on the app.</4></1>Please "
+"also take a photo if you can."
 msgstr ""
