@@ -1,0 +1,416 @@
+[
+  {
+    "commonName": "Kidney vetch",
+    "scientificName": "Anthylis vulneraria",
+    "description": "Flowers in heads; usually yellow, but can be orange, red, purple or white. Leaves pinnate with narrow leaflets, finely haired",
+    "distribution": "Found in open grassland",
+    "phenology": "April-September, although May-July best",
+    "confusion": "N/A",
+    "comments": "Nitrogen sensitive"
+  },
+  {
+    "commonName": "Harebell",
+    "scientificName": "Campanula rotundifolia",
+    "description": "Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves roundish with a few teeth, upper leaves narrow, untoothed and unstalked",
+    "distribution": "Found in short, grazed grassland",
+    "phenology": "July-September",
+    "confusion": "Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)",
+    "comments": "Nitrogen sensitive"
+  },
+  {
+    "commonName": "Biting stonecrop",
+    "scientificName": "Sedum acre",
+    "description": "Flowers bright yellow, 5 petals and star-shaped, found singularly at the end of stalks. Leaves cylindrical, reddish to green.",
+    "distribution": "Found on dry, bare places, usually rock",
+    "phenology": "July-September",
+    "confusion": "Reflexed stonecrop",
+    "comments": "Nitrogen sensitive"
+  },
+  {
+    "commonName": "Devil’s bit scabious",
+    "scientificName": "Succisa pratensis",
+    "description": "Flowers dark blue-purple, sometimes pink, in rounded heads. Leaves elliptical, untoothed and often stalked",
+    "distribution": "Damp, grassy places like dune slacks",
+    "phenology": "June-October",
+    "confusion": "Sheep’s-bit scabious (Jasione montana)",
+    "comments": "Nitrogen sensitive"
+  },
+  {
+    "commonName": "Hare’s foot clover",
+    "scientificName": "Trifolium arvense",
+    "description": "Flowers whitish or pale pink, flower heads stalked and egg-shaped, distinctively covered in hairs. Trefoil leaves, narrow, oval leaflets with short hairs",
+    "distribution": "Dry grassland and sandy soils",
+    "phenology": "June-September",
+    "confusion": "Sea clover (Trifolia squamosum)",
+    "comments": "Nitrogen sensitive"
+  },
+  {
+    "commonName": "Cocksfoot",
+    "scientificName": "Dactylis glomerata",
+    "description": "Tufted, triangular flowerhead made of clumps of flowers. Mostly green, with purple-red ends. Leaves grey-green.",
+    "distribution": "Grassland. Grows up to 140cm tall",
+    "phenology": "June-September",
+    "confusion": "N/A",
+    "comments": "Nitrogen loving"
+  },
+  {
+    "commonName": "Silverweed",
+    "scientificName": "Potentilla anserina",
+    "description": "Flowers yellow, 5 petals, at the end of stems. Leaves pinnate, toothed and often silvery in colour.",
+    "distribution": "Creeping along the ground, often in trampled disturbed ground and damp areas",
+    "phenology": "May-August",
+    "confusion": "Tormentil (Potentilla erecta), Creeping cinquefoil (Potentilla reptans)",
+    "comments": "Nitrogen loving"
+  },
+  {
+    "commonName": "White clover",
+    "scientificName": "Trifolium repens",
+    "description": "Flower white, in globe-shaped heads, occasionally pale pink. Trefoil leaves with rounded leaflets, often with white markings",
+    "distribution": "Common on all grassland, growing low to the ground. Favoured flower of bees",
+    "phenology": "May-October",
+    "confusion": "Red Clover",
+    "comments": "Nitrogen loving"
+  },
+  {
+    "commonName": "Curled dock",
+    "scientificName": "rumex crispus",
+    "description": "Flower heads dense, flowers green to red in colour. Leaves long and narrow, with strongly waved margins. Often pointed.",
+    "distribution": "Often on disturbed ground or near water, although can be found almost anywhere. Grows up to 1m tall",
+    "phenology": "All year round",
+    "confusion": "Broad leaved dock (Rumex obtusifolius), Copmmon sorrel (Rumex acetosa)",
+    "comments": "Nitrogen loving"
+  },
+  {
+    "commonName": "Creeping thistle",
+    "scientificName": "Cirsium arvense",
+    "description": "Lilac flowers, in clusters, flowerheads sometimes branched. Bracts purpleish in colour. Leaves pinnately lobed, sometimes cottony on the underside, stems spineless.",
+    "distribution": "Grassy areas and wasteland, cultivated ground, grows up to 1.2m",
+    "phenology": "June-October",
+    "confusion": "Spear thistle (Cirsium vulgare), Marsh thistle (Cirsium palustre)",
+    "comments": "Nitrogen loving"
+  },
+  {
+    "commonName": "Sow-thistle",
+    "scientificName": "Sonchus spp.",
+    "description": "Flowerheds yellow and clustered. Leaves long and pinnately lobed with soft, spiny margins.",
+    "distribution": "Early coloniser of bare & waste ground, found in areas of bare sand. Marsh sow-thistle found in marshes & ditches.",
+    "phenology": "Mostly July-September",
+    "confusion": "Dandelion species",
+    "comments": "Nitrogen loving"
+  },
+  {
+    "commonName": "Mossy stonecrop",
+    "scientificName": "Crassula tillea",
+    "description": "Low, creeping, moss-like plant with opposing pairs of fleshy, cylindrical leaves. Leaves red towards the base of stems, turning to green towards the tips. White flowers, usually with 3 petals, occasionally 4",
+    "distribution": "Disturbed ground, bare and rocky areas",
+    "phenology": "June-July",
+    "confusion": "English stonecrop (Sedum anglicum)",
+    "comments": "Acidic dune nitrogen sensitives"
+  },
+  {
+    "commonName": "Early hair-grass",
+    "scientificName": "Aira praecox",
+    "description": "Slender grass, up to 30cm tall. Bristle-like grey-green leaves. ",
+    "distribution": "Frequently on bare, dry ground as well as rocky outcrops",
+    "phenology": "April-June",
+    "confusion": "N/A",
+    "comments": "Acidic dune nitrogen sensitives"
+  },
+  {
+    "commonName": "Lesser cudweed",
+    "scientificName": "Filago minima",
+    "description": "White-tinged red flowerheads, which can also appear yellow. Star-like flowers in clusters at top of plant. Leaves small and pointed, held close to the stem, and with silvery hairs.",
+    "distribution": "Open, sandy or gravelly areas",
+    "phenology": "June-September",
+    "confusion": "Common cudweed (Filago vulgaris)",
+    "comments": "Acidic dune nitrogen sensitives"
+  },
+  {
+    "commonName": "Field woodrush",
+    "scientificName": "Luzula campestris",
+    "description": "Short, tuft-forming rush. Grass-like leaves, fringed with long, white hairs. Flowers brown, forming rounded clusters towards the top of stems",
+    "distribution": "Grassy areas, growing up to 25cm tall",
+    "phenology": "April-May",
+    "confusion": "Heath woodrush (Luzula multiflora)",
+    "comments": "Acidic dune nitrogen sensitives"
+  },
+  {
+    "commonName": "Dune fescue",
+    "scientificName": "Vulpia fasciculata",
+    "description": "Dense, upright flowerheads, with all flowers growing from one side. Red-tipped green, changing to orange-brown when mature. Simple, broad leaves",
+    "distribution": "Open, disturbed areas on fixed dunes, and sandy shingle",
+    "phenology": "May-June",
+    "confusion": "Squirrel-tail fescue (Vulpia bromoides)",
+    "comments": "Acidic dune nitrogen sensitives"
+  },
+  {
+    "commonName": "Greater plantain",
+    "scientificName": "Plantago major",
+    "description": "Flowers greenish-yellow to pale brown, in tall, narrow stalks. Leaves broad, pointed ovals with thin stems down to base.",
+    "distribution": "Regularly disturbed areas, particularly well-trodden places, as leaves are resistant to trampling",
+    "phenology": "June-October",
+    "confusion": "Ribwort plantain (Plantago lanceolata)",
+    "comments": "Acidic dune nitrogen-loving"
+  },
+  {
+    "commonName": "Cleavers",
+    "scientificName": "Galium aparine",
+    "description": "Long, thin leaves, growing in clusters of 6-8 around the stem, coated in small, sticky hooks which attach to fur or clothing. Small, dull white flowers with 4 petals, growing on stalks from the base of the leaves. ",
+    "distribution": "Often growing alongside other plants, using them for support. Often found in hedges, or areas of scrub where the sward is higher.",
+    "phenology": "April-June",
+    "confusion": "N/A",
+    "comments": "Acidic dune nitrogen-loving"
+  },
+  {
+    "commonName": "Marram",
+    "scientificName": "Ammophila arenaria",
+    "description": "Leaves glossy, curled and cylindrical but can be unrolled. Tall and pointed. Flower spikes densely packed, golden to light brown in colour",
+    "distribution": "Thick tufts of marram are found on embryo dunes and areas of bare sand, where it helps to hold the dunes together",
+    "phenology": "July-August",
+    "confusion": "N/A",
+    "comments": "Health positive indicators"
+  },
+  {
+    "commonName": "Sand sedge",
+    "scientificName": "Carex arenaria",
+    "description": "Thin, wiry leaves, growing up to 35cm tall. Flower spikes with pale brown spikelets, carrying flowers in dense clusters",
+    "distribution": "On embryo dunes and areas of bare sand, this is an early coloniser",
+    "phenology": "May-July",
+    "confusion": "N/A",
+    "comments": "Health positive indicators"
+  },
+  {
+    "commonName": "Sheep’s bit",
+    "scientificName": "Jasione montana",
+    "description": "Blue flowers in globe-shaped heads with narrow petals. Somewhat scruffy looking. Leaves oblong and narrow, sometimes wavy-edged and hairy",
+    "distribution": "Dry, grassy areas and heaths, particularly areas with sandy soil",
+    "phenology": "May-September",
+    "confusion": "Devil’s bit scabious (Succisa pratensis)",
+    "comments": "Health positive indicators"
+  },
+  {
+    "commonName": "Common cat’s-ear",
+    "scientificName": "Hypochaeris radicata",
+    "description": "Solitary, bright yellow flowerheads above purple-tipped bracts. Leaves growing in a rosette at the base, lance-like with wavy edges, blunted ends and bearing small hairs",
+    "distribution": "Dry grassland, wasteland and often the edges of car parks",
+    "phenology": "July-September",
+    "confusion": "Hawkbits (Leontodon spp.), Dandelions (Taraxacum spp.)",
+    "comments": "Health positive indicators"
+  },
+  {
+    "commonName": "Cladonia lichens",
+    "scientificName": "Cladonia spp.",
+    "description": "Generally pale green in colour, they are mostly distinguished by the fruiting body cups, which are often raised above the lichen on stalks.",
+    "distribution": "Trees, Rocks, Fallen branches",
+    "phenology": "All year",
+    "confusion": "N/A",
+    "comments": "Health positive indicators"
+  },
+  {
+    "commonName": "Juniper haircap moss",
+    "scientificName": "Polytrichum juniperinum",
+    "description": "Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves narrow, light green but tipped with red. Leaves radiating from central stem in a star shape",
+    "distribution": "Dry, acidic soil on heaths, and on rocks & walls",
+    "phenology": "April - June",
+    "confusion": "Bristly haircap (Polytrichum piliferum)",
+    "comments": "Health positive indicators"
+  },
+  {
+    "commonName": "Sycamore",
+    "scientificName": "Acer pseudoplatanus",
+    "description": "Palmate leaves with 5 lobes, usually 7-16cm across, slightly toothed margins. Flowers are green-yellow in colour, and hang in clusters from the end of branches.",
+    "distribution": "Almost everywhere. Woodland and areas of scrub in particular",
+    "phenology": "Late April-June",
+    "confusion": "Field maple (Acer campestre), Norway maple (Acer platanoides)",
+    "comments": "Health negative indicators"
+  },
+  {
+    "commonName": "Holly",
+    "scientificName": "Ilex aquifolium",
+    "description": "Dark green, glossy, oval shaped leaves. Spiky leaves on younger trees, but these are less common on older ones. Flowers white with 4 petals, occurring in clusters.",
+    "distribution": "Common in woodland and areas of scrub",
+    "phenology": "Variable flowering time- early spring to early summer, depending on yearly temperatures",
+    "confusion": "N/A",
+    "comments": "Health negative indicators"
+  },
+  {
+    "commonName": "Scots pine",
+    "scientificName": "Pinus sylvestris",
+    "description": "Evergreen with blue-green needles, which are often slightly twisted. Needles grow in pairs. Male flowers grow as small, yellow clusters at the base of shoots, female flowers are small, reddish-purple and globe shaped, growing at the tip of shoots",
+    "distribution": "Areas of scrub or heath in particular",
+    "phenology": "May-June",
+    "confusion": "Other pine species",
+    "comments": "Health negative indicators"
+  },
+  {
+    "commonName": "Heath star moss",
+    "scientificName": "Campylopus introflexus",
+    "description": "Stubby moss, with stems up to 5cm in length, but usually shorter. Dark green to dark brown-black when dry. Leaves straight when wet, radiating out in a star shape",
+    "distribution": "Pioneer species on recently disturbed ground, but will also grow on fences, rotten wood and shingle",
+    "phenology": "All year (Can’t find flowering time)",
+    "confusion": "Other star mosses",
+    "comments": "Health negative indicators"
+  },
+  {
+    "commonName": "Buck’s horn plantain",
+    "scientificName": "Plantago coronopus",
+    "description": "Distinctive plantain with pinnate leaves growing in a rosette at the base, somewhat resembling antlers. Flower spikes yellow-brown with protruding anthers.",
+    "distribution": "Dry, bare, sandy places, particularly frequently disturbed areas like edges of paths",
+    "phenology": "May-July",
+    "confusion": "Nothing. Other plantains at a push",
+    "comments": "Fixed dune acidic grassland positive indicators"
+  },
+  {
+    "commonName": "Squirrel-tail fescue",
+    "scientificName": "Vulpia bromoides",
+    "description": "Very thin leaves, rolling in at the margins, growing up to 40cm tall. Straw coloured when mature. Erect flowerheads with flowers along one side, giving a bushy appearance",
+    "distribution": "Dry areas, particularly banks, gravelly areas, walls and dry heath",
+    "phenology": "May-July",
+    "confusion": "N/A",
+    "comments": "Fixed dune acidic grassland positive indicators"
+  },
+  {
+    "commonName": "Spear thistle",
+    "scientificName": "Cirsium vulgare",
+    "description": "Sharply spined thistle with deeply lobed pinnate leaves. Flowerheads lilac, 2-4cm across and quite puffy, with a spiny ball-like bracts below. Stems somewhat cottony",
+    "distribution": "Disturbed ground, particularly verges and field edges, as well as waste ground.",
+    "phenology": "July-October",
+    "confusion": "Other thistles, particularly Cotton thistle (Onopordum acanthium)",
+    "comments": "Fixed dune acidic grassland negative indicators"
+  },
+  {
+    "commonName": "Rose species",
+    "scientificName": "Rosa spp.",
+    "description": "Thin, thorny stems. Pinnate leaves with toothed margins. Flowers often large, usually white, pink or red with large, floppy petals which detach easily.",
+    "distribution": "Usually found in scrub or hedgerows, except Burnet rose (Rosa pimpinellifolia) which grows in open areas across heath and dunes with short grass",
+    "phenology": "Usually May-August",
+    "confusion": "Brambles (Rubus spp.)",
+    "comments": "Fixed dune acidic grassland negative indicators"
+  },
+  {
+    "commonName": "European gorse",
+    "scientificName": "Ulex europus",
+    "description": "Evergreen shrub growing to 2.5m, leaves short, firm spines, stalked towards the base. Yellow, lipped flowers growing from the base of the spines towards the end of branches, strongly coconut scented",
+    "distribution": "Heaths and grassland, particularly ungrazed areas",
+    "phenology": "January-June",
+    "confusion": "Dwarf gorse (Ulex minor), Western gorse (Ulex gallii)",
+    "comments": "Fixed dune acidic grassland negative indicators"
+  },
+  {
+    "commonName": "Ling",
+    "scientificName": "Calluna vulgaris",
+    "description": "Carpeting heather, usually growing up to 50cm, occasionally downy in appearance. Oblong leaves in alternate rows, branching from the main stem. Flowers pale pink to mauve, growing in spikes at the end of stems.",
+    "distribution": "Anywhere on dunes and heathland, except particularly wet areas, can often be found dominating large areas",
+    "phenology": "July-September",
+    "confusion": "Other heathers, especially Bell heather (Erica cinerea)",
+    "comments": "Fixed dune acidic grassland negative indicators"
+  },
+  {
+    "commonName": "Pirri-pirri burr",
+    "scientificName": "Acaena nova-zealandia",
+    "description": "Short, creeping plant with lobed, pinnate leaves and deep pink, hooked burs which turn bronze coloured. Small, cream coloured flowers grow on spherical heads atop upright stalks.",
+    "distribution": "Wet slopes, dunes and grassy areas, forming a dense mat at ground level",
+    "phenology": "May-September (Unsure flowering time)",
+    "confusion": "Salad burnet (Sanguisorba minor)",
+    "comments": "Fixed dune acidic grassland negative indicators"
+  },
+  {
+    "commonName": "Rhododendron",
+    "scientificName": "Rhododendron ponticum",
+    "description": "Shrub with dense, dark green, leathery, oval leaves. Blooms large, ranging from light pink to purple, with open, bell-shaped flowers of 5 petals",
+    "distribution": "Once rhododendron takes hold, little else can grow because of the dense canopy, so it is often found in areas of shrub",
+    "phenology": "May-June",
+    "confusion": "Nothing",
+    "comments": "Fixed dune acidic grassland negative indicators"
+  },
+  {
+    "commonName": "Sea sandwort",
+    "scientificName": "Honkenya peploides",
+    "description": "Creeping, greeny-yellow plant with fleshy, oval leaves. Flowers with 5 petals, small and greenish-white with a yellow centre. Flowers solitary and at the end of stems",
+    "distribution": "Areas of sand and shingle, growing low to the ground",
+    "phenology": "April-August",
+    "confusion": "Thyme-leaved sandwort (Arenaria serpyllifolia)",
+    "comments": "Mobile dune acidic grassland positive indicators"
+  },
+  {
+    "commonName": "Common saltwort",
+    "scientificName": "Salsola kali",
+    "description": "Small, bushy plant with linear, succulent leaves with sharp, prickly tips. Solitary green flowers, above leaf-like bracts",
+    "distribution": "Areas of bare sand, ",
+    "phenology": "July-October",
+    "confusion": "Prickly Saltwort",
+    "comments": "Mobile dune acidic grassland positive indicators"
+  },
+  {
+    "commonName": "Sea rocket",
+    "scientificName": "Cakile maritima",
+    "description": "Greyish-green, hairless succulent, lobed, pinnate leaves towards the base and more linear leaves moving up the stem. Flowers with 4 petals, pale lilac to white in colour",
+    "distribution": "Sandy coastal areas",
+    "phenology": "June-September",
+    "confusion": "None",
+    "comments": "Mobile dune acidic grassland positive indicators"
+  },
+  {
+    "commonName": "Sea bindweed",
+    "scientificName": "Calystegia soldanella",
+    "description": "Large, trumpet shaped flowers, light pink in colour, with white stripes. Fleshy, kidney-shaped leaves, with stems creeping along the ground",
+    "distribution": "Bare, sandy areas, growing amongst marram grass",
+    "phenology": "June-September",
+    "confusion": "Hedge bindweed (Calystegia sepium), Field bindweed (Convolvulus arvensis), Great bindweed (Calystegia silvatica)",
+    "comments": "Mobile dune acidic grassland positive indicators"
+  },
+  {
+    "commonName": "Ryegrass",
+    "scientificName": "Lolium perenne",
+    "description": "Green stems and narrow, blade-like leaves. The spikelets, which hold the flowers, are attached to the stem in an alternating pattern.",
+    "distribution": "Roadside verges, rough pastures and waste ground",
+    "phenology": "January – September",
+    "confusion": "N/A",
+    "comments": "Mobile Dune Negative Indicators"
+  },
+  {
+    "commonName": "Creeping willow",
+    "scientificName": "Salix repens",
+    "description": "A deciduous bushy shrub. 1m tall – 2m wide. Narrowly-oval, densely-hairy leaves are grey-green above and silvery beneath and appear after the silvery catkins that mature to yellow in spring.",
+    "distribution": "Sand dunes, acid grassland and heathland including coastal heaths. ",
+    "phenology": "All year",
+    "confusion": "Hybridised willow species typically including goat willow (S. caprea) and downy willow (S. lapponum). ",
+    "comments": "Dune Slack Species"
+  },
+  {
+    "commonName": "Water Mint",
+    "scientificName": "Mentha aquatica",
+    "description": "Hairy, oval, toothed leaves that appear in whorls around the reddish stems. It produces dense clusters of lilac-pink flowers at the ends of its stems.",
+    "distribution": "Freshwater Wetlands, Towns and Gardens",
+    "phenology": "July to October",
+    "confusion": "Hybrids of mint",
+    "comments": "Dune Slack Species"
+  },
+  {
+    "commonName": "Marsh pennywort",
+    "scientificName": "Hydrocotyle vulgaris",
+    "description": "Leaves are peltate, having a roughly circular shape and frequently a comparatively long petiole. The flower stems are shorter than the petioles and bare tiny, pinkish flowers ",
+    "distribution": "Aquatic weed that spreads out horizontally forming dense mats in shallow water, mud, or in marshes.",
+    "phenology": "June - August",
+    "confusion": "The leaves are similar to Navelwort but this is found in much dryer habitats such as walls and quarries.",
+    "comments": "Dune Slack Species"
+  },
+  {
+    "commonName": "Self-heal",
+    "scientificName": "Prunella vulgaris",
+    "description": "Selfheal is a low-growing, perennial herb with paired, oval leaves and bluish or violet flowers that appear in dense, oblong clusters on the top of its stems. Its purple-tinged seed head remains after flowering",
+    "distribution": "Short turf of grasslands, uncut grass in woodlands, roadside verges, lawns",
+    "phenology": "June - October",
+    "confusion": "N/A",
+    "comments": "Dune Slack Species"
+  },
+  {
+    "commonName": "Bog pimpernel",
+    "scientificName": "Anagallis tenella",
+    "description": "Bog pimpernel is low growing. The flowers are small, pink and cup-shaped with five petals. The leaves are small, rounded and in pairs along thin wiry stems.",
+    "distribution": "wet, open meadows and fens",
+    "phenology": "Pink flowers are out in June and July",
+    "confusion": "N/A",
+    "comments": "Dune Slack Species"
+  }
+]
