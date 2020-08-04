@@ -1,14 +1,18 @@
 [
   {
+    "id": 1,
     "commonName": "Kidney vetch",
     "scientificName": "Anthylis vulneraria",
     "description": "Flowers in heads; usually yellow, but can be orange, red, purple or white. Leaves pinnate with narrow leaflets, finely haired",
     "distribution": "Found in open grassland",
     "phenology": "April-September, although May-July best",
     "confusion": "N/A",
-    "comments": "Nitrogen sensitive"
+    "comments": "Nitrogen sensitive",
+    "photoAuthor": "anneke1998",
+    "image": 1
   },
   {
+    "id": 2,
     "commonName": "Harebell",
     "scientificName": "Campanula rotundifolia",
     "description": "Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves roundish with a few teeth, upper leaves narrow, untoothed and unstalked",
@@ -18,6 +22,7 @@
     "comments": "Nitrogen sensitive"
   },
   {
+    "id": 3,
     "commonName": "Biting stonecrop",
     "scientificName": "Sedum acre",
     "description": "Flowers bright yellow, 5 petals and star-shaped, found singularly at the end of stalks. Leaves cylindrical, reddish to green.",
@@ -27,6 +32,7 @@
     "comments": "Nitrogen sensitive"
   },
   {
+    "id": 4,
     "commonName": "Devil’s bit scabious",
     "scientificName": "Succisa pratensis",
     "description": "Flowers dark blue-purple, sometimes pink, in rounded heads. Leaves elliptical, untoothed and often stalked",
@@ -36,6 +42,7 @@
     "comments": "Nitrogen sensitive"
   },
   {
+    "id": 5,
     "commonName": "Hare’s foot clover",
     "scientificName": "Trifolium arvense",
     "description": "Flowers whitish or pale pink, flower heads stalked and egg-shaped, distinctively covered in hairs. Trefoil leaves, narrow, oval leaflets with short hairs",
@@ -45,6 +52,7 @@
     "comments": "Nitrogen sensitive"
   },
   {
+    "id": 6,
     "commonName": "Cocksfoot",
     "scientificName": "Dactylis glomerata",
     "description": "Tufted, triangular flowerhead made of clumps of flowers. Mostly green, with purple-red ends. Leaves grey-green.",
@@ -54,6 +62,7 @@
     "comments": "Nitrogen loving"
   },
   {
+    "id": 7,
     "commonName": "Silverweed",
     "scientificName": "Potentilla anserina",
     "description": "Flowers yellow, 5 petals, at the end of stems. Leaves pinnate, toothed and often silvery in colour.",
@@ -63,6 +72,7 @@
     "comments": "Nitrogen loving"
   },
   {
+    "id": 8,
     "commonName": "White clover",
     "scientificName": "Trifolium repens",
     "description": "Flower white, in globe-shaped heads, occasionally pale pink. Trefoil leaves with rounded leaflets, often with white markings",
@@ -72,6 +82,7 @@
     "comments": "Nitrogen loving"
   },
   {
+    "id": 9,
     "commonName": "Curled dock",
     "scientificName": "rumex crispus",
     "description": "Flower heads dense, flowers green to red in colour. Leaves long and narrow, with strongly waved margins. Often pointed.",
@@ -81,6 +92,7 @@
     "comments": "Nitrogen loving"
   },
   {
+    "id": 10,
     "commonName": "Creeping thistle",
     "scientificName": "Cirsium arvense",
     "description": "Lilac flowers, in clusters, flowerheads sometimes branched. Bracts purpleish in colour. Leaves pinnately lobed, sometimes cottony on the underside, stems spineless.",
@@ -90,6 +102,7 @@
     "comments": "Nitrogen loving"
   },
   {
+    "id": 11,
     "commonName": "Sow-thistle",
     "scientificName": "Sonchus spp.",
     "description": "Flowerheds yellow and clustered. Leaves long and pinnately lobed with soft, spiny margins.",
@@ -99,6 +112,7 @@
     "comments": "Nitrogen loving"
   },
   {
+    "id": 12,
     "commonName": "Mossy stonecrop",
     "scientificName": "Crassula tillea",
     "description": "Low, creeping, moss-like plant with opposing pairs of fleshy, cylindrical leaves. Leaves red towards the base of stems, turning to green towards the tips. White flowers, usually with 3 petals, occasionally 4",
@@ -108,6 +122,7 @@
     "comments": "Acidic dune nitrogen sensitives"
   },
   {
+    "id": 13,
     "commonName": "Early hair-grass",
     "scientificName": "Aira praecox",
     "description": "Slender grass, up to 30cm tall. Bristle-like grey-green leaves. ",
@@ -117,6 +132,7 @@
     "comments": "Acidic dune nitrogen sensitives"
   },
   {
+    "id": 14,
     "commonName": "Lesser cudweed",
     "scientificName": "Filago minima",
     "description": "White-tinged red flowerheads, which can also appear yellow. Star-like flowers in clusters at top of plant. Leaves small and pointed, held close to the stem, and with silvery hairs.",
@@ -126,6 +142,7 @@
     "comments": "Acidic dune nitrogen sensitives"
   },
   {
+    "id": 15,
     "commonName": "Field woodrush",
     "scientificName": "Luzula campestris",
     "description": "Short, tuft-forming rush. Grass-like leaves, fringed with long, white hairs. Flowers brown, forming rounded clusters towards the top of stems",
@@ -135,6 +152,7 @@
     "comments": "Acidic dune nitrogen sensitives"
   },
   {
+    "id": 16,
     "commonName": "Dune fescue",
     "scientificName": "Vulpia fasciculata",
     "description": "Dense, upright flowerheads, with all flowers growing from one side. Red-tipped green, changing to orange-brown when mature. Simple, broad leaves",
@@ -144,6 +162,7 @@
     "comments": "Acidic dune nitrogen sensitives"
   },
   {
+    "id": 17,
     "commonName": "Greater plantain",
     "scientificName": "Plantago major",
     "description": "Flowers greenish-yellow to pale brown, in tall, narrow stalks. Leaves broad, pointed ovals with thin stems down to base.",
@@ -153,6 +172,7 @@
     "comments": "Acidic dune nitrogen-loving"
   },
   {
+    "id": 18,
     "commonName": "Cleavers",
     "scientificName": "Galium aparine",
     "description": "Long, thin leaves, growing in clusters of 6-8 around the stem, coated in small, sticky hooks which attach to fur or clothing. Small, dull white flowers with 4 petals, growing on stalks from the base of the leaves. ",
@@ -162,6 +182,7 @@
     "comments": "Acidic dune nitrogen-loving"
   },
   {
+    "id": 19,
     "commonName": "Marram",
     "scientificName": "Ammophila arenaria",
     "description": "Leaves glossy, curled and cylindrical but can be unrolled. Tall and pointed. Flower spikes densely packed, golden to light brown in colour",
@@ -171,6 +192,7 @@
     "comments": "Health positive indicators"
   },
   {
+    "id": 20,
     "commonName": "Sand sedge",
     "scientificName": "Carex arenaria",
     "description": "Thin, wiry leaves, growing up to 35cm tall. Flower spikes with pale brown spikelets, carrying flowers in dense clusters",
@@ -180,6 +202,7 @@
     "comments": "Health positive indicators"
   },
   {
+    "id": 21,
     "commonName": "Sheep’s bit",
     "scientificName": "Jasione montana",
     "description": "Blue flowers in globe-shaped heads with narrow petals. Somewhat scruffy looking. Leaves oblong and narrow, sometimes wavy-edged and hairy",
@@ -189,6 +212,7 @@
     "comments": "Health positive indicators"
   },
   {
+    "id": 22,
     "commonName": "Common cat’s-ear",
     "scientificName": "Hypochaeris radicata",
     "description": "Solitary, bright yellow flowerheads above purple-tipped bracts. Leaves growing in a rosette at the base, lance-like with wavy edges, blunted ends and bearing small hairs",
@@ -198,6 +222,7 @@
     "comments": "Health positive indicators"
   },
   {
+    "id": 23,
     "commonName": "Cladonia lichens",
     "scientificName": "Cladonia spp.",
     "description": "Generally pale green in colour, they are mostly distinguished by the fruiting body cups, which are often raised above the lichen on stalks.",
@@ -207,6 +232,7 @@
     "comments": "Health positive indicators"
   },
   {
+    "id": 24,
     "commonName": "Juniper haircap moss",
     "scientificName": "Polytrichum juniperinum",
     "description": "Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves narrow, light green but tipped with red. Leaves radiating from central stem in a star shape",
@@ -216,6 +242,7 @@
     "comments": "Health positive indicators"
   },
   {
+    "id": 25,
     "commonName": "Sycamore",
     "scientificName": "Acer pseudoplatanus",
     "description": "Palmate leaves with 5 lobes, usually 7-16cm across, slightly toothed margins. Flowers are green-yellow in colour, and hang in clusters from the end of branches.",
@@ -225,6 +252,7 @@
     "comments": "Health negative indicators"
   },
   {
+    "id": 26,
     "commonName": "Holly",
     "scientificName": "Ilex aquifolium",
     "description": "Dark green, glossy, oval shaped leaves. Spiky leaves on younger trees, but these are less common on older ones. Flowers white with 4 petals, occurring in clusters.",
@@ -234,6 +262,7 @@
     "comments": "Health negative indicators"
   },
   {
+    "id": 27,
     "commonName": "Scots pine",
     "scientificName": "Pinus sylvestris",
     "description": "Evergreen with blue-green needles, which are often slightly twisted. Needles grow in pairs. Male flowers grow as small, yellow clusters at the base of shoots, female flowers are small, reddish-purple and globe shaped, growing at the tip of shoots",
@@ -243,6 +272,7 @@
     "comments": "Health negative indicators"
   },
   {
+    "id": 28,
     "commonName": "Heath star moss",
     "scientificName": "Campylopus introflexus",
     "description": "Stubby moss, with stems up to 5cm in length, but usually shorter. Dark green to dark brown-black when dry. Leaves straight when wet, radiating out in a star shape",
@@ -252,6 +282,7 @@
     "comments": "Health negative indicators"
   },
   {
+    "id": 29,
     "commonName": "Buck’s horn plantain",
     "scientificName": "Plantago coronopus",
     "description": "Distinctive plantain with pinnate leaves growing in a rosette at the base, somewhat resembling antlers. Flower spikes yellow-brown with protruding anthers.",
@@ -261,6 +292,7 @@
     "comments": "Fixed dune acidic grassland positive indicators"
   },
   {
+    "id": 30,
     "commonName": "Squirrel-tail fescue",
     "scientificName": "Vulpia bromoides",
     "description": "Very thin leaves, rolling in at the margins, growing up to 40cm tall. Straw coloured when mature. Erect flowerheads with flowers along one side, giving a bushy appearance",
@@ -270,6 +302,7 @@
     "comments": "Fixed dune acidic grassland positive indicators"
   },
   {
+    "id": 31,
     "commonName": "Spear thistle",
     "scientificName": "Cirsium vulgare",
     "description": "Sharply spined thistle with deeply lobed pinnate leaves. Flowerheads lilac, 2-4cm across and quite puffy, with a spiny ball-like bracts below. Stems somewhat cottony",
@@ -279,6 +312,7 @@
     "comments": "Fixed dune acidic grassland negative indicators"
   },
   {
+    "id": 32,
     "commonName": "Rose species",
     "scientificName": "Rosa spp.",
     "description": "Thin, thorny stems. Pinnate leaves with toothed margins. Flowers often large, usually white, pink or red with large, floppy petals which detach easily.",
@@ -288,6 +322,7 @@
     "comments": "Fixed dune acidic grassland negative indicators"
   },
   {
+    "id": 33,
     "commonName": "European gorse",
     "scientificName": "Ulex europus",
     "description": "Evergreen shrub growing to 2.5m, leaves short, firm spines, stalked towards the base. Yellow, lipped flowers growing from the base of the spines towards the end of branches, strongly coconut scented",
@@ -297,6 +332,7 @@
     "comments": "Fixed dune acidic grassland negative indicators"
   },
   {
+    "id": 34,
     "commonName": "Ling",
     "scientificName": "Calluna vulgaris",
     "description": "Carpeting heather, usually growing up to 50cm, occasionally downy in appearance. Oblong leaves in alternate rows, branching from the main stem. Flowers pale pink to mauve, growing in spikes at the end of stems.",
@@ -306,6 +342,7 @@
     "comments": "Fixed dune acidic grassland negative indicators"
   },
   {
+    "id": 35,
     "commonName": "Pirri-pirri burr",
     "scientificName": "Acaena nova-zealandia",
     "description": "Short, creeping plant with lobed, pinnate leaves and deep pink, hooked burs which turn bronze coloured. Small, cream coloured flowers grow on spherical heads atop upright stalks.",
@@ -315,6 +352,7 @@
     "comments": "Fixed dune acidic grassland negative indicators"
   },
   {
+    "id": 36,
     "commonName": "Rhododendron",
     "scientificName": "Rhododendron ponticum",
     "description": "Shrub with dense, dark green, leathery, oval leaves. Blooms large, ranging from light pink to purple, with open, bell-shaped flowers of 5 petals",
@@ -324,6 +362,7 @@
     "comments": "Fixed dune acidic grassland negative indicators"
   },
   {
+    "id": 37,
     "commonName": "Sea sandwort",
     "scientificName": "Honkenya peploides",
     "description": "Creeping, greeny-yellow plant with fleshy, oval leaves. Flowers with 5 petals, small and greenish-white with a yellow centre. Flowers solitary and at the end of stems",
@@ -333,6 +372,7 @@
     "comments": "Mobile dune acidic grassland positive indicators"
   },
   {
+    "id": 38,
     "commonName": "Common saltwort",
     "scientificName": "Salsola kali",
     "description": "Small, bushy plant with linear, succulent leaves with sharp, prickly tips. Solitary green flowers, above leaf-like bracts",
@@ -342,6 +382,7 @@
     "comments": "Mobile dune acidic grassland positive indicators"
   },
   {
+    "id": 39,
     "commonName": "Sea rocket",
     "scientificName": "Cakile maritima",
     "description": "Greyish-green, hairless succulent, lobed, pinnate leaves towards the base and more linear leaves moving up the stem. Flowers with 4 petals, pale lilac to white in colour",
@@ -351,6 +392,7 @@
     "comments": "Mobile dune acidic grassland positive indicators"
   },
   {
+    "id": 40,
     "commonName": "Sea bindweed",
     "scientificName": "Calystegia soldanella",
     "description": "Large, trumpet shaped flowers, light pink in colour, with white stripes. Fleshy, kidney-shaped leaves, with stems creeping along the ground",
@@ -360,6 +402,7 @@
     "comments": "Mobile dune acidic grassland positive indicators"
   },
   {
+    "id": 41,
     "commonName": "Ryegrass",
     "scientificName": "Lolium perenne",
     "description": "Green stems and narrow, blade-like leaves. The spikelets, which hold the flowers, are attached to the stem in an alternating pattern.",
@@ -369,6 +412,7 @@
     "comments": "Mobile Dune Negative Indicators"
   },
   {
+    "id": 42,
     "commonName": "Creeping willow",
     "scientificName": "Salix repens",
     "description": "A deciduous bushy shrub. 1m tall – 2m wide. Narrowly-oval, densely-hairy leaves are grey-green above and silvery beneath and appear after the silvery catkins that mature to yellow in spring.",
@@ -378,6 +422,7 @@
     "comments": "Dune Slack Species"
   },
   {
+    "id": 43,
     "commonName": "Water Mint",
     "scientificName": "Mentha aquatica",
     "description": "Hairy, oval, toothed leaves that appear in whorls around the reddish stems. It produces dense clusters of lilac-pink flowers at the ends of its stems.",
@@ -387,6 +432,7 @@
     "comments": "Dune Slack Species"
   },
   {
+    "id": 44,
     "commonName": "Marsh pennywort",
     "scientificName": "Hydrocotyle vulgaris",
     "description": "Leaves are peltate, having a roughly circular shape and frequently a comparatively long petiole. The flower stems are shorter than the petioles and bare tiny, pinkish flowers ",
@@ -396,6 +442,7 @@
     "comments": "Dune Slack Species"
   },
   {
+    "id": 45,
     "commonName": "Self-heal",
     "scientificName": "Prunella vulgaris",
     "description": "Selfheal is a low-growing, perennial herb with paired, oval leaves and bluish or violet flowers that appear in dense, oblong clusters on the top of its stems. Its purple-tinged seed head remains after flowering",
@@ -405,6 +452,7 @@
     "comments": "Dune Slack Species"
   },
   {
+    "id": 46,
     "commonName": "Bog pimpernel",
     "scientificName": "Anagallis tenella",
     "description": "Bog pimpernel is low growing. The flowers are small, pink and cup-shaped with five petals. The leaves are small, rounded and in pairs along thin wiry stems.",

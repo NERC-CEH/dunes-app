@@ -1330,3 +1330,7 @@ msgstr "This record has been uploaded and cannot be updated."
 # Quadrat survey message for certain habitats.
 msgid "There are no species available for this habitat."
 msgstr "There are no species available for this habitat."
+
+# App internal error when trying to login
+msgid "No user session refresh token was found"
+msgstr "No user session refresh token was found"
