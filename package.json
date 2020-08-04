@@ -13,7 +13,8 @@
     "deploy": "vercel --prod -A other/now.json",
     "clean": "rm -rf android ios build resources",
     "test:eslint": "mocha test/eslint-test.js",
-    "fetch:species": "cd src/common/data/species && node make.js"
+    "fetch:species": "cd src/common/data/species && node make.js",
+    "fetch:species:descriptions": "cd src/common/data/speciesDescriptions && node make.js"
   },
   "husky": {
     "hooks": {
