@@ -28,10 +28,7 @@ const exec = grunt => ({
     stdout: false,
   },
   init: {
-    command: `
-      ./node_modules/.bin/cap add ios && 
-      ./node_modules/.bin/cap add android &&
-      ./node_modules/.bin/cap copy`,
+    command: './node_modules/.bin/cap sync',
     stdout: false,
   },
   build_android: {
