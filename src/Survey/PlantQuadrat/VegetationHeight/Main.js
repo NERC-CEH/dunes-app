@@ -16,6 +16,7 @@ class Component extends React.Component {
 
   render() {
     const { subSample, match, t } = this.props;
+    const isDisabled = subSample.isDisabled();
 
     const pointValues = subSample.attrs.height || [1, 3, 4, 2, 2, 3];
 
@@ -31,6 +32,7 @@ class Component extends React.Component {
           label={locationLabel}
           icon={heightIcon}
           wrapText
+          disabled={isDisabled}
           skipTranslation
         />
       );
