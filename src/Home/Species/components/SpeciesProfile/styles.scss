@@ -9,6 +9,12 @@
     padding-bottom: 0;
   }
 
+  .species-profile-photo {
+    height: 200px;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
   //Ionicons shadow not working
   .species-profile-icon {
     position: absolute;

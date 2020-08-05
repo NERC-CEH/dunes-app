@@ -24,12 +24,17 @@ class Component extends React.Component {
     const { species } = this.props;
     const { showGallery } = this.state;
 
-    const items = species.images.map(image => {
+    const { photoAuthor, photoHeight, photoWidth } = species;
+
+    const dummyPhotoCounterArray = [...new Array(photoHeight.length)];
+    const items = dummyPhotoCounterArray.map((_, index) => {
+      const title = photoAuthor[index] ? `© ${photoAuthor[index]}` : '';
+
       return {
-        src: `/images/${image.image}.jpg`,
-        w: image.image_width || 800,
-        h: image.image_height || 800,
-        title: `© ${image.image_copyright}`,
+        src: `/images/${species.id}_${index + 1}_image.jpg`,
+        w: photoWidth || 800,
+        h: photoHeight[index] || 800,
+        title,
       };
     });
 
@@ -48,24 +53,32 @@ class Component extends React.Component {
     );
   };
 
-  slides = images => {
+  getPhotoSlides = species => {
     const slideOpts = {
       initialSlide: 0,
       speed: 400,
     };
-    const slideImage = images.map(item => {
-      const { image, id } = item; // temporally added id, no unique variable
-      /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
-      return (
-        <IonSlide key={id}>
-          <img
-            src={`/images/${image}.jpg`}
-            alt="species-profile"
+    const { id, scientificName, photoHeight } = species;
+
+    const getSlideImages = () => {
+      const dummyPhotoCounterArray = [...new Array(photoHeight.length)];
+
+      return dummyPhotoCounterArray.map((_, index) => {
+        const uniqueKey = `${scientificName} + ${index + 1}`;
+
+        return (
+          <IonSlide
+            key={uniqueKey}
+            class="species-profile-photo"
+            style={{
+              background: `url(/images/${id}_${index + 1}_image.jpg)`,
+            }}
             onClick={() => this.setState({ showGallery: 1 })}
           />
-        </IonSlide>
-      );
-    });
+        );
+      });
+    };
+
     /* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
 
     return (
@@ -79,14 +92,13 @@ class Component extends React.Component {
           e.target.update();
         }}
       >
-        {slideImage}
+        {getSlideImages()}
       </IonSlides>
     );
   };
 
   render() {
     const { species } = this.props;
-    const { images } = species;
 
     /* eslint-disable jsx-a11y/no-static-element-interactions */
     return (
@@ -108,10 +120,12 @@ class Component extends React.Component {
             />
           </div>
 
-          {this.slides(images)}
+          {this.getPhotoSlides(species)}
 
           <IonCardHeader>
-            <IonCardTitle>{species.title}</IonCardTitle>
+            {species.commonName && (
+              <IonCardTitle>{species.commonName}</IonCardTitle>
+            )}
             <IonCardSubtitle>{species.scientificName}</IonCardSubtitle>
           </IonCardHeader>
           <IonCardContent>

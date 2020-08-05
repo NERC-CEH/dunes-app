@@ -7,13 +7,15 @@ $cream-white-color: #fffdefd9;
   }
 
   .species-list-item {
-    --ion-grid-column-padding: 0;
+    --ion-grid-column-padding: 2px;
+
+    background: #fffdef;
 
     div.species-label {
       height: 55vw;
       width: 100%;
-      background-size: cover;
-      background-position: center;
+      background-size: cover !important;
+      background-position: center !important;
 
       div {
         width: 100%;

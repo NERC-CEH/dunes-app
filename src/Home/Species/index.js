@@ -14,8 +14,9 @@ import {
 import { Page, Main, ModalHeader } from '@apps';
 import { Trans as T } from 'react-i18next';
 import { informationCircleOutline } from 'ionicons/icons';
+import speciesDescription from 'common/data/speciesDescriptions';
 import SpeciesProfile from './components/SpeciesProfile';
-import speciesData from './data.json';
+import './thumbnails';
 import './images';
 import './styles.scss';
 
@@ -25,17 +26,23 @@ class Species extends Component {
   showSpeciesModal = id => {
     this.setState({
       showModal: true,
-      species: speciesData.find(specie => specie.id === id),
+      species: speciesDescription.find(specie => specie.id === id),
     });
   };
 
-  getGridCell = ({ title, images, id }) => {
+  getGridCell = ({ commonName, scientificName, id, photoHeight }) => {
     const onClick = () => this.showSpeciesModal(id);
-    const { image } = images[0];
+    const hasPhotos = photoHeight && !!photoHeight.length;
+
+    if (!hasPhotos) {
+      return null;
+    }
+
+    const name = commonName || scientificName;
 
     return (
       <IonCol
-        key={title}
+        key={name}
         className="species-list-item"
         onClick={onClick}
         size="6"
@@ -43,14 +50,14 @@ class Species extends Component {
       >
         <div
           style={{
-            backgroundImage: `url('/images/${image}.jpg')`,
+            background: `url('/images/${id}_thumbnail.jpg')`,
           }}
           className="species-label"
         >
           <div>
-            {title}
+            {name}
             <IonIcon
-              class="species-label-icon"
+              className="species-label-icon"
               size="small"
               icon={informationCircleOutline}
             />
@@ -65,7 +72,8 @@ class Species extends Component {
   };
 
   getListGrid = () => {
-    const speciesColumns = speciesData.map(this.getGridCell);
+    const speciesColumns = speciesDescription.map(this.getGridCell);
+
     return (
       <IonGrid className="species-list">
         <IonRow>{speciesColumns}</IonRow>
