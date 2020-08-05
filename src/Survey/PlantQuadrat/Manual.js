@@ -1,5 +1,6 @@
 import React from 'react';
 import { Section, Collapse } from '@apps';
+import { Trans as T } from 'react-i18next';
 // import survey from './config';
 const survey = { label: 'Plant Quadrat Recording' };
 
@@ -207,6 +208,10 @@ const Manual = () => (
   </>
 );
 
-Manual.Header = () => <h3 className="manual-title">{survey.label}</h3>;
+Manual.Header = () => (
+  <h3 className="manual-title">
+    <T>{survey.label}</T>
+  </h3>
+);
 
 export default Manual;

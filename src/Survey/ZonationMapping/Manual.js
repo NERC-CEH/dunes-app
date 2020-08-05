@@ -1,6 +1,7 @@
 import React from 'react';
 import { Section, Collapse } from '@apps';
 import { IonImg } from '@ionic/react';
+import { Trans as T } from 'react-i18next';
 import figure1 from 'common/images/zonationMappingManualFigure.jpg';
 // import survey from './config';
 
@@ -97,7 +98,6 @@ const Manual = () => (
               enter a new transition point.
             </li>
 
-            <br />
             <IonImg src={figure1} />
             <figcaption>
               Figure 1. Diagram of zones in a sand dune system.
@@ -157,6 +157,10 @@ const Manual = () => (
   </>
 );
 
-Manual.Header = () => <h3 className="manual-title">{survey.label}</h3>;
+Manual.Header = () => (
+  <h3 className="manual-title">
+    <T>{survey.label}</T>
+  </h3>
+);
 
 export default Manual;

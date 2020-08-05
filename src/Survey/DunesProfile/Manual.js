@@ -2,6 +2,7 @@ import React from 'react';
 import { Section, Collapse } from '@apps';
 import { IonImg } from '@ionic/react';
 import figure1 from 'common/images/dunesProfileManulFigure.png';
+import { Trans as T } from 'react-i18next';
 // import survey from './config';
 const survey = { label: 'Dunes Profile' };
 
@@ -160,6 +161,10 @@ const Manual = () => (
   </>
 );
 
-Manual.Header = () => <h3 className="manual-title">{survey.label}</h3>;
+Manual.Header = () => (
+  <h3 className="manual-title">
+    <T>{survey.label}</T>
+  </h3>
+);
 
 export default Manual;

@@ -390,6 +390,10 @@ msgstr "Mewngofnodi"
 msgid "Welcome back"
 msgstr "Croeso nôl"
 
+# Registration success toast message
+msgid "Welcome aboard!"
+msgstr ""
+
 # Part of sign in and registration flow
 msgid "Sign in to your account to start"
 msgstr "Mewngofnodwch i'ch cyfrif er mwyn cychwyn"
@@ -1838,6 +1842,9 @@ msgid ""
 "locations downloaded beforehand</1><2>Water-level measuring device (see "
 "notes)</2></1>"
 msgstr ""
+"Ewch â'r canlynol gyda chi:<1><0>Uned law GPS</0><1>Ap ffôn symudol – gyda'r"
+" lleoliadau trawslun wedi'u lawrlwytho ymlaen llaw</1><2>Dyfais i fesur "
+"lefel y dŵr (gweler y nodiadau)</2></1>"
 
 # Dipwell survey manual
 msgid ""
@@ -1887,7 +1894,7 @@ msgstr ""
 
 # Disturbance survey manual
 msgid "Navigating to locations"
-msgstr ""
+msgstr "Llywio at y lleoliadau"
 
 # Disturbance survey manual
 msgid "Disturbance can be recorded at any time, anywhere on the site."
@@ -1898,6 +1905,8 @@ msgid ""
 "Take with you:<1><0>Handheld GPS unit</0><1>Mobile phone app - transect "
 "locations downloaded beforehand</1></1>"
 msgstr ""
+"Ewch â'r canlynol gyda chi:<1><0>Uned law GPS</0><1>Ap ffôn symudol – gyda'r"
+" lleoliadau trawslun wedi'u lawrlwytho ymlaen llaw</1></1>"
 
 # Disturbance survey manual
 msgid ""
@@ -1941,4 +1950,483 @@ msgstr ""
 
 # Location edit page image placeholder
 msgid "No image available for this location."
+msgstr "Does dim delwedd ar gael ar gyfer y lleoliad hwn."
+
+# Species-description: distribution
+msgid ""
+"Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves "
+"roundish with a few teeth, upper leaves narrow, untoothed and unstalked"
+msgstr ""
+
+# Species-description: distribution
+msgid "Found in short, grazed grassland"
+msgstr ""
+
+# Species-description: distribution
+msgid "Found on dry, bare places, usually rock"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowers dark blue-purple, sometimes pink, in rounded heads. Leaves "
+"elliptical, untoothed and often stalked"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowers whitish or pale pink, flower heads stalked and egg-shaped, "
+"distinctively covered in hairs. Trefoil leaves, narrow, oval leaflets with "
+"short hairs"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Tufted, triangular flowerhead made of clumps of flowers. Mostly green, with "
+"purple-red ends. Leaves grey-green."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowers yellow, 5 petals, at the end of stems. Leaves pinnate, toothed and "
+"often silvery in colour."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flower white, in globe-shaped heads, occasionally pale pink. Trefoil leaves "
+"with rounded leaflets, often with white markings"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flower heads dense, flowers green to red in colour. Leaves long and narrow, "
+"with strongly waved margins. Often pointed."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Often on disturbed ground or near water, although can be found almost "
+"anywhere. Grows up to 1m tall"
+msgstr ""
+
+# Species-description: distribution
+msgid "Grassy areas and wasteland, cultivated ground, grows up to 1.2m"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowers bright yellow, 5 petals and star-shaped, found singularly at the end"
+" of stalks. Leaves cylindrical, reddish to green."
+msgstr ""
+
+# Species-description: distribution
+msgid "Damp, grassy places like dune slacks"
+msgstr ""
+
+# Species-description: distribution
+msgid "Dry grassland and sandy soils"
+msgstr ""
+
+# Species-description: distribution
+msgid "Grassland. Grows up to 140cm tall"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Creeping along the ground, often in trampled disturbed ground and damp areas"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Common on all grassland, growing low to the ground. Favoured flower of bees"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Lilac flowers, in clusters, flowerheads sometimes branched. Bracts purpleish"
+" in colour. Leaves pinnately lobed, sometimes cottony on the underside, "
+"stems spineless."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowerheds yellow and clustered. Leaves long and pinnately lobed with soft, "
+"spiny margins."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Early coloniser of bare & waste ground, found in areas of bare sand. Marsh "
+"sow-thistle found in marshes & ditches."
+msgstr ""
+
+# Species-description: distribution
+msgid "Slender grass, up to 30cm tall. Bristle-like grey-green leaves. "
+msgstr ""
+
+# Species-description: distribution
+msgid "Frequently on bare, dry ground as well as rocky outcrops"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"White-tinged red flowerheads, which can also appear yellow. Star-like "
+"flowers in clusters at top of plant. Leaves small and pointed, held close to"
+" the stem, and with silvery hairs."
+msgstr ""
+
+# Species-description: distribution
+msgid "Open, sandy or gravelly areas"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Short, tuft-forming rush. Grass-like leaves, fringed with long, white hairs."
+" Flowers brown, forming rounded clusters towards the top of stems"
+msgstr ""
+
+# Species-description: distribution
+msgid "Grassy areas, growing up to 25cm tall"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Dense, upright flowerheads, with all flowers growing from one side. Red-"
+"tipped green, changing to orange-brown when mature. Simple, broad leaves"
+msgstr ""
+
+# Species-description: distribution
+msgid "Open, disturbed areas on fixed dunes, and sandy shingle"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowers greenish-yellow to pale brown, in tall, narrow stalks. Leaves broad,"
+" pointed ovals with thin stems down to base."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Regularly disturbed areas, particularly well-trodden places, as leaves are "
+"resistant to trampling"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Long, thin leaves, growing in clusters of 6-8 around the stem, coated in "
+"small, sticky hooks which attach to fur or clothing. Small, dull white "
+"flowers with 4 petals, growing on stalks from the base of the leaves. "
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Often growing alongside other plants, using them for support. Often found in"
+" hedges, or areas of scrub where the sward is higher."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Leaves glossy, curled and cylindrical but can be unrolled. Tall and pointed."
+" Flower spikes densely packed, golden to light brown in colour"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Thick tufts of marram are found on embryo dunes and areas of bare sand, "
+"where it helps to hold the dunes together"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Thin, wiry leaves, growing up to 35cm tall. Flower spikes with pale brown "
+"spikelets, carrying flowers in dense clusters"
+msgstr ""
+
+# Species-description: distribution
+msgid "On embryo dunes and areas of bare sand, this is an early coloniser"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Blue flowers in globe-shaped heads with narrow petals. Somewhat scruffy "
+"looking. Leaves oblong and narrow, sometimes wavy-edged and hairy"
+msgstr ""
+
+# Species-description: distribution
+msgid "Dry, grassy areas and heaths, particularly areas with sandy soil"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Solitary, bright yellow flowerheads above purple-tipped bracts. Leaves "
+"growing in a rosette at the base, lance-like with wavy edges, blunted ends "
+"and bearing small hairs"
+msgstr ""
+
+# Species-description: distribution
+msgid "Dry grassland, wasteland and often the edges of car parks"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Generally pale green in colour, they are mostly distinguished by the "
+"fruiting body cups, which are often raised above the lichen on stalks."
+msgstr ""
+
+# Species-description: distribution
+msgid "Trees, Rocks, Fallen branches"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Palmate leaves with 5 lobes, usually 7-16cm across, slightly toothed "
+"margins. Flowers are green-yellow in colour, and hang in clusters from the "
+"end of branches."
+msgstr ""
+
+# Species-description: distribution
+msgid "Almost everywhere. Woodland and areas of scrub in particular"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Dark green, glossy, oval shaped leaves. Spiky leaves on younger trees, but "
+"these are less common on older ones. Flowers white with 4 petals, occurring "
+"in clusters."
+msgstr ""
+
+# Species-description: distribution
+msgid "Common in woodland and areas of scrub"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Evergreen with blue-green needles, which are often slightly twisted. Needles"
+" grow in pairs. Male flowers grow as small, yellow clusters at the base of "
+"shoots, female flowers are small, reddish-purple and globe shaped, growing "
+"at the tip of shoots"
+msgstr ""
+
+# Species-description: distribution
+msgid "Areas of scrub or heath in particular"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Stubby moss, with stems up to 5cm in length, but usually shorter. Dark green"
+" to dark brown-black when dry. Leaves straight when wet, radiating out in a "
+"star shape"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Pioneer species on recently disturbed ground, but will also grow on fences, "
+"rotten wood and shingle"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Distinctive plantain with pinnate leaves growing in a rosette at the base, "
+"somewhat resembling antlers. Flower spikes yellow-brown with protruding "
+"anthers."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Dry, bare, sandy places, particularly frequently disturbed areas like edges "
+"of paths"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Sharply spined thistle with deeply lobed pinnate leaves. Flowerheads lilac, "
+"2-4cm across and quite puffy, with a spiny ball-like bracts below. Stems "
+"somewhat cottony"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Disturbed ground, particularly verges and field edges, as well as waste "
+"ground."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Thin, thorny stems. Pinnate leaves with toothed margins. Flowers often "
+"large, usually white, pink or red with large, floppy petals which detach "
+"easily."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Usually found in scrub or hedgerows, except Burnet rose (Rosa "
+"pimpinellifolia) which grows in open areas across heath and dunes with short"
+" grass"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Evergreen shrub growing to 2.5m, leaves short, firm spines, stalked towards "
+"the base. Yellow, lipped flowers growing from the base of the spines towards"
+" the end of branches, strongly coconut scented"
+msgstr ""
+
+# Species-description: distribution
+msgid "Heaths and grassland, particularly ungrazed areas"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Carpeting heather, usually growing up to 50cm, occasionally downy in "
+"appearance. Oblong leaves in alternate rows, branching from the main stem. "
+"Flowers pale pink to mauve, growing in spikes at the end of stems."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Anywhere on dunes and heathland, except particularly wet areas, can often be"
+" found dominating large areas"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Short, creeping plant with lobed, pinnate leaves and deep pink, hooked burs "
+"which turn bronze coloured. Small, cream coloured flowers grow on spherical "
+"heads atop upright stalks."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Wet slopes, dunes and grassy areas, forming a dense mat at ground level"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Shrub with dense, dark green, leathery, oval leaves. Blooms large, ranging "
+"from light pink to purple, with open, bell-shaped flowers of 5 petals"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Once rhododendron takes hold, little else can grow because of the dense "
+"canopy, so it is often found in areas of shrub"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Creeping, greeny-yellow plant with fleshy, oval leaves. Flowers with 5 "
+"petals, small and greenish-white with a yellow centre. Flowers solitary and "
+"at the end of stems"
+msgstr ""
+
+# Species-description: distribution
+msgid "Areas of sand and shingle, growing low to the ground"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Small, bushy plant with linear, succulent leaves with sharp, prickly tips. "
+"Solitary green flowers, above leaf-like bracts"
+msgstr ""
+
+# Species-description: distribution
+msgid "Areas of bare sand, "
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Greyish-green, hairless succulent, lobed, pinnate leaves towards the base "
+"and more linear leaves moving up the stem. Flowers with 4 petals, pale lilac"
+" to white in colour"
+msgstr ""
+
+# Species-description: distribution
+msgid "Sandy coastal areas"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Large, trumpet shaped flowers, light pink in colour, with white stripes. "
+"Fleshy, kidney-shaped leaves, with stems creeping along the ground"
+msgstr ""
+
+# Species-description: distribution
+msgid "Bare, sandy areas, growing amongst marram grass"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Green stems and narrow, blade-like leaves. The spikelets, which hold the "
+"flowers, are attached to the stem in an alternating pattern."
+msgstr ""
+
+# Species-description: distribution
+msgid "Roadside verges, rough pastures and waste ground"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"A deciduous bushy shrub. 1m tall – 2m wide. Narrowly-oval, densely-hairy "
+"leaves are grey-green above and silvery beneath and appear after the silvery"
+" catkins that mature to yellow in spring."
+msgstr ""
+
+# Species-description: distribution
+msgid "Sand dunes, acid grassland and heathland including coastal heaths. "
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Hairy, oval, toothed leaves that appear in whorls around the reddish stems. "
+"It produces dense clusters of lilac-pink flowers at the ends of its stems."
+msgstr ""
+
+# Species-description: distribution
+msgid "Freshwater Wetlands, Towns and Gardens"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Leaves are peltate, having a roughly circular shape and frequently a "
+"comparatively long petiole. The flower stems are shorter than the petioles "
+"and bare tiny, pinkish flowers "
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Aquatic weed that spreads out horizontally forming dense mats in shallow "
+"water, mud, or in marshes."
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Selfheal is a low-growing, perennial herb with paired, oval leaves and "
+"bluish or violet flowers that appear in dense, oblong clusters on the top of"
+" its stems. Its purple-tinged seed head remains after flowering"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Short turf of grasslands, uncut grass in woodlands, roadside verges, lawns"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Bog pimpernel is low growing. The flowers are small, pink and cup-shaped "
+"with five petals. The leaves are small, rounded and in pairs along thin wiry"
+" stems."
+msgstr ""
+
+# Species-description: distribution
+msgid "wet, open meadows and fens"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Flowers in heads; usually yellow, but can be orange, red, purple or white. "
+"Leaves pinnate with narrow leaflets, finely haired"
+msgstr ""
+
+# Species-description: distribution
+msgid "Found in open grassland"
 msgstr ""
