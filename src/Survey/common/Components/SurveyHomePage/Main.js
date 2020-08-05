@@ -18,12 +18,39 @@ class Component extends React.Component {
 
     const transect = (sample.attrs.location || {}).name;
 
+    const getMediaCount = model => {
+      let count = model.media.length;
+      if (model.samples) {
+        model.samples.forEach(m => {
+          count += getMediaCount(m);
+        });
+      }
+      if (model.occurrences) {
+        model.occurrences.forEach(m => {
+          count += getMediaCount(m);
+        });
+      }
+
+      return count;
+    };
+    // TODO: remove once the limit is removed
+    const showMaxPhotosWarning = getMediaCount(sample) > 20;
+
     return (
       <Main>
         <IonList lines="full">
           {isDisabled && (
             <MenuNote>
               This record has been uploaded and cannot be updated.
+            </MenuNote>
+          )}
+
+          {showMaxPhotosWarning && (
+            <MenuNote color="danger">
+              This record has exceeded the maximum allowed photos limit (20
+              photos max). You can save this record for later use but cannot
+              upload it to our database right now. We are working to resolve
+              this issue.
             </MenuNote>
           )}
 
