@@ -1,4 +1,5 @@
 .location-photo {
+  .no-image,
   img {
     max-height: 20vh;
     min-height: 20vh;
@@ -6,6 +7,13 @@
     width: 100%;
     object-fit: cover;
     object-position: 0% 66%;
+
+  }
+
+  .no-image{
+    text-align: center;
+    padding: 10%;
+    color: rgba(255, 255, 255, 0.65);
   }
 
   //Ionicons shadow not working

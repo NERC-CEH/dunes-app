@@ -6,6 +6,7 @@ import { IonIcon } from '@ionic/react';
 import config from 'config';
 import { Gallery } from '@apps';
 import { Capacitor } from '@capacitor/core';
+import { Trans as T } from 'react-i18next';
 import './styles.scss';
 
 export default class index extends Component {
@@ -66,16 +67,27 @@ export default class index extends Component {
   }
 
   render() {
+    const imageSrc = this.getUrl();
+
+    const image = imageSrc ? (
+      <img src={imageSrc} />
+    ) : (
+      <div className="no-image">
+        <T>No image available for this location.</T>
+      </div>
+    );
+
     return (
       <>
         {this.getGallery()}
 
         <div
           className="location-photo"
-          onClick={() => this.setState({ showGallery: 1 })}
+          onClick={() => imageSrc && this.setState({ showGallery: 1 })}
         >
           {this.getGallery()}
-          <img src={this.getUrl()} />
+
+          {image}
 
           <IonIcon
             class="photo-zoomin-icon-shadow"

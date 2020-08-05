@@ -1342,3 +1342,7 @@ msgstr "There are no species available for this habitat."
 # App internal error when trying to login
 msgid "No user session refresh token was found"
 msgstr "No user session refresh token was found"
+
+# Location edit page image placeholder
+msgid "No image available for this location."
+msgstr "No image available for this location."
