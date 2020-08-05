@@ -87,7 +87,7 @@ class Component extends React.Component {
 
           <MenuAttrItem
             routerLink={`${match.url}/list`}
-            disabled={isDisabled || !favouriteSite}
+            disabled={isDisabled || !favouriteSite.name}
             value={location.name}
             label="Quadrat group"
             icon={gridOutline}
@@ -97,7 +97,7 @@ class Component extends React.Component {
 
           <MenuAttrItem
             routerLink={`${match.url}/map`}
-            disabled={isDisabled || !favouriteSite || !hasLocation}
+            disabled={isDisabled || !favouriteSite.name || !hasLocation}
             label="Map"
             icon={mapOutline}
             wrapText
