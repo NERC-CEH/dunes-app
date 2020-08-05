@@ -29,6 +29,10 @@ function index() {
 
       <Main>
         <div className="slide-header">
+          <div className="app-home-background">
+            <img src="/images/homePageBackground.jpg" alt="" />
+          </div>
+
           <div className="custom-shape-divider-bottom-1593438501">
             <svg
               data-name="Layer 1"
