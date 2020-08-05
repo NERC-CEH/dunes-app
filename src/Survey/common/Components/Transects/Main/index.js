@@ -6,16 +6,6 @@ import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Main, RadioInput, alert } from '@apps';
 import { Trans as T } from 'react-i18next';
 
-function showNoTransects() {
-  return (
-    <IonList lines="full">
-      <InfoBackgroundMessage>
-        You don't have any transects. Please try to refresh the list.
-      </InfoBackgroundMessage>
-    </IonList>
-  );
-}
-
 function getLocationsItemsList(
   sample,
   locations,
@@ -25,8 +15,15 @@ function getLocationsItemsList(
   const locationsArray = Object.values(locations);
   const hasLocations = !!locationsArray.length;
   if (!hasLocations) {
-    return showNoTransects();
+    return (
+      <IonList lines="full">
+        <InfoBackgroundMessage>
+          You don't have any transects. Please try to refresh the list.
+        </InfoBackgroundMessage>
+      </IonList>
+    );
   }
+
   const currentValue =
     sample.attrs.location && sample.attrs.location.location_id;
 

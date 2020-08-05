@@ -14,6 +14,7 @@ class index extends React.Component {
 
   static propTypes = {
     appModel: PropTypes.object.isRequired,
+    userModel: PropTypes.object.isRequired,
     t: PropTypes.func.isRequired,
   };
 
@@ -33,10 +34,16 @@ class index extends React.Component {
       return;
     }
 
-    const { appModel, t } = this.props;
+    const { userModel, appModel, t } = this.props;
 
     if (!device.isOnline()) {
       warn(t("Sorry, looks like you're offline."));
+      return;
+    }
+
+    const isLoggedIn = !!userModel.attrs.id;
+    if (!isLoggedIn) {
+      warn(t('Please log in to refresh the data.'));
       return;
     }
 

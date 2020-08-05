@@ -1,11 +1,11 @@
 # 
 # Translators:
-# Elen Robert <post@idiom.cymru>, 2020
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Elen Robert <post@idiom.cymru>, 2020\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2020\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/109789/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -530,11 +530,11 @@ msgstr ""
 
 # Semi-fixed dune habitat features
 msgid "No real soil layer."
-msgstr ""
+msgstr "Dim haen go iawn o bridd."
 
 # Fixed dune habitat features
 msgid "Bare sand is only where turf is broken (less than 10%)."
-msgstr ""
+msgstr "Dim ond ble mae toriad yn y glaswellt mae tywod noeth (llai na 10%)."
 
 # Fixed dune habitat features
 msgid "Soil beginning to form."
@@ -558,11 +558,11 @@ msgstr "Ychydig o brysgoed neu goed ar yr wyneb, os o gwbl."
 
 # Dune Slack habitat features
 msgid "Flat, low-lying area."
-msgstr ""
+msgstr "Ardal o dir gwastad ac isel."
 
 # Dune Slack habitat features
 msgid "Usually floods in winter."
-msgstr ""
+msgstr "Yn llenwi â dŵr yn y gaeaf fel arfer."
 
 # Dune Slack habitat features
 msgid "Can be very large."
@@ -672,7 +672,7 @@ msgstr "Arolwg heb ei gwblhau."
 
 # Action sheet label
 msgid "Survey Point"
-msgstr ""
+msgstr "Pwynt Arolwg"
 
 # Action sheet label
 msgid "Start"
@@ -684,11 +684,11 @@ msgstr "Diwedd"
 
 # Survey button
 msgid "Add Point"
-msgstr ""
+msgstr "Ychwanegu Pwynt"
 
 # Section note message inside a survey
 msgid "You have not added any points yet."
-msgstr ""
+msgstr "Dydych chi ddim wedi ychwanegu pwynt eto."
 
 # Credits page section title
 msgid "People"
@@ -789,7 +789,7 @@ msgstr "Dyfnder y dŵr"
 
 # Dunes profile survey information label
 msgid "Choose point type"
-msgstr ""
+msgstr "Dewiswch y math o bwynt"
 
 # Dunes profile survey information label
 msgid "Type"
@@ -825,11 +825,11 @@ msgstr "Llethr i fyny"
 
 # Dunes profile survey section label
 msgid "Recorded Points"
-msgstr ""
+msgstr "Pwyntiau wedi'u Cofnodi"
 
 # Dunes profile survey section label
 msgid "Point Photo"
-msgstr ""
+msgstr "Llun o'r Pwynt"
 
 # Dunes profile point page title
 msgid "start"
@@ -841,7 +841,7 @@ msgstr "diwedd"
 
 # Dunes profile point page title
 msgid "point"
-msgstr ""
+msgstr "pwynt"
 
 # Plant quadrats survey section label
 msgid "Vegetation Cover"
@@ -891,9 +891,17 @@ msgstr "Grŵp cwadrad"
 msgid "To see quadrats please select your site and transect first."
 msgstr "I weld y cwadradau, dewiswch eich safle a'ch trawslun yn gyntaf."
 
-# Plant quadrats survey section message
+# Missing transects data message
 msgid "You don't have any transects. Please try to refresh the list."
 msgstr "Does dim trawsluniau gyda chi. Ceisiwch adnewyddu'r rhestr."
+
+# Missing sites data message
+msgid "You don't have any sites. Please try to refresh the list."
+msgstr ""
+
+# Popup message
+msgid "Please log in to refresh the data."
+msgstr ""
 
 # Plant quadrats survey section message
 msgid "Quadrat"
@@ -1059,11 +1067,11 @@ msgstr ""
 
 # Part of zonation mapping activity
 msgid "Transition"
-msgstr ""
+msgstr "Man trosiannol"
 
 # Part of zonation mapping activity
 msgid "transition"
-msgstr ""
+msgstr "man trosiannol"
 
 # Part of zonation mapping activity
 msgid "Previous Habitat"
@@ -1075,7 +1083,7 @@ msgstr "Cynefin Newydd"
 
 # Part of zonation mapping activity
 msgid "Please specify the distance from previous transition point in meters."
-msgstr ""
+msgstr "Nodwch y pellter o'r pwynt trosiannol blaenorol mewn metrau."
 
 # Part of zonation mapping activity
 msgid "Please specify the new habitat type."
@@ -1111,7 +1119,7 @@ msgstr "Rhowch werth ar gyfer dyfnder y dŵr."
 
 # Warning message
 msgid "Please add at points to the survey."
-msgstr ""
+msgstr "Ychwanegwch bwyntiau at yr arolwg."
 
 # Warning message
 msgid "Please add location."
@@ -1198,7 +1206,7 @@ msgstr "Sbwriel/tipio"
 
 # Part of disturbance page
 msgid "Fires/BBQ remnants"
-msgstr ""
+msgstr "Gweddillion tân/barbeciw"
 
 # Part of disturbance page
 msgid "Other (please add a comment)"
@@ -1246,7 +1254,7 @@ msgstr "Rhestr wedi'i diweddaru."
 
 # Zonation Mapping survey manual
 msgid "Background"
-msgstr ""
+msgstr "Cefndir"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1260,26 +1268,35 @@ msgid ""
 " sand around newly restored/scraped areas or blowouts, scrub encroachment, "
 "and dune slack boundaries."
 msgstr ""
+"Mae dwy nod i'r gweithgaredd hwn. Yn gyntaf, mesur hyd y twyn. Ac yn ail, "
+"cyfuno hynny gyda chofnodi ble mae'r parthau'n newid o un i'r nesaf ar hyd "
+"pob trawslun. Drwy dynnu ffotograffau a nodi lleoliad GPS y mannau "
+"trosiannol rhwng gwahanol barthau o'r system o dwyni tywod bydd hynny'n "
+"helpu i fonitro sut mae'r ffiniau hyn yn newid dros amser. Ystyr trosi yw "
+"newid sydyn neu raddol o un math o gynefin i un arall, er enghraifft, o dwyn"
+" symudol i dwyn lled-sefydlog, neu i gynefinoedd eraill mewn twyn sefydlog, "
+"tywod noeth o amgylch mannau sydd newydd eu hadfer/sgrafellu neu chwythbant,"
+" prysgoed yn ymledu, a ffiniau llaciau twyni."
 
 # Zonation Mapping survey manual
 msgid "Method"
-msgstr ""
+msgstr "Dull"
 
 # Zonation Mapping survey manual
 msgid "When and where to survey"
-msgstr ""
+msgstr "Ble a phryd i gynnal arolwg"
 
 # Zonation Mapping survey manual
 msgid "Equipment"
-msgstr ""
+msgstr "Cyfarpar"
 
 # Zonation Mapping survey manual
 msgid "Navigating to and along the transect"
-msgstr ""
+msgstr "Llywio at y trawslun ac ar ei hud."
 
 # Zonation Mapping survey manual
 msgid "What to record along the transect"
-msgstr ""
+msgstr "Beth i'w gofnodi ar hyd y trawslun"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1287,6 +1304,9 @@ msgid ""
 "fixed transect routes that have been selected at your site. It will take "
 "roughly take between 1 to 3 hours per transect."
 msgstr ""
+"Caiff arolygon parth eu cynnal unwaith y flwyddyn, ym mis Ebrill neu Mai, ar"
+" hyd y llwybrau trawslun sefydlog sydd wedi'u dewis yn eich safle. Yn fras, "
+"bydd angen rhwng 1 a 3 awr ar gyfer pob trawslun."
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1295,6 +1315,10 @@ msgid ""
 "(ideally 50 m or more)</3><4>Marker canes with high visibility tape/ribbon "
 "(suggested minimum 3)</4></1>"
 msgstr ""
+"Ewch â'r canlynol gyda chi:<1><0>Uned law GPS</0><1>Ap ffôn symudol - gyda'r"
+" lleoliadau trawslun wedi'u lawrlwytho ymlaen llaw</1><2>Cwmpawd</2><3>Tâp "
+"mesur hir (50 m neu'n hirach yn ddelfrydol)</3><4>Ffyn marcio gyda "
+"thâp/rhuban llachar (awgrymir 3 o leiaf)</4></1>"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1317,6 +1341,25 @@ msgid ""
 "measure to measure the distance between locations, and record the distance "
 "between zonation transition points.</2></0>"
 msgstr ""
+"<0><0>Gan ddefnyddio'ch uned GPS (a'r ap ffôn symudol), llywiwch at bwynt "
+"cyntaf y trawslun, a fydd wedi'i farcio gan bostyn. Gellir gweld y cyfeirnod"
+" grid ar y ffurflen sy'n disgrifio'r trawslun, neu'r pwynt cychwynnol sydd "
+"wedi'i ddisgrifio ar yr ap.</0><1>Defnyddiwch y cyfeirnod grid ar gyfer "
+"diwedd y trawslun a'ch cwmpawd (a'ch ap ffôn symudol) i lywio ar hyd y "
+"trawslun. Gall y 3 ffon farcio eich helpu i gadw at y trawslun. Rhowch y "
+"ffon farcio gyntaf wrth y pwynt cychwynnol. Gan ddilyn y cyfeiriant a roddir"
+" ar gyfer y trawslun, llywiwch ar hyd y trawslun am tua 50 metr a gosod yr "
+"ail ffon farcio. Wedyn gall rhywun sy'n sefyll wrth y ffon farcio gyntaf, "
+"gan ddal y cwmpawd, roi lleoliad y drydedd ffon farcio i'w gosod 50m arall "
+"ar hyd y trawslun. Pan fo'r 3 ffon wedi'u halinio, cerddwch yn ôl at y ffon "
+"gyntaf a dechrau cofnodi'r mannau trosiannol. Gellir tynnu'r ffon farcio "
+"gyntaf ac wedyn yr ail, a gellir ailadrodd y broses o'r drydedd ffon i symud"
+" ar hyd y trawslun. Efallai bydd rhai trawsluniau yn fyrrach na 100m. "
+"Addaswch y dull os oes angen i sicrhau y gallwch weld yn glir rhwng y ffyn "
+"marcio. Yn achos trawsluniau sy'n gorffen ar y traeth, bydd y pwynt olaf ar "
+"y traeth ei hun.</1><2>Defnyddiwch y tâp mesur i fesur y pellter rhwng "
+"lleoliadau, a chofnodwch y pellter rhwng pwyntiau trosiannol "
+"parthau.</2></0>"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1346,6 +1389,31 @@ msgid ""
 " point of the transect for transects leading onto the shore should be "
 "approximately 5 m seawards from the edge of the strandline.</4></1></6></0>"
 msgstr ""
+"<0><0>Wrth i chi gerdded ar hyd y trawslun, defnyddiwch y canllaw ar barthau"
+" twyni tywod i asesu ym mha barth yr ydych chi (Ffigur 1). Wrth i chi symud "
+"o un parth i'r nesaf, cofnodwch y cyfeirnod grid o'ch uned GPS (os ydych "
+"chi'n defnyddio'r ffurflen cofnodi â llaw), ynghyd ag enwau'r parthau rydych"
+" chi'n symud rhyngddynt . Bydd yr ap yn eich arwain drwy hyn wrth i chi fynd"
+" i mewn i bwynt trosiannol newydd.</0><1></1><2>Ffigur 1. Diagram o barthau "
+"mewn system twyni tywod.</2><br/><4>Cofnodwch y pellter o'r pwynt trosiannol"
+" diwethaf, mewn metrau ac i'r 10 cm agosaf. Wrth bob pwynt trosiannol, "
+"tynnwch ddau ffotograff ar ongl sgwâr i gyfeiriad y trawslun (un i'r chwith,"
+" ac un i'r dde). Ar y ffurflen cofnodi â llaw, nodwch yr amser y tynnwyd y "
+"lluniau hyn fel y gellir eu hadnabod a'u storio'n gywir. Ar yr ap, caiff "
+"amser y ffotograffau eu cofnodi'n ddiofyn.</5><6>Nodiadau:<1><0>Efallai na "
+"fydd y mannau trosi rhwng gwahanol barthau yn amlwg, ond dylech nodi'r pwynt"
+" ble rydych chi'n teimlo bod y rhan fwyaf o'r nodweddion wedi symud o un "
+"math o barth i un arall.</0><1>Mae'n bosibl y byddwch hefyd yn symud o un "
+"math o barth i un arall, ac yn ôl wedyn – dylid nodi pob achos o drosi ar y "
+"ffurflen. Gellir ystyried unrhyw beth sy'n fwy na 2 fetr yn barth "
+"newydd.</1><2>Ar dywod rhydd iawn ar dwyn serth, efallai y bydd angen "
+"cerdded rai metrau oddi wrth y llinell uniongyrchol er mwyn osgoi tarfu ar y"
+" twyn, ond ewch yn ôl at y llinell uniongyrchol i gymryd y mesuriad "
+"nesaf.</2><3>Mae'n bosibl y bydd y pwynt terfynol ar gyfer rhai trawsluniau "
+"yn ffin gyda phrysgoed neu goetir – yn yr achosion hyn, mesurwch hyd at ble "
+"mae'r prysgoed/coetir yn ffurfio llinell gymharol ddi-dor (nid llwyni neu "
+"goed unigol). Yn achos trawsluniau sy'n arwain at y lan, dylai pwynt "
+"terfynol y trawslun fod tua 5 m tuag at y môr o ymyl y lan.</4></1></6></0>"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1354,14 +1422,18 @@ msgid ""
 "how the morphology and vegetation composition of sites are changing over "
 "time."
 msgstr ""
+"Nod yr arolwg hwn yw datblygu cofnod gweledol o'r system twyni tywod gan "
+"ddefnyddio ffotograffau pwynt sefydlog. Bydd hyn yn caniatáu gwneud "
+"asesiadau o sut mae morffoleg safleoedd a chyfansoddiad eu llystyfiant yn "
+"newid dros amser."
 
 # Zonation Mapping survey manual
 msgid "Navigating to the photography points"
-msgstr ""
+msgstr "Llywio at y pwyntiau ffotograff"
 
 # Zonation Mapping survey manual
 msgid "What to record"
-msgstr ""
+msgstr "Beth i'w gofnodi"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1377,6 +1449,17 @@ msgid ""
 "was taken on the recording form so that it can be identified and stored "
 "correctly. This will be recorded automatically on the app.</1></0>"
 msgstr ""
+"<0><0>Tynnwch lun wrth bob pwynt ffotograff. Y peth pwysig yw tynnu'r llun "
+"fel ei fod yn cyd-fynd â lleoliad y ffotograff gwreiddiol (gweler y rhestr o"
+" leoliadau, neu'r ap) er mwyn gallu cymharu'n uniongyrchol. I'ch helpu i "
+"wneud hyn:<1><0>Dylid tynnu pop llun yn y cyfeiriad a nodir (wedi'i alinio "
+"â'r llun cynorthwyol)</0><1>Tynnwch y llun ar lefel y "
+"llygad</1><2>Cyfeiriwch yn ôl at y ffotograffau a ddangosir yn y ffurflen "
+"disgrifio trawslun, neu ar yr ap. Os oes nodweddion cyfeirio defnyddiol "
+"(e.e. coed, adeiladau), sicrhewch bod y rhain yn yr un lle yn eich "
+"ffotograff newydd.</2></1></0><1>Ar gyfer pob ffotograff, cofnodwch yr amser"
+" y tynnwyd y llun ar y ffurflen gofnodi er mwyn gallu ei adnabod a'i storio "
+"yn gywir. Caiff hyn ei gofnodi'n ddiofyn ar yr ap.</1></0>"
 
 # Dunes Profile survey manual
 msgid ""
@@ -1387,6 +1470,12 @@ msgid ""
 "sand dunes is changing over time and how much dynamism there is in the "
 "system."
 msgstr ""
+"Nod y gweithgaredd hwn yw creu proffil uchder o fannau allweddol o "
+"ddiddordeb yn y system twyni tywod. Mae'n debygol y bydd y rhain yn "
+"canolbwyntio ar dwyni sy'n naturiol symudol, chwythbantau a mannau wedi'u "
+"rheoli neu eu hadfywio sydd wedi creu tywod noeth. Wedyn gellir defnyddio "
+"hyn i archwilio sut mae proffil uchder y twyni tywod yn newid dros amser a "
+"pha mor ddeinamig yw'r system."
 
 # Dunes Profile survey manual
 msgid ""
@@ -1523,7 +1612,7 @@ msgstr ""
 
 # Plant-Quadrat survey manual
 msgid "What to record in the quadrat"
-msgstr ""
+msgstr "Beth i'w gofnodi yn y cwadrad."
 
 # Plant-Quadrat survey manual
 msgid "Vegetation cover"
@@ -1531,11 +1620,11 @@ msgstr ""
 
 # Plant-Quadrat survey manual
 msgid "Vegetation height"
-msgstr ""
+msgstr "Uchder y llystyfiant"
 
 # Plant-Quadrat survey manual
 msgid "Health indicator species and nitrogen indicator species"
-msgstr ""
+msgstr "Rhywogaethau dynodi iechyd a rhywogaethau dynodi nitrogen"
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -1700,7 +1789,7 @@ msgstr ""
 
 # Disturbance survey manual
 msgid "Disturbance can be recorded at any time, anywhere on the site."
-msgstr ""
+msgstr "Gellir cofnodi tarfiad unrhyw bryd, unrhyw le ar y safle."
 
 # Disturbance survey manual
 msgid ""
@@ -1730,4 +1819,20 @@ msgid ""
 "like car tyres, etc. should be recorded.</3><4>Any other aspects can be "
 "recorded using the ‘Other’ section on the form or on the app.</4></1>Please "
 "also take a photo if you can."
+msgstr ""
+
+# Slider message for cover
+msgid "Please specify the % of the cover."
+msgstr ""
+
+# Message when the user opens a saved record.
+msgid "This record has been uploaded and cannot be updated."
+msgstr "Mae'r cofnod hwn wedi'i gyflwyno ac ni ellir ei ddiweddaru."
+
+# Quadrat survey message for certain habitats.
+msgid "There are no species available for this habitat."
+msgstr "Does dim un rhywogaeth ar gael ar gyfer y cynefin hwn."
+
+# App internal error when trying to login
+msgid "No user session refresh token was found"
 msgstr ""

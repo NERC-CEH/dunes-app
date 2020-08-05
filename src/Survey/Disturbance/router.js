@@ -26,7 +26,7 @@ const routes = [
   ],
   [
     `${baseURL}/:smpId/edit/sites`,
-    params => <Sites appModel={appModel} {...params} />,
+    params => <Sites appModel={appModel} userModel={userModel} {...params} />,
   ],
   [
     `${baseURL}/:smpId/edit/location`,

@@ -1,10 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
+import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Main, RadioInput } from '@apps';
+import { IonList } from '@ionic/react';
 
 function Sites({ appModel, onSiteSelect }) {
   const { favouriteSite, sites } = appModel.attrs;
+
+  const hasData = !!sites.length;
+  if (!hasData) {
+    return (
+      <Main>
+        <IonList lines="full">
+          <InfoBackgroundMessage>
+            You don't have any sites. Please try to refresh the list.
+          </InfoBackgroundMessage>
+        </IonList>
+      </Main>
+    );
+  }
 
   const options = sites.map(site => {
     return {
