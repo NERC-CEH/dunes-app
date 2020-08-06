@@ -77,6 +77,10 @@ class index extends React.Component {
     }
   };
 
+  cancelSelectedLocation = () => {
+    this.context.goBack();
+  };
+
   render() {
     const refreshButton = (
       <IonButton onClick={this.refreshData}>
@@ -91,7 +95,11 @@ class index extends React.Component {
           rightSlot={refreshButton}
           defaultHref="/home/user-surveys"
         />
-        <Main onSiteSelect={this.onSiteSelect} {...this.props} />
+        <Main
+          onSiteSelect={this.onSiteSelect}
+          cancelSelectedLocation={this.cancelSelectedLocation}
+          {...this.props}
+        />
       </Page>
     );
   }
