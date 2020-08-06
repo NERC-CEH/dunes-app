@@ -75,7 +75,7 @@ const fixedLocationSchema = Yup.object().shape({
 });
 
 export const verifyLocationSchema = Yup.mixed().test(
-  'area',
+  'location',
   'Please select your location.',
   val => {
     if (!val) {

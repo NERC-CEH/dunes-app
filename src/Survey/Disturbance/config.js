@@ -22,7 +22,9 @@ const survey = {
 
     location: {
       id: 'entered_sref',
-      values(location) {
+      values(location, submission, sample) {
+        submission.fields.location_id = sample.metadata.site.location_id; // eslint-disable-line
+
         return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
           location.longitude
         ).toFixed(7)}`;
@@ -60,16 +62,19 @@ const survey = {
     },
   },
 
-  verify(attrs) {
+  verify(attrs, sample) {
     try {
-      const transectSchema = Yup.object().shape({
-        location: Yup.object().shape({
-          latitude: Yup.number().required(),
-          longitude: Yup.number().required(),
-        }),
-      });
+      Yup.object()
+        .shape({
+          location_id: Yup.number().required('Please select your site.'),
+        })
+        .validateSync(sample.metadata.site, { abortEarly: false });
 
-      transectSchema.validateSync(attrs, { abortEarly: false });
+      Yup.object()
+        .shape({
+          latitude: Yup.number().required('Please select your location.'),
+        })
+        .validateSync(attrs.location, { abortEarly: false });
     } catch (attrError) {
       return attrError;
     }
