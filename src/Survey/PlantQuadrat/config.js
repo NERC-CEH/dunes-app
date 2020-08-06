@@ -20,7 +20,7 @@ function addRelativeSpeciesAsOccurrenes(sample, habitat, Occurrence, sp) {
   };
 
   const habitatMapping = {
-    Standline: 'strandline_embryo_mobile_dune',
+    Strandline: 'strandline_embryo_mobile_dune',
     'Embryo Dune': 'strandline_embryo_mobile_dune',
     'Mobile Dune': 'strandline_embryo_mobile_dune',
     'Fixed Dune': 'fixed_semi_fixed_dune',
