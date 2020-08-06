@@ -133,13 +133,21 @@ const survey = {
     },
   },
 
-  verify(attrs) {
+  verify(attrs, sample) {
     try {
       const transectSchema = Yup.object().shape({
         location: verifyLocationSchema,
       });
 
       transectSchema.validateSync(attrs, { abortEarly: false });
+
+      Yup.mixed()
+        .test(
+          'points',
+          'Please add at points to the survey.',
+          () => sample.samples.length
+        )
+        .validateSync();
     } catch (attrError) {
       return attrError;
     }
