@@ -30,7 +30,7 @@ function onToggle(appModel, setting, checked) {
   appModel.save();
 }
 
-async function clearCache() {
+async function clearCache(appModel) {
   if (!Capacitor.isNative) {
     return;
   }
@@ -43,6 +43,8 @@ async function clearCache() {
   } catch (e) {
     // silent
   }
+  appModel.attrs.locations = []; // eslint-disable-line no-param-reassign
+  await appModel.save();
 
   success(t('Cache was cleared.'));
 }
@@ -90,7 +92,7 @@ const Container = observer(({ saveSamples, appModel, userModel, t }) => {
   });
 
   const onClearCache = async () => {
-    await clearCache();
+    await clearCache(appModel);
     setCache(0);
   };
 
