@@ -28,8 +28,12 @@ class AppModel extends Model {
     return this.save();
   }
 
-  async updateLocations() {
-    const siteId = this.attrs.favouriteSite.location_id;
+  async updateLocations(site) {
+    if (!site) {
+      return;
+    }
+
+    const siteId = site.location_id;
     const options = {
       url: `${config.backend.url}/api/v2/reports?report=projects/dunescapes/locations_list_for_app.xml&parent_id=${siteId}`,
       headers: {

@@ -57,7 +57,7 @@ class index extends React.Component {
       return;
     }
 
-    const { userModel, appModel, t } = this.props;
+    const { sample, userModel, appModel, t } = this.props;
 
     if (!device.isOnline()) {
       warn(t("Sorry, looks like you're offline."));
@@ -79,7 +79,7 @@ class index extends React.Component {
     });
 
     try {
-      await appModel.updateLocations();
+      await appModel.updateLocations(sample.metadata.site);
 
       await loader.show({
         message: `${t('Please wait...')}<br/><small>${t(
