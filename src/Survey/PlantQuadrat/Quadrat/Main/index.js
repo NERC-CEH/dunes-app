@@ -128,6 +128,7 @@ class Component extends React.Component {
             icon={flowerIcon}
             value={`${healthSpeciesCount}`}
             wrapText
+            skipValueTranslation
           />
 
           <MenuAttrItem
@@ -136,6 +137,7 @@ class Component extends React.Component {
             icon={flowerIcon}
             value={`${nitrogenSpeciesCount}`}
             wrapText
+            skipValueTranslation
           />
 
           <IonItemDivider>
