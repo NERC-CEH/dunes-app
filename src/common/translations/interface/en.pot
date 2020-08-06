@@ -1694,3 +1694,7 @@ msgstr "Flowers in heads; usually yellow, but can be orange, red, purple or whit
 # Species-description: distribution
 msgid "Found in open grassland"
 msgstr "Found in open grassland"
+
+# Restore password alert title 
+msgid "We've sent an email to you"
+msgstr "We've sent an email to you"
