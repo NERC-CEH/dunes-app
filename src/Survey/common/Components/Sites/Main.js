@@ -51,7 +51,7 @@ class Sites extends React.Component {
     } = this.props;
     const { sites } = appModel.attrs;
 
-    if (sample.metadata.site) {
+    if (sample.metadata.site && sample.metadata.site.location_id) {
       const change = await showChangeLocationConfirmationDialog();
 
       if (!change) {
