@@ -1,7 +1,6 @@
 /** ****************************************************************************
  * App model. Persistent.
  **************************************************************************** */
-import Log from 'helpers/log';
 import { Model } from '@apps';
 import config from 'config';
 import userModel from 'userModel';
@@ -97,8 +96,7 @@ class AppModel extends Model {
   }
 }
 
-Log('AppModel: initializing');
-const appModel = new AppModel(genericStore, 'app', {
+const defaults = {
   showedWelcome: false,
   language: null,
   useTraining: false,
@@ -115,6 +113,8 @@ const appModel = new AppModel(genericStore, 'app', {
 
   sites: [],
   locations: [],
-});
+};
+
+const appModel = new AppModel(genericStore, 'app', defaults);
 
 export { appModel as default, AppModel };
