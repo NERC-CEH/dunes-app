@@ -185,7 +185,7 @@ const survey = {
         },
         nitrogen: {
           id: 840,
-          label: 'Health',
+          label: 'Nitrogen',
           type: 'slider',
           info: 'Please specify the % of the cover.',
           displayValueParse: value => `${value} %`,
