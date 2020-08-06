@@ -10,7 +10,7 @@ function setLatLong(location) {
       .split(' ')
       .map(parseFloat);
 
-    const gridRef = locationToGrid({
+    const gridref = locationToGrid({
       accurracy: 1,
       latitude,
       longitude,
@@ -18,7 +18,7 @@ function setLatLong(location) {
 
     location.latitude = latitude; // eslint-disable-line
     location.longitude = longitude; // eslint-disable-line
-    location.gridRef = gridRef; // eslint-disable-line
+    location.gridref = gridref; // eslint-disable-line
     return;
   }
 
