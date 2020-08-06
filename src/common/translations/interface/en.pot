@@ -1698,3 +1698,15 @@ msgstr "Found in open grassland"
 # Restore password alert title 
 msgid "We've sent an email to you"
 msgstr "We've sent an email to you"
+
+# Part of Clear Cache 
+msgid "Clear Cache"
+msgstr "Clear Cache"
+
+# Part of Clear Cache 
+msgid "This clears the locally cached location images."
+msgstr "This clears the locally cached location images."
+
+# Part of Clear Cache 
+msgid "Cache was cleared."
+msgstr "Cache was cleared."
