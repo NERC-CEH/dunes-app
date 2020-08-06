@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "sortId": 23,
     "commonName": "Kidney vetch",
     "scientificName": "Anthylis vulneraria",
     "description": "Flowers in heads; usually yellow, but can be orange, red, purple or white. Leaves pinnate with narrow leaflets, finely haired",
@@ -20,6 +21,7 @@
   },
   {
     "id": 2,
+    "sortId": 19,
     "commonName": "Harebell",
     "scientificName": "Campanula rotundifolia",
     "description": "Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves roundish with a few teeth, upper leaves narrow, untoothed and unstalked",
@@ -39,6 +41,7 @@
   },
   {
     "id": 3,
+    "sortId": 1,
     "commonName": "Biting stonecrop",
     "scientificName": "Sedum acre",
     "description": "Flowers bright yellow, 5 petals and star-shaped, found singularly at the end of stalks. Leaves cylindrical, reddish to green.",
@@ -58,6 +61,7 @@
   },
   {
     "id": 4,
+    "sortId": 12,
     "commonName": "Devil’s bit scabious",
     "scientificName": "Succisa pratensis",
     "description": "Flowers dark blue-purple, sometimes pink, in rounded heads. Leaves elliptical, untoothed and often stalked",
@@ -77,6 +81,7 @@
   },
   {
     "id": 5,
+    "sortId": 18,
     "commonName": "Hare’s foot clover",
     "scientificName": "Trifolium arvense",
     "description": "Flowers whitish or pale pink, flower heads stalked and egg-shaped, distinctively covered in hairs. Trefoil leaves, narrow, oval leaflets with short hairs",
@@ -96,6 +101,7 @@
   },
   {
     "id": 6,
+    "sortId": 6,
     "commonName": "Cocksfoot",
     "scientificName": "Dactylis glomerata",
     "description": "Tufted, triangular flowerhead made of clumps of flowers. Mostly green, with purple-red ends. Leaves grey-green.",
@@ -115,6 +121,7 @@
   },
   {
     "id": 7,
+    "sortId": 40,
     "commonName": "Silverweed",
     "scientificName": "Potentilla anserina",
     "description": "Flowers yellow, 5 petals, at the end of stems. Leaves pinnate, toothed and often silvery in colour.",
@@ -134,6 +141,7 @@
   },
   {
     "id": 8,
+    "sortId": 46,
     "commonName": "White clover",
     "scientificName": "Trifolium repens",
     "description": "Flower white, in globe-shaped heads, occasionally pale pink. Trefoil leaves with rounded leaflets, often with white markings",
@@ -153,6 +161,7 @@
   },
   {
     "id": 9,
+    "sortId": 11,
     "commonName": "Curled dock",
     "scientificName": "rumex crispus",
     "description": "Flower heads dense, flowers green to red in colour. Leaves long and narrow, with strongly waved margins. Often pointed.",
@@ -172,6 +181,7 @@
   },
   {
     "id": 10,
+    "sortId": 9,
     "commonName": "Creeping thistle",
     "scientificName": "Cirsium arvense",
     "description": "Lilac flowers, in clusters, flowerheads sometimes branched. Bracts purpleish in colour. Leaves pinnately lobed, sometimes cottony on the underside, stems spineless.",
@@ -191,6 +201,7 @@
   },
   {
     "id": 11,
+    "sortId": 41,
     "commonName": "Sow-thistle",
     "scientificName": "Sonchus spp.",
     "description": "Flowerheds yellow and clustered. Leaves long and pinnately lobed with soft, spiny margins.",
@@ -210,6 +221,7 @@
   },
   {
     "id": 12,
+    "sortId": 28,
     "commonName": "Mossy stonecrop",
     "scientificName": "Crassula tillea",
     "description": "Low, creeping, moss-like plant with opposing pairs of fleshy, cylindrical leaves. Leaves red towards the base of stems, turning to green towards the tips. White flowers, usually with 3 petals, occasionally 4",
@@ -220,6 +232,7 @@
   },
   {
     "id": 13,
+    "sortId": 14,
     "commonName": "Early hair-grass",
     "scientificName": "Aira praecox",
     "description": "Slender grass, up to 30cm tall. Bristle-like grey-green leaves. ",
@@ -239,6 +252,7 @@
   },
   {
     "id": 14,
+    "sortId": 24,
     "commonName": "Lesser cudweed",
     "scientificName": "Filago minima",
     "description": "White-tinged red flowerheads, which can also appear yellow. Star-like flowers in clusters at top of plant. Leaves small and pointed, held close to the stem, and with silvery hairs.",
@@ -258,6 +272,7 @@
   },
   {
     "id": 15,
+    "sortId": 16,
     "commonName": "Field woodrush",
     "scientificName": "Luzula campestris",
     "description": "Short, tuft-forming rush. Grass-like leaves, fringed with long, white hairs. Flowers brown, forming rounded clusters towards the top of stems",
@@ -277,6 +292,7 @@
   },
   {
     "id": 16,
+    "sortId": 13,
     "commonName": "Dune fescue",
     "scientificName": "Vulpia fasciculata",
     "description": "Dense, upright flowerheads, with all flowers growing from one side. Red-tipped green, changing to orange-brown when mature. Simple, broad leaves",
@@ -296,6 +312,7 @@
   },
   {
     "id": 17,
+    "sortId": 17,
     "commonName": "Greater plantain",
     "scientificName": "Plantago major",
     "description": "Flowers greenish-yellow to pale brown, in tall, narrow stalks. Leaves broad, pointed ovals with thin stems down to base.",
@@ -315,6 +332,7 @@
   },
   {
     "id": 18,
+    "sortId": 5,
     "commonName": "Cleavers",
     "scientificName": "Galium aparine",
     "description": "Long, thin leaves, growing in clusters of 6-8 around the stem, coated in small, sticky hooks which attach to fur or clothing. Small, dull white flowers with 4 petals, growing on stalks from the base of the leaves. ",
@@ -334,6 +352,7 @@
   },
   {
     "id": 19,
+    "sortId": 26,
     "commonName": "Marram",
     "scientificName": "Ammophila arenaria",
     "description": "Leaves glossy, curled and cylindrical but can be unrolled. Tall and pointed. Flower spikes densely packed, golden to light brown in colour",
@@ -352,6 +371,7 @@
   },
   {
     "id": 20,
+    "sortId": 33,
     "commonName": "Sand sedge",
     "scientificName": "Carex arenaria",
     "description": "Thin, wiry leaves, growing up to 35cm tall. Flower spikes with pale brown spikelets, carrying flowers in dense clusters",
@@ -370,6 +390,7 @@
   },
   {
     "id": 21,
+    "sortId": 39,
     "commonName": "Sheep’s bit",
     "scientificName": "Jasione montana",
     "description": "Blue flowers in globe-shaped heads with narrow petals. Somewhat scruffy looking. Leaves oblong and narrow, sometimes wavy-edged and hairy",
@@ -388,6 +409,7 @@
   },
   {
     "id": 22,
+    "sortId": 7,
     "commonName": "Common cat’s-ear",
     "scientificName": "Hypochaeris radicata",
     "description": "Solitary, bright yellow flowerheads above purple-tipped bracts. Leaves growing in a rosette at the base, lance-like with wavy edges, blunted ends and bearing small hairs",
@@ -407,6 +429,7 @@
   },
   {
     "id": 23,
+    "sortId": 4,
     "commonName": "Cladonia lichens",
     "scientificName": "Cladonia spp.",
     "description": "Generally pale green in colour, they are mostly distinguished by the fruiting body cups, which are often raised above the lichen on stalks.",
@@ -426,6 +449,7 @@
   },
   {
     "id": 24,
+    "sortId": 22,
     "commonName": "Juniper haircap moss",
     "scientificName": "Polytrichum juniperinum",
     "description": "Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves narrow, light green but tipped with red. Leaves radiating from central stem in a star shape",
@@ -437,6 +461,7 @@
   },
   {
     "id": 25,
+    "sortId": 44,
     "commonName": "Sycamore",
     "scientificName": "Acer pseudoplatanus",
     "description": "Palmate leaves with 5 lobes, usually 7-16cm across, slightly toothed margins. Flowers are green-yellow in colour, and hang in clusters from the end of branches.",
@@ -456,6 +481,7 @@
   },
   {
     "id": 26,
+    "sortId": 21,
     "commonName": "Holly",
     "scientificName": "Ilex aquifolium",
     "description": "Dark green, glossy, oval shaped leaves. Spiky leaves on younger trees, but these are less common on older ones. Flowers white with 4 petals, occurring in clusters.",
@@ -474,6 +500,7 @@
   },
   {
     "id": 27,
+    "sortId": 34,
     "commonName": "Scots pine",
     "scientificName": "Pinus sylvestris",
     "description": "Evergreen with blue-green needles, which are often slightly twisted. Needles grow in pairs. Male flowers grow as small, yellow clusters at the base of shoots, female flowers are small, reddish-purple and globe shaped, growing at the tip of shoots",
@@ -493,6 +520,7 @@
   },
   {
     "id": 28,
+    "sortId": 20,
     "commonName": "Heath star moss",
     "scientificName": "Campylopus introflexus",
     "description": "Stubby moss, with stems up to 5cm in length, but usually shorter. Dark green to dark brown-black when dry. Leaves straight when wet, radiating out in a star shape",
@@ -510,6 +538,7 @@
   },
   {
     "id": 29,
+    "sortId": 3,
     "commonName": "Buck’s horn plantain",
     "scientificName": "Plantago coronopus",
     "description": "Distinctive plantain with pinnate leaves growing in a rosette at the base, somewhat resembling antlers. Flower spikes yellow-brown with protruding anthers.",
@@ -529,6 +558,7 @@
   },
   {
     "id": 30,
+    "sortId": 43,
     "commonName": "Squirrel-tail fescue",
     "scientificName": "Vulpia bromoides",
     "description": "Very thin leaves, rolling in at the margins, growing up to 40cm tall. Straw coloured when mature. Erect flowerheads with flowers along one side, giving a bushy appearance",
@@ -539,6 +569,7 @@
   },
   {
     "id": 31,
+    "sortId": 42,
     "commonName": "Spear thistle",
     "scientificName": "Cirsium vulgare",
     "description": "Sharply spined thistle with deeply lobed pinnate leaves. Flowerheads lilac, 2-4cm across and quite puffy, with a spiny ball-like bracts below. Stems somewhat cottony",
@@ -556,6 +587,7 @@
   },
   {
     "id": 32,
+    "sortId": 31,
     "commonName": "Rose species",
     "scientificName": "Rosa spp.",
     "description": "Thin, thorny stems. Pinnate leaves with toothed margins. Flowers often large, usually white, pink or red with large, floppy petals which detach easily.",
@@ -573,6 +605,7 @@
   },
   {
     "id": 33,
+    "sortId": 15,
     "commonName": "European gorse",
     "scientificName": "Ulex europus",
     "description": "Evergreen shrub growing to 2.5m, leaves short, firm spines, stalked towards the base. Yellow, lipped flowers growing from the base of the spines towards the end of branches, strongly coconut scented",
@@ -591,6 +624,7 @@
   },
   {
     "id": 34,
+    "sortId": 25,
     "commonName": "Ling",
     "scientificName": "Calluna vulgaris",
     "description": "Carpeting heather, usually growing up to 50cm, occasionally downy in appearance. Oblong leaves in alternate rows, branching from the main stem. Flowers pale pink to mauve, growing in spikes at the end of stems.",
@@ -610,6 +644,7 @@
   },
   {
     "id": 35,
+    "sortId": 29,
     "commonName": "Pirri-pirri burr",
     "scientificName": "Acaena nova-zealandia",
     "description": "Short, creeping plant with lobed, pinnate leaves and deep pink, hooked burs which turn bronze coloured. Small, cream coloured flowers grow on spherical heads atop upright stalks.",
@@ -629,6 +664,7 @@
   },
   {
     "id": 36,
+    "sortId": 30,
     "commonName": "Rhododendron",
     "scientificName": "Rhododendron ponticum",
     "description": "Shrub with dense, dark green, leathery, oval leaves. Blooms large, ranging from light pink to purple, with open, bell-shaped flowers of 5 petals",
@@ -648,6 +684,7 @@
   },
   {
     "id": 37,
+    "sortId": 37,
     "commonName": "Sea sandwort",
     "scientificName": "Honkenya peploides",
     "description": "Creeping, greeny-yellow plant with fleshy, oval leaves. Flowers with 5 petals, small and greenish-white with a yellow centre. Flowers solitary and at the end of stems",
@@ -666,6 +703,7 @@
   },
   {
     "id": 38,
+    "sortId": 8,
     "commonName": "Common saltwort",
     "scientificName": "Salsola kali",
     "description": "Small, bushy plant with linear, succulent leaves with sharp, prickly tips. Solitary green flowers, above leaf-like bracts",
@@ -685,6 +723,7 @@
   },
   {
     "id": 39,
+    "sortId": 36,
     "commonName": "Sea rocket",
     "scientificName": "Cakile maritima",
     "description": "Greyish-green, hairless succulent, lobed, pinnate leaves towards the base and more linear leaves moving up the stem. Flowers with 4 petals, pale lilac to white in colour",
@@ -704,6 +743,7 @@
   },
   {
     "id": 40,
+    "sortId": 35,
     "commonName": "Sea bindweed",
     "scientificName": "Calystegia soldanella",
     "description": "Large, trumpet shaped flowers, light pink in colour, with white stripes. Fleshy, kidney-shaped leaves, with stems creeping along the ground",
@@ -723,6 +763,7 @@
   },
   {
     "id": 41,
+    "sortId": 32,
     "commonName": "Ryegrass",
     "scientificName": "Lolium perenne",
     "description": "Green stems and narrow, blade-like leaves. The spikelets, which hold the flowers, are attached to the stem in an alternating pattern.",
@@ -740,6 +781,7 @@
   },
   {
     "id": 42,
+    "sortId": 10,
     "commonName": "Creeping willow",
     "scientificName": "Salix repens",
     "description": "A deciduous bushy shrub. 1m tall – 2m wide. Narrowly-oval, densely-hairy leaves are grey-green above and silvery beneath and appear after the silvery catkins that mature to yellow in spring.",
@@ -759,6 +801,7 @@
   },
   {
     "id": 43,
+    "sortId": 45,
     "commonName": "Water Mint",
     "scientificName": "Mentha aquatica",
     "description": "Hairy, oval, toothed leaves that appear in whorls around the reddish stems. It produces dense clusters of lilac-pink flowers at the ends of its stems.",
@@ -778,6 +821,7 @@
   },
   {
     "id": 44,
+    "sortId": 27,
     "commonName": "Marsh pennywort",
     "scientificName": "Hydrocotyle vulgaris",
     "description": "Leaves are peltate, having a roughly circular shape and frequently a comparatively long petiole. The flower stems are shorter than the petioles and bare tiny, pinkish flowers ",
@@ -797,6 +841,7 @@
   },
   {
     "id": 45,
+    "sortId": 38,
     "commonName": "Self-heal",
     "scientificName": "Prunella vulgaris",
     "description": "Selfheal is a low-growing, perennial herb with paired, oval leaves and bluish or violet flowers that appear in dense, oblong clusters on the top of its stems. Its purple-tinged seed head remains after flowering",
@@ -816,6 +861,7 @@
   },
   {
     "id": 46,
+    "sortId": 2,
     "commonName": "Bog pimpernel",
     "scientificName": "Anagallis tenella",
     "description": "Bog pimpernel is low growing. The flowers are small, pink and cup-shaped with five petals. The leaves are small, rounded and in pairs along thin wiry stems.",

@@ -72,7 +72,9 @@ class Species extends Component {
   };
 
   getListGrid = () => {
-    const speciesColumns = speciesDescription.map(this.getGridCell);
+    const speciesColumns = speciesDescription
+      .sort((s1, s2) => s1.sortId - s2.sortId)
+      .map(this.getGridCell);
 
     return (
       <IonGrid className="species-list">
@@ -97,6 +99,7 @@ class Species extends Component {
 
         <Main>
           {this.getListGrid()}
+
           <IonModal isOpen={this.state.showModal}>
             <ModalHeader title="Species" onClose={this.hideSpeciesModal} />
             {this.state.showModal && (
