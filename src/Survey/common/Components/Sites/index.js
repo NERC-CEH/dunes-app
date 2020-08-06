@@ -28,7 +28,7 @@ class index extends React.Component {
     await appModel.save();
 
     sample.metadata.site = site;
-    sample.attrs.location = {};
+    delete sample.attrs.location;
     await sample.save();
 
     this.context.goBack();
