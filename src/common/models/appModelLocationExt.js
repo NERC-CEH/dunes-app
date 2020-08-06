@@ -62,6 +62,14 @@ function transformGeometry(geom) {
 export function getLocationGroups(rawLocations) {
   const locationGroups = [];
 
+  // TODO: remove once fixed in the warehouse
+  rawLocations.forEach(loc => {
+    if (loc.habitat && loc.habitat === 'Standline') {
+      console.log('Renaming strandline habitat');
+      loc.habitat = 'Strandline'; // eslint-disable-line
+    }
+  });
+
   const processMedia = media => {
     if (!media) {
       return [];
