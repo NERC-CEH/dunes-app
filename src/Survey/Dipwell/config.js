@@ -1,5 +1,6 @@
-import userModel from 'userModel';
 import * as Yup from 'yup';
+import userModel from 'userModel';
+import appModel from 'appModel';
 import heightIcon from 'common/images/height.svg';
 import dipwellIcon from 'common/images/water-table-depth.svg';
 import {
@@ -110,6 +111,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        site: appModel.attrs.favouriteSite,
       },
       attrs: {
         sample_method_id: 2424,

@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 import userModel from 'userModel';
+import appModel from 'appModel';
 import zonationIcon from 'common/images/destination.svg';
 import distanceIcon from 'common/images/double-arrow.svg';
 import habitatIcon from 'common/images/habitats.svg';
@@ -167,6 +168,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        site: appModel.attrs.favouriteSite,
         ignoreTransectSections: true,
       },
       attrs: {

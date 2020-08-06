@@ -5,8 +5,9 @@ import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Main, RadioInput } from '@apps';
 import { IonList } from '@ionic/react';
 
-function Sites({ appModel, onSiteSelect }) {
-  const { favouriteSite, sites } = appModel.attrs;
+function Sites({ sample, appModel, onSiteSelect }) {
+  const { sites } = appModel.attrs;
+  const { site } = sample.metadata;
 
   const hasData = !!sites.length;
   if (!hasData) {
@@ -21,10 +22,10 @@ function Sites({ appModel, onSiteSelect }) {
     );
   }
 
-  const options = sites.map(site => {
+  const options = sites.map(s => {
     return {
-      label: site.name,
-      value: site.location_id,
+      label: s.name,
+      value: s.location_id,
     };
   });
 
@@ -33,10 +34,12 @@ function Sites({ appModel, onSiteSelect }) {
       <RadioInput
         values={options}
         onChange={selectedId => {
-          const site = sites.find(({ location_id: id }) => selectedId === id);
-          onSiteSelect(site);
+          const selectedSite = sites.find(
+            ({ location_id: id }) => selectedId === id
+          );
+          onSiteSelect(selectedSite);
         }}
-        currentValue={favouriteSite.location_id}
+        currentValue={site.location_id}
         skipTranslation
       />
     </Main>
@@ -44,6 +47,7 @@ function Sites({ appModel, onSiteSelect }) {
 }
 
 Sites.propTypes = {
+  sample: PropTypes.object.isRequired,
   appModel: PropTypes.object.isRequired,
   onSiteSelect: PropTypes.func.isRequired,
 };

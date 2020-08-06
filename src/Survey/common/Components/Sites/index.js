@@ -13,6 +13,7 @@ class index extends React.Component {
   static contextType = NavContext;
 
   static propTypes = {
+    sample: PropTypes.object.isRequired,
     appModel: PropTypes.object.isRequired,
     userModel: PropTypes.object.isRequired,
     t: PropTypes.func.isRequired,
@@ -21,10 +22,14 @@ class index extends React.Component {
   state = { refreshing: false };
 
   onSiteSelect = async site => {
-    const { appModel } = this.props;
+    const { appModel, sample } = this.props;
 
     appModel.attrs.favouriteSite = site;
     await appModel.save();
+
+    sample.metadata.site = site;
+    sample.attrs.location = {};
+    await sample.save();
 
     this.context.goBack();
   };

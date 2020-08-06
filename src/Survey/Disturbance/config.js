@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 import userModel from 'userModel';
+import appModel from 'appModel';
 import disturbance from 'common/images/disturbance.svg';
 import disturbanceBlack from './Home/Main/disturbanceIcon.svg';
 import { dateAttr, commentAttr, surveyorsAttr } from '../common/config';
@@ -88,6 +89,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        site: appModel.attrs.favouriteSite,
       },
 
       attrs: {

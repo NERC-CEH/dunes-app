@@ -14,13 +14,12 @@ class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
-    appModel: PropTypes.object.isRequired,
   };
 
   render() {
-    const { sample, match, appModel } = this.props;
+    const { sample, match } = this.props;
     const isDisabled = sample.isDisabled();
-    const { favouriteSite } = appModel.attrs;
+    const site = sample.metadata.site || {};
     const { disturbance } = sample.attrs;
 
     let disturbanceValue;
@@ -44,7 +43,7 @@ class Component extends React.Component {
           <MenuAttrItem
             routerLink={`${match.url}/sites`}
             disabled={isDisabled}
-            value={favouriteSite.name}
+            value={site.name}
             label="Site"
             icon={locationOutline}
             wrapText

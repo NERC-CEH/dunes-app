@@ -30,7 +30,6 @@ import './styles.scss';
 class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
-    appModel: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
     addLocationPoint: PropTypes.func.isRequired,
     isDisabled: PropTypes.bool,
@@ -190,9 +189,9 @@ class Component extends React.Component {
   };
 
   render() {
-    const { sample, isDisabled, match, appModel } = this.props;
+    const { sample, isDisabled, match } = this.props;
     const { location = {} } = sample.attrs;
-    const { favouriteSite } = appModel.attrs;
+    const site = sample.metadata.site || {};
     const hasLocation = !!location.name;
 
     return (
@@ -201,7 +200,7 @@ class Component extends React.Component {
           <MenuAttrItem
             routerLink={`${match.url}/sites`}
             disabled={isDisabled}
-            value={favouriteSite.name}
+            value={site.name}
             label="Site"
             icon={locationOutline}
             wrapText
@@ -210,7 +209,7 @@ class Component extends React.Component {
 
           <MenuAttrItem
             routerLink={`${match.url}/list`}
-            disabled={isDisabled || !favouriteSite.name}
+            disabled={isDisabled || !site.name}
             value={location.name}
             label="Transect"
             icon={transectIcon}
@@ -220,7 +219,7 @@ class Component extends React.Component {
 
           <MenuAttrItem
             routerLink={`${match.url}/map`}
-            disabled={isDisabled || !favouriteSite.name || !hasLocation}
+            disabled={isDisabled || !site.name || !hasLocation}
             label="Map"
             icon={mapOutline}
             wrapText

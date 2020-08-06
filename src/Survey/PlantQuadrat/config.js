@@ -1,6 +1,7 @@
 import * as Yup from 'yup';
 import { gridOutline } from 'ionicons/icons';
 import userModel from 'userModel';
+import appModel from 'appModel';
 import quadratTransectIcon from 'common/images/quadratTransect.svg';
 import species from 'common/data/species';
 import {
@@ -273,6 +274,7 @@ const survey = {
       metadata: {
         survey: survey.name,
         survey_id: survey.id,
+        site: appModel.attrs.favouriteSite,
       },
       attrs: {
         sample_method_id: 2424,
