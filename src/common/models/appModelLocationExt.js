@@ -48,6 +48,10 @@ function transformGeometry(geom) {
 
   if (geoJSON.type === 'Polygon') {
     geoJSON.coordinates[0] = transformToLatLong(geoJSON.coordinates[0]);
+  } else if (geoJSON.type === 'Point') {
+    // we transform single point into polygon to support start/end point only
+    geoJSON.type = 'Polygon';
+    geoJSON.coordinates = transformToLatLong([geoJSON.coordinates]);
   } else {
     geoJSON.coordinates = transformToLatLong(geoJSON.coordinates);
   }
