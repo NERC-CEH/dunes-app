@@ -53,7 +53,7 @@ const survey = {
         { isPlaceholder: true, label: 'Other' },
         { value: 'Vehicle tracks', id: 17817 }, // dev 17813
         { value: 'Litter/flytipping', id: 17818 }, // dev 17814
-        { value: 'Fires/BBQ remnants', id: -1 },
+        { value: 'Fires/BBQ remnants', id: 17825 },
         { value: 'Other (please add a comment)', id: 17819 }, // dev 17815
       ],
     },
