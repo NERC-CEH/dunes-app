@@ -27,7 +27,7 @@ const isTestEnv = process.env.NODE_ENV === 'test';
 
 const config = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
-  entry: ['index.js', 'vendor.js'],
+  entry: ['index.jsx', 'vendor.js'],
   devtool: 'source-map',
   target: 'web',
 
@@ -52,11 +52,12 @@ const config = {
       appModel: 'common/models/appModel',
       userModel: 'common/models/userModel',
     },
+    extensions: ['.js', '.jsx', '.json'],
   },
   module: {
     rules: [
       {
-        test: /^((?!data\.).)*\.js$/,
+        test: /^((?!data\.).)*\.jsx?$/,
         exclude: /(node_modules|vendor(?!\.js))/,
         loader: 'babel-loader',
       },
