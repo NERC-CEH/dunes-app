@@ -28,7 +28,8 @@ class Component extends React.Component {
 
     const dummyPhotoCounterArray = [...new Array(photoHeight.length)];
     const items = dummyPhotoCounterArray.map((_, index) => {
-      const title = photoAuthor[index] ? `© ${photoAuthor[index]}` : '';
+      const title =
+        !photoAuthor || !photoAuthor[index] ? '' : `© ${photoAuthor[index]}`;
 
       return {
         src: `/images/${species.id}_${index + 1}_image.jpg`,
