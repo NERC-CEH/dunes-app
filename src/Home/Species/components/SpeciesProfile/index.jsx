@@ -133,10 +133,16 @@ class Component extends React.Component {
               <T>Description</T>:
             </h3>
             <T>{species.description}</T>
+
             <h3 className="species-profile-label">
               <T>Distribution</T>:
             </h3>
             <T>{species.distribution}</T>
+
+            <h3 className="species-profile-label">
+              <T>Phenology</T>:
+            </h3>
+            <T>{species.phenology}</T>
           </IonCardContent>
         </Main>
       </>

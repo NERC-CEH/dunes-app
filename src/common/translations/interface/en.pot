@@ -1710,3 +1710,195 @@ msgstr "This clears the locally cached location images."
 # Part of Clear Cache 
 msgid "Cache was cleared."
 msgstr "Cache was cleared."
+
+# Species-description: distribution
+msgid "Leaves: pinnately compound, with three to five leaflets which are elliptical in shape with rough toothed margins. Leaves grow in an opposite leaf arrangement.  Flowers: white in colour, the various stamens are clearly visible and the flowers are in clusters. The flowers are around two centimetres in width. Although they appear to have four petals, they are in fact sepals. Seed clusters which have a feathered appearance and are white-grey in colour. They are called achenes. It is the fruit which gives the plant its other name: 'old man’s beard'."
+msgstr "Leaves: pinnately compound, with three to five leaflets which are elliptical in shape with rough toothed margins. Leaves grow in an opposite leaf arrangement.  Flowers: white in colour, the various stamens are clearly visible and the flowers are in clusters. The flowers are around two centimetres in width. Although they appear to have four petals, they are in fact sepals. Seed clusters which have a feathered appearance and are white-grey in colour. They are called achenes. It is the fruit which gives the plant its other name: 'old man’s beard'."
+
+# Species-description: distribution
+msgid "Coastal"
+msgstr "Coastal"
+
+# Species-description: distribution
+msgid "Hedgerow"
+msgstr "Hedgerow"
+
+# Species-description: distribution
+msgid "Bramble has long, thorny and arching stems and can grow up to two metres or more high,alternate and palmately compound. Each leaf is divided into three or five serrated, short-stalked, oval leaflets. Leaves are dark green on top and pale beneath. Leaf stalks and mid-ribs are prickly,clusters of white or pink flowers appear from late spring to early summer. They are 2–3cm in diameter with five petals and many stamens."
+msgstr "Bramble has long, thorny and arching stems and can grow up to two metres or more high,alternate and palmately compound. Each leaf is divided into three or five serrated, short-stalked, oval leaflets. Leaves are dark green on top and pale beneath. Leaf stalks and mid-ribs are prickly,clusters of white or pink flowers appear from late spring to early summer. They are 2–3cm in diameter with five petals and many stamens."
+
+# Species-description: distribution
+msgid "Woodland, grassland"
+msgstr "Woodland, grassland"
+
+# Species-description: distribution
+msgid "Has yellow, tube-like flowers protruding from an inflated, green calyx. It has serrated leaves with heavy, dark veins, which sprout opposite each other all the way up the stem. Its stems have black spots."
+msgstr "Has yellow, tube-like flowers protruding from an inflated, green calyx. It has serrated leaves with heavy, dark veins, which sprout opposite each other all the way up the stem. Its stems have black spots."
+
+# Species-description: distribution
+msgid "Grassland, farmland"
+msgstr "Grassland, farmland"
+
+# Species-description: distribution
+msgid "Has oval, sharply toothed leaves, and white, violet-like flowers that have purple veins and yellow centres."
+msgstr "Has oval, sharply toothed leaves, and white, violet-like flowers that have purple veins and yellow centres."
+
+# Species-description: distribution
+msgid "Grassland, Heathland and Moorland, Coastal"
+msgstr "Grassland, Heathland and Moorland, Coastal"
+
+# Species-description: distribution
+msgid "Small, narrow leaves that appear in whorls on its angular stems. The stems carry frothy heads of tiny, yellow flowers that appear in dense clusters. "
+msgstr "Small, narrow leaves that appear in whorls on its angular stems. The stems carry frothy heads of tiny, yellow flowers that appear in dense clusters. "
+
+# Species-description: distribution
+msgid "Grassland, heathland and moorland, farmland, coastal, towns and gardens"
+msgstr "Grassland, heathland and moorland, farmland, coastal, towns and gardens"
+
+# Species-description: distribution
+msgid "A large, deciduous shrub that has long, narrow, greyish leaves and small, green flowers. It has bright orange berries."
+msgstr "A large, deciduous shrub that has long, narrow, greyish leaves and small, green flowers. It has bright orange berries."
+
+# Species-description: distribution
+msgid "Coastal, sand dunes"
+msgstr "Coastal, sand dunes"
+
+# Species-description: distribution
+msgid "A common fern growing in dense stands. Large, branched fronds which appear in spring and are green when mature, but die back to brown"
+msgstr "A common fern growing in dense stands. Large, branched fronds which appear in spring and are green when mature, but die back to brown"
+
+# Species-description: distribution
+msgid "Abundant"
+msgstr "Abundant"
+
+# Species-description: distribution
+msgid "A member of the pea family. Yellow flowers that appear in small clusters. They are followed by seed pods that look distinctly like bird's feet or claws, hence the common name. A low-growing plant, its leaves have five leaflets and are downy."
+msgstr "A member of the pea family. Yellow flowers that appear in small clusters. They are followed by seed pods that look distinctly like bird's feet or claws, hence the common name. A low-growing plant, its leaves have five leaflets and are downy."
+
+# Species-description: distribution
+msgid "Grassland, heathland, moorland, sand dunes, rocky habitat, coastal, towns and gardens"
+msgstr "Grassland, heathland, moorland, sand dunes, rocky habitat, coastal, towns and gardens"
+
+# Species-description: distribution
+msgid "A herbaceous perennial flowering plant. 1 to 2 m (3 to 7 ft) tall in the summer and dying down to the ground in winter. Soft green leaves with strongly serrated margins and small, greenish or brownish flowers."
+msgstr "A herbaceous perennial flowering plant. 1 to 2 m (3 to 7 ft) tall in the summer and dying down to the ground in winter. Soft green leaves with strongly serrated margins and small, greenish or brownish flowers."
+
+# Species-description: distribution
+msgid "A relatively tall-growing plant that has clusters of yellow, flattened flower heads, and leaves that are very divided."
+msgstr "A relatively tall-growing plant that has clusters of yellow, flattened flower heads, and leaves that are very divided."
+
+# Species-description: distribution
+msgid "Rounded, blue flower heads. It has silvery-blue leaves with many prickly spikes on their edges."
+msgstr "Rounded, blue flower heads. It has silvery-blue leaves with many prickly spikes on their edges."
+
+# Species-description: distribution
+msgid "Very thin leaves, rolling in at the margins, growing up to 40cm tall. Straw coloured when mature. Erect flowerheads with flowers along one side, giving a bushy appearance"
+msgstr "Very thin leaves, rolling in at the margins, growing up to 40cm tall. Straw coloured when mature. Erect flowerheads with flowers along one side, giving a bushy appearance"
+
+# Species-description: distribution
+msgid "Dry areas, particularly banks, gravelly areas, walls and dry heath"
+msgstr "Dry areas, particularly banks, gravelly areas, walls and dry heath"
+
+# Species-phenology
+msgid "Variable flowering time - early spring to early summer, depending on yearly temperatures"
+msgstr "Variable flowering time - early spring to early summer, depending on yearly temperatures"
+
+# Species-phenology
+msgid "Phenology"
+msgstr "Phenology"
+
+# Species-phenology
+msgid "May - September"
+msgstr "May - September"
+
+# Species-phenology
+msgid "July - September"
+msgstr "July - September"
+
+# Species-phenology
+msgid "Pink flowers are out in June and July"
+msgstr "Pink flowers are out in June and July"
+
+# Species-phenology
+msgid "January - December"
+msgstr "January - December"
+
+# Species-phenology
+msgid "June - September"
+msgstr "June - September"
+
+# Species-phenology
+msgid "May - July"
+msgstr "May - July"
+
+# Species-phenology
+msgid "All year"
+msgstr "All year"
+
+# Species-phenology
+msgid "April - June"
+msgstr "April - June"
+
+# Species-phenology
+msgid "May-September"
+msgstr "May-September"
+
+# Species-phenology
+msgid "June - October"
+msgstr "June - October"
+
+# Species-phenology
+msgid "May - June"
+msgstr "May - June"
+
+# Species-phenology
+msgid "All year round"
+msgstr "All year round"
+
+# Species-phenology
+msgid "May - October"
+msgstr "May - October"
+
+# Species-phenology
+msgid "May - September"
+msgstr "May - September"
+
+# Species-phenology
+msgid "July - October"
+msgstr "July - October"
+
+# Species-phenology
+msgid "Late April - June"
+msgstr "Late April - June"
+
+# Species-phenology
+msgid "January - June"
+msgstr "January - June"
+
+# Species-phenology
+msgid "April - September, although May - July best"
+msgstr "April - September, although May - July best"
+
+# Species-phenology
+msgid "May - August"
+msgstr "May - August"
+
+# Species-phenology
+msgid "Mostly July - September"
+msgstr "Mostly July - September"
+
+# Species-phenology
+msgid "April - August"
+msgstr "April - August"
+
+# Species-phenology
+msgid "April - May"
+msgstr "April - May"
+
+# Species-phenology
+msgid "All year (Can’t find flowering time)"
+msgstr "All year (Can’t find flowering time)"
+
+# Species-phenology
+msgid "January - December"
+msgstr "January - December"
