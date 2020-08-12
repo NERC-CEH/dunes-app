@@ -1238,7 +1238,7 @@ msgstr "Yn newid y lleoliad"
 
 # Changing location popup warning
 msgid ""
-"Warning - This will discard some of the survey informaton you have entered "
+"Warning - This will discard some of the survey information you have entered "
 "so far."
 msgstr ""
 "Rhybudd - Bydd hyn yn diddymu rhywfaint o'r wybodaeth rydych wedi'i rhoi yn "

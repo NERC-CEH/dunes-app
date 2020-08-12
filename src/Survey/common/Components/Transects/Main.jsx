@@ -12,7 +12,7 @@ function showChangeLocationConfirmationDialog() {
       header: 'Changing location',
       message: (
         <T>
-          Warning - This will discard some of the survey informaton you have
+          Warning - This will discard some of the survey information you have
           entered so far.
         </T>
       ),

@@ -1120,8 +1120,8 @@ msgid "Changing location"
 msgstr "Changing location"
 
 # Changing location popup warning
-msgid "Warning - This will discard some of the survey informaton you have entered so far."
-msgstr "Warning - This will discard some of the survey informaton you have entered so far."
+msgid "Warning - This will discard some of the survey information you have entered so far."
+msgstr "Warning - This will discard some of the survey information you have entered so far."
 
 # Missing location group name
 msgid "No group name"
