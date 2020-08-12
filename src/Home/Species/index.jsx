@@ -98,6 +98,16 @@ class Species extends Component {
         </IonHeader>
 
         <Main>
+          <div className="info-message">
+            <p>
+              <T>
+                Explore some of the plant species that live a sand dune habitat.
+                Click on each plant for more details and to see where you might
+                find them
+              </T>
+            </p>
+          </div>
+
           {this.getListGrid()}
 
           <IonModal isOpen={this.state.showModal}>
