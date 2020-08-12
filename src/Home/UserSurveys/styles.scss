@@ -5,4 +5,15 @@
       margin-left: 10px;
     }
   }
+
+  .info-background-message {
+    ion-icon {
+      background: var(--ion-color-primary);
+      padding: 5px;
+      border-radius: 10px;
+      color: white;
+      margin: 0 5px 0 8px;
+      margin-bottom: -7px;
+    }
+  }
 }
