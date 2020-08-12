@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header, Page, Main } from '@apps';
+import { Header, Page, Main, MenuItemModal } from '@apps';
+import { Trans as T } from 'react-i18next';
 import FixedPointPhotographyManual from 'Survey/FixedPhotography/Manual';
 import ZonationMappingManual from 'Survey/ZonationMapping/Manual';
 import DunesProfileManual from 'Survey/DunesProfile/Manual';
@@ -8,27 +9,51 @@ import DipwellManual from 'Survey/Dipwell/Manual';
 import DisturbanceManual from 'Survey/Disturbance/Manual';
 import './styles.scss';
 
-export default () => (
-  <Page id="manual">
-    <Header title="Manual" />
-    <Main class="ion-padding">
-      <FixedPointPhotographyManual.Header />
-      <FixedPointPhotographyManual />
+export default () => {
+  return (
+    <Page id="manual">
+      <Header title="Manual" />
 
-      <ZonationMappingManual.Header />
-      <ZonationMappingManual />
+      <Main class="ion-padding">
+        <div className="info-message">
+          <p>
+            <T>
+              Find out how to conduct each of the activities that you can
+              complete using this app.
+            </T>
+          </p>
+        </div>
 
-      <DunesProfileManual.Header />
-      <DunesProfileManual />
+        <MenuItemModal
+          label="Fixed-point Photography"
+          header="Fixed-point Photography"
+        >
+          <FixedPointPhotographyManual />
+        </MenuItemModal>
 
-      <PlantQuadratRecordingManual.Header />
-      <PlantQuadratRecordingManual />
+        <MenuItemModal label="Zonation Mapping" header="Zonation Mapping">
+          <ZonationMappingManual />
+        </MenuItemModal>
 
-      <DipwellManual.Header />
-      <DipwellManual />
+        <MenuItemModal label="Dunes Profile" header="Dunes Profile">
+          <DunesProfileManual />
+        </MenuItemModal>
 
-      <DisturbanceManual.Header />
-      <DisturbanceManual />
-    </Main>
-  </Page>
-);
+        <MenuItemModal
+          label="Plant Quadrat Recording"
+          header="Plant Quadrat Recording"
+        >
+          <PlantQuadratRecordingManual />
+        </MenuItemModal>
+
+        <MenuItemModal label="Water Table Depth" header="Water Table Depth">
+          <DipwellManual />
+        </MenuItemModal>
+
+        <MenuItemModal label="Disturbance" header="Disturbance">
+          <DisturbanceManual />
+        </MenuItemModal>
+      </Main>
+    </Page>
+  );
+};
