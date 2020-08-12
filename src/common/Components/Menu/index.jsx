@@ -1,4 +1,8 @@
 import React from 'react';
+import appModel from 'appModel';
+import savedSamples from 'savedSamples';
+import config from 'config';
+import { alert } from '@apps';
 import PropTypes from 'prop-types';
 import { withRouter, useLocation } from 'react-router';
 import Log from 'helpers/log';
@@ -20,19 +24,23 @@ import {
   personOutline,
   logOut,
   settingsOutline,
+  openOutline,
+  informationCircleOutline,
 } from 'ionicons/icons';
 import { observer } from 'mobx-react';
 import { Trans as T } from 'react-i18next';
-import { alert } from '@apps';
-import savedSamples from 'savedSamples';
-import appModel from 'appModel';
-import config from 'config';
-import 'common/images/flumens.svg';
 import './styles.scss';
 
 const routes = {
   appPages: [
     { title: 'Home', path: '/home/info', icon: homeOutline },
+
+    {
+      title: 'About',
+      path: '/info/about',
+      icon: informationCircleOutline,
+    },
+
     {
       title: 'Credits',
       path: '/info/credits',
@@ -42,6 +50,11 @@ const routes = {
       title: 'Settings',
       path: '/settings/menu',
       icon: settingsOutline,
+    },
+    {
+      title: 'Project Website',
+      href: config.promotionalWebsiteUrl,
+      icon: openOutline,
     },
   ],
   loggedOutPages: [
@@ -89,12 +102,13 @@ function showLogoutConfirmationDialog(callback) {
 
 function renderMenuRoutes(list, location) {
   return list
-    .filter(route => !!route.path)
+    .filter(route => !!route.path || !!route.href)
     .map(p => (
       <IonMenuToggle key={p.title} auto-hide="false">
         <IonItem
           detail={false}
           routerLink={p.path}
+          href={p.href}
           routerDirection="none"
           className={
             location.pathname.startsWith(p.path) ? 'selected' : undefined
