@@ -3,8 +3,8 @@ import { IonItem, IonLabel } from '@ionic/react';
 import { Header, Page, Main, Section } from '@apps';
 import { Trans as T } from 'react-i18next';
 import habitats from 'common/data/habitats';
+import 'common/images/flumens.svg';
 import './styles.scss';
-import './flumens.png';
 
 const { P, H } = Section;
 
@@ -13,7 +13,6 @@ export default () => (
     <Header title="Credits" />
     <Main class="ion-padding">
       <Section>
-        <H>People</H>
         <P>
           We are very grateful for all the people that helped to create this
           app:
@@ -42,7 +41,11 @@ export default () => (
       </Section>
 
       <Section>
-        <H>App Development</H>
+        <p className="flumens-logo">
+          <a href="https://flumens.io">
+            <img src="/images/flumens.svg" alt="" />
+          </a>
+        </p>
         <P>
           This app was hand crafted with love by{' '}
           <a href="https://flumens.io" style={{ whiteSpace: 'nowrap' }}>
@@ -56,11 +59,7 @@ export default () => (
           </a>
           .
         </P>
-        <p className="flumens-logo">
-          <a href="https://flumens.io">
-            <img src="/images/flumens.png" alt="" />
-          </a>
-        </p>
+    
       </Section>
 
       <Section>
