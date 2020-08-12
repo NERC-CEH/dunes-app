@@ -12,6 +12,7 @@ import {
   IonMenu,
   IonMenuToggle,
   IonCheckbox,
+  IonFooter,
 } from '@ionic/react';
 import {
   homeOutline,
@@ -25,6 +26,8 @@ import { Trans as T } from 'react-i18next';
 import { alert } from '@apps';
 import savedSamples from 'savedSamples';
 import appModel from 'appModel';
+import config from 'config';
+import 'common/images/flumens.svg';
 import './styles.scss';
 
 const routes = {
@@ -160,6 +163,15 @@ const Menu = observer(({ userModel }) => {
             : getRoutes(routes.loggedOutPages)}
         </IonList>
       </IonContent>
+      <IonFooter className="ion-no-border">
+        <div>
+          <a href="https://flumens.io">
+            <img src="/images/flumens.svg" alt="" />
+          </a>
+
+          <p className="app-version">{`App version: v${config.version} (${config.build})`}</p>
+        </div>
+      </IonFooter>
     </IonMenu>
   );
 });

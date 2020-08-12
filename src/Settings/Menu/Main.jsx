@@ -11,8 +11,6 @@ import {
 } from 'ionicons/icons';
 import languages from 'common/config/languages';
 import { alert, Main, Toggle, MenuAttrItem, MenuNote } from '@apps';
-import config from 'config';
-import './styles.scss';
 
 function resetDialog(resetApp) {
   alert({
@@ -124,8 +122,6 @@ class Component extends React.Component {
             <T>Reset</T>
           </IonItem>
         </IonList>
-
-        <p className="app-version">{`v${config.version} (${config.build})`}</p>
       </Main>
     );
   }
