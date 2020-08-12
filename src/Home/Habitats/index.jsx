@@ -96,6 +96,16 @@ class Habitats extends Component {
         </IonHeader>
 
         <Main class="ion-padding">
+          <div className="info-message">
+            <p>
+              <T>
+                Sand dune systems are made up of different habitats, which
+                different animal and plant species are adapted to live in. Click
+                on each habitat type to learn for more.
+              </T>
+            </p>
+          </div>
+
           {this.getListGrid()}
           <IonModal isOpen={this.state.showModal}>
             <ModalHeader

@@ -9,6 +9,10 @@ $cream-white-color: #fffdefd9;
   .habitat-list-item {
     --ion-grid-column-padding: 0;
 
+    &:first-child {
+      margin-top: 5px;
+    }
+
     div.label {
       height: 60vw;
       width: 100%;
