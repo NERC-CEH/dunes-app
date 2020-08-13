@@ -141,9 +141,9 @@ class Component extends React.Component {
             <T>{species.distribution}</T>
 
             <h3 className="species-profile-label">
-              <T>Phenology</T>:
+              <T>Flowering</T>:
             </h3>
-            <T>{species.phenology}</T>
+            <T>{species.flowering}</T>
           </IonCardContent>
         </Main>
       </>
