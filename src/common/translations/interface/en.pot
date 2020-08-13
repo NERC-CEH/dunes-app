@@ -952,8 +952,8 @@ msgid "From monitoring species to taking part in transect or quadrat surveys, ex
 msgstr "From monitoring species to taking part in transect or quadrat surveys, explore the range of citizen science activities in the app which you can get involved in, and share your findings in the app when you next visit your chosen sand dune site."
 
 # About page text 
-msgid "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and the Wildlife Trusts."
-msgstr "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and the Wildlife Trusts."
+msgid "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and The Wildlife Trusts."
+msgstr "Dynamic Dunescapes is a partnership project supported by the National Lottery Heritage Fund and the EU LIFE Programme. Project partners are Natural England, Plantlife, Natural Resources Wales, National Trust and The Wildlife Trusts."
 
 # Part of zonation mapping activity 
 msgid "Transition"
@@ -1911,6 +1911,18 @@ msgstr "All year (Can’t find flowering time)"
 msgid "January - December"
 msgstr "January - December"
 
+# Manual page information message
+msgid "Find out how to conduct each of the activities that you can complete using this app."
+msgstr "Find out how to conduct each of the activities that you can complete using this app."
+
+# Species page information message
+msgid "Explore some of the plant species that live a sand dune habitat. Click on each plant for more details and to see where you might find them"
+msgstr "Explore some of the plant species that live a sand dune habitat. Click on each plant for more details and to see where you might find them"
+
+# Habitats page information message
+msgid "Sand dune systems are made up of different habitats, which different animal and plant species are adapted to live in. Click on each habitat type to learn for more."
+msgstr "Sand dune systems are made up of different habitats, which different animal and plant species are adapted to live in. Click on each habitat type to learn for more."
+
 # Onboarding page 
 msgid "Welcome!"
 msgstr "Welcome!"
@@ -1946,4 +1958,12 @@ msgstr "Start your survey"
 # Onboarding page 
 msgid "Click on the<1></1>button to begin your survey, easily record your findings and upload the results."
 msgstr "Click on the<1></1>button to begin your survey, easily record your findings and upload the results."
+
+# Home page button label 
+msgid "Activities you can do"
+msgstr "Activities you can do"
+
+# Home page label 
+msgid "Press the<1></1> button to start your survey"
+msgstr "Press the<1></1> button to start your survey"
 

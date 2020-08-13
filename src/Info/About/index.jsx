@@ -60,7 +60,7 @@ const About = () => {
             Dynamic Dunescapes is a partnership project supported by the
             National Lottery Heritage Fund and the EU LIFE Programme. Project
             partners are Natural England, Plantlife, Natural Resources Wales,
-            National Trust and the Wildlife Trusts.
+            National Trust and The Wildlife Trusts.
           </P>
         </Section>
 
