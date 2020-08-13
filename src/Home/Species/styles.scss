@@ -31,7 +31,10 @@ $cream-white-color: #fffdefd9;
 
         .species-label-icon {
           position: absolute;
-          right: 15px;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+
           --ionicon-stroke-width: 40px;
         }
       }
