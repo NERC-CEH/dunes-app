@@ -1799,6 +1799,14 @@ msgstr "Very thin leaves, rolling in at the margins, growing up to 40cm tall. St
 msgid "Dry areas, particularly banks, gravelly areas, walls and dry heath"
 msgstr "Dry areas, particularly banks, gravelly areas, walls and dry heath"
 
+# Species-description: distribution
+msgid "Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves narrow, light green but tipped with red. Leaves radiating from central stem in a star shape"
+msgstr "Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves narrow, light green but tipped with red. Leaves radiating from central stem in a star shape"
+
+# Species-description: distribution
+msgid "Dry, acidic soil on heaths, and on rocks & walls"
+msgstr "Dry, acidic soil on heaths, and on rocks & walls"
+
 # Species-phenology
 msgid "Variable flowering time - early spring to early summer, depending on yearly temperatures"
 msgstr "Variable flowering time - early spring to early summer, depending on yearly temperatures"

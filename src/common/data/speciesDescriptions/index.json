@@ -328,7 +328,9 @@
     "phenology": "April - June",
     "confusion": "Bristly haircap (Polytrichum piliferum)",
     "comments": "Health positive indicators",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [684, 684],
+    "photoAuthor": ["HermannSchachner", "HermannSchachner"]
   },
   {
     "id": 25,

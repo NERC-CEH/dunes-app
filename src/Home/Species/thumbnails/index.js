@@ -24,6 +24,7 @@ import './20_thumbnail.jpg';
 import './21_thumbnail.jpg';
 import './22_thumbnail.jpg';
 import './23_thumbnail.jpg';
+import './24_thumbnail.jpg';
 import './25_thumbnail.jpg';
 import './26_thumbnail.jpg';
 import './27_thumbnail.jpg';

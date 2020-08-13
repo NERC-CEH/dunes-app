@@ -45,6 +45,8 @@ import './22_1_image.jpg';
 import './22_2_image.jpg';
 import './23_1_image.jpg';
 import './23_2_image.jpg';
+import './24_1_image.jpg';
+import './24_2_image.jpg';
 import './25_1_image.jpg';
 import './25_2_image.jpg';
 import './26_1_image.jpg';
