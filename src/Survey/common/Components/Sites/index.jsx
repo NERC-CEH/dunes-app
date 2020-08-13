@@ -52,6 +52,25 @@ class index extends React.Component {
       return;
     }
 
+    if (!userModel.attrs.verified) {
+      await loader.show({
+        message: t('Please wait...'),
+      });
+
+      try {
+        await userModel.refreshProfile();
+      } catch (e) {
+        // do nothing
+      }
+
+      loader.hide();
+
+      if (!userModel.attrs.verified) {
+        warn(t("Sorry, your account hasn't been verified yet or is blocked."));
+        return;
+      }
+    }
+
     this.setState({ refreshing: true });
 
     await loader.show({
