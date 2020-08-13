@@ -57,7 +57,8 @@ function setContext() {
 }
 
 export default function init() {
-  if (!userModel.attrs.isLoggedIn || !appModel.attrs.sendAnalytics) {
+  const isLoggedIn = !!userModel.attrs.id;
+  if (!isLoggedIn || !appModel.attrs.sendAnalytics) {
     return;
   }
 
