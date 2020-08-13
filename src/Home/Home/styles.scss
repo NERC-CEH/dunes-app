@@ -25,7 +25,7 @@
   }
 
   .slide-header {
-    height: 55%;
+    height: 68%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -66,7 +66,26 @@
   }
 
   ion-content ion-item-group {
-    margin-top: 80%;
+    position: absolute;
+    top: 92%;
+    transform: translateY(-90%);
+    width: 100%;
+    margin-bottom: 10px;
+
+    .info-text {
+      width: 88%;
+      text-align: center;
+      margin-top: 55px;
+      --background: none;
+      margin: 14px auto 0px auto;
+      border-radius: 5px;
+      color: #000000;
+      opacity: 0.7;
+    }
+    ion-label {
+      font-size: 0.9em;
+      padding: 4px;
+    }
   }
 
   ion-toolbar {
@@ -75,5 +94,14 @@
     ion-menu-button {
       color: var(--ion-color-light-contrast);
     }
+  }
+
+  ion-icon {
+    background: var(--ion-color-primary);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 5px 0 8px;
+    margin-bottom: -7px;
   }
 }

@@ -180,14 +180,16 @@ html.ios {
   left: 50%;
   transform: translateX(-50%);
   top: 50%;
-  width: 70%;
+  width: 88%;
+  text-align: center;
   margin-bottom: 10px;
   --inner-border-width: 0;
-
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.18), 0 6px 12px 0 rgba(0, 0, 0, 0.17),
     0 1px 1px 0 rgba(0, 0, 0, 0.17);
-
   border-radius: 5px;
+  --background: #00a0a4;
+  --color: white;
+  --color-activated: white;
 
   p {
     width: 100%;

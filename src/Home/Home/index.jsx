@@ -7,11 +7,11 @@ import {
   IonItem,
   IonItemGroup,
   IonLabel,
+  IonIcon,
 } from '@ionic/react';
 import { Page, Main } from '@apps';
 import { Trans as T } from 'react-i18next';
-import { openOutline } from 'ionicons/icons';
-import config from 'config';
+import { add } from 'ionicons/icons';
 import './styles.scss';
 import './appLogo.png';
 import './homePageBackground.jpg';
@@ -51,24 +51,18 @@ function index() {
         <img className="app-logo" src="/images/appLogo.png" alt="" />
 
         <IonItemGroup>
-          <IonItem className="pretty-button" detail routerLink="/info/about">
-            <IonLabel>
-              <T>About</T>
-            </IonLabel>
-          </IonItem>
           <IonItem className="pretty-button" detail routerLink="/info/manual">
             <IonLabel>
-              <T>Citizen Science Manual</T>
+              <T>Activities you can do</T>
             </IonLabel>
           </IonItem>
-          <IonItem
-            className="pretty-button"
-            detail
-            href={config.promotionalWebsiteUrl}
-            detailIcon={openOutline}
-          >
-            <IonLabel>
-              <T>Project Website</T>
+
+          <IonItem lines="none" className="info-text">
+            <IonLabel class="ion-text-wrap">
+              <T>
+                Press the
+                <IonIcon icon={add} /> button to start your survey
+              </T>
             </IonLabel>
           </IonItem>
         </IonItemGroup>
