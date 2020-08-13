@@ -2,7 +2,7 @@ import React from 'react';
 import { IonItem, IonLabel } from '@ionic/react';
 import { Header, Page, Main, Section } from '@apps';
 import { Trans as T } from 'react-i18next';
-import habitats from 'common/data/habitats';
+// import habitats from 'common/data/habitats';
 import 'common/images/flumens.svg';
 import './styles.scss';
 
@@ -59,7 +59,6 @@ export default () => (
           </a>
           .
         </P>
-    
       </Section>
 
       <Section>
@@ -88,7 +87,6 @@ export default () => (
       </Section>
       <Section>
         <H>Photos</H>
-
         <IonItem lines="none">
           <IonLabel class="ion-text-wrap">
             <i>
@@ -97,8 +95,7 @@ export default () => (
             <span>Marten Bjork on Unsplash</span>
           </IonLabel>
         </IonItem>
-
-        <IonItem lines="none">
+        {/* <IonItem lines="none">
           <IonLabel class="ion-text-wrap">
             <b>
               <small>
@@ -116,7 +113,8 @@ export default () => (
                 <span>{s.image_copyright}</span>
               </IonLabel>
             </IonItem>
-          ))}
+          ))} */}
+        {/* add photo credits */}
       </Section>
     </Main>
   </Page>
