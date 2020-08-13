@@ -1816,20 +1816,12 @@ msgid "Phenology"
 msgstr "Phenology"
 
 # Species-phenology
-msgid "May - September"
-msgstr "May - September"
-
-# Species-phenology
 msgid "July - September"
 msgstr "July - September"
 
 # Species-phenology
 msgid "Pink flowers are out in June and July"
 msgstr "Pink flowers are out in June and July"
-
-# Species-phenology
-msgid "January - December"
-msgstr "January - December"
 
 # Species-phenology
 msgid "June - September"
