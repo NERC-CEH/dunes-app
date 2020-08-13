@@ -1902,3 +1902,40 @@ msgstr "All year (Can’t find flowering time)"
 # Species-phenology
 msgid "January - December"
 msgstr "January - December"
+
+# Onboarding page 
+msgid "Welcome!"
+msgstr "Welcome!"
+
+# Onboarding page 
+msgid "Welcome to the Dynamic Dunescapes app, a tool for recording sand dune species and habitat data that helps us to understand the health of dune habitats."
+msgstr "Welcome to the Dynamic Dunescapes app, a tool for recording sand dune species and habitat data that helps us to understand the health of dune habitats."
+
+# Onboarding page 
+msgid "Register your new account so that you can save and send us your survey data."
+msgstr "Register your new account so that you can save and send us your survey data."
+
+# Onboarding page 
+msgid "Choose your activity"
+msgstr "Choose your activity"
+
+# Onboarding page 
+msgid "From fixed point photography to measuring the water table depth or recording the plant species, find out how to complete our surveys."
+msgstr "From fixed point photography to measuring the water table depth or recording the plant species, find out how to complete our surveys."
+
+# Onboarding page 
+msgid "Learn about dune species and habitats"
+msgstr "Learn about dune species and habitats"
+
+# Onboarding page 
+msgid "Using the buttons at the bottom, explore the different sand dune habitats and get help ID-ing some of the plant species that live there."
+msgstr "Using the buttons at the bottom, explore the different sand dune habitats and get help ID-ing some of the plant species that live there."
+
+# Onboarding page 
+msgid "Start your survey"
+msgstr "Start your survey"
+
+# Onboarding page 
+msgid "Click on the<1></1>button to begin your survey, easily record your findings and upload the results."
+msgstr "Click on the<1></1>button to begin your survey, easily record your findings and upload the results."
+

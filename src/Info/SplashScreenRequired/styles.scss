@@ -28,6 +28,26 @@
   }
 }
 
+@mixin slide {
+  background: linear-gradient(
+    to top,
+    rgba(227, 211, 177, 1) 0%,
+    rgb(245, 230, 198) 8%,
+    rgb(255, 248, 235) 36%,
+    rgb(255, 248, 235) 100%
+  );
+
+  .slide-header {
+    background-size: cover;
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    @include wave;
+  }
+}
+
 #welcome-page {
   ion-header {
     position: absolute;
@@ -47,57 +67,77 @@
     background: white;
 
     ion-slide .message {
-      position: absolute;
+      position: relative;
       width: 78%;
-      bottom: 11vh;
+      top: 23%;
+
+      .icon-size {
+        font-size: 40px;
+        stroke-width: 2;
+      }
+
+      .add-icon {
+        background: var(--ion-color-primary);
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+        margin: 0 5px 0 8px;
+        margin-bottom: -7px;
+      }
     }
 
     ion-slide.first {
-      background: linear-gradient(
-        to top,
-        rgba(227, 211, 177, 1) 0%,
-        rgb(245, 230, 198) 8%,
-        rgb(255, 248, 235) 36%,
-        rgb(255, 248, 235) 100%
-      );
+      @include slide;
 
       .slide-header {
-        background: url('/images/first.jpg');
-        background-size: cover;
-        height: 55%;
-        width: 100%;
-        position: absolute;
-        top: 0;
-
-        @include wave;
+        background-image: url('/images/first.jpg');
       }
     }
 
     ion-slide.second {
-      background: linear-gradient(
-        to top,
-        rgba(227, 211, 177, 1) 0%,
-        rgb(245, 230, 198) 8%,
-        rgb(255, 248, 235) 36%,
-        rgb(255, 248, 235) 100%
-      );
+      @include slide;
 
       .slide-header {
-        background: url('/images/second.jpg');
-        background-size: cover;
-        height: 55%;
-        width: 100%;
-        position: absolute;
-        top: 0;
+        background-image: url('/images/second.jpg');
+      }
+    }
 
-        @include wave;
+    ion-slide.third {
+      @include slide;
+
+      .slide-header {
+        background-image: url('/images/third.jpg');
+      }
+    }
+    ion-slide.fourth {
+      @include slide;
+
+      .slide-header {
+        background-image: url('/images/fourth.jpg');
+      }
+    }
+
+    ion-slide.fifth {
+      @include slide;
+
+      .slide-header {
+        background-image: url('/images/fifth.jpg');
+
+        ion-icon {
+          background: var(--ion-color-primary);
+          padding: 5px;
+          border-radius: 10px;
+          color: white;
+          margin: 0 5px 0 8px;
+          margin-bottom: -7px;
+        }
       }
     }
 
     p,
     h2 {
       margin-top: 1.1rem;
-      text-align: left;
+      text-align: center;
     }
 
     h2 {
@@ -113,7 +153,8 @@
       font-size: 17px;
       line-height: 1.5;
       font-weight: 200;
-      margin-bottom: 5px;
+      margin-bottom: 9px;
+      text-align: center;
 
       b {
         color: var(--ion-text-color, #000000);
