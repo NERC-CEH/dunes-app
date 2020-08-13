@@ -1684,8 +1684,8 @@ msgid "Bog pimpernel is low growing. The flowers are small, pink and cup-shaped 
 msgstr "Bog pimpernel is low growing. The flowers are small, pink and cup-shaped with five petals. The leaves are small, rounded and in pairs along thin wiry stems."
 
 # Species-description: distribution
-msgid "wet, open meadows and fens"
-msgstr "wet, open meadows and fens"
+msgid "Wet, open meadows and fens"
+msgstr "Wet, open meadows and fens"
 
 # Species-description: distribution
 msgid "Flowers in heads; usually yellow, but can be orange, red, purple or white. Leaves pinnate with narrow leaflets, finely haired"
@@ -1807,99 +1807,103 @@ msgstr "Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves n
 msgid "Dry, acidic soil on heaths, and on rocks & walls"
 msgstr "Dry, acidic soil on heaths, and on rocks & walls"
 
-# Species-phenology
+# Species-flowering
 msgid "Variable flowering time - early spring to early summer, depending on yearly temperatures"
 msgstr "Variable flowering time - early spring to early summer, depending on yearly temperatures"
 
-# Species-phenology
+# Species-flowering
 msgid "Phenology"
 msgstr "Phenology"
 
-# Species-phenology
+# Species-flowering
+msgid "Flowering"
+msgstr "Flowering"
+
+# Species-flowering
 msgid "July - September"
 msgstr "July - September"
 
-# Species-phenology
+# Species-flowering
 msgid "Pink flowers are out in June and July"
 msgstr "Pink flowers are out in June and July"
 
-# Species-phenology
+# Species-flowering
 msgid "June - September"
 msgstr "June - September"
 
-# Species-phenology
+# Species-flowering
 msgid "May - July"
 msgstr "May - July"
 
-# Species-phenology
+# Species-flowering
 msgid "All year"
 msgstr "All year"
 
-# Species-phenology
+# Species-flowering
 msgid "April - June"
 msgstr "April - June"
 
-# Species-phenology
+# Species-flowering
 msgid "May-September"
 msgstr "May-September"
 
-# Species-phenology
+# Species-flowering
 msgid "June - October"
 msgstr "June - October"
 
-# Species-phenology
+# Species-flowering
 msgid "May - June"
 msgstr "May - June"
 
-# Species-phenology
+# Species-flowering
 msgid "All year round"
 msgstr "All year round"
 
-# Species-phenology
+# Species-flowering
 msgid "May - October"
 msgstr "May - October"
 
-# Species-phenology
+# Species-flowering
 msgid "May - September"
 msgstr "May - September"
 
-# Species-phenology
+# Species-flowering
 msgid "July - October"
 msgstr "July - October"
 
-# Species-phenology
+# Species-flowering
 msgid "Late April - June"
 msgstr "Late April - June"
 
-# Species-phenology
+# Species-flowering
 msgid "January - June"
 msgstr "January - June"
 
-# Species-phenology
+# Species-flowering
 msgid "April - September, although May - July best"
 msgstr "April - September, although May - July best"
 
-# Species-phenology
+# Species-flowering
 msgid "May - August"
 msgstr "May - August"
 
-# Species-phenology
+# Species-flowering
 msgid "Mostly July - September"
 msgstr "Mostly July - September"
 
-# Species-phenology
+# Species-flowering
 msgid "April - August"
 msgstr "April - August"
 
-# Species-phenology
+# Species-flowering
 msgid "April - May"
 msgstr "April - May"
 
-# Species-phenology
+# Species-flowering
 msgid "All year (Can’t find flowering time)"
 msgstr "All year (Can’t find flowering time)"
 
-# Species-phenology
+# Species-flowering
 msgid "January - December"
 msgstr "January - December"
 
@@ -1958,4 +1962,5 @@ msgstr "Activities you can do"
 # Home page label 
 msgid "Press the<1></1> button to start your survey"
 msgstr "Press the<1></1> button to start your survey"
+
 
