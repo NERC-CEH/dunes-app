@@ -612,8 +612,8 @@ msgid "You can find this survey information in our volunteer manual."
 msgstr "You can find this survey information in our volunteer manual."
 
 # Section note message inside a survey
-msgid "Please add a photo of your visit."
-msgstr "Please add a photo of your visit."
+msgid "Please add photos of your visit."
+msgstr "Please add photos of your visit."
 
 # Survey alert message
 msgid "Please select your location."

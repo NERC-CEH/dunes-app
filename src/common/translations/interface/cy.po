@@ -1,11 +1,12 @@
 # 
 # Translators:
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2020
+# Vilius Stankaitis <vilius@flumens.io>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2020\n"
+"Last-Translator: Vilius Stankaitis <vilius@flumens.io>, 2020\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/109789/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -666,7 +667,7 @@ msgstr ""
 "wirfoddolwyr."
 
 # Section note message inside a survey
-msgid "Please add a photo for your visit."
+msgid "Please add photos of your visit."
 msgstr "Ychwanegwch lun ar gyfer eich ymweliad."
 
 # Survey alert message
@@ -2681,7 +2682,7 @@ msgstr ""
 "tyfu mewn parau ar hyd coesynnau gwifrog main."
 
 # Species-description: distribution
-msgid "wet, open meadows and fens"
+msgid "Wet, open meadows and fens"
 msgstr "Gweirgloddiau a mignedd gwlyb ac agored"
 
 # Species-description: distribution
@@ -2904,7 +2905,7 @@ msgstr ""
 msgid "Dry, acidic soil on heaths, and on rocks & walls"
 msgstr "Pridd asidaidd sych ar rosydd, ac ar greigiau a waliau"
 
-# Species-phenology
+# Species-flowering
 msgid ""
 "Variable flowering time - early spring to early summer, depending on yearly "
 "temperatures"
@@ -2912,95 +2913,99 @@ msgstr ""
 "Amrywio o ran adeg blodeuo - dechrau'r gwanwyn hyd at ddechrau'r haf, yn "
 "dibynnu ar y tymheredd drwy'r flwyddyn"
 
-# Species-phenology
+# Species-flowering
 msgid "Phenology"
 msgstr "Ffenoleg"
 
-# Species-phenology
+# Species-flowering
+msgid "Flowering"
+msgstr ""
+
+# Species-flowering
 msgid "July - September"
 msgstr "Gorffennaf - Medi"
 
-# Species-phenology
+# Species-flowering
 msgid "Pink flowers are out in June and July"
 msgstr "Mae'r blodau pinc i'w gweld ym mis Mehefin a Gorffennaf"
 
-# Species-phenology
+# Species-flowering
 msgid "June - September"
 msgstr "Mehefin - Medi"
 
-# Species-phenology
+# Species-flowering
 msgid "May - July"
 msgstr "Mai - Gorffennaf"
 
-# Species-phenology
+# Species-flowering
 msgid "All year"
 msgstr "Drwy'r flwyddyn"
 
-# Species-phenology
+# Species-flowering
 msgid "April - June"
 msgstr "Ebrill - Mehefin"
 
-# Species-phenology
+# Species-flowering
 msgid "May-September"
 msgstr "Mai - Medi"
 
-# Species-phenology
+# Species-flowering
 msgid "June - October"
 msgstr "Mehefin - Hydref"
 
-# Species-phenology
+# Species-flowering
 msgid "May - June"
 msgstr "Mai - Mehefin"
 
-# Species-phenology
+# Species-flowering
 msgid "All year round"
 msgstr "Drwy'r flwyddyn"
 
-# Species-phenology
+# Species-flowering
 msgid "May - October"
 msgstr "Mai - Hydref"
 
-# Species-phenology
+# Species-flowering
 msgid "May - September"
 msgstr "Mai - Medi"
 
-# Species-phenology
+# Species-flowering
 msgid "July - October"
 msgstr "Gorffennaf - Hydref"
 
-# Species-phenology
+# Species-flowering
 msgid "Late April - June"
 msgstr "Diwedd Ebrill - Mehefin"
 
-# Species-phenology
+# Species-flowering
 msgid "January - June"
 msgstr "Ionawr - Mehefin"
 
-# Species-phenology
+# Species-flowering
 msgid "April - September, although May - July best"
 msgstr "Ebrill - Medi, ond ar ei orau Mai - Gorffennaf "
 
-# Species-phenology
+# Species-flowering
 msgid "May - August"
 msgstr "Mai - Awst"
 
-# Species-phenology
+# Species-flowering
 msgid "Mostly July - September"
 msgstr "Fel arfer Gorffennaf - Medi"
 
-# Species-phenology
+# Species-flowering
 msgid "April - August"
 msgstr "Ebrill - Awst"
 
-# Species-phenology
+# Species-flowering
 msgid "April - May"
 msgstr "Ebrill - Mai"
 
-# Species-phenology
+# Species-flowering
 msgid "All year (Can’t find flowering time)"
 msgstr "Drwy'r flwyddyn (Methu canfod yr amser blodeuo)"
 
-# Species-phenology
+# Species-flowering
 msgid "January - December"
 msgstr "Ionawr - Rhagfyr"
 
@@ -3014,8 +3019,8 @@ msgstr ""
 
 # Species page information message
 msgid ""
-"Explore some of the plant species that live a sand dune habitat. Click on "
-"each plant for more details and to see where you might find them"
+"Explore some of the plant species that live in a sand dune habitat. Click on"
+" each plant for more details and to see where you might find them"
 msgstr ""
 "Archwiliwch rai o'r rhywogaethau o blanhigion sy'n byw yng nghynefinoedd y "
 "twyni tywod. Cliciwch ar y planhigion am ragor o fanylion ac i weld ble y "
