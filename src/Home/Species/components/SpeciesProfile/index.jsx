@@ -101,6 +101,8 @@ class Component extends React.Component {
   render() {
     const { species } = this.props;
 
+    const dontExistSpeciesConfusion = species.confusion !== 'N/A';
+
     /* eslint-disable jsx-a11y/no-static-element-interactions */
     return (
       <>
@@ -144,6 +146,20 @@ class Component extends React.Component {
               <T>Flowering</T>:
             </h3>
             <T>{species.flowering}</T>
+
+            {dontExistSpeciesConfusion && (
+              <>
+                <h3 className="species-profile-label">
+                  <T>Confusion Species</T>:
+                </h3>
+                <T>{species.confusion}</T>
+              </>
+            )}
+
+            <h3 className="species-profile-label">
+              <T>Notes</T>:
+            </h3>
+            <T>{species.comments}</T>
           </IonCardContent>
         </Main>
       </>

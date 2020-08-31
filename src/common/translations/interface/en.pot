@@ -1963,4 +1963,283 @@ msgstr "Activities you can do"
 msgid "Press the<1></1> button to start your survey"
 msgstr "Press the<1></1> button to start your survey"
 
+# Species-comments
+msgid "Dune slack nitrogen loving"
+msgstr "Dune slack nitrogen loving"
+
+# Species-comments
+msgid "Nitrogen sensitive"
+msgstr "Nitrogen sensitive"
+
+# Species-comments
+msgid "Nitrogen loving"
+msgstr "Nitrogen loving"
+
+# Species-comments
+msgid "Acidic dune nitrogen sensitives"
+msgstr "Acidic dune nitrogen sensitives"
+
+# Species-comments
+msgid "Acidic dune nitrogen-loving"
+msgstr "Acidic dune nitrogen-loving"
+
+# Species-comments
+msgid "Health positive indicators"
+msgstr "Health positive indicators"
+
+# Species-comments
+msgid "Health negative indicators"
+msgstr "Health negative indicators"
+
+# Species-comments
+msgid "Fixed dune acidic grassland positive indicators"
+msgstr "Fixed dune acidic grassland positive indicators"
+
+# Species-comments
+msgid "Fixed dune acidic grassland negative indicators"
+msgstr "Fixed dune acidic grassland negative indicators"
+
+# Species-comments
+msgid "Mobile dune acidic grassland positive indicators"
+msgstr "Mobile dune acidic grassland positive indicators"
+
+# Species-comments
+msgid "Mobile Dune Negative Indicators"
+msgstr "Mobile Dune Negative Indicators"
+
+# Species-comments
+msgid "Dune Slack Species"
+msgstr "Dune Slack Species"
+
+# Species-comments
+msgid "Mobile dune positive indicator"
+msgstr "Mobile dune positive indicator"
+
+# Species-comments
+msgid "Mobile dune negative indicator & Dune slacks negative indicator"
+msgstr "Mobile dune negative indicator & Dune slacks negative indicator"
+
+# Species-comments
+msgid "Mobile dune negative indicator, Fixed dune grassland negative indicator & Dune slack negative indicator"
+msgstr "Mobile dune negative indicator, Fixed dune grassland negative indicator & Dune slack negative indicator"
+
+# Species-comments
+msgid "Dune slack positive indicator, Fixed dune positive indicator"
+msgstr "Dune slack positive indicator, Fixed dune positive indicator"
+
+# Species-comments
+msgid "Dune slack negative indicator"
+msgstr "Dune slack negative indicator"
+
+# Species-comments
+msgid "Dune slacks negative indicator"
+msgstr "Dune slacks negative indicator"
+
+# Species-comments
+msgid "Dunescapes slack & Nitrogen loving"
+msgstr "Dunescapes slack & Nitrogen loving"
+
+# Species-comments
+msgid "Fixed dune grassland positive indicator"
+msgstr "Fixed dune grassland positive indicator"
+
+# Species-comments
+msgid "Fixed dune grassland negative indicator"
+msgstr "Fixed dune grassland negative indicator"
+
+# Species-comments
+msgid "Dune slack positive indicator"
+msgstr "Dune slack positive indicator"
+
+# Species-confusion
+msgid "Confusion Species"
+msgstr "Confusion Species"
+
+# Species-confusion
+msgid "Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)"
+msgstr "Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)"
+
+# Species-confusion
+msgid "Reflexed stonecrop"
+msgstr "Reflexed stonecrop"
+
+# Species-confusion
+msgid "Sheep’s-bit scabious (Jasione montana)"
+msgstr "Sheep’s-bit scabious (Jasione montana)"
+
+# Species-confusion
+msgid "Sea clover (Trifolia squamosum)"
+msgstr "Sea clover (Trifolia squamosum)"
+
+# Species-confusion
+msgid "Tormentil (Potentilla erecta), Creeping cinquefoil (Potentilla reptans)"
+msgstr "Tormentil (Potentilla erecta), Creeping cinquefoil (Potentilla reptans)"
+
+# Species-confusion
+msgid "Red Clover"
+msgstr "Red Clover"
+
+# Species-confusion
+msgid "Broad leaved dock (Rumex obtusifolius), Copmmon sorrel (Rumex acetosa)"
+msgstr "Broad leaved dock (Rumex obtusifolius), Copmmon sorrel (Rumex acetosa)"
+
+# Species-confusion
+msgid "Spear thistle (Cirsium vulgare), Marsh thistle (Cirsium palustre)"
+msgstr "Spear thistle (Cirsium vulgare), Marsh thistle (Cirsium palustre)"
+
+# Species-confusion
+msgid "Dandelion species"
+msgstr "Dandelion species"
+
+# Species-confusion
+msgid "English stonecrop (Sedum anglicum)"
+msgstr "English stonecrop (Sedum anglicum)"
+
+# Species-confusion
+msgid "Common cudweed (Filago vulgaris)"
+msgstr "Common cudweed (Filago vulgaris)"
+
+# Species-confusion
+msgid "Heath woodrush (Luzula multiflora)"
+msgstr "Heath woodrush (Luzula multiflora)"
+
+# Species-confusion
+msgid "Squirrel-tail fescue (Vulpia bromoides)"
+msgstr "Squirrel-tail fescue (Vulpia bromoides)"
+
+# Species-confusion
+msgid "Ribwort plantain (Plantago lanceolata)"
+msgstr "Ribwort plantain (Plantago lanceolata)"
+
+# Species-confusion
+msgid "Devil’s bit scabious (Succisa pratensis)"
+msgstr "Devil’s bit scabious (Succisa pratensis)"
+
+# Species-confusion
+msgid "Hawkbits (Leontodon spp.), Dandelions (Taraxacum spp.)"
+msgstr "Hawkbits (Leontodon spp.), Dandelions (Taraxacum spp.)"
+
+# Species-confusion
+msgid "Bristly haircap (Polytrichum piliferum)"
+msgstr "Bristly haircap (Polytrichum piliferum)"
+
+# Species-confusion
+msgid "Dune"
+msgstr "Dune"
+
+# Species-confusion
+msgid "Field maple (Acer campestre), Norway maple (Acer platanoides)"
+msgstr "Field maple (Acer campestre), Norway maple (Acer platanoides)"
+
+# Species-confusion
+msgid "Other pine species"
+msgstr "Other pine species"
+
+# Species-confusion
+msgid "Other star mosses"
+msgstr "Other star mosses"
+
+# Species-confusion
+msgid "Nothing. Other plantains at a push"
+msgstr "Nothing. Other plantains at a push"
+
+# Species-confusion
+msgid "Other thistles, particularly Cotton thistle (Onopordum acanthium)"
+msgstr "Other thistles, particularly Cotton thistle (Onopordum acanthium)"
+
+# Species-confusion
+msgid "Brambles (Rubus spp.)"
+msgstr "Brambles (Rubus spp.)"
+
+# Species-confusion
+msgid "Dwarf gorse (Ulex minor), Western gorse (Ulex gallii)"
+msgstr "Dwarf gorse (Ulex minor), Western gorse (Ulex gallii)"
+
+# Species-confusion
+msgid "Other heathers, especially Bell heather (Erica cinerea)"
+msgstr "Other heathers, especially Bell heather (Erica cinerea)"
+
+# Species-confusion
+msgid "Salad burnet (Sanguisorba minor)"
+msgstr "Salad burnet (Sanguisorba minor)"
+
+# Species-confusion
+msgid "Thyme-leaved sandwort (Arenaria serpyllifolia)"
+msgstr "Thyme-leaved sandwort (Arenaria serpyllifolia)"
+
+# Species-confusion
+msgid "Prickly Saltwort"
+msgstr "Prickly Saltwort"
+
+# Species-confusion
+msgid "Hedge bindweed (Calystegia sepium), Field bindweed (Convolvulus arvensis), Great bindweed (Calystegia silvatica)"
+msgstr "Hedge bindweed (Calystegia sepium), Field bindweed (Convolvulus arvensis), Great bindweed (Calystegia silvatica)"
+
+# Species-confusion
+msgid "Hybridised willow species typically including goat willow (S. caprea) and downy willow (S. lapponum)"
+msgstr "Hybridised willow species typically including goat willow (S. caprea) and downy willow (S. lapponum)"
+
+# Species-confusion
+msgid "Hybrids of mint"
+msgstr "Hybrids of mint"
+
+# Species-confusion
+msgid "The leaves are similar to Navelwort but this is found in much dryer habitats such as walls and quarries"
+msgstr "The leaves are similar to Navelwort but this is found in much dryer habitats such as walls and quarries"
+
+# Species-confusion
+msgid "Thistle species"
+msgstr "Thistle species"
+
+# Species-confusion
+msgid "St John’s Wort"
+msgstr "St John’s Wort"
+
+# Species-confusion
+msgid "Other perennial broad-leaved weeds"
+msgstr "Other perennial broad-leaved weeds"
+
+# Species-confusion
+msgid "Common cow - wheat"
+msgstr "Common cow - wheat"
+
+# Species-confusion
+msgid "Male fern"
+msgstr "Male fern"
+
+# Species-confusion
+msgid "Other buttercups"
+msgstr "Other buttercups"
+
+# Species-confusion
+msgid "Other members of the nightshade family"
+msgstr "Other members of the nightshade family"
+
+# Species-confusion
+msgid "Other species of Eyebright and hybrids"
+msgstr "Other species of Eyebright and hybrids"
+
+# Species-confusion
+msgid "Birds - Foot Trefoil"
+msgstr "Birds - Foot Trefoil"
+
+# Species-confusion
+msgid "Wild Raspberry"
+msgstr "Wild Raspberry"
+
+# Species-confusion
+msgid "Other spear mosses"
+msgstr "Other spear mosses"
+
+# Species-confusion
+msgid "Other sedges"
+msgstr "Other sedges"
+
+# Species-confusion
+msgid "Other Agrimony spp"
+msgstr "Other Agrimony spp"
+
+# Species-confusion
+msgid "Purple dead nettle; henbit dead nettle"
+msgstr "Purple dead nettle; henbit dead nettle"
 

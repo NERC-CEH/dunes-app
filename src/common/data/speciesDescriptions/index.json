@@ -690,7 +690,7 @@
     "description": "Shrub with dense, dark green, leathery, oval leaves. Blooms large, ranging from light pink to purple, with open, bell-shaped flowers of 5 petals",
     "distribution": "Once rhododendron takes hold, little else can grow because of the dense canopy, so it is often found in areas of shrub",
     "flowering": "May - June",
-    "confusion": "Nothing",
+    "confusion": "N/A",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
     "photoHeight": [
@@ -749,7 +749,7 @@
     "description": "Greyish-green, hairless succulent, lobed, pinnate leaves towards the base and more linear leaves moving up the stem. Flowers with 4 petals, pale lilac to white in colour",
     "distribution": "Sandy coastal areas",
     "flowering": "June - September",
-    "confusion": "None",
+    "confusion": "N/A",
     "comments": "Mobile dune acidic grassland positive indicators",
     "photoWidth": 1024,
     "photoHeight": [
@@ -807,7 +807,7 @@
     "description": "A deciduous bushy shrub. 1m tall – 2m wide. Narrowly-oval, densely-hairy leaves are grey-green above and silvery beneath and appear after the silvery catkins that mature to yellow in spring.",
     "distribution": "Sand dunes, acid grassland and heathland including coastal heaths. ",
     "flowering": "All year",
-    "confusion": "Hybridised willow species typically including goat willow (S. caprea) and downy willow (S. lapponum). ",
+    "confusion": "Hybridised willow species typically including goat willow (S. caprea) and downy willow (S. lapponum)",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
     "photoHeight": [
@@ -847,7 +847,7 @@
     "description": "Leaves are peltate, having a roughly circular shape and frequently a comparatively long petiole. The flower stems are shorter than the petioles and bare tiny, pinkish flowers ",
     "distribution": "Aquatic weed that spreads out horizontally forming dense mats in shallow water, mud, or in marshes.",
     "flowering": "June - August",
-    "confusion": "The leaves are similar to Navelwort but this is found in much dryer habitats such as walls and quarries.",
+    "confusion": "The leaves are similar to Navelwort but this is found in much dryer habitats such as walls and quarries",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
     "photoHeight": [
@@ -964,7 +964,7 @@
     "distribution": "Grassland, heathland, moorland, sand dunes, rocky habitat, coastal, towns and gardens",
     "flowering": "May - September",
     "confusion": "Common cow - wheat",
-    "comments": "Dune slack positive indicator, Fixed dune positive indicator, ",
+    "comments": "Dune slack positive indicator, Fixed dune positive indicator",
     "photoWidth": 1024,
     "photoHeight": [
       683,
@@ -1002,7 +1002,7 @@
     "description": "A large, deciduous shrub that has long, narrow, greyish leaves and small, green flowers. It has bright orange berries.",
     "distribution": "Coastal, sand dunes",
     "flowering": "January - December",
-    "confusion": "None",
+    "confusion": "N/A",
     "comments": "Dune slacks negative indicator",
     "photoWidth": 1024,
     "photoHeight": [
@@ -1122,7 +1122,7 @@
     "description": "Bramble has long, thorny and arching stems and can grow up to two metres or more high,alternate and palmately compound. Each leaf is divided into three or five serrated, short-stalked, oval leaflets. Leaves are dark green on top and pale beneath. Leaf stalks and mid-ribs are prickly,clusters of white or pink flowers appear from late spring to early summer. They are 2–3cm in diameter with five petals and many stamens.",
     "distribution": "Woodland, grassland",
     "flowering": "June - September",
-    "confusion": "Wild Raspberry ",
+    "confusion": "Wild Raspberry",
     "comments": "Fixed dune grassland negative indicator",
     "photoWidth": 1024,
     "photoHeight": [
@@ -1142,8 +1142,8 @@
     "description": "Leaves: pinnately compound, with three to five leaflets which are elliptical in shape with rough toothed margins. Leaves grow in an opposite leaf arrangement.  Flowers: white in colour, the various stamens are clearly visible and the flowers are in clusters. The flowers are around two centimetres in width. Although they appear to have four petals, they are in fact sepals. Seed clusters which have a feathered appearance and are white-grey in colour. They are called achenes. It is the fruit which gives the plant its other name: 'old man’s beard'.",
     "distribution": "Hedgerow",
     "flowering": "July - September",
-    "confusion": "None",
-    "comments": "Fixed dune grassland negatve indicator",
+    "confusion": "N/A",
+    "comments": "Fixed dune grassland negative indicator",
     "photoWidth": 1024,
     "photoHeight": [
       767,
@@ -1203,7 +1203,7 @@
     "distribution": "Frequent in a range of habitats, including grasslands, moorlands, exposed and disturbed soil, and the upper edges of salt marshes",
     "flowering": "May and June",
     "confusion": "Other sedges",
-    "comments": "Dune slack positive indicator ",
+    "comments": "Dune slack positive indicator",
     "photoWidth": 1024,
     "photoHeight": [
       768,
@@ -1242,7 +1242,7 @@
     "description": "Perennial . Member of the dead-nettle family not closely related to Ivy. It is an evergreen, creeping plant spreading by means of overground runners that frequently root. It has a strong smell and violet flowers. kidney-shaped, deep green leaves are typically scalloped and slightly undulating at the margins upper leaf surface has a covering of very small bristly hairs. stems are square, and have opposite pairs of simple leaves. Ground ivy's stems are also covered in fine bristly hairs.",
     "distribution": "Woodlands, hedgerows and damp ground",
     "flowering": "March - June",
-    "confusion": "Purple dead nettle; henbit dead nettle ",
+    "confusion": "Purple dead nettle; henbit dead nettle",
     "comments": "Dune slack negative indicator",
     "photoWidth": 1024,
     "photoHeight": [
@@ -1253,5 +1253,8 @@
       "Derek.P.",
       "MiriaGrunick"
     ]
+  },
+  {
+    "comments": " "
   }
 ]
