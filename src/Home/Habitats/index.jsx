@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
 import {
   IonHeader,
   IonToolbar,
@@ -12,9 +11,8 @@ import {
   IonModal,
   IonIcon,
 } from '@ionic/react';
-import PropTypes from 'prop-types';
 import { Page, Main, ModalHeader } from '@apps';
-import { Trans as T, withTranslation } from 'react-i18next';
+import { Trans as T } from 'react-i18next';
 import { informationCircleOutline } from 'ionicons/icons';
 import habitats from 'common/data/habitats.json';
 import HabitatProfile from './components/HabitatProfile';
@@ -80,8 +78,6 @@ class Habitats extends Component {
   };
 
   render() {
-    const { t } = this.props;
-
     return (
       <Page id="home-habitats">
         <IonHeader>
@@ -108,10 +104,7 @@ class Habitats extends Component {
 
           {this.getListGrid()}
           <IonModal isOpen={this.state.showModal}>
-            <ModalHeader
-              title={t('Habitat')}
-              onClose={this.hideHabitatsModal}
-            />
+            <ModalHeader title="Habitat" onClose={this.hideHabitatsModal} />
             {this.state.showModal && (
               <HabitatProfile habitat={this.state.habitat} />
             )}
@@ -121,8 +114,5 @@ class Habitats extends Component {
     );
   }
 }
-Habitats.propTypes = {
-  t: PropTypes.func.isRequired,
-};
 
-export default withTranslation()(Habitats);
+export default Habitats;
