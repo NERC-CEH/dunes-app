@@ -18,6 +18,9 @@ export default () => (
           app:
         </P>
         <P skipTranslation>
+          <b>Tim Braund</b> (Plantlife)
+        </P>
+        <P skipTranslation>
           <b>Laurence Jones</b> (UK Centre for Ecology & Hydrology)
         </P>
         <P skipTranslation>
@@ -34,9 +37,6 @@ export default () => (
         </P>
         <P skipTranslation>
           <b>John van Breda</b> (Biodiverse IT)
-        </P>
-        <P skipTranslation>
-          <b>Tim Braund</b> (Plantlife)
         </P>
       </Section>
 
