@@ -3,14 +3,18 @@ $cream-white-color: #fffdefd9;
 #home-habitats {
   .habitat-list {
     --ion-grid-padding: 0;
-    background: #f7f7f7;
+
+    ion-row {
+      background: #fffdef;
+    }
   }
 
   .habitat-list-item {
     --ion-grid-column-padding: 0;
+    margin-bottom: 30px;
 
-    &:first-child {
-      margin-top: 5px;
+    &:last-child {
+      margin-bottom: 0px;
     }
 
     div.label {
@@ -23,7 +27,7 @@ $cream-white-color: #fffdefd9;
         color: #0f5758;
         border: 0;
         position: absolute;
-        bottom: -1px;
+        top: 0px;
         padding: 7px 15px;
         background: $cream-white-color;
         font-size: 15px;

@@ -121,7 +121,7 @@ class Component extends React.Component {
           </IonCardHeader>
           <IonCardContent>
             <h3 className="habitat-label">
-              <T>Feature</T>
+              <T>Feature</T>:
             </h3>
             <ul>{features}</ul>
           </IonCardContent>
