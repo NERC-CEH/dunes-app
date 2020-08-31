@@ -10,8 +10,14 @@
     "confusion": "N/A",
     "comments": "Nitrogen sensitive",
     "photoWidth": 1024,
-    "photoHeight": [683, 768],
-    "photoAuthor": ["David Kilner ", "Philip_Goddard"]
+    "photoHeight": [
+      683,
+      768
+    ],
+    "photoAuthor": [
+      "David Kilner ",
+      "Philip_Goddard"
+    ]
   },
   {
     "id": 2,
@@ -24,8 +30,14 @@
     "confusion": "Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)",
     "comments": "Nitrogen sensitive",
     "photoWidth": 1024,
-    "photoHeight": [768, 686],
-    "photoAuthor": ["Ashley Basil", "Aidehua2013"]
+    "photoHeight": [
+      768,
+      686
+    ],
+    "photoAuthor": [
+      "Ashley Basil",
+      "Aidehua2013"
+    ]
   },
   {
     "id": 3,
@@ -38,8 +50,14 @@
     "confusion": "Reflexed stonecrop",
     "comments": "Nitrogen sensitive",
     "photoWidth": 1024,
-    "photoHeight": [683, 683],
-    "photoAuthor": ["naturalengland", "Andy Nelson"]
+    "photoHeight": [
+      683,
+      683
+    ],
+    "photoAuthor": [
+      "naturalengland",
+      "Andy Nelson"
+    ]
   },
   {
     "id": 4,
@@ -52,8 +70,14 @@
     "confusion": "Sheep’s-bit scabious (Jasione montana)",
     "comments": "Nitrogen sensitive",
     "photoWidth": 1024,
-    "photoHeight": [683, 674],
-    "photoAuthor": ["timku", "johndal"]
+    "photoHeight": [
+      683,
+      674
+    ],
+    "photoAuthor": [
+      "timku",
+      "johndal"
+    ]
   },
   {
     "id": 5,
@@ -66,8 +90,14 @@
     "confusion": "Sea clover (Trifolia squamosum)",
     "comments": "Nitrogen sensitive",
     "photoWidth": 1024,
-    "photoHeight": [836, 1031],
-    "photoAuthor": ["gailhampshire", "oliva732000"]
+    "photoHeight": [
+      836,
+      1031
+    ],
+    "photoAuthor": [
+      "gailhampshire",
+      "oliva732000"
+    ]
   },
   {
     "id": 6,
@@ -80,8 +110,14 @@
     "confusion": "N/A",
     "comments": "Nitrogen loving",
     "photoWidth": 1024,
-    "photoHeight": [1540, 1365],
-    "photoAuthor": ["skully_bob", "anemoneprojectors"]
+    "photoHeight": [
+      1540,
+      1365
+    ],
+    "photoAuthor": [
+      "skully_bob",
+      "anemoneprojectors"
+    ]
   },
   {
     "id": 7,
@@ -94,8 +130,14 @@
     "confusion": "Tormentil (Potentilla erecta), Creeping cinquefoil (Potentilla reptans)",
     "comments": "Nitrogen loving",
     "photoWidth": 1024,
-    "photoHeight": [1365, 1365],
-    "photoAuthor": ["Alice Elliott", "Alice Elliott"]
+    "photoHeight": [
+      1365,
+      1365
+    ],
+    "photoAuthor": [
+      "Alice Elliott",
+      "Alice Elliott"
+    ]
   },
   {
     "id": 8,
@@ -108,8 +150,14 @@
     "confusion": "Red Clover",
     "comments": "Nitrogen loving",
     "photoWidth": 1024,
-    "photoHeight": [1365, 1365],
-    "photoAuthor": ["Alice Elliott", "Alice Elliott"]
+    "photoHeight": [
+      1365,
+      1365
+    ],
+    "photoAuthor": [
+      "Alice Elliott",
+      "Alice Elliott"
+    ]
   },
   {
     "id": 9,
@@ -122,8 +170,14 @@
     "confusion": "Broad leaved dock (Rumex obtusifolius), Copmmon sorrel (Rumex acetosa)",
     "comments": "Nitrogen loving",
     "photoWidth": 1024,
-    "photoHeight": [1633, 1771],
-    "photoAuthor": ["F. D. Richard", "jerryoldenettel"]
+    "photoHeight": [
+      1633,
+      1771
+    ],
+    "photoAuthor": [
+      "F. D. Richard",
+      "jerryoldenettel"
+    ]
   },
   {
     "id": 10,
@@ -136,8 +190,14 @@
     "confusion": "Spear thistle (Cirsium vulgare), Marsh thistle (Cirsium palustre)",
     "comments": "Nitrogen loving",
     "photoWidth": 1024,
-    "photoHeight": [812, 1365],
-    "photoAuthor": ["Kerry D Woods", "Matt Lavin"]
+    "photoHeight": [
+      812,
+      1365
+    ],
+    "photoAuthor": [
+      "Kerry D Woods",
+      "Matt Lavin"
+    ]
   },
   {
     "id": 11,
@@ -150,8 +210,14 @@
     "confusion": "Dandelion species",
     "comments": "Nitrogen loving",
     "photoWidth": 1024,
-    "photoHeight": [948, 1535],
-    "photoAuthor": ["jerryoldenettel", "jerryoldenettel"]
+    "photoHeight": [
+      948,
+      1535
+    ],
+    "photoAuthor": [
+      "jerryoldenettel",
+      "jerryoldenettel"
+    ]
   },
   {
     "id": 12,
@@ -175,8 +241,14 @@
     "confusion": "N/A",
     "comments": "Acidic dune nitrogen sensitives",
     "photoWidth": 1024,
-    "photoHeight": [768, 826],
-    "photoAuthor": ["Kenraiz, Krzysztof Ziarnek", "Phil Smith"]
+    "photoHeight": [
+      768,
+      826
+    ],
+    "photoAuthor": [
+      "Kenraiz, Krzysztof Ziarnek",
+      "Phil Smith"
+    ]
   },
   {
     "id": 14,
@@ -189,8 +261,14 @@
     "confusion": "Common cudweed (Filago vulgaris)",
     "comments": "Acidic dune nitrogen sensitives",
     "photoWidth": 1024,
-    "photoHeight": [576, 576],
-    "photoAuthor": [" Dr Steven Heathcote", " Dr Steven Heathcote"]
+    "photoHeight": [
+      576,
+      576
+    ],
+    "photoAuthor": [
+      " Dr Steven Heathcote",
+      " Dr Steven Heathcote"
+    ]
   },
   {
     "id": 15,
@@ -203,8 +281,14 @@
     "confusion": "Heath woodrush (Luzula multiflora)",
     "comments": "Acidic dune nitrogen sensitives",
     "photoWidth": 1024,
-    "photoHeight": [769, 768],
-    "photoAuthor": ["Peter O'Connor", "Cwmhiraeth"]
+    "photoHeight": [
+      769,
+      768
+    ],
+    "photoAuthor": [
+      "Peter O'Connor",
+      "Cwmhiraeth"
+    ]
   },
   {
     "id": 16,
@@ -217,8 +301,14 @@
     "confusion": "Squirrel-tail fescue (Vulpia bromoides)",
     "comments": "Acidic dune nitrogen sensitives",
     "photoWidth": 1024,
-    "photoHeight": [1155, 1649],
-    "photoAuthor": ["bertrant.bui", "Andrea Moro"]
+    "photoHeight": [
+      1155,
+      1649
+    ],
+    "photoAuthor": [
+      "bertrant.bui",
+      "Andrea Moro"
+    ]
   },
   {
     "id": 17,
@@ -231,8 +321,14 @@
     "confusion": "Ribwort plantain (Plantago lanceolata)",
     "comments": "Acidic dune nitrogen-loving",
     "photoWidth": 1024,
-    "photoHeight": [1365, 1365],
-    "photoAuthor": ["Alice Elliott ", "Alice Elliott "]
+    "photoHeight": [
+      1365,
+      1365
+    ],
+    "photoAuthor": [
+      "Alice Elliott ",
+      "Alice Elliott "
+    ]
   },
   {
     "id": 18,
@@ -245,8 +341,14 @@
     "confusion": "N/A",
     "comments": "Acidic dune nitrogen-loving",
     "photoWidth": 1024,
-    "photoHeight": [1365, 1365],
-    "photoAuthor": ["Alice Elliott ", "Alice Elliott "]
+    "photoHeight": [
+      1365,
+      1365
+    ],
+    "photoAuthor": [
+      "Alice Elliott ",
+      "Alice Elliott "
+    ]
   },
   {
     "id": 19,
@@ -259,8 +361,13 @@
     "confusion": "N/A",
     "comments": "Health positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [683, 1546],
-    "photoAuthor": ["Chris Cesar"]
+    "photoHeight": [
+      683,
+      1546
+    ],
+    "photoAuthor": [
+      "Chris Cesar"
+    ]
   },
   {
     "id": 20,
@@ -273,8 +380,13 @@
     "confusion": "N/A",
     "comments": "Health positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [659, 679],
-    "photoAuthor": ["Chris Cesar"]
+    "photoHeight": [
+      659,
+      679
+    ],
+    "photoAuthor": [
+      "Chris Cesar"
+    ]
   },
   {
     "id": 21,
@@ -287,8 +399,13 @@
     "confusion": "Devil’s bit scabious (Succisa pratensis)",
     "comments": "Health positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [683, 1820],
-    "photoAuthor": ["Björn S"]
+    "photoHeight": [
+      683,
+      1820
+    ],
+    "photoAuthor": [
+      "Björn S"
+    ]
   },
   {
     "id": 22,
@@ -301,8 +418,14 @@
     "confusion": "Hawkbits (Leontodon spp.), Dandelions (Taraxacum spp.)",
     "comments": "Health positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [768, 754],
-    "photoAuthor": ["anro0002", "jerryoldenettel"]
+    "photoHeight": [
+      768,
+      754
+    ],
+    "photoAuthor": [
+      "anro0002",
+      "jerryoldenettel"
+    ]
   },
   {
     "id": 23,
@@ -315,8 +438,14 @@
     "confusion": "N/A",
     "comments": "Health positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [576, 663],
-    "photoAuthor": ["gailhampshire", "wanderflechten"]
+    "photoHeight": [
+      576,
+      663
+    ],
+    "photoAuthor": [
+      "gailhampshire",
+      "wanderflechten"
+    ]
   },
   {
     "id": 24,
@@ -329,8 +458,14 @@
     "confusion": "Bristly haircap (Polytrichum piliferum)",
     "comments": "Health positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [684, 684],
-    "photoAuthor": ["HermannSchachner", "HermannSchachner"]
+    "photoHeight": [
+      684,
+      684
+    ],
+    "photoAuthor": [
+      "HermannSchachner",
+      "HermannSchachner"
+    ]
   },
   {
     "id": 25,
@@ -343,8 +478,14 @@
     "confusion": "Field maple (Acer campestre), Norway maple (Acer platanoides)",
     "comments": "Health negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [1365, 1365],
-    "photoAuthor": ["Alice Elliott", "Alice Elliott"]
+    "photoHeight": [
+      1365,
+      1365
+    ],
+    "photoAuthor": [
+      "Alice Elliott",
+      "Alice Elliott"
+    ]
   },
   {
     "id": 26,
@@ -357,8 +498,14 @@
     "confusion": "N/A",
     "comments": "Health negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [768, 1365],
-    "photoAuthor": ["The Heartwood ", "Alice Elliott"]
+    "photoHeight": [
+      768,
+      1365
+    ],
+    "photoAuthor": [
+      "The Heartwood ",
+      "Alice Elliott"
+    ]
   },
   {
     "id": 27,
@@ -371,8 +518,14 @@
     "confusion": "Other pine species",
     "comments": "Health negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [1280, 681],
-    "photoAuthor": ["Plant Image Library", "_Pinus sylvestris"]
+    "photoHeight": [
+      1280,
+      681
+    ],
+    "photoAuthor": [
+      "Plant Image Library",
+      "_Pinus sylvestris"
+    ]
   },
   {
     "id": 28,
@@ -385,8 +538,14 @@
     "confusion": "Other star mosses",
     "comments": "Health negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [733, 768],
-    "photoAuthor": ["Phil Smith", "Richard Moyse"]
+    "photoHeight": [
+      733,
+      768
+    ],
+    "photoAuthor": [
+      "Phil Smith",
+      "Richard Moyse"
+    ]
   },
   {
     "id": 29,
@@ -399,8 +558,14 @@
     "confusion": "Nothing. Other plantains at a push",
     "comments": "Fixed dune acidic grassland positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [1289, 679],
-    "photoAuthor": ["Phil Sellens", "Chris Cesar"]
+    "photoHeight": [
+      1289,
+      679
+    ],
+    "photoAuthor": [
+      "Phil Sellens",
+      "Chris Cesar"
+    ]
   },
   {
     "id": 30,
@@ -413,8 +578,14 @@
     "confusion": "N/A",
     "comments": "Fixed dune acidic grassland positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [722, 625],
-    "photoAuthor": ["Phil Smith", "Phil Smith"]
+    "photoHeight": [
+      722,
+      625
+    ],
+    "photoAuthor": [
+      "Phil Smith",
+      "Phil Smith"
+    ]
   },
   {
     "id": 31,
@@ -427,8 +598,12 @@
     "confusion": "Other thistles, particularly Cotton thistle (Onopordum acanthium)",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [576],
-    "photoAuthor": ["John Tann "]
+    "photoHeight": [
+      576
+    ],
+    "photoAuthor": [
+      "John Tann "
+    ]
   },
   {
     "id": 32,
@@ -441,8 +616,12 @@
     "confusion": "Brambles (Rubus spp.)",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [829],
-    "photoAuthor": ["Orfano Mondo"]
+    "photoHeight": [
+      829
+    ],
+    "photoAuthor": [
+      "Orfano Mondo"
+    ]
   },
   {
     "id": 33,
@@ -455,8 +634,13 @@
     "confusion": "Dwarf gorse (Ulex minor), Western gorse (Ulex gallii)",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [683, 768],
-    "photoAuthor": ["John Tann"]
+    "photoHeight": [
+      683,
+      768
+    ],
+    "photoAuthor": [
+      "John Tann"
+    ]
   },
   {
     "id": 34,
@@ -469,8 +653,14 @@
     "confusion": "Other heathers, especially Bell heather (Erica cinerea)",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [755, 768],
-    "photoAuthor": ["Philip_Goddard", "Peter O'Connor"]
+    "photoHeight": [
+      755,
+      768
+    ],
+    "photoAuthor": [
+      "Philip_Goddard",
+      "Peter O'Connor"
+    ]
   },
   {
     "id": 35,
@@ -483,8 +673,14 @@
     "confusion": "Salad burnet (Sanguisorba minor)",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [768, 576],
-    "photoAuthor": [" Emoke Denes", "John Tann"]
+    "photoHeight": [
+      768,
+      576
+    ],
+    "photoAuthor": [
+      " Emoke Denes",
+      "John Tann"
+    ]
   },
   {
     "id": 36,
@@ -497,8 +693,14 @@
     "confusion": "Nothing",
     "comments": "Fixed dune acidic grassland negative indicators",
     "photoWidth": 1024,
-    "photoHeight": [767, 768],
-    "photoAuthor": ["loarie", "Agnes Monkelbaan"]
+    "photoHeight": [
+      767,
+      768
+    ],
+    "photoAuthor": [
+      "loarie",
+      "Agnes Monkelbaan"
+    ]
   },
   {
     "id": 37,
@@ -511,8 +713,13 @@
     "confusion": "Thyme-leaved sandwort (Arenaria serpyllifolia)",
     "comments": "Mobile dune acidic grassland positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [683, 768],
-    "photoAuthor": ["David Kilner"]
+    "photoHeight": [
+      683,
+      768
+    ],
+    "photoAuthor": [
+      "David Kilner"
+    ]
   },
   {
     "id": 38,
@@ -525,8 +732,14 @@
     "confusion": "Prickly Saltwort",
     "comments": "Mobile dune acidic grassland positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [672, 576],
-    "photoAuthor": ["Zeynel Cebeci", "nz_willowherb"]
+    "photoHeight": [
+      672,
+      576
+    ],
+    "photoAuthor": [
+      "Zeynel Cebeci",
+      "nz_willowherb"
+    ]
   },
   {
     "id": 39,
@@ -539,8 +752,14 @@
     "confusion": "None",
     "comments": "Mobile dune acidic grassland positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [691, 768],
-    "photoAuthor": ["gailhampshire", "Kate Petty"]
+    "photoHeight": [
+      691,
+      768
+    ],
+    "photoAuthor": [
+      "gailhampshire",
+      "Kate Petty"
+    ]
   },
   {
     "id": 40,
@@ -553,8 +772,14 @@
     "confusion": "Hedge bindweed (Calystegia sepium), Field bindweed (Convolvulus arvensis), Great bindweed (Calystegia silvatica)",
     "comments": "Mobile dune acidic grassland positive indicators",
     "photoWidth": 1024,
-    "photoHeight": [768, 683],
-    "photoAuthor": ["Richard Moyse", "Andy Nelson"]
+    "photoHeight": [
+      768,
+      683
+    ],
+    "photoAuthor": [
+      "Richard Moyse",
+      "Andy Nelson"
+    ]
   },
   {
     "id": 41,
@@ -567,8 +792,12 @@
     "confusion": "N/A",
     "comments": "Mobile Dune Negative Indicators",
     "photoWidth": 1024,
-    "photoHeight": [1365],
-    "photoAuthor": ["Macleay Grass"]
+    "photoHeight": [
+      1365
+    ],
+    "photoAuthor": [
+      "Macleay Grass"
+    ]
   },
   {
     "id": 42,
@@ -581,8 +810,14 @@
     "confusion": "Hybridised willow species typically including goat willow (S. caprea) and downy willow (S. lapponum). ",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
-    "photoHeight": [1410, 768],
-    "photoAuthor": ["Robert Flogaus-Faust", "AndreyZharkikh"]
+    "photoHeight": [
+      1410,
+      768
+    ],
+    "photoAuthor": [
+      "Robert Flogaus-Faust",
+      "AndreyZharkikh"
+    ]
   },
   {
     "id": 43,
@@ -595,8 +830,14 @@
     "confusion": "Hybrids of mint",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
-    "photoHeight": [728, 1365],
-    "photoAuthor": ["Jörg Hempe", "Walwyn"]
+    "photoHeight": [
+      728,
+      1365
+    ],
+    "photoAuthor": [
+      "Jörg Hempe",
+      "Walwyn"
+    ]
   },
   {
     "id": 44,
@@ -609,8 +850,14 @@
     "confusion": "The leaves are similar to Navelwort but this is found in much dryer habitats such as walls and quarries.",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
-    "photoHeight": [829, 768],
-    "photoAuthor": ["jerryoldenettel", "lycaenidae_nm"]
+    "photoHeight": [
+      829,
+      768
+    ],
+    "photoAuthor": [
+      "jerryoldenettel",
+      "lycaenidae_nm"
+    ]
   },
   {
     "id": 45,
@@ -623,8 +870,14 @@
     "confusion": "N/A",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
-    "photoHeight": [1086, 808],
-    "photoAuthor": ["NRCS Montana", "DavidFrancis34"]
+    "photoHeight": [
+      1086,
+      808
+    ],
+    "photoAuthor": [
+      "NRCS Montana",
+      "DavidFrancis34"
+    ]
   },
   {
     "id": 46,
@@ -637,8 +890,14 @@
     "confusion": "N/A",
     "comments": "Dune Slack Species",
     "photoWidth": 1024,
-    "photoHeight": [887, 768],
-    "photoAuthor": ["oldbilluk", "Christophe BERNIER"]
+    "photoHeight": [
+      887,
+      768
+    ],
+    "photoAuthor": [
+      "oldbilluk",
+      "Christophe BERNIER"
+    ]
   },
   {
     "id": 47,
@@ -651,8 +910,14 @@
     "confusion": "Thistle species",
     "comments": "Mobile dune positive indicator",
     "photoWidth": 1024,
-    "photoHeight": [768, 769],
-    "photoAuthor": ["Macleay Grass", "Forscher"]
+    "photoHeight": [
+      768,
+      769
+    ],
+    "photoAuthor": [
+      "Macleay Grass",
+      "Forscher"
+    ]
   },
   {
     "id": 48,
@@ -665,8 +930,14 @@
     "confusion": "St John’s Wort",
     "comments": "Mobile dune negative indicator & Dune slacks negative indicator",
     "photoWidth": 1024,
-    "photoHeight": [768, 679],
-    "photoAuthor": ["Philip_Goddard", "Chris Cesar"]
+    "photoHeight": [
+      768,
+      679
+    ],
+    "photoAuthor": [
+      "Philip_Goddard",
+      "Chris Cesar"
+    ]
   },
   {
     "id": 49,
@@ -679,7 +950,10 @@
     "confusion": "Other perennial broad-leaved weeds",
     "comments": "Mobile dune negative indicator, Fixed dune grassland negative indicator & Dune slack negative indicator",
     "photoWidth": 1024,
-    "photoHeight": [1489, 1365]
+    "photoHeight": [
+      1489,
+      1365
+    ]
   },
   {
     "id": 50,
@@ -692,8 +966,14 @@
     "confusion": "Common cow - wheat",
     "comments": "Dune slack positive indicator, Fixed dune positive indicator, ",
     "photoWidth": 1024,
-    "photoHeight": [683, 679],
-    "photoAuthor": ["Judy Gallagher", "Chris Cesar"]
+    "photoHeight": [
+      683,
+      679
+    ],
+    "photoAuthor": [
+      "Judy Gallagher",
+      "Chris Cesar"
+    ]
   },
   {
     "id": 51,
@@ -706,8 +986,13 @@
     "confusion": "Male fern",
     "comments": "Dune slack negative indicator",
     "photoWidth": 1024,
-    "photoHeight": [1536, 768],
-    "photoAuthor": ["Peter O'Connor"]
+    "photoHeight": [
+      1536,
+      768
+    ],
+    "photoAuthor": [
+      "Peter O'Connor"
+    ]
   },
   {
     "id": 52,
@@ -720,8 +1005,14 @@
     "confusion": "None",
     "comments": "Dune slacks negative indicator",
     "photoWidth": 1024,
-    "photoHeight": [768, 1536],
-    "photoAuthor": ["cheung2408", "David Kilner"]
+    "photoHeight": [
+      768,
+      1536
+    ],
+    "photoAuthor": [
+      "cheung2408",
+      "David Kilner"
+    ]
   },
   {
     "id": 53,
@@ -733,7 +1024,15 @@
     "flowering": "May - August",
     "confusion": "Other buttercups",
     "comments": "Dunescapes slack & Nitrogen loving",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      683,
+      1024
+    ],
+    "photoAuthor": [
+      "Myrialejean",
+      " Bob Harvey"
+    ]
   },
   {
     "id": 54,
@@ -745,7 +1044,15 @@
     "flowering": "May - September",
     "confusion": "Other members of the nightshade family",
     "comments": "Dunescapes slack & Nitrogen loving",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      768,
+      1280
+    ],
+    "photoAuthor": [
+      "Maia C",
+      "spwhite1"
+    ]
   },
   {
     "id": 55,
@@ -758,8 +1065,14 @@
     "confusion": "St John’s Wort",
     "comments": "Fixed dune grassland positive indicator",
     "photoWidth": 1024,
-    "photoHeight": [1536, 732],
-    "photoAuthor": ["Björn S", "Philip_Goddard"]
+    "photoHeight": [
+      1536,
+      732
+    ],
+    "photoAuthor": [
+      "Björn S",
+      "Philip_Goddard"
+    ]
   },
   {
     "id": 56,
@@ -772,8 +1085,14 @@
     "confusion": "Other species of Eyebright and hybrids",
     "comments": "Fixed dune grassland positive indicator",
     "photoWidth": 1024,
-    "photoHeight": [683, 679],
-    "photoAuthor": ["nutmeg66", "Chris Cesar"]
+    "photoHeight": [
+      683,
+      679
+    ],
+    "photoAuthor": [
+      "nutmeg66",
+      "Chris Cesar"
+    ]
   },
   {
     "id": 57,
@@ -786,8 +1105,14 @@
     "confusion": "Birds - Foot Trefoil",
     "comments": "Fixed dune grassland positive indicator",
     "photoWidth": 1024,
-    "photoHeight": [866, 1365],
-    "photoAuthor": ["AJC1", "Philip_Goddard"]
+    "photoHeight": [
+      866,
+      1365
+    ],
+    "photoAuthor": [
+      "AJC1",
+      "Philip_Goddard"
+    ]
   },
   {
     "id": 58,
@@ -800,8 +1125,14 @@
     "confusion": "Wild Raspberry ",
     "comments": "Fixed dune grassland negative indicator",
     "photoWidth": 1024,
-    "photoHeight": [1365, 768],
-    "photoAuthor": ["Alice Elliott", "Richard Moyse"]
+    "photoHeight": [
+      1365,
+      768
+    ],
+    "photoAuthor": [
+      "Alice Elliott",
+      "Richard Moyse"
+    ]
   },
   {
     "id": 59,
@@ -814,8 +1145,14 @@
     "confusion": "None",
     "comments": "Fixed dune grassland negatve indicator",
     "photoWidth": 1024,
-    "photoHeight": [767, 768],
-    "photoAuthor": ["Peter O'Connor", "Philip_Goddard"]
+    "photoHeight": [
+      767,
+      768
+    ],
+    "photoAuthor": [
+      "Peter O'Connor",
+      "Philip_Goddard"
+    ]
   },
   {
     "id": 60,
@@ -827,7 +1164,15 @@
     "flowering": "All year",
     "confusion": "Other spear mosses",
     "comments": "Dune slack positive indicator",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      684,
+      684
+    ],
+    "photoAuthor": [
+      "HermannSchachner",
+      "HermannSchachner"
+    ]
   },
   {
     "id": 61,
@@ -839,7 +1184,15 @@
     "flowering": "All year",
     "confusion": "Other star mosses",
     "comments": "Dune slack positive indicator",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      684,
+      684
+    ],
+    "photoAuthor": [
+      "HermannSchachner",
+      "HermannSchachner"
+    ]
   },
   {
     "id": 62,
@@ -851,7 +1204,15 @@
     "flowering": "May and June",
     "confusion": "Other sedges",
     "comments": "Dune slack positive indicator ",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      768,
+      768
+    ],
+    "photoAuthor": [
+      "Bushman.K",
+      "--Tico--"
+    ]
   },
   {
     "id": 63,
@@ -863,7 +1224,15 @@
     "flowering": "July - September",
     "confusion": "Other Agrimony spp",
     "comments": "Dune slack nitrogen loving",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      704,
+      683
+    ],
+    "photoAuthor": [
+      "bluefootedbooby",
+      "dhobern"
+    ]
   },
   {
     "id": 64,
@@ -875,6 +1244,14 @@
     "flowering": "March - June",
     "confusion": "Purple dead nettle; henbit dead nettle ",
     "comments": "Dune slack negative indicator",
-    "photoWidth": 1024
+    "photoWidth": 1024,
+    "photoHeight": [
+      683,
+      683
+    ],
+    "photoAuthor": [
+      "Derek.P.",
+      "MiriaGrunick"
+    ]
   }
 ]
