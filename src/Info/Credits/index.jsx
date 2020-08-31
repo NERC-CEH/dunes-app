@@ -21,10 +21,10 @@ export default () => (
           <b>Laurence Jones</b> (UK Centre for Ecology & Hydrology)
         </P>
         <P skipTranslation>
-          <b>Tim Braund</b> (Plantlife)
+          <b>David Roy</b> (UK Centre for Ecology & Hydrology)
         </P>
         <P skipTranslation>
-          <b>David Roy</b> (UK Centre for Ecology & Hydrology)
+          <b>Biren Rathod</b> (UK Centre for Ecology & Hydrology)
         </P>
         <P skipTranslation>
           <b>Karolis Kazlauskis</b> (Flumens)
@@ -36,7 +36,7 @@ export default () => (
           <b>John van Breda</b> (Biodiverse IT)
         </P>
         <P skipTranslation>
-          <b>Biren Rathod</b> (the UK Centre for Ecology & Hydrology)
+          <b>Tim Braund</b> (Plantlife)
         </P>
       </Section>
 
