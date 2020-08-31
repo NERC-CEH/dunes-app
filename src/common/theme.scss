@@ -211,3 +211,10 @@ ion-item-divider {
 figcaption {
   font-size: 0.7em;
 }
+
+.info-background-message {
+  --background: #eaeaea;
+  span {
+    font-weight: 400;
+  }
+}
