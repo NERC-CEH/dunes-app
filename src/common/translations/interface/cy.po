@@ -43,11 +43,11 @@ msgstr "Nôl"
 
 # Habitat type name
 msgid "Beach"
-msgstr "Y Traeth"
+msgstr "Traeth"
 
 # Habitat type name
 msgid "Strandline"
-msgstr "Ymyl y Lan"
+msgstr "Traethlin"
 
 # Habitat type name
 msgid "Embryo Dune"
@@ -59,7 +59,7 @@ msgstr "Twyn Symudol"
 
 # Habitat type name
 msgid "Semi-fixed Dune"
-msgstr "Twyn Lled-sefydlog"
+msgstr "Twyn Lled Sefydlog"
 
 # Habitat type name
 msgid "Fixed Dune"
@@ -95,7 +95,7 @@ msgstr "Wedi'u cyflwyno"
 
 # Empty list message
 msgid "No finished pending surveys"
-msgstr "Dim un arolwg i'w gyflwyno wedi'i gwblhau"
+msgstr "Dim un arolwg cyflawn i'w gyflwyno"
 
 # Empty list message
 msgid "No uploaded surveys"
@@ -123,11 +123,11 @@ msgstr "Drafft"
 
 # Survey type
 msgid "Fixed-point Photography"
-msgstr "Ffotograffiaeth pwynt sefydlog"
+msgstr "Ffotograffiaeth Pwynt Sefydlog"
 
 # Survey type
 msgid "Zonation Mapping"
-msgstr "Yn cynnull y lleoliadau."
+msgstr "Mapio Parthau"
 
 # Survey type
 msgid "Plant Quadrat Recording"
@@ -135,7 +135,7 @@ msgstr "Cofnodi Cwadradau Planhigion"
 
 # Survey type
 msgid "Water Table Depth"
-msgstr ""
+msgstr "Lefel Trwythiad"
 
 # Survey type
 msgid "Dunes Profile"
@@ -211,7 +211,7 @@ msgstr "Un foment..."
 
 # Report finish success message
 msgid "Transect list was successfully updated."
-msgstr "Rhestr o drawsluniau wedi'i diweddaru."
+msgstr "Diweddarwyd y rhestr o drawsluniau."
 
 # Report message
 msgid "Sorry, looks like you're offline."
@@ -304,7 +304,7 @@ msgstr "Gorffen"
 
 # From photo picker
 msgid "Choose a method to upload a photo"
-msgstr "Dewiswch ffordd o lwytho llun i fyny."
+msgstr "Dewiswch ffordd o lwytho llun i fyny"
 
 # From photo picker
 msgid "Gallery"
@@ -324,7 +324,7 @@ msgstr "Ychwanegwch lun isod."
 
 # Photo picker helper
 msgid "Adding photographs"
-msgstr ""
+msgstr "Yn ychwanegu'r lluniau"
 
 # Alert dialog button label
 msgid "Got it"
@@ -343,8 +343,8 @@ msgid ""
 "Each photograph should be taken in the direction of the bearing of the "
 "transect i.e. pointing inland towards your next photography point."
 msgstr ""
-"Dylid tynnu pob llun gan ddilyn cyfeiriad y trawslun, h.y. yn pwyntio tua'r "
-"tir at bwynt eich ffotograff nesaf."
+"Dylid tynnu pob llun gan ddilyn cyfeiriant y trawslun, h.y. yn pwyntio tua'r"
+" tir at bwynt eich ffotograff nesaf."
 
 # Photo picker helper
 msgid "Take the photograph at eye level."
@@ -392,7 +392,7 @@ msgstr "Croeso nôl"
 
 # Registration success toast message
 msgid "Welcome aboard!"
-msgstr ""
+msgstr "Croeso!"
 
 # Part of sign in and registration flow
 msgid "Sign in to your account to start"
@@ -440,7 +440,7 @@ msgid ""
 "home to amazing native wildlife including diverse plant communities that "
 "support specialist sand dune animals."
 msgstr ""
-"Yn frithwaith prydferth o wahanol fathau o gynefin, mae twyni tywod "
+"Yn frithwaith prydferth o wahanol fathau o gynefinoedd, mae twyni tywod "
 "arfordirol yn gartref i fywyd gwyllt brodorol arbennig, yn cynnwys cymunedau"
 " llawn amrywiaeth o blanhigion sy'n cefnogi anifeiliaid arbenigol y twyni."
 
@@ -489,12 +489,12 @@ msgstr "Uwchlaw'r llinell penllanw arferol."
 # Embryo dune habitat features
 msgid "First perennial plants present; may include sand couch and lyme grass."
 msgstr ""
-"Planhigion lluosflwydd cyntaf; efallai'n cynnwys marchwellt y twyni a "
-"chlymwellt."
+"Planhigion lluosflwydd cyntaf yn bresennol; efallai'n cynnwys marchwellt y "
+"twyni a chlymwellt."
 
 # Embryo dune habitat features
 msgid "Low, hummocky dunes form around these plants."
-msgstr "Mae twmpathau o dwyni isel yn ffurfio o amgylch y planhigion hyn."
+msgstr "Twmpathau o dwyni isel yn ffurfio o amgylch y planhigion hyn."
 
 # Mobile dune habitat features
 msgid "Lots of bare sand (10-50%)."
@@ -502,35 +502,35 @@ msgstr "Llawer o dywod noeth (10-50%)."
 
 # Mobile dune habitat features
 msgid "Marram grass dominates."
-msgstr "Moresg gan fwyaf."
+msgstr "Moresg yn dominyddu."
 
 # Mobile dune habitat features
 msgid "Sand builds up around marram to form high, mobile dunes."
-msgstr "Mae tywod yn cronni o amgylch y moresg i ffurfio twyni symudol uchel."
+msgstr "Tywod yn cronni o amgylch y moresg i ffurfio twyni symudol uchel."
 
 # Mobile dune habitat features
 msgid ""
 "A small number of other plants may be present; may include sea holly and sea"
 " spurge."
 msgstr ""
-"Efallai bod nifer fechan o blanhigion eraill yn bresennol; efallai'n cynnwys"
-" celyn y môr a llaethlys y môr."
+"Gall fod nifer fechan o blanhigion eraill yn bresennol; efallai'n cynnwys "
+"celyn y môr a llaethlys y môr."
 
 # Semi-fixed dune habitat features
 msgid "Bare sand cover reduced."
-msgstr "Gostyngiad yn y tywod noeth ar yr wyneb."
+msgstr "Llai o dywod noeth ar yr wyneb."
 
 # Semi-fixed dune habitat features
 msgid "Red fescue and mosses cover patches between marram."
-msgstr "Peiswellt coch a mwsogl yn gorchuddio mannau rhwng y moresg."
+msgstr "Peiswellt coch a mwsogl yn gorchuddio'r tywod rhwng y moresg."
 
 # Semi-fixed dune habitat features
 msgid ""
 "Species diversity increasing; may include restharrow, sand sedge, birds foot"
 " trefoil."
 msgstr ""
-"Cynnydd yn yr amrywiaeth o rywogaethau; efallai'n cynnwys tagaradr, hesg y "
-"tywod a phys y ceirw."
+"Mwy o amrywiaeth o rywogaethau; efallai'n cynnwys tagaradr, hesg y tywod a "
+"phys-y-ceirw."
 
 # Semi-fixed dune habitat features
 msgid "No real soil layer."
@@ -554,11 +554,11 @@ msgstr ""
 
 # Fixed dune habitat features
 msgid "Surface lichens and mosses may be present."
-msgstr "Efallai bod cen a mwsogl ar yr wyneb."
+msgstr "Gall fod cen a mwsogl ar yr wyneb."
 
 # Fixed dune habitat features
 msgid "Little if any scrub or tree cover."
-msgstr "Ychydig o brysgoed neu goed ar yr wyneb, os o gwbl."
+msgstr "Dim llawer o brysgoed neu goed ar yr wyneb, os o gwbl."
 
 # Dune Slack habitat features
 msgid "Flat, low-lying area."
@@ -577,24 +577,26 @@ msgid ""
 "Species may include sedges, water mint, mosses and liverworts, creeping "
 "willow."
 msgstr ""
-"Efallai bod y rhywogaethau'n cynnwys hesg, mintys y dŵr, mwsogl a llysiau'r "
+"Gall fod y rhywogaethau'n cynnwys hesg, mintys y dŵr, mwsogl a llysiau'r "
 "afu, a chorhelyg."
 
 # Heath habitat features
 msgid "Soil is dry, acidic and nutrient-poor."
-msgstr "Mae'r pridd yn sych, yn asidig ac yn brin o faetholion."
+msgstr "Y pridd yn sych, yn asidaidd ac yn brin o faetholion."
 
 # Heath habitat features
 msgid ""
 "Plants present are those associated with acid grassland and heaths; may "
 "include heather."
 msgstr ""
-"Y planhigion sy'n bresennol yw'r rhai sy'n gysylltiedig â glaswelltiroedd "
-"asidig a rhostiroedd; efallai'n cynnwys grug."
+"Y planhigion sy'n bresennol yn gysylltiedig â glaswelltiroedd asidaidd a "
+"rhostiroedd; efallai'n cynnwys grug."
 
 # Scrub and Woodland habitat features
 msgid "Dominance of tall, woody perennials and understorey species."
-msgstr "Planhigion lluosflwydd tal a rhywogaethau'r isdyfiant yn dominyddu."
+msgstr ""
+"Planhigion lluosflwydd prennaidd tal a rhywogaethau'r isdyfiant yn "
+"dominyddu."
 
 # Scrub and Woodland habitat features
 msgid "Very little if any bare sand."
@@ -635,8 +637,7 @@ msgstr "Cuddio"
 # Tip message
 msgid "No finished pending surveys.<br/><br/>Press <4></4> to add."
 msgstr ""
-"Dim un arolwg i'w gyflwyno wedi'i gwblhau.<br/><br/>Pwyswch <4></4> i "
-"ychwanegu."
+"Dim un arolwg cyflawn i'w gyflwyno.<br/><br/>Pwyswch <4></4> i ychwanegu."
 
 # Tip message
 msgid "To delete any surveys swipe it to the left."
@@ -660,7 +661,9 @@ msgstr "Safle"
 
 # Section note message inside a survey
 msgid "You can find this survey information in our volunteer manual."
-msgstr "Gallwch ddod o hyd i'r wybodaeth hon yn ein llawlyfr i wirfoddolwyr."
+msgstr ""
+"Gallwch ddod o hyd i wybodaeth am yr arolwg hwn yn ein llawlyfr i "
+"wirfoddolwyr."
 
 # Section note message inside a survey
 msgid "Please add a photo for your visit."
@@ -672,7 +675,7 @@ msgstr "Dewiswch eich lleoliad."
 
 # Survey alert message
 msgid "Survey incomplete"
-msgstr "Arolwg heb ei gwblhau."
+msgstr "Arolwg heb ei gwblhau"
 
 # Action sheet label
 msgid "Survey Point"
@@ -717,8 +720,8 @@ msgid ""
 msgstr ""
 "Crëwyd yr ap hwn gyda chariad gan <2>Flumens</2>, ymgynghorwyr technegol "
 "sy'n arbenigo mewn datblygu datrysiadau pwrpasol ym maes gwyddoniaeth "
-"amgylchedol ac sy'n canolbwyntio ar gymunedau. Os oes awgrymiadau neu "
-"adborth gennych chi, <6>cysylltwch â ni</6>ar bob cyfrif."
+"amgylcheddol a chan flaenoriaethu cymunedau. Os oes awgrymiadau neu adborth "
+"gennych chi, <6>cysylltwch â ni</6>ar bob cyfrif."
 
 # Credits page section title
 msgid "Graphics"
@@ -763,7 +766,7 @@ msgid ""
 "to the water. If the water is above the dipwell (i.e. flooded) please use "
 "negative values."
 msgstr ""
-"Nodwch lefel y dŵr mewn centimetrau o dop y bibell drochi hyd at y dŵr. Os "
+"Nodwch lefel y dŵr mewn centimetrau o ben y bibell drochi hyd at y dŵr. Os "
 "yw'r dŵr uwchlaw'r bibell drochi (h.y. yn gorlifo), defnyddiwch werthoedd "
 "negyddol."
 
@@ -777,7 +780,7 @@ msgstr "lleoliad"
 
 # Dipwell survey information label
 msgid "To see dipwells please select your site and transect first."
-msgstr "I weld pibelli trochi, dewiswch eich safle a'ch trawslun yn gyntaf."
+msgstr "I weld y pibelli trochi, dewiswch eich safle a'ch trawslun yn gyntaf."
 
 # Dipwell survey information label
 msgid "Dipwell"
@@ -789,7 +792,7 @@ msgstr "Pibelli trochi"
 
 # Dipwell survey label
 msgid "Water Depth"
-msgstr "Dyfnder y dŵr"
+msgstr "Dyfnder y Dŵr"
 
 # Dunes profile survey information label
 msgid "Choose point type"
@@ -853,7 +856,7 @@ msgstr "Llystyfiant ar yr Wyneb"
 
 # Plant quadrats survey section label
 msgid "Bare ground & Sand"
-msgstr "Tywod a Thir noeth"
+msgstr "Tir a Thywod noeth"
 
 # Plant quadrats survey section label
 msgid "Moss & Lichen"
@@ -865,7 +868,7 @@ msgstr "Gweiriau"
 
 # Plant quadrats survey section label
 msgid "Herbs"
-msgstr ""
+msgstr "Planhigion llysieuol"
 
 # Plant quadrats survey section label
 msgid "Shrubs"
@@ -877,7 +880,7 @@ msgstr "Prysgoed"
 
 # Plant quadrats survey section message
 msgid "Please specify the % of the grasses, sedges and rushes cover."
-msgstr "Nodwch % y gwair, yr hesg a'r brwyn ar yr wyneb."
+msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio gan wair, hesg a brwyn."
 
 # Plant quadrats survey section label
 msgid "Vegetation Height"
@@ -921,7 +924,7 @@ msgstr "Llystyfiant"
 
 # Plant quadrats survey section message
 msgid "Cover"
-msgstr ""
+msgstr "Llystyfiant ar yr Wyneb"
 
 # Plant quadrats survey section message
 msgid "Height"
@@ -929,7 +932,7 @@ msgstr "Uchder"
 
 # Plant quadrats survey section message
 msgid "Indicator Species"
-msgstr "Rhywogaethau dynodol"
+msgstr "Rhywogaethau Dynodol"
 
 # Plant quadrats survey section message
 msgid "Health"
@@ -945,23 +948,24 @@ msgstr "Llun o'r Cwadrad"
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the bare ground and sand cover."
-msgstr "Nodwch % y tywod a'r tir noeth ar yr wyneb."
+msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio gan dir a thywod noeth."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the moss and lichen cover."
-msgstr "Nodwch % y mwsogl a'r cen ar yr wyneb."
+msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio gan fwsogl a chen."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the herbs cover."
 msgstr ""
+"Nodwch % yr arwynebedd sydd wedi'i orchuddio gan blanhigion llysieuol."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the heathland shrubs cover."
-msgstr "Nodwch % y prysglwyni rhostir ar yr wyneb."
+msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio gan brysglwyni rhostir."
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the scrub and woodland cover."
-msgstr "Nodwch % y prysgoed a'r coetir ar yr wyneb."
+msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio gan brysgoed a choetir."
 
 # User reset error message
 msgid "email must be a valid email"
@@ -1038,11 +1042,11 @@ msgstr ""
 "Drwy adnabod a chofnodi rhywogaethau o blanhigion, gallwch helpu gwyddonwyr "
 "a chadwraethwyr i warchod ac adfer cynefinoedd twyni tywod sy'n llawn "
 "amrywiaeth yng Nghymru a Lloegr, drwy ddefnyddio'r ap hwn. Mae twyni tywod "
-"arfordirol yn cwmpasu ystod hyfryd o gynefinoedd, ac maent yn gartref i "
-"fywyd gwyllt arbennig - yn cynnwys glöynnod byw, madfallod, llyffantod a "
-"thegeirian. Fel gwyddonydd-ddinesydd, byddwch yn helpu ymchwilwyr i gasglu "
-"data hanfodol am gynefinoedd a rhywogaethau'r twyni tywod er mwyn helpu i "
-"gryfhau'r ddealltwriaeth o beth sy'n digwydd mewn amgylcheddau twyni tywod "
+"arfordirol yn cwmpasu ystod eang o gynefinoedd hyfryd, ac maent yn gartref i"
+" fywyd gwyllt arbennig - yn cynnwys glöynnod byw, madfallod, llyffantod a "
+"thegeirianau. Fel gwyddonydd-ddinesydd, byddwch yn helpu ymchwilwyr i gasglu"
+" data hanfodol am gynefinoedd a rhywogaethau'r twyni tywod er mwyn cryfhau'r"
+" ddealltwriaeth o beth sy'n digwydd mewn amgylcheddau twyni tywod "
 "arfordirol, ac i helpu i wella'r gwaith cadwraeth sy'n cael ei wneud."
 
 # About page text
@@ -1052,10 +1056,10 @@ msgid ""
 " involved in, and share your findings in the app when you next visit your "
 "chosen sand dune site."
 msgstr ""
-"O fonitro rhywogaethau i gymryd rhan mewn arolygon trawsluniau a chwadradau,"
-" archwiliwch yr ystod o weithgareddau gwyddoniaeth y dinesydd yn yr ap y "
-"gallwch gymryd rhan ynddynt, a rhannu'ch canfyddiadau yn yr ap y tro nesaf y"
-" byddwch yn ymweld â'r twyni tywod a ddewisoch fel safle."
+"O fonitro rhywogaethau i gymryd rhan mewn arolygon trawslun neu gwadrad, "
+"archwiliwch yr ystod o weithgareddau sydd yn yr ap y gallwch gymryd rhan "
+"ynddynt fel gwyddonydd-ddinesydd, a rhannwch eich canfyddiadau yn yr ap y "
+"tro nesaf y byddwch yn ymweld â'r twyni tywod a ddewisoch fel safle."
 
 # About page text
 msgid ""
@@ -1110,12 +1114,12 @@ msgid ""
 "Please check why the total cover is less than 100%. Remember to record bare "
 "ground/sand."
 msgstr ""
-"Gwirich pam fod y cyfanswm ar gyfer yr wyneb yn llai na 100%. Cofiwch "
-"gofnodi tywod/tir noeth."
+"Gwiriwch pam fod cyfanswm yr arwynebedd yn llai na 100%. Cofiwch gofnodi "
+"tir/tywod noeth."
 
 # Warning message
 msgid "Please add at least one photo."
-msgstr "Ychwanegwch un ffotograff o leiaf."
+msgstr "Ychwanegwch un llun o leiaf."
 
 # Warning message
 msgid "Please add water depth value."
@@ -1190,11 +1194,11 @@ msgstr "Anhysbys"
 
 # Part of disturbance page
 msgid "Scrape"
-msgstr ""
+msgstr "Man wedi'i sgrafellu"
 
 # Part of disturbance page
 msgid "Burrow"
-msgstr ""
+msgstr "Twll cwningen"
 
 # Part of disturbance page
 msgid "Animal dung"
@@ -1254,7 +1258,7 @@ msgstr "Yn cynnull y lleoliadau."
 
 # Loading dialog when pulling location data
 msgid "List was successfully updated."
-msgstr "Rhestr wedi'i diweddaru."
+msgstr "Diweddarwyd y rhestr."
 
 # Zonation Mapping survey manual
 msgid "Background"
@@ -1275,12 +1279,12 @@ msgstr ""
 "Mae dwy nod i'r gweithgaredd hwn. Yn gyntaf, mesur hyd y twyn. Ac yn ail, "
 "cyfuno hynny gyda chofnodi ble mae'r parthau'n newid o un i'r nesaf ar hyd "
 "pob trawslun. Drwy dynnu ffotograffau a nodi lleoliad GPS y mannau "
-"trosiannol rhwng gwahanol barthau o'r system o dwyni tywod bydd hynny'n "
-"helpu i fonitro sut mae'r ffiniau hyn yn newid dros amser. Ystyr trosi yw "
-"newid sydyn neu raddol o un math o gynefin i un arall, er enghraifft, o dwyn"
-" symudol i dwyn lled-sefydlog, neu i gynefinoedd eraill mewn twyn sefydlog, "
-"tywod noeth o amgylch mannau sydd newydd eu hadfer/sgrafellu neu chwythbant,"
-" prysgoed yn ymledu, a ffiniau llaciau twyni."
+"trosiannol rhwng gwahanol barthau system y twyni tywod bydd hynny'n helpu i "
+"fonitro sut mae'r ffiniau hyn yn newid dros amser. Ystyr trosiannol yw ble "
+"mae newid sydyn neu raddol o un math o gynefin i un arall, er enghraifft, o "
+"dwyn symudol i dwyn lled sefydlog, neu i gynefinoedd eraill mewn twyn "
+"sefydlog, tywod noeth o amgylch mannau sydd newydd eu hadfer/sgrafellu neu "
+"chwythbant, prysgoed yn ymledu, a ffiniau llaciau twyni."
 
 # Zonation Mapping survey manual
 msgid "Method"
@@ -1296,7 +1300,7 @@ msgstr "Cyfarpar"
 
 # Zonation Mapping survey manual
 msgid "Navigating to and along the transect"
-msgstr "Llywio at y trawslun ac ar ei hud."
+msgstr "Llywio at y trawslun ac ar ei hyd"
 
 # Zonation Mapping survey manual
 msgid "What to record along the transect"
@@ -1347,23 +1351,22 @@ msgid ""
 msgstr ""
 "<0><0>Gan ddefnyddio'ch uned GPS (a'r ap ffôn symudol), llywiwch at bwynt "
 "cyntaf y trawslun, a fydd wedi'i farcio gan bostyn. Gellir gweld y cyfeirnod"
-" grid ar y ffurflen sy'n disgrifio'r trawslun, neu'r pwynt cychwynnol sydd "
-"wedi'i ddisgrifio ar yr ap.</0><1>Defnyddiwch y cyfeirnod grid ar gyfer "
-"diwedd y trawslun a'ch cwmpawd (a'ch ap ffôn symudol) i lywio ar hyd y "
-"trawslun. Gall y 3 ffon farcio eich helpu i gadw at y trawslun. Rhowch y "
-"ffon farcio gyntaf wrth y pwynt cychwynnol. Gan ddilyn y cyfeiriant a roddir"
-" ar gyfer y trawslun, llywiwch ar hyd y trawslun am tua 50 metr a gosod yr "
-"ail ffon farcio. Wedyn gall rhywun sy'n sefyll wrth y ffon farcio gyntaf, "
-"gan ddal y cwmpawd, roi lleoliad y drydedd ffon farcio i'w gosod 50m arall "
-"ar hyd y trawslun. Pan fo'r 3 ffon wedi'u halinio, cerddwch yn ôl at y ffon "
-"gyntaf a dechrau cofnodi'r mannau trosiannol. Gellir tynnu'r ffon farcio "
-"gyntaf ac wedyn yr ail, a gellir ailadrodd y broses o'r drydedd ffon i symud"
-" ar hyd y trawslun. Efallai bydd rhai trawsluniau yn fyrrach na 100m. "
-"Addaswch y dull os oes angen i sicrhau y gallwch weld yn glir rhwng y ffyn "
-"marcio. Yn achos trawsluniau sy'n gorffen ar y traeth, bydd y pwynt olaf ar "
-"y traeth ei hun.</1><2>Defnyddiwch y tâp mesur i fesur y pellter rhwng "
-"lleoliadau, a chofnodwch y pellter rhwng pwyntiau trosiannol "
-"parthau.</2></0>"
+" grid ar ffurflen disgrifio'r trawslun, neu'r pwynt cychwynnol sydd wedi'i "
+"ddisgrifio ar yr ap.</0><1>Defnyddiwch y cyfeirnod grid ar gyfer diwedd y "
+"trawslun a'ch cwmpawd (a'ch ap ffôn symudol) i lywio ar hyd y trawslun. Gall"
+" y 3 ffon farcio eich helpu i gadw at y trawslun. Rhowch y ffon farcio "
+"gyntaf wrth y pwynt cychwynnol. Gan ddilyn y cyfeiriant a roddir ar gyfer y "
+"trawslun, llywiwch ar hyd y trawslun am tua 50 metr a gosod yr ail ffon "
+"farcio. Wedyn gall rhywun sy'n sefyll wrth y ffon farcio gyntaf, gan ddal y "
+"cwmpawd, roi lleoliad y drydedd ffon farcio i'w gosod 50m arall ar hyd y "
+"trawslun. Pan fo'r 3 ffon wedi'u halinio, cerddwch yn ôl at y ffon gyntaf a "
+"dechrau cofnodi'r mannau trosiannol. Gellir tynnu'r ffon farcio gyntaf ac "
+"wedyn yr ail, a gellir ailadrodd y broses o'r drydedd ffon i symud ar hyd y "
+"trawslun. Efallai bydd rhai trawsluniau yn fyrrach na 100m. Addaswch y dull "
+"os oes angen i sicrhau y gallwch weld yn glir rhwng y ffyn marcio. Yn achos "
+"trawsluniau sy'n gorffen ar y traeth, bydd y pwynt olaf ar y traeth ei "
+"hun.</1><2>Defnyddiwch y tâp mesur i fesur y pellter rhwng lleoliadau, a "
+"chofnodwch y pellter rhwng pwyntiau trosiannol parthau.</2></0>"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1393,23 +1396,23 @@ msgid ""
 " point of the transect for transects leading onto the shore should be "
 "approximately 5 m seawards from the edge of the strandline.</4></1></6></0>"
 msgstr ""
-"<0><0>Wrth i chi gerdded ar hyd y trawslun, defnyddiwch y canllaw ar barthau"
-" twyni tywod i asesu ym mha barth yr ydych chi (Ffigur 1). Wrth i chi symud "
-"o un parth i'r nesaf, cofnodwch y cyfeirnod grid o'ch uned GPS (os ydych "
+"<0><0>Wrth i chi gerdded ar hyd y trawslun, defnyddiwch y canllaw i barthau "
+"twyni tywod i asesu ym mha barth yr ydych chi (Ffigur 1). Wrth i chi symud o"
+" un parth i'r nesaf, cofnodwch y cyfeirnod grid o'ch uned GPS (os ydych "
 "chi'n defnyddio'r ffurflen cofnodi â llaw), ynghyd ag enwau'r parthau rydych"
-" chi'n symud rhyngddynt . Bydd yr ap yn eich arwain drwy hyn wrth i chi fynd"
-" i mewn i bwynt trosiannol newydd.</0><1></1><2>Ffigur 1. Diagram o barthau "
+" chi'n symud rhyngddynt . Bydd yr ap yn eich arwain drwy hyn wrth i chi "
+"symud i bwynt trosiannol newydd.</0><1></1><2>Ffigur 1. Diagram o barthau "
 "mewn system twyni tywod.</2><br/><4>Cofnodwch y pellter o'r pwynt trosiannol"
 " diwethaf, mewn metrau ac i'r 10 cm agosaf. Wrth bob pwynt trosiannol, "
 "tynnwch ddau ffotograff ar ongl sgwâr i gyfeiriad y trawslun (un i'r chwith,"
 " ac un i'r dde). Ar y ffurflen cofnodi â llaw, nodwch yr amser y tynnwyd y "
 "lluniau hyn fel y gellir eu hadnabod a'u storio'n gywir. Ar yr ap, caiff "
 "amser y ffotograffau eu cofnodi'n ddiofyn.</5><6>Nodiadau:<1><0>Efallai na "
-"fydd y mannau trosi rhwng gwahanol barthau yn amlwg, ond dylech nodi'r pwynt"
-" ble rydych chi'n teimlo bod y rhan fwyaf o'r nodweddion wedi symud o un "
-"math o barth i un arall.</0><1>Mae'n bosibl y byddwch hefyd yn symud o un "
-"math o barth i un arall, ac yn ôl wedyn – dylid nodi pob achos o drosi ar y "
-"ffurflen. Gellir ystyried unrhyw beth sy'n fwy na 2 fetr yn barth "
+"fydd y mannau trosiannol rhwng gwahanol barthau yn amlwg, ond dylech nodi'r "
+"pwynt ble rydych chi'n teimlo bod y nodweddion sy'n dominyddu wedi symud o "
+"un math o barth i un arall.</0><1>Mae'n bosibl y byddwch hefyd yn symud o un"
+" math o barth i un arall, ac yn ôl wedyn – dylid nodi pob achos o drosi ar y"
+" ffurflen. Gellir ystyried unrhyw beth sy'n fwy na 2 fetr yn barth "
 "newydd.</1><2>Ar dywod rhydd iawn ar dwyn serth, efallai y bydd angen "
 "cerdded rai metrau oddi wrth y llinell uniongyrchol er mwyn osgoi tarfu ar y"
 " twyn, ond ewch yn ôl at y llinell uniongyrchol i gymryd y mesuriad "
@@ -1417,7 +1420,8 @@ msgstr ""
 "yn ffin gyda phrysgoed neu goetir – yn yr achosion hyn, mesurwch hyd at ble "
 "mae'r prysgoed/coetir yn ffurfio llinell gymharol ddi-dor (nid llwyni neu "
 "goed unigol). Yn achos trawsluniau sy'n arwain at y lan, dylai pwynt "
-"terfynol y trawslun fod tua 5 m tuag at y môr o ymyl y lan.</4></1></6></0>"
+"terfynol y trawslun fod tua 5 m tuag at y môr o ymyl y "
+"traethlin.</4></1></6></0>"
 
 # Zonation Mapping survey manual
 msgid ""
@@ -1460,7 +1464,7 @@ msgstr ""
 "â'r llun cynorthwyol)</0><1>Tynnwch y llun ar lefel y "
 "llygad</1><2>Cyfeiriwch yn ôl at y ffotograffau a ddangosir yn y ffurflen "
 "disgrifio trawslun, neu ar yr ap. Os oes nodweddion cyfeirio defnyddiol "
-"(e.e. coed, adeiladau), sicrhewch bod y rhain yn yr un lle yn eich "
+"(e.e. coed, adeiladau), sicrhewch fod y rhain yn yr un lle yn eich "
 "ffotograff newydd.</2></1></0><1>Ar gyfer pob ffotograff, cofnodwch yr amser"
 " y tynnwyd y llun ar y ffurflen gofnodi er mwyn gallu ei adnabod a'i storio "
 "yn gywir. Caiff hyn ei gofnodi'n ddiofyn ar yr ap.</1></0>"
@@ -1572,7 +1576,7 @@ msgstr ""
 "cychwynnol.</0><1>Gan ddilyn cyfeiriant y trawslun (h.y. gan symud tuag at y"
 " pwynt terfynol), dylai person B fynd â pholyn anelu 2 hyd at y pwynt ble "
 "mae newid amlwg yn ongl llethr y twyn, neu at bellter o oddeutu 50m os nad "
-"oes newid amlwg yn y llethr (gweler Ffigur 1) - efallai y bydd ardaloedd "
+"oes newid amlwg yn y llethr (gweler Ffigur 1) - efallai y bydd mannau "
 "unffurf hir sydd y tu hwnt i bellter gweld cyfleus. Rhowch bolyn anelu 2 ar "
 "y tir yn y fan hon, eto gan sicrhau eich bod yn ei ddal yn syth ac nad yw'n "
 "suddo i'r tywod. Cofnodwch gyfeirnod grid y pwynt hwn ar y ffurflen gofnodi."
@@ -1594,7 +1598,7 @@ msgstr ""
 "twyn, dylai stopio a rhoi polyn anelu 1 ar y tywod, a dylid ailadrodd y "
 "broses o fesur ongl y llethr a'r pellter rhwng y polion, y tro hwn gyda "
 "pherson B yn cymryd y mesuriadau rhwng polyn 2 a pholyn "
-"1.</9><10>Ailadroddwch y broses hon tan byddwch wedi cyrraedd diwedd y "
+"1.</9><10>Ailadroddwch y broses hon tan fyddwch wedi cyrraedd diwedd y "
 "trawslun.</10><11>Nodiadau:<1><0>Ar dywod rhydd iawn ar dwyn serth, efallai "
 "y bydd angen cerdded rai metrau oddi wrth y llinell uniongyrchol i osgoi "
 "tarfu ar y twyn, ond ewch yn ôl at y llinell uniongyrchol i gymryd y "
@@ -1667,14 +1671,14 @@ msgid ""
 "on the recording form so that it can be identified and stored correctly. "
 "This will be recorded automatically on the app.</1></0>"
 msgstr ""
-"<0><0>Tynnwch lun wrth bob pwynt ffotograff. Mae'n pwysig tynnu'r llun fel "
+"<0><0>Tynnwch lun wrth bob pwynt ffotograff. Mae'n bwysig tynnu'r llun fel "
 "ei fod yn cyd-fynd â lleoliad y ffotograff gwreiddiol (gweler y rhestr o "
 "leoliadau, neu'r ap) er mwyn gallu cymharu'n uniongyrchol. I'ch helpu i "
 "wneud hyn:<1><0>Dylid tynnu pob llun yn y cyfeiriad a nodir (wedi'i alinio "
 "â'r llun cynorthwyol)</0><1>Tynnwch y llun ar lefel y "
 "llygad</1><2>Cyfeiriwch yn ôl at y ffotograffau a ddangosir yn y ffurflen "
 "disgrifio trawslun, neu ar yr ap. Os oes nodweddion cyfeirio defnyddiol "
-"(e.e. coed, adeiladau), sicrhewch bod y rhain yn yr un lle yn eich "
+"(e.e. coed, adeiladau), sicrhewch fod y rhain yn yr un lle yn eich "
 "ffotograff newydd.</2></1></0><1>Ar gyfer pob ffotograff, cofnodwch yr amser"
 " y tynnwyd y llun ar y ffurflen gofnodi er mwyn gallu ei adnabod a'i storio "
 "yn gywir. Caiff hyn ei gofnodi'n ddiofyn ar yr ap.</1></0>"
@@ -1690,18 +1694,28 @@ msgid ""
 " health of the sand dune system is changing over time.</1><2>to record the "
 "percentage cover of species which indicate higher nutrient levels.</2></1>"
 msgstr ""
+"Mae tair nod i'r arolwg hwn:<1><0>cofnodi canran yr arwynebedd sydd wedi'i "
+"orchuddio gan dywod noeth, ac arwynebedd ac uchder mathau cyffredinol o "
+"lystyfiant. Bydd hyn yn caniatáu i ni archwilio a yw cyfansoddiad a "
+"strwythur y llystyfiant ar y safle yn newid dros amser.</0><1>cofnodi canran"
+" yr arwynebedd sydd wedi'i orchuddio gan rywogaethau o blanhigion sy'n "
+"ddangosyddion cadarnhaol a negyddol o iechyd y twyni (gan gynnwys "
+"rhywogaethau prin a rhywogaethau ymledol) fel y gallwn olrhain sut mae "
+"iechyd system y twyni tywod yn newid dros amser.</1><2>cofnodi canran yr "
+"arwynebedd sydd wedi'i orchuddio gan rywogaethau sy'n dynodi lefelau uwch o "
+"faetholion.</2></1>"
 
 # Plant-Quadrat survey manual
 msgid "Finding and marking out the quadrat"
-msgstr ""
+msgstr "Canfod y cwadrad a'i farcio"
 
 # Plant-Quadrat survey manual
 msgid "What to record in the quadrat"
-msgstr "Beth i'w gofnodi yn y cwadrad."
+msgstr "Beth i'w gofnodi yn y cwadrad"
 
 # Plant-Quadrat survey manual
 msgid "Vegetation cover"
-msgstr ""
+msgstr "Llystyfiant ar yr wyneb"
 
 # Plant-Quadrat survey manual
 msgid "Vegetation height"
@@ -1709,7 +1723,7 @@ msgstr "Uchder y llystyfiant"
 
 # Plant-Quadrat survey manual
 msgid "Health indicator species and nitrogen indicator species"
-msgstr "Rhywogaethau dynodi iechyd a rhywogaethau dynodi nitrogen"
+msgstr "Rhywogaethau sy'n dynodi iechyd a rhywogaethau sy'n dynodi nitrogen"
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -1736,6 +1750,31 @@ msgid ""
 "ground/sand should reach at least 100 % otherwise an error has been made. "
 "The app will automatically calculate the total cover."
 msgstr ""
+"Nodwch gyfanswm canran yr arwynebedd o fewn y cwadrad sydd wedi'i orchuddio "
+"gan:<1><0>Dir neu dywod noeth</0><1>Mwsogl a chen (gweler y canllaw i "
+"rywogaethau).</1><2>Gwair, hesg a brwyn. Mae'r rhain i gyd yn blanhigion "
+"sy'n edrych yn debyg i wair. Ar y cyfan mae gan goesynnau hesg dair ymyl, ac"
+" mae coesynnau brwyn yn grwn iawn â bywyn ('pith') y tu mewn "
+"iddynt.</2><3>Planhigion llysieuol. Golygir gan hyn yr holl blanhigion "
+"eraill nad ydynt yn goed nac yn brysglwyni (ond maent yn cynnwys planhigion "
+"fel llwyni mwyar duon a rhedyn).</3><4>Prysglwyni rhostir (grug, eithin, "
+"llus)</4><5>Coed a phrysgoed (gan gynnwys planhigion ifanc)</5></1>Dylid "
+"amcangyfrif gan edrych o uwchlaw ar y llystyfiant sydd ar yr wyneb. Gall "
+"helpu i geisio dychmygu'r holl wahanol fannau sydd wedi'u gorchuddio gan un "
+"math o lystyfiant yn tyfu gyda'i gilydd a faint o'r sgwâr 2 × 2 m y byddai "
+"hyn yn ei orchuddio. Cofiwch fod:<3><0>20 × 20 cm yn 1 % o'r "
+"arwynebedd</0><1>50 × 50 cm yn 6.25 % o'r arwynebedd</1><2>1 × 1 m yn 25 % "
+"o'r arwynebedd</2></3>Gall edrych ar y tâp mesur o amgylch y cwadrad helpu "
+"gyda hyn.<br/>Os oes nifer o bobl yn eich tîm arolygu, dylai pob person "
+"amcangyfrif drosto ei hun pa ganran sydd wedi'i orchuddio gan bob math o "
+"lystyfiant ac wedyn dylid cofnodi cyfartaledd yr amcangyfrifon hyn ar "
+"ffurflen gofnodi'r cwadrad.<br/>Os yw un math o lystyfiant yn gorchuddio "
+"llai nag 1 % o'r arwynebedd, cofnodwch hyn fel 0.5 %<br/>Mae'n bosibl y bydd"
+" cyfanswm y llystyfiant yn dod i fwy na 100 % o'r arwynebedd oherwydd gall "
+"fod gwahanol haenau o lystyfiant yn croesi, ond gyda'i gilydd dylai cyfanswm"
+" yr arwynebedd sydd wedi'i orchuddio gan lystyfiant a thir neu dywod noeth "
+"ddod i 100 % o leiaf, fel arall mae gwall wedi'i wneud. Bydd yr ap yn "
+"cyfrifo cyfanswm yr arwynebedd sydd wedi'i orchuddio yn ddiofyn."
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -1750,6 +1789,16 @@ msgid ""
 "measurements on your form, or on the app. The app will automatically "
 "calculate the average."
 msgstr ""
+"Gan ystyried pob man yn y cwadrad ble mae llystyfiant, gwnewch bum mesuriad "
+"o uchder y llystyfiant (yn ddelfrydol un ym mhob chwarter o'r cwadrad ac un "
+"yn y canol). Mesurwch yr uchder gyda phren mesur neu dâp mesur (neu ddisg "
+"gollwng os oes un ar gael), gan gofnodi'r uchder y mae'r rhan fwyaf o'r "
+"llystyfiant yn ei gyrraedd o fewn 20 cm yn fras i'ch mesurydd – anwybyddwch "
+"fflurbennau tal achlysurol os byddant yn tyfu'n uwch na'r uchder hwn. Os oes"
+" nifer o bobl yn eich tîm arolygu, mae'n ddefnyddiol i ddau neu dri gytuno "
+"ar yr uchder y dylid ei gofnodi ym mhob safle. Cofnodwch y pum mesur o "
+"uchder ar eich ffurflen, neu yn yr ap. Bydd yr ap yn cyfrifo'r cyfartaledd "
+"yn ddiofyn."
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -1772,6 +1821,26 @@ msgid ""
 "vegetation type is less than 1 % then record this as 0.5 % on the quadrat "
 "recording form."
 msgstr ""
+"Gan ddefnyddio'r rhestr o rywogaethau sy'n ddangosyddion cadarnhaol a "
+"negyddol ar gyfer y safle, yn achos pob rhywogaeth a welwch yn y cwadrad "
+"cofnodwch ei henw ar ffurflen gofnodi'r cwadrad, neu ei ddewis yn yr ap. "
+"Nodwch fod rhestrau gwahanol ar gyfer pob cynefin, felly sicrhewch eich bod "
+"yn defnyddio'r un briodol ar gyfer y cwadrad rydych yn gwneud yr arolwg "
+"ohono. Amcangyfrifwch ganran yr arwynebedd sydd wedi'i orchuddio gan bob "
+"rhywogaeth.<br/>Ailadroddwch y broses hon ar gyfer y rhywogaethau dangosol "
+"ar gyfer nitrogen (yn achos glaswelltir twyni sefydlog a llaciau twyni). "
+"Dylid gwneud yr amcangyfrifon gan edrych o uwchlaw ar y llystyfiant ar yr "
+"wyneb. Gall helpu i geisio dychmygu'r holl wahanol fannau o un math o "
+"lystyfiant yn tyfu gyda'i gilydd a faint o'r sgwâr 2 × 2 m y byddai hyn yn "
+"ei orchuddio. Cofiwch fod:<3><0>20 × 20 cm yn 1 % o'r arwynebedd</0><1>50 × "
+"50 cm yn 6.25 % o'r arwynebedd</1><2>1 × 1 m yn 25 % o'r "
+"arwynebedd</2></3><br/>Gall edrych ar y tâp mesur o amgylch y cwadrad helpu "
+"gyda hyn.<br/>Os oes nifer o bobl yn eich tîm arolygu, dylai pob person "
+"amcangyfrif drosto ei hun pa ganran sydd wedi'i orchuddio gan bob math o "
+"lystyfiant ac wedyn dylid cofnodi cyfartaledd yr amcangyfrifon hyn ar "
+"ffurflen gofnodi'r cwadrad, neu yn yr ap.<br/>Os yw un math o lystyfiant yn "
+"gorchuddio llai nag 1 % o'r arwynebedd, cofnodwch hyn fel 0.5 % ar ffurflen "
+"gofnodi'r cwadrad."
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -1792,6 +1861,9 @@ msgid ""
 "at pre-set quadrat locations. It will take roughly 30-45 minutes to complete"
 " a survey in a single quadrat."
 msgstr ""
+"Dylid cynnal arolygon o'r llystyfiant unwaith y flwyddyn, ym mis Mehefin, "
+"Gorffennaf neu Awst, mewn lleoliadau cwadrad sydd wedi'u pennu eisoes. Bydd "
+"angen tua 30-45 munud i wneud arolwg mewn un cwadrad."
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -1814,6 +1886,25 @@ msgid ""
 "quadrat itself to avoid disturbance in the quadrat e.g. from livestock using"
 " it as a scratching post or birds perching on it.</0></2>"
 msgstr ""
+"<0><0>Gan ddefnyddio'ch uned GPS (a'r ap ar eich ffôn symudol), llywiwch at "
+"gyfeirnod grid y cwadrad rydych yn bwriadu gwneud yr arolwg ohono. Bydd hwn "
+"wedi'i nodi gan bostyn ym mhob cynefin ac eithrio twyni symudol. Gellir "
+"gweld y cyfeirnod grid a'r cynefin y mae wedi'i leoli ynddo ar y ffurflen "
+"ddisgrifio ar gyfer cwadradau, neu mae wedi'i ddisgrifio yn yr ap.</0><1>Os "
+"oes postyn marcio yn y cwadrad, defnyddiwch eich tâp mesur a'ch cwmpawd i "
+"fesur 2 m i'r gogledd ac yna rhowch un o'ch ffyn marcio yn y ddaear yn y man"
+" hwn; dyma fydd cornel dde-orllewinol y cwadrad.</1><2>Os yw'r cwadrad mewn "
+"twyn symudol, rhowch un o'ch ffyn marcio yn lleoliad y cyfeirnod grid a "
+"gawsoch; dyma fydd cornel dde-orllewinol y cwadrad.</2><3>Yna, gan "
+"ddefnyddio'ch cwmpawd, nodwch ble mae'r gogledd a chan ddefnyddio'r tâp "
+"mesur, mesurwch 2 m i'r cyfeiriad hwn. Nodwch y man hwn gan ddefnyddio ffon "
+"farcio arall.</3><4>Ailadroddwch y broses hon gan symud i'r dwyrain, i'r de "
+"ac yna i'r gorllewin tan i chi farcio sgwâr sy'n mesur 2 m gyda 2 "
+"m.</4><5>Gallwch gadw'r tâp mesur wedi'i lapio o amgylch tu allan y ffyn "
+"i'ch helpu i ddiffinio beth sydd y tu mewn a'r tu allan i'r "
+"cwadrad.</5></0>Nodiadau:<2><0>Mae'r postyn marcio wedi'i leoli 2 m oddi "
+"wrth y cwadrad ei hun er mwyn osgoi tarfiadau o fewn y cwadrad, e.e. gan dda"
+" byw yn ei ddefnyddio fel postyn crafu neu adar yn clwydo arno.</0></2>"
 
 # Dipwell survey manual
 msgid ""
@@ -1823,6 +1914,12 @@ msgid ""
 "present like natterjack toads and many insects that also use dune slacks or "
 "damp sand."
 msgstr ""
+"Nod yr arolwg hwn yw monitro lefel trwythiad mewn llaciau twyni "
+"(gwlypdiroedd tymhorol) o fewn y system twyni tywod. Mae lefel trwythiad yn "
+"dylanwadu ar y math o lystyfiant sy'n tyfu mewn llaciau ac ar iechyd y "
+"llystyfiant hwnnw. Mae hefyd yn effeithio ar y rhywogaethau o anifeiliaid "
+"sydd i'w cael yno, fel llyffant y twyni a nifer o bryfed sydd hefyd yn "
+"defnyddio'r llaciau neu dywod llaith."
 
 # Dipwell survey manual
 msgid "Navigating to the dipwell locations"
@@ -1870,17 +1967,17 @@ msgid ""
 "the form, or on the app.</3><4>Take a photograph of the dipwell, aligning it"
 " to the photograph on the dipwell information sheet, or on the app.</4></0>"
 msgstr ""
-"<0><0>Os oes cap ar y bibell trochi, dadsgriwiwch ef neu ei dynnu oddi yno "
-"(yn dibynnu ar y math).</0><1>Os oes cofnodydd data ar wifren, tynnwch ef "
-"allan yn ofalus. (Ar ôl gorffen mesur lefel y dŵr, yn araf bach gostyngwch y"
-" cofnodydd yn ôl i lawr y bibell drochi. PEIDIWCH â'i ollwng, oherwydd gall "
-"hyn beri i'r cofnodydd beidio â gweithio).</1><2>Gan ddefnyddio dyfais "
+"<0><0>Os oes cap ar y bibell trochi, dadsgriwiwch y cap neu ei wthio gyda'ch"
+" bawd (yn dibynnu ar y math).</0><1>Os oes cofnodydd data ar wifren, tynnwch"
+" hwn allan yn ofalus. (Ar ôl gorffen mesur lefel y dŵr, yn araf bach "
+"gostyngwch y cofnodydd yn ôl i lawr y bibell drochi. PEIDIWCH â'i ollwng - "
+"gall hyn beri i'r cofnodydd beidio â gweithio).</1><2>Gan ddefnyddio dyfais "
 "briodol i fesur lefel y dŵr, mesurwch o ben y bibell drochi hyd at lefel y "
 "dŵr.</2><3>Cofnodwch y gwerth hyd at y cm agosaf. Os yw'r llac wedi llenwi â"
 " dŵr a bod lefel y dŵr yn uwch na'r bibell drochi, eto mesurwch hyd at ben y"
 " bibell drochi, ond cofnodwch hyn fel rhif negyddol. Nodwch lefel y dŵr ar y"
 " ffurflen, neu ar yr ap.</3><4>Tynnwch lun o'r bibell drochi, gan ei alinio "
-"gyda'r ffotograff ar daflen wybodaeth ar bibelli trochi, neu ar yr "
+"gyda'r ffotograff ar y daflen wybodaeth ar bibelli trochi, neu ar yr "
 "ap.</4></0>"
 
 # Disturbance survey manual
@@ -1891,6 +1988,11 @@ msgid ""
 " to maintain areas of bare sand. It covers disturbance by animals and from "
 "human activities."
 msgstr ""
+"Nod yr arolwg hwn yw monitro arwyddion o darfu, difrod neu agweddau eraill o"
+" amgylch y safle. Gall tarfiadau gael eu hystyried yn dda neu'n ddrwg, yn "
+"dibynnu ar beth sy'n digwydd a ble. Er enghraifft, gall peth tarfu fod yn "
+"ddefnyddiol er mwyn cynnal ardaloedd o dywod noeth. Mae'n cwmpasu tarfu gan "
+"anifeiliaid a gweithgareddau pobl."
 
 # Disturbance survey manual
 msgid "Navigating to locations"
@@ -1914,6 +2016,9 @@ msgid ""
 "to follow up previous reports of disturbance or points of interest. These "
 "can be obtained by discussing with the site manager."
 msgstr ""
+"Nid oes lleoliadau wedi'u pennu eisoes, ond efallai yr hoffech ymweld ag "
+"ardaloedd penodol i olrhain adroddiadau blaenorol o darfiadau neu bwyntiau o"
+" ddiddordeb. Gellir cael y rhain drwy drafod gyda'r rheolwr safle."
 
 # Disturbance survey manual
 msgid ""
@@ -1931,10 +2036,24 @@ msgid ""
 "recorded using the ‘Other’ section on the form or on the app.</4></1>Please "
 "also take a photo if you can."
 msgstr ""
+"Os hoffech gofnodi tarfiad neu nodwedd arall ar y safle, defnyddiwch y "
+"ffurflen gofnodi, neu'r gweithgaredd yn yr ap. Mae hyn yn cwmpasu'r agweddau"
+" canlynol:<1><0>Presenoldeb a maint mannau o dywod noeth, neu ble mae "
+"toriadau yn y glaswellt yn sgil gweithgarwch anifeiliaid neu "
+"bobl.</0><1>Presenoldeb baw anifeiliaid, ac os yn bosibl, syniad o ba "
+"anifail mae'n dod (cwningen, merlyn, buwch, dafad, "
+"arall).</1><2>Gweithgarwch cwningod (mannau bychain wedi'u sgrafellu wrth "
+"fwydo, tyllau cwningod).</2><3>Gweithgarwch bobl, fel difrod gan olion "
+"cerbydau (yn cynnwys beiciau modur), sbwriel neu dipio. Nid oes angen "
+"cofnodi pob un papur losin, ond yn hytrach dylid cofnodi achosion fel "
+"gweddillion barbeciw, llawer o ganiau/poteli wedi'u gadael gan ymwelwyr, "
+"eitemau mawr o sbwriel fel teiars ceir, ayb.</3><4>Gellir cofnodi unrhyw "
+"agweddau eraill gan ddefnyddio'r adran 'Arall' ar y ffurflen neu yn yr "
+"ap.</4></1>Tynnwch lun hefyd os gallwch."
 
 # Slider message for cover
 msgid "Please specify the % of the cover."
-msgstr ""
+msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio."
 
 # Message when the user opens a saved record.
 msgid "This record has been uploaded and cannot be updated."
@@ -1946,7 +2065,7 @@ msgstr "Does dim un rhywogaeth ar gael ar gyfer y cynefin hwn."
 
 # App internal error when trying to login
 msgid "No user session refresh token was found"
-msgstr ""
+msgstr "Dim tocyn adnewyddu sesiwn defnyddiwr wedi'i ganfod"
 
 # Location edit page image placeholder
 msgid "No image available for this location."
@@ -1957,20 +2076,25 @@ msgid ""
 "Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves "
 "roundish with a few teeth, upper leaves narrow, untoothed and unstalked"
 msgstr ""
+"Blodau glas ar goesynnau main mewn clystyrau tenau. 5 petal. Y dail isaf yn "
+"lled grwn ac ychydig yn ddanheddog. Y dail uchaf yn fain, ddim yn ddanheddog"
+" a heb goesynnau."
 
 # Species-description: distribution
 msgid "Found in short, grazed grassland"
-msgstr ""
+msgstr "I'w weld mewn glaswelltir byr wedi'i bori"
 
 # Species-description: distribution
 msgid "Found on dry, bare places, usually rock"
-msgstr ""
+msgstr "I'w weld mewn mannau sych a noeth, creigiau fel arfer"
 
 # Species-description: distribution
 msgid ""
 "Flowers dark blue-purple, sometimes pink, in rounded heads. Leaves "
 "elliptical, untoothed and often stalked"
 msgstr ""
+"Blodau glas tywyll i borffor, neu'n binc weithiau, mewn fflurbennau crwn. "
+"Dail hirgrwn, heb ddannedd, ac â choesynnau yn aml"
 
 # Species-description: distribution
 msgid ""
@@ -1978,68 +2102,87 @@ msgid ""
 "distinctively covered in hairs. Trefoil leaves, narrow, oval leaflets with "
 "short hairs"
 msgstr ""
+"Y blodau'n wynnaidd neu'n binc golau, a'r fflurbennau siâp wy yn goesog ac "
+"wedi'u gorchuddio gan flew. Dail triphlyg gyda deilios hirgrwn main a blew "
+"byr."
 
 # Species-description: distribution
 msgid ""
 "Tufted, triangular flowerhead made of clumps of flowers. Mostly green, with "
 "purple-red ends. Leaves grey-green."
 msgstr ""
+"Fflurbennau cudynnog trionglog, wedi'u ffurfio o glystyrau o flodau. Yn "
+"wyrdd gan fwyaf, a'u pennau'n goch porffor. Dail llwydwyrdd."
 
 # Species-description: distribution
 msgid ""
 "Flowers yellow, 5 petals, at the end of stems. Leaves pinnate, toothed and "
 "often silvery in colour."
 msgstr ""
+"Blodau melyn, a chanddynt 5 petal, ar bennau'r coesynnau. Dail asgellog "
+"danheddog, yn aml yn ariannaidd eu lliw."
 
 # Species-description: distribution
 msgid ""
 "Flower white, in globe-shaped heads, occasionally pale pink. Trefoil leaves "
 "with rounded leaflets, often with white markings"
 msgstr ""
+"Blodyn gwyn, weithiau'n binc, mewn fflurbennau crwn. Dail triphlyg â deilios"
+" crwn a marciau gwyn yn aml"
 
 # Species-description: distribution
 msgid ""
 "Flower heads dense, flowers green to red in colour. Leaves long and narrow, "
 "with strongly waved margins. Often pointed."
 msgstr ""
+"Fflurbennau clos, blodau gwyrdd i goch eu lliw. Dail hir a main, a'u hymylon"
+" yn amlwg donnog. Pigfain yn aml."
 
 # Species-description: distribution
 msgid ""
 "Often on disturbed ground or near water, although can be found almost "
 "anywhere. Grows up to 1m tall"
 msgstr ""
+"Yn aml ar dir wedi'i darfu neu yn agos at ddŵr, ond fe'i gwelir ym mhobman "
+"bron. Tyfu hyd at 1m o uchder"
 
 # Species-description: distribution
 msgid "Grassy areas and wasteland, cultivated ground, grows up to 1.2m"
-msgstr ""
+msgstr "Mannau glaswelltog a thir diffaith, tir âr, yn tyfu hyd at 1.2m"
 
 # Species-description: distribution
 msgid ""
 "Flowers bright yellow, 5 petals and star-shaped, found singularly at the end"
 " of stalks. Leaves cylindrical, reddish to green."
 msgstr ""
+"Blodau 5 petal melyn llachar ar ffurf seren yn tyfu'n unigol ar bennau'r "
+"coesynnau. Dail cochaidd neu wyrdd fel pibelli bychain."
 
 # Species-description: distribution
 msgid "Damp, grassy places like dune slacks"
-msgstr ""
+msgstr "Mannau llaith a glaswelltog fel llaciau twyni"
 
 # Species-description: distribution
 msgid "Dry grassland and sandy soils"
-msgstr ""
+msgstr "Glaswelltir sych a phridd tywodlyd"
 
 # Species-description: distribution
 msgid "Grassland. Grows up to 140cm tall"
-msgstr ""
+msgstr "Glaswelltir. Yn tyfu hyd at 140cm o uchder"
 
 # Species-description: distribution
 msgid ""
 "Creeping along the ground, often in trampled disturbed ground and damp areas"
 msgstr ""
+"Yn ymgripio ar hyd y ddaear, yn aml mewn tir wedi'i sathru a'i darfu a "
+"mannau llaith"
 
 # Species-description: distribution
 msgid ""
 "Common on all grassland, growing low to the ground. Favoured flower of bees"
 msgstr ""
+"Yn gyffredin ar bob glaswelltir, yn tyfu'n agos at y ddaear. Y blodyn yn "
+"ffefryn gan y gwenyn"
 
 # Species-description: distribution
 msgid ""
@@ -2047,26 +2190,33 @@ msgid ""
 " in colour. Leaves pinnately lobed, sometimes cottony on the underside, "
 "stems spineless."
 msgstr ""
+"Blodau lelog mewn clystyrau, a'r fflurbennau weithiau'n ganghennog. Bractau "
+"porfforaidd eu lliw. Dail llabedog asgellog, weithiau'n gotymaidd oddi "
+"tanynt, a'r coesynnau heb bigau."
 
 # Species-description: distribution
 msgid ""
 "Flowerheds yellow and clustered. Leaves long and pinnately lobed with soft, "
 "spiny margins."
 msgstr ""
+"Fflurbennau melyn mewn clystyrau. Dail hir, llabedog asgellog, a'u hymylon "
+"yn feddal a phigog."
 
 # Species-description: distribution
 msgid ""
 "Early coloniser of bare & waste ground, found in areas of bare sand. Marsh "
 "sow-thistle found in marshes & ditches."
 msgstr ""
+"Yn ymledu'n gynnar i dir noeth a diffaith, mae i'w weld mewn mannau o dywod "
+"noeth. Llaethysgallen y gors i'w gweld mewn corsydd a ffosydd."
 
 # Species-description: distribution
 msgid "Slender grass, up to 30cm tall. Bristle-like grey-green leaves. "
-msgstr ""
+msgstr "Gwair main, hyd at 30cm o uchder. Dail llwydwyrdd gwrychog."
 
 # Species-description: distribution
 msgid "Frequently on bare, dry ground as well as rocky outcrops"
-msgstr ""
+msgstr "Yn aml ar dir noeth a sych, yn ogystal â cherrig brig"
 
 # Species-description: distribution
 msgid ""
@@ -2074,42 +2224,53 @@ msgid ""
 "flowers in clusters at top of plant. Leaves small and pointed, held close to"
 " the stem, and with silvery hairs."
 msgstr ""
+"Fflurbennau coch â gwawr wen, sydd hefyd yn gallu ymddangos yn felyn. Blodau"
+" ar ffurf sêr mewn clystyrau ar ben y planhigyn. Dail bychain, pigfain â "
+"blew ariannaidd, yn tyfu'n agos at y coesyn."
 
 # Species-description: distribution
 msgid "Open, sandy or gravelly areas"
-msgstr ""
+msgstr "Mannau agored, tywodlyd neu raeanog."
 
 # Species-description: distribution
 msgid ""
 "Short, tuft-forming rush. Grass-like leaves, fringed with long, white hairs."
 " Flowers brown, forming rounded clusters towards the top of stems"
 msgstr ""
+"Brwyn byr sy'n ffurfio cudynnau. Dail tebyg i wair, â blew hir gwyn ar yr "
+"ymylon. Blodau brown, yn ffurfio clystyrau crwn tua phennau'r coesynnau."
 
 # Species-description: distribution
 msgid "Grassy areas, growing up to 25cm tall"
-msgstr ""
+msgstr "Mannau glaswelltog, yn tyfu hyd at 25cm o uchder"
 
 # Species-description: distribution
 msgid ""
 "Dense, upright flowerheads, with all flowers growing from one side. Red-"
 "tipped green, changing to orange-brown when mature. Simple, broad leaves"
 msgstr ""
+"Fflurbennau trwchus unionsyth, gyda'r holl flodau'n tyfu o un ochr. Gwyrdd "
+"a'u pennau'n goch, yn newid i orenfrown pan yn aeddfed. Dail llydan syml."
 
 # Species-description: distribution
 msgid "Open, disturbed areas on fixed dunes, and sandy shingle"
-msgstr ""
+msgstr "Mannau agored wedi'u tarfu ar dwyni sefydlog, a graean bras tywodlyd"
 
 # Species-description: distribution
 msgid ""
 "Flowers greenish-yellow to pale brown, in tall, narrow stalks. Leaves broad,"
 " pointed ovals with thin stems down to base."
 msgstr ""
+"Blodau gwyrddfelyn i frown golau, mewn coesynnau tal a main. Dail hirgrwn "
+"llydan a phigfain â choesynnau main i lawr at y bôn."
 
 # Species-description: distribution
 msgid ""
 "Regularly disturbed areas, particularly well-trodden places, as leaves are "
 "resistant to trampling"
 msgstr ""
+"Mannau sy'n cael eu tarfu'n aml, yn arbennig ble mae pobl yn cerdded, am fod"
+" y dail yn gwrthsefyll eu sathru"
 
 # Species-description: distribution
 msgid ""
@@ -2117,44 +2278,59 @@ msgid ""
 "small, sticky hooks which attach to fur or clothing. Small, dull white "
 "flowers with 4 petals, growing on stalks from the base of the leaves. "
 msgstr ""
+"Dail hir a main, yn tyfu mewn clystyrau o 6-8 o amgylch y coesyn, wedi'u "
+"gorchuddio â bachau gludiog bychain sy'n glynu wrth ffwr neu ddillad. Blodau"
+" bychain gwyn pŵl â 4 petal, yn tyfu ar goesynnau o fôn y dail."
 
 # Species-description: distribution
 msgid ""
 "Often growing alongside other plants, using them for support. Often found in"
 " hedges, or areas of scrub where the sward is higher."
 msgstr ""
+"Yn tyfu'n aml gerllaw planhigion eraill, ac yn eu defnyddio i ddringo "
+"drostynt. I'w weld yn aml mewn gwrychoedd, neu brysgoed ble mae'r gwair yn "
+"uwch."
 
 # Species-description: distribution
 msgid ""
 "Leaves glossy, curled and cylindrical but can be unrolled. Tall and pointed."
 " Flower spikes densely packed, golden to light brown in colour"
 msgstr ""
+"Dail sgleiniog wedi'u cyrlio fel pibelli, ond gellir eu dadrolio. Tal a "
+"phigfain. Sbigynnau'r blodau'n glos iawn, yn euraid hyd at frown eu lliw."
 
 # Species-description: distribution
 msgid ""
 "Thick tufts of marram are found on embryo dunes and areas of bare sand, "
 "where it helps to hold the dunes together"
 msgstr ""
+"Mae cudynnau trwchus o foresg i'w gweld ar egin-dwyni a mannau o dywod "
+"noeth, ble mae'n helpu i ddal y twyni at ei gilydd"
 
 # Species-description: distribution
 msgid ""
 "Thin, wiry leaves, growing up to 35cm tall. Flower spikes with pale brown "
 "spikelets, carrying flowers in dense clusters"
 msgstr ""
+"Dail tenau fel gwifrau, yn tyfu hyd at 35cm o uchder. Sbigynnau blodau a "
+"chanddynt sbigolion brown golau yn cario blodau mewn clystyrau clos"
 
 # Species-description: distribution
 msgid "On embryo dunes and areas of bare sand, this is an early coloniser"
-msgstr ""
+msgstr "Ar egin-dwyni a mannau o dywod noeth, mae hwn yn cytrefu'n gynnar"
 
 # Species-description: distribution
 msgid ""
 "Blue flowers in globe-shaped heads with narrow petals. Somewhat scruffy "
 "looking. Leaves oblong and narrow, sometimes wavy-edged and hairy"
 msgstr ""
+"Blodau glas mewn fflurbennau crwn â phetalau main. Golwg ychydig yn anniben "
+"arnynt. Dail hirgul, a'u hymylon weithiau'n donnog a blewog."
 
 # Species-description: distribution
 msgid "Dry, grassy areas and heaths, particularly areas with sandy soil"
 msgstr ""
+"Rhosydd a mannau glaswelltog sych, yn arbennig mannau gyda phridd tywodlyd"
 
 # Species-description: distribution
 msgid ""
@@ -2162,20 +2338,25 @@ msgid ""
 "growing in a rosette at the base, lance-like with wavy edges, blunted ends "
 "and bearing small hairs"
 msgstr ""
+"Fflurbennau unigol melyn llachar uwchben bractau â'u blaenau'n borffor. Dail"
+" â ffurf gwayw iddynt, ymylon tonnog, blew bychain, a'u blaenau'n bŵl yn "
+"tyfu mewn rhosglwm wrth fôn y planhigyn."
 
 # Species-description: distribution
 msgid "Dry grassland, wasteland and often the edges of car parks"
-msgstr ""
+msgstr "Glaswelltir sych, tir diffaith, ac ymylon meysydd parcio yn aml"
 
 # Species-description: distribution
 msgid ""
 "Generally pale green in colour, they are mostly distinguished by the "
 "fruiting body cups, which are often raised above the lichen on stalks."
 msgstr ""
+"Fel arfer yn wyrdd golau eu lliw, fe'i hadnabyddir ar y cyfan gan gwpanau'r "
+"cyrff ffrwytho, sy'n aml wedi'u codi uwchlaw'r cen ar goesynnau."
 
 # Species-description: distribution
 msgid "Trees, Rocks, Fallen branches"
-msgstr ""
+msgstr "Coed, Creigiau, Canghennau wedi cwympo"
 
 # Species-description: distribution
 msgid ""
@@ -2183,10 +2364,13 @@ msgid ""
 "margins. Flowers are green-yellow in colour, and hang in clusters from the "
 "end of branches."
 msgstr ""
+"Dail palfog a chanddynt 5 llabed ac ymylon ychydig yn ddanheddog, ac sydd "
+"7-16cm ar draws. Mae'r blodau'n felynwyrdd eu lliw, ac yn hongian mewn "
+"clystyrau o bennau'r canghennau."
 
 # Species-description: distribution
 msgid "Almost everywhere. Woodland and areas of scrub in particular"
-msgstr ""
+msgstr "Ym mhobman bron. Coetiroedd ac ardaloedd o brysgoed yn arbennig"
 
 # Species-description: distribution
 msgid ""
@@ -2194,10 +2378,13 @@ msgid ""
 "these are less common on older ones. Flowers white with 4 petals, occurring "
 "in clusters."
 msgstr ""
+"Dail hirgrwn, sgleiniog, gwyrdd tywyll. Dail pigog ar goed ifancach, ond "
+"mae'r rhain yn llai cyffredin ar y rhai hŷn. Blodau gwyn â 4 petal, i'w cael"
+" mewn clystyrau."
 
 # Species-description: distribution
 msgid "Common in woodland and areas of scrub"
-msgstr ""
+msgstr "Yn gyffredin mewn coetiroedd ac ardaloedd o brysgoed"
 
 # Species-description: distribution
 msgid ""
@@ -2206,10 +2393,14 @@ msgid ""
 "shoots, female flowers are small, reddish-purple and globe shaped, growing "
 "at the tip of shoots"
 msgstr ""
+"Planhigyn bythwyrdd a chanddo nodwyddau glaswyrdd, sydd yn aml yn troelli "
+"rywfaint. Mae'r nodwyddau'n tyfu mewn parau. Mae'r blodau gwrywaidd yn tyfu "
+"fel clystyrau melyn bychain wrth fôn y brigau, ac mae'r blodau benywaidd yn "
+"fychan, yn goch-borffor, yn grwn, ac yn tyfu ar bennau'r brigau"
 
 # Species-description: distribution
 msgid "Areas of scrub or heath in particular"
-msgstr ""
+msgstr "Mannau o brysgoed neu rostir yn arbennig"
 
 # Species-description: distribution
 msgid ""
@@ -2217,12 +2408,17 @@ msgid ""
 " to dark brown-black when dry. Leaves straight when wet, radiating out in a "
 "star shape"
 msgstr ""
+"Mwsogl cwta, a chanddo goesynnau hyd at 5cm o hyd, ond yn fyrrach fel rheol."
+" Gwyrdd tywyll i frownddu tywyll pan mae'n sych. Y dail yn syth pan mae'n "
+"wlyb, yn ymledu ar ffurf seren"
 
 # Species-description: distribution
 msgid ""
 "Pioneer species on recently disturbed ground, but will also grow on fences, "
 "rotten wood and shingle"
 msgstr ""
+"Rhywogaeth arloesol ar dir wedi'i darfu'n ddiweddar, ond mae'n tyfu hefyd ar"
+" ffensys, ar bren wedi pydru ac ar raean bras"
 
 # Species-description: distribution
 msgid ""
@@ -2230,12 +2426,17 @@ msgid ""
 "somewhat resembling antlers. Flower spikes yellow-brown with protruding "
 "anthers."
 msgstr ""
+"Llyriad hawdd ei adnabod a chanddo ddail asgellog, sy'n gymharol debyg i "
+"gyrn carw, yn tyfu mewn rhosglwm wrth fôn y planhigyn. Sbigynnau'r blodau yn"
+" felynfrown a chanddynt antheri amlwg. "
 
 # Species-description: distribution
 msgid ""
 "Dry, bare, sandy places, particularly frequently disturbed areas like edges "
 "of paths"
 msgstr ""
+"Mannau sych, noeth a thywodlyd, yn arbennig llefydd sy'n cael eu tarfu'n "
+"aml, fel ymylon llwybrau"
 
 # Species-description: distribution
 msgid ""
@@ -2243,12 +2444,17 @@ msgid ""
 "2-4cm across and quite puffy, with a spiny ball-like bracts below. Stems "
 "somewhat cottony"
 msgstr ""
+"Ysgallen bigog iawn, a chanddi ddail asgellog mewn llabedau dyfnion. "
+"Fflurbennau lelog eu lliw, 2-4cm o led ac yn eithaf chwyddog, a bractau "
+"pigog fel peli oddi tanynt. Y coesynnau ychydig yn gotymaidd"
 
 # Species-description: distribution
 msgid ""
 "Disturbed ground, particularly verges and field edges, as well as waste "
 "ground."
 msgstr ""
+"Tir wedi'i darfu, yn arbennig ymylon ffyrdd ac ymylon caeau, yn ogystal â "
+"thir diffaith"
 
 # Species-description: distribution
 msgid ""
@@ -2256,6 +2462,9 @@ msgid ""
 "large, usually white, pink or red with large, floppy petals which detach "
 "easily."
 msgstr ""
+"Coesynnau main a dreiniog. Dail asgellog a chanddynt ymylon danheddog. Y "
+"blodau'n fawr yn aml, fel arfer yn wyn, yn binc neu'n goch, a chanddynt "
+"betalau mawr llipa sy'n dod oddi ar y blodyn yn rhwydd."
 
 # Species-description: distribution
 msgid ""
@@ -2263,6 +2472,9 @@ msgid ""
 "pimpinellifolia) which grows in open areas across heath and dunes with short"
 " grass"
 msgstr ""
+"Fe'i gwelir fel arfer mewn prysgoed neu wrychoedd, ac eithrio Rhosyn bwrned "
+"(Rosa pimpinellifolia) sy'n tyfu mewn mannau agored ar draws rhosydd a "
+"thwyni ble mae'r gwair yn fyr"
 
 # Species-description: distribution
 msgid ""
@@ -2270,10 +2482,13 @@ msgid ""
 "the base. Yellow, lipped flowers growing from the base of the spines towards"
 " the end of branches, strongly coconut scented"
 msgstr ""
+"Prysglwyn bythwyrdd sy'n tyfu hyd at 2.5m, a'i ddail yn bigau caled, byr "
+"sydd ar goesynnau tua'r bôn. Blodau melyn llabedog yn tyfu o fôn y pigau tua"
+" diwedd y canghennau, ac arogl cnau coco cryf arnynt"
 
 # Species-description: distribution
 msgid "Heaths and grassland, particularly ungrazed areas"
-msgstr ""
+msgstr "Rhosydd a glaswelltir, yn arbennig mannau heb eu pori"
 
 # Species-description: distribution
 msgid ""
@@ -2281,12 +2496,18 @@ msgid ""
 "appearance. Oblong leaves in alternate rows, branching from the main stem. "
 "Flowers pale pink to mauve, growing in spikes at the end of stems."
 msgstr ""
+"Grug sy'n gorchuddio rhannau helaeth o dir, sy'n tyfu fel rheol hyd at 50cm,"
+" a golwg felfedaidd arno o bryd i'w gilydd. Dail hirgul mewn rhesi bob yn "
+"ail, yn tyfu o'r prif goesyn. Blodau'n amrywio o binc golau i borffor golau,"
+" yn tyfu mewn sbigynnau ar bennau'r coesynnau."
 
 # Species-description: distribution
 msgid ""
 "Anywhere on dunes and heathland, except particularly wet areas, can often be"
 " found dominating large areas"
 msgstr ""
+"Unrhyw le ar dwyni a rhostir, ac eithrio mannau arbennig o wlyb, fe'i gwelir"
+" yn aml yn dominyddu ardaloedd eang"
 
 # Species-description: distribution
 msgid ""
@@ -2294,23 +2515,32 @@ msgid ""
 "which turn bronze coloured. Small, cream coloured flowers grow on spherical "
 "heads atop upright stalks."
 msgstr ""
+"Planhigyn byr ymgripiol a chanddo ddail asgellog llabedog a chodennau bachog"
+" pinc tywyll sy'n troi'n lliw efydd. Mae blodau bychain hufen eu lliw yn "
+"tyfu ar fflurbennau crwn ar goesynnau unionsyth."
 
 # Species-description: distribution
 msgid ""
 "Wet slopes, dunes and grassy areas, forming a dense mat at ground level"
 msgstr ""
+"Llethrau gwlyb, twyni a mannau glaswelltog, yn ffurfio carped trwchus ar y "
+"ddaear"
 
 # Species-description: distribution
 msgid ""
 "Shrub with dense, dark green, leathery, oval leaves. Blooms large, ranging "
 "from light pink to purple, with open, bell-shaped flowers of 5 petals"
 msgstr ""
+"Prysglwyn a chanddo drwch o ddail hirgrwn, gwyrdd tywyll fel lledr. Blodau "
+"mawr, agored 5 petal, ar ffurf clychau, yn amrywio o binc golau i borffor"
 
 # Species-description: distribution
 msgid ""
 "Once rhododendron takes hold, little else can grow because of the dense "
 "canopy, so it is often found in areas of shrub"
 msgstr ""
+"Wedi i rododendron gydio, mae'n anodd i unrhyw beth arall dyfu, o achos y "
+"canopi trwchus, felly fe'i gwelir yn aml mewn ardaloedd o brysglwyni"
 
 # Species-description: distribution
 msgid ""
@@ -2318,20 +2548,25 @@ msgid ""
 "petals, small and greenish-white with a yellow centre. Flowers solitary and "
 "at the end of stems"
 msgstr ""
+"Planhigyn melynwyrdd yn ymgripio, a chanddo ddail hirgrwn tew. Blodau 5 "
+"petal gwyrddwyn bychain a'u canol yn felyn. Blodau unigol ar bennau'r "
+"coesynnau"
 
 # Species-description: distribution
 msgid "Areas of sand and shingle, growing low to the ground"
-msgstr ""
+msgstr "Mannau o dywod a graean bras, yn tyfu'n agos at y ddaear"
 
 # Species-description: distribution
 msgid ""
 "Small, bushy plant with linear, succulent leaves with sharp, prickly tips. "
 "Solitary green flowers, above leaf-like bracts"
 msgstr ""
+"Planhigyn bychan trwchus a chanddo ddail hirfain suddlon a'u pennau'n "
+"bigfain a phigog. Blodau gwyrdd unigol uwchben bractau tebyg i ddail"
 
 # Species-description: distribution
 msgid "Areas of bare sand, "
-msgstr ""
+msgstr "Mannau o dywod noeth"
 
 # Species-description: distribution
 msgid ""
@@ -2339,30 +2574,36 @@ msgid ""
 "and more linear leaves moving up the stem. Flowers with 4 petals, pale lilac"
 " to white in colour"
 msgstr ""
+"Dail asgellog llabedog, suddlon, llwydwyrdd, heb flew tua bôn y planhigyn a "
+"dail mwy hirfain yn uwch i fyny'r coesyn. Blodau lelog golau i wyn â 4 petal"
 
 # Species-description: distribution
 msgid "Sandy coastal areas"
-msgstr ""
+msgstr "Mannau arfordirol tywodlyd"
 
 # Species-description: distribution
 msgid ""
 "Large, trumpet shaped flowers, light pink in colour, with white stripes. "
 "Fleshy, kidney-shaped leaves, with stems creeping along the ground"
 msgstr ""
+"Blodau mawr tebyg i drympedi, pinc golau eu lliw â streipiau gwyn. Dail tew "
+"ar ffurf arennau, a choesynnau'n ymgripio ar hyd y ddaear"
 
 # Species-description: distribution
 msgid "Bare, sandy areas, growing amongst marram grass"
-msgstr ""
+msgstr "Mannau noeth, tywodlyd, yn tyfu ymysg y moresg"
 
 # Species-description: distribution
 msgid ""
 "Green stems and narrow, blade-like leaves. The spikelets, which hold the "
 "flowers, are attached to the stem in an alternating pattern."
 msgstr ""
+"Coesynnau gwyrdd a dail main fel llafnau. Mae'r sbigolion, sy'n dal y "
+"blodau, wedi'u cysylltu â'r coesyn mewn patrwm bob yn ail."
 
 # Species-description: distribution
 msgid "Roadside verges, rough pastures and waste ground"
-msgstr ""
+msgstr "Ymylon ffyrdd, tir pori garw a thir diffaith"
 
 # Species-description: distribution
 msgid ""
@@ -2370,20 +2611,28 @@ msgid ""
 "leaves are grey-green above and silvery beneath and appear after the silvery"
 " catkins that mature to yellow in spring."
 msgstr ""
+"Prysglwyn collddail trwchus. 1m o uchder - 2m o led. Mae'r dail hirgrwn main"
+" yn drwch o flew, yn wyrddlwyd ar eu hochr uchaf ac yn ariannaidd ar eu "
+"hochr isaf, ac yn ymddangos ar ôl y cenawon ariannaidd sy'n aeddfedu'n felyn"
+" yn y gwanwyn."
 
 # Species-description: distribution
 msgid "Sand dunes, acid grassland and heathland including coastal heaths. "
 msgstr ""
+"Twyni tywod, glaswelltir asidaidd a rhostir, gan gynnwys rhosydd arfordirol."
 
 # Species-description: distribution
 msgid ""
 "Hairy, oval, toothed leaves that appear in whorls around the reddish stems. "
 "It produces dense clusters of lilac-pink flowers at the ends of its stems."
 msgstr ""
+"Dail danheddog, hirgrwn, blewog sy'n ymddangos mewn troellau o amgylch y "
+"coesynnau cochaidd. Mae'n cynhyrchu clystyrau clos o flodau lelog-binc ar "
+"bennau'r coesynnau."
 
 # Species-description: distribution
 msgid "Freshwater Wetlands, Towns and Gardens"
-msgstr ""
+msgstr "Gwlypdiroedd Dŵr Croyw, Trefi a Gerddi"
 
 # Species-description: distribution
 msgid ""
@@ -2391,12 +2640,17 @@ msgid ""
 "comparatively long petiole. The flower stems are shorter than the petioles "
 "and bare tiny, pinkish flowers "
 msgstr ""
+"Dail tarianffurf mewn siâp cylch bras, a chanddynt betiol cymharol hir yn "
+"aml. Mae coesynnau'r blodau yn fyrrach na'r petiolau ac yn cario blodau "
+"pincaidd pitw bach"
 
 # Species-description: distribution
 msgid ""
 "Aquatic weed that spreads out horizontally forming dense mats in shallow "
 "water, mud, or in marshes."
 msgstr ""
+"Chwyn dŵr sy'n ymledu'n llorweddol ac yn ffurfio carpedi trwchus mewn dŵr "
+"bas, mwd neu gorsydd."
 
 # Species-description: distribution
 msgid ""
@@ -2404,11 +2658,17 @@ msgid ""
 "bluish or violet flowers that appear in dense, oblong clusters on the top of"
 " its stems. Its purple-tinged seed head remains after flowering"
 msgstr ""
+"Planhigyn llysieuol lluosflwydd sy'n tyfu'n agos at y ddaear yw'r feddyges "
+"las. Mae ganddi barau o ddail hirgrwn a blodau glas neu fioled mewn "
+"clystyrau trwchus hirgul ar ben y coesynnau. Mae gwawr borffor i'r fflurben "
+"yn ei hadau, sy'n parhau ar ôl blodeuo."
 
 # Species-description: distribution
 msgid ""
 "Short turf of grasslands, uncut grass in woodlands, roadside verges, lawns"
 msgstr ""
+"Glaswelltiroedd byr, gwair heb ei dorri mewn coetiroedd, ymylon lonydd, "
+"lawntiau"
 
 # Species-description: distribution
 msgid ""
@@ -2416,17 +2676,423 @@ msgid ""
 "with five petals. The leaves are small, rounded and in pairs along thin wiry"
 " stems."
 msgstr ""
+"Mae gwlyddyn-Mair y gors yn tyfu'n agos at y ddaear. Mae ganddo flodau "
+"bychain pinc pum petal ar ffurf cwpan. Mae'r dail yn fach, yn grwn ac yn "
+"tyfu mewn parau ar hyd coesynnau gwifrog main."
 
 # Species-description: distribution
 msgid "wet, open meadows and fens"
-msgstr ""
+msgstr "Gweirgloddiau a mignedd gwlyb ac agored"
 
 # Species-description: distribution
 msgid ""
 "Flowers in heads; usually yellow, but can be orange, red, purple or white. "
 "Leaves pinnate with narrow leaflets, finely haired"
 msgstr ""
+"Yn blodeuo mewn fflurbennau; melyn fel rheol, ond gallant fod yn oren, coch,"
+" porffor neu wyn. Dail asgellog a deilios main â blew mân"
 
 # Species-description: distribution
 msgid "Found in open grassland"
+msgstr "I'w gael mewn glaswelltir agored"
+
+# Restore password alert title
+msgid "We've sent an email to you"
+msgstr "Anfonwyd e-bost atoch"
+
+# Part of Clear Cache
+msgid "Clear Cache"
+msgstr "Clirio'r Storfa"
+
+# Part of Clear Cache
+msgid "This clears the locally cached location images."
+msgstr "Bydd hyn yn clirio'r delweddau lleoliad sydd wedi'u storio'n lleol."
+
+# Part of Clear Cache
+msgid "Cache was cleared."
+msgstr "Cliriwyd y storfa."
+
+# Species-description: distribution
+msgid ""
+"Leaves: pinnately compound, with three to five leaflets which are elliptical"
+" in shape with rough toothed margins. Leaves grow in an opposite leaf "
+"arrangement.  Flowers: white in colour, the various stamens are clearly "
+"visible and the flowers are in clusters. The flowers are around two "
+"centimetres in width. Although they appear to have four petals, they are in "
+"fact sepals. Seed clusters which have a feathered appearance and are white-"
+"grey in colour. They are called achenes. It is the fruit which gives the "
+"plant its other name: 'old man’s beard'."
 msgstr ""
+"Dail: cyfansawdd ac asgellog, a chanddynt rhwng tri a phump o ddeilios "
+"hirgrwn eu siâp ag ymylon danheddog garw. Mae'r dail yn tyfu naill ochr i'r "
+"coesyn mewn parau. Blodau: yn wyn eu lliw ac mewn clystyrau, ac mae'r amryw "
+"frigerau yn amlwg i'r llygad. Mae'r blodau tua dau gentimetr o led. Er ei "
+"bod yn ymddangos bod pedwar petal ganddynt, sepalau ydynt mewn gwirionedd. "
+"Mae'r clystyrau o hadau yn edrych fel plu ac yn llwydwyn eu lliw. Achenau "
+"yw'r enw arnynt. O'r ffrwyth y daw'r enw ar y planhigyn: 'barf yr hen ŵr'."
+
+# Species-description: distribution
+msgid "Coastal"
+msgstr "Arfordirol"
+
+# Species-description: distribution
+msgid "Hedgerow"
+msgstr "Gwrych"
+
+# Species-description: distribution
+msgid ""
+"Bramble has long, thorny and arching stems and can grow up to two metres or "
+"more high,alternate and palmately compound. Each leaf is divided into three "
+"or five serrated, short-stalked, oval leaflets. Leaves are dark green on top"
+" and pale beneath. Leaf stalks and mid-ribs are prickly,clusters of white or"
+" pink flowers appear from late spring to early summer. They are 2–3cm in "
+"diameter with five petals and many stamens."
+msgstr ""
+"Mae gan lwyni mwyar duon goesynnau hir, dreiniog fel bwâu, a gallant dyfu "
+"hyd at ddau fetr o uchder neu fwy. Mae eu dail cyfansawdd palfog, bob un "
+"wedi'i rhannu'n dri neu bump o ddeilios hirgrwn danheddog ar ddeilgoesynnau "
+"byrion, yn tyfu ar y coesyn bob yn ail. Mae'r dail yn wyrdd tywyll ar eu "
+"hochr uchaf ac yn olau ar eu hochr isaf. Mae'r deilgoesynnau a'r gwythiennau"
+" canol yn bigog. Mae clystyrau o flodau gwyn neu binc yn ymddangos rhwng "
+"diwedd y gwanwyn a dechrau'r haf. Maent rhwng 2 a 3cm o ddiamedr, ac mae "
+"ganddynt bump o betalau a nifer o frigerau."
+
+# Species-description: distribution
+msgid "Woodland, grassland"
+msgstr "Coetir, glaswelltir"
+
+# Species-description: distribution
+msgid ""
+"Has yellow, tube-like flowers protruding from an inflated, green calyx. It "
+"has serrated leaves with heavy, dark veins, which sprout opposite each other"
+" all the way up the stem. Its stems have black spots."
+msgstr ""
+"Blodau melyn fel pibelli yn gwthio allan o galycs gwyrdd chwyddedig. Mae "
+"ganddo ddail danheddog a chanddynt wythiennau tywyll trwm, sy'n tyfu "
+"gyferbyn â'i gilydd ar hyd y coesyn. Mae smotiau duon ar y coesynnau."
+
+# Species-description: distribution
+msgid "Grassland, farmland"
+msgstr "Glaswelltir, tir ffermio"
+
+# Species-description: distribution
+msgid ""
+"Has oval, sharply toothed leaves, and white, violet-like flowers that have "
+"purple veins and yellow centres."
+msgstr ""
+"Dail hirgrwn, yn amlwg ddanheddog, a blodau gwyn tebyg i'r fioled a "
+"chanddynt wythiennau porffor a chanolau melyn."
+
+# Species-description: distribution
+msgid "Grassland, Heathland and Moorland, Coastal"
+msgstr "Glaswelltir, Rhostir a Gweundir, Arfordirol"
+
+# Species-description: distribution
+msgid ""
+"Small, narrow leaves that appear in whorls on its angular stems. The stems "
+"carry frothy heads of tiny, yellow flowers that appear in dense clusters. "
+msgstr ""
+"Dail main bychain sy'n ymddangos mewn troellau ar ei goesynnau onglog. Mae "
+"nifer fawr o flodau pitw bach yn tyfu ar y coesynnau mewn clystyrau clos fel"
+" ewyn melyn."
+
+# Species-description: distribution
+msgid ""
+"Grassland, heathland and moorland, farmland, coastal, towns and gardens"
+msgstr ""
+"Glaswelltir, rhostir a gweundir, tir ffermio, arfordir, trefi a gerddi"
+
+# Species-description: distribution
+msgid ""
+"A large, deciduous shrub that has long, narrow, greyish leaves and small, "
+"green flowers. It has bright orange berries."
+msgstr ""
+"Prysglwyn collddail mawr a chanddo ddail llwydaidd hirfain, a blodau bychain"
+" gwyrdd. Mae ganddo aeron oren llachar."
+
+# Species-description: distribution
+msgid "Coastal, sand dunes"
+msgstr "Arfordirol, twyni tywod"
+
+# Species-description: distribution
+msgid ""
+"A common fern growing in dense stands. Large, branched fronds which appear "
+"in spring and are green when mature, but die back to brown"
+msgstr ""
+"Rhedyn cyffredin sy'n tyfu mewn clystyrau clos. Mae'r ffrondau mawr, "
+"canghennog sy'n ymddangos yn y gwanwyn yn wyrdd pan yn aeddfed, ond yn "
+"marw'n ôl i frown"
+
+# Species-description: distribution
+msgid "Abundant"
+msgstr "Cyffredin iawn"
+
+# Species-description: distribution
+msgid ""
+"A member of the pea family. Yellow flowers that appear in small clusters. "
+"They are followed by seed pods that look distinctly like bird's feet or "
+"claws, hence the common name. A low-growing plant, its leaves have five "
+"leaflets and are downy."
+msgstr ""
+"Aelod o deulu'r pys. Blodau melyn sy'n ymddangos mewn clystyrau bychain. "
+"Fe'i dilynir gan godennau hadau sy'n edrych yn arbennig o debyg i grafangau "
+"neu draed adar, ac felly un o'i enwau cyffredin, Bysedd Traed y Frân. "
+"Planhigyn sy'n tyfu'n agos at y ddaear, mae pump o ddeilios gan y dail, sy'n"
+" felfedaidd."
+
+# Species-description: distribution
+msgid ""
+"Grassland, heathland, moorland, sand dunes, rocky habitat, coastal, towns "
+"and gardens"
+msgstr ""
+"Glaswelltir, rhostir, gweundir, twyni tywod, cynefinoedd creigiog, arfordir,"
+" trefi a gerddi"
+
+# Species-description: distribution
+msgid ""
+"A herbaceous perennial flowering plant. 1 to 2 m (3 to 7 ft) tall in the "
+"summer and dying down to the ground in winter. Soft green leaves with "
+"strongly serrated margins and small, greenish or brownish flowers."
+msgstr ""
+"Planhigyn blodeuol lluosflwydd llysieuol. Rhwng 1 a 2 m (3 i 7 troedfedd) o "
+"uchder yn yr haf ac yn marw nôl yn y gaeaf. Dail gwyrdd meddal a'u hymylon "
+"yn amlwg ddanheddog, a blodau bychain gwyrdd neu frownaidd."
+
+# Species-description: distribution
+msgid ""
+"A relatively tall-growing plant that has clusters of yellow, flattened "
+"flower heads, and leaves that are very divided."
+msgstr ""
+"Planhigyn cymharol dal a chanddo glystyrau o fflurbennau melyn penfflat, a "
+"dail arbennig o ranedig."
+
+# Species-description: distribution
+msgid ""
+"Rounded, blue flower heads. It has silvery-blue leaves with many prickly "
+"spikes on their edges."
+msgstr ""
+"Fflurbennau glas crwn. Mae ganddo ddail glas ariannaidd a chanddynt nifer o "
+"bigau main iawn ar eu hymylon."
+
+# Species-description: distribution
+msgid ""
+"Very thin leaves, rolling in at the margins, growing up to 40cm tall. Straw "
+"coloured when mature. Erect flowerheads with flowers along one side, giving "
+"a bushy appearance"
+msgstr ""
+"Dail main iawn, yn rholio i mewn ar yr ymylon ac yn tyfu hyd at 40cm o "
+"uchder. Lliw tebyg i wellt pan fyddant yn aeddfed. Fflurbennau talsyth a'r "
+"blodau ar hyd un ymyl yn gwneud iddynt ymddangos yn drwchus"
+
+# Species-description: distribution
+msgid "Dry areas, particularly banks, gravelly areas, walls and dry heath"
+msgstr ""
+"Ardaloedd sych, yn arbennig llethrau, ardaloedd graeanog, waliau a rhosydd "
+"sych"
+
+# Species-description: distribution
+msgid ""
+"Bluish-green shiny moss, growing in dense mats up to 10cm tall. Leaves "
+"narrow, light green but tipped with red. Leaves radiating from central stem "
+"in a star shape"
+msgstr ""
+"Mwsogl sgleiniog glaswyrdd, yn tyfu mewn matiau trwchus hyd at 10cm o "
+"uchder. Dail main, gwyrdd golau, ond â'u pennau'n goch. Y dail yn ymdroelli "
+"o'r coesyn canol ar ffurf seren"
+
+# Species-description: distribution
+msgid "Dry, acidic soil on heaths, and on rocks & walls"
+msgstr "Pridd asidaidd sych ar rosydd, ac ar greigiau a waliau"
+
+# Species-phenology
+msgid ""
+"Variable flowering time - early spring to early summer, depending on yearly "
+"temperatures"
+msgstr ""
+"Amrywio o ran adeg blodeuo - dechrau'r gwanwyn hyd at ddechrau'r haf, yn "
+"dibynnu ar y tymheredd drwy'r flwyddyn"
+
+# Species-phenology
+msgid "Phenology"
+msgstr "Ffenoleg"
+
+# Species-phenology
+msgid "July - September"
+msgstr "Gorffennaf - Medi"
+
+# Species-phenology
+msgid "Pink flowers are out in June and July"
+msgstr "Mae'r blodau pinc i'w gweld ym mis Mehefin a Gorffennaf"
+
+# Species-phenology
+msgid "June - September"
+msgstr "Mehefin - Medi"
+
+# Species-phenology
+msgid "May - July"
+msgstr "Mai - Gorffennaf"
+
+# Species-phenology
+msgid "All year"
+msgstr "Drwy'r flwyddyn"
+
+# Species-phenology
+msgid "April - June"
+msgstr "Ebrill - Mehefin"
+
+# Species-phenology
+msgid "May-September"
+msgstr "Mai - Medi"
+
+# Species-phenology
+msgid "June - October"
+msgstr "Mehefin - Hydref"
+
+# Species-phenology
+msgid "May - June"
+msgstr "Mai - Mehefin"
+
+# Species-phenology
+msgid "All year round"
+msgstr "Drwy'r flwyddyn"
+
+# Species-phenology
+msgid "May - October"
+msgstr "Mai - Hydref"
+
+# Species-phenology
+msgid "May - September"
+msgstr "Mai - Medi"
+
+# Species-phenology
+msgid "July - October"
+msgstr "Gorffennaf - Hydref"
+
+# Species-phenology
+msgid "Late April - June"
+msgstr "Diwedd Ebrill - Mehefin"
+
+# Species-phenology
+msgid "January - June"
+msgstr "Ionawr - Mehefin"
+
+# Species-phenology
+msgid "April - September, although May - July best"
+msgstr "Ebrill - Medi, ond ar ei orau Mai - Gorffennaf "
+
+# Species-phenology
+msgid "May - August"
+msgstr "Mai - Awst"
+
+# Species-phenology
+msgid "Mostly July - September"
+msgstr "Fel arfer Gorffennaf - Medi"
+
+# Species-phenology
+msgid "April - August"
+msgstr "Ebrill - Awst"
+
+# Species-phenology
+msgid "April - May"
+msgstr "Ebrill - Mai"
+
+# Species-phenology
+msgid "All year (Can’t find flowering time)"
+msgstr "Drwy'r flwyddyn (Methu canfod yr amser blodeuo)"
+
+# Species-phenology
+msgid "January - December"
+msgstr "Ionawr - Rhagfyr"
+
+# Manual page information message
+msgid ""
+"Find out how to conduct each of the activities that you can complete using "
+"this app."
+msgstr ""
+"Dysgwch sut i gynnal pob un o'r gweithgareddau y gallwch eu cwblhau drwy "
+"ddefnyddio'r ap hwn."
+
+# Species page information message
+msgid ""
+"Explore some of the plant species that live a sand dune habitat. Click on "
+"each plant for more details and to see where you might find them"
+msgstr ""
+"Archwiliwch rai o'r rhywogaethau o blanhigion sy'n byw yng nghynefinoedd y "
+"twyni tywod. Cliciwch ar y planhigion am ragor o fanylion ac i weld ble y "
+"gallwch eu gweld"
+
+# Habitats page information message
+msgid ""
+"Sand dune systems are made up of different habitats, which different animal "
+"and plant species are adapted to live in. Click on each habitat type to "
+"learn for more."
+msgstr ""
+"Mae systemau twyni tywod yn cwmpasu gwahanol gynefinoedd, y mae gwahanol "
+"rywogaethau o anifeiliaid a phlanhigion wedi addasu i fyw ynddynt. Cliciwch "
+"ar y mathau o gynefinoedd i ddysgu mwy."
+
+# Onboarding page
+msgid "Welcome!"
+msgstr "Croeso!"
+
+# Onboarding page
+msgid ""
+"Welcome to the Dynamic Dunescapes app, a tool for recording sand dune "
+"species and habitat data that helps us to understand the health of dune "
+"habitats."
+msgstr ""
+"Croeso i ap Twyni ar Symud, offeryn ar gyfer cofnodi data am rywogaethau a "
+"chynefinoedd y twyni tywod, sy'n ein helpu i ddeall iechyd cynefinoedd y "
+"twyni."
+
+# Onboarding page
+msgid ""
+"Register your new account so that you can save and send us your survey data."
+msgstr ""
+"Cofrestrwch eich cyfrif newydd er mwyn arbed data eich arolwg a'i anfon "
+"atom."
+
+# Onboarding page
+msgid "Choose your activity"
+msgstr "Dewiswch eich gweithgaredd"
+
+# Onboarding page
+msgid ""
+"From fixed point photography to measuring the water table depth or recording"
+" the plant species, find out how to complete our surveys."
+msgstr ""
+"O ffotograffiaeth pwynt sefydlog i fesur lefel trwythiad neu gofnodi'r "
+"rhywogaethau o anifeiliaid, dysgwch sut i gynnal ein harolygon."
+
+# Onboarding page
+msgid "Learn about dune species and habitats"
+msgstr "Dysgwch am rywogaethau a chynefinoedd y twyni tywod"
+
+# Onboarding page
+msgid ""
+"Using the buttons at the bottom, explore the different sand dune habitats "
+"and get help ID-ing some of the plant species that live there."
+msgstr ""
+"Gan ddefnyddio'r botymau ar y gwaelod, archwiliwch y gwahanol gynefinoedd "
+"sydd i'w cael mewn twyni tywod a chael help i adnabod rhai o'r rhywogaethau "
+"o blanhigion sy'n byw ynddynt."
+
+# Onboarding page
+msgid "Start your survey"
+msgstr "Dechreuwch eich arolwg"
+
+# Onboarding page
+msgid ""
+"Click on the<1></1>button to begin your survey, easily record your findings "
+"and upload the results."
+msgstr ""
+"Cliciwch ar y<1></1>botwm i ddechrau eich arolwg, i gofnodi'ch "
+"canfyddiadau'n rhwydd ac i gyflwyno'r canlyniadau."
+
+# Home page button label
+msgid "Activities you can do"
+msgstr "Gweithgareddau y gallwch eu gwneud"
+
+# Home page label
+msgid "Press the<1></1> button to start your survey"
+msgstr "Pwyswch y<1></1> botwm i ddechrau eich arolwg"
