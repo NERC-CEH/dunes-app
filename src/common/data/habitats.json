@@ -100,21 +100,21 @@
     "images": [
       {
         "id": 1,
+        "image": "10_habitat",
+        "image_width": "700",
+        "image_height": "734"
+      },
+      {
+        "id": 2,
         "image": "8_habitat",
         "image_width": "700",
         "image_height": "661"
       },
       {
-        "id": 2,
+        "id": 3,
         "image": "9_habitat",
         "image_width": "700",
         "image_height": "661"
-      },
-      {
-        "id": 3,
-        "image": "10_habitat",
-        "image_width": "700",
-        "image_height": "734"
       }
     ]
   },
