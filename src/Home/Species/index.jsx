@@ -101,9 +101,9 @@ class Species extends Component {
           <div className="info-message">
             <p>
               <T>
-                Explore some of the plant species that live a sand dune habitat.
-                Click on each plant for more details and to see where you might
-                find them
+                Explore some of the plant species that live in a sand dune
+                habitat. Click on each plant for more details and to see where
+                you might find them
               </T>
             </p>
           </div>

@@ -612,8 +612,8 @@ msgid "You can find this survey information in our volunteer manual."
 msgstr "You can find this survey information in our volunteer manual."
 
 # Section note message inside a survey
-msgid "Please add a photo for your visit."
-msgstr "Please add a photo for your visit."
+msgid "Please add a photo of your visit."
+msgstr "Please add a photo of your visit."
 
 # Survey alert message
 msgid "Please select your location."
@@ -1912,8 +1912,8 @@ msgid "Find out how to conduct each of the activities that you can complete usin
 msgstr "Find out how to conduct each of the activities that you can complete using this app."
 
 # Species page information message
-msgid "Explore some of the plant species that live a sand dune habitat. Click on each plant for more details and to see where you might find them"
-msgstr "Explore some of the plant species that live a sand dune habitat. Click on each plant for more details and to see where you might find them"
+msgid "Explore some of the plant species that live in a sand dune habitat. Click on each plant for more details and to see where you might find them"
+msgstr "Explore some of the plant species that live in a sand dune habitat. Click on each plant for more details and to see where you might find them"
 
 # Habitats page information message
 msgid "Sand dune systems are made up of different habitats, which different animal and plant species are adapted to live in. Click on each habitat type to learn for more."
