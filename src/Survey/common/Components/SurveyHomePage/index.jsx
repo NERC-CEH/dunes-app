@@ -34,13 +34,18 @@ class Controller extends React.Component {
     appModel.attrs[draftIdKey] = null;
     await appModel.save();
 
-    sample.metadata.saved = true;
-    await sample.save();
-
     const invalids = sample.validateRemote();
 
     if (invalids) {
       showInvalidsMessage(invalids);
+      return;
+    }
+
+    if (!sample.metadata.saved) {
+      sample.metadata.saved = true;
+      await sample.save();
+      
+      this.context.navigate('/home/user-surveys', 'root');
       return;
     }
 
@@ -80,10 +85,11 @@ class Controller extends React.Component {
 
   render() {
     const { sample, survey } = this.props;
+    const isSaved = sample.metadata.saved;
 
     const uploadButton = !sample.isDisabled() ? (
       <IonButton onClick={this.onUpload}>
-        <T>Upload</T>
+        {isSaved ? <T>Upload</T> : <T>Finish</T>}
       </IonButton>
     ) : null;
 
