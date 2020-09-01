@@ -69,13 +69,26 @@ class Locations extends React.Component {
   getLocationsItemsList() {
     const { sample, locations } = this.props;
 
+    const isSamplePlantQuadrat = sample.metadata.survey === 'plant-quadrat';
+
     const locationsArray = Object.values(locations);
     const hasLocations = !!locationsArray.length;
-    if (!hasLocations) {
+
+    if (!hasLocations && !isSamplePlantQuadrat) {
       return (
         <IonList lines="full">
           <InfoBackgroundMessage>
             You don't have any transects. Please try to refresh the list.
+          </InfoBackgroundMessage>
+        </IonList>
+      );
+    }
+
+    if (!hasLocations && isSamplePlantQuadrat) {
+      return (
+        <IonList lines="full">
+          <InfoBackgroundMessage>
+            You don't have any quadrat groups. Please try to refresh the list.
           </InfoBackgroundMessage>
         </IonList>
       );

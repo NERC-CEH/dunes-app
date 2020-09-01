@@ -835,6 +835,10 @@ msgstr "You don't have any transects. Please try to refresh the list."
 msgid "You don't have any sites. Please try to refresh the list."
 msgstr "You don't have any sites. Please try to refresh the list."
 
+# Missing quadrat groups data message
+msgid "You don't have any quadrat groups. Please try to refresh the list."
+msgstr "You don't have any quadrat groups. Please try to refresh the list."
+
 # Popup message
 msgid "Please log in to refresh the data."
 msgstr "Please log in to refresh the data."
