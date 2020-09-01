@@ -89,7 +89,13 @@ class index extends React.Component {
 
       await appModel.updateLocationImages();
 
-      success(t('List was successfully updated.'));
+      if (!appModel.attrs.locations.length) {
+        warn(
+          t('Sorry, this site do not have any locations for this activity yet.')
+        );
+      } else {
+        success(t('List was successfully updated.'));
+      }
     } catch (e) {
       error(e.message);
     }

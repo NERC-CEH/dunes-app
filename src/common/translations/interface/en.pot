@@ -2247,3 +2247,7 @@ msgstr "Other Agrimony spp"
 msgid "Purple dead nettle; henbit dead nettle"
 msgstr "Purple dead nettle; henbit dead nettle"
 
+# Toast warning message
+msgid "Sorry, this site do not have any locations for this activity yet."
+msgstr "Sorry, this site do not have any locations for this activity yet."
+
