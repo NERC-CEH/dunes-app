@@ -111,6 +111,12 @@ class index extends React.Component {
 
   render() {
     const { sample, appModel, match } = this.props;
+
+    const title =
+      sample.metadata.survey === 'plant-quadrat'
+        ? 'Quadrat groups'
+        : 'Transects';
+
     const refreshButton = (
       <IonButton onClick={this.refreshData}>
         <T>Refresh</T>
@@ -125,7 +131,7 @@ class index extends React.Component {
     return (
       <Page id="transects-list">
         <Header
-          title="Transects"
+          title={title}
           rightSlot={refreshButton}
           defaultHref="/home/user-surveys"
         />
