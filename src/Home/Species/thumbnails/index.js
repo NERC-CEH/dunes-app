@@ -13,6 +13,7 @@ import './8_thumbnail.jpg';
 import './9_thumbnail.jpg';
 import './10_thumbnail.jpg';
 import './11_thumbnail.jpg';
+import './12_thumbnail.jpg';
 import './13_thumbnail.jpg';
 import './14_thumbnail.jpg';
 import './15_thumbnail.jpg';

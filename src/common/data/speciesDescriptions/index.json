@@ -228,7 +228,16 @@
     "distribution": "Disturbed ground, bare and rocky areas",
     "flowering": "June - July",
     "confusion": "English stonecrop (Sedum anglicum)",
-    "comments": "Acidic dune nitrogen sensitives"
+    "comments": "Acidic dune nitrogen sensitives",
+    "photoWidth": 1024,
+    "photoHeight": [
+      768,
+      924
+    ],
+    "photoAuthor": [
+      "Josh Styles",
+      "Josh Styles"
+    ]
   },
   {
     "id": 13,
@@ -263,10 +272,9 @@
     "photoWidth": 1024,
     "photoHeight": [
       576,
-      576
+      768
     ],
     "photoAuthor": [
-      " Dr Steven Heathcote",
       " Dr Steven Heathcote"
     ]
   },

@@ -23,6 +23,8 @@ import './10_1_image.jpg';
 import './10_2_image.jpg';
 import './11_1_image.jpg';
 import './11_2_image.jpg';
+import './12_1_image.jpg';
+import './12_2_image.jpg';
 import './13_1_image.jpg';
 import './13_2_image.jpg';
 import './14_1_image.jpg';
