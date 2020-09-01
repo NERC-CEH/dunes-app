@@ -27,7 +27,7 @@ class Component extends React.Component {
     if (!sample.samples.length) {
       return (
         <InfoBackgroundMessage>
-          To see quadrats please select your site and transect first.
+          To see quadrats please select your site and quadrat group first.
         </InfoBackgroundMessage>
       );
     }

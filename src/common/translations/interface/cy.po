@@ -896,7 +896,7 @@ msgid "Quadrat group"
 msgstr "Grŵp cwadrad"
 
 # Plant quadrats survey section message
-msgid "To see quadrats please select your site and transect first."
+msgid "To see quadrats please select your site and quadrat group first."
 msgstr "I weld y cwadradau, dewiswch eich safle a'ch trawslun yn gyntaf."
 
 # Missing transects data message
