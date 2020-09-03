@@ -85,8 +85,14 @@ export function getLocationGroups(rawLocations) {
   };
 
   const processRawTransectLocation = rawLocation => {
+    const ZONATION_ATTR_ID = '17839';
+
     const location = {
       ...rawLocation,
+      type:
+        rawLocation.attr_location_273 === ZONATION_ATTR_ID
+          ? 'Zonation'
+          : 'Profile',
       geom: transformGeometry(rawLocation.geom),
       locations: [],
       media: processMedia(rawLocation.media),

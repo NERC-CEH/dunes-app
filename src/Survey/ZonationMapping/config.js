@@ -22,7 +22,7 @@ const habitatValues = habitats.map(habitat => ({
 const survey = {
   name: 'zonation-mapping',
   label: 'Zonation Mapping',
-  locationType: 'Transect',
+  locationType: 'Zonation',
   icon: zonationIcon,
   Manual,
 

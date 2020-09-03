@@ -18,7 +18,7 @@ import {
 const survey = {
   name: 'dunes-profile',
   label: 'Dunes Profile',
-  locationType: 'Transect',
+  locationType: 'Profile',
   icon: dunesIcon,
   Manual,
 

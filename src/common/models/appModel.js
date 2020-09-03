@@ -34,7 +34,7 @@ class AppModel extends Model {
 
     const siteId = site.location_id;
     const options = {
-      url: `${config.backend.url}/api/v2/reports?report=projects/dunescapes/locations_list_for_app.xml&parent_id=${siteId}`,
+      url: `${config.backend.url}/api/v2/reports?report=projects/dunescapes/locations_list_for_app.xml&locattrs=273&parent_id=${siteId}`,
       headers: {
         Authorization: `Bearer ${await userModel.getAccessToken()}`,
       },
