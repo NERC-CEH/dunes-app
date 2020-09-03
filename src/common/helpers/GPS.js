@@ -4,7 +4,6 @@ const { Geolocation } = Plugins;
 
 const API = {
   GPS_ACCURACY_LIMIT: 100, // meters
-  TIMEOUT: 120000,
 
   running: false,
 
@@ -16,7 +15,6 @@ const API = {
     const GPSoptions = {
       enableHighAccuracy: true,
       maximumAge: 0,
-      timeout: API.TIMEOUT,
     };
 
     const onPosition = (position, err) => {
