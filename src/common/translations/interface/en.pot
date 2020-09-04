@@ -1012,8 +1012,8 @@ msgid "Please add water depth value."
 msgstr "Please add water depth value."
 
 # Warning message
-msgid "Please add at points to the survey."
-msgstr "Please add at points to the survey."
+msgid "Please add points to the survey."
+msgstr "Please add points to the survey."
 
 # Warning message
 msgid "Please add location."
