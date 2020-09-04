@@ -145,7 +145,7 @@ const survey = {
       Yup.mixed()
         .test(
           'points',
-          'Please add at points to the survey.',
+          'Please add points to the survey.',
           () => sample.samples.length
         )
         .validateSync();
