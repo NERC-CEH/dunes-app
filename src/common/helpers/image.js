@@ -12,6 +12,15 @@ import Log from './log';
 
 const { Camera, Filesystem } = Plugins;
 
+async function getImageMeta(url) {
+  return new Promise((resolve, reject) => {
+    const img = new window.Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => reject();
+    img.src = url;
+  });
+}
+
 const Image = {
   /**
    * Gets a fileEntry of the selected image from the camera or gallery.
@@ -68,7 +77,10 @@ const Image = {
 
     if (Capacitor.isNative) {
       imageURL = Capacitor.convertFileSrc(imageURL); // eslint-disable-line
-      [, , width, height] = await Indicia.Media.getDataURI(imageURL);
+      const imageMetaData = await getImageMeta(imageURL);
+
+      width = imageMetaData.width;
+      height = imageMetaData.height;
       data = imageURL.split('/').pop();
     } else {
       [data, , width, height] = await Indicia.Media.getDataURI(imageURL);
