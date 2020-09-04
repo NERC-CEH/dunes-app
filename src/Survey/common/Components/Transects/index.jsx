@@ -58,12 +58,14 @@ class index extends React.Component {
     }
 
     const { sample, userModel, appModel, t } = this.props;
+    const { locationType } = sample.getSurvey();
+
+    const isSamplePlantQuadrat = sample.metadata.survey === 'plant-quadrat';
 
     if (!device.isOnline()) {
       warn(t("Sorry, looks like you're offline."));
       return;
     }
-
     const isLoggedIn = !!userModel.attrs.id;
     if (!isLoggedIn) {
       warn(t('Please log in to refresh the data.'));
@@ -87,12 +89,17 @@ class index extends React.Component {
         )}</small>`,
       });
 
+      const locations = appModel.attrs.locations.filter(
+        ({ type }) => type === locationType
+      );
+
       await appModel.updateLocationImages();
 
-      if (!appModel.attrs.locations.length) {
-        warn(
-          t('Sorry, this site do not have any locations for this activity yet.')
-        );
+      if (!locations.length) {
+        const msg = !isSamplePlantQuadrat
+          ? 'Sorry, this site does not have any transects for this activity yet.'
+          : 'Sorry, this site does not have any quadrat groups for this activity yet.';
+        warn(t(msg));
       } else {
         success(t('List was successfully updated.'));
       }

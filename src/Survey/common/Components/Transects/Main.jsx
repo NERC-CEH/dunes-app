@@ -78,7 +78,8 @@ class Locations extends React.Component {
       return (
         <IonList lines="full">
           <InfoBackgroundMessage>
-            You don't have any transects. Please try to refresh the list.
+            No survey transects currently set up for this site. Please try to
+            refresh the list.
           </InfoBackgroundMessage>
         </IonList>
       );
@@ -88,7 +89,8 @@ class Locations extends React.Component {
       return (
         <IonList lines="full">
           <InfoBackgroundMessage>
-            You don't have any quadrat groups. Please try to refresh the list.
+            No survey quadrat groups currently set up for this site. Please try
+            to refresh the list.
           </InfoBackgroundMessage>
         </IonList>
       );

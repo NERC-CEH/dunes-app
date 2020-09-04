@@ -2252,6 +2252,17 @@ msgid "Purple dead nettle; henbit dead nettle"
 msgstr "Purple dead nettle; henbit dead nettle"
 
 # Toast warning message
-msgid "Sorry, this site do not have any locations for this activity yet."
-msgstr "Sorry, this site do not have any locations for this activity yet."
+msgid "Sorry, this site does not have any quadrat groups for this activity yet."
+msgstr "Sorry, this site does not have any quadrat groups for this activity yet."
 
+# Toast warning message
+msgid "Sorry, this site does not have any transects for this activity yet."
+msgstr "Sorry, this site does not have any transects for this activity yet."
+
+# Missing transects data message 
+msgid "No survey quadrat groups currently set up for this site. Please try to refresh the list."
+msgstr "No survey quadrat groups currently set up for this site. Please try to refresh the list."
+
+# Missing transects data message 
+msgid "No survey transects currently set up for this site. Please try to refresh the list."
+msgstr "No survey transects currently set up for this site. Please try to refresh the list."
