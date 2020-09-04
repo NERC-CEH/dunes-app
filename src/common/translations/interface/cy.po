@@ -895,6 +895,10 @@ msgstr "Nodwch uchder y llystyfiant mewn cm."
 msgid "Quadrat group"
 msgstr "Grŵp cwadrad"
 
+# Plant quadrats location title
+msgid "Quadrat groups"
+msgstr "Grwpiau cwadrad"
+
 # Plant quadrats survey section message
 msgid "To see quadrats please select your site and quadrat group first."
 msgstr "I weld y cwadradau, dewiswch eich safle a'ch trawslun yn gyntaf."
@@ -906,6 +910,10 @@ msgstr "Does dim trawsluniau gyda chi. Ceisiwch adnewyddu'r rhestr."
 # Missing sites data message
 msgid "You don't have any sites. Please try to refresh the list."
 msgstr "Does dim safleoedd gyda chi. Ceisiwch adnewyddu'r rhestr."
+
+# Missing quadrat groups data message
+msgid "You don't have any quadrat groups. Please try to refresh the list."
+msgstr ""
 
 # Popup message
 msgid "Please log in to refresh the data."
@@ -2919,7 +2927,7 @@ msgstr "Ffenoleg"
 
 # Species-flowering
 msgid "Flowering"
-msgstr ""
+msgstr "Adeg blodeuo"
 
 # Species-flowering
 msgid "July - September"
@@ -3101,3 +3109,316 @@ msgstr "Gweithgareddau y gallwch eu gwneud"
 # Home page label
 msgid "Press the<1></1> button to start your survey"
 msgstr "Pwyswch y<1></1> botwm i ddechrau eich arolwg"
+
+# Species-comments
+msgid "Dune slack nitrogen loving"
+msgstr "Yn tyfu yn llaciau'r twyni ac yn hoff o nitrogen"
+
+# Species-comments
+msgid "Nitrogen sensitive"
+msgstr "Yn sensitif i nitrogen"
+
+# Species-comments
+msgid "Nitrogen loving"
+msgstr "Hoff o nitrogen"
+
+# Species-comments
+msgid "Acidic dune nitrogen sensitives"
+msgstr "Yn byw mewn twyni asidaidd ac yn sensitif i nitrogen"
+
+# Species-comments
+msgid "Acidic dune nitrogen-loving"
+msgstr "Yn byw mewn twyni asidaidd ac yn hoff o nitrogen"
+
+# Species-comments
+msgid "Health positive indicators"
+msgstr ""
+
+# Species-comments
+msgid "Health negative indicators"
+msgstr ""
+
+# Species-comments
+msgid "Fixed dune acidic grassland positive indicators"
+msgstr "Dangosyddion cadarnhaol o laswelltir asidaidd mewn twyni sefydlog"
+
+# Species-comments
+msgid "Fixed dune acidic grassland negative indicators"
+msgstr "Dangosyddion negyddol o laswelltir asidaidd mewn twyni sefydlog"
+
+# Species-comments
+msgid "Mobile dune acidic grassland positive indicators"
+msgstr "Dangosyddion cadarnhaol o laswelltir asidaidd mewn twyni symudol"
+
+# Species-comments
+msgid "Mobile Dune Negative Indicators"
+msgstr "Dangosyddion Negyddol o Dwyni Symudol"
+
+# Species-comments
+msgid "Dune Slack Species"
+msgstr "Un o rywogaethau llaciau'r twyni"
+
+# Species-comments
+msgid "Mobile dune positive indicator"
+msgstr "Dangosydd cadarnhaol o dwyni symudol"
+
+# Species-comments
+msgid "Mobile dune negative indicator & Dune slacks negative indicator"
+msgstr "Dangosydd negyddol o dwyni symudol ac o laciau twyni"
+
+# Species-comments
+msgid ""
+"Mobile dune negative indicator, Fixed dune grassland negative indicator & "
+"Dune slack negative indicator"
+msgstr ""
+"Dangosydd negyddol o dwyni symudol, o laswelltir mewn twyni sefydlog, ac o "
+"laciau twyni"
+
+# Species-comments
+msgid "Dune slack positive indicator, Fixed dune positive indicator"
+msgstr "Dangosydd cadarnhaol o laciau twyni ac o dwyni sefydlog"
+
+# Species-comments
+msgid "Dune slack negative indicator"
+msgstr "Dangosydd negyddol o laciau twyni"
+
+# Species-comments
+msgid "Dune slacks negative indicator"
+msgstr "Dangosydd negyddol o laciau twyni"
+
+# Species-comments
+msgid "Dunescapes slack & Nitrogen loving"
+msgstr "Yn byw mewn llaciau twyni ac yn hoff o nitrogen"
+
+# Species-comments
+msgid "Fixed dune grassland positive indicator"
+msgstr "Dangosydd cadarnhaol o laswelltir mewn twyni sefydlog"
+
+# Species-comments
+msgid "Fixed dune grassland negative indicator"
+msgstr "Dangosydd negyddol o laswelltir mewn twyni sefydlog"
+
+# Species-comments
+msgid "Dune slack positive indicator"
+msgstr "Dangosydd cadarnhaol o laciau'r twyni"
+
+# Species-confusion
+msgid "Confusion Species"
+msgstr "Gofalwch beidio drysu gyda"
+
+# Species-confusion
+msgid ""
+"Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)"
+msgstr ""
+"Clychau'r gog (Hyacinthoides non-scripta), clychlysiau eraill (Campanula "
+"spp.)"
+
+# Species-confusion
+msgid "Reflexed stonecrop"
+msgstr "Briweg felen"
+
+# Species-confusion
+msgid "Sheep’s-bit scabious (Jasione montana)"
+msgstr "Clefryn (Jasione montana)"
+
+# Species-confusion
+msgid "Sea clover (Trifolia squamosum)"
+msgstr "Meillionen y morfa (Trifolium squamosum)"
+
+# Species-confusion
+msgid ""
+"Tormentil (Potentilla erecta), Creeping cinquefoil (Potentilla reptans)"
+msgstr ""
+"Tresgl y moch (Potentilla erecta), Pumnalen ymlusgol (Potentilla reptans)"
+
+# Species-confusion
+msgid "Red Clover"
+msgstr "Meillionen goch"
+
+# Species-confusion
+msgid "Broad leaved dock (Rumex obtusifolius), Copmmon sorrel (Rumex acetosa)"
+msgstr "Dail tafol (Rumex obtusifolius), Suran y cŵn (Rumex acetosa)"
+
+# Species-confusion
+msgid "Spear thistle (Cirsium vulgare), Marsh thistle (Cirsium palustre)"
+msgstr "Marchysgallen (Cirsium vulgare), Ysgallen y gors (Cirsium palustre)"
+
+# Species-confusion
+msgid "Dandelion species"
+msgstr "Rhywogaethau o ddant y llew"
+
+# Species-confusion
+msgid "English stonecrop (Sedum anglicum)"
+msgstr "Briweg y cerrig (Sedum anglicum)"
+
+# Species-confusion
+msgid "Common cudweed (Filago vulgaris)"
+msgstr "Edafeddog lwyd (Filago vulgaris)"
+
+# Species-confusion
+msgid "Heath woodrush (Luzula multiflora)"
+msgstr "Coedfrwynen luosben (Luzula multiflora)"
+
+# Species-confusion
+msgid "Squirrel-tail fescue (Vulpia bromoides)"
+msgstr "Peisgwellt cynffon gwiwer (Vulpia bromoides)"
+
+# Species-confusion
+msgid "Ribwort plantain (Plantago lanceolata)"
+msgstr "Llyriad yr ais (Plantago lanceolata)"
+
+# Species-confusion
+msgid "Devil’s bit scabious (Succisa pratensis)"
+msgstr "Tamaid y cythraul (Succisa pratensis)"
+
+# Species-confusion
+msgid "Hawkbits (Leontodon spp.), Dandelions (Taraxacum spp.)"
+msgstr "Rhywogaethau peradyl (Leontodon spp.) a dant y llew (Taraxacum spp.)"
+
+# Species-confusion
+msgid "Bristly haircap (Polytrichum piliferum)"
+msgstr ""
+
+# Species-confusion
+msgid "Dune"
+msgstr ""
+
+# Species-confusion
+msgid "Field maple (Acer campestre), Norway maple (Acer platanoides)"
+msgstr "Masarnen fach (Acer campestre), Masarnen Norwy (Acer platanoides)"
+
+# Species-confusion
+msgid "Other pine species"
+msgstr "Rhywogaethau pinwydd eraill"
+
+# Species-confusion
+msgid "Other star mosses"
+msgstr ""
+
+# Species-confusion
+msgid "Nothing. Other plantains at a push"
+msgstr "Dim. Llyriaid eraill o bosib"
+
+# Species-confusion
+msgid "Other thistles, particularly Cotton thistle (Onopordum acanthium)"
+msgstr "Ysgall eraill, yn enwedig Ysgallen gotwm (Onopordum acanthium)"
+
+# Species-confusion
+msgid "Brambles (Rubus spp.)"
+msgstr "Llwyni mwyar (Rubus spp.)"
+
+# Species-confusion
+msgid "Dwarf gorse (Ulex minor), Western gorse (Ulex gallii)"
+msgstr "Coreithin (Ulex minor), Eithin mân (Ulex gallii)"
+
+# Species-confusion
+msgid "Other heathers, especially Bell heather (Erica cinerea)"
+msgstr "Mathau eraill o rug, yn arbennig Grug y mêl (Erica cinerea)"
+
+# Species-confusion
+msgid "Salad burnet (Sanguisorba minor)"
+msgstr "Bwrned (Sanguisorba minor)"
+
+# Species-confusion
+msgid "Thyme-leaved sandwort (Arenaria serpyllifolia)"
+msgstr "Tywodlys dail teim (Arenaria serpyllifolia)"
+
+# Species-confusion
+msgid "Prickly Saltwort"
+msgstr "Helys pigog"
+
+# Species-confusion
+msgid ""
+"Hedge bindweed (Calystegia sepium), Field bindweed (Convolvulus arvensis), "
+"Great bindweed (Calystegia silvatica)"
+msgstr ""
+"Taglys y perthi (Calystegia sepium), Cwlwm y cythraul (Convolvulus "
+"arvensis), Taglys mawr (Calystegia silvatica)"
+
+# Species-confusion
+msgid ""
+"Hybridised willow species typically including goat willow (S. caprea) and "
+"downy willow (S. lapponum)"
+msgstr ""
+"Rhywogaethau o helyg croesryw, yn aml yn cynnwys helyg deilgrwn (S. caprea) "
+"a Helyg pannog (S. lapponum)"
+
+# Species-confusion
+msgid "Hybrids of mint"
+msgstr "Rhywogaethau o fintys croesryw"
+
+# Species-confusion
+msgid ""
+"The leaves are similar to Navelwort but this is found in much dryer habitats"
+" such as walls and quarries"
+msgstr ""
+"Mae'r dail yn debyg i'r Ddeilen gron, ond mae'r planhigyn hwn i'w weld mewn "
+"cynefinoedd llawer mwy sych, fel waliau a chwareli"
+
+# Species-confusion
+msgid "Thistle species"
+msgstr "Rhywogaethau ysgall"
+
+# Species-confusion
+msgid "St John’s Wort"
+msgstr "Eurinllys trydwll"
+
+# Species-confusion
+msgid "Other perennial broad-leaved weeds"
+msgstr "Mathau eraill o chwyn lluosflwydd llydanddail"
+
+# Species-confusion
+msgid "Common cow - wheat"
+msgstr "Gliniogai"
+
+# Species-confusion
+msgid "Male fern"
+msgstr "Marchredynen gyffredin"
+
+# Species-confusion
+msgid "Other buttercups"
+msgstr "Blodau-ymenyn eraill"
+
+# Species-confusion
+msgid "Other members of the nightshade family"
+msgstr "Aelodau eraill o deulu'r codwarth"
+
+# Species-confusion
+msgid "Other species of Eyebright and hybrids"
+msgstr "Rhywogaethau eraill o effros ac effros croesryw"
+
+# Species-confusion
+msgid "Birds - Foot Trefoil"
+msgstr "Pys-y-ceirw"
+
+# Species-confusion
+msgid "Wild Raspberry"
+msgstr "Mafon gwyllt"
+
+# Species-confusion
+msgid "Other spear mosses"
+msgstr ""
+
+# Species-confusion
+msgid "Other sedges"
+msgstr "Mathau eraill o hesg"
+
+# Species-confusion
+msgid "Other Agrimony spp"
+msgstr "Llysiau'r dryw"
+
+# Species-confusion
+msgid "Purple dead nettle; henbit dead nettle"
+msgstr "Marddanhadlen goch; Marddanhadlen goch ddeilgron"
+
+# Toast warning message
+msgid "Sorry, this site does not have any locations for this activity yet."
+msgstr ""
+"Yn anffodus, nid oes gan y safle hwn unrhyw leoliadau ar gyfer y "
+"gweithgaredd hwn eto."
+
+# Missing transects data message
+msgid ""
+"No survey locations currently set up for this site. Please try to refresh "
+"the list."
+msgstr ""
