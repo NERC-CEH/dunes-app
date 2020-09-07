@@ -14,7 +14,7 @@ class AppSample extends Sample {
   constructor(...args) {
     super(...args);
 
-    this.remote.url = `${config.backend.url}/api/v2/samples`;
+    this.remote.url = `${config.backend.indicia.url}/index.php/services/rest`;
     this.remote.headers = async () => ({
       Authorization: `Bearer ${await userModel.getAccessToken()}`,
     });

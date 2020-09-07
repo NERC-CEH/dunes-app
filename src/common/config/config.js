@@ -37,6 +37,9 @@ const config = {
     mediaUrl: 'https://warehouse1.indicia.org.uk/upload/',
 
     indicia: {
+      url:
+        process.env.APP_BACKEND_INDICIA_URL ||
+        'https://devwarehouse.indicia.org.uk',
       websiteId: 1, // -1
     },
   },

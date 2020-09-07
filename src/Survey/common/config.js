@@ -13,12 +13,12 @@ export const locationAttrs = {
       ).toFixed(7)}`;
 
       // eslint-disable-next-line
-      submission.fields = {
-        ...submission.fields,
+      submission.values = {
+        ...submission.values,
         ...{
           entered_sref_system: 4326,
           entered_sref: sref,
-          [locationAttrs.location_gridref.id]: gridref,
+          [`smpAttr:${locationAttrs.location_gridref.id}`]: gridref,
         },
       };
 

@@ -41,8 +41,8 @@ const survey = {
           const { accuracy, gridref } = location;
           const keys = survey.smp.attrs;
 
-          submission.fields[keys.location_gridref.id] = gridref; // eslint-disable-line
-          submission.fields[keys.location_accuracy.id] = accuracy; // eslint-disable-line
+          submission.values[`smpAttr:${keys.location_gridref.id}`] = gridref; // eslint-disable-line
+          submission.values[`smpAttr:${keys.location_accuracy.id}`] = accuracy; // eslint-disable-line
 
           return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
             location.longitude

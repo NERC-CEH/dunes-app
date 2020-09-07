@@ -23,7 +23,7 @@ const survey = {
     location: {
       id: 'entered_sref',
       values(location, submission, sample) {
-        submission.fields.location_id = sample.metadata.site.location_id; // eslint-disable-line
+        submission.values.location_id = sample.metadata.site.location_id; // eslint-disable-line
 
         return `${parseFloat(location.latitude).toFixed(7)}, ${parseFloat(
           location.longitude

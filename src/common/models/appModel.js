@@ -20,6 +20,14 @@ class AppModel extends Model {
       },
     };
 
+    if (config.backend.url.includes('dev-brc-dunescapes')) {
+      // DEV-only as it doesn't have locations
+      const devSitesList = require('./devSitesList'); // eslint-disable-line
+      this.attrs.sites = devSitesList.data;
+
+      return this.save();
+    }
+
     const { data } = await axios(options);
 
     this.attrs.sites = data.data;
@@ -39,6 +47,15 @@ class AppModel extends Model {
         Authorization: `Bearer ${await userModel.getAccessToken()}`,
       },
     };
+
+    if (config.backend.url.includes('dev-brc-dunescapes')) {
+      // DEV-only as it doesn't have locations
+      const devTransectsList = require('./devTransectsList'); // eslint-disable-line
+      this.attrs.locations = getLocationGroups(devTransectsList.data);
+
+      await this.save();
+      return;
+    }
 
     const { data } = await axios(options);
 
