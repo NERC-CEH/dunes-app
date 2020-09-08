@@ -25,6 +25,7 @@ class index extends React.Component {
     const { appModel, sample } = this.props;
 
     appModel.attrs.favouriteSite = site;
+    appModel.attrs.locations = [];
     await appModel.save();
 
     sample.metadata.site = site;
