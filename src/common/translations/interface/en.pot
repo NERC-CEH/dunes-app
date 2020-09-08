@@ -1116,8 +1116,8 @@ msgid "Other"
 msgstr "Other"
 
 # Survey name
-msgid "Record Disturbance"
-msgstr "Record Disturbance"
+msgid "Disturbance / Other"
+msgstr "Disturbance / Other"
 
 # Loading dialog when pulling location data 
 msgid "Downloading images."

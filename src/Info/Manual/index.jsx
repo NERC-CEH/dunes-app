@@ -50,7 +50,7 @@ export default () => {
           <DipwellManual />
         </MenuItemModal>
 
-        <MenuItemModal label="Disturbance" header="Disturbance">
+        <MenuItemModal label="Disturbance / Other" header="Disturbance / Other">
           <DisturbanceManual />
         </MenuItemModal>
       </Main>

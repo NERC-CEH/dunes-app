@@ -8,7 +8,7 @@ import Manual from './Manual';
 
 const survey = {
   name: 'disturbance',
-  label: 'Record Disturbance',
+  label: 'Disturbance / Other',
   icon: disturbance,
   Manual,
 
