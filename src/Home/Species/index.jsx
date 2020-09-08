@@ -42,7 +42,7 @@ class Species extends Component {
 
     return (
       <IonCol
-        key={name}
+        key={id}
         className="species-list-item"
         onClick={onClick}
         size="6"
