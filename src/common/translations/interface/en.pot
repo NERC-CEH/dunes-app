@@ -1359,6 +1359,35 @@ msgstr "No user session refresh token was found"
 msgid "No image available for this location."
 msgstr "No image available for this location."
 
+
+# Species-description: 
+msgid "Low, creeping, moss-like plant with opposing pairs of fleshy, cylindrical leaves. Leaves red towards the base of stems, turning to green towards the tips. White flowers, usually with 3 petals, occasionally 4"
+msgstr "Low, creeping, moss-like plant with opposing pairs of fleshy, cylindrical leaves. Leaves red towards the base of stems, turning to green towards the tips. White flowers, usually with 3 petals, occasionally 4"
+
+# Species-description: 
+msgid "Creeping perennial about 10 to 40cm tall. It has an upper spike of female flowers and two male spikes lower down the stem. The purplish-brown flowers are followed by reddish black seeds. Bluish-grey blush found on the underside of the leaves."
+msgstr "Creeping perennial about 10 to 40cm tall. It has an upper spike of female flowers and two male spikes lower down the stem. The purplish-brown flowers are followed by reddish black seeds. Bluish-grey blush found on the underside of the leaves."
+
+# Species-description: 
+msgid "Perennial . Member of the dead-nettle family not closely related to Ivy. It is an evergreen, creeping plant spreading by means of overground runners that frequently root. It has a strong smell and violet flowers. kidney-shaped, deep green leaves are typically scalloped and slightly undulating at the margins upper leaf surface has a covering of very small bristly hairs. stems are square, and have opposite pairs of simple leaves. Ground ivy's stems are also covered in fine bristly hairs."
+msgstr "Perennial . Member of the dead-nettle family not closely related to Ivy. It is an evergreen, creeping plant spreading by means of overground runners that frequently root. It has a strong smell and violet flowers. kidney-shaped, deep green leaves are typically scalloped and slightly undulating at the margins upper leaf surface has a covering of very small bristly hairs. stems are square, and have opposite pairs of simple leaves. Ground ivy's stems are also covered in fine bristly hairs."
+
+# Species-description: 
+msgid "Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, deeply 3-5 lobed, leaflets coarsely toothed. Flowerheads pink or purplish 2 to 5 mm in dense rather flat topped clusters, florets all tubular."
+msgstr "Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, deeply 3-5 lobed, leaflets coarsely toothed. Flowerheads pink or purplish 2 to 5 mm in dense rather flat topped clusters, florets all tubular."
+
+# Species-description: 
+msgid "Erect, pale or yellow-green, shoots typically 2–3 cm long. Stem leaves strongly curved away from the stem, often at right angles to it, giving the shoots a star-like appearance when seen from above."
+msgstr "Erect, pale or yellow-green, shoots typically 2–3 cm long. Stem leaves strongly curved away from the stem, often at right angles to it, giving the shoots a star-like appearance when seen from above."
+
+# Species-description: 
+msgid "Has oval, pointed leaves that are yellowy-green in colour. Purple flowers, with protruding yellow stamens, bright red, cherry tomato-like berries that hang in clusters."
+msgstr "Has oval, pointed leaves that are yellowy-green in colour. Purple flowers, with protruding yellow stamens, bright red, cherry tomato-like berries that hang in clusters."
+
+# Species-description: 
+msgid "Forms green, yellow-green or occasionally orange-brown patches. Shoots are commonly 3 to 8 cm long, often red towards the base. Main stem usually erect, side branches pinnately arranged, whole shoot having a flattened appearance. Leaves closely rolled-up to form a smooth needle-like or spear-like point. Stem leaves are usually 2 to 2.5 mm long, narrowly egg-shaped, never curved, bluntly rounded at the tip."
+msgstr "Forms green, yellow-green or occasionally orange-brown patches. Shoots are commonly 3 to 8 cm long, often red towards the base. Main stem usually erect, side branches pinnately arranged, whole shoot having a flattened appearance. Leaves closely rolled-up to form a smooth needle-like or spear-like point. Stem leaves are usually 2 to 2.5 mm long, narrowly egg-shaped, never curved, bluntly rounded at the tip."
+
 # Species-description: distribution
 msgid "Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves roundish with a few teeth, upper leaves narrow, untoothed and unstalked"
 msgstr "Flowers blue, on thin stalks in loose clusters. 5 petals. Lowest leaves roundish with a few teeth, upper leaves narrow, untoothed and unstalked"
@@ -1703,6 +1732,38 @@ msgstr "Flowers in heads; usually yellow, but can be orange, red, purple or whit
 msgid "Found in open grassland"
 msgstr "Found in open grassland"
 
+# Species-description: distribution
+msgid "Common in moist, base-rich habitats, such as marshes, mires and flushes, in grassland, and among rocks. It also occurs in relatively dry places in calcareous habitats, such as chalk and limestone grassland"
+msgstr "Common in moist, base-rich habitats, such as m
+
+# Species-description: distribution
+msgid "Damp grassland, marshes, fens and wet woodlands, and along riverbanks"
+msgstr "Damp grassland, marshes, fens and wet woodlands, and along riverbanks"
+
+# Species-description: distribution 
+msgid "Woodlands, hedgerows and damp ground"
+msgstr "Woodlands, hedgerows and damp ground"
+
+# Species-description: distribution
+msgid "Grassland, wetland, towns and gardens, farmland, woodland"
+msgstr "Grassland, wetland, towns and gardens, farmland, woodland"
+
+# Species-description: distribution
+msgid "Disturbed ground, bare and rocky areas"
+msgstr "Disturbed ground, bare and rocky areas"
+
+# Species-description: distribution
+msgid "Freshwater, farmland, woodlands, towns and gardens"
+msgstr "Freshwater, farmland, woodlands, towns and gardens
+
+# Species-description: distribution
+msgid "Frequent in a range of habitats, including grasslands, moorlands, exposed and disturbed soil, and the upper edges of salt marshes"
+msgstr "Frequent in a range of habitats, including grasslands, moorlands, exposed and disturbed soil, and the upper edges of salt marshes"
+
+# Species-description: distribution
+msgid "Slightly base-rich mires, flushes and dune slacks, sometimes over wet rocks in open places."
+msgstr "Slightly base-rich mires, flushes and dune slacks, sometimes over wet rocks in open places."
+
 # Restore password alert title 
 msgid "We've sent an email to you"
 msgstr "We've sent an email to you"
@@ -1888,6 +1949,10 @@ msgid "January - June"
 msgstr "January - June"
 
 # Species-flowering
+msgid "July - August"
+msgstr "July - August"
+
+# Species-flowering
 msgid "April - September, although May - July best"
 msgstr "April - September, although May - July best"
 
@@ -1914,6 +1979,30 @@ msgstr "All year (Can’t find flowering time)"
 # Species-flowering
 msgid "January - December"
 msgstr "January - December"
+
+# Species-flowering
+msgid "May and June"
+msgstr "May and June"
+
+# Species-flowering
+msgid "March - June"
+msgstr "March - June"
+
+# Species-flowering
+msgid "June - July"
+msgstr "June - July"
+
+# Species-flowering
+msgid "June - August"
+msgstr "June - August"
+
+# Species-flowering
+msgid "Usually May - August"
+msgstr "Usually May - August"
+
+# Species-flowering
+msgid "January - September"
+msgstr "January - September"
 
 # Manual page information message
 msgid "Find out how to conduct each of the activities that you can complete using this app."
@@ -2066,6 +2155,10 @@ msgstr "Confusion Species"
 # Species-confusion
 msgid "Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)"
 msgstr "Bluebell (Hyacinthoides non-scripta), other bellflowers (Campanula spp.)"
+
+# Species-confusion
+msgid "Creeping buttercup can be distinguished from the other buttercups by the spreading way it grows with runners. Yellow flowers are about 2cm across and its hairy leaves are divided into three lobes with frayed edges."
+msgstr "Creeping buttercup can be distinguished from the other buttercups by the spreading way it grows with runners. Yellow flowers are about 2cm across and its hairy leaves are divided into three lobes with frayed edges."
 
 # Species-confusion
 msgid "Reflexed stonecrop"

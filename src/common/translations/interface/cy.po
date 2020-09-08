@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Vilius Stankaitis <vilius@flumens.io>, 2020
-# idiom : Welsh translation & language services <post@idiom.cymru>, 2020
 # Karolis, 2020
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2020\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/109789/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -326,7 +326,7 @@ msgstr "Ychwanegwch lun isod."
 
 # Photo picker helper
 msgid "Adding photographs"
-msgstr "Yn ychwanegu'r lluniau"
+msgstr "Ychwanegu lluniau"
 
 # Alert dialog button label
 msgid "Got it"
@@ -669,7 +669,7 @@ msgstr ""
 
 # Section note message inside a survey
 msgid "Please add photos of your visit."
-msgstr "Ychwanegwch lun ar gyfer eich ymweliad."
+msgstr "Ychwanegwch luniau o'ch ymweliad."
 
 # Survey alert message
 msgid "Please select your location."
@@ -902,7 +902,7 @@ msgstr "Grwpiau cwadrad"
 
 # Plant quadrats survey section message
 msgid "To see quadrats please select your site and quadrat group first."
-msgstr "I weld y cwadradau, dewiswch eich safle a'ch trawslun yn gyntaf."
+msgstr "I weld y cwadradau, dewiswch eich safle a'r grŵp cwadrad yn gyntaf."
 
 # Missing transects data message
 msgid "You don't have any transects. Please try to refresh the list."
@@ -914,7 +914,7 @@ msgstr "Does dim safleoedd gyda chi. Ceisiwch adnewyddu'r rhestr."
 
 # Missing quadrat groups data message
 msgid "You don't have any quadrat groups. Please try to refresh the list."
-msgstr ""
+msgstr "Does dim grwpiau cwadrad gyda chi. Ceisiwch adnewyddu'r rhestr."
 
 # Popup message
 msgid "Please log in to refresh the data."
@@ -934,7 +934,7 @@ msgstr "Llystyfiant"
 
 # Plant quadrats survey section message
 msgid "Cover"
-msgstr "Llystyfiant ar yr Wyneb"
+msgstr "Arwyneb"
 
 # Plant quadrats survey section message
 msgid "Height"
@@ -942,7 +942,7 @@ msgstr "Uchder"
 
 # Plant quadrats survey section message
 msgid "Indicator Species"
-msgstr "Rhywogaethau Dynodol"
+msgstr "Rhywogaethau Dangosol"
 
 # Plant quadrats survey section message
 msgid "Health"
@@ -1180,7 +1180,7 @@ msgstr "Mwy nag 1 metr ar draws"
 
 # Part of disturbance page
 msgid "Rabbit"
-msgstr "Cwningod"
+msgstr "Cwningen"
 
 # Part of disturbance page
 msgid "Rabbit activity"
@@ -1188,15 +1188,15 @@ msgstr "Gweithgarwch cwningod"
 
 # Part of disturbance page
 msgid "Cattle"
-msgstr "Gwartheg"
+msgstr "Buwch"
 
 # Part of disturbance page
 msgid "Pony"
-msgstr "Merlod"
+msgstr "Merlyn"
 
 # Part of disturbance page
 msgid "Sheep"
-msgstr "Defaid"
+msgstr "Dafad"
 
 # Part of disturbance page
 msgid "Unknown"
@@ -1733,7 +1733,7 @@ msgstr "Uchder y llystyfiant"
 
 # Plant-Quadrat survey manual
 msgid "Health indicator species and nitrogen indicator species"
-msgstr "Rhywogaethau sy'n dynodi iechyd a rhywogaethau sy'n dynodi nitrogen"
+msgstr "Rhywogaethau dangosol ar gyfer iechyd a nitrogen"
 
 # Plant-Quadrat survey manual
 msgid ""
@@ -2080,6 +2080,63 @@ msgstr "Dim tocyn adnewyddu sesiwn defnyddiwr wedi'i ganfod"
 # Location edit page image placeholder
 msgid "No image available for this location."
 msgstr "Does dim delwedd ar gael ar gyfer y lleoliad hwn."
+
+# Species-description:
+msgid ""
+"Low, creeping, moss-like plant with opposing pairs of fleshy, cylindrical "
+"leaves. Leaves red towards the base of stems, turning to green towards the "
+"tips. White flowers, usually with 3 petals, occasionally 4"
+msgstr ""
+
+# Species-description:
+msgid ""
+"Creeping perennial about 10 to 40cm tall. It has an upper spike of female "
+"flowers and two male spikes lower down the stem. The purplish-brown flowers "
+"are followed by reddish black seeds. Bluish-grey blush found on the "
+"underside of the leaves."
+msgstr ""
+
+# Species-description:
+msgid ""
+"Perennial . Member of the dead-nettle family not closely related to Ivy. It "
+"is an evergreen, creeping plant spreading by means of overground runners "
+"that frequently root. It has a strong smell and violet flowers. kidney-"
+"shaped, deep green leaves are typically scalloped and slightly undulating at"
+" the margins upper leaf surface has a covering of very small bristly hairs. "
+"stems are square, and have opposite pairs of simple leaves. Ground ivy's "
+"stems are also covered in fine bristly hairs."
+msgstr ""
+
+# Species-description:
+msgid ""
+"Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, "
+"deeply 3-5 lobed, leaflets coarsely toothed. Flowerheads pink or purplish 2 "
+"to 5 mm in dense rather flat topped clusters, florets all tubular."
+msgstr ""
+
+# Species-description:
+msgid ""
+"Erect, pale or yellow-green, shoots typically 2–3 cm long. Stem leaves "
+"strongly curved away from the stem, often at right angles to it, giving the "
+"shoots a star-like appearance when seen from above."
+msgstr ""
+
+# Species-description:
+msgid ""
+"Has oval, pointed leaves that are yellowy-green in colour. Purple flowers, "
+"with protruding yellow stamens, bright red, cherry tomato-like berries that "
+"hang in clusters."
+msgstr ""
+
+# Species-description:
+msgid ""
+"Forms green, yellow-green or occasionally orange-brown patches. Shoots are "
+"commonly 3 to 8 cm long, often red towards the base. Main stem usually "
+"erect, side branches pinnately arranged, whole shoot having a flattened "
+"appearance. Leaves closely rolled-up to form a smooth needle-like or spear-"
+"like point. Stem leaves are usually 2 to 2.5 mm long, narrowly egg-shaped, "
+"never curved, bluntly rounded at the tip."
+msgstr ""
 
 # Species-description: distribution
 msgid ""
@@ -2706,6 +2763,45 @@ msgstr ""
 msgid "Found in open grassland"
 msgstr "I'w gael mewn glaswelltir agored"
 
+# Species-description: distribution
+msgid ""
+"Common in moist, base-rich habitats, such as marshes, mires and flushes, in "
+"grassland, and among rocks. It also occurs in relatively dry places in "
+"calcareous habitats, such as chalk and limestone grassland"
+msgstr ""
+
+# Species-description: distribution
+msgid "Damp grassland, marshes, fens and wet woodlands, and along riverbanks"
+msgstr ""
+
+# Species-description: distribution
+msgid "Woodlands, hedgerows and damp ground"
+msgstr ""
+
+# Species-description: distribution
+msgid "Grassland, wetland, towns and gardens, farmland, woodland"
+msgstr ""
+
+# Species-description: distribution
+msgid "Disturbed ground, bare and rocky areas"
+msgstr ""
+
+# Species-description: distribution
+msgid "Freshwater, farmland, woodlands, towns and gardens"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Frequent in a range of habitats, including grasslands, moorlands, exposed "
+"and disturbed soil, and the upper edges of salt marshes"
+msgstr ""
+
+# Species-description: distribution
+msgid ""
+"Slightly base-rich mires, flushes and dune slacks, sometimes over wet rocks "
+"in open places."
+msgstr ""
+
 # Restore password alert title
 msgid "We've sent an email to you"
 msgstr "Anfonwyd e-bost atoch"
@@ -2991,6 +3087,10 @@ msgid "January - June"
 msgstr "Ionawr - Mehefin"
 
 # Species-flowering
+msgid "July - August"
+msgstr ""
+
+# Species-flowering
 msgid "April - September, although May - July best"
 msgstr "Ebrill - Medi, ond ar ei orau Mai - Gorffennaf "
 
@@ -3017,6 +3117,30 @@ msgstr "Drwy'r flwyddyn (Methu canfod yr amser blodeuo)"
 # Species-flowering
 msgid "January - December"
 msgstr "Ionawr - Rhagfyr"
+
+# Species-flowering
+msgid "May and June"
+msgstr ""
+
+# Species-flowering
+msgid "March - June"
+msgstr ""
+
+# Species-flowering
+msgid "June - July"
+msgstr ""
+
+# Species-flowering
+msgid "June - August"
+msgstr ""
+
+# Species-flowering
+msgid "Usually May - August"
+msgstr ""
+
+# Species-flowering
+msgid "January - September"
+msgstr ""
 
 # Manual page information message
 msgid ""
@@ -3133,11 +3257,11 @@ msgstr "Yn byw mewn twyni asidaidd ac yn hoff o nitrogen"
 
 # Species-comments
 msgid "Health positive indicators"
-msgstr ""
+msgstr "Dangosyddion cadarnhaol ar gyfer iechyd"
 
 # Species-comments
 msgid "Health negative indicators"
-msgstr ""
+msgstr "Dangosyddion negyddol ar gyfer iechyd"
 
 # Species-comments
 msgid "Fixed dune acidic grassland positive indicators"
@@ -3205,7 +3329,7 @@ msgstr "Dangosydd cadarnhaol o laciau'r twyni"
 
 # Species-confusion
 msgid "Confusion Species"
-msgstr "Gofalwch beidio drysu gyda"
+msgstr "Rhywogaethau Tebyg"
 
 # Species-confusion
 msgid ""
@@ -3213,6 +3337,13 @@ msgid ""
 msgstr ""
 "Clychau'r gog (Hyacinthoides non-scripta), clychlysiau eraill (Campanula "
 "spp.)"
+
+# Species-confusion
+msgid ""
+"Creeping buttercup can be distinguished from the other buttercups by the "
+"spreading way it grows with runners. Yellow flowers are about 2cm across and"
+" its hairy leaves are divided into three lobes with frayed edges."
+msgstr ""
 
 # Species-confusion
 msgid "Reflexed stonecrop"
@@ -3246,7 +3377,7 @@ msgstr "Marchysgallen (Cirsium vulgare), Ysgallen y gors (Cirsium palustre)"
 
 # Species-confusion
 msgid "Dandelion species"
-msgstr "Rhywogaethau o ddant y llew"
+msgstr "Rhywogaethau dant y llew"
 
 # Species-confusion
 msgid "English stonecrop (Sedum anglicum)"
@@ -3346,7 +3477,7 @@ msgstr ""
 
 # Species-confusion
 msgid "Hybrids of mint"
-msgstr "Rhywogaethau o fintys croesryw"
+msgstr "Rhywogaethau mintys croesryw"
 
 # Species-confusion
 msgid ""
@@ -3386,7 +3517,7 @@ msgstr "Aelodau eraill o deulu'r codwarth"
 
 # Species-confusion
 msgid "Other species of Eyebright and hybrids"
-msgstr "Rhywogaethau eraill o effros ac effros croesryw"
+msgstr "Rhywogaethau effros eraill ac effros croesryw"
 
 # Species-confusion
 msgid "Birds - Foot Trefoil"
@@ -3406,12 +3537,293 @@ msgstr "Mathau eraill o hesg"
 
 # Species-confusion
 msgid "Other Agrimony spp"
-msgstr "Llysiau'r dryw"
+msgstr "Rhywogaethau Llysiau'r dryw"
 
 # Species-confusion
 msgid "Purple dead nettle; henbit dead nettle"
 msgstr "Marddanhadlen goch; Marddanhadlen goch ddeilgron"
 
 # Toast warning message
-msgid "Sorry, this site do not have any locations for this activity yet."
+msgid ""
+"Sorry, this site does not have any quadrat groups for this activity yet."
+msgstr ""
+
+# Toast warning message
+msgid "Sorry, this site does not have any transects for this activity yet."
+msgstr ""
+
+# Missing transects data message
+msgid ""
+"No survey quadrat groups currently set up for this site. Please try to "
+"refresh the list."
+msgstr ""
+
+# Missing transects data message
+msgid ""
+"No survey transects currently set up for this site. Please try to refresh "
+"the list."
+msgstr ""
+
+# Species title
+msgid "Birds Foot Trefoil"
+msgstr ""
+
+# Species title
+msgid "Biting stonecrop"
+msgstr ""
+
+# Species title
+msgid "Bog pimpernel"
+msgstr ""
+
+# Species title
+msgid "Bracken"
+msgstr ""
+
+# Species title
+msgid "Bramble"
+msgstr ""
+
+# Species title
+msgid "Buck’s horn plantain"
+msgstr ""
+
+# Species title
+msgid "Cladonia lichens"
+msgstr ""
+
+# Species title
+msgid "Cleavers"
+msgstr ""
+
+# Species title
+msgid "Cocksfoot"
+msgstr ""
+
+# Species title
+msgid "Common cat’s-ear"
+msgstr ""
+
+# Species title
+msgid "Common Nettle"
+msgstr ""
+
+# Species title
+msgid "Common ragwort"
+msgstr ""
+
+# Species title
+msgid "Common saltwort"
+msgstr ""
+
+# Species title
+msgid "Creeping buttercup"
+msgstr ""
+
+# Species title
+msgid "Creeping thistle"
+msgstr ""
+
+# Species title
+msgid "Creeping willow"
+msgstr ""
+
+# Species title
+msgid "Curled dock"
+msgstr ""
+
+# Species title
+msgid "Devil’s bit scabious"
+msgstr ""
+
+# Species title
+msgid "Dune fescue"
+msgstr ""
+
+# Species title
+msgid "Early hair-grass"
+msgstr ""
+
+# Species title
+msgid "European gorse"
+msgstr ""
+
+# Species title
+msgid "Eyebright"
+msgstr ""
+
+# Species title
+msgid "Field woodrush"
+msgstr ""
+
+# Species title
+msgid "Glaucous sedge"
+msgstr ""
+
+# Species title
+msgid "Greater plantain"
+msgstr ""
+
+# Species title
+msgid "Ground ivy"
+msgstr ""
+
+# Species title
+msgid "Hare’s foot clover"
+msgstr ""
+
+# Species title
+msgid "Harebell"
+msgstr ""
+
+# Species title
+msgid "Heath star moss"
+msgstr ""
+
+# Species title
+msgid "Hemp agrimony"
+msgstr ""
+
+# Species title
+msgid "Holly"
+msgstr ""
+
+# Species title
+msgid "Juniper haircap moss"
+msgstr ""
+
+# Species title
+msgid "Kidney vetch"
+msgstr ""
+
+# Species title
+msgid "Lady's bedstraw"
+msgstr ""
+
+# Species title
+msgid "Lesser cudweed"
+msgstr ""
+
+# Species title
+msgid "Ling"
+msgstr ""
+
+# Species title
+msgid "Marram"
+msgstr ""
+
+# Species title
+msgid "Marsh pennywort"
+msgstr ""
+
+# Species title
+msgid "Mossy stonecrop"
+msgstr ""
+
+# Species title
+msgid "Pirri-pirri burr"
+msgstr ""
+
+# Species title
+msgid "Pointed spear moss"
+msgstr ""
+
+# Species title
+msgid "Rhododendron"
+msgstr ""
+
+# Species title
+msgid "Rose species"
+msgstr ""
+
+# Species title
+msgid "Ryegrass"
+msgstr ""
+
+# Species title
+msgid "Sand sedge"
+msgstr ""
+
+# Species title
+msgid "Scots pine"
+msgstr ""
+
+# Species title
+msgid "Sea bindweed"
+msgstr ""
+
+# Species title
+msgid "Sea Buckthorn"
+msgstr ""
+
+# Species title
+msgid "Sea Holly"
+msgstr ""
+
+# Species title
+msgid "Sea rocket"
+msgstr ""
+
+# Species title
+msgid "Sea sandwort"
+msgstr ""
+
+# Species title
+msgid "Self-heal"
+msgstr ""
+
+# Species title
+msgid "Sheep’s bit"
+msgstr ""
+
+# Species title
+msgid "Silverweed"
+msgstr ""
+
+# Species title
+msgid "Sow-thistle"
+msgstr ""
+
+# Species title
+msgid "Spear thistle"
+msgstr ""
+
+# Species title
+msgid "Squirrel-tail fescue"
+msgstr ""
+
+# Species title
+msgid "Sycamore"
+msgstr ""
+
+# Species title
+msgid "Traveller's joy"
+msgstr ""
+
+# Species title
+msgid "Water Mint"
+msgstr ""
+
+# Species title
+msgid "White clover"
+msgstr ""
+
+# Species title
+msgid "Woody Nightshade"
+msgstr ""
+
+# Species title
+msgid "Yellow rattle"
+msgstr ""
+
+# Species title
+msgid "Yellow starry feather moss"
+msgstr ""
+
+# Home page button label
+msgid "None selected"
+msgstr ""
+
+# Home page button label
+msgid "Survey site"
 msgstr ""
