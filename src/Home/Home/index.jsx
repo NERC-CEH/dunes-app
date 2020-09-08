@@ -20,6 +20,10 @@ import './homePageBackground.jpg';
 function index() {
   const { name } = appModel.attrs.favouriteSite;
 
+  const sitesCustomClass = !name
+    ? 'pretty-button-empty '
+    : 'pretty-button-selected';
+
   const siteTitle = !name ? (
     <T>None selected</T>
   ) : (
@@ -67,7 +71,7 @@ function index() {
           </IonItem>
 
           <IonItem
-            className="pretty-button-custom"
+            className={sitesCustomClass}
             detail
             routerLink="/settings/sites"
           >
