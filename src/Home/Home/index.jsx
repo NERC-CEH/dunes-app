@@ -24,11 +24,7 @@ function index() {
     ? 'pretty-button-empty '
     : 'pretty-button-selected';
 
-  const siteTitle = !name ? (
-    <T>None selected</T>
-  ) : (
-    appModel.attrs.favouriteSite.name
-  );
+  const siteTitle = name || <T>None selected</T>;
 
   return (
     <Page id="home-info">
