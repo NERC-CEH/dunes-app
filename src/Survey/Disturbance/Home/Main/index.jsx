@@ -14,11 +14,11 @@ class Component extends React.Component {
   static propTypes = {
     sample: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
+    isDisabled: PropTypes.bool,
   };
 
   render() {
-    const { sample, match } = this.props;
-    const isDisabled = sample.isDisabled();
+    const { sample, match, isDisabled } = this.props;
     const site = sample.metadata.site || {};
     const { disturbance } = sample.attrs;
 

@@ -90,7 +90,7 @@ class Controller extends React.Component {
     return (
       <Page id={`survey-${survey.name}-edit`}>
         <Header title={survey.label} rightSlot={uploadButton} />
-        <Main {...this.props} />
+        <Main {...this.props} isDisabled={isDisabled} />
         <Footer sample={sample} />
       </Page>
     );
