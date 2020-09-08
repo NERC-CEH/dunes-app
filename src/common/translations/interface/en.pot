@@ -2524,3 +2524,10 @@ msgstr "Yellow rattle"
 msgid "Yellow starry feather moss"
 msgstr "Yellow starry feather moss"
 
+# Home page button label 
+msgid "None selected"
+msgstr "None selected"
+
+# Home page button label 
+msgid "Survey site"
+msgstr "Survey site"

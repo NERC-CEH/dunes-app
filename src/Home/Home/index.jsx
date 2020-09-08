@@ -1,4 +1,5 @@
 import React from 'react';
+import appModel from 'appModel';
 import {
   IonHeader,
   IonToolbar,
@@ -17,6 +18,14 @@ import './appLogo.png';
 import './homePageBackground.jpg';
 
 function index() {
+  const { name } = appModel.attrs.favouriteSite;
+
+  const siteTitle = !name ? (
+    <T>None selected</T>
+  ) : (
+    appModel.attrs.favouriteSite.name
+  );
+
   return (
     <Page id="home-info">
       <IonHeader className="ion-no-border">
@@ -54,6 +63,16 @@ function index() {
           <IonItem className="pretty-button" detail routerLink="/info/manual">
             <IonLabel>
               <T>Activities you can do</T>
+            </IonLabel>
+          </IonItem>
+
+          <IonItem
+            className="pretty-button-custom"
+            detail
+            routerLink="/settings/sites"
+          >
+            <IonLabel>
+              <T>Survey site</T>: {siteTitle}
             </IonLabel>
           </IonItem>
 

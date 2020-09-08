@@ -25,7 +25,7 @@
   }
 
   .slide-header {
-    height: 68%;
+    height: 64%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -73,7 +73,7 @@
     margin-bottom: 10px;
 
     .info-text {
-      width: 88%;
+      width: 91%;
       text-align: center;
       margin-top: 55px;
       --background: none;
@@ -84,7 +84,8 @@
     }
     ion-label {
       font-size: 0.9em;
-      padding: 4px;
+      padding: 4px 0px;
+      margin: 0;
     }
   }
 
