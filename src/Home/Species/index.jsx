@@ -38,7 +38,7 @@ class Species extends Component {
       return null;
     }
 
-    const name = commonName || scientificName;
+    const name = commonName ? <T>{commonName}</T> : scientificName;
 
     return (
       <IonCol

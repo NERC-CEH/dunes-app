@@ -127,7 +127,9 @@ class Component extends React.Component {
 
           <IonCardHeader>
             {species.commonName && (
-              <IonCardTitle>{species.commonName}</IonCardTitle>
+              <IonCardTitle>
+                <T>{species.commonName}</T>
+              </IonCardTitle>
             )}
             <IonCardSubtitle>{species.scientificName}</IonCardSubtitle>
           </IonCardHeader>

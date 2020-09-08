@@ -2266,3 +2266,261 @@ msgstr "No survey quadrat groups currently set up for this site. Please try to r
 # Missing transects data message 
 msgid "No survey transects currently set up for this site. Please try to refresh the list."
 msgstr "No survey transects currently set up for this site. Please try to refresh the list."
+
+
+# Species title
+msgid "Birds Foot Trefoil"
+msgstr "Birds Foot Trefoil"
+
+# Species title
+msgid "Biting stonecrop"
+msgstr "Biting stonecrop"
+
+# Species title
+msgid "Bog pimpernel"
+msgstr "Bog pimpernel"
+
+# Species title
+msgid "Bracken"
+msgstr "Bracken"
+
+# Species title
+msgid "Bramble"
+msgstr "Bramble"
+
+# Species title
+msgid "Buck’s horn plantain"
+msgstr "Buck’s horn plantain"
+
+# Species title
+msgid "Cladonia lichens"
+msgstr "Cladonia lichens"
+
+# Species title
+msgid "Cleavers"
+msgstr "Cleavers"
+
+# Species title
+msgid "Cocksfoot"
+msgstr "Cocksfoot"
+
+# Species title
+msgid "Common cat’s-ear"
+msgstr "Common cat’s-ear"
+
+# Species title
+msgid "Common Nettle"
+msgstr "Common Nettle"
+
+# Species title
+msgid "Common ragwort"
+msgstr "Common ragwort"
+
+# Species title
+msgid "Common saltwort"
+msgstr "Common saltwort"
+
+# Species title
+msgid "Creeping buttercup"
+msgstr "Creeping buttercup"
+
+# Species title
+msgid "Creeping thistle"
+msgstr "Creeping thistle"
+
+# Species title
+msgid "Creeping willow"
+msgstr "Creeping willow"
+
+# Species title
+msgid "Curled dock"
+msgstr "Curled dock"
+
+# Species title
+msgid "Devil’s bit scabious"
+msgstr "Devil’s bit scabious"
+
+# Species title
+msgid "Dune fescue"
+msgstr "Dune fescue"
+
+# Species title
+msgid "Early hair-grass"
+msgstr "Early hair-grass"
+
+# Species title
+msgid "European gorse"
+msgstr "European gorse"
+
+# Species title
+msgid "Eyebright"
+msgstr "Eyebright"
+
+# Species title
+msgid "Field woodrush"
+msgstr "Field woodrush"
+
+# Species title
+msgid "Glaucous sedge"
+msgstr "Glaucous sedge"
+
+# Species title
+msgid "Greater plantain"
+msgstr "Greater plantain"
+
+# Species title
+msgid "Ground ivy"
+msgstr "Ground ivy"
+
+# Species title
+msgid "Hare’s foot clover"
+msgstr "Hare’s foot clover"
+
+# Species title
+msgid "Harebell"
+msgstr "Harebell"
+
+# Species title
+msgid "Heath star moss"
+msgstr "Heath star moss"
+
+# Species title
+msgid "Hemp agrimony"
+msgstr "Hemp agrimony"
+
+# Species title
+msgid "Holly"
+msgstr "Holly"
+
+# Species title
+msgid "Juniper haircap moss"
+msgstr "Juniper haircap moss"
+
+# Species title
+msgid "Kidney vetch"
+msgstr "Kidney vetch"
+
+# Species title
+msgid "Lady's bedstraw"
+msgstr "Lady's bedstraw"
+
+# Species title
+msgid "Lesser cudweed"
+msgstr "Lesser cudweed"
+
+# Species title
+msgid "Ling"
+msgstr "Ling"
+
+# Species title
+msgid "Marram"
+msgstr "Marram"
+
+# Species title
+msgid "Marsh pennywort"
+msgstr "Marsh pennywort"
+
+# Species title
+msgid "Mossy stonecrop"
+msgstr "Mossy stonecrop"
+
+# Species title
+msgid "Pirri-pirri burr"
+msgstr "Pirri-pirri burr"
+
+# Species title
+msgid "Pointed spear moss"
+msgstr "Pointed spear moss"
+
+# Species title
+msgid "Rhododendron"
+msgstr "Rhododendron"
+
+# Species title
+msgid "Rose species"
+msgstr "Rose species"
+
+# Species title
+msgid "Ryegrass"
+msgstr "Ryegrass"
+
+# Species title
+msgid "Sand sedge"
+msgstr "Sand sedge"
+
+# Species title
+msgid "Scots pine"
+msgstr "Scots pine"
+
+# Species title
+msgid "Sea bindweed"
+msgstr "Sea bindweed"
+
+# Species title
+msgid "Sea Buckthorn"
+msgstr "Sea Buckthorn"
+
+# Species title
+msgid "Sea Holly"
+msgstr "Sea Holly"
+
+# Species title
+msgid "Sea rocket"
+msgstr "Sea rocket"
+
+# Species title
+msgid "Sea sandwort"
+msgstr "Sea sandwort"
+
+# Species title
+msgid "Self-heal"
+msgstr "Self-heal"
+
+# Species title
+msgid "Sheep’s bit"
+msgstr "Sheep’s bit"
+
+# Species title
+msgid "Silverweed"
+msgstr "Silverweed"
+
+# Species title
+msgid "Sow-thistle"
+msgstr "Sow-thistle"
+
+# Species title
+msgid "Spear thistle"
+msgstr "Spear thistle"
+
+# Species title
+msgid "Squirrel-tail fescue"
+msgstr "Squirrel-tail fescue"
+
+# Species title
+msgid "Sycamore"
+msgstr "Sycamore"
+
+# Species title
+msgid "Traveller's joy"
+msgstr "Traveller's joy"
+
+# Species title
+msgid "Water Mint"
+msgstr "Water Mint"
+
+# Species title
+msgid "White clover"
+msgstr "White clover"
+
+# Species title
+msgid "Woody Nightshade"
+msgstr "Woody Nightshade"
+
+# Species title
+msgid "Yellow rattle"
+msgstr "Yellow rattle"
+
+# Species title
+msgid "Yellow starry feather moss"
+msgstr "Yellow starry feather moss"
+

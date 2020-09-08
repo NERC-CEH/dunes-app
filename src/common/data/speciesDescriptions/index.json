@@ -272,7 +272,7 @@
     "photoWidth": 1024,
     "photoHeight": [
       576,
-      768
+      683
     ],
     "photoAuthor": [
       " Dr Steven Heathcote"
@@ -563,7 +563,7 @@
     "description": "Distinctive plantain with pinnate leaves growing in a rosette at the base, somewhat resembling antlers. Flower spikes yellow-brown with protruding anthers.",
     "distribution": "Dry, bare, sandy places, particularly frequently disturbed areas like edges of paths",
     "flowering": "May - July",
-    "confusion": "Nothing. Other plantains at a push",
+    "confusion": "N/A",
     "comments": "Fixed dune acidic grassland positive indicators",
     "photoWidth": 1024,
     "photoHeight": [
@@ -930,7 +930,7 @@
   {
     "id": 48,
     "sortId": 12,
-    "commonName": "Common ragwort ",
+    "commonName": "Common ragwort",
     "scientificName": "Senecio jacobaea",
     "description": "A relatively tall-growing plant that has clusters of yellow, flattened flower heads, and leaves that are very divided.",
     "distribution": "Abundant",
@@ -950,7 +950,7 @@
   {
     "id": 49,
     "sortId": 11,
-    "commonName": "Common Nettle ",
+    "commonName": "Common Nettle",
     "scientificName": "Urtica dioica",
     "description": "A herbaceous perennial flowering plant. 1 to 2 m (3 to 7 ft) tall in the summer and dying down to the ground in winter. Soft green leaves with strongly serrated margins and small, greenish or brownish flowers.",
     "distribution": "Abundant",
@@ -966,7 +966,7 @@
   {
     "id": 50,
     "sortId": 1,
-    "commonName": "Birds Foot Trefoil ",
+    "commonName": "Birds Foot Trefoil",
     "scientificName": "Lotus corniculatus",
     "description": "A member of the pea family. Yellow flowers that appear in small clusters. They are followed by seed pods that look distinctly like bird's feet or claws, hence the common name. A low-growing plant, its leaves have five leaflets and are downy.",
     "distribution": "Grassland, heathland, moorland, sand dunes, rocky habitat, coastal, towns and gardens",
@@ -1005,7 +1005,7 @@
   {
     "id": 52,
     "sortId": 48,
-    "commonName": "Sea Buckthorn ",
+    "commonName": "Sea Buckthorn",
     "scientificName": "Hippophae rhamnoides",
     "description": "A large, deciduous shrub that has long, narrow, greyish leaves and small, green flowers. It has bright orange berries.",
     "distribution": "Coastal, sand dunes",
@@ -1025,7 +1025,7 @@
   {
     "id": 53,
     "sortId": 14,
-    "commonName": "Creeping buttercup ",
+    "commonName": "Creeping buttercup",
     "scientificName": "Ranunculus repens",
     "description": "Creeping buttercup can be distinguished from the other buttercups by the spreading way it grows with runners. Yellow flowers are about 2cm across and its hairy leaves are divided into three lobes with frayed edges.",
     "distribution": "Grassland, wetland, towns and gardens, farmland, woodland",
@@ -1045,7 +1045,7 @@
   {
     "id": 54,
     "sortId": 62,
-    "commonName": "Woody Nightshade ",
+    "commonName": "Woody Nightshade",
     "scientificName": "Solanum dulcamara",
     "description": "Has oval, pointed leaves that are yellowy-green in colour. Purple flowers, with protruding yellow stamens, bright red, cherry tomato-like berries that hang in clusters.",
     "distribution": "Freshwater, farmland, woodlands, towns and gardens",
@@ -1065,7 +1065,7 @@
   {
     "id": 55,
     "sortId": 34,
-    "commonName": "Lady's bedstraw ",
+    "commonName": "Lady's bedstraw",
     "scientificName": "Galium verum",
     "description": "Small, narrow leaves that appear in whorls on its angular stems. The stems carry frothy heads of tiny, yellow flowers that appear in dense clusters. ",
     "distribution": "Grassland, heathland and moorland, farmland, coastal, towns and gardens",
@@ -1105,7 +1105,7 @@
   {
     "id": 57,
     "sortId": 63,
-    "commonName": "Yellow rattle ",
+    "commonName": "Yellow rattle",
     "scientificName": "Rhinanthus minor",
     "description": "Has yellow, tube-like flowers protruding from an inflated, green calyx. It has serrated leaves with heavy, dark veins, which sprout opposite each other all the way up the stem. Its stems have black spots.",
     "distribution": "Grassland, farmland",
@@ -1145,7 +1145,7 @@
   {
     "id": 59,
     "sortId": 59,
-    "commonName": "Traveller's joy ",
+    "commonName": "Traveller's joy",
     "scientificName": "Clematis vitalba",
     "description": "Leaves: pinnately compound, with three to five leaflets which are elliptical in shape with rough toothed margins. Leaves grow in an opposite leaf arrangement.  Flowers: white in colour, the various stamens are clearly visible and the flowers are in clusters. The flowers are around two centimetres in width. Although they appear to have four petals, they are in fact sepals. Seed clusters which have a feathered appearance and are white-grey in colour. They are called achenes. It is the fruit which gives the plant its other name: 'old man’s beard'.",
     "distribution": "Hedgerow",
