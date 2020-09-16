@@ -1240,7 +1240,7 @@ msgstr "Arall"
 
 # Survey name
 msgid "Disturbance / Other"
-msgstr ""
+msgstr "Tarfiad / Arall"
 
 # Loading dialog when pulling location data
 msgid "Downloading images."
@@ -3451,7 +3451,11 @@ msgstr "Rhywogaethau peradyl (Leontodon spp.) a dant y llew (Taraxacum spp.)"
 
 # Species-confusion
 msgid "Bristly haircap (Polytrichum piliferum)"
-msgstr ""
+msgstr "Gwalltfwsogl gwrychog (Polytrichum piliferum)"
+
+# Species-confusion
+msgid "Dune"
+msgstr "Twyn"
 
 # Species-confusion
 msgid "Field maple (Acer campestre), Norway maple (Acer platanoides)"
@@ -3463,7 +3467,7 @@ msgstr "Rhywogaethau pinwydd eraill"
 
 # Species-confusion
 msgid "Other star mosses"
-msgstr ""
+msgstr "Alarchfwsoglau eraill"
 
 # Species-confusion
 msgid "Nothing. Other plantains at a push"
@@ -3567,7 +3571,7 @@ msgstr "Mafon gwyllt"
 
 # Species-confusion
 msgid "Other spear mosses"
-msgstr ""
+msgstr "Gwernfwsoglau eraill"
 
 # Species-confusion
 msgid "Other sedges"
@@ -3724,7 +3728,7 @@ msgstr "Clychau'r eos"
 
 # Species title
 msgid "Heath star moss"
-msgstr ""
+msgstr "Alarchfwsogl serennog"
 
 # Species title
 msgid "Hemp agrimony"
@@ -3736,7 +3740,7 @@ msgstr "Celynnen"
 
 # Species title
 msgid "Juniper haircap moss"
-msgstr ""
+msgstr "Gwalltfwsogl y ferywen"
 
 # Species title
 msgid "Kidney vetch"
@@ -3772,7 +3776,7 @@ msgstr ""
 
 # Species title
 msgid "Pointed spear moss"
-msgstr ""
+msgstr "Gwernfwsogl pen picell"
 
 # Species title
 msgid "Rhododendron"
@@ -3864,12 +3868,12 @@ msgstr "Cribell felen"
 
 # Species title
 msgid "Yellow starry feather moss"
-msgstr ""
+msgstr "Serenfwsogl cyffredin"
 
 # Home page button label
 msgid "None selected"
-msgstr ""
+msgstr "Heb ei nodi"
 
 # Home page button label
 msgid "Survey site"
-msgstr ""
+msgstr "Safle'r arolwg"
