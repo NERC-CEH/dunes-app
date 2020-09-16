@@ -1239,8 +1239,8 @@ msgid "Other"
 msgstr "Arall"
 
 # Survey name
-msgid "Record Disturbance"
-msgstr "Cofnodi Tarfiad"
+msgid "Disturbance / Other"
+msgstr ""
 
 # Loading dialog when pulling location data
 msgid "Downloading images."
@@ -2087,6 +2087,10 @@ msgid ""
 "leaves. Leaves red towards the base of stems, turning to green towards the "
 "tips. White flowers, usually with 3 petals, occasionally 4"
 msgstr ""
+"Planhigyn isel ymgripiol tebyg i fwsogl a chanddo barau o ddail tew fel "
+"pibelli yn tyfu gyferbyn â'i gilydd. Mae'r dail yn goch tua gwaelod y "
+"coesynnau, ac yn troi'n wyrdd tua'r pennau. Blodau gwyn, a chanddynt 3 "
+"phetal fel arfer, weithiau 4."
 
 # Species-description:
 msgid ""
@@ -2095,6 +2099,10 @@ msgid ""
 "are followed by reddish black seeds. Bluish-grey blush found on the "
 "underside of the leaves."
 msgstr ""
+"Planhigyn lluosflwydd ymgripiol tua 10 i 40cm o uchder. Mae ganddo un sbigyn"
+" o flodau benywaidd a dau sbigyn gwrywaidd yn is i lawr y coesyn. Mae'r "
+"blodau porffor-frown yn troi yn hadau du cochaidd. Gwawr lwydlas ar ochr "
+"isaf y dail."
 
 # Species-description:
 msgid ""
@@ -2106,6 +2114,14 @@ msgid ""
 "stems are square, and have opposite pairs of simple leaves. Ground ivy's "
 "stems are also covered in fine bristly hairs."
 msgstr ""
+"Planhigyn lluosflwydd. Yn aelod o deulu'r farddanhadlen, nid yw'n perthyn yn"
+" agos i eiddew. Mae'n blanhigyn bythwyrdd ymgripiol, sy'n ymledu drwy ei "
+"ymledyddion uwchddaearol sy'n gwreiddio'n aml. Mae arogl cryf arno, ac mae'r"
+" blodau'n fioled eu lliw. Mae'r dail gwyrdd tywyll ar ffurf aren, a'u "
+"hymylon fel sgolop ar y cyfan ac ychydig yn donnog. Mae blew garw bychain "
+"iawn dros arwyneb uchaf y ddeilen. Mae'r coesynnau'n sgwâr, a'r dail syml yn"
+" tyfu mewn parau gyferbyn â'i gilydd ar eu hyd. Mae coesynnau'r eidral hefyd"
+" wedi'u gorchuddio â blew mân garw."
 
 # Species-description:
 msgid ""
@@ -2113,6 +2129,10 @@ msgid ""
 "deeply 3-5 lobed, leaflets coarsely toothed. Flowerheads pink or purplish 2 "
 "to 5 mm in dense rather flat topped clusters, florets all tubular."
 msgstr ""
+"Planhigyn blewog canolig i dal. Mae'r coesyn yn dalsyth ac yn aml yn "
+"gochaidd. Mae'r dail yn tyfu gyferbyn â'i gilydd, â 3-5 o labedau dyfnion, "
+"a'r deilios â dannedd bras. Fflurbennau pinc neu borffor, rhwng 2 a 5 mm o "
+"led mewn clystyrau dwys cymharol fflat. Yr holl flodigion fel pibelli."
 
 # Species-description:
 msgid ""
@@ -2120,6 +2140,9 @@ msgid ""
 "strongly curved away from the stem, often at right angles to it, giving the "
 "shoots a star-like appearance when seen from above."
 msgstr ""
+"Coesynnau talsyth golau neu felynwyrdd, 2–3 cm o hyd fel arfer. Mae dail y "
+"coesynnau'n troi'n amlwg oddi wrth y coesyn, yn aml ar ongl sgwâr iddo, sy'n"
+" gwneud i'r coesyn edrych yn debyg i seren o edrych i lawr arno."
 
 # Species-description:
 msgid ""
@@ -2127,6 +2150,9 @@ msgid ""
 "with protruding yellow stamens, bright red, cherry tomato-like berries that "
 "hang in clusters."
 msgstr ""
+"Dail hirgrwn, pigfain, melynwyrdd eu lliw. Blodau porffor a chanddynt "
+"frigerau melyn amlwg, ac aeron mawr coch llachar fel tomatos bychain yn "
+"hongian mewn clystyrau."
 
 # Species-description:
 msgid ""
@@ -2137,6 +2163,12 @@ msgid ""
 "like point. Stem leaves are usually 2 to 2.5 mm long, narrowly egg-shaped, "
 "never curved, bluntly rounded at the tip."
 msgstr ""
+"Yn ffurfio llecynnau gwyrdd, melynwyrdd neu weithiau orenfrown. Y coesynnau "
+"fel arfer rhwng 3 ac 8cm o hyd, ac yn aml yn goch tua'r gwaelod. Y prif "
+"goesyn fel arfer yn dalsyth, a'r canghennau ochr yn asgellog, a'r coesyn "
+"cyfan yn ymddangos yn fflat. Y dail wedi'u rholio'n dynn i greu pigyn llyfn "
+"fel nodwydd neu wayw. Mae dail y coesyn fel arfer rhwng 2 a 2.5mm o hyd, yn "
+"siâp wy cul, heb fod ar dro, a'u pennau'n grwm."
 
 # Species-description: distribution
 msgid ""
@@ -2768,39 +2800,45 @@ msgid ""
 "Common in moist, base-rich habitats, such as marshes, mires and flushes, in "
 "grassland, and among rocks. It also occurs in relatively dry places in "
 "calcareous habitats, such as chalk and limestone grassland"
-msgstr ""
+msgstr "Yn gyffredin mewn cynefinoedd llaith basig fel"
 
 # Species-description: distribution
 msgid "Damp grassland, marshes, fens and wet woodlands, and along riverbanks"
 msgstr ""
+"Glaswelltir llaith, corsydd, mignedd a choetiroedd gwlyb, ac ar lannau "
+"afonydd"
 
 # Species-description: distribution
 msgid "Woodlands, hedgerows and damp ground"
-msgstr ""
+msgstr "Coetiroedd, gwrychoedd a thir llaith"
 
 # Species-description: distribution
 msgid "Grassland, wetland, towns and gardens, farmland, woodland"
-msgstr ""
+msgstr "Glaswelltir, gwlypdir, trefi a gerddi, tir ffermio, coetir"
 
 # Species-description: distribution
 msgid "Disturbed ground, bare and rocky areas"
-msgstr ""
+msgstr "Tir wedi'i darfu, mannau noeth a chreigiog"
 
 # Species-description: distribution
 msgid "Freshwater, farmland, woodlands, towns and gardens"
-msgstr ""
+msgstr "Dŵr croyw, tir ffermio, coetiroedd, trefi a gerddi"
 
 # Species-description: distribution
 msgid ""
 "Frequent in a range of habitats, including grasslands, moorlands, exposed "
 "and disturbed soil, and the upper edges of salt marshes"
 msgstr ""
+"Fe'i ceir yn aml mewn amrywiaeth o gynefinoedd, yn cynnwys glaswelltiroedd, "
+"corsydd, tir wedi'i darfu ac agored, ac ymylon uchaf morfeydd"
 
 # Species-description: distribution
 msgid ""
 "Slightly base-rich mires, flushes and dune slacks, sometimes over wet rocks "
 "in open places."
 msgstr ""
+"Corsydd, llifolchdir a llaciau twyni, weithiau dros greigiau gwlyb mewn "
+"mannau agored."
 
 # Restore password alert title
 msgid "We've sent an email to you"
@@ -3088,7 +3126,7 @@ msgstr "Ionawr - Mehefin"
 
 # Species-flowering
 msgid "July - August"
-msgstr ""
+msgstr "Gorffennaf - Awst"
 
 # Species-flowering
 msgid "April - September, although May - July best"
@@ -3120,27 +3158,27 @@ msgstr "Ionawr - Rhagfyr"
 
 # Species-flowering
 msgid "May and June"
-msgstr ""
+msgstr "Mai a Mehefin"
 
 # Species-flowering
 msgid "March - June"
-msgstr ""
+msgstr "Mawrth - Mehefin"
 
 # Species-flowering
 msgid "June - July"
-msgstr ""
+msgstr "Mehefin - Gorffennaf"
 
 # Species-flowering
 msgid "June - August"
-msgstr ""
+msgstr "Mehefin - Awst"
 
 # Species-flowering
 msgid "Usually May - August"
-msgstr ""
+msgstr "Fel arfer Mai - Awst"
 
 # Species-flowering
 msgid "January - September"
-msgstr ""
+msgstr "Ionawr - Medi"
 
 # Manual page information message
 msgid ""
@@ -3344,6 +3382,10 @@ msgid ""
 "spreading way it grows with runners. Yellow flowers are about 2cm across and"
 " its hairy leaves are divided into three lobes with frayed edges."
 msgstr ""
+"Gellir gwahaniaethu rhwng y blodyn-ymenyn ymlusgol a blodau-ymenyn eraill "
+"wrth y ffordd y mae'n ymgripio gan ddefnyddio ymledyddion. Mae'r blodau "
+"melyn tua 2cm ar draws, ac mae'r dail blewog wedi'u rhannu'n dair llabed "
+"fratiog."
 
 # Species-confusion
 msgid "Reflexed stonecrop"
@@ -3409,10 +3451,6 @@ msgstr "Rhywogaethau peradyl (Leontodon spp.) a dant y llew (Taraxacum spp.)"
 
 # Species-confusion
 msgid "Bristly haircap (Polytrichum piliferum)"
-msgstr ""
-
-# Species-confusion
-msgid "Dune"
 msgstr ""
 
 # Species-confusion
@@ -3547,134 +3585,142 @@ msgstr "Marddanhadlen goch; Marddanhadlen goch ddeilgron"
 msgid ""
 "Sorry, this site does not have any quadrat groups for this activity yet."
 msgstr ""
+"Yn anffodus, nid oes gan y safle hwn unrhyw grwpiau cwadrad ar gyfer y "
+"gweithgaredd hwn eto."
 
 # Toast warning message
 msgid "Sorry, this site does not have any transects for this activity yet."
 msgstr ""
+"Yn anffodus, nid oes gan y safle hwn unrhyw drawsluniau ar gyfer y "
+"gweithgaredd hwn eto."
 
 # Missing transects data message
 msgid ""
 "No survey quadrat groups currently set up for this site. Please try to "
 "refresh the list."
 msgstr ""
+"Dim grwpiau cwadrad arolwg wedi'u sefydlu ar gyfer y safle hwn eto. Ceisiwch"
+" adnewyddu'r rhestr."
 
 # Missing transects data message
 msgid ""
 "No survey transects currently set up for this site. Please try to refresh "
 "the list."
 msgstr ""
+"Dim trawsluniau arolwg wedi'u sefydlu ar gyfer y safle hwn eto. Ceisiwch "
+"adnewyddu'r rhestr."
 
 # Species title
 msgid "Birds Foot Trefoil"
-msgstr ""
+msgstr "Pys-y-ceirw"
 
 # Species title
 msgid "Biting stonecrop"
-msgstr ""
+msgstr "Briweg boeth"
 
 # Species title
 msgid "Bog pimpernel"
-msgstr ""
+msgstr "Gwlyddyn-Mair y gors"
 
 # Species title
 msgid "Bracken"
-msgstr ""
+msgstr "Rhedyn ungoes"
 
 # Species title
 msgid "Bramble"
-msgstr ""
+msgstr "Llwyn mwyar duon"
 
 # Species title
 msgid "Buck’s horn plantain"
-msgstr ""
+msgstr "Llyriad corn carw"
 
 # Species title
 msgid "Cladonia lichens"
-msgstr ""
+msgstr "Cennau Cladonia"
 
 # Species title
 msgid "Cleavers"
-msgstr ""
+msgstr "Llau'r offeiriad"
 
 # Species title
 msgid "Cocksfoot"
-msgstr ""
+msgstr "Troed y ceiliog"
 
 # Species title
 msgid "Common cat’s-ear"
-msgstr ""
+msgstr "Melynydd"
 
 # Species title
 msgid "Common Nettle"
-msgstr ""
+msgstr "Danadl poethion"
 
 # Species title
 msgid "Common ragwort"
-msgstr ""
+msgstr "Llysiau'r gingroen"
 
 # Species title
 msgid "Common saltwort"
-msgstr ""
+msgstr "Helys pigog"
 
 # Species title
 msgid "Creeping buttercup"
-msgstr ""
+msgstr "Blodyn-ymenyn ymlusgol"
 
 # Species title
 msgid "Creeping thistle"
-msgstr ""
+msgstr "Ysgallen y maes"
 
 # Species title
 msgid "Creeping willow"
-msgstr ""
+msgstr "Corhelygen"
 
 # Species title
 msgid "Curled dock"
-msgstr ""
+msgstr "Tafolen grech"
 
 # Species title
 msgid "Devil’s bit scabious"
-msgstr ""
+msgstr "Tamaid y cythraul"
 
 # Species title
 msgid "Dune fescue"
-msgstr ""
+msgstr "Peisgwellt y twyni"
 
 # Species title
 msgid "Early hair-grass"
-msgstr ""
+msgstr "Brigwellt y gwanwyn"
 
 # Species title
 msgid "European gorse"
-msgstr ""
+msgstr "Eithinen Ffrengig"
 
 # Species title
 msgid "Eyebright"
-msgstr ""
+msgstr "Effros blodau mawr"
 
 # Species title
 msgid "Field woodrush"
-msgstr ""
+msgstr "Milfyw"
 
 # Species title
 msgid "Glaucous sedge"
-msgstr ""
+msgstr "Hesg llwydlas y calch"
 
 # Species title
 msgid "Greater plantain"
-msgstr ""
+msgstr "Llydan y ffordd"
 
 # Species title
 msgid "Ground ivy"
-msgstr ""
+msgstr "Eidral"
 
 # Species title
 msgid "Hare’s foot clover"
-msgstr ""
+msgstr "Meillionen gedenog"
 
 # Species title
 msgid "Harebell"
-msgstr ""
+msgstr "Clychau'r eos"
 
 # Species title
 msgid "Heath star moss"
@@ -3682,11 +3728,11 @@ msgstr ""
 
 # Species title
 msgid "Hemp agrimony"
-msgstr ""
+msgstr "Byddon chwerw"
 
 # Species title
 msgid "Holly"
-msgstr ""
+msgstr "Celynnen"
 
 # Species title
 msgid "Juniper haircap moss"
@@ -3694,31 +3740,31 @@ msgstr ""
 
 # Species title
 msgid "Kidney vetch"
-msgstr ""
+msgstr "Plucen felen"
 
 # Species title
 msgid "Lady's bedstraw"
-msgstr ""
+msgstr "Briwydd felen"
 
 # Species title
 msgid "Lesser cudweed"
-msgstr ""
+msgstr "Edafeddog bach"
 
 # Species title
 msgid "Ling"
-msgstr ""
+msgstr "Grug cyffredin"
 
 # Species title
 msgid "Marram"
-msgstr ""
+msgstr "Moresg"
 
 # Species title
 msgid "Marsh pennywort"
-msgstr ""
+msgstr "Dail-ceiniog y gors"
 
 # Species title
 msgid "Mossy stonecrop"
-msgstr ""
+msgstr "Corchwyn mwsoglog"
 
 # Species title
 msgid "Pirri-pirri burr"
@@ -3730,91 +3776,91 @@ msgstr ""
 
 # Species title
 msgid "Rhododendron"
-msgstr ""
+msgstr "Rhododendron wyllt"
 
 # Species title
 msgid "Rose species"
-msgstr ""
+msgstr "Rhywogaethau rhosod"
 
 # Species title
 msgid "Ryegrass"
-msgstr ""
+msgstr "Rhygwellt parhaol"
 
 # Species title
 msgid "Sand sedge"
-msgstr ""
+msgstr "Hesg y tywod"
 
 # Species title
 msgid "Scots pine"
-msgstr ""
+msgstr "Pinwydden yr Alban"
 
 # Species title
 msgid "Sea bindweed"
-msgstr ""
+msgstr "Taglys arfor"
 
 # Species title
 msgid "Sea Buckthorn"
-msgstr ""
+msgstr "Rhafnwydden y môr"
 
 # Species title
 msgid "Sea Holly"
-msgstr ""
+msgstr "Celynnen y môr"
 
 # Species title
 msgid "Sea rocket"
-msgstr ""
+msgstr "Hegydd arfor"
 
 # Species title
 msgid "Sea sandwort"
-msgstr ""
+msgstr "Tywodlys arfor"
 
 # Species title
 msgid "Self-heal"
-msgstr ""
+msgstr "Y feddyges las"
 
 # Species title
 msgid "Sheep’s bit"
-msgstr ""
+msgstr "Clefryn"
 
 # Species title
 msgid "Silverweed"
-msgstr ""
+msgstr "Dail arian"
 
 # Species title
 msgid "Sow-thistle"
-msgstr ""
+msgstr "Llaethysgallen"
 
 # Species title
 msgid "Spear thistle"
-msgstr ""
+msgstr "Marchysgallen"
 
 # Species title
 msgid "Squirrel-tail fescue"
-msgstr ""
+msgstr "Peisgwellt cynffon gwiwer"
 
 # Species title
 msgid "Sycamore"
-msgstr ""
+msgstr "Masarnen"
 
 # Species title
 msgid "Traveller's joy"
-msgstr ""
+msgstr "Barf yr hen ŵr"
 
 # Species title
 msgid "Water Mint"
-msgstr ""
+msgstr "Mintys y dŵr"
 
 # Species title
 msgid "White clover"
-msgstr ""
+msgstr "Meillionen wen"
 
 # Species title
 msgid "Woody Nightshade"
-msgstr ""
+msgstr "Elinog"
 
 # Species title
 msgid "Yellow rattle"
-msgstr ""
+msgstr "Cribell felen"
 
 # Species title
 msgid "Yellow starry feather moss"
