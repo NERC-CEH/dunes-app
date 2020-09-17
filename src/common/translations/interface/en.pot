@@ -1734,7 +1734,7 @@ msgstr "Found in open grassland"
 
 # Species-description: distribution
 msgid "Common in moist, base-rich habitats, such as marshes, mires and flushes, in grassland, and among rocks. It also occurs in relatively dry places in calcareous habitats, such as chalk and limestone grassland"
-msgstr "Common in moist, base-rich habitats, such as m
+msgstr "Common in moist, base-rich habitats, such as marshes, mires and flushes, in grassland, and among rocks. It also occurs in relatively dry places in calcareous habitats, such as chalk and limestone grassland"
 
 # Species-description: distribution
 msgid "Damp grassland, marshes, fens and wet woodlands, and along riverbanks"
