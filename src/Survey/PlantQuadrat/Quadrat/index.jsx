@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import i18n from 'i18next';
 import { observer } from 'mobx-react';
 import { IonButton, NavContext } from '@ionic/react';
 import { Page, Header } from '@apps';
@@ -73,6 +74,7 @@ class Controller extends React.Component {
         <Header
           title={locationLabel}
           rightSlot={this.getNextPointButton()}
+          backButtonLabel={i18n.t('Back')}
           skipTranslation
         />
         <Main

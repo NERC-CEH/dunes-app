@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import i18n from 'i18next';
 import { Page, Header } from '@apps';
 import Main from './Main';
 
@@ -17,7 +18,11 @@ export default class index extends Component {
 
     return (
       <Page id="survey-zonation-mapping-transect-point-edit">
-        <Header title={label} skipTranslation />
+        <Header
+          title={label}
+          backButtonLabel={i18n.t('Back')}
+          skipTranslation
+        />
         <Main {...this.props} isDisabled={isDisabled} />
       </Page>
     );
