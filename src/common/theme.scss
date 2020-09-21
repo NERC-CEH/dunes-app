@@ -217,3 +217,7 @@ figcaption {
     font-weight: 400;
   }
 }
+
+ion-app[lang='cy'] ion-header ion-title{
+  text-transform: none !important;
+}

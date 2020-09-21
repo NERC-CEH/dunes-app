@@ -7,6 +7,7 @@ import appModel from 'appModel';
 import userModel from 'userModel';
 import LanguageSelectRequired from 'Components/LanguageSelectRequire';
 import Menu from 'Components/Menu';
+import { observer } from 'mobx-react';
 import SplashScreenRequired from './Info/SplashScreenRequired';
 import Home from './Home';
 import Info from './Info/router';
@@ -30,7 +31,7 @@ const HomeOrTutorial = () => {
 };
 
 const App = () => (
-  <IonApp>
+  <IonApp lang={appModel.attrs.language}>
     <IonReactRouter>
       <LanguageSelectRequired appModel={appModel}>
         <SplashScreenRequired appModel={appModel}>
@@ -49,4 +50,4 @@ const App = () => (
   </IonApp>
 );
 
-export default App;
+export default observer(App);
