@@ -218,6 +218,14 @@ figcaption {
   }
 }
 
-ion-app[lang='cy'] ion-header ion-title{
+ion-app[lang='cy'] ion-header ion-title {
+  text-transform: none !important;
+}
+
+ion-app[lang='cy'] ion-col div.species-label {
+  text-transform: none !important;
+}
+
+ion-app[lang='cy'] ion-card-header ion-card-title {
   text-transform: none !important;
 }

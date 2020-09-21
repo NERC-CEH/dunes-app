@@ -9,6 +9,10 @@
     padding-bottom: 23px;
   }
 
+  ion-card-title {
+    text-transform: capitalize;
+  }
+
   .species-profile-photo {
     height: 200px;
     background-size: cover !important;
