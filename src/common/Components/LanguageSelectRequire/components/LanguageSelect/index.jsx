@@ -20,10 +20,8 @@ const LanguageSelect = observer(({ appModel }) => {
     appModel.save();
   }
 
-  const alphabetically = ([, l1], [, l2]) => l1.localeCompare(l2);
-  const languagesOptions = Object.entries(languages)
-    .sort(alphabetically)
-    .map(([value, language]) => (
+  const languagesOptions = Object.entries(languages).map(
+    ([value, language]) => (
       <IonItem
         key={value}
         onClick={() => onSelect(value)}
@@ -32,13 +30,13 @@ const LanguageSelect = observer(({ appModel }) => {
       >
         <IonLabel>{language}</IonLabel>
       </IonItem>
-    ));
+    )
+  );
 
   return (
     <Page id="language-select-required">
       <div className="header">
         <IonIcon icon={globeOutline} />
-        <h1>Select your language</h1>
       </div>
 
       <Main>
