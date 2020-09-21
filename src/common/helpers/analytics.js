@@ -47,7 +47,7 @@ export function beforeBreadcrumb(crumb) {
 /* eslint-enable no-param-reassign */
 
 function setContext() {
-  Sentry.setUser({ id: userModel.attrs.drupalID });
+  Sentry.setUser({ id: userModel.attrs.id });
   Sentry.setTag('app.records', savedSamples.length);
   Sentry.setTag('app.language', appModel.attrs.language);
   Sentry.setTag('app.useTraining', appModel.attrs.useTraining || false);
