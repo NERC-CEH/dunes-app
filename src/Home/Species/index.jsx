@@ -12,6 +12,7 @@ import {
   IonIcon,
 } from '@ionic/react';
 import { Page, Main, ModalHeader } from '@apps';
+import i18n from 'i18next';
 import { Trans as T } from 'react-i18next';
 import { informationCircleOutline } from 'ionicons/icons';
 import speciesDescription from 'common/data/speciesDescriptions';
@@ -71,9 +72,16 @@ class Species extends Component {
     this.setState({ showModal: false });
   };
 
+  bySpeciesCommonName = (sp1, sp2) => {
+    const s1 = i18n.t(sp1.commonName) || i18n.t(sp1.commonName);
+    const s2 = i18n.t(sp2.commonName) || i18n.t(sp2.commonName);
+
+    return s1.localeCompare(s2);
+  };
+
   getListGrid = () => {
     const speciesColumns = speciesDescription
-      .sort((s1, s2) => s1.sortId - s2.sortId)
+      .sort(this.bySpeciesCommonName)
       .map(this.getGridCell);
 
     return (
