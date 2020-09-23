@@ -723,7 +723,7 @@ msgstr ""
 "Crëwyd yr ap hwn gyda chariad gan <2>Flumens</2>, ymgynghorwyr technegol "
 "sy'n arbenigo mewn datblygu datrysiadau pwrpasol ym maes gwyddoniaeth "
 "amgylcheddol a chan flaenoriaethu cymunedau. Os oes awgrymiadau neu adborth "
-"gennych chi, <6>cysylltwch â ni</6>ar bob cyfrif."
+"gennych chi, <6>cysylltwch â ni</6> ar bob cyfrif."
 
 # Credits page section title
 msgid "Graphics"
@@ -858,7 +858,7 @@ msgstr "Llystyfiant ar yr Wyneb"
 
 # Plant quadrats survey section label
 msgid "Bare ground & Sand"
-msgstr "Tir a Thywod noeth"
+msgstr "Tir a Thywod Noeth"
 
 # Plant quadrats survey section label
 msgid "Moss & Lichen"
@@ -1051,7 +1051,7 @@ msgid ""
 msgstr ""
 "Drwy adnabod a chofnodi rhywogaethau o blanhigion, gallwch helpu gwyddonwyr "
 "a chadwraethwyr i warchod ac adfer cynefinoedd twyni tywod sy'n llawn "
-"amrywiaeth yng Nghymru a Lloegr, drwy ddefnyddio'r ap hwn. Mae twyni tywod "
+"amrywiaeth yng Nghymru a Lloegr, gan ddefnyddio'r ap hwn. Mae twyni tywod "
 "arfordirol yn cwmpasu ystod eang o gynefinoedd hyfryd, ac maent yn gartref i"
 " fywyd gwyllt arbennig - yn cynnwys glöynnod byw, madfallod, llyffantod a "
 "thegeirianau. Fel gwyddonydd-ddinesydd, byddwch yn helpu ymchwilwyr i gasglu"
@@ -1433,7 +1433,7 @@ msgstr ""
 "terfynol y trawslun fod tua 5 m tuag at y môr o ymyl y "
 "traethlin.</4></1></6></0>"
 
-# Zonation Mapping survey manual
+# Fixed-photography survey manual
 msgid ""
 "The aim of this survey is to develop a visual record of the sand dune system"
 " using fixed point photographs. This will allow assessments to be made of "
@@ -1445,15 +1445,15 @@ msgstr ""
 "asesiadau o sut mae morffoleg safleoedd a chyfansoddiad eu llystyfiant yn "
 "newid dros amser."
 
-# Zonation Mapping survey manual
+# Fixed-photography survey manual
 msgid "Navigating to the photography points"
 msgstr "Llywio at y pwyntiau ffotograff"
 
-# Zonation Mapping survey manual
+# Fixed-photography survey manual
 msgid "What to record"
 msgstr "Beth i'w gofnodi"
 
-# Zonation Mapping survey manual
+# Fixed-photography survey manual
 msgid ""
 "<0><0>Take a photograph at each photography point. The important thing here "
 "is to take your photograph so it matches the position of the original photo "
@@ -2115,7 +2115,7 @@ msgid ""
 "stems are also covered in fine bristly hairs."
 msgstr ""
 "Yn aelod o deulu'r farddanhadlen, nid yw'r planhigyn lluosflwydd hwn yn "
-"perthyn yn agos i eiddew, er gwaethaf yr enw Saesneg Ground ivy. Mae'n "
+"perthyn yn agos i eiddew, er gwaethaf yr enw Saesneg 'ground ivy'. Mae'n "
 "blanhigyn bythwyrdd ymgripiol, sy'n ymledu drwy ei ymledyddion uwchddaearol "
 "sy'n gwreiddio'n aml. Mae arogl cryf arno, ac mae'r blodau'n fioled eu lliw."
 " Mae'r dail gwyrdd tywyll ar ffurf aren, a'u hymylon fel arfer fel sgolop ac"
@@ -2732,7 +2732,7 @@ msgstr ""
 
 # Species-description: distribution
 msgid "Freshwater Wetlands, Towns and Gardens"
-msgstr "Gwlypdiroedd Dŵr Croyw, Trefi a Gerddi"
+msgstr "Gwlypdiroedd dŵr croyw, trefi a gerddi"
 
 # Species-description: distribution
 msgid ""
@@ -2801,7 +2801,10 @@ msgid ""
 "Common in moist, base-rich habitats, such as marshes, mires and flushes, in "
 "grassland, and among rocks. It also occurs in relatively dry places in "
 "calcareous habitats, such as chalk and limestone grassland"
-msgstr "Yn gyffredin mewn cynefinoedd llaith basig fel"
+msgstr ""
+"Yn gyffredin mewn cynefinoedd basig llaith fel corsydd a llifolchdir, mewn "
+"glaswelltir, ac ymysg creigiau. Mae hefyd i'w gael mewn llefydd gweddol sych"
+" mewn cynefinoedd calchaidd, fel glaswelltir calch a chalchfaen"
 
 # Species-description: distribution
 msgid "Damp grassland, marshes, fens and wet woodlands, and along riverbanks"
@@ -2838,8 +2841,8 @@ msgid ""
 "Slightly base-rich mires, flushes and dune slacks, sometimes over wet rocks "
 "in open places."
 msgstr ""
-"Corsydd, llifolchdir a llaciau twyni, weithiau dros greigiau gwlyb mewn "
-"mannau agored."
+"Corsydd, llifolchdir a llaciau twyni cymharol fasig, weithiau dros greigiau "
+"gwlyb mewn mannau agored."
 
 # Restore password alert title
 msgid "We've sent an email to you"
@@ -2894,7 +2897,7 @@ msgid ""
 "diameter with five petals and many stamens."
 msgstr ""
 "Mae gan lwyni mwyar duon goesynnau hir, dreiniog fel bwâu, a gallant dyfu "
-"hyd at ddau fetr o uchder neu fwy. Mae eu dail cyfansawdd palfog, bob un "
+"hyd at ddau fetr o uchder neu fwy. Mae eu dail cyfansawdd palfog, pob un "
 "wedi'i rhannu'n dri neu bump o ddeilios hirgrwn danheddog ar ddeilgoesynnau "
 "byrion, yn tyfu ar y coesyn bob yn ail. Mae'r dail yn wyrdd tywyll ar eu "
 "hochr uchaf ac yn olau ar eu hochr isaf. Mae'r deilgoesynnau a'r gwythiennau"
@@ -2930,7 +2933,7 @@ msgstr ""
 
 # Species-description: distribution
 msgid "Grassland, Heathland and Moorland, Coastal"
-msgstr "Glaswelltir, Rhostir a Gweundir, Arfordirol"
+msgstr "Glaswelltir, rhostir a gweundir, arfordirol"
 
 # Species-description: distribution
 msgid ""
@@ -2957,7 +2960,7 @@ msgstr ""
 
 # Species-description: distribution
 msgid "Coastal, sand dunes"
-msgstr "Arfordirol, twyni tywod"
+msgstr "Arfordir, twyni tywod"
 
 # Species-description: distribution
 msgid ""
@@ -3194,9 +3197,8 @@ msgid ""
 "Explore some of the plant species that live in a sand dune habitat. Click on"
 " each plant for more details and to see where you might find them"
 msgstr ""
-"Archwiliwch rai o'r rhywogaethau o blanhigion sy'n byw yng nghynefinoedd y "
-"twyni tywod. Cliciwch ar y planhigion am ragor o fanylion ac i weld ble y "
-"gallwch eu gweld"
+"Archwiliwch rai o'r planhigion sy'n byw yng nghynefinoedd y twyni. Cliciwch "
+"ar y planhigion am ragor o fanylion ac i weld ble gallwch eu gweld"
 
 # Habitats page information message
 msgid ""
@@ -3243,16 +3245,16 @@ msgstr ""
 
 # Onboarding page
 msgid "Learn about dune species and habitats"
-msgstr "Dysgwch am rywogaethau a chynefinoedd y twyni tywod"
+msgstr "Dysgwch am rywogaethau a chynefinoedd y twyni"
 
 # Onboarding page
 msgid ""
 "Using the buttons at the bottom, explore the different sand dune habitats "
 "and get help ID-ing some of the plant species that live there."
 msgstr ""
-"Gan ddefnyddio'r botymau ar y gwaelod, archwiliwch y gwahanol gynefinoedd "
-"sydd i'w cael mewn twyni tywod a chael help i adnabod rhai o'r rhywogaethau "
-"o blanhigion sy'n byw ynddynt."
+"Defnyddiwch y botymau ar y gwaelod i archwilio’r gwahanol gynefinoedd sydd "
+"i'w cael mewn twyni tywod a chael help i adnabod rhai o'r planhigion sy'n "
+"byw ynddynt."
 
 # Onboarding page
 msgid "Start your survey"
@@ -3263,7 +3265,7 @@ msgid ""
 "Click on the<1></1>button to begin your survey, easily record your findings "
 "and upload the results."
 msgstr ""
-"Cliciwch ar y<1></1>botwm i ddechrau eich arolwg, i gofnodi'ch "
+"Cliciwch ar y botwm<1></1>i ddechrau eich arolwg, i gofnodi'ch "
 "canfyddiadau'n rhwydd ac i gyflwyno'r canlyniadau."
 
 # Home page button label
@@ -3272,7 +3274,7 @@ msgstr "Gweithgareddau y gallwch eu gwneud"
 
 # Home page label
 msgid "Press the<1></1> button to start your survey"
-msgstr "Pwyswch y<1></1> botwm i ddechrau eich arolwg"
+msgstr "Pwyswch y botwm <1></1> i ddechrau eich arolwg"
 
 # Species-comments
 msgid "Dune slack nitrogen loving"
@@ -3316,7 +3318,7 @@ msgstr "Dangosyddion cadarnhaol o laswelltir asidaidd mewn twyni symudol"
 
 # Species-comments
 msgid "Mobile Dune Negative Indicators"
-msgstr "Dangosyddion Negyddol o Dwyni Symudol"
+msgstr "Dangosyddion negyddol o dwyni symudol"
 
 # Species-comments
 msgid "Dune Slack Species"
@@ -3385,12 +3387,12 @@ msgid ""
 msgstr ""
 "Gellir gwahaniaethu rhwng y blodyn-ymenyn ymlusgol a blodau-ymenyn eraill "
 "wrth y ffordd y mae'n ymgripio gan ddefnyddio ymledyddion. Mae'r blodau "
-"melyn tua 2cm ar draws, ac mae'r dail blewog wedi'u rhannu'n dair llabed "
-"fratiog."
+"melyn tua 2cm o led, ac mae'r dail blewog wedi'u rhannu'n dair llabed ag "
+"ymylon carpiog."
 
 # Species-confusion
 msgid "Reflexed stonecrop"
-msgstr "Briweg felen"
+msgstr "Briweg felen (Sedum rupestre)"
 
 # Species-confusion
 msgid "Sheep’s-bit scabious (Jasione montana)"
@@ -3408,7 +3410,7 @@ msgstr ""
 
 # Species-confusion
 msgid "Red Clover"
-msgstr "Meillionen goch"
+msgstr "Meillionen goch (Trifolium pratense)"
 
 # Species-confusion
 msgid "Broad leaved dock (Rumex obtusifolius), Copmmon sorrel (Rumex acetosa)"
@@ -3515,7 +3517,7 @@ msgid ""
 "Hybridised willow species typically including goat willow (S. caprea) and "
 "downy willow (S. lapponum)"
 msgstr ""
-"Rhywogaethau o helyg croesryw, yn aml yn cynnwys helyg deilgrwn (S. caprea) "
+"Rhywogaethau o helyg croesryw, yn aml yn cynnwys Helyg deilgrwn (S. caprea) "
 "a Helyg pannog (S. lapponum)"
 
 # Species-confusion
@@ -3527,8 +3529,9 @@ msgid ""
 "The leaves are similar to Navelwort but this is found in much dryer habitats"
 " such as walls and quarries"
 msgstr ""
-"Mae'r dail yn debyg i'r Ddeilen gron, ond mae'r planhigyn hwn i'w weld mewn "
-"cynefinoedd llawer mwy sych, fel waliau a chwareli"
+"Mae'r dail yn debyg i'r Ddeilen gron (Umbilicus rupestris), ond mae'r "
+"planhigyn hwn i'w weld mewn cynefinoedd llawer mwy sych, fel waliau a "
+"chwareli"
 
 # Species-confusion
 msgid "Thistle species"
@@ -3536,7 +3539,7 @@ msgstr "Rhywogaethau ysgall"
 
 # Species-confusion
 msgid "St John’s Wort"
-msgstr "Eurinllys trydwll"
+msgstr "Eurinllys trydwll (Hypericum perforatum)"
 
 # Species-confusion
 msgid "Other perennial broad-leaved weeds"
@@ -3544,11 +3547,11 @@ msgstr "Mathau eraill o chwyn lluosflwydd llydanddail"
 
 # Species-confusion
 msgid "Common cow - wheat"
-msgstr "Gliniogai"
+msgstr "Gliniogai (Melampyrum pratense)"
 
 # Species-confusion
 msgid "Male fern"
-msgstr "Marchredynen gyffredin"
+msgstr "Marchredynen gyffredin (Dryopteris filix-mas)"
 
 # Species-confusion
 msgid "Other buttercups"
@@ -3580,39 +3583,41 @@ msgstr "Mathau eraill o hesg"
 
 # Species-confusion
 msgid "Other Agrimony spp"
-msgstr "Rhywogaethau Llysiau'r dryw"
+msgstr "Rhywogaethau Llysiau'r dryw (Agrimonia spp.)"
 
 # Species-confusion
 msgid "Purple dead nettle; henbit dead nettle"
-msgstr "Marddanhadlen goch; Marddanhadlen goch ddeilgron"
+msgstr ""
+"Marddanhadlen goch (Lamium purpureum); Marddanhadlen goch ddeilgron (Lamium "
+"amplexicaule)"
 
 # Toast warning message
 msgid ""
 "Sorry, this site does not have any quadrat groups for this activity yet."
 msgstr ""
-"Yn anffodus, nid oes gan y safle hwn unrhyw grwpiau cwadrad ar gyfer y "
-"gweithgaredd hwn eto."
+"Yn anffodus, nid oes gan y safle hwn grwpiau cwadrad ar gyfer y gweithgaredd"
+" hwn eto."
 
 # Toast warning message
 msgid "Sorry, this site does not have any transects for this activity yet."
 msgstr ""
-"Yn anffodus, nid oes gan y safle hwn unrhyw drawsluniau ar gyfer y "
-"gweithgaredd hwn eto."
+"Yn anffodus, nid oes gan y safle hwn drawsluniau ar gyfer y gweithgaredd hwn"
+" eto."
 
 # Missing transects data message
 msgid ""
 "No survey quadrat groups currently set up for this site. Please try to "
 "refresh the list."
 msgstr ""
-"Dim grwpiau cwadrad arolwg wedi'u sefydlu ar gyfer y safle hwn eto. Ceisiwch"
-" adnewyddu'r rhestr."
+"Dim grwpiau cwadrad wedi'u pennu ar gyfer y safle hwn eto. Ceisiwch "
+"adnewyddu'r rhestr."
 
 # Missing transects data message
 msgid ""
 "No survey transects currently set up for this site. Please try to refresh "
 "the list."
 msgstr ""
-"Dim trawsluniau arolwg wedi'u sefydlu ar gyfer y safle hwn eto. Ceisiwch "
+"Dim trawsluniau arolwg wedi'u pennu ar gyfer y safle hwn eto. Ceisiwch "
 "adnewyddu'r rhestr."
 
 # Species title
@@ -3773,7 +3778,7 @@ msgstr "Corchwyn mwsoglog"
 
 # Species title
 msgid "Pirri-pirri burr"
-msgstr ""
+msgstr "Pirri-pirri Seland Newydd"
 
 # Species title
 msgid "Pointed spear moss"
@@ -3878,3 +3883,8 @@ msgstr "Heb ei nodi"
 # Home page button label
 msgid "Survey site"
 msgstr "Safle'r arolwg"
+
+# Failed to login alert message
+msgid "Sorry, your account hasn't been verified yet or is blocked."
+msgstr ""
+"Yn anffodus, nid yw eich cyfrif wedi'i wirio eto, neu mae wedi'i atal."
