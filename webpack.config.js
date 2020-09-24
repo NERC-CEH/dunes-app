@@ -159,6 +159,7 @@ const config = {
 
         // compulsory env. variables
         APP_BACKEND_URL: JSON.stringify(process.env.APP_BACKEND_URL || ''),
+        APP_BACKEND_INDICIA_URL: JSON.stringify(process.env.APP_BACKEND_INDICIA_URL || ''),
         APP_SENTRY_KEY: JSON.stringify(process.env.APP_SENTRY_KEY || ''),
       },
     }),

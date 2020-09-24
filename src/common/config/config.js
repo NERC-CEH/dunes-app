@@ -6,6 +6,9 @@ import { Capacitor, Plugins, FilesystemDirectory } from '@capacitor/core';
 const backendUrl =
   process.env.APP_BACKEND_URL || 'https://dunescapes.brc.ac.uk';
 
+const indiciaUrl =
+  process.env.APP_BACKEND_INDICIA_URL || 'https://warehouse1.indicia.org.uk';
+
 const config = {
   // variables replaced on build
   version: process.env.APP_VERSION,
@@ -34,12 +37,10 @@ const config = {
     url: backendUrl,
     clientId: process.env.APP_BACKEND_CLIENT_ID,
 
-    mediaUrl: 'https://warehouse1.indicia.org.uk/upload/',
+    mediaUrl: `${indiciaUrl}/upload/`,
 
     indicia: {
-      url:
-        process.env.APP_BACKEND_INDICIA_URL ||
-        'https://warehouse1.indicia.org.uk',
+      url: indiciaUrl,
       websiteId: 1, // -1
     },
   },
