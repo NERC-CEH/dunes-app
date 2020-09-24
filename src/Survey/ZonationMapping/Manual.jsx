@@ -1,9 +1,7 @@
 import React from 'react';
 import { Section, Collapse } from '@apps';
-import { IonImg } from '@ionic/react';
 import { Trans as T } from 'react-i18next';
 import figure1 from 'common/images/zonationMappingManualFigure.jpg';
-// import survey from './config';
 
 const survey = { label: 'Zonation Mapping' };
 
@@ -14,15 +12,14 @@ const Manual = () => (
     <Section>
       <H>Background</H>
       <P>
-        The aim of this activity is twofold. Firstly, to measure the length of
-        the sand dune and secondly, combining this with recording where zones
-        change from one to another along each transect. Photographing and noting
-        the GPS location of transitions between different zones of the sand dune
-        system will help to monitor how these boundaries change over time.
-        Transitions are the abrupt or gradual change of habitat from one type to
-        another, for example from a mobile dune to a semi-fixed, or to other
-        habitats of fixed dune, bare sand around newly restored/scraped areas or
-        blowouts, scrub encroachment, and dune slack boundaries.
+        The aim of this activity is to record and photograph the locations of
+        transitions between different zones of the sand dune system to monitor
+        how these boundaries are changing over time. Transitions are the abrupt
+        or gradual change of habitat from one type to another. Monitoring is
+        likely to focus on some of the following: mobile dune transitions to
+        semi-fixed or to fixed dunes, the extent of bare sand around newly
+        restored/scraped areas or blowouts, scrub encroachment or the transition
+        from dune slack vegetation to drier habitats.
       </P>
     </Section>
 
@@ -71,12 +68,13 @@ const Manual = () => (
               at the first marker cane, holding the compass can then direct the
               location of the third marker cane to be placed 50m further down
               the transect. When all 3 canes are aligned, walk back to the first
-              cane and start recording the transitions. The first one, then
-              second can be removed and the process repeated from the third cane
-              to move down the transect. Some transects may be shorter than
-              100m. Adjust the method if required to maintain line of sight
-              between marker canes. For transects ending at the beach, the last
-              point will be on the beach itself.
+              cane and start recording the transitions. The first cane, can then
+              be re-located further along, aligning with the other two canes to
+              maintain your bearing and the process repeated to move down the
+              transect. Some transects may be shorter than 100m. Adjust the
+              method if required to maintain line of sight between marker canes.
+              For transects ending at the beach, the last point will be on the
+              beach itself.
             </li>
             <li>
               Use the tape measure to measure the distance between locations,
@@ -98,7 +96,8 @@ const Manual = () => (
               enter a new transition point.
             </li>
 
-            <IonImg src={figure1} />
+            <br />
+            <img src={figure1} />
             <figcaption>
               Figure 1. Diagram of zones in a sand dune system.
             </figcaption>
@@ -145,8 +144,9 @@ const Manual = () => (
 
                 <li>
                   The end point of the transect for transects leading onto the
-                  shore should be approximately 5 m seawards from the edge of
-                  the strandline.
+                  shore should be approximately 5 m seawards from the last
+                  vegetation you see (but be aware of steep eroded dune edges –
+                  if access is difficult just record this edge).
                 </li>
               </ul>
             </li>

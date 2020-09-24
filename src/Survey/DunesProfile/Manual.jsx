@@ -1,9 +1,9 @@
 import React from 'react';
 import { Section, Collapse } from '@apps';
-import { IonImg } from '@ionic/react';
-import figure1 from 'common/images/dunesProfileManulFigure.png';
 import { Trans as T } from 'react-i18next';
-// import survey from './config';
+import { IonImg } from '@ionic/react';
+import figure1 from 'common/images/dunesProfileManulFigure.jpg';
+
 const survey = { label: 'Dunes Profile' };
 
 const { P, H } = Section;
@@ -40,7 +40,7 @@ const Manual = () => (
             <li>Mobile phone app - transect locations downloaded beforehand</li>
             <li>Compass</li>
             <li>Long tape measure (ideally 50 m or more)</li>
-            <li>Ranging poles</li>
+            <li>Ranging poles (exactly the same height)</li>
             <li>Clinometer</li>
           </ul>
         </P>
@@ -78,7 +78,7 @@ const Manual = () => (
           <ul>
             <li>
               At point 1 of the transect, person A should stand holding ranging
-              pole 1 and the clinometer. Make sure you hold the pole straight
+              pole 1 and the clinometer. Make sure you hold the pole vertical
               and it does not sink into the sand. Enter the grid reference of
               the start point on the manual recording form. The app will do this
               automatically when you register the Start point.
@@ -90,33 +90,36 @@ const Manual = () => (
               dune, or at approximately 50 m distance if no clear change in
               slope (see Figure 1) - there may be long uniform areas which are
               beyond convenient sighting distance. At this point, place ranging
-              pole 2 on the ground, again making sure you hold it straight and
+              pole 2 on the ground, again making sure you hold it vertical and
               that it does not sink into the sand. Enter the grid reference of
               this point on the recording form. The app will automatically
               record the grid reference when you click to register the next
               survey point.
             </li>
 
+            <br />
             <IonImg src={figure1} />
             <figcaption>
               Figure 1. Illustration of how to measure the profile along a sand
               dune
             </figcaption>
             <br />
-
             <li>
               Person A should then use the clinometer to measure the angle of
-              the slope from pole 1 to pole 2. The reading should be taken
-              between the marking on pole 1 that is closest to person A’s eye
-              level and the corresponding marking on pole 2 (see diagram below).
-              Note down this angle on the recording form, or in the app.
+              the slope from pole 1 to pole 2. The reading should be taken in
+              the direction of the transect, from the top of pole 1 to the top
+              of pole 2 (see diagram above). If the poles are too tall to sight
+              from the top, then read from the marking on pole 1 that is closest
+              to person A’s eye level and the corresponding marking on pole 2
+              (mark these with bright coloured tape before starting the transect
+              for easy reference). Note down this angle on the recording form,
+              or in the app.
             </li>
             <li>
               If you find yourself going downhill as you walk along the
-              transect, the ‘lower’ person should take the clinometer to measure
-              the angle of the slope and it should be noted in the recording
-              form or on the app that this was a downhill reading. Enter the
-              angle as a negative number.
+              transect, it should be noted in the recording form or on the app
+              that this was a downhill reading. Enter the angle as a negative
+              number.
             </li>
             <li>
               Use the tape measure to measure the distance along the ground from
@@ -130,10 +133,11 @@ const Manual = () => (
             </li>
             <li>
               When they reach another distinct change in the angle of the slope
-              of the dune, they should stop and place ranging pole 1 on the sand
-              and the process of measuring the angle of the slope and the
-              distance between the poles should be repeated, this time with
-              person B taking the measurements from pole 2 to pole 1.
+              of the dune, they should stop and place ranging pole 1 vertically
+              on the sand and the process of measuring the angle of the slope
+              and the distance between the poles should be repeated, this time
+              with person B taking clinometer the measurements from pole 2 to
+              pole 1, in the direction of the transect.
             </li>
             <li>
               Repeat this process until you reach the end of the transect.

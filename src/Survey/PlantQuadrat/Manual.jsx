@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section, Collapse } from '@apps';
 import { Trans as T } from 'react-i18next';
-// import survey from './config';
+
 const survey = { label: 'Plant Quadrat Recording' };
 
 const { P, H } = Section;
@@ -160,14 +160,13 @@ const Manual = () => (
               Considering all areas with vegetation in the quadrat, take five
               measurements of the height of the vegetation (ideally one in each
               quarter of the quadrat and one in the middle). Measure the height
-              with a ruler or tape measure (or a drop disc if you have one),
-              recording the height that most of the vegetation reaches within
-              roughly 20 cm of your ruler – ignore occasional tall flowering
-              stems if they rise above this height. If there are multiple people
-              in your surveying team, it is useful for two or three to agree the
-              height that should be recorded in each location. Record all five
-              height measurements on your form, or on the app. The app will
-              automatically calculate the average.
+              with a ruler or tape measure, recording the height that most of
+              the vegetation reaches within roughly 20 cm of your ruler – ignore
+              occasional tall flowering stems if they rise above this height. If
+              there are multiple people in your surveying team, it is useful for
+              two or three to agree the height that should be recorded in each
+              location. Record all five height measurements on your form, or on
+              the app. The app will automatically calculate the average.
             </P>
           </Collapse>
           <Collapse title="Health indicator species and nitrogen indicator species">

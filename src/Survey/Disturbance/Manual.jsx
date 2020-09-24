@@ -2,7 +2,6 @@ import React from 'react';
 import { Section, Collapse } from '@apps';
 import { Trans as T } from 'react-i18next';
 
-// import survey from './config';
 const survey = { label: 'Disturbance' };
 
 const { P, H } = Section;
@@ -61,7 +60,7 @@ const Manual = () => (
             <li>Rabbit activity (small feeding scrapes, burrows).</li>
             <li>
               Human activities such as damage from vehicle tracks (including
-              motorbikes), litter or flytipping. Recording litter is not aimed
+              motorbikes), litter or fly-tipping. Recording litter is not aimed
               at the occasional sweet wrapper, but things like remains of a
               barbeque, multiple cans/bottles left by visitors, large rubbish
               items like car tyres, etc. should be recorded.
