@@ -59,7 +59,8 @@ const exec = grunt => ({
   },
 });
 
-const updateVersionAndBuild = ({ version, build }) => {
+const updateVersionAndBuild = ({ version, build = 1 }) => {
+  // Package
   let file = fs.readFileSync('./package.json', 'utf8');
   if (pkg.version !== version) {
     file = file.replace(pkg.version, version);
@@ -71,6 +72,35 @@ const updateVersionAndBuild = ({ version, build }) => {
     pkg.build = build;
   }
   fs.writeFileSync('./package.json', file, 'utf8');
+
+  // Android
+  file = fs.readFileSync('./android/app/build.gradle', 'utf8');
+  file = file.replace(/versionName "\d\.\d\.\d"/i, `versionName "${version}"`);
+  file = file.replace(/versionCode \d+/i, `versionCode ${build}`);
+  pkg.version = version;
+  pkg.build = 1;
+  fs.writeFileSync('./android/app/build.gradle', file, 'utf8');
+
+  // iOS
+  function replaceAll(str, find, replace) {
+    // node doesn't yet support replaceAll
+    return str.replace(new RegExp(find, 'g'), replace);
+  }
+
+  file = fs.readFileSync('./ios/App/App.xcodeproj/project.pbxproj', 'utf8');
+  file = replaceAll(
+    file,
+    /MARKETING_VERSION = \d\.\d\.\d/i,
+    `MARKETING_VERSION = ${version}`
+  );
+  file = replaceAll(
+    file,
+    /CURRENT_PROJECT_VERSION = \d+/i,
+    `CURRENT_PROJECT_VERSION = ${build}`
+  );
+  pkg.version = version;
+  pkg.build = 1;
+  fs.writeFileSync('./ios/App/App.xcodeproj/project.pbxproj', file, 'utf8');
 };
 
 const prompt = {
