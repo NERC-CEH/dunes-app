@@ -468,8 +468,8 @@ msgid "Low, hummocky dunes form around these plants."
 msgstr "Low, hummocky dunes form around these plants."
 
 # Mobile dune habitat features
-msgid "Lots of bare sand (10-50%)."
-msgstr "Lots of bare sand (10-50%)."
+msgid "Lots of bare sand (20-50%)."
+msgstr "Lots of bare sand (20-50%)."
 
 # Mobile dune habitat features
 msgid "Marram grass dominates."
