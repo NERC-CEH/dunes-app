@@ -14,7 +14,7 @@ const { Filesystem } = Plugins;
 class AppModel extends Model {
   async updateSites() {
     const options = {
-      url: `${config.backend.url}/api/v2/reports?location_type_ids=17804&locattrs=262&report=library/locations/locations_list_3.xml`,
+      url: `${config.backend.indicia.url}/index.php/services/rest/reports/library/locations/locations_list_3.xml?location_type_ids=17804&locattrs=262`,
       headers: {
         Authorization: `Bearer ${await userModel.getAccessToken()}`,
       },
@@ -42,7 +42,7 @@ class AppModel extends Model {
 
     const siteId = site.location_id;
     const options = {
-      url: `${config.backend.url}/api/v2/reports?report=projects/dunescapes/locations_list_for_app.xml&locattrs=273&parent_id=${siteId}`,
+      url: `${config.backend.indicia.url}/index.php/services/rest/reports/projects/dunescapes/locations_list_for_app.xml?locattrs=273&parent_id=${siteId}`,
       headers: {
         Authorization: `Bearer ${await userModel.getAccessToken()}`,
       },
