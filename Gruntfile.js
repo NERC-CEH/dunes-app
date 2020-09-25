@@ -57,6 +57,14 @@ const exec = grunt => ({
     stdout: false,
     stdin: true,
   },
+  build_ios: {
+    command() {
+      return `cd ios/App && xcodebuild -workspace App.xcworkspace -scheme App archive`;
+    },
+
+    stdout: false,
+    stdin: true,
+  },
 });
 
 const updateVersionAndBuild = ({ version, build = 1 }) => {
@@ -159,6 +167,7 @@ module.exports = grunt => {
 
     'prompt:keystore',
     'exec:build_android',
+    'exec:build_ios',
 
     'checklist',
   ]);
