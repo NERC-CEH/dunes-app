@@ -519,7 +519,7 @@ msgstr ""
 "celyn y môr a llaethlys y môr."
 
 # Semi-fixed dune habitat features
-msgid "Bare sand cover reduced."
+msgid "Often some bare sand cover (0-30%)."
 msgstr "Llai o dywod noeth ar yr wyneb."
 
 # Semi-fixed dune habitat features

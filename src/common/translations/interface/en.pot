@@ -484,8 +484,8 @@ msgid "A small number of other plants may be present; may include sea holly and 
 msgstr "A small number of other plants may be present; may include sea holly and sea spurge."
 
 # Semi-fixed dune habitat features
-msgid "Bare sand cover reduced."
-msgstr "Bare sand cover reduced."
+msgid "Often some bare sand cover (0-30%)."
+msgstr "Often some bare sand cover (0-30%)."
 
 # Semi-fixed dune habitat features
 msgid "Red fescue and mosses cover patches between marram."
