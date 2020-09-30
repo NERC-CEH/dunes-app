@@ -2268,8 +2268,8 @@ msgid "Thyme-leaved sandwort (Arenaria serpyllifolia)"
 msgstr "Thyme-leaved sandwort (Arenaria serpyllifolia)"
 
 # Species-confusion
-msgid "Prickly Saltwort"
-msgstr "Prickly Saltwort"
+msgid "Spineless Saltwort"
+msgstr "Spineless Saltwort"
 
 # Species-confusion
 msgid "Hedge bindweed (Calystegia sepium), Field bindweed (Convolvulus arvensis), Great bindweed (Calystegia silvatica)"
@@ -2409,8 +2409,8 @@ msgid "Common ragwort"
 msgstr "Common ragwort"
 
 # Species title
-msgid "Common saltwort"
-msgstr "Common saltwort"
+msgid "Prickly saltwort"
+msgstr "Prickly saltwort"
 
 # Species title
 msgid "Creeping buttercup"
