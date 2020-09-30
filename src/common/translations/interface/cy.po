@@ -520,7 +520,7 @@ msgstr ""
 
 # Semi-fixed dune habitat features
 msgid "Often some bare sand cover (0-30%)."
-msgstr "Llai o dywod noeth ar yr wyneb."
+msgstr "Rhywfaint o dywod noeth ar yr wyneb yn aml (0-30%)."
 
 # Semi-fixed dune habitat features
 msgid "Red fescue and mosses cover patches between marram."
@@ -2149,9 +2149,10 @@ msgid ""
 "strongly curved away from the stem, often at right angles to it, giving the "
 "shoots a star-like appearance when seen from above."
 msgstr ""
-"Coesynnau talsyth golau neu felynwyrdd, 2–3 cm o hyd fel arfer. Mae dail y "
-"coesynnau'n troi'n amlwg oddi wrth y coesyn, yn aml ar ongl sgwâr iddo, sy'n"
-" gwneud i'r coesyn edrych yn debyg i seren o edrych i lawr arno."
+"Yn dalsyth ac yn olau neu'n felynwyrdd, mae'r sbrigau fel rheol yn 2–3 cm o "
+"hyd. Mae dail y coesynnau'n troi'n amlwg oddi wrth y coesyn, yn aml ar ongl "
+"sgwâr iddo, sy'n gwneud i'r sbrigau edrych yn debyg i sêr o edrych i lawr "
+"arnynt."
 
 # Species-description:
 msgid ""
@@ -2172,12 +2173,12 @@ msgid ""
 "like point. Stem leaves are usually 2 to 2.5 mm long, narrowly egg-shaped, "
 "never curved, bluntly rounded at the tip."
 msgstr ""
-"Yn ffurfio clytiau gwyrdd, melynwyrdd neu weithiau orenfrown. Y coesynnau "
-"fel arfer rhwng 3 ac 8cm o hyd, ac yn aml yn goch tua'r gwaelod. Y prif "
-"goesyn fel arfer yn dalsyth, a'r canghennau ochr yn asgellog, a'r coesyn "
-"cyfan yn ymddangos yn fflat. Y dail wedi'u rholio'n dynn i greu pigyn llyfn "
-"fel nodwydd neu wayw. Mae dail y coesyn fel arfer rhwng 2 a 2.5mm o hyd, yn "
-"siâp wy cul, heb fod ar dro, a'u pennau'n grwm."
+"Yn ffurfio clytiau gwyrdd, melynwyrdd neu weithiau orenfrown. Y sbrigau fel "
+"arfer rhwng 3 ac 8cm o hyd, ac yn aml yn goch tua'r gwaelod. Y prif goesyn "
+"fel arfer yn dalsyth, y canghennau ochr yn asgellog, a'r sbrigyn cyfan yn "
+"ymddangos yn fflat. Y dail wedi'u rholio'n dynn i greu pigyn llyfn fel "
+"nodwydd neu wayw. Mae dail y coesyn fel arfer rhwng 2 a 2.5mm o hyd, yn siâp"
+" wy cul, heb fod ar dro, a'u pennau'n grwm."
 
 # Species-description: distribution
 msgid ""
