@@ -1,8 +1,14 @@
 import { observer } from 'mobx-react';
 import React from 'react';
 import { prettyPrintGridRef, Main, MenuAttrItem, MenuNoteItem } from '@apps';
-import { IonList, IonItemDivider } from '@ionic/react';
-import { locateOutline, gridOutline } from 'ionicons/icons';
+import {
+  IonList,
+  IonItemDivider,
+  IonItem,
+  IonLabel,
+  IonIcon,
+} from '@ionic/react';
+import { locateOutline, gridOutline, logOutOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import PhotoPicker from 'Components/PhotoPicker';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
@@ -139,6 +145,13 @@ class Component extends React.Component {
             wrapText
             skipValueTranslation
           />
+          <IonItem href="https://irecord.org.uk/app">
+            <IonIcon icon={flowerIcon} slot="start" />
+            <IonLabel className="ion-text-wrap">
+              <T>Record other species (using iRecord)</T>
+            </IonLabel>
+            <IonIcon icon={logOutOutline} slot="end" />
+          </IonItem>
 
           <IonItemDivider>
             <T>Quadrat Photo</T>

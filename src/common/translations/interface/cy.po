@@ -956,6 +956,10 @@ msgstr "Nitrogen"
 msgid "Quadrat Photo"
 msgstr "Llun o'r Cwadrad"
 
+# Plant quadrats survey section message
+msgid "Record other species (using iRecord)"
+msgstr ""
+
 # Plant quadrats survey info message
 msgid "Please specify the % of the bare ground and sand cover."
 msgstr "Nodwch % yr arwynebedd sydd wedi'i orchuddio gan dir a thywod noeth."
@@ -3511,7 +3515,7 @@ msgstr "Tywodlys dail teim (Arenaria serpyllifolia)"
 
 # Species-confusion
 msgid "Spineless Saltwort"
-msgstr "Helys pigog"
+msgstr ""
 
 # Species-confusion
 msgid ""

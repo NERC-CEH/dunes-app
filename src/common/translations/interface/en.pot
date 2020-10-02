@@ -879,6 +879,10 @@ msgstr "Nitrogen"
 msgid "Quadrat Photo"
 msgstr "Quadrat Photo"
 
+# Plant quadrats survey section message 
+msgid "Record other species (using iRecord)"
+msgstr "Record other species (using iRecord)"
+
 # Plant quadrats survey info message 
 msgid "Please specify the % of the bare ground and sand cover."
 msgstr "Please specify the % of the bare ground and sand cover."
