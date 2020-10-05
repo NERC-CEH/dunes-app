@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Vilius Stankaitis <vilius@flumens.io>, 2020
-# idiom : Welsh translation & language services <post@idiom.cymru>, 2020
 # Karolis, 2020
+# idiom : Welsh translation & language services <post@idiom.cymru>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: Karolis, 2020\n"
+"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2020\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/109789/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -958,7 +958,7 @@ msgstr "Llun o'r Cwadrad"
 
 # Plant quadrats survey section message
 msgid "Record other species (using iRecord)"
-msgstr ""
+msgstr "Cofnodi rhywogaeth arall (drwy iRecord)"
 
 # Plant quadrats survey info message
 msgid "Please specify the % of the bare ground and sand cover."
