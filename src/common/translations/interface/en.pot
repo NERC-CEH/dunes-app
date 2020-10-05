@@ -1376,8 +1376,8 @@ msgid "Perennial . Member of the dead-nettle family not closely related to Ivy. 
 msgstr "Perennial . Member of the dead-nettle family not closely related to Ivy. It is an evergreen, creeping plant spreading by means of overground runners that frequently root. It has a strong smell and violet flowers. kidney-shaped, deep green leaves are typically scalloped and slightly undulating at the margins upper leaf surface has a covering of very small bristly hairs. stems are square, and have opposite pairs of simple leaves. Ground ivy's stems are also covered in fine bristly hairs."
 
 # Species-description: 
-msgid "Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, deeply 3-5 lobed, leaflets coarsely toothed. Flowerheads pink or purplish 2 to 5 mm in dense rather flat topped clusters, florets all tubular."
-msgstr "Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, deeply 3-5 lobed, leaflets coarsely toothed. Flowerheads pink or purplish 2 to 5 mm in dense rather flat topped clusters, florets all tubular."
+msgid "Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, deeply 3-5 lobed, leaflets coarsely toothed. Dense clusters of pinky purple flowerheads (consisting of multiple tubular florets of 2-5mm with striking purple tipped bracts between) can be up to 15cm across."
+msgstr "Medium to tall hairy plant. Stem erect often reddish. Leaves opposite, deeply 3-5 lobed, leaflets coarsely toothed. Dense clusters of pinky purple flowerheads (consisting of multiple tubular florets of 2-5mm with striking purple tipped bracts between) can be up to 15cm across."
 
 # Species-description: 
 msgid "Erect, pale or yellow-green, shoots typically 2–3 cm long. Stem leaves strongly curved away from the stem, often at right angles to it, giving the shoots a star-like appearance when seen from above."
