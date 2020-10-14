@@ -6,20 +6,12 @@
     "external_key": "NHMSYS0000310068",
     "taxon": "Hylocomium splendens",
     "preferred_taxon": "Hylocomium splendens",
-    "common": null,
     "family_taxon": "Hylocomiaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467277",
@@ -28,20 +20,12 @@
     "external_key": "NHMSYS0000310080",
     "taxon": "Hypnum cupressiforme",
     "preferred_taxon": "Hypnum cupressiforme",
-    "common": null,
     "family_taxon": "Hypnaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467278",
@@ -56,14 +40,9 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
     "dune_heath": "1",
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467280",
@@ -78,14 +57,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
     "dune_heath": "1",
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467282",
@@ -100,14 +73,9 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
     "dune_heath": "1",
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467284",
@@ -116,20 +84,12 @@
     "external_key": "NBNSYS0000002598",
     "taxon": "Leymus arenarius",
     "preferred_taxon": "Leymus arenarius",
-    "common": null,
     "family_taxon": "Poaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467285",
@@ -138,20 +98,11 @@
     "external_key": "NBNSYS0000003145",
     "taxon": "Linum catharticum",
     "preferred_taxon": "Linum catharticum",
-    "common": null,
-    "family_taxon": null,
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467286",
@@ -168,12 +119,8 @@
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467288",
@@ -188,14 +135,10 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
     "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": "1",
-    "nitro_phile": null
+    "nitro_phobe": "1"
   },
   {
     "id": "467290",
@@ -205,19 +148,13 @@
     "taxon": "Luzula campestris",
     "preferred_taxon": "Luzula campestris",
     "common": "Field Wood-rush",
-    "family_taxon": null,
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
     "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": "1",
-    "nitro_phile": null
+    "nitro_phobe": "1"
   },
   {
     "id": "467292",
@@ -226,20 +163,12 @@
     "external_key": "NHMSYS0000464607",
     "taxon": "Tripleurospermum maritimum",
     "preferred_taxon": "Tripleurospermum maritimum",
-    "common": null,
     "family_taxon": "Asteraceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467293",
@@ -254,14 +183,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467295",
@@ -270,20 +193,11 @@
     "external_key": "NBNSYS0000004164",
     "taxon": "Odontites vernus",
     "preferred_taxon": "Odontites vernus",
-    "common": null,
-    "family_taxon": null,
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467296",
@@ -292,20 +206,13 @@
     "external_key": "NBNSYS0000003215",
     "taxon": "Ononis repens",
     "preferred_taxon": "Ononis repens",
-    "common": null,
     "family_taxon": "Fabaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467297",
@@ -318,16 +225,9 @@
     "family_taxon": "Peltigeraceae",
     "taxon_group": "lichen",
     "taxon_group_id": "128",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467299",
@@ -336,20 +236,13 @@
     "external_key": "NHMSYS0000461280",
     "taxon": "Pilosella officinarum",
     "preferred_taxon": "Pilosella officinarum",
-    "common": null,
     "family_taxon": "Asteraceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467300",
@@ -364,14 +257,8 @@
     "taxon_group_id": "81",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
     "dune_heath": "1",
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467302",
@@ -386,14 +273,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467304",
@@ -402,20 +283,12 @@
     "external_key": "NBNSYS0000004275",
     "taxon": "Plantago lanceolata",
     "preferred_taxon": "Plantago lanceolata",
-    "common": null,
     "family_taxon": "Plantaginaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467305",
@@ -430,13 +303,7 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -446,20 +313,12 @@
     "external_key": "NHMSYS0000310352",
     "taxon": "Pleurozium schreberi",
     "preferred_taxon": "Pleurozium schreberi",
-    "common": null,
     "family_taxon": "Hylocomiaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467308",
@@ -468,20 +327,12 @@
     "external_key": "NHMSYS0000461832",
     "taxon": "Polygala serpyllifolia",
     "preferred_taxon": "Polygala serpyllifolia",
-    "common": null,
     "family_taxon": "Polygalaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467309",
@@ -496,14 +347,8 @@
     "taxon_group_id": "133",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
     "dune_heath": "1",
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467311",
@@ -518,13 +363,9 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
     "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -534,20 +375,12 @@
     "external_key": "NBNSYS0000003349",
     "taxon": "Potentilla erecta",
     "preferred_taxon": "Potentilla erecta",
-    "common": null,
     "family_taxon": "Rosaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467314",
@@ -562,14 +395,9 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467316",
@@ -584,14 +412,9 @@
     "taxon_group_id": "87",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467318",
@@ -600,20 +423,12 @@
     "external_key": "NBNSYS0000002718",
     "taxon": "Ranunculus flammula",
     "preferred_taxon": "Ranunculus flammula",
-    "common": null,
     "family_taxon": "Ranunculaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467319",
@@ -628,13 +443,7 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -650,14 +459,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467323",
@@ -672,14 +475,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467325",
@@ -688,20 +485,12 @@
     "external_key": "NBNSYS0000022280",
     "taxon": "Rhytidiadelphus squarrosus",
     "preferred_taxon": "Rhytidiadelphus squarrosus",
-    "common": null,
     "family_taxon": "Hylocomiaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467326",
@@ -710,20 +499,12 @@
     "external_key": "NBNSYS0000022279",
     "taxon": "Rhytidiadelphus triquetrus",
     "preferred_taxon": "Rhytidiadelphus triquetrus",
-    "common": null,
     "family_taxon": "Hylocomiaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467327",
@@ -738,14 +519,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467329",
@@ -760,14 +535,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467331",
@@ -782,13 +551,7 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -804,14 +567,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467335",
@@ -827,13 +584,7 @@
     "short_list": "1",
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467337",
@@ -842,20 +593,12 @@
     "external_key": "NHMSYS0000310512",
     "taxon": "Pseudoscleropodium purum",
     "preferred_taxon": "Pseudoscleropodium purum",
-    "common": null,
     "family_taxon": "Brachytheciaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467338",
@@ -870,14 +613,9 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
     "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": "1",
-    "nitro_phile": null
+    "nitro_phobe": "1"
   },
   {
     "id": "467340",
@@ -887,19 +625,14 @@
     "taxon": "Senecio jacobaea",
     "preferred_taxon": "Senecio jacobaea",
     "common": "Common ragwort",
-    "family_taxon": null,
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467342",
@@ -914,13 +647,7 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
-    "fixed_semi_fixed_dune": null,
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -936,13 +663,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -958,14 +680,9 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": "1",
-    "nitro_phile": null
+    "nitro_phobe": "1"
   },
   {
     "id": "467348",
@@ -974,20 +691,12 @@
     "external_key": "NHMSYS0000464447",
     "taxon": "Thymus polytrichus",
     "preferred_taxon": "Thymus polytrichus",
-    "common": null,
     "family_taxon": "Lamiaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467349",
@@ -996,20 +705,12 @@
     "external_key": "NBNSYS0000036310",
     "taxon": "Tortula muralis",
     "preferred_taxon": "Tortula muralis",
-    "common": null,
     "family_taxon": "Pottiaceae",
     "taxon_group": "moss",
     "taxon_group_id": "133",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467350",
@@ -1024,14 +725,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": "1",
-    "nitro_phile": null
+    "nitro_phobe": "1"
   },
   {
     "id": "467352",
@@ -1046,13 +741,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
     "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
     "nitro_phile": "1"
   },
   {
@@ -1068,14 +758,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467356",
@@ -1092,12 +776,8 @@
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
     "dune_slack": "1",
-    "positive_health": null,
-    "negative_health": "1",
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "negative_health": "1"
   },
   {
     "id": "467358",
@@ -1106,20 +786,12 @@
     "external_key": "NBNSYS0000004104",
     "taxon": "Veronica chamaedrys",
     "preferred_taxon": "Veronica chamaedrys",
-    "common": null,
     "family_taxon": "Plantaginaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467359",
@@ -1128,20 +800,12 @@
     "external_key": "NBNSYS0000002934",
     "taxon": "Viola canina",
     "preferred_taxon": "Viola canina",
-    "common": null,
     "family_taxon": "Violaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467360",
@@ -1150,20 +814,12 @@
     "external_key": "NHMSYS0000464897",
     "taxon": "Viola riviniana",
     "preferred_taxon": "Viola riviniana",
-    "common": null,
     "family_taxon": "Violaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467361",
@@ -1172,20 +828,11 @@
     "external_key": "NBNSYS0000002944",
     "taxon": "Viola tricolor",
     "preferred_taxon": "Viola tricolor",
-    "common": null,
-    "family_taxon": null,
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
-    "short_list": null,
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467362",
@@ -1200,14 +847,8 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": "1",
-    "negative_health": null,
-    "nitro_phobe": null,
-    "nitro_phile": null
+    "positive_health": "1"
   },
   {
     "id": "467364",
@@ -1222,13 +863,7 @@
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
-    "strandline_embryo_mobile_dune": null,
     "fixed_semi_fixed_dune": "1",
-    "dune_heath": null,
-    "dune_slack": null,
-    "positive_health": null,
-    "negative_health": null,
-    "nitro_phobe": "1",
-    "nitro_phile": null
+    "nitro_phobe": "1"
   }
 ]
