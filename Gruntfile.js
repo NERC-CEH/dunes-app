@@ -65,6 +65,16 @@ const exec = grunt => ({
     stdout: false,
     stdin: true,
   },
+  create_commit: {
+    command() {
+      return `git add . &&
+              git commit -m "Release ${pkg.version}-${pkg.build}" && 
+              git tag v${pkg.version}-${pkg.build}`;
+    },
+
+    stdout: false,
+    stdin: true,
+  },
 });
 
 const updateVersionAndBuild = ({ version, build = 1 }) => {
@@ -170,6 +180,7 @@ module.exports = grunt => {
     'exec:build_ios',
 
     'checklist',
+    'exec:create_commit',
   ]);
 
   grunt.registerTask('checklist', () => {
