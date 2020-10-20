@@ -2145,8 +2145,10 @@ msgid ""
 msgstr ""
 "Planhigyn blewog canolig neu dal. Mae'r coesyn yn dalsyth ac yn aml yn "
 "gochaidd. Mae'r dail yn tyfu gyferbyn â'i gilydd, â 3-5 o labedau dyfnion, "
-"ac mae dannedd bras ar y deilios. Fflurbennau pinc neu borffor, rhwng 2 a 5 "
-"mm o led mewn clystyrau dwys cymharol fflat. Yr holl flodigion fel pibelli."
+"ac mae dannedd bras ar y deilios. Fflurbennau rhwng pinc a phorffor mewn "
+"clystyrau clos (yn cynnwys nifer o flodigion fel pibelli 2-5mm a chanddynt "
+"fractau trawiadol rhyngddynt â'u pigau'n borffor ) sy'n gallu bod hyd at "
+"15cm o led."
 
 # Species-description:
 msgid ""
@@ -3516,7 +3518,7 @@ msgstr "Tywodlys dail teim (Arenaria serpyllifolia)"
 
 # Species-confusion
 msgid "Spineless Saltwort"
-msgstr ""
+msgstr "Salsola iberica"
 
 # Species-confusion
 msgid ""
