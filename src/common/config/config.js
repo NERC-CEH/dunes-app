@@ -28,7 +28,7 @@ const config = {
   // mapping
   map: {
     mapboxApiKey: process.env.APP_MAPBOX_MAP_KEY,
-    mapboxSatelliteId: 'cehapps.0femh3mh',
+    mapboxSatelliteId: 'cehapps/cipqvo0c0000jcknge1z28ejp',
   },
 
   promotionalWebsiteUrl: 'https://www.dynamicdunescapes.co.uk',
