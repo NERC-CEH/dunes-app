@@ -1,4 +1,4 @@
-// eslint-disable-line
+// eslint-disable-next-line
 require('dotenv').config({ silent: true, path: '../../../../.env' });
 
 const axios = require('axios');
