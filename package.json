@@ -4,7 +4,7 @@
   "title": "Dune Defender",
   "description": "Dune Defender mobile application.",
   "version": "1.0.0",
-  "build": "6",
+  "build": "7",
   "homepage": "https://www.dynamicdunescapes.co.uk",
   "scripts": {
     "build": "webpack --display minimal",
