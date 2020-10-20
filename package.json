@@ -4,14 +4,14 @@
   "title": "Dune Defender",
   "description": "Dune Defender mobile application.",
   "version": "1.0.0",
-  "build": "7",
+  "build": "8",
   "homepage": "https://www.dynamicdunescapes.co.uk",
   "scripts": {
     "build": "webpack --display minimal",
     "build:production": "grunt",
     "start": "webpack-dev-server --config webpack.config.js --content-base build --port 8000",
     "deploy": "vercel --prod -A other/now.json",
-    "clean": "rm -rf android ios build resources",
+    "clean": "rm -rf build resources",
     "test:eslint": "mocha test/eslint-test.js",
     "fetch:species": "cd src/common/data/species && node make.js",
     "fetch:species:descriptions": "cd src/common/data/speciesDescriptions && node make.js"

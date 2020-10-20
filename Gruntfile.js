@@ -4,7 +4,7 @@ const pkg = require('./package.json');
 
 const exec = grunt => ({
   build: {
-    command: 'NODE_ENV=production npm run build',
+    command: 'npm run clean && NODE_ENV=production npm run build',
   },
   resources: {
     command: () => {
