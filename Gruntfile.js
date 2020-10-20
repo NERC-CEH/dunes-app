@@ -96,7 +96,7 @@ const updateVersionAndBuild = ({ version, build = 1 }) => {
   file = file.replace(/versionName "\d\.\d\.\d"/i, `versionName "${version}"`);
   file = file.replace(/versionCode \d+/i, `versionCode ${build}`);
   pkg.version = version;
-  pkg.build = 1;
+  pkg.build = build;
   fs.writeFileSync('./android/app/build.gradle', file, 'utf8');
 
   // iOS
@@ -117,7 +117,7 @@ const updateVersionAndBuild = ({ version, build = 1 }) => {
     `CURRENT_PROJECT_VERSION = ${build}`
   );
   pkg.version = version;
-  pkg.build = 1;
+  pkg.build = build;
   fs.writeFileSync('./ios/App/App.xcodeproj/project.pbxproj', file, 'utf8');
 };
 
