@@ -21,14 +21,15 @@ const pkg = require('./package.json');
 const ROOT_DIR = path.resolve(__dirname, './');
 const DIST_DIR = path.resolve(ROOT_DIR, 'build');
 
-const isDevEnv = process.env.NODE_ENV === 'development';
+const isDevEnv =
+  process.env.NODE_ENV === 'development' || process.env.APP_MANUAL_TESTING;
 const isProdEnv = process.env.NODE_ENV === 'production';
 const isTestEnv = process.env.NODE_ENV === 'test';
 
 const config = {
-  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
-  entry: ['index.jsx', 'vendor.js'],
-  devtool: 'source-map',
+  mode: isProdEnv ? 'production' : 'development',
+  entry: ['index.jsx'],
+  devtool: !isProdEnv && 'source-map',
   target: 'web',
 
   output: {
