@@ -164,8 +164,6 @@ input[type='number'] {
 }
 
 html.ios {
-  --ion-safe-area-top: var(--ion-statusbar-padding) !important;
-
   ion-action-sheet ion-icon.action-sheet-icon {
     position: absolute;
     left: 0;
@@ -228,4 +226,13 @@ ion-app[lang='cy'] ion-col div.species-label {
 
 ion-app[lang='cy'] ion-card-header ion-card-title {
   text-transform: none !important;
+}
+
+html.ios.plt-hybrid #status-bar-background {
+  background: #094d4e;
+  width: 100vw;
+  height: env(safe-area-inset-top);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }

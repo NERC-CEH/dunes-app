@@ -1,7 +1,7 @@
 ion-fab-button.home-fab {
   --border-radius: 22px;
   position: fixed;
-  bottom: 10px;
+  bottom: calc(10px + env(safe-area-inset-bottom));
   z-index: 11;
   left: 50%;
   transform: translateX(-50%);
