@@ -8,7 +8,10 @@ const exec = grunt => ({
   },
   resources: {
     command: () => {
-      const appMinorVersion = pkg.version.split('.').splice(0, 2).join('.');
+      const appMinorVersion = pkg.version
+        .split('.')
+        .splice(0, 2)
+        .join('.');
 
       return `mkdir -p resources &&
                 cp -R other/designs/android resources &&
@@ -75,6 +78,11 @@ const exec = grunt => ({
 });
 
 const updateVersionAndBuild = ({ version, build = 1 }) => {
+  function replaceAll(str, find, replace) {
+    // node doesn't yet support replaceAll
+    return str.replace(new RegExp(find, 'g'), replace);
+  }
+
   // Package
   let file = fs.readFileSync('./package.json', 'utf8');
   if (pkg.version !== version) {
@@ -89,19 +97,15 @@ const updateVersionAndBuild = ({ version, build = 1 }) => {
   fs.writeFileSync('./package.json', file, 'utf8');
 
   // Android
+  const versionCode = replaceAll(version, /\./, '') + build;
   file = fs.readFileSync('./android/app/build.gradle', 'utf8');
   file = file.replace(/versionName "(\d\.)+\d"/i, `versionName "${version}"`);
-  file = file.replace(/versionCode \d+/i, `versionCode ${build}`);
+  file = file.replace(/versionCode \d+/i, `versionCode ${versionCode}`);
   pkg.version = version;
   pkg.build = build;
   fs.writeFileSync('./android/app/build.gradle', file, 'utf8');
 
   // iOS
-  function replaceAll(str, find, replace) {
-    // node doesn't yet support replaceAll
-    return str.replace(new RegExp(find, 'g'), replace);
-  }
-
   file = fs.readFileSync('./ios/App/App.xcodeproj/project.pbxproj', 'utf8');
   file = replaceAll(
     file,
