@@ -41,7 +41,6 @@ const config = {
 
     indicia: {
       url: indiciaUrl,
-      websiteId: 1, // -1
     },
   },
 };
