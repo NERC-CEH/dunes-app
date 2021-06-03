@@ -22,7 +22,8 @@ export const locationAttrs = {
         },
       };
 
-      if (type !== 'Transect' && locations) {
+      const isOfTransectType = ['Zonation', 'Profile'].includes(type);
+      if (!isOfTransectType && locations) {
         // top survey level doesn't have real location_id but generated one - it's an aggregate of other locations
         return null;
       }
