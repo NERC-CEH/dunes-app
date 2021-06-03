@@ -1,6 +1,10 @@
+## 1.0.2
+
+Fixed Zonation and Profile activity location matching.
+
 ## 1.0.1
 
-Fix Empty occurrence upload.
+Fixed Empty occurrence upload.
 
 ## 1.0.0
 
