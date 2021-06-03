@@ -28,11 +28,11 @@ workflows:
             - module: app
             - variant: release\ndebug
             - project_location: $BITRISE_SOURCE_DIR/android
-      # - sign-apk@1:
-      #     inputs:
-      #       - debuggable_permitted: 'false'
-      #       - verbose_log: 'true'
-      #       - android_app: $BITRISE_APK_PATH
+      - sign-apk@1:
+          inputs:
+            - debuggable_permitted: 'false'
+            - verbose_log: 'true'
+            - android_app: $BITRISE_APK_PATH
   ci:
     before_run:
       - web
