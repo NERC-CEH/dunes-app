@@ -8,9 +8,11 @@
   "homepage": "https://www.dynamicdunescapes.co.uk",
   "scripts": {
     "build": "webpack --display minimal",
-    "build:production": "grunt",
+    "build:production": "npm run clean && npm run build && npm run build:resources",
+    "build:resources": "mkdir -p resources && cp -R other/designs/android resources && cp -R other/designs/*.png resources && npx cordova-res ios --skip-config --resources resources --copy && npx cordova-res android --skip-config --resources resources --copy",
+    "deploy": "vercel --prod -A other/now.json -t $VERCEL_TOKEN --confirm",
+    "deploy:production": "bitrise ci",
     "start": "webpack-dev-server --config webpack.config.js --content-base build --port 8000",
-    "deploy": "vercel --prod -A other/now.json",
     "clean": "rm -rf build resources",
     "test:eslint": "mocha test/eslint-test.js",
     "fetch:species": "cd src/common/data/species && node make.js",
@@ -145,7 +147,6 @@
     "prettier-eslint-cli": "^5.0.0",
     "request": "^2.88.2",
     "sass-loader": "^8.0.2",
-    "sharp-cli": "^1.13.1",
     "string-replace-loader": "^2.3.0",
     "style-loader": "^1.2.1",
     "url-loader": "^4.1.0",
@@ -156,8 +157,8 @@
     "webpack-shell-plugin-next": "^1.1.9"
   },
   "engines": {
-    "node": "12",
-    "npm": "6"
+    "node": ">=12",
+    "npm": ">=6"
   },
   "author": {
     "name": "Flumens",
