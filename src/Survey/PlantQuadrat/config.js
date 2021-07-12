@@ -13,12 +13,13 @@ import {
 } from '../common/config';
 import Manual from './Manual';
 
-function addRelativeSpeciesAsOccurrenes(sample, habitat, Occurrence, sp) {
-  const indicatorMapping = {
-    health: ['positive_health', 'negative_health'],
-    nitrogen: ['nitro_phobe', 'nitro_phile'],
-  };
+const POSITIVE_KEY = 'Positive health';
+const NEGATIVE_KEY = 'Negative health';
 
+const NITRO_POSITIVE_KEY = 'Nitrogen loving';
+const NITRO_NEGATIVE_KEY = 'Nitrogen sensitive';
+
+function addRelativeSpeciesAsOccurrenes(sample, habitat, Occurrence, sp) {
   const habitatMapping = {
     Strandline: 'strandline_embryo_mobile_dune',
     'Embryo Dune': 'strandline_embryo_mobile_dune',
@@ -31,11 +32,12 @@ function addRelativeSpeciesAsOccurrenes(sample, habitat, Occurrence, sp) {
 
   const mappedHabitat = habitatMapping[habitat];
   const isInHabitat = !!sp[mappedHabitat];
-  const [positiveHealth, negativeHealth] = indicatorMapping.health;
-  const [positiveNitrogen, negativeNitrogen] = indicatorMapping.nitrogen;
 
-  const isHealth = sp[positiveHealth] || sp[negativeHealth];
-  const isNitrogen = sp[positiveNitrogen] || sp[negativeNitrogen];
+  const isHealth =
+    sp.health_type === POSITIVE_KEY || sp.health_type === NEGATIVE_KEY;
+  const isNitrogen =
+    sp.nitrogen_type === NITRO_POSITIVE_KEY ||
+    sp.nitrogen_type === NITRO_NEGATIVE_KEY;
   const isIndicator = isHealth || isNitrogen;
 
   if (isInHabitat && isIndicator) {

@@ -3,7 +3,7 @@
   "id": "uk.ac.ceh.dunes",
   "title": "Dune Defender",
   "description": "Dune Defender mobile application.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "build": "1",
   "homepage": "https://www.dynamicdunescapes.co.uk",
   "scripts": {

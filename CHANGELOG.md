@@ -1,3 +1,7 @@
+## 1.0.3
+
+Fixed habitat species matching.
+
 ## 1.0.2
 
 Fixed Zonation and Profile activity location matching.

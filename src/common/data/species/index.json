@@ -11,7 +11,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467277",
@@ -25,7 +25,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467278",
@@ -42,7 +42,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_heath": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467280",
@@ -58,7 +58,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_heath": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467282",
@@ -75,7 +75,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_heath": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467284",
@@ -89,7 +89,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467285",
@@ -98,11 +98,12 @@
     "external_key": "NBNSYS0000003145",
     "taxon": "Linum catharticum",
     "preferred_taxon": "Linum catharticum",
+    "family_taxon": "Linaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467286",
@@ -120,7 +121,7 @@
     "strandline_embryo_mobile_dune": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467288",
@@ -137,8 +138,8 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "positive_health": "1",
-    "nitro_phobe": "1"
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen sensitive"
   },
   {
     "id": "467290",
@@ -148,13 +149,14 @@
     "taxon": "Luzula campestris",
     "preferred_taxon": "Luzula campestris",
     "common": "Field Wood-rush",
+    "family_taxon": "Juncaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1",
-    "nitro_phobe": "1"
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen sensitive"
   },
   {
     "id": "467292",
@@ -168,7 +170,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467293",
@@ -184,7 +186,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_slack": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467295",
@@ -193,11 +195,12 @@
     "external_key": "NBNSYS0000004164",
     "taxon": "Odontites vernus",
     "preferred_taxon": "Odontites vernus",
+    "family_taxon": "Orobanchaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467296",
@@ -212,7 +215,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467297",
@@ -227,7 +230,7 @@
     "taxon_group_id": "128",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467299",
@@ -242,7 +245,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467300",
@@ -258,7 +261,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_heath": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467302",
@@ -274,7 +277,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467304",
@@ -288,7 +291,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467305",
@@ -304,7 +307,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "nitro_phile": "1"
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467307",
@@ -318,7 +321,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467308",
@@ -332,7 +335,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467309",
@@ -348,7 +351,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_heath": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467311",
@@ -365,8 +368,8 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "positive_health": "1",
-    "nitro_phile": "1"
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467313",
@@ -380,7 +383,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467314",
@@ -397,7 +400,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467316",
@@ -414,7 +417,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467318",
@@ -428,7 +431,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "dune_slack": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467319",
@@ -444,7 +447,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_slack": "1",
-    "nitro_phile": "1"
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467321",
@@ -460,7 +463,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467323",
@@ -476,7 +479,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467325",
@@ -490,7 +493,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467326",
@@ -504,7 +507,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467327",
@@ -520,7 +523,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467329",
@@ -536,7 +539,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467331",
@@ -552,7 +555,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "nitro_phile": "1"
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467333",
@@ -568,7 +571,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_slack": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467335",
@@ -584,7 +587,7 @@
     "short_list": "1",
     "long_list": "1",
     "strandline_embryo_mobile_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467337",
@@ -598,7 +601,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467338",
@@ -614,25 +617,8 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1",
-    "nitro_phobe": "1"
-  },
-  {
-    "id": "467340",
-    "preferred_taxa_taxon_list_id": "467340",
-    "taxon_meaning_id": "229345",
-    "external_key": "NBNSYS0000004364",
-    "taxon": "Senecio jacobaea",
-    "preferred_taxon": "Senecio jacobaea",
-    "common": "Common ragwort",
-    "taxon_group": "flowering plant",
-    "taxon_group_id": "89",
-    "short_list": "1",
-    "long_list": "1",
-    "strandline_embryo_mobile_dune": "1",
-    "fixed_semi_fixed_dune": "1",
-    "dune_slack": "1",
-    "negative_health": "1"
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen sensitive"
   },
   {
     "id": "467342",
@@ -648,7 +634,7 @@
     "short_list": "1",
     "long_list": "1",
     "dune_slack": "1",
-    "nitro_phile": "1"
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467344",
@@ -665,7 +651,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "nitro_phile": "1"
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467346",
@@ -682,7 +668,7 @@
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "nitro_phobe": "1"
+    "nitrogen_type": "Nitrogen sensitive"
   },
   {
     "id": "467348",
@@ -696,7 +682,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467349",
@@ -710,7 +696,7 @@
     "taxon_group_id": "133",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467350",
@@ -726,7 +712,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "nitro_phobe": "1"
+    "nitrogen_type": "Nitrogen sensitive"
   },
   {
     "id": "467352",
@@ -742,8 +728,8 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1",
-    "nitro_phile": "1"
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen loving"
   },
   {
     "id": "467354",
@@ -759,7 +745,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467356",
@@ -777,7 +763,7 @@
     "strandline_embryo_mobile_dune": "1",
     "fixed_semi_fixed_dune": "1",
     "dune_slack": "1",
-    "negative_health": "1"
+    "health_type": "Negative health"
   },
   {
     "id": "467358",
@@ -791,7 +777,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467359",
@@ -805,7 +791,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467360",
@@ -819,7 +805,7 @@
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467361",
@@ -828,11 +814,12 @@
     "external_key": "NBNSYS0000002944",
     "taxon": "Viola tricolor",
     "preferred_taxon": "Viola tricolor",
+    "family_taxon": "Violaceae",
     "taxon_group": "flowering plant",
     "taxon_group_id": "89",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467362",
@@ -848,7 +835,7 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "positive_health": "1"
+    "health_type": "Positive health"
   },
   {
     "id": "467364",
@@ -864,6 +851,678 @@
     "short_list": "1",
     "long_list": "1",
     "fixed_semi_fixed_dune": "1",
-    "nitro_phobe": "1"
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538323",
+    "preferred_taxa_taxon_list_id": "538323",
+    "taxon_meaning_id": "243208",
+    "external_key": "NBNSYS0000031916",
+    "taxon": "Acaena novae-zelandiae",
+    "preferred_taxon": "Acaena novae-zelandiae",
+    "common": "Pirri-pirri-bur",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538325",
+    "preferred_taxa_taxon_list_id": "538325",
+    "taxon_meaning_id": "243209",
+    "external_key": "NBNSYS0000003191",
+    "taxon": "Acer pseudoplatanus",
+    "preferred_taxon": "Acer pseudoplatanus",
+    "common": "Sycamore",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "dune_heath": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538327",
+    "preferred_taxa_taxon_list_id": "538327",
+    "taxon_meaning_id": "243210",
+    "external_key": "NBNSYS0000002638",
+    "taxon": "Agrostis capillaris",
+    "preferred_taxon": "Agrostis capillaris",
+    "common": "Common Bent",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538329",
+    "preferred_taxa_taxon_list_id": "538329",
+    "taxon_meaning_id": "243211",
+    "external_key": "NBNSYS0000002625",
+    "taxon": "Aira praecox",
+    "preferred_taxon": "Aira praecox",
+    "common": "Early Hair-grass",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538331",
+    "preferred_taxa_taxon_list_id": "538331",
+    "taxon_meaning_id": "243212",
+    "external_key": "NBNSYS0000002629",
+    "taxon": "Ammophila arenaria",
+    "preferred_taxon": "Ammophila arenaria",
+    "common": "Marram",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "dune_heath": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538333",
+    "preferred_taxa_taxon_list_id": "538333",
+    "taxon_meaning_id": "243213",
+    "external_key": "NBNSYS0000003942",
+    "taxon": "Anagallis tenella",
+    "preferred_taxon": "Anagallis tenella",
+    "common": "Bog Pimpernel",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538335",
+    "preferred_taxa_taxon_list_id": "538335",
+    "taxon_meaning_id": "243214",
+    "external_key": "NBNSYS0000003255",
+    "taxon": "Anthyllis vulneraria",
+    "preferred_taxon": "Anthyllis vulneraria",
+    "common": "Kidney Vetch",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "dune_slack": "1",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538337",
+    "preferred_taxa_taxon_list_id": "538337",
+    "taxon_meaning_id": "243215",
+    "external_key": "NHMSYS0000456095",
+    "taxon": "Arrhenatherum elatius",
+    "preferred_taxon": "Arrhenatherum elatius",
+    "common": "False Oat-grass",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_slack": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538339",
+    "preferred_taxa_taxon_list_id": "538339",
+    "taxon_meaning_id": "243216",
+    "external_key": "NBNSYS0000003267",
+    "taxon": "Astragalus danicus",
+    "preferred_taxon": "Astragalus danicus",
+    "common": "Purple Milk-vetch",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538341",
+    "preferred_taxa_taxon_list_id": "538341",
+    "taxon_meaning_id": "243217",
+    "external_key": "NHMSYS0000456279",
+    "taxon": "Atriplex",
+    "preferred_taxon": "Atriplex",
+    "common": "Orache",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538343",
+    "preferred_taxa_taxon_list_id": "538343",
+    "taxon_meaning_id": "243218",
+    "external_key": "NBNSYS0000002826",
+    "taxon": "Cakile maritima",
+    "preferred_taxon": "Cakile maritima",
+    "common": "Sea Rocket",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538345",
+    "preferred_taxa_taxon_list_id": "538345",
+    "taxon_meaning_id": "243219",
+    "external_key": "NBNSYS0000143447",
+    "taxon": "Calliergonella cuspidata",
+    "preferred_taxon": "Calliergonella cuspidata",
+    "common": "Pointed Spear-moss",
+    "taxon_group": "moss",
+    "taxon_group_id": "133",
+    "short_list": "1",
+    "long_list": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538347",
+    "preferred_taxa_taxon_list_id": "538347",
+    "taxon_meaning_id": "243220",
+    "external_key": "NBNSYS0000003902",
+    "taxon": "Calluna vulgaris",
+    "preferred_taxon": "Calluna vulgaris",
+    "common": "Heather",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538349",
+    "preferred_taxa_taxon_list_id": "538349",
+    "taxon_meaning_id": "243221",
+    "external_key": "NHMSYS0000456336",
+    "taxon": "Calystegia soldanella",
+    "preferred_taxon": "Calystegia soldanella",
+    "common": "Sea Bindweed",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1"
+  },
+  {
+    "id": "538351",
+    "preferred_taxa_taxon_list_id": "538351",
+    "taxon_meaning_id": "243222",
+    "external_key": "NBNSYS0000004288",
+    "taxon": "Campanula rotundifolia",
+    "preferred_taxon": "Campanula rotundifolia",
+    "common": "Harebell",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538353",
+    "preferred_taxa_taxon_list_id": "538353",
+    "taxon_meaning_id": "243223",
+    "external_key": "NBNSYS0000036261",
+    "taxon": "Campylopus introflexus",
+    "preferred_taxon": "Campylopus introflexus",
+    "common": "Heath Star Moss",
+    "taxon_group": "moss",
+    "taxon_group_id": "133",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_heath": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538355",
+    "preferred_taxa_taxon_list_id": "538355",
+    "taxon_meaning_id": "243224",
+    "external_key": "NHMSYS0000352601",
+    "taxon": "Carex arenaria",
+    "preferred_taxon": "Carex arenaria",
+    "common": "Sand Sedge",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_heath": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538357",
+    "preferred_taxa_taxon_list_id": "538357",
+    "taxon_meaning_id": "243225",
+    "external_key": "NHMSYS0000456850",
+    "taxon": "Carex flacca",
+    "preferred_taxon": "Carex flacca",
+    "common": "Glaucous Sedge",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538359",
+    "preferred_taxa_taxon_list_id": "538359",
+    "taxon_meaning_id": "243226",
+    "external_key": "NBNSYS0000002444",
+    "taxon": "Carex pilulifera",
+    "preferred_taxon": "Carex pilulifera",
+    "common": "Pill Sedge",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538361",
+    "preferred_taxa_taxon_list_id": "538361",
+    "taxon_meaning_id": "243227",
+    "external_key": "NBNSYS0000003022",
+    "taxon": "Cerastium fontanum",
+    "preferred_taxon": "Cerastium fontanum",
+    "common": "Common Mouse-ear",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538363",
+    "preferred_taxa_taxon_list_id": "538363",
+    "taxon_meaning_id": "243228",
+    "external_key": "NBNSYS0000004492",
+    "taxon": "Cirsium arvense",
+    "preferred_taxon": "Cirsium arvense",
+    "common": "Creeping Thistle",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_slack": "1",
+    "health_type": "Negative health",
+    "nitrogen_type": "Nitrogen loving"
+  },
+  {
+    "id": "538365",
+    "preferred_taxa_taxon_list_id": "538365",
+    "taxon_meaning_id": "243229",
+    "external_key": "NBNSYS0000004491",
+    "taxon": "Cirsium palustre",
+    "preferred_taxon": "Cirsium palustre",
+    "common": "Marsh Thistle",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "dune_slack": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538367",
+    "preferred_taxa_taxon_list_id": "538367",
+    "taxon_meaning_id": "243230",
+    "external_key": "NBNSYS0000004490",
+    "taxon": "Cirsium vulgare",
+    "preferred_taxon": "Cirsium vulgare",
+    "common": "Spear Thistle",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_slack": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538369",
+    "preferred_taxa_taxon_list_id": "538369",
+    "taxon_meaning_id": "243231",
+    "external_key": "NHMSYS0001477591",
+    "taxon": "Cladonia",
+    "preferred_taxon": "Cladonia",
+    "common": "Cup Lichen",
+    "taxon_group": "lichen",
+    "taxon_group_id": "128",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_heath": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538371",
+    "preferred_taxa_taxon_list_id": "538371",
+    "taxon_meaning_id": "243232",
+    "external_key": "NBNSYS0000002704",
+    "taxon": "Clematis vitalba",
+    "preferred_taxon": "Clematis vitalba",
+    "common": "Traveller's-joy",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Negative health"
+  },
+  {
+    "id": "538373",
+    "preferred_taxa_taxon_list_id": "538373",
+    "taxon_meaning_id": "243233",
+    "external_key": "NHMSYS0000457663",
+    "taxon": "Crassula tillaea",
+    "preferred_taxon": "Crassula tillaea",
+    "common": "Mossy Stonecrop",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538375",
+    "preferred_taxa_taxon_list_id": "538375",
+    "taxon_meaning_id": "243234",
+    "external_key": "NBNSYS0000004576",
+    "taxon": "Crepis capillaris",
+    "preferred_taxon": "Crepis capillaris",
+    "common": "Smooth Hawk's-beard",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538377",
+    "preferred_taxa_taxon_list_id": "538377",
+    "taxon_meaning_id": "243235",
+    "external_key": "NBNSYS0000002561",
+    "taxon": "Dactylis glomerata",
+    "preferred_taxon": "Dactylis glomerata",
+    "common": "Cock's-foot",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "nitrogen_type": "Nitrogen loving"
+  },
+  {
+    "id": "538379",
+    "preferred_taxa_taxon_list_id": "538379",
+    "taxon_meaning_id": "243236",
+    "external_key": "NHMSYS0000457892",
+    "taxon": "Dactylorhiza",
+    "preferred_taxon": "Dactylorhiza",
+    "common": "Marsh Orchid",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "dune_slack": "1",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538381",
+    "preferred_taxa_taxon_list_id": "538381",
+    "taxon_meaning_id": "243237",
+    "external_key": "NBNSYS0000002623",
+    "taxon": "Deschampsia flexuosa",
+    "preferred_taxon": "Deschampsia flexuosa",
+    "common": "Wavy Hair-grass",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538383",
+    "preferred_taxa_taxon_list_id": "538383",
+    "taxon_meaning_id": "243238",
+    "external_key": "NBNSYS0000036227",
+    "taxon": "Dicranum scoparium",
+    "preferred_taxon": "Dicranum scoparium",
+    "common": "Broom Fork-moss",
+    "taxon_group": "moss",
+    "taxon_group_id": "133",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538387",
+    "preferred_taxa_taxon_list_id": "538387",
+    "taxon_meaning_id": "243240",
+    "external_key": "NBNSYS0000002597",
+    "taxon": "Elytrigia juncea",
+    "preferred_taxon": "Elytrigia juncea",
+    "common": "Sand Couch",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538389",
+    "preferred_taxa_taxon_list_id": "538389",
+    "taxon_meaning_id": "243241",
+    "external_key": "NHMSYS0000458478",
+    "taxon": "Equisetum variegatum",
+    "preferred_taxon": "Equisetum variegatum",
+    "common": "Variegated Horsetail",
+    "taxon_group": "horsetail",
+    "taxon_group_id": "99",
+    "long_list": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538391",
+    "preferred_taxa_taxon_list_id": "538391",
+    "taxon_meaning_id": "243242",
+    "external_key": "NHMSYS0000458563",
+    "taxon": "Erodium cicutarium",
+    "preferred_taxon": "Erodium cicutarium",
+    "common": "Common Stork's-bill",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538393",
+    "preferred_taxa_taxon_list_id": "538393",
+    "taxon_meaning_id": "243243",
+    "external_key": "NBNSYS0000003636",
+    "taxon": "Eryngium maritimum",
+    "preferred_taxon": "Eryngium maritimum",
+    "common": "Sea-holly",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "strandline_embryo_mobile_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538395",
+    "preferred_taxa_taxon_list_id": "538395",
+    "taxon_meaning_id": "243244",
+    "external_key": "NBNSYS0000004446",
+    "taxon": "Eupatorium cannabinum",
+    "preferred_taxon": "Eupatorium cannabinum",
+    "common": "Hemp-agrimony",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "dune_slack": "1",
+    "nitrogen_type": "Nitrogen loving"
+  },
+  {
+    "id": "538397",
+    "preferred_taxa_taxon_list_id": "538397",
+    "taxon_meaning_id": "243245",
+    "external_key": "NHMSYS0021127699",
+    "taxon": "Euphrasia officinalis",
+    "preferred_taxon": "Euphrasia officinalis",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538398",
+    "preferred_taxa_taxon_list_id": "538398",
+    "taxon_meaning_id": "243246",
+    "external_key": "NHMSYS0000344612",
+    "taxon": "Festuca ovina",
+    "preferred_taxon": "Festuca ovina",
+    "common": "Sheep's-fescue",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538400",
+    "preferred_taxa_taxon_list_id": "538400",
+    "taxon_meaning_id": "243247",
+    "external_key": "NHMSYS0000458790",
+    "taxon": "Festuca rubra",
+    "preferred_taxon": "Festuca rubra",
+    "common": "Red Fescue",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538402",
+    "preferred_taxa_taxon_list_id": "538402",
+    "taxon_meaning_id": "243248",
+    "external_key": "NHMSYS0000458842",
+    "taxon": "Filago minima",
+    "preferred_taxon": "Filago minima",
+    "common": "Small Cudweed",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "nitrogen_type": "Nitrogen sensitive"
+  },
+  {
+    "id": "538404",
+    "preferred_taxa_taxon_list_id": "538404",
+    "taxon_meaning_id": "243249",
+    "external_key": "NBNSYS0000004319",
+    "taxon": "Galium aparine",
+    "preferred_taxon": "Galium aparine",
+    "common": "Cleavers",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "nitrogen_type": "Nitrogen loving"
+  },
+  {
+    "id": "538406",
+    "preferred_taxa_taxon_list_id": "538406",
+    "taxon_meaning_id": "243250",
+    "external_key": "NBNSYS0000004313",
+    "taxon": "Galium palustre",
+    "preferred_taxon": "Galium palustre",
+    "common": "Marsh-bedstraw",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "dune_slack": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538408",
+    "preferred_taxa_taxon_list_id": "538408",
+    "taxon_meaning_id": "243251",
+    "external_key": "NBNSYS0000004310",
+    "taxon": "Galium saxatile",
+    "preferred_taxon": "Galium saxatile",
+    "common": "Heath Bedstraw",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538410",
+    "preferred_taxa_taxon_list_id": "538410",
+    "taxon_meaning_id": "243252",
+    "external_key": "NBNSYS0000004309",
+    "taxon": "Galium verum",
+    "preferred_taxon": "Galium verum",
+    "common": "Lady's Bedstraw",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "short_list": "1",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
+  },
+  {
+    "id": "538412",
+    "preferred_taxa_taxon_list_id": "538412",
+    "taxon_meaning_id": "243253",
+    "external_key": "NBNSYS0000003159",
+    "taxon": "Geranium molle",
+    "preferred_taxon": "Geranium molle",
+    "common": "Dove's-foot Crane's-bill",
+    "taxon_group": "flowering plant",
+    "taxon_group_id": "89",
+    "long_list": "1",
+    "fixed_semi_fixed_dune": "1",
+    "health_type": "Positive health"
   }
 ]
