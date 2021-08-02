@@ -7,7 +7,7 @@ const fs = require('fs');
 async function fetch() {
   const config = {
     method: 'get',
-    url: `https://warehouse1.indicia.org.uk/index.php/services/rest/reports/projects/dunescapes/vegatation_taxon_list.xml`,
+    url: `https://warehouse1.indicia.org.uk/index.php/services/rest/reports/projects/dunescapes/vegatation_taxon_list.xml?limit=50000`,
     headers: {
       Authorization: `Bearer ${process.env.JWT_TOKEN}`,
     },
