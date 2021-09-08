@@ -72,7 +72,7 @@
     "@ionic/react": "^5.1.0",
     "@ionic/react-router": "^5.1.0",
     "@sentry/browser": "^5.15.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bigu": "kazlauskis/bigu#v0.2.2",
     "cordova-sqlite-storage": "^5.0.1",
     "core-js": "^3.6.5",
