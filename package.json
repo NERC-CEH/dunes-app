@@ -62,7 +62,7 @@
     "@bit/flumens.apps.toggle-with-validation": "^0.1.1",
     "@bit/flumens.apps.utils.location": "0.1.0",
     "@bit/flumens.apps.utils.validation": "0.1.0",
-    "@capacitor/android": "2.4.7",
+    "@capacitor/android": "2.5.0",
     "@capacitor/core": "2.4.7",
     "@capacitor/ios": "2.4.7",
     "@indicia-js/core": "5.4.0",
