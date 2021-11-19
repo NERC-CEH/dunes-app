@@ -220,7 +220,7 @@ msgid "Sorry, looks like you're offline."
 msgstr "Sori, dydych chi ddim i weld ar-lein."
 
 # Error message text
-msgid "Oops! Something, went wrong."
+msgid "Oops! Something went wrong."
 msgstr "Wps! Mae rhywbeth wedi mynd o'i le."
 
 # Error message text
