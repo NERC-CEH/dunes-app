@@ -68,11 +68,11 @@ class AppSample extends Sample {
 
     const index = this.parent.samples.findIndex(({ cid }) => cid === this.cid);
 
-    if (surveyName === 'plant-quadrat') {
-      // if (this.attrs.location.name) {
-      //   return this.attrs.location.name;
-      // }
+    if (this.attrs.location?.name) {
+      return this.attrs.location.name;
+    }
 
+    if (surveyName === 'plant-quadrat') {
       return `${i18n.t('Quadrat')} #${index + 1}`;
     }
 
