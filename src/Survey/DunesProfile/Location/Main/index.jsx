@@ -22,6 +22,7 @@ import {
   chevronUpOutline,
 } from 'ionicons/icons';
 import GridRefValue from 'Survey/common/Components/GridRefValue';
+import LocationComment from 'Survey/common/Components/LocationComment';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import transectIcon from 'common/images/transect.svg';
 import './styles.scss';
@@ -224,6 +225,7 @@ class Component extends React.Component {
             icon={mapOutline}
             wrapText
           />
+          <LocationComment location={sample.attrs.location} />
 
           {this.getAddButton()}
 
