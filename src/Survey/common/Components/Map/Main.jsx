@@ -39,10 +39,21 @@ class MainMap extends Component {
   addLocationToMap(locationGroup) {
     const map = this.map.current.leafletElement;
 
-    locationGroup.locations.forEach(location => {
-      const position = [location.latitude, location.longitude];
-      L.marker(position).addTo(map);
-    });
+    const locationCoords = locationGroup.locations.map(location => [
+      location.latitude,
+      location.longitude,
+    ]);
+
+    // add markers
+    locationCoords.forEach(position => L.marker(position).addTo(map));
+
+    // add joining line
+    const isTransectType = locationGroup.geom;
+    if (isTransectType) {
+      L.polyline(locationCoords, { color: 'var(--ion-color-danger)' }).addTo(
+        map
+      );
+    }
 
     const position = [locationGroup.latitude, locationGroup.longitude];
     map.setView(position, DEFAULT_LOCATED_ZOOM);
