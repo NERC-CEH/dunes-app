@@ -42,7 +42,7 @@ class AppModel extends Model {
 
     const siteId = site.location_id;
     const options = {
-      url: `${config.backend.indicia.url}/index.php/services/rest/reports/projects/dunescapes/locations_list_for_app.xml?locattrs=273&parent_id=${siteId}`,
+      url: `${config.backend.indicia.url}/index.php/services/rest/reports/projects/dunescapes/locations_list_for_app.xml?locattrs=273&parent_id=${siteId}&limit=1000`,
       headers: {
         Authorization: `Bearer ${await userModel.getAccessToken()}`,
       },
