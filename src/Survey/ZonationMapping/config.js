@@ -19,6 +19,8 @@ const habitatValues = habitats.map(habitat => ({
   id: habitat.warehouse_id,
 }));
 
+habitatValues.push({ value: 'Other (please add a comment)', id: 18964 });
+
 const survey = {
   name: 'zonation-mapping',
   label: 'Zonation Mapping',
