@@ -12,6 +12,7 @@ import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
+import LocationComment from 'Survey/common/Components/LocationComment';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
@@ -44,6 +45,7 @@ class Component extends React.Component {
             className="menu-attr-item-long-value"
             skipValueTranslation
           />
+          <LocationComment location={subSample.attrs.location} />
 
           <MenuNote skipTranslation>
             <T>Please add a photo below.</T>

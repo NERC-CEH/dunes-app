@@ -9,6 +9,7 @@ import {
 import { IonList } from '@ionic/react';
 import { locateOutline } from 'ionicons/icons';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
+import LocationComment from 'Survey/common/Components/LocationComment';
 import PhotoPicker from 'Components/PhotoPicker';
 import PropTypes from 'prop-types';
 import './styles.scss';
@@ -40,6 +41,7 @@ class Component extends React.Component {
             className="menu-attr-item-long-value"
             skipValueTranslation
           />
+          <LocationComment location={subSample.attrs.location} />
 
           <MenuAttrItemFromModel attr="comment" model={subSample} />
           <MenuAttrItemFromModel attr="height" model={subSample} />

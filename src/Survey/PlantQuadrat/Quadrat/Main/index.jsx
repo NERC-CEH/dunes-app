@@ -12,6 +12,7 @@ import { locateOutline, gridOutline, logOutOutline } from 'ionicons/icons';
 import { Trans as T } from 'react-i18next';
 import PhotoPicker from 'Components/PhotoPicker';
 import LocationPhoto from 'Survey/common/Components/LocationPhoto';
+import LocationComment from 'Survey/common/Components/LocationComment';
 import PropTypes from 'prop-types';
 import './styles.scss';
 import habitatIcon from 'common/images/habitats.svg';
@@ -108,6 +109,7 @@ class Component extends React.Component {
             disabled
             className="menu-attr-item-long-value"
           />
+          <LocationComment location={subSample.attrs.location} />
 
           <IonItemDivider>
             <T>Vegetation</T>
