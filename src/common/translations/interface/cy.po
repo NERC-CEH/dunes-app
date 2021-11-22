@@ -892,13 +892,13 @@ msgstr "Uchder y Llystyfiant"
 msgid "Please specify the vegetation height in cm."
 msgstr "Nodwch uchder y llystyfiant mewn cm."
 
-# Plant quadrats survey section label
-msgid "Quadrat group"
-msgstr "Grŵp cwadrad"
+# Survey section label
+msgid "Group"
+msgstr "Grŵp"
 
 # Plant quadrats location title
-msgid "Quadrat groups"
-msgstr "Grwpiau cwadrad"
+msgid "Groups"
+msgstr "Grwpiau"
 
 # Plant quadrats survey section message
 msgid "To see quadrats please select your site and quadrat group first."

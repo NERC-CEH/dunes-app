@@ -125,10 +125,7 @@ class index extends React.Component {
   render() {
     const { sample, appModel, match } = this.props;
 
-    const title =
-      sample.metadata.survey === 'plant-quadrat'
-        ? 'Quadrat groups'
-        : 'Transects';
+    const title = sample.isFixedLocationSurvey() ? 'Groups' : 'Transects';
 
     const refreshButton = (
       <IonButton onClick={this.refreshData}>

@@ -97,7 +97,7 @@ class Component extends React.Component {
             routerLink={`${match.url}/list`}
             disabled={isDisabled || !site.name}
             value={location.name}
-            label="Transect"
+            label="Group"
             icon="/images/transect.svg"
             wrapText
             skipValueTranslation

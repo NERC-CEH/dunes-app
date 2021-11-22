@@ -815,13 +815,13 @@ msgstr "Vegetation Height"
 msgid "Please specify the vegetation height in cm."
 msgstr "Please specify the vegetation height in cm."
 
-# Plant quadrats survey section label 
-msgid "Quadrat group"
-msgstr "Quadrat group"
+# Survey section label
+msgid "Group"
+msgstr "Group"
 
 # Plant quadrats location title
-msgid "Quadrat groups"
-msgstr "Quadrat groups"
+msgid "Groups"
+msgstr "Groups"
 
 # Plant quadrats survey section message 
 msgid "To see quadrats please select your site and quadrat group first."

@@ -88,7 +88,7 @@ class Component extends React.Component {
             routerLink={`${match.url}/list`}
             disabled={isDisabled || !site.name}
             value={location.name}
-            label="Quadrat group"
+            label="Group"
             icon={gridOutline}
             wrapText
             skipValueTranslation

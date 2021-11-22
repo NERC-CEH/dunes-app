@@ -106,6 +106,12 @@ class AppSample extends Sample {
 
     return '';
   }
+
+  isFixedLocationSurvey() {
+    return ['fixed-photography', 'plant-quadrat', 'dipwell'].includes(
+      this.metadata.survey
+    );
+  }
 }
 
 AppSample.prototype = Object.assign(AppSample.prototype, GPSExtension);
