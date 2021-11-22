@@ -623,6 +623,18 @@ msgstr "Please select your location."
 msgid "Survey incomplete"
 msgstr "Survey incomplete"
 
+# Survey alert message 
+msgid "You haven't recorded any locations yet. Please navigate to a completed location and tap \"Finish\" to mark it for upload."
+msgstr "You haven't recorded any locations yet. Please navigate to a completed location and tap \"Finish\" to mark it for upload."
+
+# Survey alert message 
+msgid "Locations"
+msgstr "Locations"
+
+# Survey alert message 
+msgid "You have finished recording these locations, is this correct?"
+msgstr "You have finished recording these locations, is this correct?"
+
 # Action sheet label
 msgid "Survey Point"
 msgstr "Survey Point"

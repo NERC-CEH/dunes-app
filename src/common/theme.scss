@@ -241,7 +241,19 @@ ion-segment-button ion-label {
   padding: 0 15px;
 }
 
-// allow survey point full names
-.survey-point-item ion-label:not(:last-child) {
-  white-space: normal;
+.survey-point-item {
+  &.completed {
+    ion-label:not(:last-child) {
+      font-weight: bold;
+      // color: var(--ion-color-primary);
+    }
+    ion-icon {
+      color: var(--ion-color-primary);
+    }
+  }
+
+  ion-label:not(:last-child) {
+    // allow survey point full names
+    white-space: normal;
+  }
 }

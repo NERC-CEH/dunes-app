@@ -1,13 +1,13 @@
 # 
 # Translators:
 # Vilius Stankaitis <vilius@flumens.io>, 2020
-# Karolis, 2020
 # idiom : Welsh translation & language services <post@idiom.cymru>, 2020
+# Karolis, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: temp\n"
-"Last-Translator: idiom : Welsh translation & language services <post@idiom.cymru>, 2020\n"
+"Last-Translator: Karolis, 2021\n"
 "Language-Team: Welsh (https://www.transifex.com/ceh/teams/109789/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -678,6 +678,20 @@ msgstr "Dewiswch eich lleoliad."
 # Survey alert message
 msgid "Survey incomplete"
 msgstr "Arolwg heb ei gwblhau"
+
+# Survey alert message
+msgid ""
+"You haven't recorded any locations yet. Please navigate to a completed "
+"location and tap \"Finish\" to mark it for upload."
+msgstr ""
+
+# Survey alert message
+msgid "Locations"
+msgstr ""
+
+# Survey alert message
+msgid "You have finished recording these locations, is this correct?"
+msgstr ""
 
 # Action sheet label
 msgid "Survey Point"

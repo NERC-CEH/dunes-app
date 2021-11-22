@@ -3,7 +3,7 @@
   "id": "uk.ac.ceh.dunes",
   "title": "Dune Defender",
   "description": "Dune Defender mobile application.",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "build": "1",
   "homepage": "https://www.dynamicdunescapes.co.uk",
   "scripts": {
@@ -51,7 +51,7 @@
     "@bit/flumens.apps.models.media": "0.2.4",
     "@bit/flumens.apps.models.model": "0.1.0",
     "@bit/flumens.apps.models.occurrence": "0.2.5",
-    "@bit/flumens.apps.models.sample": "0.2.9",
+    "@bit/flumens.apps.models.sample": "0.3.0",
     "@bit/flumens.apps.models.store": "0.2.0",
     "@bit/flumens.apps.page": "0.1.0",
     "@bit/flumens.apps.radio-input": "0.3.2",

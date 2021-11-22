@@ -7,7 +7,7 @@ import {
   dateAttr,
   commentAttr,
   surveyorsAttr,
-  verifyLocationSchema,
+  verifyFixedLocationSurvey,
 } from '../common/config';
 import Manual from './Manual';
 
@@ -35,6 +35,8 @@ const survey = {
     },
 
     verify(_, sample) {
+      if (!sample.metadata.completed) return null; // ignore the non-completed samples, won't be uploaded
+
       try {
         Yup.mixed()
           .test(
@@ -64,15 +66,17 @@ const survey = {
 
       return sample;
     },
+
+    modifySubmission(submission, sample) {
+      if (!sample.metadata.completed) return null;
+
+      return submission;
+    },
   },
 
-  verify(attrs) {
+  verify(_, sample) {
     try {
-      const transectSchema = Yup.object().shape({
-        location: verifyLocationSchema,
-      });
-
-      transectSchema.validateSync(attrs, { abortEarly: false });
+      verifyFixedLocationSurvey.validateSync(sample, { abortEarly: true });
     } catch (attrError) {
       return attrError;
     }

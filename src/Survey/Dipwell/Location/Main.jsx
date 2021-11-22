@@ -3,7 +3,12 @@ import React from 'react';
 import { IonList, IonItemDivider, IonLabel } from '@ionic/react';
 import InfoBackgroundMessage from 'Components/InfoBackgroundMessage';
 import { Trans as T } from 'react-i18next';
-import { locationOutline, locateOutline, mapOutline } from 'ionicons/icons';
+import {
+  locationOutline,
+  squareOutline,
+  checkboxOutline,
+  mapOutline,
+} from 'ionicons/icons';
 import { prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
 import PropTypes from 'prop-types';
 import 'common/images/transect.svg';
@@ -48,15 +53,17 @@ class Component extends React.Component {
       );
 
       const locationLabel = subSample.getPrettyName();
+      const { completed } = subSample.metadata;
+      const icon = completed ? checkboxOutline : squareOutline;
 
       return (
         <MenuAttrItem
           key={cid}
           routerLink={`${match.url}/${cid}`}
           value={values}
-          icon={locateOutline}
+          icon={icon}
           label={locationLabel}
-          className="survey-point-item"
+          className={`survey-point-item ${completed && 'completed'}`}
           skipTranslation
         />
       );

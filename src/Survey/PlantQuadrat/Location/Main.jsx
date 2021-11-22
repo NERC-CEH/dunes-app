@@ -6,6 +6,7 @@ import {
   locationOutline,
   gridOutline,
   squareOutline,
+  checkboxOutline,
   mapOutline,
 } from 'ionicons/icons';
 import { prettyPrintGridRef, Main, MenuAttrItem } from '@apps';
@@ -39,15 +40,17 @@ class Component extends React.Component {
       const prettyGridRef = gridref ? prettyPrintGridRef(gridref) : '';
 
       const locationLabel = subSample.getPrettyName();
+      const { completed } = subSample.metadata;
+      const icon = completed ? checkboxOutline : squareOutline;
 
       return (
         <MenuAttrItem
           key={cid}
           routerLink={`${match.url}/${cid}`}
           value={prettyGridRef}
-          icon={squareOutline}
+          icon={icon}
           label={locationLabel}
-          className="survey-point-item"
+          className={`survey-point-item ${completed && 'completed'}`}
           skipTranslation
         />
       );

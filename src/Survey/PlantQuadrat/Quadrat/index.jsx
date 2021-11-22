@@ -34,32 +34,27 @@ class Controller extends React.Component {
     const nextSectionSample = sample.samples[nextSectionIndex];
     const isLastSection = !nextSectionSample;
 
-    if (isLastSection) {
-      const navigateBack = e => {
-        e.preventDefault();
-        this.context.goBack();
-      };
-      return (
-        <IonButton onClick={navigateBack}>
-          <T>Finish</T>
-        </IonButton>
-      );
-    }
-
-    const nextSectionSampleId = nextSectionSample.cid;
-
-    const navigateNextSubSample = e => {
+    const onButtonClick = e => {
       e.preventDefault();
+
+      subSample.metadata.completed = true;
+      subSample.save();
+
+      if (isLastSection) {
+        this.context.goBack();
+        return;
+      }
+
       this.context.navigate(
-        `${baseURL}/${nextSectionSampleId}`,
+        `${baseURL}/${nextSectionSample.cid}`,
         'none',
         'replace'
       );
     };
 
     return (
-      <IonButton onClick={navigateNextSubSample}>
-        <T>Next</T>
+      <IonButton onClick={onButtonClick}>
+        <T>Finish</T>
       </IonButton>
     );
   };

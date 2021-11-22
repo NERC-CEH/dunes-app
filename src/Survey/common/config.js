@@ -86,3 +86,17 @@ export const verifyLocationSchema = Yup.mixed().test(
     return true;
   }
 );
+
+const isCompleted = smp => smp.metadata.completed;
+
+export const verifyFixedLocationSurvey = Yup.object().shape({
+  samples: Yup.mixed().test(
+    'locations',
+    'You haven\'t recorded any locations yet. Please navigate to a completed location and tap "Finish" to mark it for upload.',
+    samples => samples.filter(isCompleted).length
+  ),
+
+  attrs: Yup.object().shape({
+    location: verifyLocationSchema,
+  }),
+});

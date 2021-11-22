@@ -9,12 +9,48 @@ import {
   loader,
   device,
   showInvalidsMessage,
+  alert,
 } from '@apps';
 import { Trans as T } from 'react-i18next';
 import Footer from 'common/Components/Footer/';
 import Main from './Main';
 
 const { warn } = toast;
+
+function confirmLocations(sample) {
+  const isCompleted = smp => smp.metadata.completed;
+  const getSampleName = smp => (
+    <p>
+      <b>{smp.getPrettyName()}</b>
+    </p>
+  );
+  const locations = sample.samples.filter(isCompleted).map(getSampleName);
+
+  return new Promise(resolve => {
+    alert({
+      header: 'Locations',
+      message: (
+        <>
+          <T>You have finished recording these locations, is this correct?</T>
+          {locations}
+        </>
+      ),
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          cssClass: 'secondary',
+          handler: () => resolve(false),
+        },
+        {
+          text: 'OK',
+          cssClass: 'primary',
+          handler: () => resolve(true),
+        },
+      ],
+    });
+  });
+}
 
 @observer
 class Controller extends React.Component {
@@ -42,9 +78,14 @@ class Controller extends React.Component {
     }
 
     if (!sample.metadata.saved) {
+      if (sample.isFixedLocationSurvey()) {
+        const confirmedCorrect = await confirmLocations(sample);
+        if (!confirmedCorrect) return;
+      }
+
       sample.metadata.saved = true;
       await sample.save();
-      
+
       this.context.navigate('/home/user-surveys', 'root');
       return;
     }
