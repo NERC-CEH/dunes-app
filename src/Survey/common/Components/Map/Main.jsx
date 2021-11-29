@@ -45,7 +45,12 @@ class MainMap extends Component {
     ]);
 
     // add markers
-    locationCoords.forEach(position => L.marker(position).addTo(map));
+    locationCoords.forEach((position, index) => {
+      const marker = L.marker(position);
+      const { name } = locationGroup.locations[index];
+      name && marker.bindPopup(name);
+      marker.addTo(map);
+    });
 
     // add joining line
     const isTransectType = locationGroup.geom;
