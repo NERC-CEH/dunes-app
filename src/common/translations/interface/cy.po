@@ -684,14 +684,16 @@ msgid ""
 "You haven't recorded any locations yet. Please navigate to a completed "
 "location and tap \"Finish\" to mark it for upload."
 msgstr ""
+"Dydych chi ddim wedi cofnodi unrhyw leoliadau hyd yma. Ewch i leoliad sydd "
+"wedi ei gwblhau a thapiwch “Gorffen” i’w nodi ar gyfer ei uwch-lwytho. "
 
 # Survey alert message
 msgid "Locations"
-msgstr ""
+msgstr "Lleoliadau"
 
 # Survey alert message
 msgid "You have finished recording these locations, is this correct?"
-msgstr ""
+msgstr "Rydych chi wedi gorffen cofnodi’r lleoliadau yma; ydy hyn yn gywir?"
 
 # Action sheet label
 msgid "Survey Point"
