@@ -7,7 +7,12 @@ const capacitorConfig = require('./capacitor.config.json');
 
 checkEnv({
   warn: ['APP_MANUAL_TESTING', 'APP_BACKEND_URL'],
-  required: ['APP_MAPBOX_MAP_KEY', 'APP_SENTRY_KEY', 'APP_BACKEND_CLIENT_ID'],
+  required: [
+    'APP_MAPBOX_MAP_KEY',
+    'APP_SENTRY_KEY',
+    'APP_BACKEND_CLIENT_ID',
+    'APP_BACKEND_CLIENT_PASS',
+  ],
 });
 
 const path = require('path');
@@ -154,13 +159,18 @@ const config = {
         APP_BACKEND_CLIENT_ID: JSON.stringify(
           process.env.APP_BACKEND_CLIENT_ID || ''
         ),
+        APP_BACKEND_CLIENT_PASS: JSON.stringify(
+          process.env.APP_BACKEND_CLIENT_PASS || ''
+        ),
         APP_MAPBOX_MAP_KEY: JSON.stringify(
           process.env.APP_MAPBOX_MAP_KEY || ''
         ),
 
         // compulsory env. variables
         APP_BACKEND_URL: JSON.stringify(process.env.APP_BACKEND_URL || ''),
-        APP_BACKEND_INDICIA_URL: JSON.stringify(process.env.APP_BACKEND_INDICIA_URL || ''),
+        APP_BACKEND_INDICIA_URL: JSON.stringify(
+          process.env.APP_BACKEND_INDICIA_URL || ''
+        ),
         APP_SENTRY_KEY: JSON.stringify(process.env.APP_SENTRY_KEY || ''),
       },
     }),
